@@ -1,0 +1,56 @@
+---
+title: toDecimal
+description: Saiba mais sobre a função toDecimal
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+
+---
+
+
+# toDecimal {#toDecimal}
+
+Converte um valor de argumento em um valor decimal, dependendo de seu tipo.
+
+## Categoria
+
+Conversão
+
+## Sintaxe da função
+
+`toDecimal(<parameter>)`
+
+## Parâmetros
+
+| Parâmetro | Descrição |
+|--- |--- |
+| string | converte o valor da string como um decimal |
+| dateTime | converte a data como o número de milissegundos (milissegundos) |
+| booleano | converte o valor booliano como 1 se verdadeiro, 0 se falso |
+| integer | converte para um decimal (por exemplo).: 1 se torna 1,0) |
+
+## Assinaturas e tipos retornados
+
+`toDecimal(<integer>)`
+
+`toDecimal(<decimal>)`
+
+`toDecimal(<string>)`
+
+`toDecimal(<boolean>)`
+
+Retorna um decimal.
+
+## Exemplos
+
+`toDecimal("4.0")`
+
+Retorna 4.0.
