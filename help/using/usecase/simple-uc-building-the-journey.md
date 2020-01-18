@@ -1,0 +1,82 @@
+---
+title: Construção da viagem
+description: Saiba como criar uma viagem de caso de uso simples
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+
+---
+
+
+# Construção da viagem{#concept_eyw_mcy_w2b}
+
+O usuário **** comercial pode agora construir a jornada. Nossa jornada incluirá apenas um caminho com as seguintes atividades:
+
+* o &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando uma pessoa caminha perto do spa beacon, o sistema receberá um evento e a viagem começará para essa pessoa.
+* uma **[!UICONTROL Condition]**atividade para verificar se a pessoa é uma mulher
+* uma **[!UICONTROL Email]**atividade (usando o Adobe Campaign Standard)
+* uma **[!UICONTROL End]**atividade
+
+>[!NOTE]
+>
+>As atividades **[!UICONTROL Push]**e**[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
+
+Para obter informações adicionais sobre como construir uma jornada, consulte [](../building-journeys/journey.md).
+
+1. No menu superior, clique na **[!UICONTROL Home]**guia e**[!UICONTROL Create]** para criar uma nova jornada.
+
+   ![](../assets/journey31.png)
+
+1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Nós o chamamos de &quot;Viagem Spa&quot; e a definimos para durar um mês, do 1º ao 31º de dezembro.
+
+   ![](../assets/journeyuc1_8.png)
+
+1. Comece a projetar sua jornada arrastando e soltando o evento &quot;SpaBeacon&quot; da paleta para a tela. Você também pode clicar duas vezes no evento na paleta para adicioná-lo à tela de desenho.
+
+   ![](../assets/journeyuc1_9.png)
+
+1. Agora vamos adicionar uma condição para verificar se a pessoa é uma mulher. Arraste e solte uma atividade de condição em sua jornada.
+
+   ![](../assets/journeyuc1_10.png)
+
+1. Escolha o **[!UICONTROL Data Source Condition]**tipo e clique no**[!UICONTROL Expression]** campo. Você também pode definir um rótulo de condição que aparecerá na seta, na tela.
+
+   ![](../assets/journeyuc1_11.png)
+
+1. Usando o editor de expressão simples, procure o campo de gênero (_pessoa > gênero_) e solte-o à direita para criar a seguinte condição: &quot;O gênero é igual a &quot;Mulher&quot;.
+
+   ![](../assets/journeyuc1_12.png)
+
+1. Solte uma **[!UICONTROL Email]**atividade e selecione seu modelo de mensagem transacional de &quot;desconto do Spa&quot;. Este modelo foi projetado usando o Adobe Campaign. Consulte esta[página](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+
+   ![](../assets/journeyuc1_13.png)
+
+1. Clique dentro do **[!UICONTROL Email]**campo e selecione o endereço de email da fonte de dados.
+
+   ![](../assets/journeyuc1_14.png)
+
+1. Da mesma forma, defina os campos de personalização do nome e sobrenome na fonte de dados.
+
+   ![](../assets/journeyuc1_15.png)
+
+1. Solte uma **[!UICONTROL End]**atividade.
+
+   ![](../assets/journeyuc1_17.png)
+
+1. Clique na opção **[!UICONTROL Test]**para alternar e testar sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste-a novamente. For more information on the test mode, refer to[](../building-journeys/testing-the-journey.md).
+
+   ![](../assets/journeyuc1_18bis.png)
+
+1. Quando o teste é conclusivo, você pode publicar sua jornada no menu suspenso superior direito.
+
+   ![](../assets/journeyuc1_18.png)
+
+Na próxima vez que uma mulher caminhar perto do beacon spa, ela receberá imediatamente um email personalizado com &quot;desconto spa&quot;.
