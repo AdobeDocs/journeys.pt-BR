@@ -1,0 +1,48 @@
+---
+title: containsWithIgnoreCase
+description: Saiba mais sobre a função containsWithIgnoreCase
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+
+---
+
+
+# containsWithIgnoreCase {#containWithIgnoreCase}
+
+Verifica se a segunda string de argumento está contida na primeira string de argumento, sem levar em conta o caso.
+
+## Categoria
+
+Cadeia de caracteres
+
+## Sintaxe da função
+
+`containWithIgnoreCase(<parameters>)`
+
+## Parâmetros
+
+| Parâmetro | Tipo |
+|-----------|------------------|
+| string | string |
+| sequência pesquisada | string |
+
+## Assinatura e tipo retornado
+
+`containWithIgnoreCase(<string>,<string>)`
+
+Retorna um booleano.
+
+## Exemplo
+
+`containWithIgnoreCase("rowing is great', "GREAT")`
+
+Retorna true.
