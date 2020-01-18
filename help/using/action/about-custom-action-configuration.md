@@ -1,0 +1,47 @@
+---
+title: Sobre a configuração de ação personalizada
+description: Saiba como configurar uma ação personalizada
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+
+---
+
+
+# Sobre a configuração de ação personalizada {#concept_sxy_bzs_dgb}
+
+Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o Journey Orchestration envie chamadas de API para um sistema de terceiros, é aqui que você configura sua conexão com o Journey Orchestration. A ação personalizada definida pelos usuários técnicos estará disponível na paleta esquerda de sua jornada, na **[!UICONTROL Action]**categoria (consulte[](../building-journeys/about-action-activities.md). Estes são alguns exemplos de sistemas aos quais você pode se conectar com ações personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
+As limitações estão listadas aqui:[](../action/custom-action-limitations.md).
+
+Estas são as principais etapas necessárias para configurar uma ação personalizada:
+
+1. Na **[!UICONTROL Actions]**lista, clique em**[!UICONTROL Add]** para criar uma nova ação. O painel de configuração de ação é aberto no lado direito da tela.
+
+   ![](../assets/custom2.png)
+
+1. Insira um nome para a sua ação.
+
+   >[!NOTE]
+   >
+   >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
+
+1. Adicione uma descrição à sua ação. Esta etapa é opcional.
+1. O número de viagens que usam essa ação é exibido no **[!UICONTROL Used in]**campo. Você pode clicar no**[!UICONTROL View journeys]** botão para exibir a lista de viagens usando esta ação.
+1. Defina os diferentes **[!UICONTROL URL Configuration]**parâmetros. Consulte[](../action/url-configuration.md).
+1. Configure a **[!UICONTROL Authentication]**seção. Essa configuração é a mesma para fontes de dados.  Consulte[](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Defina o **[!UICONTROL Message parameters]**. Consulte[](../action/defining-the-message-parameters.md).
+1. Clique em **[!UICONTROL Save]**.
+
+   A ação personalizada agora está configurada e pronta para ser usada em suas viagens. Consulte [](../building-journeys/about-action-activities.md).
+
+   >[!NOTE]
+   >
+   >Quando uma ação personalizada é usada em uma versão de jornada, a maioria dos parâmetros são somente leitura. Você só pode modificar os campos Nome e Descrição.
