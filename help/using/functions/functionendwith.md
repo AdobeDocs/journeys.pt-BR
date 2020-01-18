@@ -1,0 +1,52 @@
+---
+title: endWith
+description: Saiba mais sobre a função endWith
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+
+---
+
+
+# endWith {#endWith}
+
+Retorna true se o segundo parâmetro for um sufixo do primeiro.
+
+## Categoria
+
+Cadeia de caracteres
+
+## Sintaxe da função
+
+`endWith(<parameters>)`
+
+## Parâmetros
+
+| Parâmetro | Tipo |
+|-----------|------------------|
+| string | string |
+| sufixo | string |
+
+## Assinatura e tipo retornado
+
+`endWith(<string>,<string>)`
+
+Retorna um booleano.
+
+## Exemplo
+
+`endWith("Hello World", "World")`
+
+Retorna true.
+
+`endWith("Hello World", "Hello")`
+
+Retorna false.
