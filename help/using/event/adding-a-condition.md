@@ -1,0 +1,30 @@
+---
+title: Adicionar uma condição
+description: Saiba como adicionar uma condição
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 5df2fecc56d2d2d081d952f17aadf103f2f0140a
+
+---
+
+
+
+# Adicionar uma condição {#concept_rbg_gqt_52b}
+
+A condição de evento permite que o sistema filtre o processamento de eventos. Se a condição for verdadeira, o evento será processado. Se a condição não for verdadeira, o evento será ignorado.
+
+A condição nos eventos só pode ser baseada nos dados transmitidos na carga do evento. A condição definida no nível do evento não pode ser alterada na tela por um comerciante. O objetivo é endurecer essa condição quando esse evento for usado. Por exemplo, se você nunca quiser que os comerciantes usem eventos de abandono de carrinho se o valor do carrinho for muito pequeno, você pode criar uma condição no campo de evento &quot;valor do carrinho&quot; e impor um valor acima de 100 dólares.
+
+Você pode usar o editor de expressões simples ou o editor de expressões avançadas para configurar condições em eventos. Consulte [](../expression/expressionadvanced.md).
+
+Por exemplo, você pode definir uma condição para processar somente os eventos de um tipo de evento específico e ignorar os outros tipos. Ou se o evento for um abandono do carrinho e a carga incluir o campo de valor do carrinho, você poderá definir uma condição de evento para processar os eventos somente se o valor do carrinho for maior que 100 dólares.
+
+![](../assets/journey78.png)
