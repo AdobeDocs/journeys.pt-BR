@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Sobre eventos {#concept_gfj_fqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_events&quot;
+>title=&quot;Sobre eventos&quot;
+>abstract=&quot;Um evento está vinculado a uma pessoa. Relacionado ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site etc.) ou algo que esteja a acontecer ligado a uma pessoa (por exemplo, uma pessoa atingiu 10 000 pontos de fidelidade). Isto é o que a Journey Orchestration vai ouvir em viagens para orquestrar as melhores próximas ações.&quot;
 
 Um evento está vinculado a uma pessoa. Relacionado ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site etc.) ou algo que esteja a acontecer ligado a uma pessoa (por exemplo, uma pessoa atingiu 10 000 pontos de fidelidade). Isto é o que a Journey Orchestration vai ouvir em viagens para orquestrar as melhores ações futuras.
 
