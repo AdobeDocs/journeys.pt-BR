@@ -11,12 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: d0a7bbb43ae62fbdcf7ef34b0b56b1d437047ad2
 
 ---
 
 
 # Sobre fontes de dados {#concept_s1s_dqt_52b}
+
+>[!CONTEXTUALHELP]
+>id=&quot;jo_datasources&quot;
+>title=&quot;Sobre fontes de dados&quot;
+>abstract=&quot;A configuração da fonte de dados é sempre executada por um usuário técnico. A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas viagens, para: definição de condição, parâmetro e dados de personalização em ações, definição de espera personalizada, definição de fuso horário personalizado.&quot;
 
 A configuração da fonte de dados é sempre executada por um usuário **** técnico.
 
