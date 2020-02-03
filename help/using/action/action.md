@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d018072f2cbf2b8804c5c678f84cc8e25e3e86f4
+source-git-commit: fed9033310bf37535796638eda3b0846f1ed52c6
 
 ---
 
@@ -34,3 +34,5 @@ Para exibir a lista de ações ou configurar uma nova ação, clique **[!UICONTR
 Se você tiver o Adobe Campaign Standard, precisará configurar a ação pronta para uso. Consulte [](../action/working-with-adobe-campaign.md).
 
 Se você estiver usando um sistema de terceiros para enviar mensagens, precisará adicionar e configurar uma ação personalizada. Consulte [](../action/about-custom-action-configuration.md).
+
+Isto é um teste.
