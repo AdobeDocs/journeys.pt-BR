@@ -25,6 +25,8 @@ Você também pode consultar as Atualizações [da](../release-notes/documentati
 
 * Uma função de ajuda contextual agora está disponível em diferentes telas de orquestração de jornada. Isso significa que, em um único clique, você pode acessar diretamente a documentação sobre a funcionalidade que está usando no momento. Para exibir a ajuda contextual, clique no ícone &quot;i&quot; no canto superior direito da tela. Por enquanto, esse recurso está disponível nas telas Início, Fontes de dados, Eventos e lista de ações.
 
+* No modo de teste, todas as atividades de espera agora são automaticamente definidas para durar 5 segundos. Isso permite acessar os resultados do teste rapidamente.
+
 * APIs
 
 * Copiar/colar atividades em viagens?
@@ -32,8 +34,6 @@ Você também pode consultar as Atualizações [da](../release-notes/documentati
 * Filtrar eventos em viagens
 
 * Várias regiões?
-
-* Temporizador no modo de teste
 
 * Testar vários eventos
 
