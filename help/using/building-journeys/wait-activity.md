@@ -11,14 +11,14 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
 
 # Atividade de espera{#section_rlm_nft_dgb}
 
-Se desejar aguardar antes de executar a próxima atividade no caminho, você pode usar uma **[!UICONTROL Wait]**atividade. Permite definir o momento em que a próxima atividade será executada. Quatro opções estão disponíveis:
+Se desejar aguardar antes de executar a próxima atividade no caminho, você pode usar uma **[!UICONTROL Wait]** atividade. Permite definir o momento em que a próxima atividade será executada. Quatro opções estão disponíveis:
 
 * [Duração](#duration)
 * [Data fixa](#fixed_date)
@@ -37,7 +37,7 @@ Você pode definir uma condição se desejar restringir a espera a uma determina
 >
 >A duração máxima de espera é de 30 dias.
 >
->No modo de teste, todas as atividades de espera são automaticamente definidas para durar 5 segundos. Isso permite acessar os resultados do teste rapidamente.
+>No modo de teste, o tempo de **espera no parâmetro de teste** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [](../building-journeys/testing-the-journey.md)
 
 ## Duração da espera{#duration}
 
@@ -75,10 +75,10 @@ Esse tipo de espera usa uma pontuação calculada na Plataforma. A pontuação c
 >
 >O primeiro evento de sua jornada deve ter um namespace.
 >
->Esse recurso está disponível somente após uma **[!UICONTROL Email]**atividade. Você precisa ter o Adobe Campaign Standard.
+>Esse recurso está disponível somente após uma **[!UICONTROL Email]** atividade. Você precisa ter o Adobe Campaign Standard.
 
-1. No **[!UICONTROL Amount of time]**campo, defina o número de horas a serem consideradas para otimizar o envio de email.
-1. No **[!UICONTROL Optimization type]**campo, escolha se a otimização deve aumentar os cliques ou abrir.
+1. No **[!UICONTROL Amount of time]** campo, defina o número de horas a serem consideradas para otimizar o envio de email.
+1. No **[!UICONTROL Optimization type]** campo, escolha se a otimização deve aumentar os cliques ou abrir.
 1. No campo Tempo **** padrão, defina o tempo padrão para esperar se a pontuação de tempo de envio preditiva não estiver disponível.
 
    >[!NOTE]
