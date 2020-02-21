@@ -26,10 +26,6 @@ Os erros são exibidos com um símbolo de aviso exibido nas próprias atividades
 
 ![](../assets/journey63.png)
 
-Por exemplo, na tela, quando duas atividades são desconectadas, um aviso é exibido.
-
-![](../assets/canvas-disconnected.png)
-
 Ao lado da **[!UICONTROL Test]** alternância e do **[!UICONTROL Publish]** botão, um sinal de aviso pode ser exibido. Esse sinal de aviso exibe erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão ligados a erros visíveis nas atividades, mas às vezes estão ligados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou para suporte. Observe que erros que bloqueiam o teste e erros que bloqueiam a publicação são semelhantes.
 
 O sistema detecta dois tipos de problemas: erros e avisos. Os erros bloqueiam a publicação e a ativação do teste. Os avisos indicam possíveis problemas que não estão bloqueando a ativação ou publicação do teste. Você verá uma descrição do problema e uma ID de log de problemas do tipo ERR_XXX_XXX. Isso ajudará o suporte técnico a identificar o problema.
