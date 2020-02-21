@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
@@ -26,15 +26,19 @@ Os erros são exibidos com um símbolo de aviso exibido nas próprias atividades
 
 ![](../assets/journey63.png)
 
-Ao lado da **[!UICONTROL Test]**alternância e do**[!UICONTROL Publish]** botão, um sinal de aviso pode ser exibido. Esse sinal de aviso exibe erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão ligados a erros visíveis nas atividades, mas às vezes estão ligados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou para suporte. Observe que erros que bloqueiam o teste e erros que bloqueiam a publicação são semelhantes.
+Por exemplo, na tela, quando duas atividades são desconectadas, um aviso é exibido.
+
+![](../assets/canvas-disconnected.png)
+
+Ao lado da **[!UICONTROL Test]** alternância e do **[!UICONTROL Publish]** botão, um sinal de aviso pode ser exibido. Esse sinal de aviso exibe erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão ligados a erros visíveis nas atividades, mas às vezes estão ligados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou para suporte. Observe que erros que bloqueiam o teste e erros que bloqueiam a publicação são semelhantes.
 
 O sistema detecta dois tipos de problemas: erros e avisos. Os erros bloqueiam a publicação e a ativação do teste. Os avisos indicam possíveis problemas que não estão bloqueando a ativação ou publicação do teste. Você verá uma descrição do problema e uma ID de log de problemas do tipo ERR_XXX_XXX. Isso ajudará o suporte técnico a identificar o problema.
 
-Duas cores diferentes podem ser exibidas no sinal ao lado da **[!UICONTROL Test]**alternância e do**[!UICONTROL Publish]** botão. O sinal é exibido em vermelho em caso de erros. É exibido em laranja no caso de avisos.
+Duas cores diferentes podem ser exibidas no sinal ao lado da **[!UICONTROL Test]** alternância e do **[!UICONTROL Publish]** botão. O sinal é exibido em vermelho em caso de erros. É exibido em laranja no caso de avisos.
 
 ![](../assets/journey75.png)
 
-Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada da esquerda para a direita. O **[!UICONTROL Copy details]**botão copia informações técnicas sobre a jornada que a equipe de suporte pode usar para solucionar problemas.
+Erros e avisos globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada da esquerda para a direita. O **[!UICONTROL Copy details]** botão copia informações técnicas sobre a jornada que a equipe de suporte pode usar para solucionar problemas.
 
 ## Verificando se os eventos são enviados corretamente{#section_rqz_11t_dgb}
 
