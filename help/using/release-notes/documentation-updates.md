@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
+source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 
 ---
 
@@ -20,6 +20,20 @@ source-git-commit: 6e7d89f4a9cb56b7b87cfc73ad7a9c7c4dc323a3
 
 Esta página lista todas as atualizações de documentação do Journey Orchestration.
 Você também pode consultar as Notas de [versão](../release-notes/release-notes.md)da Journey Orchestration.
+
+## Março de 2020 {#march-2020}
+
+* O acionamento de vários eventos foi adicionado à seção Modo de teste [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
+* A seção Modo de teste foi atualizada com relação ao novo tempo de **espera no parâmetro de teste** . [Leia mais](../building-journeys/testing-the-journey.md)
+* A seção de log de teste foi atualizada com códigos de erro de chamada externos e respostas. [Leia mais](../building-journeys/testing-the-journey.md#viewing_logs)
+* O gerenciamento de fuso horário agora está centralizado no painel de propriedades da jornada. Leia mais [aqui](../building-journeys/changing-properties.md#timezone) e [aqui](../building-journeys/timezone-management.md)
+* A seção Designer de Jornadas foi atualizada para refletir os aprimoramentos recentes. [Leia mais](../building-journeys/using-the-journey-designer.md)
+* A descrição da interface foi atualizada com informações sobre ajuda contextual. [Leia mais](../about/user-interface.md#section_ksq_zr1_ffb)
+* Ao navegar pelos campos **** XDM, o nome amigável é exibido. As seções relacionadas foram atualizadas. [Leia mais](../event/defining-the-payload-fields.md)
+
+## Fevereiro de 2020 {#february-2020}
+
+* A seção de atalho foi atualizada. O atalho de teclado **C** permite criar um novo item em todas as telas de lista. [Leia mais](../about/user-interface.md#section_ksq_zr1_ffb)
 
 ## January 2020 {#january-2020}
 
