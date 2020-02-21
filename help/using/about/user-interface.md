@@ -20,7 +20,7 @@ source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;Sobre a lista de Jornadas&quot;
->abstract=&quot;A lista de viagem permite que você veja todas as suas viagens de uma só vez, veja seu status e execute ações básicas. Você pode duplicar, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode parar ou excluir uma jornada que esteja concluída. Você também pode usar a barra de pesquisa para procurar uma jornada.&quot;
+>abstract=&quot;A lista de viagem permite que você veja todas as suas viagens de uma só vez, veja seu status e execute ações básicas. Você pode duplicar, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode parar ou excluir uma jornada interrompida. Você também pode usar a barra de pesquisa para procurar uma jornada.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Assista ao vídeo de demonstração&quot;
 
 
@@ -43,10 +43,6 @@ Você também pode acessar o Journey Orchestration na página inicial da Experie
 Os menus superiores permitem navegar pelas diferentes funcionalidades da Journey Orchestration: **[!UICONTROL Home]**(as viagens),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
-
-Clique no ![](../assets/icon-context.png) ícone no canto superior direito da tela para exibir a ajuda contextual. Ele está disponível em diferentes telas de lista de orquestração de viagens (jornadas, eventos, ações e fontes de dados). Isso permite que você visualize uma descrição rápida da funcionalidade atual e acesse artigos e vídeos relacionados.
-
-![](../assets/journey2bis.png)
 
 ## Pesquisa e filtragem{#section_lgm_hpz_pgb}
 
