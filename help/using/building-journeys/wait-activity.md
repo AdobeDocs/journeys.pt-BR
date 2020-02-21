@@ -37,7 +37,7 @@ Você pode definir uma condição se desejar restringir a espera a uma determina
 >
 >A duração máxima de espera é de 30 dias.
 >
->No modo de teste, o tempo de **espera no parâmetro de teste** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [](../building-journeys/testing-the-journey.md)
+>No modo de teste, todas as atividades de espera são automaticamente definidas para durar 5 segundos. Isso permite acessar os resultados do teste rapidamente.
 
 ## Duração da espera{#duration}
 
