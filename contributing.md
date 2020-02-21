@@ -20,7 +20,7 @@ Comece arquivando um problema. Os atuais responsáveis por este projeto trabalha
 
 ## Contrato de licença do contribuidor
 
-Todas as contribuições de terceiros para este projeto devem ser acompanhadas por um contrato de licença de contribuição assinado. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. [Assine nosso CLA](https://opensource.adobe.com/cla.html). Você só precisa enviar um CLA da Adobe uma vez, portanto, se você já enviou um anteriormente, é bom ir!
+Todas as contribuições de terceiros para este projeto devem ser acompanhadas por um contrato de licença de contribuição assinado. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). Você só precisa enviar um CLA da Adobe uma vez, portanto, se você já enviou um anteriormente, é bom ir!
 
 ## Revisões de código
 
