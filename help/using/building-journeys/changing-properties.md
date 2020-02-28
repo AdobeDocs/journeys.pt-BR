@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 Clique no ícone de lápis, na parte superior direita, para acessar as propriedades da jornada.
 
-Você pode alterar o nome da jornada, adicionar uma descrição, permitir a reentrada, escolher datas de início e término e definir uma **[!UICONTROL Timeout and error]**duração se você for administrador.
+Você pode alterar o nome da jornada, adicionar uma descrição, permitir a reentrada, escolher datas de início e término e definir uma **[!UICONTROL Timeout and error]** duração se você for administrador.
 
 ![](../assets/journey32.png)
 
@@ -33,11 +33,11 @@ Quando uma viagem &quot;termina&quot;, ela terá status **[!UICONTROL Finished]*
 
 ## Tempo limite e erro nas atividades de viagem {#timeout_and_error}
 
-Ao editar uma ação ou atividade de condição, você pode definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida nas propriedades da viagem (**[!UICONTROL Timeout and  error]**campo), o segundo caminho será escolhido para executar uma potencial ação de fallback.
+Ao editar uma ação ou atividade de condição, você pode definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida nas propriedades da viagem (**[!UICONTROL Timeout and  error]** campo), o segundo caminho será escolhido para executar uma potencial ação de fallback.
 
 Os valores autorizados estão entre 1 e 30 segundos.
 
-Recomendamos que você defina um **[!UICONTROL Timeout and error]**valor muito curto se sua jornada for sensível ao tempo (por exemplo: reação ao local em tempo real de uma pessoa) porque não é possível atrasar a ação por mais de alguns segundos. Se sua jornada for menos sensível ao tempo, você poderá usar um valor maior para dar mais tempo ao sistema chamado para enviar uma resposta válida.
+Recomendamos que você defina um **[!UICONTROL Timeout and error]** valor muito curto se sua jornada for sensível ao tempo (por exemplo: reação ao local em tempo real de uma pessoa) porque não é possível atrasar a ação por mais de alguns segundos. Se sua jornada for menos sensível ao tempo, você poderá usar um valor maior para dar mais tempo ao sistema chamado para enviar uma resposta válida.
 
 A Journey Orchestration também utiliza um tempo limite global. Consulte a [próxima seção](#global_timeout).
 
@@ -50,3 +50,11 @@ Além do [tempo limite](#timeout_and_error) utilizado nas atividades de viagem, 
 >O Journey Orchestration não reage diretamente às solicitações de cancelamento, acesso ou exclusão da privacidade. No entanto, o tempo limite global garante que os indivíduos nunca permaneçam mais de 30 dias em qualquer jornada.
 
 Devido ao tempo limite de 30 dias de viagem, quando a reentrada da viagem não é permitida, não podemos garantir que o bloqueio de reentrada funcione mais de 30 dias. Com efeito, à medida que retiramos todas as informações sobre as pessoas que entraram na viagem 30 dias após a sua entrada, não podemos conhecer a pessoa que entrou anteriormente, há mais de 30 dias.
+
+## Fuso horário e fuso horário do perfil {#timezone}
+
+Os fusos horários são definidos ao nível da viagem.
+
+Você pode inserir um fuso horário fixo ou usar perfis da plataforma de experiência para definir o fuso horário da jornada.
+
+Para obter mais informações sobre o gerenciamento de fuso horário, consulte [](../building-journeys/timezone-management.md).
