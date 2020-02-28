@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: d5c013ed6031e8138a8e2c099fc28af82966d3ec
 
 ---
 
@@ -29,13 +29,13 @@ Somente um namespace é permitido por jornada. Quando você solta o primeiro eve
 
 Estes são os principais passos para criar e publicar uma jornada.
 
-1. No menu superior, clique na **[!UICONTROL Home]**guia.
+1. No menu superior, clique na **[!UICONTROL Home]** guia.
 
    A lista de viagens é exibida. Consulte [](../building-journeys/using-the-journey-designer.md) para obter mais informações sobre a interface.
 
    ![](../assets/journey30.png)
 
-1. Clique **[!UICONTROL Create]**para criar uma nova jornada.
+1. Clique **[!UICONTROL Create]** para criar uma nova jornada.
 
    ![](../assets/journey31.png)
 
@@ -44,7 +44,6 @@ Estes são os principais passos para criar e publicar uma jornada.
    ![](../assets/journey32.png)
 
 1. Comece arrastando e soltando uma atividade de evento da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela de desenho.
-
 
    ![](../assets/journey33.png)
 
@@ -56,7 +55,7 @@ Estes são os principais passos para criar e publicar uma jornada.
 
    ![](../assets/journey36.png)
 
-## Terminar uma viagem{#ending_a_journey}
+## Terminar uma viagem {#ending_a_journey}
 
 Há duas maneiras de terminar uma jornada:
 
@@ -64,4 +63,3 @@ Há duas maneiras de terminar uma jornada:
 * A pessoa chega a uma atividade de condição (ou uma atividade de espera com uma condição) e não corresponde a nenhuma das condições.
 
 A pessoa pode então voltar a entrar na viagem se a reentrada for permitida. Consulte [](../building-journeys/changing-properties.md).
-
