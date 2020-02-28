@@ -9,20 +9,19 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
 
 ---
 
 
-# Interface do usuário {#concept_rcq_lqt_52b}
+# Interface do usuário{#concept_rcq_lqt_52b}
 
 
 >[!CONTEXTUALHELP]
 >id=&quot;jo_home&quot;
 >title=&quot;Sobre a lista de Jornadas&quot;
->abstract=&quot;A lista de viagem permite que você veja todas as suas viagens de uma só vez, veja seu status e execute ações básicas. Você pode duplicar, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode parar ou excluir uma jornada interrompida. Você também pode usar a barra de pesquisa para procurar uma jornada.&quot;
+>abstract=&quot;A lista de viagem permite que você veja todas as suas viagens de uma só vez, veja seu status e execute ações básicas. Você pode duplicar, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode parar ou excluir uma jornada que esteja concluída. Você também pode usar a barra de pesquisa para procurar uma jornada.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Assista ao vídeo de demonstração&quot;
-
 
 >[!NOTE]
 >
@@ -44,6 +43,10 @@ Os menus superiores permitem navegar pelas diferentes funcionalidades da Journey
 
 ![](../assets/journey2.png)
 
+Clique no ![](../assets/icon-context.png) ícone no canto superior direito da tela para exibir a ajuda contextual. Ele está disponível em diferentes telas de lista de orquestração de viagens (jornadas, eventos, ações e fontes de dados). Isso permite que você visualize uma descrição rápida da funcionalidade atual e acesse artigos e vídeos relacionados.
+
+![](../assets/journey2bis.png)
+
 ## Pesquisa e filtragem{#section_lgm_hpz_pgb}
 
 Nas listas **[!UICONTROL Home]**,**[!UICONTROL Data Sources]****[!UICONTROL Events]** e **[!UICONTROL Actions]** , uma barra de pesquisa permite que você procure um item.
@@ -52,11 +55,13 @@ Para **[!UICONTROL Filters]** acessá-lo, clique no ícone de filtro na parte su
 
 Nas listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]** , use os filtros **de** Criação para filtrar na data de criação e no usuário. Por exemplo, você pode optar por exibir somente os eventos criados nos últimos 30 dias.
 
-Na lista de viagem (em **[!UICONTROL Home]**), além do **[!UICONTROL Creation filters]**, você também pode filtrar as viagens exibidas de acordo com seu status e versão (**[!UICONTROL Status and version filters]**). Você também pode optar por exibir somente as viagens que usam um evento, grupo de campos ou ação específicos (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir apenas as versões mais recentes de viagens ao vivo que foram publicadas ontem. Consulte [](../building-journeys/using-the-journey-designer.md).
+Na lista de viagem (em **[!UICONTROL Home]**), além do **[!UICONTROL Creation filters]**, você também pode filtrar as viagens exibidas de acordo com seu status e versão (**[!UICONTROL Status and version filters]**). Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específicos (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). **[!UICONTROL Publication filters]** Permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir apenas as versões mais recentes de viagens ao vivo que foram publicadas ontem. Consulte [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
 >Observe que as colunas exibidas podem ser personalizadas usando o botão de configuração na parte superior direita das listas. A personalização é salva para cada usuário.
+
+As colunas **[!UICONTROL Last update]** e **[!UICONTROL Last update by]** permitem exibir quando ocorreu a última atualização de suas viagens e qual usuário a operou.
 
 ![](../assets/journey74.png)
 
@@ -67,6 +72,23 @@ No evento, nos painéis de configuração da fonte de dados e da ação, o **[!U
 Nas diferentes listas, é possível executar ações básicas em cada elemento. Por exemplo, você pode duplicar ou excluir um item.
 
 ![](../assets/journey4.png)
+
+## Exibição de nomes de campo XDM{#friendly-names-display}
+
+Os nomes de campos XDM são definidos em esquemas sob nomes de campos e nomes de exibição ao definir a carga [do](../event/defining-the-payload-fields.md)evento, a carga [do grupo de](../datasource/field-groups.md) campos e a seleção de campos no editor [de](../expression/expressionadvanced.md)expressões.
+Ao selecionar um campo, seu nome técnico é exibido, bem como um nome mais fácil de usar do campo.
+
+Você pode fornecer descritores como &quot;xdm:alternativoDisplayInfo&quot; ao configurar esquemas para definir nomes amigáveis que substituirão os nomes de exibição. Também permite modificar os valores &quot;título&quot; e &quot;descrição&quot; dos campos de esquema.
+
+Se um nome amigável estiver disponível, o campo será exibido como `<friendly-name>(<name>)`. Se nenhum nome amigável estiver disponível, o nome de exibição será exibido, por exemplo `<display-name>(<name>)`. Se nenhum deles estiver definido, somente o nome técnico do campo será exibido `<name>`.
+
+Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o guia [do desenvolvedor do Registro de](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Esquema.
+
+![](../assets/xdm-from-descriptors.png)
+
+>[!NOTE]
+>
+>Os nomes amigáveis não são recuperados quando você seleciona campos de uma união de esquemas.
 
 ## Uso de atalhos diferentes{#section_ksq_zr1_ffb}
 
