@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -22,10 +22,6 @@ Antes de poder testar sua jornada, você deve resolver todos os erros, se houver
 
 Você tem a possibilidade de testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação.
 
->[!NOTE]
->
->No modo de teste, todas as atividades de espera são automaticamente definidas para durar 5 segundos. Isso permite acessar os resultados do teste rapidamente.
-
 Para usar o modo de teste, siga estas etapas:
 
 1. Antes de testar sua jornada, verifique se ela é válida e se não há erro. Você não poderá iniciar um teste de uma jornada com erros. Consulte [](../about/troubleshooting.md#section_h3q_kqk_fhb). Um símbolo de aviso é exibido quando há erros.
@@ -33,6 +29,10 @@ Para usar o modo de teste, siga estas etapas:
 1. Para ativar o modo de teste, clique na **[!UICONTROL Test]** alternância localizada no canto superior direito.
 
    ![](../assets/journeytest1.png)
+
+1. Use o tempo de **espera no parâmetro de teste** , no canto inferior esquerdo, para definir o tempo que cada atividade de espera durará no modo de teste. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Este parâmetro só será exibido se você tiver deixado cair uma ou mais atividades de espera em sua jornada.
+
+   ![](../assets/journeytest_wait.png)
 
 1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados aos perfis de teste. Consulte [Acionando seus eventos](#firing_events).
 
@@ -60,7 +60,7 @@ O **[!UICONTROL Trigger an event]** botão permite configurar um evento que far�
 
 Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste na Plataforma de dados. Na verdade, o modo de teste só permite esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser um ECID, por exemplo.
 
-Essa tela permite configurar os campos transmitidos no evento e a execução do envio do evento. A interface o ajuda a passar as informações certas na carga do evento e a verificar se o tipo de informações está correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
+Se sua jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface o ajuda a passar as informações certas na carga do evento e a verificar se o tipo de informações está correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
 ![](../assets/journeytest4.png)
 
@@ -75,6 +75,10 @@ Um usuário técnico também pode usar essa interface para compor cargas de even
 O **[!UICONTROL Show log]** botão permite exibir os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados de teste da jornada.
 
 ![](../assets/journeytest3.png)
+
+>[!NOTE]
+>
+>Nos registros de teste, no caso de erro ao chamar um sistema de terceiros (fonte de dados ou ação), o código de erro e a resposta do erro são exibidos.
 
 O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentro da jornada é exibido. Estas são informações úteis exibidas para cada indivíduo:
 
