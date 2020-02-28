@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -25,6 +25,10 @@ Antes de testar e publicar sua jornada, verifique se todas as atividades estão 
 Os erros são exibidos com um símbolo de aviso exibido nas próprias atividades na tela. Coloque o cursor no ponto de exclamação para exibir a mensagem de erro. Se você clicar na atividade, verá a linha com erro com um aviso. Por exemplo, se um campo obrigatório estiver vazio, um erro será exibido.
 
 ![](../assets/journey63.png)
+
+Por exemplo, na tela, quando duas atividades são desconectadas, um aviso é exibido.
+
+![](../assets/canvas-disconnected.png)
 
 Ao lado da **[!UICONTROL Test]** alternância e do **[!UICONTROL Publish]** botão, um sinal de aviso pode ser exibido. Esse sinal de aviso exibe erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão ligados a erros visíveis nas atividades, mas às vezes estão ligados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou para suporte. Observe que erros que bloqueiam o teste e erros que bloqueiam a publicação são semelhantes.
 
