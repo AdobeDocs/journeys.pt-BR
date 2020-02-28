@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 3f8f7eb34a11f0ff87ed3c55e7294b5bdbfb9383
 
 ---
 
@@ -37,7 +37,7 @@ Você pode definir uma condição se desejar restringir a espera a uma determina
 >
 >A duração máxima de espera é de 30 dias.
 >
->No modo de teste, todas as atividades de espera são automaticamente definidas para durar 5 segundos. Isso permite acessar os resultados do teste rapidamente.
+>No modo de teste, o tempo de **espera no parâmetro de teste** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [](../building-journeys/testing-the-journey.md)
 
 ## Duração da espera{#duration}
 
@@ -47,19 +47,19 @@ Selecione a duração da espera antes da execução da próxima atividade.
 
 ## Data de espera fixa{#fixed_date}
 
-Selecione a data para a execução da próxima atividade. Ao definir uma data fixa, você deve especificar um fuso horário. Consulte [](../building-journeys/timezone-management.md).
+Selecione a data para a execução da próxima atividade.
 
 ![](../assets/journey56.png)
 
 ## Espera personalizada{#custom}
 
-Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17 horas, usando uma expressão avançada com base em um campo proveniente de um evento ou de uma fonte de dados. Isso não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressões deve fornecer um formato dateTimeOnly. Consulte [](../expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte [](../expression/data-types.md)
+Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17 horas, usando uma expressão avançada com base em um campo proveniente de um evento ou de uma fonte de dados. Isso não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressões deve fornecer um formato dateTimeOnly. Consulte [](../expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte [](../expression/data-types.md).
 
 >[!NOTE]
 >
 >Você pode aproveitar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), o campo no evento é do formulário 2016-08-12T09:46:06.
 >
->O fuso **horário** é esperado em outro local no painel de configuração de espera personalizado. Como resultado, atualmente não é possível da interface para apontar diretamente para um tempo completo ISO-8601 de mistura de carimbo de data e hora e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [](../building-journeys/timezone-management.md).
+>O fuso **horário** é esperado nas propriedades de sua jornada. Como resultado, atualmente não é possível da interface para apontar diretamente para um tempo completo ISO-8601 de mistura de carimbo de data e hora e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
