@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6274426ec04315149fb430b847498c0e20164bae
+source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
 
 ---
 
@@ -22,7 +22,7 @@ O menu Início da jornada permite que você visualize a **lista de viagens**. Cr
 
 ## A lista de viagem {#journey_list}
 
-A lista **de** jornada permite que você visualize todas as suas viagens de uma só vez, veja seu status e execute ações básicas. Você pode duplicar, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, não se pode parar uma viagem interrompida. Você também pode usar a barra de pesquisa para procurar uma jornada.
+A lista **de** jornada permite que você visualize todas as suas viagens de uma só vez, veja seu status e execute ações básicas. Você pode duplicar, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode parar ou excluir uma jornada que esteja concluída. Você também pode usar a barra de pesquisa para procurar uma jornada.
 
 Para **[!UICONTROL Filters]** acessá-lo, clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite que você filtre as viagens exibidas de acordo com critérios diferentes (status, aqueles criados, os modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as viagens que usam um evento, grupo de campos ou ação específicos. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
 
@@ -45,6 +45,12 @@ A **paleta** fica do lado esquerdo da tela. Todas as atividades disponíveis sã
 >Observe que existem regras ao configurar uma jornada. A configuração não permitida será descartada. Por exemplo, não é possível colocar ações em paralelo, vincular uma atividade a uma etapa anterior para criar um loop, iniciar uma jornada com algo diferente de um evento etc.
 
 ![](../assets/journey38.png)
+
+O ícone **Mostrar itens** desativados no canto superior esquerdo permite ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam um namespace diferente dos usados em sua jornada. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-los, eles aparecerão esmaecidos.
+
+Ao usar o campo **Pesquisar** , o número de resultados é exibido para cada categoria de atividade de tela.
+
+![](../assets/palette-filter.png)
 
 ## A tela {#canvas}
 
@@ -79,3 +85,7 @@ Ao ouvir um evento, recomendamos que você não aguarde o evento indefinidamente
 Para excluir o caminho, coloque o cursor nele e clique no **[!UICONTROL Delete arrow]** ícone.
 
 ![](../assets/journey42ter.png)
+
+Na tela, quando duas atividades são desconectadas, um aviso é exibido. Coloque o cursor no ícone de aviso para exibir a mensagem de erro. Para corrigir o problema, basta mover a atividade desconectada e conectá-la à atividade anterior.
+
+![](../assets/canvas-disconnected.png)
