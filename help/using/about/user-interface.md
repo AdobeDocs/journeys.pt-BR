@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3efe73dbfee331e2cc42ec737f0258f482171998
+source-git-commit: 891216a489b79fe4b168ecdb6120f5d9f3e107d0
 
 ---
 
@@ -73,18 +73,15 @@ Nas diferentes listas, é possível executar ações básicas em cada elemento. 
 
 ![](../assets/journey4.png)
 
-## Exibição de nomes de campo XDM{#friendly-names-display}
+## Navegação pelos campos da Plataforma de dados {#friendly-names-display}
 
-Os nomes de campos XDM são definidos em esquemas sob nomes de campos e nomes de exibição ao definir a carga [do](../event/defining-the-payload-fields.md)evento, a carga [do grupo de](../datasource/field-groups.md) campos e a seleção de campos no editor [de](../expression/expressionadvanced.md)expressões.
-Ao selecionar um campo, seu nome técnico é exibido, bem como um nome mais fácil de usar do campo.
+Ao definir a carga [do](../event/defining-the-payload-fields.md)evento, a carga [do grupo de](../datasource/field-groups.md) campos e a seleção de campos no editor [de](../expression/expressionadvanced.md)expressões, o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas da definição do esquema no Modelo de dados de experiência.
 
-Você pode fornecer descritores como &quot;xdm:alternativoDisplayInfo&quot; ao configurar esquemas para definir nomes amigáveis que substituirão os nomes de exibição. Também permite modificar os valores &quot;título&quot; e &quot;descrição&quot; dos campos de esquema.
-
-Se um nome amigável estiver disponível, o campo será exibido como `<friendly-name>(<name>)`. Se nenhum nome amigável estiver disponível, o nome de exibição será exibido, por exemplo `<display-name>(<name>)`. Se nenhum deles estiver definido, somente o nome técnico do campo será exibido `<name>`.
-
-Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o guia [do desenvolvedor do Registro de](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Esquema.
+Se descritores como &quot;xdm:alternativoDisplayInfo&quot; forem fornecidos durante a configuração de esquemas, os nomes amigáveis ao usuário substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos.Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o guia [do desenvolvedor do Registro de](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Esquema.
 
 ![](../assets/xdm-from-descriptors.png)
+
+Se um nome amigável estiver disponível, o campo será exibido como `<friendly-name>(<name>)`. Se nenhum nome amigável estiver disponível, o nome de exibição será exibido, por exemplo `<display-name>(<name>)`. Se nenhum deles estiver definido, somente o nome técnico do campo será exibido `<name>`.
 
 >[!NOTE]
 >
