@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8be9cd1803ab2f7093934424c36fcd7407a4a20a
+source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 ---
 
@@ -47,7 +47,6 @@ Uma cor de sintaxe é usada para distinguir visualmente os campos de eventos (ve
 
 Um valor padrão pode ser associado a um nome de campo. A sintaxe é a seguinte:
 
-
 ```
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
@@ -71,7 +70,9 @@ Exemplo :
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**Referência de um campo definido em um mapa** Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com o namespace selecionado. Consulte Seleção do namespace. For more information, see [](../event/selecting-the-namespace.md).
+**Referência de um campo definido em um mapa**
+
+Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com o namespace selecionado. Consulte Seleção do namespace. For more information, see [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
