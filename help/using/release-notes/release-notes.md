@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73f1a503ea2c8b3494460c666a05078ed914e58b
+source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
 
 ---
 
@@ -79,7 +79,7 @@ Você também pode consultar as Atualizações [da](../release-notes/documentati
 <td>
 <p>A <strong>paleta</strong>de viagem, no lado esquerdo do designer de viagem, foi aprimorada:</p>
 <ul>
-<li>Um novo ícone, ao lado da barra **Search**, permite ocultar ou exibir elementos não disponíveis na paleta, por exemplo, os eventos que usam um namespace diferente dos usados em sua jornada. Por padrão, os itens indisponíveis ficam ocultos.</li>
+<li>Um novo ícone, ao lado da barra <strong>Pesquisar</strong> , permite ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam um namespace diferente dos usados em sua jornada. Por padrão, os itens indisponíveis ficam ocultos.</li>
 <li>Ao usar o campo <strong>Pesquisar</strong> , o número de resultados para cada categoria de atividade da tela agora é exibido.</li>
 <li>A navegação entre as diferentes categorias de atividade foi aprimorada.</li>
 </ul>
