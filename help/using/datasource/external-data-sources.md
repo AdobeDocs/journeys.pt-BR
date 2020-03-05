@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
 
 ---
 
@@ -30,11 +30,11 @@ Estes são dois exemplos da chamada de API:
 * _https://api.adobeweather.org/weather?city=London,uk&amp;appid=1234_
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
-A chamada é composta de um URL principal (_https://api.adobeweather.org/weather_), dois conjuntos de parâmetros (&quot;cidade&quot; para a cidade e &quot;lat/long&quot; para a latitude e longitude) e a chave da API (appid).
+A chamada é composta de um URL principal (_https://api.adobeweather.org/weather_), dois conjuntos de parâmetros (&quot;cidade&quot; para a cidade e &quot;lat/long&quot; para a latitude e a longitude) e a chave da API (appid).
 
 Estas são as principais etapas para criar e configurar uma nova fonte de dados externa:
 
-1. Na lista de fontes de dados, clique em **[!UICONTROL Add]**para criar uma nova fonte de dados externa.
+1. Na lista de fontes de dados, clique em **[!UICONTROL Add]** para criar uma nova fonte de dados externa.
 
    ![](../assets/journey25.png)
 
@@ -57,7 +57,7 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    ![](../assets/journey27.png)
 
-1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL No authentication]**,**[!UICONTROL Basic]**, **[!UICONTROL Custom]**ou**[!UICONTROL API key]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Em nosso exemplo, escolhemos:
+1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** ou **[!UICONTROL API key]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Em nosso exemplo, escolhemos:
 
 
    * **[!UICONTROL Type]**: &quot;Chave da API&quot;
@@ -70,20 +70,20 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
 Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos com as seguintes informações:
 
-* **[!UICONTROL Used in]**: exibe o número de viagens que usam um grupo de campos. Você pode clicar no**[!UICONTROL View journeys]** ícone para exibir a lista de viagens usando esse grupo de campos.
+* **[!UICONTROL Used in]**: exibe o número de viagens que usam um grupo de campos. Você pode clicar no **[!UICONTROL View journeys]** ícone para exibir a lista de viagens usando esse grupo de campos.
 * **[!UICONTROL Method]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
 * **[!UICONTROL Cache duration]**: no nosso caso, queremos que o tempo seja armazenado em cache por 10 minutos.
-* **[!UICONTROL Response Payload]**: clique dentro do**[!UICONTROL Payload]** campo e cole um exemplo da carga retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API do tempo. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga. Observe que você pode clicar em **[!UICONTROL Paste a new payload]**se quiser alterar a carga transmitida.
-* **[!UICONTROL Dynamic Values]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas viagens. Consulte[](../expression/expressionadvanced.md).
+* **[!UICONTROL Response Payload]**: clique dentro do **[!UICONTROL Payload]** campo e cole um exemplo da carga retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API do tempo. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga. Observe que você pode clicar em **[!UICONTROL Paste a new payload]** se desejar alterar a carga transmitida no momento.
+* **[!UICONTROL Dynamic Values]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas viagens. Consulte [](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: este campo não aparece no nosso exemplo. Ela só estará disponível se você selecionar o método POST. Cole a carga que será enviada para o sistema de terceiros.
 
-No caso de uma chamada GET que exija parâmetros, você informa os parâmetros no **[!UICONTROL Parameters]**campo e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
+No caso de uma chamada GET que exija parâmetros, você informa os parâmetros no **[!UICONTROL Parameters]** campo e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
 
-* lista os parâmetros a serem transmitidos no momento da chamada no **[!UICONTROL Parameter]**campo (no exemplo abaixo: &quot;identificador&quot;).
-* especifique-os também com a mesma sintaxe no corpo da carga enviada. Para isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
+* lista os parâmetros a serem transmitidos no momento da chamada no **[!UICONTROL Parameter]** campo (no exemplo abaixo: &quot;identificador&quot;).
+* especifique-os também com a mesma sintaxe no corpo da carga enviada. Para fazer isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
 
    ```
-   {“id”:{“param”:“identifier”}}
+   {"id":{"param":"identifier"}}
    ```
 
 ![](../assets/journey29.png)
@@ -111,7 +111,7 @@ Com essa autenticação, a execução da ação é um processo de duas etapas:
 
 Esta autenticação tem duas partes.
 
-A definição do ponto final a ser chamado para gerar o token de acesso:
+A definição do ponto de extremidade a ser chamado para gerar o token de acesso:
 
 * terminal: URL a ser usado para gerar o ponto de extremidade
 * método da solicitação HTTP no terminal (GET ou POST)
@@ -141,7 +141,7 @@ O formato desta autenticação é:
     (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
-    (optional) "headers: {
+    (optional) "headers": {
         "<header name>": "<header value>",
         ...
     },
