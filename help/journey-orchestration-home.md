@@ -4,7 +4,7 @@ solution: Journeys
 title: Documentação do produto Journey Orchestration
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
+source-git-commit: 94826cde0d8de196f9f8dfcece417df8d593b40e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
 
 ## Introdução
 
-* **[O que é a Orquestração de Jornadas?](using/action/working-with-adobe-campaign.md)**<br/>Saiba mais sobre a Journey Orchestration.
+* **[O que é a Orquestração de Jornadas?](using/about/about-journey-orchestration.md)**<br/>Saiba mais sobre a Journey Orchestration.
 
 * **[Construa sua primeira jornada](using/about/get-started.md)**<br/>Descubra os principais passos para configurar a Journey Orchestration e construir sua primeira jornada.
 
@@ -34,7 +34,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/about/troubleshooting.md"><strong>Solução de problemas</strong></a>
     </div>
-    <em></em>Descubra as várias ferramentas que você pode usar para solucionar problemas em suas viagens.
+    <em>Descubra as várias ferramentas que você pode usar para solucionar problemas em suas viagens.</em>
     <br>
   </td>
   <td valign="top">
@@ -44,7 +44,7 @@ source-git-commit: 39e3ad1fe9f846b63cc210c809d4cdc9594fe3f2
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>Caso de uso</strong></a>
     </div>
-    <em></em>Saiba como criar uma jornada avançada passo a passo.
+    <em>Saiba como criar uma jornada avançada passo a passo.</em>
     <br>
   </td>
   <td valign="top">
