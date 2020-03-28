@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c34ce9723168db3a35e3c5de122eae3462b83c0
+source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
 
 ---
 
@@ -44,4 +44,4 @@ Estas são as principais etapas necessárias para configurar uma ação personal
 
    >[!NOTE]
    >
-   >Quando uma ação personalizada é usada em uma versão de jornada, a maioria dos parâmetros são somente leitura. Você só pode modificar os campos **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** e a **[!UICONTROL Authentication]** seção.
+   >Quando uma ação personalizada é usada em uma jornada, a maioria dos parâmetros são somente leitura. Você só pode modificar os campos **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** e a **[!UICONTROL Authentication]** seção.
