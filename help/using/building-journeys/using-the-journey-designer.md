@@ -22,13 +22,13 @@ O menu Início da jornada permite que você visualização a **lista das viagens
 
 ## A lista da viagem {#journey_list}
 
-A lista **de** viagem permite visualização de todas as suas viagens de uma só vez, ver seu status e realizar ações básicas. Você pode duplicado, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada que esteja concluída. Você pode criar uma nova versão ou duplicado-a. Você também pode usar a barra de pesquisa para procurar uma jornada.
+A lista **de** viagem permite visualização de todas as suas viagens de uma só vez, ver seu status e realizar ações básicas. Você pode duplicado, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada que esteja concluída. Você pode criar uma nova versão dela, duplicado ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
 
 Para **[!UICONTROL Filters]** acessá-lo, clique no ícone de filtro na parte superior esquerda da lista. O menu filtros permite que você filtre as viagens exibidas de acordo com critérios diferentes (status, aqueles criados, os modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as viagens que usam um evento, grupo de campos ou ação específicos. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
 
 ![](../assets/journey74.png)
 
-All the versions of your journeys appear in the list with the version number. Consulte [](../building-journeys/journey-versions.md).
+Todas as versões de suas viagens aparecem na lista com o número da versão. Consulte [](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
@@ -36,9 +36,9 @@ All the versions of your journeys appear in the list with the version number. Co
 >
 >Para abrir a tela de uma jornada em uma guia diferente do navegador, mantenha pressionada a tecla **Control** ou **Command** e clique na jornada.
 
-## The palette {#palette}
+## A paleta {#palette}
 
-A **paleta** fica do lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. Você pode expandir/recolher as diferentes categorias clicando em seu nome. Para usar uma atividade em sua jornada, arraste-a e solte-a da paleta até sua tela. You can also double-click on an activity in the palette to add it to the canvas, at the next step available. You have to configure each activity added from the palette before publishing the journey. Se você soltar uma atividade na tela e não terminar sua configuração, ela permanecerá na tela, mas um aviso vermelho indicará que a configuração não foi concluída para essa atividade.
+A **paleta** fica do lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. Você pode expandir/recolher as diferentes categorias clicando em seu nome. Para usar uma atividade em sua jornada, arraste-a e solte-a da paleta até sua tela. Você também pode clicar com o duplo em uma atividade na paleta para adicioná-la à tela de desenho, na próxima etapa disponível. É necessário configurar cada atividade adicionada a partir da paleta antes de publicar a jornada. Se você soltar uma atividade na tela e não terminar sua configuração, ela permanecerá na tela, mas um aviso vermelho indicará que a configuração não foi concluída para essa atividade.
 
 >[!NOTE]
 >
