@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
 
 ---
 
@@ -63,7 +63,7 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
    * **[!UICONTROL Type]**: &quot;Chave da API&quot;
    * **[!UICONTROL Value]**: &quot;1234&quot; (este é o valor da nossa chave de API)
    * **[!UICONTROL Name]**: &quot;appid&quot; (este é o nome do parâmetro da chave da API)
-   * **[!UICONTROL Location]**: &quot;Parâmetro de consulta&quot; (a chave da API está localizada no URL)
+   * **[!UICONTROL Location]**: &quot;Parâmetro de Query&quot; (a chave da API está localizada no URL)
    ![](../assets/journey28.png)
 
 1. Adicione um novo grupo de campos para cada conjunto de parâmetros da API clicando em **[!UICONTROL Add a New Field Group]**. Não use espaços ou caracteres especiais no nome do grupo de campos. Em nosso exemplo, precisamos criar dois grupos de campo, um para cada conjunto de parâmetros (cidade e long/lat).
@@ -94,6 +94,11 @@ A fonte de dados agora está configurada e pronta para ser usada em suas viagens
 
 ## Modo de autenticação personalizado{#section_wjp_nl5_nhb}
 
+>[!CONTEXTUALHELP]
+>id=&quot;jo_authentication_payload&quot;
+>title=&quot;Sobre autenticação personalizada&quot;
+>abstract=&quot;O modo de autenticação personalizada é usado para autenticação complexa para chamar protocolos de encapsulamento de API, como OAuth2. A execução da ação é um processo em duas etapas. Primeiro, uma chamada para o terminal é executada para gerar o token de acesso. Em seguida, o token de acesso é inserido na solicitação HTTP da ação.&quot;
+
 Esse modo de autenticação é usado para autenticação complexa, frequentemente usada para chamar protocolos de empacotamento de API como OAuth2, para recuperar um token de acesso a ser inserido na solicitação HTTP real para a ação.
 
 Ao configurar a autenticação personalizada, você pode clicar no botão abaixo para verificar se a carga de autenticação personalizada está configurada corretamente.
@@ -111,7 +116,7 @@ Com essa autenticação, a execução da ação é um processo de duas etapas:
 
 Esta autenticação tem duas partes.
 
-A definição do ponto de extremidade a ser chamado para gerar o token de acesso:
+A definição do ponto final a ser chamado para gerar o token de acesso:
 
 * terminal: URL a ser usado para gerar o ponto de extremidade
 * método da solicitação HTTP no terminal (GET ou POST)
@@ -122,15 +127,15 @@ A definição do ponto de extremidade a ser chamado para gerar o token de acesso
 
 A definição da forma como o token de acesso deve ser inserido na solicitação HTTP da ação:
 
-* licenseType: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. Os valores possíveis são:
+* licenseType: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. The possible values are:
 
-   * portador: indica que o token de acesso deve ser inserido no cabeçalho de Autorização, como: _Autorização: Portador &lt;token de acesso>_
+   * portador: indica que o token de acesso deve ser injetado no cabeçalho da Autorização, como: _Autorização: Portador &lt;token de acesso>_
    * cabeçalho: indica que o token de acesso deve ser inserido como um cabeçalho, o nome do cabeçalho definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myHeader, o token de acesso será inserido como um cabeçalho como: _myHeader: &lt;token de acesso>_
-   * queryParam: indica que o token de acesso deve ser inserido como um queryParam, o nome do parâmetro de consulta definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myQueryParam, o URL da chamada de ação será: _&lt;url>?myQueryParam=&lt;token de acesso>_
+   * queryParam: indica que o token de acesso deve ser inserido como um queryParam, o nome do parâmetro do query definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myQueryParam, o URL da chamada de ação será: _&lt;url>?myQueryParam=&lt;token de acesso>_
 
 * tokenInResponse: indica como extrair o token de acesso da chamada de autenticação. Essa propriedade pode ser:
    * &#39;response&#39;: indica que a resposta HTTP é o token de acesso
-   * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;caminho para a propriedade do token de acesso>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será: _json: //access_token_
+   * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;caminho para a propriedade token de acesso>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será: _json: //access_token_
 
 O formato desta autenticação é:
 
