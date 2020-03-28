@@ -23,6 +23,7 @@ Você também pode consultar as Notas de [versão](../release-notes/release-note
 
 ## Março de 2020 {#march-2020}
 
+* Foram adicionadas descrições de parâmetros para _actionExecutionErrors_ e _fetchErrors_ na seção de logs de teste. [Leia mais](../action/testing-the-journey.md#viewing_logs)
 * As limitações das ações personalizadas usadas em uma jornada foram atualizadas. Também é possível modificar o campo **URL** e os parâmetros **Autenticação** . [Leia mais](../action/about-custom-action-configuration.md)
 * Novas entradas de ajuda contextual foram adicionadas. O painel de carga de autenticação personalizada (em ações e fontes de dados) agora inclui um ícone de ajuda que se vincula a esta [seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * As viagens concluídas podem agora ser interrompidas. [Leia mais](../building-journeys/using-the-journey-designer.md)
