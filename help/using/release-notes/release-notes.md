@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d331454b0ad351a1967ec57d0b3f24a675f10f2a
+source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
 
 ---
 
@@ -23,7 +23,7 @@ Você também pode consultar as Atualizações [da](../release-notes/documentati
 
 ## Versão do primeiro trimestre - março de 2020 {#q1-release---march-2020}
 
-**Novidades**
+**Novidades?**
 
 <table>
 <thead>
@@ -36,8 +36,8 @@ Você também pode consultar as Atualizações [da](../release-notes/documentati
 <td>
 <p>As seguintes melhorias foram feitas no modo de teste:</p>
 <ul>
-<li>Quando uma jornada usa vários eventos, agora é possível disparar cada um deles individualmente de uma lista suspensa, na tela de configuração <strong>do</strong> evento do modo de teste. <a href="../building-journeys/testing-the-journey.md#firing_events">Leia mais</a></p></li>
-<li><p>Quando uma ou mais atividades de <strong>Espera</strong> são usadas em uma jornada, você pode definir o tempo que cada uma dessas atividades durará no modo de teste. O tempo padrão é de 10 segundos. Você pode alterar isso usando o tempo de <strong>espera no parâmetro de teste</strong> , no canto inferior esquerdo. <a href="../building-journeys/testing-the-journey.md">Leia mais</a></p><img src="../assets/rn-test.png"/>
+<li>Quando uma jornada usa vários eventos, agora é possível disparar cada um deles individualmente de uma lista suspensa, na tela de configuração <strong>do</strong> Evento do modo de teste. <a href="../building-journeys/testing-the-journey.md#firing_events">Leia mais</a></p></li>
+<li><p>Quando uma ou mais atividades de <strong>espera</strong> são usadas em uma jornada, agora você pode definir o tempo que cada uma dessas atividades durará no modo de teste. O tempo padrão é de 10 segundos. Você pode alterar isso usando o tempo de <strong>espera no parâmetro de teste</strong> , no canto inferior esquerdo. <a href="../building-journeys/testing-the-journey.md">Leia mais</a></p><img src="../assets/rn-test.png"/>
 </li>
 <li>Nos registros <strong>de</strong>teste, em caso de erro ao chamar um sistema de terceiros (fonte de dados ou ação), o código de erro e a resposta do erro agora são exibidos. <a href="../building-journeys/testing-the-journey.md#viewing_logs">Leia mais</a>
 </li>
@@ -59,8 +59,8 @@ Você também pode consultar as Atualizações [da](../release-notes/documentati
 <p>O gerenciamento de fuso horário agora está centralizado no painel de propriedades da jornada. Foram adicionados dois parâmetros às propriedades de viagem:</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>A lista <strong>suspensa Fuso horário</strong> permite selecionar um fuso horário específico. Por padrão, o fuso horário do navegador é usado.</li>
-<li>A caixa de seleção Fuso horário <strong>do perfil</strong> permite usar o fuso horário do Perfil da plataforma de experiência da pessoa que entra na jornada, se disponível. Caso contrário, o fuso horário definido na lista suspensa será usado. Esse recurso não é compatível com jornadas que usam eventos que não têm um namespace.</li>
+<li>A lista suspensa <strong>Fuso horário</strong> permite selecionar um fuso horário específico. Por padrão, o fuso horário do navegador é usado. </li>
+<li>A caixa de seleção Fuso horário do <strong>Perfil</strong> permite usar o fuso horário do Perfil da plataforma de experiência da pessoa que entra na jornada, se disponível. Caso contrário, o fuso horário definido na lista suspensa será usado. Este recurso não é compatível com viagens que usam eventos que não têm namespace.</li>
 </ul>
 <p>Para obter mais informações, consulte as seções Propriedades <a href="../building-journeys/changing-properties.md#timezone">de</a> alteração e gerenciamento <a href="../building-journeys/timezone-management.md">de</a> fuso horário.</p>
 </td>
@@ -79,7 +79,7 @@ Você também pode consultar as Atualizações [da](../release-notes/documentati
 <td>
 <p>A <strong>paleta</strong>de viagem, no lado esquerdo do designer de viagem, foi aprimorada:</p>
 <ul>
-<li>Um novo ícone, ao lado da barra <strong>Pesquisar</strong> , permite ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam um namespace diferente dos usados em sua jornada. Por padrão, os itens indisponíveis ficam ocultos.</li>
+<li>Um novo ícone, ao lado da barra <strong>Pesquisar</strong> , permite ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam uma namespace diferente daqueles usados em sua jornada. Por padrão, os itens indisponíveis ficam ocultos.</li>
 <li>Ao usar o campo <strong>Pesquisar</strong> , o número de resultados para cada categoria de atividade da tela agora é exibido.</li>
 <li>A navegação entre as diferentes categorias de atividade foi aprimorada.</li>
 </ul>
@@ -101,7 +101,7 @@ Você também pode consultar as Atualizações [da](../release-notes/documentati
 <tbody>
 <tr>
 <td>
-<p>Uma ajuda contextual agora está disponível em diferentes telas de lista de orquestração de viagens (jornadas, eventos, ações e fontes de dados). Isso permite que você visualize uma descrição rápida da funcionalidade atual e acesse artigos e vídeos relacionados.</p>
+<p>Uma ajuda contextual agora está disponível nas diferentes telas de lista do Journey Orchestration (viagens, eventos, ações e fontes de dados). Isso permite que você visualização uma descrição rápida da funcionalidade atual e acesse artigos e vídeos relacionados.</p>
 <p>Para exibir a ajuda contextual, clique no <img src="../assets/icon-context.png"/> ícone no canto superior direito da tela. </p>
 <img src="../assets/rn-context.png"/>
 </td>
@@ -119,7 +119,7 @@ Você também pode consultar as Atualizações [da](../release-notes/documentati
 
 * Agora você pode **excluir** as viagens interrompidas. Os relatórios associados a essas viagens excluídas não estarão disponíveis.
 
-* Ao navegar pelos campos **da Plataforma de** dados (formato XDM), você verá o nome de exibição além do nome do campo. Essas informações são recuperadas da definição do esquema no Modelo de dados de experiência. Quando disponível, o nome de exibição alternativo é exibido. Essa descrição fácil de usar, especialmente útil no caso de campos de eVar, permite que você identifique seus campos mais facilmente. [Leia mais](../about/user-interface.md#friendly-names-display)
+* Ao navegar pelos campos **da Plataforma de** dados (formato XDM), você verá o nome de exibição além do nome do campo. Essas informações são recuperadas da definição do schema no Modelo de dados de experiência. Quando disponível, o nome de exibição alternativo é exibido. Essa descrição fácil de usar, especialmente útil no caso de campos de eVar, permite que você identifique seus campos mais facilmente. [Leia mais](../about/user-interface.md#friendly-names-display)
 
 ## Versão GA - dezembro de 2019 {#ga-release---december-2019}
 
@@ -127,9 +127,9 @@ A Orquestração de Jornadas está agora pronta.
 
 Crie casos de uso de orquestração em tempo real aproveitando dados contextuais armazenados em eventos ou fontes de dados.
 
-O Journey Orchestration permite a orquestração em tempo real com dados contextuais de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros. O aplicativo determina, em fluxos em várias etapas, as próximas melhores ações específicas ao consumidor, com base no seu perfil e comportamento. Isso inclui o tempo ideal, bem como o tipo de ação, como enviar ao consumidor uma notificação por push por meio dos recursos de mensagens transacionais do Adobe Campaign Standard (requer o Adobe Campaign Standard) ou a notificação de um sistema de terceiros. Essas decisões são tomadas com base em regras e pontuações do Sensei.
+O Journey Orchestration permite a orquestração em tempo real com dados contextuais de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros. A aplicação determina, em fluxos multifaseados, as próximas melhores ações específicas para o consumidor, com base no seu perfil e comportamento. Isso abrange tanto o tempo ideal quanto o tipo de ação, como enviar ao consumidor uma notificação por push via Adobe Campaign Standard transactional messaging capabilities (requer Adobe Campaign Standard) ou a notificação de um sistema de terceiros. Essas decisões são tomadas com base em regras e pontuações do Sensei.
 
-[Saiba mais](../action/working-with-adobe-campaign.md) sobre a Journey Orchestration.
+[](../action/working-with-adobe-campaign.md)Saiba mais sobre o Journey Orchestration.
 
 Recursos adicionais:
 
