@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f196f22d4f5b03973bead78d3fe5454f109734d
+source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
 
 ---
 
@@ -23,7 +23,7 @@ Você também pode consultar as Notas de [versão](../release-notes/release-note
 
 ## Março de 2020 {#march-2020}
 
-* Foram adicionadas descrições de parâmetros para _actionExecutionErrors_ e _fetchErrors_ na seção de logs de teste. [Leia mais](../action/testing-the-journey.md#viewing_logs)
+* Foram adicionadas descrições de parâmetros para _actionExecutionErrors_ e _fetchErrors_ na seção de logs de teste. [Leia mais](../building-journeys/testing-the-journey.md#viewing_logs)
 * As limitações das ações personalizadas usadas em uma jornada foram atualizadas. Também é possível modificar o campo **URL** e os parâmetros **Autenticação** . [Leia mais](../action/about-custom-action-configuration.md)
 * Novas entradas de ajuda contextual foram adicionadas. O painel de carga de autenticação personalizada (em ações e fontes de dados) agora inclui um ícone de ajuda que se vincula a esta [seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * As viagens concluídas podem agora ser interrompidas. [Leia mais](../building-journeys/using-the-journey-designer.md)
@@ -41,12 +41,12 @@ Você também pode consultar as Notas de [versão](../release-notes/release-note
 
 * A seção de atalho foi atualizada. O atalho do teclado **C** permite criar um novo item em todas as telas de lista. [Leia mais](../about/user-interface.md#section_ksq_zr1_ffb)
 
-## January 2020 {#january-2020}
+## Janeiro de 2020 {#january-2020}
 
 * Foram adicionadas limitações à busca de eventos [de](../datasource/adobe-experience-platform-data-source.md) experiência e [segmentos](../functions/functioninsegment.md).
-* A documentação [](../functions/functiongetbestsendtime.md) getBestSendTime foi atualizada.
+* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.
 
-## December 2019 {#december-2019}
+## Dezembro de 2019 {#december-2019}
 
 * Todas as capturas de tela foram atualizadas para refletir as alterações na interface.
 * A seção do modo de teste foi atualizada. [Leia mais](../building-journeys/testing-the-journey.md)
