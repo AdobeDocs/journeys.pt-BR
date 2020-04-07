@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: bc5b29eefa4d787cd448352252823a616489d8c8
+source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
 
 ---
 
@@ -35,10 +35,10 @@ Você também pode acessar o Journey Orchestration a partir do home page da Expe
 ## Descobrir a interface{#section_jsq_zr1_ffb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_home&quot;
->title=&quot;Sobre a lista da jornada&quot;
->abstract=&quot;A lista de viagem permite que você visualização todas as suas viagens de uma só vez, veja seu status e execute ações básicas. Você pode duplicado, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada que esteja concluída. Você pode criar uma nova versão ou duplicado-a. Você também pode usar a barra de pesquisa para procurar uma jornada.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4&quot; text=&quot;Assista ao vídeo de demonstração&quot;
+>id="jo_home"
+>title="Sobre a lista da jornada"
+>abstract="A lista de viagem permite que você visualização todas as suas viagens de uma só vez, veja seu status e execute ações básicas. Você pode duplicado, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada que esteja concluída. Você pode criar uma nova versão ou duplicado-a. Você também pode usar a barra de pesquisa para procurar uma jornada."
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Assista ao vídeo de demonstração"
 
 Os menus superiores permitem navegar pelas diferentes funcionalidades da Journey Orchestration: **[!UICONTROL Home]**(as viagens),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
@@ -78,42 +78,42 @@ Nas diferentes listas, é possível executar ações básicas em cada elemento. 
 
 Ao definir a carga [do](../event/defining-the-payload-fields.md)evento, a carga [do grupo de](../datasource/field-groups.md) campos e a seleção de campos no editor [de](../expression/expressionadvanced.md)expressões, o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas da definição do schema no Modelo de dados de experiência.
 
-Se descritores como &quot;xdm:alternativoDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes amigáveis substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos.Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o guia [do desenvolvedor do Registro do](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Schema.
+Se descritores como &quot;xdm:alternativoDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes amigáveis substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos.Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o guia [do desenvolvedor do Registro do](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)Schema.
 
 ![](../assets/xdm-from-descriptors.png)
 
-Se um nome amigável estiver disponível, o campo será exibido como `<friendly-name>(<name>)`. Se nenhum nome amigável estiver disponível, o nome de exibição será exibido, por exemplo `<display-name>(<name>)`. If none of them are defined, only the technical name of the field will be displayed `<name>`.
+Se um nome amigável estiver disponível, o campo será exibido como `<friendly-name>(<name>)`. Se nenhum nome amigável estiver disponível, o nome de exibição será exibido, por exemplo `<display-name>(<name>)`. Se nenhum deles estiver definido, somente o nome técnico do campo será exibido `<name>`.
 
 >[!NOTE]
 >
->Friendly names are not retrieved when you select fields from a union of schemas.
+>Os nomes amigáveis não são recuperados quando você seleciona campos de uma união de schemas.
 
-## Using the different shortcuts{#section_ksq_zr1_ffb}
+## Uso de atalhos diferentes{#section_ksq_zr1_ffb}
 
-Here are the different shortcuts available in the Journey Orchestration&#39;s interface.
+Estes são os diferentes atalhos disponíveis na interface do Journey Orchestration.
 
-_In the list of journeys, actions, data sources or events:_
+_Na lista de viagens, ações, fontes de dados ou eventos:_
 
-* Press **c** to create a new journey, action, data source or event.
+* Pressione **c** para criar uma nova jornada, ação, fonte de dados ou evento.
 
 _Ao configurar uma atividade em uma jornada:_
 
-The canvas is automatically saved. You can see, on the top left of the canvas, the saving status.
+A tela é salva automaticamente. Você pode ver, na parte superior esquerda da tela, o status de gravação.
 
-* Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **[!UICONTROL Cancel]** button.
-* Press **[!UICONTROL Enter]** or click outside the pane to close the configuration pane. Changes are saved. Isso é o equivalente ao **[!UICONTROL Ok]** botão.
+* Pressione **escape** para fechar o painel de configuração e descartar as alterações feitas. Isso é o equivalente ao **[!UICONTROL Cancel]** botão.
+* Pressione **[!UICONTROL Enter]** ou clique fora do painel para fechar o painel de configuração. As alterações são salvas. Isso é o equivalente ao **[!UICONTROL Ok]** botão.
 * Se pressionar **[!UICONTROL Delete]** ou **usar o backspace**, pressione **[!UICONTROL Enter]** para confirmar a exclusão.
 
 _Em pop-ups:_
 
 * Pressione **escape** para fechá-lo (equivalente ao botão **Cancel (Cancelar** ).
-* Press **[!UICONTROL Enter]** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
+* Pressione **[!UICONTROL Enter]** para salvar ou confirmar (equivalente ao **[!UICONTROL Ok]** botão ou **[!UICONTROL Save]** ).
 
 _No painel de configuração do evento, da fonte de dados ou da ação:_
 
 * Pressione **escape** para fechar o painel de configuração sem salvar.
-* Press **[!UICONTROL Enter]** to save modifications and close the configuration pane.
-* Press **tab** to jump between the different fields to configure.
+* Pressione **[!UICONTROL Enter]** para salvar as modificações e fechar o painel de configuração.
+* Pressione a **guia** para pular entre os diferentes campos a serem configurados.
 
 _No editor de expressões simples_
 
