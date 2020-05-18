@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 3%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
 # Sobre fontes de dados {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_datasources&quot;
->title=&quot;Sobre fontes de dados&quot;
->abstract=&quot;A configuração da fonte de dados é sempre executada por um usuário técnico. A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas viagens, para: definição de condição, parâmetro e dados de personalização em ações, definição de espera personalizada, definição de fuso horário personalizado.&quot;
+>id="jo_datasources"
+>title="Sobre fontes de dados"
+>abstract="A configuração da fonte de dados é sempre executada por um usuário técnico. A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas viagens, para: definição de condição, parâmetro e dados de personalização em ações, definição de espera personalizada, definição de fuso horário personalizado."
 
 A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas viagens, para:
 
@@ -30,11 +33,11 @@ A configuração da fonte de dados permite definir uma conexão com um sistema p
 * [definição de espera personalizada](../building-journeys/wait-activity.md#custom)
 * [definição de fuso horário personalizado](../building-journeys/timezone-management.md)
 
-Essa configuração não é necessária se suas viagens só potencializarem os dados locais provenientes de uma carga de eventos. Por exemplo, se sua jornada for composta de um evento seguido de uma atividade de email que usa somente dados do evento, não será necessário configurar uma fonte de dados.
+Essa configuração não é necessária se suas viagens só potencializarem os dados locais provenientes de uma carga útil do evento. Por exemplo, se sua jornada for composta de um evento seguido por uma atividade de email que usa somente os dados do evento, não será necessário configurar uma fonte de dados.
 
 Há dois tipos de fontes de dados:
 
-* A fonte de dados pré-configurada da plataforma de experiência que define a conexão com o Serviço de perfil do cliente em tempo real. Esta é uma fonte de dados integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
+* A fonte de dados pré-configurada da Plataforma de experiência que define a conexão com o Serviço de Perfil do cliente em tempo real. Esta é uma fonte de dados integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
 * As fontes de dados externas que permitem definir uma conexão com sistemas externos. Estes são os que você pode criar. Consulte [](../datasource/external-data-sources.md).
 
 Para cada fonte de dados, você define as informações a serem recuperadas usando grupos de campos. Grupos de campos são conjuntos de campos que podem ser recuperados de uma fonte de dados. Consulte [](../datasource/field-groups.md).
@@ -49,7 +52,7 @@ Estas são as etapas principais de configuração da fonte de dados:
 
 1. No menu superior, clique na **[!UICONTROL Data Sources]** guia.
 
-   A lista de fontes de dados é exibida. Consulte [](../about/user-interface.md) para obter mais informações sobre a interface.
+   A lista das fontes de dados é exibida. Consulte [](../about/user-interface.md) para obter mais informações sobre a interface.
 
    ![](../assets/journey18.png)
 
