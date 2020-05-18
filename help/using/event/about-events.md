@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +52,7 @@ Estas são as etapas principais para configurar um novo evento:
 
    ![](../assets/journey5.png)
 
-1. Click **[!UICONTROL Add]** to create a new event. O painel de configuração do evento é aberto no lado direito da tela.
+1. Clique em **[!UICONTROL Add]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela.
 
    ![](../assets/journey6.png)
 
