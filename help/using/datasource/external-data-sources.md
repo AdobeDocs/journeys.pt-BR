@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 0%
 
 ---
 
@@ -95,9 +98,9 @@ A fonte de dados agora está configurada e pronta para ser usada em suas viagens
 ## Modo de autenticação personalizado{#section_wjp_nl5_nhb}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_authentication_payload&quot;
->title=&quot;Sobre autenticação personalizada&quot;
->abstract=&quot;O modo de autenticação personalizada é usado para autenticação complexa para chamar protocolos de encapsulamento de API, como OAuth2. A execução da ação é um processo em duas etapas. Primeiro, uma chamada para o terminal é executada para gerar o token de acesso. Em seguida, o token de acesso é inserido na solicitação HTTP da ação.&quot;
+>id="jo_authentication_payload"
+>title="Sobre a autenticação personalizada"
+>abstract="O modo de autenticação personalizado é usado para autenticação complexa para chamar protocolos de quebra automática de API, como OAuth2. A execução da ação é um processo em duas etapas. Primeiro, uma chamada para o terminal é executada para gerar o token de acesso. Em seguida, o token de acesso é inserido na solicitação HTTP da ação."
 
 Esse modo de autenticação é usado para autenticação complexa, frequentemente usada para chamar protocolos de empacotamento de API como OAuth2, para recuperar um token de acesso a ser inserido na solicitação HTTP real para a ação.
 
@@ -127,7 +130,7 @@ A definição do ponto final a ser chamado para gerar o token de acesso:
 
 A definição da forma como o token de acesso deve ser inserido na solicitação HTTP da ação:
 
-* licenseType: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. The possible values are:
+* licenseType: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. Os valores possíveis são:
 
    * portador: indica que o token de acesso deve ser injetado no cabeçalho da Autorização, como: _Autorização: Portador &lt;token de acesso>_
    * cabeçalho: indica que o token de acesso deve ser inserido como um cabeçalho, o nome do cabeçalho definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myHeader, o token de acesso será inserido como um cabeçalho como: _myHeader: &lt;token de acesso>_
