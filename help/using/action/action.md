@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 3%
 
 ---
 
@@ -19,9 +22,9 @@ source-git-commit: 87910a9f3dbf2c34776a8d2ab1f00426e8b0704c
 # Sobre ações {#about_actions}
 
 >[!CONTEXTUALHELP]
->id=&quot;jo_actions&quot;
->title=&quot;Sobre ações&quot;
->abstract=&quot;É aqui que você define a conexão com o sistema que enviará mensagens. As ações definidas aqui estarão disponíveis na paleta esquerda de sua jornada, na categoria Ação. &quot;
+>id="jo_actions"
+>title="Sobre ações"
+>abstract="É aqui que você define a conexão com o sistema que enviará mensagens. As ações definidas aqui estarão disponíveis na paleta esquerda de sua jornada, na categoria Ação. "
 
 As ações são conexões através das quais você fornece experiências personalizadas em tempo real para clientes, como notificações por push, email, SMS ou qualquer outro meio de envolvimento digital usado em sua empresa.
 
@@ -35,11 +38,11 @@ As ações estão disponíveis na paleta esquerda de sua jornada, na **[!UICONTR
 
 Na lista de **Ações**, você pode pressionar c para criar uma nova jornada, ação, fonte de dados ou evento. Para obter mais informações sobre atalhos no Journey Orchestration, consulte [](../about/user-interface.md#section_ksq_zr1_ffb).
 
-Para exibir a lista de ações ou configurar uma nova ação, clique **[!UICONTROL Actions]** nos menus superiores. A lista de ações é exibida. Consulte [](../about/user-interface.md) para obter mais informações sobre a interface.
+Para visualização da lista de ação ou configurar uma nova ação, clique **[!UICONTROL Actions]** nos menus superiores. A lista de ações é exibida. Consulte [](../about/user-interface.md) para obter mais informações sobre a interface.
 
 ![](../assets/custom1.png)
 
-Se você tiver o Adobe Campaign Standard, precisará configurar a ação imediata para enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Standard. Consulte [](../action/working-with-adobe-campaign.md).
+Se você tiver o Adobe Campaign Standard, precisará configurar a ação pronta para enviar emails, notificações por push e SMS usando os recursos de Mensagens Transacionais do Adobe Campaign Standard. Consulte [](../action/working-with-adobe-campaign.md).
 
 Se você estiver usando um sistema de terceiros para enviar mensagens como Epsilon, Facebook, Adobe.io, Firebase, etc., é necessário adicionar e configurar uma ação personalizada. Consulte [](../action/about-custom-action-configuration.md).
 
