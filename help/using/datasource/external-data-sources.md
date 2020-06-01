@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -22,18 +22,18 @@ ht-degree: 0%
 
 # Fontes de dados externas {#concept_t2s_kqt_52b}
 
-Fontes de dados externas permitem que você defina uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa registrou um quarto. Ao contrário da fonte de dados integrada da plataforma Experience, você pode criar quantas fontes de dados externas forem necessárias.
+Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 
-As APIs REST que usam POST ou GET e devolvem JSON são suportadas. A chave da API, os modos de autenticação básicos e personalizados são suportados.
+As APIs REST que usam POST ou GET e devolvem JSON são compatíveis. A chave de API, os modos de autenticação básicos e personalizados são compatíveis.
 
-Vejamos o exemplo de um serviço de API meteorológica que eu quero usar para personalizar os comportamentos da minha jornada de acordo com os dados do tempo real.
+Vamos ver o exemplo de um serviço de API meteorológica usada para personalizar os comportamentos da jornada de acordo com os dados climáticos em tempo real.
 
-Estes são dois exemplos da chamada de API:
+Dois exemplos da chamada de API:
 
 * _https://api.adobeweather.org/weather?city=London,uk&amp;appid=1234_
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
-A chamada é composta de um URL principal (_https://api.adobeweather.org/weather_), dois conjuntos de parâmetros (&quot;cidade&quot; para a cidade e &quot;lat/long&quot; para a latitude e a longitude) e a chave da API (appid).
+A chamada é composta de um URL principal (_https://api.adobeweather.org/weather_), dois conjuntos de parâmetros (&quot;city&quot; para a cidade e &quot;lat/long&quot; para a latitude e a longitude) e a chave da API (appid).
 
 Estas são as principais etapas para criar e configurar uma nova fonte de dados externa:
 
@@ -41,7 +41,7 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    ![](../assets/journey25.png)
 
-   Isso abre o painel de configuração da fonte de dados no lado direito da tela.
+   Essa ação abre o painel de configuração da fonte de dados no lado direito da tela.
 
    ![](../assets/journey26.png)
 
@@ -51,39 +51,39 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
    >
    >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
 
-1. Adicione uma descrição à sua fonte de dados. Esta etapa é opcional.
+1. Adicione uma descrição à fonte de dados. Esta etapa é opcional.
 1. Adicione o URL do serviço externo. Em nosso exemplo: _https://api.adobeweather.org/weather_.
 
    >[!CAUTION]
    >
-   >Recomendamos o uso do HTTPS por motivos de segurança. Observe também que não permitimos o uso de endereços da Adobe que não estão disponíveis publicamente e o uso de endereços IP.
+   >Recomendamos o uso de HTTPS por motivos de segurança. Observe também que não permitimos o uso de endereços da Adobe que não estejam disponíveis publicamente, bem como o uso de endereços IP.
 
    ![](../assets/journey27.png)
 
 1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** ou **[!UICONTROL API key]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Em nosso exemplo, escolhemos:
 
 
-   * **[!UICONTROL Type]**: &quot;Chave da API&quot;
+   * **[!UICONTROL Type]**: &quot;Chave de API&quot;
    * **[!UICONTROL Value]**: &quot;1234&quot; (este é o valor da nossa chave de API)
-   * **[!UICONTROL Name]**: &quot;appid&quot; (este é o nome do parâmetro da chave da API)
-   * **[!UICONTROL Location]**: &quot;Parâmetro de Query&quot; (a chave da API está localizada no URL)
+   * **[!UICONTROL Name]**: &quot;appid&quot; (este é o nome do parâmetro da chave de API)
+   * **[!UICONTROL Location]**: &quot;Parâmetro de query&quot; (a chave de API está localizada no URL)
    ![](../assets/journey28.png)
 
-1. Adicione um novo grupo de campos para cada conjunto de parâmetros da API clicando em **[!UICONTROL Add a New Field Group]**. Não use espaços ou caracteres especiais no nome do grupo de campos. Em nosso exemplo, precisamos criar dois grupos de campo, um para cada conjunto de parâmetros (cidade e long/lat).
+1. Adicione um novo grupo de campos para cada conjunto de parâmetros da API clicando em **[!UICONTROL Add a New Field Group]**. Não use espaços ou caracteres especiais no nome do grupo de campos. Em nosso exemplo, precisamos criar dois grupos de campo, um para cada conjunto de parâmetros (city e long/lat).
 
 Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos com as seguintes informações:
 
-* **[!UICONTROL Used in]**: exibe o número de viagens que usam um grupo de campos. Você pode clicar no **[!UICONTROL View journeys]** ícone para exibir a lista de viagens usando esse grupo de campos.
+* **[!UICONTROL Used in]**: exibe o número de jornadas que usam um grupo de campos. Você pode clicar no ícone **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse grupo de campos.
 * **[!UICONTROL Method]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
-* **[!UICONTROL Cache duration]**: no nosso caso, queremos que o tempo seja armazenado em cache por 10 minutos.
-* **[!UICONTROL Response Payload]**: clique dentro do **[!UICONTROL Payload]** campo e cole um exemplo da carga retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API do tempo. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga. Observe que você pode clicar em **[!UICONTROL Paste a new payload]** se desejar alterar a carga transmitida no momento.
-* **[!UICONTROL Dynamic Values]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas viagens. Consulte [](../expression/expressionadvanced.md).
-* **[!UICONTROL Sent Payload]**: este campo não aparece no nosso exemplo. Ela só estará disponível se você selecionar o método POST. Cole a carga que será enviada para o sistema de terceiros.
+* **[!UICONTROL Cache duration]**: no nosso caso, queremos que os dados de meteorologia sejam armazenados em cache por 10 minutos.
+* **[!UICONTROL Response Payload]**: clique dentro do campo **[!UICONTROL Payload]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Paste a new payload]** se desejar alterar a carga útil transmitida no momento.
+* **[!UICONTROL Dynamic Values]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. Consulte [](../expression/expressionadvanced.md).
+* **[!UICONTROL Sent Payload]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 
-No caso de uma chamada GET que exija parâmetros, você informa os parâmetros no **[!UICONTROL Parameters]** campo e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
+No caso de uma chamada GET que exige parâmetros, você informa os parâmetros no campo **[!UICONTROL Parameters]** e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
 
-* lista os parâmetros a serem transmitidos no momento da chamada no **[!UICONTROL Parameter]** campo (no exemplo abaixo: &quot;identificador&quot;).
-* especifique-os também com a mesma sintaxe no corpo da carga enviada. Para fazer isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
+* listar os parâmetros que serão transmitidos no momento da chamada no campo **[!UICONTROL Parameter]** (no exemplo abaixo: &quot;identificador&quot;).
+* especificá-los também com a mesma sintaxe no corpo da carga útil enviada. Para fazer isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
 
    ```
    {"id":{"param":"identifier"}}
@@ -93,54 +93,54 @@ No caso de uma chamada GET que exija parâmetros, você informa os parâmetros n
 
 Clique em **[!UICONTROL Save]**.
 
-A fonte de dados agora está configurada e pronta para ser usada em suas viagens, por exemplo em suas condições ou para personalizar um email. Se a temperatura estiver acima de 30°C, você pode decidir enviar uma comunicação específica.
+A fonte de dados agora está configurada e pronta para ser usada em suas jornadas, por exemplo em suas condições ou para personalizar um email. Se a temperatura estiver acima de 30°C, você pode decidir enviar uma comunicação específica.
 
 ## Modo de autenticação personalizado{#section_wjp_nl5_nhb}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="Sobre a autenticação personalizada"
->abstract="O modo de autenticação personalizado é usado para autenticação complexa para chamar protocolos de quebra automática de API, como OAuth2. A execução da ação é um processo em duas etapas. Primeiro, uma chamada para o terminal é executada para gerar o token de acesso. Em seguida, o token de acesso é inserido na solicitação HTTP da ação."
+>abstract="O modo de autenticação personalizado é usado para autenticação complexa para chamar protocolos de empacotamento automático de API, como OAuth2. A execução da ação é um processo em duas etapas. Primeiro, uma chamada para o endpoint é executada para gerar o token de acesso. Em seguida, o token de acesso é inserido na solicitação HTTP da ação."
 
-Esse modo de autenticação é usado para autenticação complexa, frequentemente usada para chamar protocolos de empacotamento de API como OAuth2, para recuperar um token de acesso a ser inserido na solicitação HTTP real para a ação.
+Esse modo de autenticação é usado para autenticação complexa, frequentemente usada para chamar protocolos de empacotamento de API como OAuth2, para recuperar um token de acesso que será inserido na solicitação real HTTP para a ação.
 
-Ao configurar a autenticação personalizada, você pode clicar no botão abaixo para verificar se a carga de autenticação personalizada está configurada corretamente.
+Ao configurar a autenticação personalizada, você pode clicar no botão abaixo para verificar se a carga útil de autenticação personalizada está configurada corretamente.
 
 ![](../assets/journey29-bis.png)
 
-Se o teste for bem-sucedido, o botão fica verde.
+Se o teste for bem-sucedido, o botão ficará verde.
 
 ![](../assets/journey29-ter.png)
 
 Com essa autenticação, a execução da ação é um processo de duas etapas:
 
-1. Chame o terminal para gerar o token de acesso.
-1. Chame a REST API injetando da maneira correta o token de acesso.
+1. Chame o endpoint para gerar o token de acesso.
+1. Chame a REST API inserindo de maneira correta o token de acesso.
 
 Esta autenticação tem duas partes.
 
-A definição do ponto final a ser chamado para gerar o token de acesso:
+A definição do endpoint que será chamado para gerar o token de acesso:
 
-* terminal: URL a ser usado para gerar o ponto de extremidade
-* método da solicitação HTTP no terminal (GET ou POST)
-* cabeçalhos: pares de chave/valor a serem inseridos como cabeçalhos nesta chamada, se necessário
-* corpo: descreve o corpo da chamada se o método for POST. Apoiamos uma estrutura de corpo limitada, definida em bodyParams (pares de chaves/valores). O bodyType descreve o formato e a codificação do corpo na chamada:
-   * &#39;form&#39;: o que significa que o tipo de conteúdo será application/x-www-form-urlencoded (charset UTF-8) e os pares key/value serão serializados como estão: key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: o que significa que o tipo de conteúdo será application/json (charset UTF-8) e que os pares de valores principais serão serializados como um objeto json como está: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* endpoint: URL que será usado para gerar o endpoint
+* método da solicitação HTTP no endpoint (GET ou POST)
+* cabeçalhos: pares de chave/valor que serão inseridos como cabeçalhos nesta chamada, caso necessário
+* corpo: descreve o corpo da chamada se o método for POST. Oferecemos suporte a uma estrutura de corpo limitada, definida em bodyParams (pares de chaves/valores). O bodyType descreve o formato e a codificação do corpo na chamada:
+   * &#39;form&#39;: significa que o tipo de conteúdo será application/x-www-form-urlencoded (charset UTF-8) e os pares chave/valor serão serializados como estão: key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39;: significa que o tipo de conteúdo será application/json (charset UTF-8) e que os pares de valores principais serão serializados como um objeto json como a seguir: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 A definição da forma como o token de acesso deve ser inserido na solicitação HTTP da ação:
 
-* licenseType: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. Os valores possíveis são:
+* authorizationType: define como o token de acesso gerado deve ser inserido na chamada HTTP para a ação. Os valores possíveis são:
 
-   * portador: indica que o token de acesso deve ser injetado no cabeçalho da Autorização, como: _Autorização: Portador &lt;token de acesso>_
-   * cabeçalho: indica que o token de acesso deve ser inserido como um cabeçalho, o nome do cabeçalho definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myHeader, o token de acesso será inserido como um cabeçalho como: _myHeader: &lt;token de acesso>_
-   * queryParam: indica que o token de acesso deve ser inserido como um queryParam, o nome do parâmetro do query definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myQueryParam, o URL da chamada de ação será: _&lt;url>?myQueryParam=&lt;token de acesso>_
+   * bearer: indica que o token de acesso deve ser injetado no cabeçalho da Autorização, como: _Authorization: Bearer &lt;access token>_
+   * header: indica que o token de acesso deve ser inserido como um cabeçalho, o nome do cabeçalho definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myHeader, o token de acesso será inserido como um cabeçalho como: _myHeader: &lt;access token>_
+   * queryParam: indica que o token de acesso deve ser inserido como um queryParam, o nome do parâmetro do query definido pela propriedade tokenTarget. Por exemplo, se o tokenTarget for myQueryParam, o URL da chamada de ação será: _&lt;url>?myQueryParam=&lt;access token>_
 
 * tokenInResponse: indica como extrair o token de acesso da chamada de autenticação. Essa propriedade pode ser:
    * &#39;response&#39;: indica que a resposta HTTP é o token de acesso
-   * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;caminho para a propriedade token de acesso>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será: _json: //access_token_
+   * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;path to the access token property>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será: _json: //access_token_
 
-O formato desta autenticação é:
+O formato dessa autenticação é:
 
 ```
 {
