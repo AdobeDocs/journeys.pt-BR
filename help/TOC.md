@@ -3,8 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Ajuda do Journey Orchestration
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -23,10 +26,10 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
    + [Solução de problemas](using/about/troubleshooting.md)
 + Configurar um evento {#events-journeys}
    + [Sobre eventos](using/event/about-events.md)
-   + [Sobre Schemas ExperienceEvent](using/event/experience-event-schema.md)
+   + [Sobre schemas ExperienceEvent](using/event/experience-event-schema.md)
    + [Definir campos de carga](using/event/defining-the-payload-fields.md)
-   + [Selecionar o namespace](using/event/selecting-the-namespace.md)
-   + [Definie a chave de evento](using/event/defining-the-event-key.md)
+   + [Selecionar namespace](using/event/selecting-the-namespace.md)
+   + [Definir a chave de evento](using/event/defining-the-event-key.md)
    + [Adicionar uma condição](using/event/adding-a-condition.md)
    + [Visualizar a carga](using/event/previewing-the-payload.md)
    + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
@@ -49,8 +52,8 @@ source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
       + [Usar o designer de jornada](using/building-journeys/using-the-journey-designer.md)
       + [Alterar propriedades](using/building-journeys/changing-properties.md)
       + [Versões de jornada](using/building-journeys/journey-versions.md)
-      + [Encerrar uma viagem](using/building-journeys/terminating-a-journey.md)
-      + [Gerenciar fuso horário](using/building-journeys/timezone-management.md)
+      + [Encerrar uma jornada](using/building-journeys/terminating-a-journey.md)
+      + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
    + Atividades {#about-journey-building}
       + [Atividades de eventos](using/building-journeys/event-activities.md)
       + Atividades de orquestração {#orchestration-activities}
