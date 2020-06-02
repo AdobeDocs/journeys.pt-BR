@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a1c4eed8360efcbfcaa5e54c8831e1a4b2ecc02e
-workflow-type: ht
-source-wordcount: '1214'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
+workflow-type: tm+mt
+source-wordcount: '1270'
+ht-degree: 95%
 
 ---
 
@@ -163,4 +163,30 @@ O formato dessa autenticação é:
     },
     "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
 }
+```
+
+É possível alterar a duração do cache do token para uma fonte de dados de autenticação personalizada. Abaixo está um exemplo de uma carga de autenticação personalizada. A duração do cache é definida no parâmetro &quot;cacheDuration&quot;. Especifica a duração de retenção do token gerado no cache. A unidade pode ser milissegundos, segundos, minutos, horas, dias, meses, anos.
+
+```
+"authentication": {
+    "type":"customAuthorization",
+    "authorizationType":"Bearer",
+    "endpoint":"http://localhost:${port}/epsilon/oauth2/access_token",
+    "method":"POST",
+    "headers": {
+        "Authorization":"Basic EncodeBase64(${epsilonClientId}:${epsilonClientSecret})"
+        },
+    "body": {
+        "bodyType":"form",
+        "bodyParams": {
+             "scope":"cn mail givenname uid employeeNumber",
+             "grant_type":"password",
+             "username":"${epsilonUserName}",
+             "password":"${epsilonUserPassword}"
+             }
+        },
+    "tokenInResponse":"json://access_token",
+    "cacheDuration":
+             { "duration":5, "timeUnit":"seconds" }
+    }
 ```
