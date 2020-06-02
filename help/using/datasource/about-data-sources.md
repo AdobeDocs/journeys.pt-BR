@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 690f8c1732c7d54c234e9ba633a2cf014492f423
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 88%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Sobre fontes de dados"
->abstract="A configuração da fonte de dados é sempre executada por um usuário técnico. A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, para: definição de condição, parâmetro e dados de personalização em ações, definição de espera personalizada e definição de fuso horário personalizado."
+>abstract="A configuração da fonte de dados é sempre executada por um usuário técnico. A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas viagens, para: definição de condição, parâmetro e dados de personalização em ações, definição de espera personalizada, definição de fuso horário."
 
 A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, para:
 
 * [definição de condição](../building-journeys/condition-activity.md)
 * parâmetros e dados de personalização em [ações](../action/action.md)
 * [definição de espera personalizada](../building-journeys/wait-activity.md#custom)
-* [definição de fuso horário personalizado](../building-journeys/timezone-management.md)
+* [definição de fuso horário](../building-journeys/timezone-management.md)
 
 Essa configuração não é necessária se suas jornadas só usarem os dados locais provenientes de uma carga útil do evento. Por exemplo, se sua jornada for composta por um evento seguido por uma atividade de email que usa somente os dados do evento, não será necessário configurar uma fonte de dados.
 
