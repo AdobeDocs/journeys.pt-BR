@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4f41428b19f611da15b20a1788b240fadfd49fa
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +26,7 @@ Você pode definir um fuso horário nas [propriedades](../building-journeys/chan
 
 Para acessar Propriedades, clique no ícone de lápis na parte superior direita da tela.
 
-Este fuso horário será utilizado para todas as atividades da viagem que contenham um elemento temporal como:
+Este fuso horário será utilizado para cada atividade da viagem que contenha um elemento de tempo, como:
 
 * [](../building-journeys/condition-activity.md#time_condition)
 * [](../building-journeys/condition-activity.md#date_condition)
@@ -32,7 +35,7 @@ Este fuso horário será utilizado para todas as atividades da viagem que conten
 
 Você pode selecionar um fuso horário ou optar por usar o fuso horário definido no perfil do usuário.
 
-## Definindo um fuso horário fixo {#fixed-timezone}
+## Definição de um fuso horário fixo {#fixed-timezone}
 
 O fuso horário também pode ser fixo. Limpe o fuso horário predefinido e escolha um na lista suspensa. Se você usar um fuso horário fixo, ele será o mesmo para todos os indivíduos que entram na jornada.
 
@@ -40,20 +43,18 @@ Para fazer isso, em **[!UICONTROL Properties]**, selecione um fuso horário.
 
 ![](../assets/journey73.png)
 
-## Uso de perfis para definir o fuso horário de viagem {#timezone-from-profiles}
+## Uso de perfis para definir o fuso horário da jornada {#timezone-from-profiles}
 
-Se o evento de entrada da jornada tiver um namespace, o que significa que a jornada pode chegar ao serviço de Perfil do cliente em tempo real da Plataforma de dados, o fuso horário será pré-definido com o especificado no perfil do indivíduo que flui na jornada.
+Se o evento de entrada da jornada tiver uma namespace, o que significa que a jornada pode chegar ao serviço de Perfil do cliente em tempo real da Plataforma de dados, o fuso horário é pré-definido com o especificado no perfil do indivíduo que flui na jornada.
 
 Se um fuso horário for definido no perfil da plataforma de experiência, ele poderá ser recuperado na jornada.
 
 Se o perfil do indivíduo não contiver um fuso horário, o fuso horário recuperado será aquele definido no campo de fuso horário.
 
-Para isso, faça **[!UICONTROL Properties]**, verifique **[!UICONTROL Use Profile timezone in timers and conditions]**.
+Para fazer isso, faça **[!UICONTROL Properties]**, verifique **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
 ![](../assets/journey72.png)
 
-## Uso de fusos horários em expressões {#timezone-in-expressions}
+## Uso de fusos horários no expressão {#timezone-in-expressions}
 
-Os fusos horários são usados para criar expressões com o editor de expressões avançado. Nesse caso, você usará o editor de expressões para selecionar onde deseja que o sistema obtenha essas informações. Consulte [](../expression/expressionadvanced.md).
-
-As datas de início e de fim de uma viagem não podem estar ligadas a um fuso horário específico. Eles são associados automaticamente ao fuso horário da instância.
+As datas de start e de fim de uma viagem não podem estar ligadas a um fuso horário específico. Eles são associados automaticamente ao fuso horário da instância.
