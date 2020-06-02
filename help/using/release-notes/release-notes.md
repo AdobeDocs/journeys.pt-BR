@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 66e4acb339e9190cf2877c0ab1824ca5f41c8a6d
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,72 @@ ht-degree: 100%
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação](../release-notes/documentation-updates.md).
+
+## Versão do segundo trimestre - junho de 2020 {#q2-release---june-2020}
+
+<table>
+<thead>
+<tr>
+<th><strong>Aprimoramentos de integração da plataforma Adobe Experience</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os seguintes aprimoramentos de integração da plataforma foram feitos:</p>
+<ul>
+<li><p>Uma nova atividade permite ouvir as entradas/saídas do segmento da Plataforma para fazer com que as pessoas entrem ou avancem em uma jornada. <a href="../building-journeys/event-activities.md#segment-qualification">Leia mais</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>Os segmentos da plataforma agora podem ser criados e editados sem sair da interface do Journey Orchestration, graças a uma nova guia <strong>Segmentos</strong> . Disponibilidade efetiva: 15 de junho de 2020. <a href="../segment/about-segments.md">Leia mais</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>No editor de expressões simples, os segmentos da plataforma agora são diretamente listados na árvore de navegação para permitir a configuração fácil de condições como "essa pessoa pertence ao segmento A?". <a href="../segment/using-a-segment.md">Leia mais</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li><p>A Journey Orchestration agora está passando automaticamente, para a Adobe Data Platform, as etapas seguidas pelos indivíduos em viagens. Isso inclui possíveis erros encontrados. Essas informações podem ser usadas para fins de análise ou segmentação. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
+<img src="../assets/rn-sharing.png"/>
+</li>
+<li><p>A Journey Orchestration agora pode ser conectada à produção e à plataforma Sandbox que não seja de produção. Disponibilidade efetiva: 15 de junho de 2020. <a href="../about/access-management.md#sandboxes">Leia mais</a></p>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aprimoramentos no designer de viagens e no modo de teste</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Foram feitos os seguintes aprimoramentos ao designer de viagem e ao modo de teste:</p>
+<ul>
+<li><p>Agora você pode copiar atividades de colagem de uma jornada para outra, selecionando 1 ou N atividades de viagem. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Leia mais</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+<li><p>Depois de disparar um evento para fazer um perfil de teste entrar em uma jornada, você pode ver seu progresso ao longo da jornada graças a um fluxo visual colorido. Em caso de erro na viagem, são também apresentados pormenores sobre os erros. <a href="../building-journeys/testing-the-journey.md#firing_events">Leia mais</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+<li>O estado de viagem <strong>Concluído</strong> foi renomeado <strong>Fechado (sem entrada)</strong> para refletir melhor o que esse estado significa.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Outras melhorias**
+
+Para evitar o envio de muitas chamadas de API para sistemas de terceiros, estamos introduzindo uma nova API pública para configurar regras de &quot;limite&quot;. As regras de limitação permitem a definição de um número máximo de chamadas para um terminal de API por milissegundos. [Leia mais](../api/capping.md)
+
+O Controle de acesso agora permite mais granularidade no gerenciamento de acesso do usuário. Disponibilidade efetiva: 15 de junho de 2020. [Leia mais](../about/access-management.md#create-product-profile)
+
+A Journey Orchestration agora está disponível no APAC (Centro de dados australiano). Disponibilidade efetiva: 15 de junho de 2020
+
+A interface Journey Orchestration está disponível em japonês.
 
 ## Versão do primeiro trimestre - Março de 2020 {#q1-release---march-2020}
 
