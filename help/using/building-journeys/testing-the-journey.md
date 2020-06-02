@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +37,7 @@ Para usar o modo de teste, siga estas etapas:
 
    ![](../assets/journeytest_wait.png)
 
-1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados a perfis de teste. Consulte [Disparando seus eventos](#firing_events).
+1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados aos perfis de teste. Consulte [Disparando seus eventos](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
@@ -70,6 +73,16 @@ A interface permite que você passe parâmetros de evento simples. Se quiser pas
 
 Um usuário técnico também pode usar essa interface para compor cargas úteis de eventos e acionar eventos sem precisar usar uma ferramenta de terceiros.
 
+Ao clicar no botão **Enviar** , o teste é iniciado. A progressão do indivíduo na jornada é representada por um fluxo visual. O caminho se torna progressivamente verde à medida que o indivíduo se move através da jornada. Se ocorrer um erro, um símbolo de aviso será exibido na etapa correspondente. Você pode colocar o cursor nele para exibir mais informações sobre o erro e acessar os detalhes completos (quando disponíveis).
+
+![](../assets/journeytest6.png)
+
+Quando você seleciona um perfil de teste diferente na tela de configuração do evento e executa o teste novamente, o fluxo visual é apagado e mostra o caminho do novo indivíduo.
+
+Ao abrir uma jornada no teste, o caminho exibido corresponde ao último teste executado.
+
+O fluxo visual só é exibido quando o evento enviado para a jornada é definido na tela de configuração do evento. Se o evento for definido externamente, por exemplo usando o Postman, o fluxo visual não será exibido.
+
 ## Exibição dos registros {#viewing_logs}
 
 O **[!UICONTROL Show log]** botão permite que você visualização os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados de teste da jornada.
@@ -92,3 +105,9 @@ O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentr
 * _TransitionHistory_: a lista de etapas que o indivíduo seguiu. Para eventos, a carga é exibida.
 * _actionExecutionErrors_ : informações sobre os erros que ocorreram.
 
+Estes são os diferentes status da jornada de um indivíduo:
+
+* _Em execução_: o indivíduo está atualmente na viagem.
+* _Concluído_: o indivíduo está no final da viagem.
+* _Erro_: o indivíduo é parado na viagem por causa de um erro.
+* _Tempo limite_: o indivíduo é parado na viagem por causa de um passo que levou muito tempo.
