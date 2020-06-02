@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0bf8ce5974b7be684a156d5c5445dca122213237
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3b19e771b6fa3a679a36398c12417b190ee7ff18
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 77%
 
 ---
 
@@ -24,12 +24,24 @@ ht-degree: 100%
 Esta página lista todas as atualizações de documentação do Journey Orchestration.
 Você também pode consultar as [Notas de versão](../release-notes/release-notes.md)do Journey Orchestration.
 
+## June 2020 {#june-2020}
+
+* Foram adicionadas informações sobre como alterar a duração do cache do token para uma fonte de dados de autenticação personalizada. [Leia mais](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Capturas de tela e texto atualizados para refletir a renomeação do estado de viagem **Concluído** que foi alterado para **Fechado (sem entrada)**.
+* Foram adicionadas informações sobre como o idioma é definido para a interface. [Leia mais](../about/user-interface.md)
+* A lista dos status da jornada de um indivíduo foi movida para a seção [Testar logs](../building-journeys/testing-the-journey.md#viewing_logs) do modo.
+
+## Abril de 2020 {#april-2020}
+
+* Adicionada uma nova seção sobre a definição do schema do evento da experiência para ajudar os usuários a configurar seu primeiro evento. [Leia mais](../event/experience-event-schema.md)
+* A documentação do home page for Journey Orchestration foi atualizada com links úteis adicionais. [Leia mais](../../journey-orchestration-home.md)
+
 ## Março de 2020 {#march-2020}
 
 * Adição de descrições de parâmetros para _actionExecutionErrors_ e _fetchErrors_ na seção de logs de teste. [Leia mais](../building-journeys/testing-the-journey.md#viewing_logs)
 * As limitações das ações personalizadas usadas em uma jornada foram atualizadas. Também é possível modificar o campo **URL** e os parâmetros de **Autenticação**. [Leia mais](../action/about-custom-action-configuration.md)
 * Novas entradas de ajuda contextual foram adicionadas. O painel de carga útil de autenticação personalizada (em ações e fontes de dados) agora inclui um ícone de ajuda que se vincula a esta [seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-* Agora, as jornadas concluídas podem ser interrompidas. [Leia mais](../building-journeys/using-the-journey-designer.md)
+* As viagens fechadas podem agora ser interrompidas. [Leia mais](../building-journeys/using-the-journey-designer.md)
 * A seção de descrição da interface foi reorganizada. [Leia mais](../about/user-interface.md)
 * O acionamento de vários eventos foi adicionado à seção Modo de teste [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
 * A seção Modo de teste foi atualizada com relação ao novo parâmetro **Tempo de espera em teste**. [Leia mais](../building-journeys/testing-the-journey.md)
@@ -39,10 +51,10 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 * A descrição da interface foi atualizada com informações sobre ajuda contextual. [Leia mais](../about/user-interface.md#section_ksq_zr1_ffb)
 * Ao navegar pelos **campos XDM**, o nome amigável agora é exibido. As seções relacionadas foram atualizadas. [Leia mais](../about/user-interface.md#friendly-names-display)
 
-
 ## Fevereiro de 2020 {#february-2020}
 
 * A seção de atalho foi atualizada. O atalho **C** do teclado permite criar um novo item em todas as telas de lista. [Leia mais](../about/user-interface.md#section_ksq_zr1_ffb)
+* As páginas de visão geral da fonte [de](../datasource/about-data-sources.md) dados e da [ação](../action/action.md) foram aprimoradas.
 
 ## Janeiro de 2020 {#january-2020}
 
