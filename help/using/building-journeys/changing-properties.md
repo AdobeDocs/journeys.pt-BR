@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
+source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: 76369cd714c513e0038278ad058bf1ba43fcd240
 
 Clique no ícone de lápis, na parte superior direita, para acessar as propriedades da jornada.
 
-Você pode alterar o nome da jornada, adicionar uma descrição, permitir a reentrada, escolher datas de início e término e definir uma **[!UICONTROL Timeout and error]** duração se você for administrador.
+Você pode alterar o nome da jornada, adicionar uma descrição, permitir a reentrada, escolher datas de start e término e definir uma **[!UICONTROL Timeout and error]** duração se você for administrador.
 
 ![](../assets/journey32.png)
 
 ## Entrada{#entrance}
 
-Por padrão, novas viagens permitem a reentrada. Você pode desmarcar a opção para viagens de &quot;uma foto&quot;, por exemplo, se quiser oferecer um presente único quando uma pessoa entrar em uma loja. Nesse caso, você não quer que o cliente possa entrar novamente na viagem e receber a oferta novamente.
+Por padrão, novas viagens permitem a reentrada. Você pode desmarcar a opção por viagens de &quot;uma foto&quot;, por exemplo, se quiser oferta de um presente único quando uma pessoa entrar em uma loja. Nesse caso, você não quer que o cliente seja capaz de entrar novamente na viagem e receber a oferta novamente.
 
-Quando uma viagem &quot;termina&quot;, ela terá status **[!UICONTROL Finished]**. A viagem deixará de deixar novos indivíduos entrarem na viagem. As pessoas que já se encontram na viagem terminarão a viagem normalmente.
+Quando uma viagem &quot;termina&quot;, ela terá status **[!UICONTROL Closed (no entrance)]**. A viagem deixará de deixar novos indivíduos entrarem na viagem. As pessoas que já se encontram na viagem terminarão a viagem normalmente.
 
 ## Tempo limite e erro nas atividades de viagem {#timeout_and_error}
 
@@ -43,7 +46,7 @@ A Journey Orchestration também utiliza um tempo limite global. Consulte a [pró
 
 ## Tempo limite de jornada global {#global_timeout}
 
-Além do [tempo limite](#timeout_and_error) utilizado nas atividades de viagem, existe também um tempo limite de viagem global que não é apresentado na interface e não pode ser alterado. Este tempo limite interromperá o progresso dos indivíduos na viagem 30 dias após a sua entrada. Isto significa que a viagem de um indivíduo não pode durar mais de 30 dias. Após o período de tempo limite de 30 dias, os dados do indivíduo são excluídos. As pessoas que continuam a fluir na viagem no final do período de tempo limite serão interrompidas e serão tidas em conta como erros na comunicação.
+Além do [tempo limite](#timeout_and_error) utilizado nas atividades de viagem, existe também um tempo limite de viagem global que não é apresentado na interface e não pode ser alterado. Este tempo limite interromperá o progresso dos indivíduos na viagem 30 dias após a sua entrada. Isto significa que a viagem de um indivíduo não pode durar mais de 30 dias. Após o período de tempo limite de 30 dias, os dados do indivíduo são excluídos. As pessoas que continuam a fluir na viagem no final do período de tempo limite serão interrompidas e serão tidas em conta como erros de relatórios.
 
 >[!NOTE]
 >
