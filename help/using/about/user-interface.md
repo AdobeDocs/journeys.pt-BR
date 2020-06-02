@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
-workflow-type: ht
-source-wordcount: '995'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 817df02d78c4b9d213895cd7201ab1c2c883b188
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Para tirar o melhor proveito do Journey Orchestration, recomendamos usar o Chrome como navegador de Internet.
+>Para tirar o melhor proveito do Journey Orchestration, recomendamos usar o Chrome como navegador de Internet. A interface é exibida no idioma definido no IMS. Se o seu idioma IMS não for suportado pelo Journey Orchestration, a interface será exibida em inglês.
 >
 >Esta documentação é atualizada com frequência para refletir as alterações recentes no produto. Entretanto, algumas capturas de tela podem diferir ligeiramente da interface do produto.
 
@@ -40,7 +40,7 @@ Você também pode acessar o Journey Orchestration pela página inicial da Exper
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Sobre a lista da jornada"
->abstract="A lista de jornadas permite visualizar todas as suas jornadas de uma só vez, ver seu status e executar ações básicas. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada concluída. Você pode criar uma nova versão ou duplicá-la. Você também pode usar a barra de pesquisa para procurar uma jornada."
+>abstract="A lista de jornadas permite visualizar todas as suas jornadas de uma só vez, ver seu status e executar ações básicas. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada que esteja fechada. Você pode criar uma nova versão ou duplicá-la. Você também pode usar a barra de pesquisa para procurar uma jornada."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Assista ao vídeo de demonstração"
 
 Os menus superiores permitem navegar pelas diferentes funcionalidades do Journey Orchestration: **[!UICONTROL Home]**(as jornadas),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
