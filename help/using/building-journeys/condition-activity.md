@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 538b350165365479caef499a74346381643033d5
+source-git-commit: 11c266b035bc1bb83cccf4e3958e54e1eb00e9f4
+workflow-type: tm+mt
+source-wordcount: '677'
+ht-degree: 1%
 
 ---
 
@@ -27,9 +30,9 @@ Há quatro tipos de condições disponíveis:
 
 ![](../assets/journey49.png)
 
-## Sobre a atividade Condição {#about_condition}
+## Sobre a atividade Condition {#about_condition}
 
-Clique **[!UICONTROL Add a path]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade.
+Clique em **[!UICONTROL Add a path]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade.
 
 ![](../assets/journey47.png)
 
@@ -37,22 +40,25 @@ Observe que o projeto de viagens tem impactos funcionais. Quando vários caminho
 
 ![](../assets/journey48.png)
 
-Você pode criar outro caminho para públicos que não sejam elegíveis às condições definidas, verificando **[!UICONTROL Show path for other cases than the one(s) above]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão](#percentage_split)de porcentagem.
+Você pode criar outro caminho para audiências que não sejam elegíveis às condições definidas, verificando **[!UICONTROL Show path for other cases than the one(s) above]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão](#percentage_split)de porcentagem.
 
-O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, interbloqueie-os entre si para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
+O modo simples permite executar query simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, interbloqueie-os entre si para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
 * E: uma interseção de dois critérios. Somente os elementos que correspondem a todos os critérios são considerados.
 * OU: uma união de dois critérios. São tidos em conta os elementos que correspondem a pelo menos um dos dois critérios.
 
 ![](../assets/journey64.png)
 
+Se você estiver usando o Serviço [de segmentação de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) plataforma para criar seus segmentos, poderá aproveitá-los nas condições de viagem. Consulte [Uso de segmentos em condições](../segment/using-a-segment.md).
+
+
 >[!NOTE]
 >
->Não é possível executar consultas em séries cronológicas (por exemplo, uma lista de compras, cliques passados em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [](../expression/expressionadvanced.md).
+>Não é possível executar query em séries cronológicas (por exemplo, uma lista de compras, cliques passados em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [](../expression/expressionadvanced.md).
 
 ## Condição da fonte de dados {#data_source_condition}
 
-Isso permite definir uma condição com base nos campos das fontes de dados ou dos eventos posicionados anteriormente na jornada. Para saber como usar o editor de expressões, consulte [](../expression/expressionadvanced.md). Usando o editor de expressões avançadas, é possível configurar condições mais avançadas manipulando coleções ou usando fontes de dados que exigem a passagem de parâmetros. Consulte [](../datasource/external-data-sources.md).
+Isso permite definir uma condição com base nos campos das fontes de dados ou dos eventos posicionados anteriormente na jornada. Para saber como usar o editor de expressões, consulte [](../expression/expressionadvanced.md). Usando o editor de expressões avançado, você pode configurar condições mais avançadas manipulando coleções ou usando fontes de dados que exigem a passagem de parâmetros. Consulte [](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -68,7 +74,7 @@ Isso permite executar ações diferentes de acordo com a hora do dia e/ou o dia 
 
 ## Divisão de porcentagem {#percentage_split}
 
-Essa opção permite que você divida aleatoriamente o público-alvo para definir uma ação diferente para cada grupo. Defina o número de divisões e a repartição para cada caminho. O cálculo da divisão é estatístico, já que o sistema não consegue prever quantas pessoas fluirão nesta atividade da viagem. Como resultado, a divisão tem uma margem de erro muito baixa. Essa função se baseia em um mecanismo aleatório Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Essa opção permite que você divida aleatoriamente a audiência para definir uma ação diferente para cada grupo. Defina o número de divisões e a repartição para cada caminho. O cálculo da divisão é estatístico, já que o sistema não consegue prever quantas pessoas fluirão nesta atividade da viagem. Como resultado, a divisão tem uma margem de erro muito baixa. Essa função se baseia em um mecanismo aleatório Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
 >[!NOTE]
 >
