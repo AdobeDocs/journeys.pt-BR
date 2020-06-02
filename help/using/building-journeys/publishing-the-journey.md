@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: ffcb0bd7c6b94a412878bae16ac9ffd1742d34d2
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 5%
 
 ---
 
@@ -20,20 +23,13 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 Você pode publicar uma jornada depois de testar sua validade.
 
-Se você precisa fazer modificações em uma jornada publicada, você precisa criar uma nova versão de sua jornada. Consulte [](../building-journeys/journey-versions.md). Quando uma jornada é somente leitura, você só pode modificar os rótulos e as descrições da atividade, o nome da jornada e a descrição da jornada.
+Se você precisa fazer modificações em uma jornada publicada, você precisa criar uma nova versão de sua jornada. Consulte [](../building-journeys/journey-versions.md). Quando uma jornada é somente leitura, você só pode modificar as etiquetas e descrições das atividades, o nome da jornada e a descrição da jornada.
 
-Se pararmos uma viagem, ela será permanentemente interrompida. Todas as pessoas que fluem na viagem serão permanentemente interrompidas e a viagem deixará de permitir novas entradas. Se você precisar usar a jornada novamente, você precisa duplicá-la e publicá-la.
+Se pararmos uma viagem, ela será permanentemente interrompida. Todas as pessoas que fluem na viagem serão permanentemente interrompidas e a viagem deixará de permitir novas entradas. Se você precisar usar a jornada novamente, você precisa duplicado-la e publicá-la.
 
-1. Antes de publicar sua jornada, verifique se ela é válida e se não há erro. Você não poderá publicar uma jornada com erros. Consulte [](../about/troubleshooting.md#section_h3q_kqk_fhb). Também é recomendado testar sua jornada antes da publicação. Consulte [](../building-journeys/testing-the-journey.md).
-1. Para publicar a jornada, clique na **[!UICONTROL Publish]**opção, localizada no menu suspenso superior direito.
+1. Antes de publicar sua jornada, verifique se ela é válida e se não há erro. Você não será capaz de publicar uma jornada com erros. Consulte [](../about/troubleshooting.md#section_h3q_kqk_fhb). Também é recomendável testar sua jornada antes da publicação. Consulte [](../building-journeys/testing-the-journey.md).
+1. Para publicar a jornada, clique na **[!UICONTROL Publish]** opção, localizada no menu suspenso superior direito.
 
    ![](../assets/journeyuc1_18.png)
 
 Quando a jornada é publicada, ela está em modo somente leitura.
-
-Estes são os diferentes status da jornada de um indivíduo:
-
-* _Em execução_: o indivíduo está atualmente na viagem.
-* _Concluído_: o indivíduo está no final da viagem.
-* _Erro_: o indivíduo é parado na viagem por causa de um erro.
-* _Tempo limite_: o indivíduo é parado na viagem por causa de um passo que levou muito tempo.
