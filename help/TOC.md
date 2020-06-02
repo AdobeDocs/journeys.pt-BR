@@ -3,11 +3,11 @@ product: Journeys
 audience: end-user
 user-guide-title: Ajuda do Journey Orchestration
 index: true
-translation-type: ht
-source-git-commit: ea891b40633378843a00a3ac56c6703f792d39e1
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b199c8c2d0940b5ba3b0093cf8a654739249263d
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 87%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 100%
       + [Limitações de ação personalizada](using/action/custom-action-limitations.md)
       + [Configurar o URL](using/action/url-configuration.md)
       + [Definir os parâmetros da mensagem](using/action/defining-the-message-parameters.md)
++ Uso de segmentos de plataforma {#configuring-segment}
+   + [Sobre segmentos de plataforma](using/segment/about-segments.md)
+   + [Criação de um segmento](using/segment/creating-a-segment.md)
+   + [Uso de segmentos em condições](using/segment/using-a-segment.md)
 + Construir uma jornada {#building-journeys}
    + Sobre a construção de jornada {#about-journey-building}
       + [Criar uma jornada](using/building-journeys/journey.md)
@@ -67,6 +71,13 @@ ht-degree: 100%
          + [Usar ações personalizadas](using/building-journeys/using-custom-actions.md)
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
+   + Compartilhando etapas de viagem com a plataforma {#sharing-journey-steps}
+      + [Visão geral do compartilhamento de etapas de jornada](using/building-journeys/sharing-overview.md)
+      + [campos comuns de eventos de passos](using/building-journeys/sharing-common-fields.md)
+      + [campos de execução de ação de eventos JourStep](using/building-journeys/sharing-execution-fields.md)
+      + [campos de busca de dados dos eventos JourStep](using/building-journeys/sharing-fetch-fields.md)
+      + [campos de identidade do evento JourStep](using/building-journeys/sharing-identity-fields.md)
+      + [campos de viagem](using/building-journeys/sharing-journey-fields.md)
 + Usar o editor de expressões avançadas {#building-advanced-conditions-journeys}
    + [Sobre o editor de expressões avançadas](using/expression/expressionadvanced.md)
    + Sintaxe {#syntax}
@@ -163,4 +174,6 @@ ht-degree: 100%
       + [Configurar as fontes de dados](using/usecase/configuring-the-data-sources.md)
       + [Construir a jornada](using/usecase/building-the-journey.md)
    + [Aproveitar pontuações de fadiga](using/usecase/leveraging-fatigue-scores.md)
++ Trabalho com APIs{#working-with-apis}
+   + [Captando APIs](using/api/capping.md)
 
