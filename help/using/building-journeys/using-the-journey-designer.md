@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 7bdba1be0b5fe95417038c0d6788e76b155104aa
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 4%
 
 ---
 
@@ -22,9 +25,9 @@ O menu Início da jornada permite que você visualização a **lista das viagens
 
 ## A lista da viagem {#journey_list}
 
-A lista **de** viagem permite visualização de todas as suas viagens de uma só vez, ver seu status e realizar ações básicas. Você pode duplicado, parar ou excluir suas viagens. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada que esteja concluída. Você pode criar uma nova versão dela, duplicado ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada que esteja fechada. Você pode criar uma nova versão dela, duplicado ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
 
-Para **[!UICONTROL Filters]** acessá-lo, clique no ícone de filtro na parte superior esquerda da lista. O menu filtros permite que você filtre as viagens exibidas de acordo com critérios diferentes (status, aqueles criados, os modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as viagens que usam um evento, grupo de campos ou ação específicos. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
+O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na parte superior esquerda da lista. O menu filtros permite que você filtre as viagens exibidas de acordo com critérios diferentes (status, aqueles criados, os modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as viagens que usam um evento, grupo de campos ou ação específicos. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
 
 ![](../assets/journey74.png)
 
@@ -68,7 +71,7 @@ Na tela, suas atividades de ação e evento são representadas por um ícone com
 
 ## As ações da barra superior {#top_actions}
 
-Dependendo do status da jornada, você pode realizar ações diferentes na sua jornada usando os botões disponíveis no canto superior direito: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Esses botões aparecem quando nenhuma atividade é selecionada. Alguns botões serão exibidos contextualmente. O botão de log do modo de teste é exibido quando o modo de teste é ativado (consulte [](../building-journeys/testing-the-journey.md)). O botão relatórios é exibido quando a jornada está ao vivo, parada ou concluída.
+Dependendo do status da jornada, você pode realizar ações diferentes na sua jornada usando os botões disponíveis no canto superior direito: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Esses botões aparecem quando nenhuma atividade é selecionada. Alguns botões serão exibidos contextualmente. O botão de log do modo de teste é exibido quando o modo de teste é ativado (consulte [](../building-journeys/testing-the-journey.md)). O botão relatórios é exibido quando a jornada está ao vivo, parada ou fechada.
 
 ![](../assets/journey41.png)
 
@@ -89,3 +92,28 @@ Para excluir o caminho, posicione o cursor nele e clique no **[!UICONTROL Delete
 Na tela de desenho, quando duas atividades são desconectadas, um aviso é exibido. Coloque o cursor no ícone de aviso para exibir a mensagem de erro. Para corrigir o problema, basta mover a atividade desconectada e conectá-la à atividade anterior.
 
 ![](../assets/canvas-disconnected.png)
+
+## Copiar e colar atividades {#copy-paste}
+
+Você pode copiar uma ou várias atividades de uma jornada e colá-las na mesma jornada ou em uma diferente. Isso permite economizar tempo se você quiser reutilizar várias atividades que já foram configuradas em uma jornada anterior.
+
+**Observações importantes**
+
+* Você pode copiar/colar em diferentes guias e navegadores. Você só pode copiar/colar atividades na mesma instância.
+* Não é possível copiar/colar um evento se a jornada de destino tiver um evento que use uma namespace diferente.
+* atividades coladas podem fazer referência a dados que não existem na jornada de destino, por exemplo, se você copiar/colar em diferentes caixas de proteção. Sempre verifique se há erros e faça os ajustes necessários.
+* Lembre-se de que não é possível desfazer uma ação. Para excluir atividades coladas, é necessário selecioná-las e excluí-las. Portanto, selecione apenas as atividades necessárias antes de copiá-las.
+* Você pode copiar atividades de qualquer jornada, mesmo aquelas que estão em somente leitura.
+* É possível selecionar qualquer atividade, mesmo aquelas que não estão vinculadas. As atividades vinculadas permanecerão vinculadas após serem coladas.
+
+Estas são as etapas para copiar/colar atividades:
+
+1. Abra uma jornada.
+1. Selecione as atividades que deseja copiar movendo o mouse enquanto clica. Você também pode clicar em cada atividade enquanto pressiona a tecla **Ctrl/Command** . Use **Ctrl/Command + A** se desejar selecionar todas as atividades.
+   ![](../assets/copy-paste1.png)
+1. Pressione **Ctrl/Command + C**.
+Se quiser copiar apenas uma atividade, clique nela e use o ícone **Copiar** na parte superior esquerda do painel de configuração da atividade.
+   ![](../assets/copy-paste2.png)
+1. Em qualquer jornada, pressione **Ctrl/Command + V** para colar as atividades sem vinculá-las a um nó existente. atividades coladas são colocadas na mesma ordem. Depois de coladas, as atividades permanecem selecionadas para que você possa movê-las facilmente. Você também pode colocar o cursor em um espaço reservado vazio e pressionar **Ctrl/Command + V**. atividades coladas serão vinculadas ao nó.
+   ![](../assets/copy-paste3.png)
+
