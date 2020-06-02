@@ -11,30 +11,32 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 3%
 
 ---
 
 
 # Sobre o editor de expressões avançadas {#concept_uyj_trt_52b}
 
-O editor de expressões avançadas permite criar expressões avançadas em várias telas da interface, por exemplo, ao definir uma condição de fonte de dados.
+O editor de expressões avançado permite criar expressões avançadas em várias telas da interface, por exemplo, ao definir uma condição de fonte de dados.
 Ele também está disponível sempre que for necessário definir parâmetros de ação que exijam manipulações de dados específicas. Você pode aproveitar os dados provenientes dos eventos ou informações adicionais recuperadas da fonte de dados. Em uma jornada, a lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada.
 
-O editor de expressões avançadas oferece um conjunto de funções e operadores incorporados para permitir que você manipule valores e defina uma expressão que se ajuste especificamente às suas necessidades. O editor de expressões avançadas também permite que você defina os valores do parâmetro de fonte de dados externa, manipule campos de mapa e coleções, como eventos de experiência.
+O editor de expressões avançado oferta um conjunto de funções e operadores incorporados para permitir que você manipule valores e defina uma expressão que se ajuste especificamente às suas necessidades. O editor de expressões avançado também permite que você defina os valores do parâmetro de fonte de dados externa, manipule campos de mapa e coleções, como eventos de experiência.
 
 ![](../assets/journey65.png)
 
-_A interface do editor de expressões avançadas_
+_A interface avançada do editor de expressões_
 
-O editor de expressões avançadas pode ser usado para:
+O editor de expressões avançado pode ser usado para:
 
-* criar condições [](../building-journeys/condition-activity.md#about_condition) avançadas em fontes de dados e informações de eventos
-* definir fusos [horários](../building-journeys/timezone-management.md) personalizados em condições de data, atividades de espera de data fixa, atividades de espera personalizadas
-* definir atividades [de espera personalizadas](../building-journeys/wait-activity.md#custom)
+* criar condições [](../building-journeys/condition-activity.md#about_condition) avançadas em fontes de dados e informações do evento
+* definir atividades de [espera personalizadas](../building-journeys/wait-activity.md#custom)
 * definir mapeamento de parâmetros de ação
 
-Quando possível, você pode alternar entre os dois modos usando o botão **[!UICONTROL Advanced mode]**/**[!UICONTROL Simple mode]** . O modo simples é descrito [aqui](../building-journeys/condition-activity.md#about_condition).
+Quando possível, você pode alternar entre os dois modos usando o botão **[!UICONTROL Advanced mode]** / **[!UICONTROL Simple mode]** . O modo simples é descrito [aqui](../building-journeys/condition-activity.md#about_condition).
 
 >[!NOTE]
 >
@@ -42,28 +44,28 @@ Quando possível, você pode alternar entre os dois modos usando o botão **[!UI
 >
 >Parâmetros de ações podem ser definidos selecionando campos ou por meio do editor de expressões avançado. Eles retornam um tipo de dados específico de acordo com sua expressão.
 
-## Acessar o editor de expressões avançadas {#section_fdz_4nj_cjb}
+## Accessing the advanced expression editor {#section_fdz_4nj_cjb}
 
-Você pode acessar o editor de expressões avançadas de diferentes maneiras:
+Você pode acessar o editor de expressões avançado de diferentes maneiras:
 
 * Ao criar uma condição de fonte de dados, você pode acessar o editor avançado clicando em **[!UICONTROL Advanced mode]**.
 
    ![](../assets/journeyuc2_33.png)
 
-* Ao criar um fuso horário personalizado ou um temporizador personalizado, o editor avançado será exibido diretamente.
+* Ao criar um temporizador personalizado, o editor avançado será exibido diretamente.
 * Ao mapear o parâmetro de ação, clique em **[!UICONTROL Advanced mode]**.
 
 ## Descobrir a interface{#section_otq_tnj_cjb}
 
-Essa tela permite que você escreva sua expressão manualmente.
+Esta tela permite que você escreva manualmente sua expressão.
 
 ![](../assets/journey70.png)
 
 Na parte esquerda da tela, são exibidos os campos e as funções disponíveis:
 
-* **[!UICONTROL Events]**: escolha um dos campos recebidos do evento de entrada. A lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada.
+* **[!UICONTROL Events]**: escolha um dos campos recebidos do evento de entrada. A lista exibida dos campos do evento é contextual e varia de acordo com os eventos adicionados na jornada.
 * **[!UICONTROL Data Sources]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados.
-* **[!UICONTROL Functions]**: escolha na lista de funções incorporadas que permitem executar filtragem complexa. As funções são organizadas por categorias.
+* **[!UICONTROL Functions]**: escolha entre uma lista de funções incorporadas que permitem executar filtragem complexa. As funções são organizadas pelo categoria.
 
 ![](../assets/journey65.png)
 
