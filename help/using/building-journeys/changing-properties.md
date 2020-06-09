@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20ffc07586ba34d94b2b2369b23be867d8488363
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Os valores autorizados estão entre 1 e 30 segundos.
 
 Recomendamos que você defina um **[!UICONTROL Timeout and error]** valor muito curto se sua jornada for sensível ao tempo (por exemplo: reação ao local em tempo real de uma pessoa) porque não é possível atrasar a ação por mais de alguns segundos. Se sua jornada for menos sensível ao tempo, você poderá usar um valor maior para dar mais tempo ao sistema chamado para enviar uma resposta válida.
 
-A Journey Orchestration também utiliza um tempo limite global. Consulte a [próxima seção](#global_timeout).
+[!DNL Journey Orchestration] também usa um tempo limite global. Consulte a [próxima seção](#global_timeout).
 
 ## Tempo limite de jornada global {#global_timeout}
 
@@ -50,7 +50,7 @@ Além do [tempo limite](#timeout_and_error) utilizado nas atividades de viagem, 
 
 >[!NOTE]
 >
->O Journey Orchestration não reage diretamente às solicitações de cancelamento, acesso ou exclusão da privacidade. No entanto, o tempo limite global garante que os indivíduos nunca permaneçam mais de 30 dias em qualquer jornada.
+>[!DNL Journey Orchestration] não reage diretamente às solicitações de cancelamento, acesso ou exclusão da privacidade. No entanto, o tempo limite global garante que os indivíduos nunca permaneçam mais de 30 dias em qualquer jornada.
 
 Devido ao tempo limite de 30 dias de viagem, quando a reentrada da viagem não é permitida, não podemos garantir que o bloqueio de reentrada funcione mais de 30 dias. Com efeito, à medida que retiramos todas as informações sobre as pessoas que entraram na viagem 30 dias após a sua entrada, não podemos conhecer a pessoa que entrou anteriormente, há mais de 30 dias.
 
