@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6a98eca551bf5fc46ebd3a6d0d11486e3fbe06b
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # Visão geral do compartilhamento de etapas de jornada{#sharing-overview}
 
-O Journey Orchestration envia automaticamente os dados de desempenho da jornada para a Adobe Experience Platform para que possam ser combinados com outros dados para fins de análise.
+[!DNL Journey Orchestration] envia automaticamente os dados de desempenho da jornada para a Adobe Experience Platform para que possam ser combinados com outros dados para fins de análise.
 
-Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar dados do Journey Orchestration com dados de evento downstream, como quantas conversões ocorreram, quanto envolvimento aconteceu no site ou quantas transações ocorreram na loja. As informações de viagem podem ser combinadas com dados na Plataforma, de outras propriedades digitais ou de propriedades offline, para proporcionar uma visualização mais abrangente de desempenho.
+Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar [!DNL Journey Orchestration] dados com dados de evento downstream, como quantas conversões ocorreram, quanto envolvimento aconteceu no site ou quantas transações ocorreram na loja. As informações de viagem podem ser combinadas com dados na Plataforma, de outras propriedades digitais ou de propriedades offline, para proporcionar uma visualização mais abrangente de desempenho.
 
-A Journey Orchestration cria automaticamente os schemas e fluxos necessários em conjuntos de dados para a Plataforma para cada etapa que um indivíduo realizar em uma jornada. Um evento Step corresponde a um indivíduo que se move de um nó para outro em uma jornada. Por exemplo, em uma jornada que tem um evento, uma condição e uma ação, eventos de três etapas são enviados para a Plataforma.
+[!DNL Journey Orchestration] cria automaticamente os schemas e fluxos necessários em conjuntos de dados para a Plataforma para cada etapa que um indivíduo faz em uma jornada. Um evento Step corresponde a um indivíduo que se move de um nó para outro em uma jornada. Por exemplo, em uma jornada que tem um evento, uma condição e uma ação, eventos de três etapas são enviados para a Plataforma.
 
 A lista de campos XDM que são passados é abrangente. Alguns contêm códigos gerados pelo sistema e outros têm nomes amigáveis e legíveis. Os exemplos incluem o rótulo da atividade de viagem ou o status da etapa: quantas vezes uma ação atingiu o tempo limite ou terminou com erro.
 
@@ -45,9 +45,9 @@ As viagens enviam os dados como ocorrem, de forma contínua. É possível query 
 
 Os seguintes schemas são criados:
 
-* schema de Perfil da Etapa da Jornada para a Orquestração da Jornada - Experimente Eventos para as etapas realizadas em uma Jornada junto com um Mapa de Identidade a ser usado para mapear para um Participante da Jornada.
-* schema de Evento de passo de jornada para a orquestração de jornada - evento de passo de jornada vinculado a um Metadado de jornada.
-* schema de Jornada com Campos de Jornada para Orquestração de Jornada - Metadados de Jornada para descrever Jornadas.
+* schema de Perfil da Etapa de Jornada para [!DNL Journey Orchestration] - Eventos de experiência para as etapas realizadas em uma Jornada junto com um Mapa de identidade a ser usado para mapear para um participante individual da jornada.
+* schema de Evento de Etapa de Jornada para [!DNL Journey Orchestration] - evento de etapa de jornada vinculado a um Metadados de Jornada.
+* schema de jornada com campos de jornada para [!DNL Journey Orchestration] - Metadados de jornada para descrever Jornadas.
 
 ![](../assets/sharing1.png)
 
@@ -55,7 +55,7 @@ Os seguintes schemas são criados:
 
 Os seguintes conjuntos de dados são enviados:
 
-* schema do Perfil Journey Step para a orquestração de viagens
+* schema de Perfil da Etapa de Jornada para Evento [!DNL Journey Orchestration]
 * Eventos de Etapa de Jornada
 * Jornadas
 
