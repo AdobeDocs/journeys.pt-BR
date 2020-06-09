@@ -11,27 +11,30 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 3%
 
 ---
 
 
 
-# Etapas adicionais para enviar eventos para a Journey Orchestration {#concept_xrz_n1q_y2b}
+# Additional steps to send events to [!DNL Journey Orchestration] {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->Ao criar um evento, o Journey Orchestration gera automaticamente uma ID para esse evento. O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Consulte [](../event/previewing-the-payload.md).
+>Ao criar um evento, [!DNL Journey Orchestration] gera automaticamente uma ID para esse evento. O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Consulte [](../event/previewing-the-payload.md).
 
-Para configurar eventos a serem enviados e usados no Journey Orchestration, siga estas etapas: **[!UICONTROL Streaming Ingestion APIs]**
+Para configurar eventos a serem enviados para **[!UICONTROL Streaming Ingestion APIs]** e a serem usados em [!DNL Journey Orchestration], siga estas etapas:
 
-1. Obtenha o URL de entrada das APIs da plataforma de dados (consulte APIs [de ingestão de](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)transmissão contínua).
+1. Obtenha o URL de entrada das APIs da plataforma de dados (consulte APIs [de ingestão de](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/overview.html)transmissão contínua).
 1. Copie a carga da pré-visualização de carga no **[!UICONTROL Event]** menu. Consulte [](../event/defining-the-payload-fields.md).
 
 Em seguida, é necessário configurar o sistema de dados que envia eventos para as APIs de ingestão de fluxo usando a carga copiada:
 
 1. Configure uma chamada POST API para o URL das APIs de ingestão de transmissão (chamado de entrada).
-1. Use a carga que você copiou do Journey Orchestration no corpo (&quot;seção de dados&quot;) da chamada de API para APIs de ingestão de fluxo. Veja abaixo um exemplo
+1. Use a carga copiada [!DNL Journey Orchestration] no corpo (&quot;seção de dados&quot;) da chamada da API para APIs de ingestão de fluxo. Veja abaixo um exemplo
 1. Determine onde obter todas as variáveis presentes na carga. Exemplo: se o evento tiver que indicar o endereço, a carga colada mostrará o &quot;endereço&quot;: &quot;string&quot;. &quot;string&quot; deve ser substituída pela variável que preencherá automaticamente o valor correto, o e-mail da pessoa para quem enviar uma mensagem. Observe que na pré-visualização de carga, na **[!UICONTROL Header]** seção, preenchemos automaticamente muitos valores esperados para facilitar seu trabalho.
 1. Selecione &quot;application/json&quot; como um tipo de corpo.
 1. Passe sua ID ORG IMS no cabeçalho usando a chave &quot;x-gw-ims-org-id&quot;. Para o valor, use sua ID ORG IMS (&quot;XXX@AdobeOrg&quot;).
