@@ -11,14 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e53ecd96bbb308fe109843de6f64cde4cba5e246
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 12%
 
 ---
 
 
 # Sobre a configuração de ação personalizada {#concept_sxy_bzs_dgb}
 
-Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser que o Journey Orchestration envie chamadas de API para um sistema de terceiros, é aqui que você configura sua conexão com o Journey Orchestration. A ação personalizada definida pelos usuários técnicos estará disponível na paleta esquerda de sua jornada, na **[!UICONTROL Action]** categoria (consulte [](../building-journeys/about-action-activities.md). Estes são alguns exemplos de sistemas aos quais você pode se conectar com ações personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
+Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser [!DNL Journey Orchestration] enviar chamadas de API para um sistema de terceiros, é aqui que você configura a conexão com [!DNL Journey Orchestration]. A ação personalizada definida pelos usuários técnicos estará disponível na paleta esquerda de sua jornada, na **[!UICONTROL Action]** categoria (consulte [](../building-journeys/about-action-activities.md). Estes são alguns exemplos de sistemas aos quais você pode se conectar com ações personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
 As limitações estão listadas aqui: [](../action/custom-action-limitations.md).
 
 Estas são as principais etapas necessárias para configurar uma ação personalizada:
@@ -34,7 +37,7 @@ Estas são as principais etapas necessárias para configurar uma ação personal
    >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
 
 1. Adicione uma descrição à sua ação. Esta etapa é opcional.
-1. O número de viagens que usam essa ação é exibido no **[!UICONTROL Used in]** campo. Você pode clicar no **[!UICONTROL View journeys]** botão para exibir a lista de viagens usando esta ação.
+1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
 1. Defina os diferentes **[!UICONTROL URL Configuration]** parâmetros. Consulte [](../action/url-configuration.md).
 1. Configure a **[!UICONTROL Authentication]** seção. Essa configuração é a mesma para fontes de dados.  Consulte [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Defina o **[!UICONTROL Message parameters]**. Consulte [](../action/defining-the-message-parameters.md).
