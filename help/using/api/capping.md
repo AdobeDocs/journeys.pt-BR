@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f28bdc0e74359ff9f8d84961769b84973ae3f39
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1065'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## Introdução
 
-As APIs do Journey Orchestration oferecem suporte a 5000 eventos/segundos, mas alguns sistemas externos ou APIs não podem ter um throughput equivalente. É por isso que a Journey Orchestration vem com um recurso dedicado chamado Capping API para monitorar e limitar a taxa que impomos aos sistemas externos.
+[!DNL Journey Orchestration]As APIs do são compatíveis com 5000 eventos/segundos, mas alguns sistemas externos ou APIs não podem ter uma saída equivalente. É por isso que [!DNL Journey Orchestration] vem com um recurso dedicado chamado Capping API para monitorar e limitar a taxa que impomos aos sistemas externos.
 
 Durante uma configuração de fonte de dados, você definirá uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas viagens ou para uma definição de ação, você configurará a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Cada vez que uma chamada de API é executada pelo Journey, a API de limite é consultada, a chamada é enviada pelo mecanismo da API. Se houver um limite definido, a chamada será rejeitada e o sistema externo não será sobrecarregado.
 
@@ -30,9 +30,9 @@ Para saber mais sobre a ação ou a configuração da fonte de dados, consulte [
 
 ## Recursos
 
-A API de limitação do Journey Orchestration é descrita em um arquivo Swagger disponível [aqui](https://adobedocs.github.io/JourneyAPI/docs/).
+A API de [!DNL Journey Orchestration] Capping é descrita em um arquivo Swagger disponível [aqui](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para usar essa API com sua instância do Journey Orchestration, é necessário usar o console do Adobe IO. Você pode start seguindo esta [Introdução ao Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e, em seguida, usar as seções desta página.
+Para usar essa API com sua [!DNL Journey Orchestration] instância, é necessário usar o AdobeIO Console. Você pode start seguindo esta [Introdução ao Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e, em seguida, usar as seções desta página.
 
 Para testar e preparar sua integração, uma coleção do Postman está disponível [aqui](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -40,14 +40,14 @@ Para testar e preparar sua integração, uma coleção do Postman está disponí
 
 ### Configuração do acesso à API
 
-O acesso à API do Journey Orchestration é configurado através das etapas abaixo. Cada uma dessas etapas está detalhada na documentação [de E/S da](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe.
+[!DNL Journey Orchestration] O acesso à API é configurado pelas etapas abaixo. Cada uma dessas etapas está detalhada na documentação [de E/S da](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe.
 
 >[!CAUTION]
 >
 >Para gerenciar certificados no Adobe IO, verifique se você tem direitos de administrador <b>do</b> sistema na organização ou em uma conta <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">de</a> desenvolvedor no Admin Console.
 
 1. **Verifique se você tem um certificado** digital ou crie um, se necessário. As chaves públicas e privadas fornecidas com o certificado são necessárias nas etapas a seguir.
-1. **Crie uma nova integração com o Serviço** Journey Orchestration no Adobe IO e configure-a. O acesso ao perfil do produto é necessário para o Journey Orchestration e a Adobe Experience Platform. Suas credenciais serão geradas (chave da API, segredo do cliente...).
+1. **Crie uma nova integração com o[!DNL Journey Orchestration]Serviço** no Adobe IO e configure-a. O acesso ao perfil do produto é necessário para a plataforma Adobe Experience [!DNL Journey Orchestration] e para a plataforma Adobe Experience. Suas credenciais serão geradas (chave da API, segredo do cliente...).
 1. **Crie um JSON Web Token (JWT)** a partir das credenciais geradas anteriormente e assine-o com sua chave privada. O JWT codifica todas as informações de identidade e segurança necessárias para a Adobe verificar sua identidade e conceder acesso à API. Esta etapa está detalhada nesta [seção](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Troque seu JWT por um Token de acesso** por uma solicitação POST ou pela interface do Developer Console. Esse Token de acesso deverá ser usado em cada cabeçalho das solicitações de API.
 
@@ -67,7 +67,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ACCESS_TOKEN>**: Seu token de acesso pessoal, que foi recuperado ao trocar seu JWT por meio de uma solicitação POST.
 
-* **&lt;API_KEY>**: sua chave de API pessoal. Ele é fornecido em E/S da Adobe após a criação de uma nova integração ao Serviço de orquestração de jornada.
+* **&lt;API_KEY>**: sua chave de API pessoal. Ele é fornecido em E/S da Adobe após criar uma nova integração ao [!DNL Journey Orchestration] Serviço.
 
 
 
@@ -164,14 +164,14 @@ O aviso potencial é:
 
 ## Casos de uso
 
-Nesta seção, você encontrará os cinco principais casos de uso que podem ser executados para gerenciar a configuração de limite no Journey Orchestration.
+Nesta seção, você encontrará os cinco principais casos de uso que podem ser executados para gerenciar a configuração de limite em [!DNL Journey Orchestration].
 
 Para ajudá-lo em seus testes e configurações, uma coleção do Postman está disponível [aqui](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 Esta Coleção Postman foi configurada para compartilhar a coleção Variável Postman gerada por meio das Integrações __[do Console de E/S da](https://console.adobe.io/integrations)Adobe > Testar > Baixar para Postman__, que gera um arquivo de Ambiente Postman com os valores de integrações selecionados.
 
 Depois de baixado e carregado no Postman, é necessário adicionar duas variáveis: `{JO_HOST}` e `{Base_Path}`.
-* `{JO_HOST}` : URL do Gateway do Journey Orchestration
+* `{JO_HOST}` : [!DNL Journey Orchestration] URL do gateway
 * `{BASE_PATH}` : ponto de entrada para a API. O valor é &#39;/authoring&#39;
 
 
