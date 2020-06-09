@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '139'
 ht-degree: 5%
 
 ---
@@ -22,9 +22,7 @@ ht-degree: 5%
 
 # Criação de um segmento {#creating-a-segment}
 
->A guia de segmentos e a criação/modificação de segmentos no Journey Orchestration estarão disponíveis em 15 de junho.
-
-Você pode criar um segmento usando o Serviço [de segmentação de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) plataforma ou acessá-lo e criá-lo diretamente no Journey Orchestration.
+Você pode criar um segmento usando o Serviço [de segmentação de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) plataforma ou acessá-lo e criá-lo diretamente no [!DNL Journey Orchestration].
 
 1. No menu superior, clique na guia **[!UICONTROL Segments]**. A lista de segmentos da plataforma é exibida. Você pode procurar um segmento específico na lista.
 
