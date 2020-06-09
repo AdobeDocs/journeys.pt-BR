@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2a53413c79f0213434f9ca6a7847bd7f20fbf41e
+source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '794'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## Sobre o gerenciamento de acesso {#about-access-management}
 
-A orquestração de jornada permite que você atribua um conjunto de direitos e caixas de proteção aos usuários para definir qual parte da interface eles podem acessar.
+[!DNL Journey Orchestration] permite que você atribua um conjunto de direitos aos usuários para definir qual parte da interface eles podem acessar.
 
 Eles podem ser gerenciados por administradores que têm acesso ao Admin Console. Para obter mais informações sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
 
@@ -56,19 +56,19 @@ Os usuários devem estar sempre vinculados a um perfil de produto, permitindo qu
 * **[!UICONTROL Publish journeys]**
 * **[!UICONTROL Manage reports]**
 
-Você pode encontrar abaixo a compatibilidade entre os direitos e as diferentes funcionalidades da Journey Orchestration.
+Você pode encontrar abaixo a compatibilidade entre os direitos e as diferentes funcionalidades [!DNL Journey Orchestration]do.
 
 ![](../assets/journey_permission.png)
 
 ## Criação de um perfil de produto {#create-product-profile}
 
-O Journey Orchestration permite que você crie seus próprios perfis de produtos e atribua um conjunto de direitos e caixas de proteção aos usuários. Com perfis de produtos, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
+[!DNL Journey Orchestration] permite que você crie seus próprios perfis de produtos e atribua um conjunto de direitos e caixas de proteção aos usuários. Com perfis de produtos, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
 Para obter mais informações sobre como criar e gerenciar caixas de proteção, consulte a documentação [da plataforma](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)Adobe Experience.
 
 Para criar um perfil de produto e atribuir um conjunto de direitos e caixas de proteção:
 
-1. No Admin Console, selecione **[!UICONTROL Journey orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
+1. No Admin Console, selecione **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
 
 1. Adicione um **[!UICONTROL Profile Name]** e **[!UICONTROL Description]** para o seu novo perfil de produto. Se você quiser que seu perfil **[!UICONTROL Display name]** seja diferente, desmarque **[!UICONTROL Same as Profile Name]** e digite seu **[!UICONTROL Display name]**.
 
@@ -86,26 +86,26 @@ Para criar um perfil de produto e atribuir um conjunto de direitos e caixas de p
 
    >[!NOTE]
    >
-   >A Journey Orchestration agora pode ser conectada à produção e à plataforma Sandbox que não seja de produção. Disponibilidade efetiva: 15 de junho de 2020.
+   >O Platform Sandbox é um recurso beta.
    <br>Para obter mais informações sobre caixas de proteção, consulte esta [seção](../about/access-management.md#sandboxes).
 
 1. Se necessário, em **[!UICONTROL Included Permission Items]**, clique no ícone X ao lado de remover permissões para o perfil do produto.
 
 1. Na categoria de **[!UICONTROL Authoring]** permissão, execute as mesmas etapas descritas acima para adicionar direitos ao perfil do seu produto.
-   <br>Para obter mais informações sobre direitos e compatibilidade entre os direitos e as diferentes funcionalidades da Journey Orchestration, consulte esta [seção](../about/access-management.md#about-access-management).
+   <br>Para obter mais informações sobre direitos e compatibilidade entre os direitos e [!DNL Journey Orchestration]as diferentes funcionalidades, consulte esta [seção](../about/access-management.md#about-access-management).
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
-Seu perfil de produto agora é criado e configurado. Os usuários vinculados a este perfil agora podem se conectar à orquestração de Jornada.
+Seu perfil de produto agora é criado e configurado. Os usuários vinculados a este perfil agora podem se conectar a [!DNL Journey Orchestration].
 
 ## Atribuição de um perfil de produto {#assigning-product-profile}
 
 Os perfis de produtos são atribuídos a um conjunto de usuários que compartilham os mesmos direitos em sua organização.
 A lista de todos os perfis de produtos prontos para uso com direitos atribuídos pode ser encontrada nesta seção.
 
-Para atribuir um perfil de produto para um usuário acessar o Journey Orchestration:
+Para atribuir um perfil de produto para um usuário acessar [!DNL Journey Orchestration]:
 
-1. No Admin Console, selecione **[!UICONTROL Journey orchestration]**.
+1. No Admin Console, selecione **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/user_management.png)
 
@@ -123,18 +123,18 @@ Para atribuir um perfil de produto para um usuário acessar o Journey Orchestrat
 
    ![](../assets/user_management_4.png)
 
-O usuário deve receber um e-mail de redirecionamento para a instância do Journey Orchestration.
+Seu usuário deve receber um email de redirecionamento para sua [!DNL Journey Orchestration] instância.
 
 ## Uso de caixas de proteção {#sandboxes}
 
 >[!NOTE]
 >
->A Journey Orchestration agora pode ser conectada à produção e à plataforma Sandbox que não seja de produção. Disponibilidade efetiva: 15 de junho de 2020.
+>O Platform Sandbox é um recurso beta.
 
-A Journey Orchestration permite que você partilhe sua instância em ambientes virtuais separados chamados sandboxes.
+[!DNL Journey Orchestration] permite que você partilhe sua instância em ambientes virtuais separados chamados de caixas de proteção.
 As caixas de proteção são atribuídas por meio de perfis de produto no Admin Console. Para obter mais informações sobre como atribuir caixas de proteção, consulte esta [seção](../about/access-management.md#create-product-profile).
 
-A Journey Orchestration reflete as caixas de proteção da Plataforma que foram criadas para uma determinada organização.
+[!DNL Journey Orchestration] reflete as caixas de proteção da Plataforma que foram criadas para uma determinada organização.
 As caixas de proteção da plataforma podem ser criadas ou redefinidas a partir da instância da plataforma Adobe Experience. Consulte o guia [do usuário do](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Sandbox para obter as etapas detalhadas.
 
 Você pode encontrar o controle do alternador de sandbox na parte superior esquerda da tela. Para alternar de uma caixa de proteção para outra, clique na caixa de proteção ativa no momento no alternador e selecione outra caixa de proteção na lista suspensa.
