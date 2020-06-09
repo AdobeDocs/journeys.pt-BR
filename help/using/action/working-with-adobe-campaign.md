@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com o Adobe Campaign
-description: Saiba mais sobre as ações do Adobe Campaign
+description: Saiba mais sobre ações de Adobe Campaign
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 8%
 
 ---
 
@@ -20,17 +23,17 @@ source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
 
 Você pode enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Standard.
 
-A Journey Orchestration vem com uma ação predefinida que permite a conexão com o Adobe Campaign Standard. Estas são as etapas para configurá-lo:
+[!DNL Journey Orchestration] vem com uma ação predefinida que permite a conexão com o Adobe Campaign Standard. Estas são as etapas para configurá-lo:
 
-1. Na **[!UICONTROL Actions]**lista, clique na ação integrada**[!UICONTROL AdobeCampaignStandard]** . O painel de configuração de ação é aberto no lado direito da tela.
+1. Na **[!UICONTROL Actions]** lista, clique na ação integrada **[!UICONTROL AdobeCampaignStandard]** . O painel de configuração de ação é aberto no lado direito da tela.
 
    ![](../assets/actioncampaign.png)
 
-1. Copie o URL da instância do Adobe Campaign Standard e cole-o no **[!UICONTROL URL]**campo.
+1. Copie o URL de instância do Adobe Campaign Standard e cole-o no **[!UICONTROL URL]** campo.
 
-1. Clique no link **[!UICONTROL Test the instance URL]**para testar a validade da instância.
+1. Clique no link **[!UICONTROL Test the instance URL]** para testar a validade da instância.
 
-Ao projetar sua jornada, três ações estarão disponíveis na **[!UICONTROL Action]**categoria:**[!UICONTROL Email]**, **[!UICONTROL Push]**,**[!UICONTROL SMS]** (consulte [](../building-journeys/using-adobe-campaign-actions.md)).
+Ao projetar sua jornada, três ações estarão disponíveis na **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [](../building-journeys/using-adobe-campaign-actions.md)).
 
 ![](../assets/journey58.png)
 
