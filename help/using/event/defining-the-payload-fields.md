@@ -11,14 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 6%
 
 ---
 
 
 # Definir campos de carga {#concept_yrw_3qt_52b}
 
-A definição da carga permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo XDM da Experience Cloud. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+A definição da carga permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo XDM da Experience Cloud. For more information on XDM, refer to this [page](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/home.html).
 
 1. Selecione um schema XDM na lista e clique no **[!UICONTROL Payload]** campo ou no **[!UICONTROL Edit]** ícone.
 
@@ -28,7 +31,7 @@ A definição da carga permite escolher as informações que o sistema espera re
 
    >[!NOTE]
    >
-   >Certifique-se de ter adicionado a mistura &quot;orquestração&quot; ao schema XDM. Isso garantirá que seu schema contenha todas as informações necessárias para trabalhar com a Journey Orchestration.
+   >Certifique-se de ter adicionado a mistura &quot;orquestração&quot; ao schema XDM. Isso garantirá que seu schema contenha todas as informações necessárias para trabalhar [!DNL Journey Orchestration].
 
    ![](../assets/journey9.png)
 
@@ -38,7 +41,7 @@ A definição da carga permite escolher as informações que o sistema espera re
 
    >[!NOTE]
    >
-   >O **[!UICONTROL eventID]** campo é adicionado automaticamente na lista dos campos selecionados para que o Journey Orchestration possa identificar o evento. O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Consulte [](../event/previewing-the-payload.md).
+   >O **[!UICONTROL eventID]** campo é adicionado automaticamente na lista dos campos selecionados para que [!DNL Journey Orchestration] seja possível identificar o evento. O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Consulte [](../event/previewing-the-payload.md).
 
 1. Quando terminar de selecionar os campos necessários, clique **[!UICONTROL Save]** ou pressione **[!UICONTROL Enter]**.
 
