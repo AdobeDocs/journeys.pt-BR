@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
+source-git-commit: 4e850db61aa55c9bff448a0280f79810928cb6ec
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 71%
+source-wordcount: '1098'
+ht-degree: 70%
 
 ---
 
@@ -40,16 +40,17 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 <li><p>Uma nova atividade permite ouvir as entradas/saídas do segmento da Plataforma para fazer com que as pessoas entrem ou avancem em uma jornada. <a href="../building-journeys/event-activities.md#segment-qualification">Leia mais</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Os segmentos da plataforma agora podem ser criados e editados sem sair da interface do Journey Orchestration, graças a uma nova guia <strong>Segmentos</strong> . Disponibilidade efetiva: 15 de junho de 2020. <a href="../segment/about-segments.md">Leia mais</a></p>
+<li><p>Os segmentos da plataforma agora podem ser criados e editados sem sair da interface do Journey Orchestration, graças a uma nova guia <strong>Segmentos</strong> .<a href="../segment/about-segments.md">Leia mais</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>No editor de expressões simples, os segmentos da plataforma agora são diretamente listados na árvore de navegação para permitir a configuração fácil de condições como "essa pessoa pertence ao segmento A?". <a href="../segment/using-a-segment.md">Leia mais</a></p>
+<li><p>No editor de expressões simples, os segmentos da plataforma agora são diretamente listados na árvore de navegação para permitir a configuração fácil de condições como "essa pessoa pertence ao segmento A?".<a href="../segment/using-a-segment.md">Leia mais</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>A Journey Orchestration agora está passando automaticamente, para a Adobe Data Platform, as etapas executadas em viagens. Isso inclui possíveis erros encontrados. Essas informações podem ser usadas para obter relatórios e solução de problemas executando query nos eventos de Etapa de Jornada para uma determinada jornada ou para todas as viagens. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>A Journey Orchestration agora pode ser conectada à produção e à plataforma Sandbox que não seja de produção. Disponibilidade efetiva: 15 de junho de 2020. <a href="../about/access-management.md#sandboxes">Leia mais</a></p>
+</li>
+<li><p>A Journey Orchestration agora pode ser conectada a caixas de proteção de produção e de plataforma que não sejam de produção. Observe que as caixas de proteção são um recurso beta. Disponibilidade efetiva: 30 de junho de 2020. <a href="../about/access-management.md#sandboxes">Leia mais</a></p>
 </li>
 </td>
 </tr>
@@ -84,9 +85,9 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 
 Para evitar o envio de muitas chamadas de API para sistemas de terceiros, estamos introduzindo uma nova API pública para configurar regras de &quot;limite&quot;. As regras de limitação permitem a definição de um número máximo de chamadas para um terminal de API por milissegundos. [Leia mais](../api/capping.md)
 
-O Controle de acesso agora permite mais granularidade no gerenciamento de acesso do usuário. Disponibilidade efetiva: 15 de junho de 2020. [Leia mais](../about/access-management.md#create-product-profile)
+O Controle de acesso agora permite mais granularidade no gerenciamento de acesso do usuário. Disponibilidade efetiva: 30 de junho de 2020. [Leia mais](../about/access-management.md#create-product-profile)
 
-A Journey Orchestration agora está disponível no APAC (Centro de dados australiano). Disponibilidade efetiva: 15 de junho de 2020
+A Journey Orchestration agora está disponível no APAC (Centro de dados australiano). Disponibilidade efetiva: 30 de junho de 2020
 
 A interface Journey Orchestration está disponível em japonês.
 
