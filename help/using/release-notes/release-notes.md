@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796eff7751941720fc069dd8c7bed5c1f0e4a8fe
+source-git-commit: a4e2e5737e5d22775e45038f296be2131ac9f54f
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 72%
+source-wordcount: '1094'
+ht-degree: 71%
 
 ---
 
@@ -46,8 +46,8 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 <li><p>No editor de expressões simples, os segmentos da plataforma agora são diretamente listados na árvore de navegação para permitir a configuração fácil de condições como "essa pessoa pertence ao segmento A?". <a href="../segment/using-a-segment.md">Leia mais</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>A Journey Orchestration agora está passando automaticamente, para a Adobe Data Platform, as etapas seguidas pelos indivíduos em viagens. Isso inclui possíveis erros encontrados. Essas informações podem ser usadas para fins de análise ou segmentação. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
-<img src="../assets/rn-sharing.png"/>
+<li><p>A Journey Orchestration agora está passando automaticamente, para a Adobe Data Platform, as etapas executadas em viagens. Isso inclui possíveis erros encontrados. Essas informações podem ser usadas para obter relatórios e solução de problemas executando query nos eventos de Etapa de Jornada para uma determinada jornada ou para todas as viagens. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
+<img src="../assets/rn-journeystepevent.png"/>
 </li>
 <li><p>A Journey Orchestration agora pode ser conectada à produção e à plataforma Sandbox que não seja de produção. Disponibilidade efetiva: 15 de junho de 2020. <a href="../about/access-management.md#sandboxes">Leia mais</a></p>
 </li>
