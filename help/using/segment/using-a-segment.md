@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b238c1851ae640b3146b8457931e1c416387c76a
+source-git-commit: 2f0d235ce1808f632b731fc2077b10a31a178e4b
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 
 # Uso de segmentos em condições {#using-a-segment}
-
->A guia de segmentos e a criação/modificação de segmentos no Journey Orchestration estarão disponíveis em 15 de junho.
 
 Esta seção explica como usar um segmento em uma condição de jornada.
 Para saber como usar um evento de qualificação **de** segmento em sua jornada, consulte atividades [de](../building-journeys/event-activities.md#segment-qualification)Eventos.
