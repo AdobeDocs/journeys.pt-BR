@@ -9,7 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e579936cfe5eb43caf72627004f98a5746c7abb1
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 0%
 
 ---
 
@@ -46,11 +49,11 @@ O ponto de partida de uma viagem é sempre um evento. Você pode realizar testes
 
 Você pode verificar se a chamada de API enviada por meio dessas ferramentas é enviada corretamente ou não. Se você receber um erro de volta, isso significa que sua chamada tem um problema. Verifique a carga novamente, o cabeçalho (e especialmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para ocorrência.
 
-Eventos não são empurrados diretamente da origem para a Journey Orchestration. Na verdade, a Journey Orchestration depende das APIs de ingestão de streaming da plataforma Experience. Como resultado, no caso de problemas relacionados ao evento, consulte esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) para obter a solução de problemas das APIs de ingestão de transmissão.
+Eventos não são empurrados diretamente da origem para [!DNL Journey Orchestration]. Na verdade, [!DNL Journey Orchestration] depende das APIs de ingestão de streaming da plataforma Experience. Como resultado, no caso de problemas relacionados ao evento, consulte esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) para obter a solução de problemas das APIs de ingestão de transmissão.
 
 ## Verificando se as pessoas entram na viagem{#section_x4v_zzs_dgb}
 
-O relatórios da Journey Orchestration mede as entradas das pessoas numa viagem em tempo real.
+[!DNL Journey Orchestration] O relatórios mede a entrada das pessoas em uma jornada em tempo real.
 
 Se você enviar o evento com sucesso, mas não vir nenhuma entrada na viagem, isso significa que algo corre mal entre o envio do evento e a recepção do evento na viagem.
 
@@ -70,7 +73,7 @@ Veja alguns itens e o administrador deve verificar:
 
 ## Verificando como as pessoas navegam pela jornada{#section_l5y_yzs_dgb}
 
-O relatórios de orquestração de jornada mede o progresso dos indivíduos dentro de uma jornada. É fácil identificar onde e por que uma pessoa foi parada.
+[!DNL Journey Orchestration] O relatórios mede o progresso dos indivíduos dentro de uma jornada. É fácil identificar onde e por que uma pessoa foi parada.
 
 Veja algumas coisas a serem verificadas:
 
