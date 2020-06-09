@@ -11,16 +11,19 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 2%
 
 ---
 
 
 # Funções de gerenciamento de coleções {#collection-management-functions}
 
-A linguagem de expressão também introduz um conjunto de funções para consultar coleções.
+A linguagem de expressão também introduz um conjunto de funções às coleções de query.
 
-Essas funções são explicadas abaixo. Nos seguintes exemplos, vamos usar a carga do evento que contém uma coleção:
+Essas funções são explicadas abaixo. Nos exemplos a seguir, vamos usar a carga do evento que contém uma coleção:
 
 ```
                 { 
@@ -70,9 +73,9 @@ A **[!UICONTROL all]** função permite a definição de um filtro em uma determ
 <listExpression>.all(<condition>)
 ```
 
-Por exemplo, entre todos os usuários do aplicativo, você pode obter os que usam o IOS 13 (expressão booleana &quot;app used == IOS 13&quot;). O resultado dessa função é a lista filtrada que contém itens que correspondem à expressão booleana (por exemplo: usuário do aplicativo 1, usuário do aplicativo 34, usuário do aplicativo 432).
+Por exemplo, entre todos os usuários do aplicativo, você pode obter os que usam o IOS 13 (expressão booleana &quot;app used == IOS 13&quot;). O resultado dessa função é a lista filtrada que contém itens correspondentes à expressão booleana (por exemplo: usuário do aplicativo 1, usuário do aplicativo 34, usuário do aplicativo 432).
 
-Em uma atividade de Condição da fonte de dados, é possível verificar se o resultado da **[!UICONTROL all]** função é nulo ou não. Também é possível combinar essa **[!UICONTROL all]** função com outras funções, como **[!UICONTROL count]**. Para obter mais informações, consulte a atividade [Condição da fonte de](../building-journeys/condition-activity.md#data_source_condition)dados.
+Em uma atividade de condição da fonte de dados, é possível verificar se o resultado da **[!UICONTROL all]** função é nulo ou não. Também é possível combinar essa **[!UICONTROL all]** função com outras funções, como **[!UICONTROL count]**. Para obter mais informações, consulte atividade [Condição da Fonte](../building-journeys/condition-activity.md#data_source_condition)de Dados.
 
 **Exemplo 1:**
 
@@ -114,23 +117,23 @@ Note that when the condition in the **all()** function is empty, the filter will
 
 In both cases, the result of the expression is **3**.
 
-A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journey Orchestration sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
+A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which [!DNL Journey Orchestration] sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->Quando a condição de filtragem na função **all()** estiver vazia, o filtro retornará todos os elementos da lista. **No entanto, para contar o número de elementos de uma coleção, a função all não é necessária.**
+>Quando a condição de filtragem na função **all()** estiver vazia, o filtro retornará todos os elementos na lista. **No entanto, para contar o número de elementos de uma coleção, a função all não é necessária.**
 
 
 ```
 count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-O resultado da expressão é **3**.
+O resultado da expressão é de **3**.
 
 **Exemplo 3:**
 
-Aqui verificamos se um indivíduo não recebeu nenhuma comunicação nas últimas 24 horas. Filtramos a coleção de eventos de experiência recuperados da fonte de dados ExperiencePlatform, usando duas expressões com base em dois elementos da coleção. Em particular, o carimbo de data e hora do evento é comparado ao dateTime retornado pela **[!UICONTROL nowWithDelta]** função.
+Aqui verificamos se um indivíduo não recebeu nenhuma comunicação nas últimas 24 horas. Filtramos a coleção de eventos de experiência recuperados da fonte de dados ExperiencePlatform, usando duas expressões baseadas em dois elementos da coleção. Em particular, o carimbo de data e hora do evento é comparado ao dateTime retornado pela **[!UICONTROL nowWithDelta]** função.
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -142,7 +145,7 @@ O resultado será verdadeiro se não houver um evento de experiência que corres
 
 **Exemplo 4:**
 
-Aqui, queremos verificar se um indivíduo iniciou pelo menos uma vez um aplicativo nos últimos 7 dias, para, por exemplo, acionar uma notificação por push convidando-o a iniciar um tutorial.
+Aqui, queremos verificar se um indivíduo iniciou pelo menos uma vez um aplicativo nos últimos 7 dias, para, por exemplo, disparar uma notificação por push convidando-o a start de um tutorial.
 
 ```
 count(
@@ -205,7 +208,7 @@ O resultado é &quot;token_2&quot;.
 
 >[!NOTE]
 >
->Os eventos de experiência são recuperados da plataforma de experiência como uma coleção em ordem cronológica inversa, portanto:
+>Os eventos de experiência são recuperados da Plataforma de experiência como uma coleção em ordem cronológica inversa, portanto:
 >* **[!UICONTROL first]** retornará o evento mais recente
 >* **[!UICONTROL last]** retornará a mais antiga.
 
