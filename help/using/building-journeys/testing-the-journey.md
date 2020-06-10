@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 83e0476b8efd779256549788ff73f32531e08934
+source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Para usar o modo de teste, siga estas etapas:
 
    ![](../assets/journeytest_wait.png)
 
-1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados aos perfis de teste. Consulte [Disparando seus eventos](#firing_events).
+1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados a perfis de teste. Consulte [Disparando seus eventos](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
@@ -81,7 +81,7 @@ Quando você seleciona um perfil de teste diferente na tela de configuração do
 
 Ao abrir uma jornada no teste, o caminho exibido corresponde ao último teste executado.
 
-O fluxo visual só é exibido quando o evento enviado para a jornada é definido na tela de configuração do evento. Se o evento for definido externamente, por exemplo usando o Postman, o fluxo visual não será exibido.
+O fluxo visual funciona se o evento é disparado pela interface ou externamente (usando o Postman, por exemplo).
 
 ## Exibição dos registros {#viewing_logs}
 
