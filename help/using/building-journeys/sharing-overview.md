@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96c84047952eed8835879b1375bce6326c55fd35
+source-git-commit: c4335cf1f94172fabed1099d3772bc539adb02ef
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,7 @@ A lista de campos XDM que são passados é abrangente. Alguns contêm códigos g
 
 >[!CAUTION]
 >
->Por padrão, os conjuntos de dados não são ativados para o serviço de perfil em tempo real. Se você quiser um conjunto de dados no serviço do perfil, é necessário ativá-lo (alternância de **Perfil** ). Esteja ciente de que um grande volume de eventos assumirá armazenamento em sua cota. Prossiga cuidadosamente antes de ativar um conjunto de dados para perfis
->
->![](../assets/sharing4.png)
-
->[!NOTE]
->
->As viagens também têm a capacidade de enviar ou não o evento de Perfil da Etapa de viagem para a Plataforma. Jornadas mantém um técnico para decidir isso.
->
->![](../assets/techtoggle.png)
+>Os conjuntos de dados não podem ser ativados para o serviço de perfil em tempo real. Certifique-se de que a alternância de **Perfil** está desativada
 
 As viagens enviam os dados como ocorrem, de forma contínua. É possível query desses dados usando o Serviço de Query. Você pode se conectar ao Customer Journey Analytics ou a outras ferramentas BI para visualização de dados relacionados a essas etapas.
 
