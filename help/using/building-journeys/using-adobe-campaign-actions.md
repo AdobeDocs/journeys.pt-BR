@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '820'
 ht-degree: 4%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 4%
 
 # Usar ações do Adobe Campaign {#using_campaign_action}
 
-Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação prontas para uso estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**.
+Se você tiver Adobe Campaign Standard, as seguintes atividades de ação prontas para uso estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
 >Para isso, é necessário configurar a ação integrada. Consulte [](../action/working-with-adobe-campaign.md).
 
-Para cada um desses canais, selecione um **modelo** de mensagens transacionais padrão do Adobe Campaign. Na verdade, não [!DNL Journey Orchestration] é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, confiamos nas Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado modelo de mensagem em suas viagens, deverá publicá-lo no Adobe Campaign Standard. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) para saber como usar este recurso.
+Para cada um desses canais, selecione um **modelo** de mensagens transacionais do Adobe Campaign Standard. Na verdade, não [!DNL Journey Orchestration] é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, confiamos nas Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado modelo de mensagem em suas viagens, deverá publicá-lo no Adobe Campaign Standard. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) para saber como usar este recurso.
 
 ![](../assets/journey59.png)
 
@@ -35,7 +35,7 @@ Você pode usar um evento (também conhecido como em tempo real) ou modelo de me
 
 >[!NOTE]
 >
->Quando enviamos mensagens transacionais em tempo real (rtEvent) ou quando roteamos mensagens com um sistema de terceiros graças a uma ação personalizada, uma configuração específica é necessária para fadiga, lista negra ou gerenciamento de unsubscription. Por exemplo, se um atributo &quot;blacklist&quot; ou &quot;unsubscribe&quot; for armazenado na Plataforma ou em um sistema de terceiros, uma condição terá de ser adicionada antes do envio da mensagem para verificar essa condição.
+>Quando enviamos mensagens transacionais em tempo real (rtEvent) ou quando roteamos mensagens com um sistema de terceiros graças a uma ação personalizada, uma configuração específica é necessária para fadiga, lista de blocos ou gerenciamento de unsubscription. Por exemplo, se um atributo &quot;unsubscribe&quot; for armazenado no Platform ou em um sistema de terceiros, uma condição terá de ser adicionada antes do envio da mensagem para verificar essa condição.
 
 Quando você seleciona um modelo, todos os campos esperados na carga da mensagem são exibidos no painel de configuração da atividade em **[!UICONTROL Address]** e **[!UICONTROL Personalization Data]**. É necessário mapear cada um desses campos com o campo que deseja usar, a partir do evento ou da fonte de dados. Você também pode usar o editor de expressão avançado para passar um valor manualmente, executar a manipulação de dados em informações recuperadas (por exemplo, converter uma sequência em maiúsculas) ou usar funções como &quot;if, then, else&quot;. Consulte [](../expression/expressionadvanced.md).
 
@@ -71,7 +71,7 @@ Esses são os campos que o sistema exige para saber onde enviar a mensagem. Para
 >
 >Não é possível passar uma coleção em dados de personalização. Se o email transacional ou o SMS espera coleções, ele não funcionará. Observe também que os dados de personalização têm um formato esperado (por exemplo: string, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados.
 
-Esses são os campos esperados pela mensagem do Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou selecionar uma variante de mensagem específica.
+Esses são os campos esperados pela mensagem de Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou selecionar uma variante de mensagem específica.
 
 ![](../assets/journey62.png)
 
@@ -105,4 +105,4 @@ Você também precisa definir o **[!UICONTROL Registration Token]**. A expressã
 >
 >Não é possível passar uma coleção em dados de personalização. Se o push transacional espera coleções, ele não funcionará. Observe também que os dados de personalização têm um formato esperado (por exemplo: string, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados.
 
-Esses são os campos esperados pelo modelo transacional usado na mensagem do Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou selecionar uma variante de mensagem específica.
+Esses são os campos esperados pelo modelo transacional usado na mensagem de Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou selecionar uma variante de mensagem específica.
