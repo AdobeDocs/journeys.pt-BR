@@ -9,10 +9,10 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58495028d41d1d18739a8ea9c7f0622a0cf6ca4d
+source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 2%
+source-wordcount: '1114'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Para saber mais sobre a ação ou a configuração da fonte de dados, consulte [
 >
 >A API de [!DNL Journey Orchestration] Capping é descrita em um arquivo Swagger disponível [aqui](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para usar essa API com sua [!DNL Journey Orchestration] instância, é necessário usar o AdobeIO Console. Você pode start seguindo esta [Introdução ao Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e, em seguida, usar as seções desta página.
+Para usar essa API com sua [!DNL Journey Orchestration] instância, é necessário usar o Console de E/S da Adobe. Você pode start seguindo esta [Introdução ao Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e, em seguida, usar as seções desta página.
 
 Para testar e preparar sua integração, uma coleção do Postman está disponível [aqui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -46,10 +46,10 @@ Para testar e preparar sua integração, uma coleção do Postman está disponí
 
 >[!CAUTION]
 >
->Para gerenciar certificados no Adobe IO, verifique se você tem direitos de administrador <b>do</b> sistema na organização ou em uma conta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html) desenvolvedor no Admin Console.
+>Para gerenciar certificados em E/S da Adobe, verifique se você tem direitos de administrador <b>do</b> sistema na organização ou em uma conta [de](https://helpx.adobe.com/enterprise/using/manage-developers.html) desenvolvedor no Admin Console.
 
 1. **Verifique se você tem um certificado** digital ou crie um, se necessário. As chaves públicas e privadas fornecidas com o certificado são necessárias nas etapas a seguir.
-1. **Crie uma nova integração com o[!DNL Journey Orchestration]Serviço** no Adobe IO e configure-a. O acesso ao perfil do produto é necessário para a plataforma Adobe Experience [!DNL Journey Orchestration] e para a plataforma Adobe Experience. Suas credenciais serão geradas (chave da API, segredo do cliente...).
+1. **Crie uma nova integração com o[!DNL Journey Orchestration]Serviço** em E/S da Adobe e configure-a. O acesso ao perfil do produto é necessário para [!DNL Journey Orchestration] o Adobe Experience Platform. Suas credenciais serão geradas (chave da API, segredo do cliente...).
 1. **Crie um JSON Web Token (JWT)** a partir das credenciais geradas anteriormente e assine-o com sua chave privada. O JWT codifica todas as informações de identidade e segurança necessárias para a Adobe verificar sua identidade e conceder acesso à API. Esta etapa está detalhada nesta [seção](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 1. **Troque seu JWT por um Token de acesso** por uma solicitação POST ou pela interface do Developer Console. Esse Token de acesso deverá ser usado em cada cabeçalho das solicitações de API.
 
@@ -79,14 +79,14 @@ A API Capping ajuda a criar, configurar e monitorar suas configurações de capp
 
 | Método | Caminho | Descrição |
 |---|---|---|
-| POSTAGEM | lista/endpointConfigs | Obtenha uma lista das configurações de limite de ponto final |
-| POSTAGEM | /endpointConfigs | Criar uma configuração de limite de ponto de extremidade |
-| POSTAGEM | /endpointConfigs/{uid}/deployment | Implantar uma configuração de limite de ponto de extremidade |
-| POSTAGEM | /endpointConfigs/{uid}/undeployment | Desimplantar uma configuração de limite de ponto de extremidade |
-| POSTAGEM | /endpointConfigs/{uid}/canDeploy | Verifique se uma configuração de limite de ponto de extremidade pode ser implantada ou não |
-| PUT | /endpointConfigs/{uid} | Atualizar uma configuração de limite de ponto de extremidade |
-| GET | /endpointConfigs/{uid} | Recuperar uma configuração de limite de ponto de extremidade |
-| EXCLUIR | /endpointConfigs/{uid} | Excluir uma configuração de limite de enpoint |
+| [!DNL POST] | lista/endpointConfigs | Obtenha uma lista das configurações de limite de ponto final |
+| [!DNL POST] | /endpointConfigs | Criar uma configuração de limite de ponto de extremidade |
+| [!DNL POST] | /endpointConfigs/{uid}/deployment | Implantar uma configuração de limite de ponto de extremidade |
+| [!DNL POST] | /endpointConfigs/{uid}/undeployment | Desimplantar uma configuração de limite de ponto de extremidade |
+| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | Verifique se uma configuração de limite de ponto de extremidade pode ser implantada ou não |
+| [!DNL PUT] | /endpointConfigs/{uid} | Atualizar uma configuração de limite de ponto de extremidade |
+| [!DNL GET] | /endpointConfigs/{uid} | Recuperar uma configuração de limite de ponto de extremidade |
+| [!DNL DELETE] | /endpointConfigs/{uid} | Excluir uma configuração de limite de enpoint |
 
 Quando uma configuração é criada ou atualizada, uma verificação é executada automaticamente para garantir a sintaxe e a integridade da carga.
 Se ocorrerem alguns problemas, a operação retornará um aviso ou erros para ajudá-lo a corrigir a configuração.
@@ -172,9 +172,10 @@ Para ajudá-lo em seus testes e configurações, uma coleção do Postman está 
 
 Esta Coleção Postman foi configurada para compartilhar a coleção Variável Postman gerada por meio das Integrações __[do Console de E/S da](https://console.adobe.io/integrations)Adobe > Testar > Baixar para Postman__, que gera um arquivo de Ambiente Postman com os valores de integrações selecionados.
 
-Depois de baixado e carregado no Postman, é necessário adicionar duas variáveis: `{JO_HOST}` e `{Base_Path}`.
+Depois de baixado e carregado no Postman, é necessário adicionar três variáveis: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL do gateway
 * `{BASE_PATH}` : ponto de entrada para a API. O valor é &#39;/authoring&#39;
+* `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, &#39;prod&#39;) correspondente ao nome da caixa de proteção onde as operações da API ocorrerão. Consulte a visão geral [das](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) caixas de proteção para obter mais informações.
 
 Na seção a seguir, você encontrará a lista ordenada das chamadas da Rest API para executar o caso de uso.
 
