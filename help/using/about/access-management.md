@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: c99ff0755a75c9262bf6ebe73172fe76d3f78f48
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 3%
@@ -78,7 +78,7 @@ Para criar um perfil de produto e atribuir um conjunto de direitos e caixas de p
 
 1. Quando terminar, clique em **[!UICONTROL Done]**. Seu novo perfil de produto foi criado.
 
-   ![](../assets/user_management_6.png)
+   ![](../assets/user_management_1.png)
 
 1. Selecione seu novo perfil de produto para obter as permissões de gerenciamento do start. Na **[!UICONTROL Users]** guia, adicione usuários ao seu perfil de produto. Para obter mais informações, consulte esta [página](../about/access-management.md#assigning-product-profile).
 
@@ -88,7 +88,7 @@ Para criar um perfil de produto e atribuir um conjunto de direitos e caixas de p
 
    ![](../assets/user_management_7.png)
 
-1. Na categoria de **[!UICONTROL Sandbox]** permissões, escolha as caixas de proteção a serem atribuídas ao perfil do produto. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir caixas de proteção ao seu perfil. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+1. Na categoria de **[!UICONTROL Sandboxes]** permissões, escolha as caixas de proteção a serem atribuídas ao perfil do produto. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir caixas de proteção ao seu perfil. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
    ![](../assets/user_management_8.png)
 
