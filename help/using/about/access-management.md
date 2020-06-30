@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: a3114ffe7c087645e97caf3a77e7649d922945eb
+source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '782'
 ht-degree: 3%
 
 ---
@@ -64,11 +64,13 @@ Você pode encontrar abaixo a compatibilidade entre os direitos e as diferentes 
 
 [!DNL Journey Orchestration] permite que você crie seus próprios perfis de produtos e atribua um conjunto de direitos e caixas de proteção aos usuários. Com perfis de produtos, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
-Para obter mais informações sobre como criar e gerenciar caixas de proteção, consulte a documentação [da plataforma](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)Adobe Experience.
+Para obter mais informações sobre como criar e gerenciar caixas de proteção, consulte a documentação [do](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html)Adobe Experience Platform.
 
 Para criar um perfil de produto e atribuir um conjunto de direitos e caixas de proteção:
 
 1. No Admin Console, selecione **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
+
+   ![](../assets/user_management_5.png)
 
 1. Adicione um **[!UICONTROL Profile Name]** e **[!UICONTROL Description]** para o seu novo perfil de produto. Se você quiser que seu perfil **[!UICONTROL Display name]** seja diferente, desmarque **[!UICONTROL Same as Profile Name]** e digite seu **[!UICONTROL Display name]**.
 
@@ -76,23 +78,28 @@ Para criar um perfil de produto e atribuir um conjunto de direitos e caixas de p
 
 1. Quando terminar, clique em **[!UICONTROL Done]**. Seu novo perfil de produto foi criado.
 
+   ![](../assets/user_management_6.png)
+
 1. Selecione seu novo perfil de produto para obter as permissões de gerenciamento do start. Na **[!UICONTROL Users]** guia, adicione usuários ao seu perfil de produto. Para obter mais informações, consulte esta [página](../about/access-management.md#assigning-product-profile).
 
 1. Execute as mesmas etapas descritas acima para adicionar **[!UICONTROL Admin]** ao seu perfil de produto.
 
 1. Na **[!UICONTROL Permissions]** guia, selecione uma das duas categorias **[!UICONTROL Sandbox]** ou **[!UICONTROL Authoring]** para abrir a **[!UICONTROL Edit Permissions]** página e adicionar ou remover permissões para seu perfil de produto.
 
-1. Na categoria de **[!UICONTROL Sandbox]** permissões, escolha as caixas de proteção a serem atribuídas ao perfil do produto. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir caixas de proteção ao seu perfil.
+   ![](../assets/user_management_7.png)
 
-   >[!NOTE]
-   >
-   >O Platform Sandbox é um recurso beta.
-   <br>Para obter mais informações sobre caixas de proteção, consulte esta [seção](../about/access-management.md#sandboxes).
+1. Na categoria de **[!UICONTROL Sandbox]** permissões, escolha as caixas de proteção a serem atribuídas ao perfil do produto. Em **[!UICONTROL Available Permissions Items]**, clique no ícone de adição (+) para atribuir caixas de proteção ao seu perfil. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+
+   ![](../assets/user_management_8.png)
 
 1. Se necessário, em **[!UICONTROL Included Permission Items]**, clique no ícone X ao lado de remover permissões para o perfil do produto.
 
+   ![](../assets/user_management_9.png)
+
 1. Na categoria de **[!UICONTROL Authoring]** permissão, execute as mesmas etapas descritas acima para adicionar direitos ao perfil do seu produto.
    <br>Para obter mais informações sobre direitos e compatibilidade entre os direitos e [!DNL Journey Orchestration]as diferentes funcionalidades, consulte esta [seção](../about/access-management.md#about-access-management).
+
+   ![](../assets/user_management_10.png)
 
 1. Quando terminar, clique em **[!UICONTROL Save]**.
 
@@ -127,14 +134,10 @@ Seu usuário deve receber um email de redirecionamento para sua [!DNL Journey Or
 
 ## Uso de caixas de proteção {#sandboxes}
 
->[!NOTE]
->
->O Platform Sandbox é um recurso beta.
-
 [!DNL Journey Orchestration] permite que você partilhe sua instância em ambientes virtuais separados chamados de caixas de proteção.
 As caixas de proteção são atribuídas por meio de perfis de produto no Admin Console. Para obter mais informações sobre como atribuir caixas de proteção, consulte esta [seção](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] reflete as caixas de proteção da Plataforma que foram criadas para uma determinada organização.
-As caixas de proteção da plataforma podem ser criadas ou redefinidas a partir da instância da plataforma Adobe Experience. Consulte o guia [do usuário do](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Sandbox para obter as etapas detalhadas.
+[!DNL Journey Orchestration] reflete as caixas de proteção do Platform que foram criadas para uma determinada organização.
+As caixas de proteção do Platform podem ser criadas ou redefinidas a partir da sua instância de Adobe Experience Platform. Consulte o guia [do usuário do](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Sandbox para obter as etapas detalhadas.
 
 Você pode encontrar o controle do alternador de sandbox na parte superior esquerda da tela. Para alternar de uma caixa de proteção para outra, clique na caixa de proteção ativa no momento no alternador e selecione outra caixa de proteção na lista suspensa.
