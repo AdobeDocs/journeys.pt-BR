@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
+source-git-commit: 18364d6e93b48e065b21bbaddee33e7ba4d9274d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 60%
+source-wordcount: '657'
+ht-degree: 59%
 
 ---
 
@@ -28,9 +28,9 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * Adicionada uma nova seção sobre os recursos Alfa que são testados entre um conjunto limitado de clientes. [Leia mais](../alpha/alpha-overview.md)
 * Adicionada uma nova seção sobre a integração com os Serviços inteligentes. [Leia mais](../ai-services/ai-services-overview.md)
-* Adicionada uma nova seção sobre a criação do perfil de teste. [Leia mais](../building-journeys/testing-the-journey.md#create-test-profile).
-* Foram adicionadas informações sobre como usar o nó **SegmentQualification** em uma condição de jornada ou ação. [Leia mais](../building-journeys/event-activities.md#segment-qualification).
-* Uma observação foi adicionada à publicação de mensagens transacionais e eventos. Consulte [](../action/working-with-adobe-campaign.md) e [](../building-journeys/using-adobe-campaign-actions.md).
+* Adicionada uma nova seção sobre a criação do perfil de teste. [Leia mais](../building-journeys/testing-the-journey.md#create-test-profile)
+* Foram adicionadas informações sobre como usar o nó **SegmentQualification** em uma condição de jornada ou ação. [Leia mais](../building-journeys/event-activities.md#segment-qualification)
+* Uma observação foi adicionada à publicação de mensagens transacionais e eventos. Consulte [Trabalhar com Adobe Campaign](../action/working-with-adobe-campaign.md) e [Usar ações](../building-journeys/using-adobe-campaign-actions.md)Adobe Campaign.
 * Foram adicionadas informações sobre as verificações realizadas ao testar o URL da instância do Campaign Standard. [Leia mais](../action/working-with-adobe-campaign.md)
 * Foram adicionadas informações sobre a compatibilidade de evento de reação com instâncias Campaign Standard hospedadas em servidores AWS ou Azure. [Leia mais](../building-journeys/event-activities.md#section_dhx_gss_dgb)
 * Foi adicionada uma observação sobre a necessidade de configurar uma regra de limite ao trabalhar com mensagens transacionais de Campaign Standard. [Leia mais](../action/working-with-adobe-campaign.md)
