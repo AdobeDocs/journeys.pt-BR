@@ -11,30 +11,49 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 6685565797a6cdc43b9c8fc39c9354ae6d213f1f
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 8%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
 
 # Trabalhar com o Adobe Campaign {#using_adobe_campaign_standard}
 
-Você pode enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Standard.
+Você pode enviar emails e notificações por push e SMS usando os recursos de Mensagens Transacionais do Adobe Campaign Standard.
 
-[!DNL Journey Orchestration] vem com uma ação predefinida que permite a conexão com o Adobe Campaign Standard. Estas são as etapas para configurá-lo:
+[!DNL Journey Orchestration] vem com uma ação predefinida que permite a conexão com o Adobe Campaign Standard.
+
+O mensagen transacional Campaign Standard e seu evento associado devem ser publicados para serem usados no Journey Orchestration. Se o evento for publicado, mas a mensagem não for publicada, ele não estará visível na interface do Journey Orchestration. Se a mensagem for publicada, mas seu evento associado não for, ela estará visível na interface do Journey Orchestration, mas não poderá ser usada.
+
+>[!NOTE]
+>
+>Para evitar sobrecarregar as mensagens transacionais Adobe Campaign Standard, é recomendável configurar uma regra **de** limite para a integração do Campaign Standard.
+>
+>Leia mais sobre SLAs de mensagens transacionais na Descrição [do produto do](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard.
+
+Estas são as etapas para configurá-lo:
 
 1. Na **[!UICONTROL Actions]** lista, clique na ação integrada **[!UICONTROL AdobeCampaignStandard]** . O painel de configuração de ação é aberto no lado direito da tela.
 
    ![](../assets/actioncampaign.png)
 
-1. Copie o URL de instância do Adobe Campaign Standard e cole-o no **[!UICONTROL URL]** campo.
+1. Copie o URL da instância do Adobe Campaign Standard e cole-o no **[!UICONTROL URL]** campo.
 
 1. Clique no link **[!UICONTROL Test the instance URL]** para testar a validade da instância.
 
-Ao projetar sua jornada, três ações estarão disponíveis na **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [](../building-journeys/using-adobe-campaign-actions.md)).
+   >[!NOTE]
+   >
+   >Este teste verifica se:
+   >
+   >* O host é &quot;.campanha.adobe.com&quot; ou &quot;.campanha-sandbox.adobe.com&quot;,
+   >* Os start de URL com https,
+   >* O ORG associado a essa instância do Adobe Campaign Standard é o mesmo que o ORG do Journey Orchestration.
+
+
+Ao projetar sua jornada, três ações estarão disponíveis na **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de ações](../building-journeys/using-adobe-campaign-actions.md)de Adobe Campaign). **O evento** Reações também permitirá que você reaja a cliques em mensagens, aberturas, etc. (consulte eventos [de reação](../building-journeys/event-activities.md#section_dhx_gss_dgb)).
 
 ![](../assets/journey58.png)
 
-Se você estiver usando um sistema de terceiros para enviar mensagens, precisará adicionar e configurar uma ação personalizada. Consulte [](../action/about-custom-action-configuration.md).
+Se você estiver usando um sistema de terceiros para enviar mensagens, precisará adicionar e configurar uma ação personalizada. See [About custom action configuration](../action/about-custom-action-configuration.md).
