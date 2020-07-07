@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 5d92b9d70a70700026a4715c6cb6a6c4ba565ba5
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 75%
+source-wordcount: '649'
+ht-degree: 60%
 
 ---
 
@@ -24,7 +24,19 @@ ht-degree: 75%
 Esta página lista todas as atualizações de documentação do [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
-## June 2020 {#june-2020}
+## Julho de 2020 {#july-2020}
+
+* Adicionada uma nova seção sobre os recursos Alfa que são testados entre um conjunto limitado de clientes. [Leia mais](../alpha/alpha-overview.md)
+* Adicionada uma nova seção sobre a integração com os Serviços inteligentes. [Leia mais](../ai-services/ai-services-overview.md)
+* Adicionada uma nova seção sobre a criação do perfil de teste. [Leia mais](../building-journeys/testing-the-journey.md#create-test-profile).
+* Foram adicionadas informações sobre como usar o nó **SegmentQualification** em uma condição de jornada ou ação. [Leia mais](../building-journeys/event-activities.md#segment-qualification).
+* Uma observação foi adicionada à publicação de mensagens transacionais e eventos. Consulte [](../action/working-with-adobe-campaign.md) e [](../building-journeys/using-adobe-campaign-actions.md).
+* Foram adicionadas informações sobre as verificações realizadas ao testar o URL da instância do Campaign Standard. [Leia mais](../action/working-with-adobe-campaign.md)
+* Foram adicionadas informações sobre a compatibilidade de evento de reação com instâncias Campaign Standard hospedadas em servidores AWS ou Azure. [Leia mais](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* Foi adicionada uma observação sobre a necessidade de configurar uma regra de limite ao trabalhar com mensagens transacionais de Campaign Standard. [Leia mais](../action/working-with-adobe-campaign.md)
+* Uma observação foi adicionada à geração de eventos reais ao disparar eventos usando o modo de teste. [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
+
+## Junho de 2020 {#june-2020}
 
 * Foram adicionadas informações sobre como alterar a duração do cache do token para uma fonte de dados de autenticação personalizada. [Leia mais](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
 * Capturas de tela e texto atualizados para refletir a renomeação do estado de viagem **Concluído** que foi alterado para **Fechado (sem entrada)**.
@@ -65,7 +77,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * Todas as capturas de tela foram atualizadas para divulgar as alterações na interface.
 * A seção do modo de teste foi atualizada. [Leia mais](../building-journeys/testing-the-journey.md)
-* Foi adicionado um aviso nas seções de [otimização de tempo de envio de email](../building-journeys/wait-activity.md) e [pontuações de fadiga preditiva](../usecase/leveraging-fatigue-scores.md). Esses recursos só estão disponíveis para clientes que usam o recurso Data Service do Adobe Campaign Standard .
+* Foi adicionado um aviso nas seções de [otimização de tempo de envio de email](../building-journeys/wait-activity.md) e [pontuações de fadiga preditiva](../ai-services/leveraging-fatigue-scores.md). Esses recursos só estão disponíveis para clientes que usam o recurso Data Service do Adobe Campaign Standard .
 * Agora, as jornadas interrompidas podem ser excluídas. As páginas de documentação relacionadas foram atualizadas.
 * Agora, duas cores são exibidas quando problemas são detectados em uma jornada. Vermelho para erros e laranja para avisos. [Leia mais](../about/troubleshooting.md)
 * A seção avançada do editor de expressões foi atualizada. [Leia mais](../expression/expressionadvanced.md).
