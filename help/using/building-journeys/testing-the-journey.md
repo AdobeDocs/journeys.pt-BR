@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be21573973600758cbf13bd25bc3b44ab4cd08ca
+source-git-commit: 0c7a9d679e2bf20c58aaea81e134c41b401e11ac
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 1%
+source-wordcount: '1151'
+ht-degree: 2%
 
 ---
 
@@ -50,18 +50,76 @@ Para usar o modo de teste, siga estas etapas:
 ## Observações importantes {#important_notes}
 
 * É fornecida uma interface para disparar eventos para a viagem testada, mas eventos também podem ser enviados por sistemas de terceiros, como o Postman.
-* Somente indivíduos marcados como &quot;perfis de teste&quot; no Serviço de Perfil do Cliente em tempo real poderão entrar na jornada testada. O processo para criar um perfil de teste é o mesmo que o processo para criar um Perfil na Plataforma de dados. Você só precisa ter certeza de que a bandeira do perfil de teste é verdadeira. Você pode usar a seção Segmentos na interface da Plataforma de dados para criar um segmento de perfis de teste na Plataforma de dados e ver uma lista não exaustiva. A lista exaustiva não pode ser exibida por enquanto.
-* O modo de teste só está disponível em viagens de rascunho que utilizem uma namespace. Na verdade, o modo de teste precisa verificar se uma pessoa que entra na jornada é um perfil de teste ou não e, portanto, deve poder acessar a Plataforma de Dados.
+* Somente indivíduos marcados como &quot;perfis de teste&quot; no Serviço de Perfil do Cliente em tempo real poderão entrar na jornada testada. Consulte [](../building-journeys/testing-the-journey.md#create-test-profile).
+* O modo de teste só está disponível em viagens de rascunho que utilizem uma namespace. Na verdade, o modo de teste precisa verificar se uma pessoa que entra na viagem é um perfil de teste ou não e, portanto, deve poder acessar o Platform de dados.
 * O número máximo de perfis de teste que podem entrar em uma jornada durante uma sessão de teste é 100.
 * Quando você desativa o modo de teste, ele esvazia as viagens de todas as pessoas que entraram no modo de teste ou que estão atualmente nele.
 * Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
 * Não é possível modificar sua jornada quando o modo de teste é ativado. Quando estiver no modo de teste, você pode publicar diretamente a jornada, não é necessário desativar o modo de teste antes.
 
+## Creating a test profile{#create-test-profile}
+
+O processo para criar um perfil de teste é o mesmo que quando você cria um perfil no Experience Platform. Ela é executada por meio de chamadas de API. See this [page](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)
+
+Você deve usar um schema que contenha a combinação &quot;detalhes do teste do perfil&quot;. Na verdade, o sinalizador testProfile é parte dessa mistura.
+
+Ao criar um perfil, certifique-se de enviar o valor: testprofile = true.
+
+Observe que você também pode atualizar um perfil existente para alterar seu sinalizador testProfile para &quot;true&quot;.
+
+Este é um exemplo de uma chamada de API para criar um perfil de teste:
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## Acionando seus eventos {#firing_events}
 
 O **[!UICONTROL Trigger an event]** botão permite configurar um evento que fará com que uma pessoa entre na jornada.
 
-Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste na Plataforma de dados. Na verdade, o modo de teste só permite esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser um ECID, por exemplo.
+>[!NOTE]
+>
+>Quando você aciona um evento no modo de teste, um evento real é gerado, o que significa que ele também atingirá outra jornada ouvindo esse evento.
+
+Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no Platform de dados. Na verdade, o modo de teste só permite esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser um ECID, por exemplo.
 
 Se sua jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface o ajuda a passar as informações certas na carga do evento e a verificar se o tipo de informações está correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
