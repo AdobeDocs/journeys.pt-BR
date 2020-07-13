@@ -1,6 +1,6 @@
 ---
-title: Etapas adicionais para enviar eventos para a Journey Orchestration
-description: Saiba mais sobre as etapas adicionais para enviar eventos para a Journey Orchestration
+title: Etapas adicionais para enviar evento
+description: Saiba mais sobre as etapas adicionais para enviar evento
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a71378264e6cd8a13c616bb867723f827d6dca69
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 Para configurar eventos a serem enviados para **[!UICONTROL Streaming Ingestion APIs]** e a serem usados em [!DNL Journey Orchestration], siga estas etapas:
 
-1. Obtenha o URL de entrada das APIs da plataforma de dados (consulte APIs [de ingestão de](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/overview.html)transmissão contínua).
+1. Obtenha o URL de entrada das APIs da Platform de dados (consulte APIs [de ingestão de](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/overview.html)transmissão contínua).
 1. Copie a carga da pré-visualização de carga no **[!UICONTROL Event]** menu. Consulte [](../event/defining-the-payload-fields.md).
 
 Em seguida, é necessário configurar o sistema de dados que envia eventos para as APIs de ingestão de fluxo usando a carga copiada:
@@ -37,7 +37,7 @@ Em seguida, é necessário configurar o sistema de dados que envia eventos para 
 1. Use a carga copiada [!DNL Journey Orchestration] no corpo (&quot;seção de dados&quot;) da chamada da API para APIs de ingestão de fluxo. Veja abaixo um exemplo
 1. Determine onde obter todas as variáveis presentes na carga. Exemplo: se o evento tiver que indicar o endereço, a carga colada mostrará o &quot;endereço&quot;: &quot;string&quot;. &quot;string&quot; deve ser substituída pela variável que preencherá automaticamente o valor correto, o e-mail da pessoa para quem enviar uma mensagem. Observe que na pré-visualização de carga, na **[!UICONTROL Header]** seção, preenchemos automaticamente muitos valores esperados para facilitar seu trabalho.
 1. Selecione &quot;application/json&quot; como um tipo de corpo.
-1. Passe sua ID ORG IMS no cabeçalho usando a chave &quot;x-gw-ims-org-id&quot;. Para o valor, use sua ID ORG IMS (&quot;XXX@AdobeOrg&quot;).
+1. Transmita a ID de empresa do IMS no cabeçalho usando a chave &quot;x-gw-ims-org-id&quot;. Para o valor, use a ID de empresa IMS (&quot;XXX@AdobeOrg&quot;).
 
 Este é um exemplo de um evento de APIs de ingestão de transmissão:
 
