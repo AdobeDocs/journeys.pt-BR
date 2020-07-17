@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,6 @@ Devido ao tempo limite de 30 dias de viagem, quando a reentrada da viagem não �
 
 Os fusos horários são definidos ao nível da viagem.
 
-Você pode inserir um fuso horário fixo ou usar perfis da plataforma de experiência para definir o fuso horário da jornada.
+Você pode digitar um fuso horário fixo ou usar perfis de Adobe Experience Platform para definir o fuso horário da jornada.
 
 Para obter mais informações sobre o gerenciamento de fuso horário, consulte [](../building-journeys/timezone-management.md).
