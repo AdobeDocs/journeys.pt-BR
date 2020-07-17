@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Tipo: long
 
 ## fetchTypeInError
 
-Define se a busca por erro está na plataforma ou em uma fonte de dados personalizada.
+Define se a busca no erro está no Adobe Experience Platform ou em uma fonte de dados personalizada.
 
 Tipo: string
 
@@ -93,13 +93,13 @@ Tipo: long
 
 ## fetchPlatformTotalTime
 
-A quantidade total de tempo gasto para obter os dados da Plataforma de dados em milis. Observação: esse tempo é calculado a partir do momento em que o mecanismo envia o evento do enriquecimento para o serviço do enriquecimento e recebe a resposta.
+O tempo total necessário para obter os dados do Adobe Experience Platform em millis. Observação: esse tempo é calculado a partir do momento em que o mecanismo envia o evento do enriquecimento para o serviço do enriquecimento e recebe a resposta.
 
 Tipo: long
 
 ## fetchPlatformCount
 
-Quantas vezes os dados são obtidos da Plataforma.
+Quantas vezes os dados são obtidos de Adobe Experience Platform.
 
 Tipo: long
 
