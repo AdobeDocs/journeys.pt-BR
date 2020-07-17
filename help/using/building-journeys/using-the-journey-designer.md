@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 4%
 
 ---
@@ -49,9 +49,9 @@ A **paleta** fica do lado esquerdo da tela. Todas as atividades disponíveis sã
 
 ![](../assets/journey38.png)
 
-O ícone **Mostrar itens** desativados no canto superior esquerdo permite ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam uma namespace diferente daqueles usados em sua jornada. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-los, eles aparecerão esmaecidos.
+The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-los, eles aparecerão esmaecidos.
 
-Ao usar o campo **Pesquisar** , o número de resultados é exibido para cada categoria de atividade da tela.
+Ao usar o **[!UICONTROL Search]** campo, o número de resultados é exibido para cada categoria de atividade da tela.
 
 ![](../assets/palette-filter.png)
 
