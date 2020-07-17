@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2e95090df708d72ade6366a62ea42eff3ac7f2
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 95%
+source-wordcount: '1271'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 # Fontes de dados externas {#concept_t2s_kqt_52b}
 
-Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
+Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada do Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 
 As APIs REST que usam POST ou GET e devolvem JSON são compatíveis. A chave de API, os modos de autenticação básicos e personalizados são compatíveis.
 
@@ -67,6 +67,7 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
    * **[!UICONTROL Value]**: &quot;1234&quot; (este é o valor da nossa chave de API)
    * **[!UICONTROL Name]**: &quot;appid&quot; (este é o nome do parâmetro da chave de API)
    * **[!UICONTROL Location]**: &quot;Parâmetro de query&quot; (a chave de API está localizada no URL)
+
    ![](../assets/journey28.png)
 
 1. Adicione um novo grupo de campos para cada conjunto de parâmetros da API clicando em **[!UICONTROL Add a New Field Group]**. Não use espaços ou caracteres especiais no nome do grupo de campos. Em nosso exemplo, precisamos criar dois grupos de campo, um para cada conjunto de parâmetros (city e long/lat).
