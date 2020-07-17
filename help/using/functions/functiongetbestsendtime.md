@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 3%
 
 ---
 
@@ -20,13 +23,13 @@ source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
 
 Fornece um tempo preditivo do melhor tempo para enviar um email para um indivíduo.
 
-Essa função usa uma pontuação calculada na Plataforma. A pontuação calcula a propensão de clicar ou abrir um email no futuro com base no comportamento anterior. Observe que o algoritmo que calcula a pontuação precisa de uma certa quantidade de dados para funcionar. Como resultado, quando não tiver dados suficientes, o tempo padrão será aplicado. For more information, see [](../building-journeys/wait-activity.md).
+Essa função usa uma pontuação calculada no Adobe Experience Platform. A pontuação calcula a propensão de clicar ou abrir um email no futuro com base no comportamento anterior. Observe que o algoritmo que calcula a pontuação precisa de uma certa quantidade de dados para funcionar. Como resultado, quando não tiver dados suficientes, o tempo padrão será aplicado. For more information, see [](../building-journeys/wait-activity.md).
 
-Para usar essa função, é necessário um [namespace](../event/selecting-the-namespace.md) .
+Para usar essa função, é necessária uma [namespace](../event/selecting-the-namespace.md) .
 
 >[!NOTE]
 >
->Observe que a melhor pontuação de tempo de envio pode estar indisponível se não houver dados suficientes para executar o cálculo. Nesse caso, você será informado, no momento da publicação, que o horário padrão se aplica.
+>Observe que a melhor pontuação de tempo de envio pode estar indisponível se não houver dados suficientes para executar o cálculo. Nesse caso, você será informado, no momento da publicação, de que o horário padrão se aplica.
 
 ## Categoria
 
