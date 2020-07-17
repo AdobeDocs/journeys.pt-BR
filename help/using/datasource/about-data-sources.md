@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 88%
+source-wordcount: '356'
+ht-degree: 74%
 
 ---
 
@@ -37,12 +37,12 @@ Essa configuração não é necessária se suas jornadas só usarem os dados loc
 
 Há dois tipos de fontes de dados:
 
-* A fonte de dados pré-configurada da Experience Platform que define a conexão com o Serviço de Perfil do cliente em tempo real. Essa fonte de dados é integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
+* A fonte de dados Adobe Experience Platform pré-configurada que define a conexão com o Serviço de Perfil do Cliente em tempo real. Essa fonte de dados é integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
 * As fontes de dados externas que permitem definir uma conexão com sistemas externos. Essas são as que você pode criar. Consulte [](../datasource/external-data-sources.md).
 
 Para cada fonte de dados, você define as informações que serão recuperadas usando grupos de campos. Grupos de campos são conjuntos de campos que podem ser recuperados de uma fonte de dados. Consulte [](../datasource/field-groups.md).
 
-Para obter mais informações sobre como configurar uma Fonte de Dados da Experience Platform e uma fonte de dados externa e como localizar e usar dados em uma jornada, assista a este [tutorial em vídeo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Estas são as etapas principais de configuração da fonte de dados:
 
