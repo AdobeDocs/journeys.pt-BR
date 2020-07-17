@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Esse mixin será compartilhado por meio de jornadaStepEvent e de jornadaStepProfileEvent.
 
-Esses são os campos XDM comuns que [!DNL Journey Orchestration] enviam para a Adobe Data Platform. Campos comuns serão enviados para cada etapa que for processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
+Esses são os campos XDM comuns que [!DNL Journey Orchestration] enviam para o Adobe Experience Platform. Campos comuns serão enviados para cada etapa que for processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
 
 Alguns desses campos estão disponíveis apenas em padrões de processamento específicos (execução de ação, busca de dados etc.) para limitar o tamanho dos eventos.
 
