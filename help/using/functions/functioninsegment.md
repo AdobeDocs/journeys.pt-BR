@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e69b19f2b7099e5c015dd1052a58728cf143ffa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +25,7 @@ Verifica se um indivíduo pertence a um determinado segmento.
 
 O nome do segmento deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão.
 
-Os segmentos são definidos na plataforma [](https://platform.adobe.com/segment/overview)Adobe Experience. O editor de expressões fornece uma lista de segmentos preenchida automaticamente.
+Os segmentos são definidos no [Adobe Experience Platform](https://platform.adobe.com/segment/overview). O editor de expressões fornece uma lista de segmentos preenchida automaticamente.
 
 >[!NOTE]
 >
@@ -54,4 +57,4 @@ Retorna um booleano.
 
 Explicação:
 
-A função retornará **[!UICONTROL true]**se o indivíduo dentro da instância da jornada fizer parte do segmento da plataforma chamado &quot;homens com mais de 50&quot;, caso contrário**[!UICONTROL false]** .
+A função retornará **[!UICONTROL true]** se o indivíduo dentro da instância da jornada fizer parte do segmento de Adobe Experience Platform chamado &quot;homens com mais de 50&quot;, caso contrário **[!UICONTROL false]** .
