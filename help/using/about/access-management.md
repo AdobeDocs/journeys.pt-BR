@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 94ef4e30d16b7d23dc029863fcd2d9f34173c433
+source-git-commit: 829f6cdb11aa9b1529607f409e53616a2b809f84
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '845'
 ht-degree: 4%
 
 ---
@@ -143,7 +143,7 @@ Seu usuário deve receber um email de redirecionamento para sua [!DNL Journey Or
 [!DNL Journey Orchestration] permite que você partilhe sua instância em ambientes virtuais separados chamados de caixas de proteção.
 As caixas de proteção são atribuídas por meio de perfis de produto no Admin Console. Para obter mais informações sobre como atribuir caixas de proteção, consulte esta [seção](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] reflete as caixas de proteção do Platform que foram criadas para uma determinada organização.
-As caixas de proteção do Platform podem ser criadas ou redefinidas a partir da sua instância de Adobe Experience Platform. Consulte o guia [do usuário do](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Sandbox para obter as etapas detalhadas.
+[!DNL Journey Orchestration] reflete as caixas de proteção de Adobe Experience Platform que foram criadas para uma determinada organização.
+As caixas de proteção Adobe Experience Platform podem ser criadas ou redefinidas a partir da sua instância Adobe Experience Platform. Consulte o guia [do usuário do](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Sandbox para obter as etapas detalhadas.
 
 Você pode encontrar o controle do alternador de sandbox na parte superior esquerda da tela. Para alternar de uma caixa de proteção para outra, clique na caixa de proteção ativa no momento no alternador e selecione outra caixa de proteção na lista suspensa.
