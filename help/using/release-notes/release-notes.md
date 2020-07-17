@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed82450d3fab279add87d0bee7e0efa824d1e8e
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 71%
+source-wordcount: '1107'
+ht-degree: 66%
 
 ---
 
@@ -35,22 +35,22 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 <tbody>
 <tr>
 <td>
-<p>Os seguintes aprimoramentos de integração do Platform foram feitos:</p>
+<p>Os seguintes aprimoramentos de integração de Adobe Experience Platform foram feitos:</p>
 <ul>
-<li><p>Uma nova atividade permite que as entradas/saídas do segmento Platform escutem as pessoas que entram ou avançam em uma jornada. <a href="../building-journeys/event-activities.md#segment-qualification">Leia mais</a></p>
+<li><p>Uma nova atividade permite que as entradas/saídas do segmento de Adobe Experience Platform para fazer com que as pessoas entrem ou avancem em uma jornada. <a href="../building-journeys/segment-qualification-events.md">Leia mais</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Os segmentos Platform agora podem ser criados e editados sem sair da interface do Journey Orchestration, graças a uma nova guia <strong>Segmentos</strong> .<a href="../segment/about-segments.md">Leia mais</a></p>
+<li><p>Segmentos de Adobe Experience Platform agora podem ser criados e editados sem sair da interface de Journey Orchestration, graças a uma nova guia <strong>Segmentos</strong> .<a href="../segment/about-segments.md">Leia mais</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>No editor de expressões simples, os segmentos do Platform agora são diretamente listados na árvore de navegação para permitir a configuração fácil de condições como "essa pessoa pertence ao segmento A?".<a href="../segment/using-a-segment.md">Leia mais</a></p>
+<li><p>No editor de expressão simples, os segmentos de Adobe Experience Platform agora estão diretamente listados na árvore de navegação para permitir a configuração fácil de condições como "essa pessoa pertence ao segmento A?".<a href="../segment/using-a-segment.md">Leia mais</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>O Journey Orchestration agora está transmitindo automaticamente para o Adobe Data Platform as etapas executadas em viagens. Isso inclui possíveis erros encontrados. Essas informações podem ser usadas para obter relatórios e solução de problemas executando query nos eventos de Etapa de Jornada para uma determinada jornada ou para todas as viagens. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
+<li><p>Journey Orchestration agora passa automaticamente, para o Adobe Experience Platform, as etapas executadas em viagens. Isso inclui possíveis erros encontrados. Essas informações podem ser usadas para obter relatórios e solução de problemas executando query nos eventos de Etapa de Jornada para uma determinada jornada ou para todas as viagens. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Agora, o Journey Orchestration pode ser conectado à área de produção e a caixas de proteção Platform que não sejam de produção. Observe que as caixas de proteção são um recurso beta. <a href="../about/access-management.md#sandboxes">Leia mais</a></p>
+<li><p>Agora, o Journey Orchestration pode ser conectado a caixas de proteção Adobe Experience Platform não produtivas e de produção. Observe que as caixas de proteção são um recurso beta. <a href="../about/access-management.md#sandboxes">Leia mais</a></p>
 </li>
 </td>
 </tr>
@@ -130,7 +130,7 @@ A interface do Journey Orchestration está disponível em japonês.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>A lista suspensa <strong>Fuso horário</strong> permite selecionar um fuso horário específico. Por padrão, é usado o fuso horário do navegador. </li>
-<li>A caixa de seleção <strong>Fuso horário do perfil</strong> permite usar o fuso horário do perfil da Experience Platform da pessoa que entra na jornada, caso esteja disponível. Caso contrário, é utilizado o fuso horário definido na lista suspensa. Este recurso não é compatível com jornadas que utilizam eventos sem namespace.</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. Caso contrário, é utilizado o fuso horário definido na lista suspensa. Este recurso não é compatível com jornadas que utilizam eventos sem namespace.</li>
 </ul>
 <p>Para obter mais informações, consulte as seções <a href="../building-journeys/changing-properties.md#timezone">Alteração de propriedades</a> e <a href="../building-journeys/timezone-management.md">Gerenciamento de fuso horário</a>.</p>
 </td>
@@ -189,7 +189,7 @@ A interface do Journey Orchestration está disponível em japonês.
 
 * Agora você pode **excluir** as jornadas interrompidas. Os relatórios associados a essas jornadas excluídas não estarão disponíveis.
 
-* Ao navegar pelos **campos da Plataforma de dados** (formato XDM), você verá o nome de exibição além do nome do campo. Essas informações são recuperadas a partir da definição do schema no Modelo de dados de experiência. Quando disponível, o nome de exibição alternativo é exibido. Essa descrição simples, especialmente útil no caso de campos eVar, permite identificar os campos mais facilmente. [Leia mais](../about/user-interface.md#friendly-names-display)
+* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. Essas informações são recuperadas a partir da definição do schema no Modelo de dados de experiência. Quando disponível, o nome de exibição alternativo é exibido. Essa descrição simples, especialmente útil no caso de campos eVar, permite identificar os campos mais facilmente. [Leia mais](../about/user-interface.md#friendly-names-display)
 
 ## Última Versão - Dezembro de 2019 {#ga-release---december-2019}
 
