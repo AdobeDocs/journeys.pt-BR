@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,15 @@ Duas cores diferentes podem ser exibidas no sinal ao lado da **[!UICONTROL Test]
 
 Erros e avisos que são globais para a jornada aparecem primeiro na lista. Os erros e avisos relacionados a atividades específicas são listados depois, por ordem de atividade ou aparência na jornada da esquerda para a direita. O **[!UICONTROL Copy details]** botão copia informações técnicas sobre a jornada que a equipe de suporte pode usar para solucionar problemas.
 
+Quando ocorre um erro em uma ação ou condição, a jornada de um indivíduo para. A única maneira de continuar é marcar a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
+
 ## Verificando se os eventos foram enviados corretamente{#section_rqz_11t_dgb}
 
 O ponto de partida de uma viagem é sempre um evento. Você pode realizar testes usando ferramentas como o Postman.
 
 Você pode verificar se a chamada de API enviada por meio dessas ferramentas é enviada corretamente ou não. Se você receber um erro de volta, isso significa que sua chamada tem um problema. Verifique a carga novamente, o cabeçalho (e especialmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para ocorrência.
 
-Eventos não são empurrados diretamente da origem para [!DNL Journey Orchestration]. Na verdade, [!DNL Journey Orchestration] depende das APIs de ingestão de streaming da plataforma Experience. Como resultado, no caso de problemas relacionados ao evento, consulte esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) para obter a solução de problemas das APIs de ingestão de transmissão.
+Eventos não são empurrados diretamente da origem para [!DNL Journey Orchestration]. Na verdade, [!DNL Journey Orchestration] depende das APIs de ingestão de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) para obter a solução de problemas das APIs de ingestão de transmissão.
 
 ## Verificando se as pessoas entram na viagem{#section_x4v_zzs_dgb}
 
