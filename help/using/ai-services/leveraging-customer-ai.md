@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ ht-degree: 0%
 
 A IA do cliente faz parte dos Serviços inteligentes. Isso ajuda a prever o que um cliente provavelmente fará. See the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
 
-A IA do cliente permite que as marcas criem pontuações baseadas no aprendizado de máquina de conversão ou de geração de taxa que estarão disponíveis como atributos do perfil (Perfil do cliente em tempo real) nos perfis do Experience Platform.
+A IA do cliente permite que as marcas criem pontuações baseadas no aprendizado de máquina de conversão ou de geração de taxa que estarão disponíveis como atributos do perfil (Perfil do cliente em tempo real) nos perfis do Adobe Experience Platform.
 
-Como resultado, podem ser usados como quaisquer outros atributos do perfil em condições de Journey Orchestration (para tomar as melhores decisões), ações ou construção de segmentos.
+Como resultado, eles podem ser usados como quaisquer outros atributos do perfil em condições de Journey Orchestration (para tomar as melhores decisões), ações ou construção de segmentos.
 
 ![](../assets/customer-ai.png)
 
-Observe que a IA do cliente é um recurso pago do Experience Platform.
+Observe que a IA do cliente é um recurso pago do Adobe Experience Platform.
 
 
