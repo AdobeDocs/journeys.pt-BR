@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6e7c27865eb34961f8901c9bde2c09527f67f15
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1035'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ A tabela abaixo apresenta a lista das dimensões usadas nos relatórios de jorna
 | Dimensões | Definição |
 |--- |--- |
 | **Ação** | Lista de cada ação (nome da **ação - etiqueta** de ação) usada em viagens, por exemplo, Push - Confirmação de check-out, Email - Fidelidade de recompensas. |
-| **Fonte de dados** | Lista de fontes de dados (nome **da fonte de** dados) usadas para enriquecer dados em uma jornada, por exemplo, plataforma de experiência, sistema de reserva. |
+| **Fonte de dados** | Lista de fontes de dados (nome **da fonte de** dados) usada para enriquecer dados em uma jornada, por exemplo, plataforma Adobe Experience, sistema de reserva. |
 | **[!UICONTROL Event]** | Lista de todos os eventos (nome do **evento - etiqueta** do evento) utilizados em viagens, por exemplo, evento Geometrixx - Verificação Geometrixx. |
 | **Grupo de campos** | Lista de grupos de campos (nome **do grupo de** campos) utilizados para enriquecer dados em viagens, por exemplo, grupo de campos do Perfil, sistema de reservas Geometrixx. |
 | **Jornada** | Lista de cada viagem (nome **da** viagem) no modo de teste e viver, por exemplo, abandono do carrinho, notificação de reserva do hotel. |
@@ -95,7 +95,7 @@ A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, s
 | Métrica | Definição |
 |--- |--- |
 | **Na lista de bloqueios** | Número de recipient que declararam um email como spam ou lixo eletrônico. |
-| **Taxa de listas de bloqueios** | O número total de mensagens na lista de bloqueios em comparação com as mensagens enviadas. |
+| **taxa de Lista de bloqueios** | O número total de mensagens na lista de bloqueios em comparação às mensagens enviadas. |
 | **Rejeições + erros** | Total de erros acumulados durante o processamento de retorno automático e delivery em relação ao número total de mensagens enviadas. |
 | **Rejeição + taxa de erro** | O número total de mensagens que retornaram em comparação com as mensagens enviadas. |
 | **Clique em** | Número de vezes que um conteúdo foi clicado em um delivery. |
