@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8d28b51f14ba511a860874e45d341a6977c58fa
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 ## Sobre a atividade do acionador de segmento {#about-segment-trigger-actvitiy}
 
-A atividade do Acionador de segmento permite que todos os indivíduos que pertencem a um segmento de Experience Platform entrem em uma jornada. A entrada numa viagem pode ser efetuada uma vez ou numa base regular.
+A atividade do Acionador de segmento permite que todos os indivíduos que pertencem a um segmento de Adobe Experience Platform entrem em uma jornada. A entrada numa viagem pode ser efetuada uma vez ou numa base regular.
 
-Digamos que você tenha um segmento de cliente Gold no Experience Platform. Com a atividade do Acionador de segmento, é possível fazer com que todos os indivíduos pertencentes ao segmento do cliente Gold entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de viagem: condições, temporizadores, eventos, ações.
+Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform. Com a atividade do Acionador de segmento, é possível fazer com que todos os indivíduos pertencentes ao segmento do cliente Gold entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de viagem: condições, temporizadores, eventos, ações.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Digamos que você tenha um segmento de cliente Gold no Experience Platform. Com 
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. No **[!UICONTROL Segment]** campo, escolha o segmento Experience Platform que irá entrar na jornada e clique em **[!UICONTROL Save]**.
+1. No **[!UICONTROL Segment]** campo, escolha o segmento Adobe Experience Platform que irá entrar na jornada e clique em **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -69,6 +69,6 @@ Digamos que você tenha um segmento de cliente Gold no Experience Platform. Com 
 
    >[!IMPORTANT]
    >
-   >Lembre-se de que os segmentos de Experience Platform são calculados uma vez por dia (segmentos de **lote** ) ou em tempo real (segmentos **transmitidos** ).
+   >Lembre-se de que os segmentos de Adobe Experience Platform são calculados uma vez por dia (segmentos de **lote** ) ou em tempo real (segmentos **transmitidos** ).
    >
-   >Se o segmento selecionado for transmitido em tempo real, os indivíduos que pertencem a esse segmento poderão entrar na jornada em tempo real. Se o segmento for lote, as pessoas recém-qualificadas para esse segmento potencialmente entrarão na jornada quando o cálculo do segmento for executado no Experience Platform.
+   >Se o segmento selecionado for transmitido em tempo real, os indivíduos que pertencem a esse segmento poderão entrar na jornada em tempo real. Se o segmento for lote, as pessoas recém-qualificadas para esse segmento potencialmente entrarão na jornada quando o cálculo do segmento for executado no Adobe Experience Platform.
