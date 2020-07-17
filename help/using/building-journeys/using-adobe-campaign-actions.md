@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0630be5b82d681a94eebe2e9a7196081717ec9d
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '888'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Você pode usar um evento (também conhecido como em tempo real) ou modelo de me
 
 >[!NOTE]
 >
->Quando enviamos mensagens transacionais em tempo real (rtEvent) ou quando roteamos mensagens com um sistema de terceiros graças a uma ação personalizada, uma configuração específica é necessária para o gerenciamento de fadiga, lista de bloqueios ou unsubscription. Por exemplo, se um atributo &quot;unsubscribe&quot; for armazenado no Platform ou em um sistema de terceiros, uma condição terá de ser adicionada antes do envio da mensagem para verificar essa condição.
+>Quando enviamos mensagens transacionais em tempo real (rtEvent) ou quando roteamos mensagens com um sistema de terceiros graças a uma ação personalizada, uma configuração específica é necessária para o gerenciamento de fadiga, lista de bloqueios ou unsubscription. Por exemplo, se um atributo &quot;unsubscribe&quot; for armazenado no Adobe Experience Platform ou em um sistema de terceiros, uma condição terá de ser adicionada antes do envio da mensagem para verificar essa condição.
 
 Quando você seleciona um modelo, todos os campos esperados na carga da mensagem são exibidos no painel de configuração da atividade em **[!UICONTROL Address]** e **[!UICONTROL Personalization Data]**. É necessário mapear cada um desses campos com o campo que deseja usar, a partir do evento ou da fonte de dados. Você também pode usar o editor de expressão avançado para passar um valor manualmente, executar a manipulação de dados em informações recuperadas (por exemplo, converter uma sequência em maiúsculas) ou usar funções como &quot;if, then, else&quot;. Consulte [](../expression/expressionadvanced.md).
 
