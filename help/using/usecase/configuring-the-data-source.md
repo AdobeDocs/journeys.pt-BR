@@ -1,5 +1,5 @@
 ---
-title: Configuração da fonte de dados
+title: Configurar a fonte de dados
 description: Saiba como configurar a fonte de dados para o caso de uso simples da jornada
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,18 +11,21 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 6%
 
 ---
 
 
-# Configuração da fonte de dados{#concept_ax3_bcy_w2b}
+# Configurar a fonte de dados{#concept_ax3_bcy_w2b}
 
-Em nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é uma mulher. Essas informações são armazenadas no banco de dados de Perfil do cliente em tempo real. O usuário **** técnico precisa verificar se esses campos estão definidos na fonte de dados integrada da plataforma Experience.
+Em nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é uma mulher. Essas informações são armazenadas no banco de dados do Perfil do cliente em tempo real. O usuário **** técnico precisa verificar se esses campos estão definidos na fonte de dados integrada do Adobe Experience Platform.
 
 Para obter informações adicionais sobre a configuração da fonte de dados, consulte [](../datasource/about-data-sources.md).
 
-1. No menu superior, clique na **[!UICONTROL Data Sources]**guia e selecione a fonte de dados integrada da Experience Platform.
+1. No menu superior, clique na **[!UICONTROL Data Sources]** guia e selecione a fonte de dados integrada do Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
