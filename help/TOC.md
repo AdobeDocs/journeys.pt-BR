@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Ajuda do Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: 18cc34f4c2f8f75ec42c70ec9a92784aed4358d9
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 80%
+source-wordcount: '382'
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 80%
    + [Notas de versão](using/release-notes/release-notes.md)
    + [Atualizações da documentação](using/release-notes/documentation-updates.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Sobre [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Sobre o [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Introdução](using/about/get-started.md)
    + [Interface do usuário](using/about/user-interface.md)
    + [Gerenciamento de acesso](using/about/access-management.md)
@@ -59,7 +59,11 @@ ht-degree: 80%
       + [Encerrar uma jornada](using/building-journeys/terminating-a-journey.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
    + Atividades {#about-journey-building}
-      + [Atividades de eventos](using/building-journeys/event-activities.md)
+      + Atividades de eventos {#events-activities}
+         + [Sobre atividades eventos](using/building-journeys/event-activities.md)
+         + [eventos gerais](using/building-journeys/general-events.md)
+         + [eventos de reação](using/building-journeys/reaction-events.md)
+         + [eventos de qualificação de segmentos](using/building-journeys/segment-qualification-events.md)
       + Atividades de orquestração {#orchestration-activities}
          + [Sobre atividades de orquestração](using/building-journeys/about-orchestration-activities.md)
          + [Atividade de condição](using/building-journeys/condition-activity.md)
@@ -71,7 +75,7 @@ ht-degree: 80%
          + [Usar ações personalizadas](using/building-journeys/using-custom-actions.md)
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
-   + Compartilhamento de etapas de viagem com a Platform {#sharing-journey-steps}
+   + Compartilhamento de passos de viagem com Adobe Experience Platform {#sharing-journey-steps}
       + [Visão geral do compartilhamento de etapas de jornada](using/building-journeys/sharing-overview.md)
       + [campos comuns de eventos de passos](using/building-journeys/sharing-common-fields.md)
       + [campos de execução de ação de eventos JourStep](using/building-journeys/sharing-execution-fields.md)
