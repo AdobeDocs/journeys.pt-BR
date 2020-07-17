@@ -11,7 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28cb56e5f631acd8e2a49cf0bce55e7226892595
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +31,7 @@ O Editor de expressões Avançadas pode ser usado para criar condições que per
 
 O editor de expressões avançado é obrigatório para executar query em séries de tempo, como uma lista de compras ou cliques passados em mensagens. Tais query não podem ser executados usando o editor simples.
 
-Os eventos de experiência são recuperados da Plataforma de experiência como uma coleção em ordem cronológica inversa, portanto:
+Os eventos de experiência são recuperados do Adobe Experience Platform como uma coleção em ordem cronológica inversa, portanto:
 
 * a primeira função retornará o evento mais recente
 * a última função retornará a mais antiga.
