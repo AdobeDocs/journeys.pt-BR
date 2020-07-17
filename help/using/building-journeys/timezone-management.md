@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
@@ -45,9 +45,9 @@ Para fazer isso, em **[!UICONTROL Properties]**, selecione um fuso horário.
 
 ## Uso de perfis para definir o fuso horário da jornada {#timezone-from-profiles}
 
-Se o evento de entrada da jornada tiver uma namespace, o que significa que a jornada pode chegar ao serviço de Perfil do cliente em tempo real da Plataforma de dados, o fuso horário é pré-definido com o especificado no perfil do indivíduo que flui na jornada.
+Se o evento de entrada da viagem tiver uma namespace, o que significa que a viagem pode chegar ao serviço de Perfil do cliente em tempo real do Adobe Experience Platform, o fuso horário é pré-definido com o especificado no perfil do indivíduo que flui na viagem.
 
-Se um fuso horário for definido no perfil da plataforma de experiência, ele poderá ser recuperado na jornada.
+Se um fuso horário for definido no perfil Adobe Experience Platform, ele poderá ser recuperado na jornada.
 
 Se o perfil do indivíduo não contiver um fuso horário, o fuso horário recuperado será aquele definido no campo de fuso horário.
 
