@@ -1,6 +1,6 @@
 ---
 title: 'Fonte de dados da Adobe Experience Platform '
-description: 'Saiba como configurar a fonte de dados da plataforma Adobe Experience '
+description: 'Saiba como configurar a fonte de dados Adobe Experience Platform '
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '350'
 ht-degree: 10%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 10%
 
 # Fonte de dados da Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-A fonte de dados da plataforma Experience define a conexão com o Serviço de Perfil do cliente em tempo real. Essa fonte de dados é incorporada e pré-configurada. Não pode ser eliminada. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de Perfil do Cliente em tempo real (por exemplo, verifique se a pessoa que entrou em uma jornada é uma fêmea). Ele permite que você use dados de Perfis e dados de Eventos de experiência. Para obter mais informações sobre o Serviço de Perfil do cliente em tempo real, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
+A fonte de dados Adobe Experience Platform define a conexão com o Serviço de Perfil do cliente em tempo real. Essa fonte de dados é incorporada e pré-configurada. Não pode ser eliminada. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de Perfil do Cliente em tempo real (por exemplo, verifique se a pessoa que entrou em uma jornada é uma fêmea). Ele permite que você use dados de Perfis e dados de Eventos de experiência. Para obter mais informações sobre o Serviço de Perfil do cliente em tempo real, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Você pode editar o grupo de campos pré-configurado chamado &quot;ProfileFieldG
 
 Estas são as etapas principais para adicionar grupos de campos à fonte de dados integrada.
 
-1. Na lista de fontes de dados, selecione a fonte de dados integrada da plataforma de experiência.
+1. Na lista de fontes de dados, selecione a fonte de dados integrada do Adobe Experience Platform.
 
    Essa ação abre o painel de configuração da fonte de dados no lado direito da tela.
 
@@ -43,7 +43,7 @@ Estas são as etapas principais para adicionar grupos de campos à fonte de dado
 
    ![](../assets/journey24.png)
 
-1. Selecione um schema no **[!UICONTROL Schema]** menu suspenso. Este campo lista schemas Perfis e Eventos de experiência disponíveis na Plataforma. A criação de Schemas não é realizada em [!DNL Journey Orchestration]. É executado na Plataforma de dados.
+1. Selecione um schema no **[!UICONTROL Schema]** menu suspenso. Este campo lista schemas Perfis e Eventos de experiência disponíveis no Adobe Experience Platform. A criação de Schemas não é realizada em [!DNL Journey Orchestration]. É feito no Adobe Experience Platform.
 1. Selecione os campos que deseja usar.
 1. Defina a duração do cache.
 1. Clique em **[!UICONTROL Save]**.
