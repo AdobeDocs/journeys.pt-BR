@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1e7765352ec91be50b51633927ab038d3492b71a
+source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 88%
+source-wordcount: '1010'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 
 ## Acesso [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Em seguida, clique em **[!UICONTROL Journey Orchestration]**, no lado direito, abaixo de &quot;Experience Platform&quot;.
+To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ Em **[!UICONTROL Home]**,**[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 
 
 O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios. Você pode optar por exibir apenas os elementos de um determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias.
 
-Em **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]** listas, use os **Filtros de criação** para filtrar a data de criação e o usuário. Por exemplo, você pode optar por exibir somente os eventos criados nos últimos 30 dias.
+In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **[!UICONTROL Creation filters]** to filter on the creation date and user. Por exemplo, você pode optar por exibir somente os eventos criados nos últimos 30 dias.
 
 Na lista de jornada (abaixo **[!UICONTROL Home]**), além de **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status e versão (**[!UICONTROL Status and version filters]**). Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [](../building-journeys/using-the-journey-designer.md).
 
@@ -77,7 +77,7 @@ Nas diferentes listas, é possível executar ações básicas em cada elemento. 
 
 ![](../assets/journey4.png)
 
-## Navegação pelos campos da Plataforma de dados {#friendly-names-display}
+## Navegação pelos campos de Adobe Experience Platform {#friendly-names-display}
 
 Ao definir a [carga útil do evento](../event/defining-the-payload-fields.md), [carga útil do grupo de campo](../datasource/field-groups.md) e selecionar campos no [editor de expressões](../expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do schema no modelo de dados de experiência.
 
@@ -104,18 +104,18 @@ _Ao configurar uma atividade em uma jornada:_
 A tela é salva automaticamente. Você pode ver, na parte superior esquerda da tela, o status de salvamento.
 
 * Pressione **escape** para fechar o painel de configuração e descartar as alterações feitas. É equivalente ao botão **[!UICONTROL Cancel]**.
-* Pressione **[!UICONTROL Enter]** ou clique fora do painel para fechar o painel de configuração. As alterações são salvas. É equivalente ao botão **[!UICONTROL Ok]**.
-* Se você pressionar **[!UICONTROL Delete]** ou **backspace**, será possível pressionar **[!UICONTROL Enter]** para confirmar a exclusão.
+* Press **Enter** or click outside the pane to close the configuration pane. As alterações são salvas. É equivalente ao botão **[!UICONTROL Ok]**.
+* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
 
 _Em janelas pop-ups:_
 
-* Pressione **escape** para fechá-la (equivalente ao botão **Cancelar**).
-* Pressione **[!UICONTROL Enter]** para salvar ou confirmar (equivalente ao botão **[!UICONTROL Ok]** ou **[!UICONTROL Save]**).
+* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
+* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
 
 _No painel de configuração do evento, fonte de dados ou ação:_
 
 * Pressione **escape** para fechar o painel de configuração sem salvar.
-* Pressione **[!UICONTROL Enter]** para salvar as modificações e fechar o painel de configuração.
+* Press **Enter** to save modifications and close the configuration pane.
 * Pressione **tab** para saltar entre os diferentes campos que serão configurados.
 
 _No editor de expressões simples_
@@ -137,5 +137,5 @@ _Em uma tela com uma barra de pesquisa:_
 _Na tela de uma jornada:_
 
 * Use a combinação de teclas **Ctrl/Command + A** para selecionar todas as atividades.
-* Quando uma ou várias atividades forem selecionadas, pressione **[!UICONTROL Delete]** ou **backspace** para excluí-las. Em seguida, pressione **[!UICONTROL Enter]** para confirmar na janela pop-up de confirmação.
+* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
 * Clique duas vezes em uma atividade da paleta esquerda para adicioná-la à primeira posição disponível (de cima para baixo).
