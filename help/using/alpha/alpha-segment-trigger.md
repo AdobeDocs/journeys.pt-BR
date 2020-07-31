@@ -1,6 +1,6 @@
 ---
 title: atividade do acionador do segmento
-description: Saiba mais sobre o xxxx
+description: Saiba mais sobre o Acionador de segmentos
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,19 @@ ht-degree: 0%
 
 ## Sobre a atividade do acionador de segmento {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>Se uma atividade de ação predefinida estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a viagem será limitada a 13 entradas por segundo. <br>Se nenhuma atividade de ação predefinida estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a jornada será limitada a 1000 eventos por segundo.
+
 A atividade do Acionador de segmento permite que todos os indivíduos que pertencem a um segmento de Adobe Experience Platform entrem em uma jornada. A entrada numa viagem pode ser efetuada uma vez ou numa base regular.
 
 Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform. Com a atividade do Acionador de segmento, é possível fazer com que todos os indivíduos pertencentes ao segmento do cliente Gold entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de viagem: condições, temporizadores, eventos, ações.
 
+## Configuring the activity {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >Devido às latências de exportação de segmento, não é possível acionar uma jornada baseada em segmento em um período de tempo mais curto que uma hora.
-
-## Configuring the activity {#configuring-segment-trigger-activity}
 
 1. Desdobre a **[!UICONTROL Orchestration]** categoria e solte uma **[!UICONTROL Segment Trigger]** atividade na tela.
 
