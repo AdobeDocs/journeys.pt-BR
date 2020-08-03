@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ Retorna true se a string no primeiro parâmetro corresponder à expressão regul
 
 ## Categoria
 
-Cadeia de caracteres
+String
 
 ## Sintaxe da função
 
@@ -49,4 +52,4 @@ Retorna true.
 
 Explicação:
 
-Aqui, você verifica se a string satisfaz a expressão regular (sintaxe java): começa com &quot;Hello&quot;, depois qualquer tipo de corda e termina com &quot;World&quot;.
+Aqui, você verifica se a sequência de caracteres satisfaz a expressão normal (sintaxe java): start com &quot;Hello&quot;, qualquer tipo de corda e termina com &quot;World&quot;.
