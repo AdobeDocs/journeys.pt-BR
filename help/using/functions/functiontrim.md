@@ -1,5 +1,5 @@
 ---
-title: aparo
+title: trim
 description: Saiba mais sobre a apara de função
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a844adc1a073aebfb7fd8a719e52f305079260b7
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
 
 
-# aparo {#trim}
+# trim {#trim}
 
-Remove os espaços de início e fim.
+Remove espaços de start e fim.
 
 ## Categoria
 
-Cadeia de caracteres
+String
 
 ## Sintaxe da função
 
