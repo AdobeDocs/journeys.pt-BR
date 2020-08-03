@@ -12,19 +12,22 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 7%
 
 ---
 
 
 # replace {#replace}
 
-Substitui a primeira ocorrência que corresponde à string de destino pela string de substituição na string base.
+Substitui a primeira ocorrência que corresponde à string do público alvo pela string de substituição na string base.
 
 A substituição prossegue do início da string até o final, por exemplo, substituir &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
 
 ## Categoria
 
-Cadeia de caracteres
+String
 
 ## Sintaxe da função
 
@@ -35,7 +38,7 @@ Cadeia de caracteres
 | Parâmetro | Tipo |
 |-----------|--------------|
 | base | string |
-| target | string |
+| público-alvo | string |
 | substituição | string |
 
 ## Assinatura e tipo retornado
