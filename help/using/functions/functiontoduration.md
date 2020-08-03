@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 239efa9592b011c70e2fc331df8f33820301253d
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
@@ -35,9 +38,9 @@ Conversão
 | string | formatos baseados no formato de duração ISO-8601 PnDTnHnMn.nS com dias considerados exatamente 24 horas |
 | integer | número de milissegundos |
 
-Se expressão de string: os formatos aceitos são baseados no formato de duração ISO-8601 PnDTnHnMn.nS com dias considerados exatamente 24 horas.
+Se a expressão da string: os formatos aceitos são baseados no formato de duração ISO-8601 PnDTnHnMn.nS com dias considerados exatamente 24 horas.
 
-A string começa com um sinal opcional, denotado pelo símbolo negativo ou positivo ASCII. Se negativo, todo o período é negado. A letra ASCII &quot;P&quot; é a seguinte em maiúsculas ou minúsculas. Em seguida, há quatro seções, cada uma com um número e um sufixo. As seções têm sufixos no ASCII de &quot;D&quot;, &quot;H&quot;, &quot;M&quot; e &quot;S&quot; para dias, horas, minutos e segundos, aceitos em maiúsculas ou minúsculas. Os sufixos devem ocorrer em ordem. A letra &quot;T&quot; do ASCII deve ocorrer antes da primeira ocorrência, se houver, de uma hora, minuto ou segunda seção. Deve estar presente pelo menos uma das quatro seções e, se &quot;T&quot; estiver presente, deve existir pelo menos uma seção após &quot;T&quot;. A parte numérica de cada seção deve consistir em um ou mais dígitos ASCII. O número pode ser prefixado pelo símbolo negativo ou positivo ASCII. O número de dias, horas e minutos deve ser analisado. O número de segundos deve ser analisado junto com a fração opcional. O ponto decimal pode ser um ponto ou uma vírgula. A parte fracional pode ter de zero a 9 dígitos.
+A string start com um sinal opcional, denotado pelo símbolo negativo ou positivo ASCII. Se negativo, todo o período é negado. A letra ASCII &quot;P&quot; é a seguinte em maiúsculas ou minúsculas. Em seguida, há quatro seções, cada uma delas com um número e um sufixo. As seções têm sufixos no ASCII de &quot;D&quot;, &quot;H&quot;, &quot;M&quot; e &quot;S&quot; para dias, horas, minutos e segundos, aceitos em maiúsculas ou minúsculas. Os sufixos devem ocorrer em ordem. A letra &quot;T&quot; do ASCII deve ocorrer antes da primeira ocorrência, se houver, de uma hora, minuto ou segunda seção. Deve estar presente pelo menos uma das quatro seções e, se &quot;T&quot; estiver presente, deve existir pelo menos uma seção após o &quot;T&quot;. A parte numérica de cada seção deve consistir em um ou mais dígitos ASCII. O número pode ser prefixado pelo símbolo negativo ou positivo ASCII. O número de dias, horas e minutos deve ser analisado. O número de segundos deve ser analisado junto com a fração opcional. O ponto decimal pode ser um ponto ou uma vírgula. A parte fracional pode ter de zero a 9 dígitos.
 
 ## Assinaturas e tipo retornado
 
