@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -146,7 +146,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_23.png)
 
-1. Adicione uma nova **[!UICONTROL Push]** atividade, selecione o modelo &quot;Desconto de refeição&quot; e defina os **[!UICONTROL Address]** campos e **[!UICONTROL Personalization]** . Adicione uma **[!UICONTROL End]** atividade.
+1. Adicione uma nova **[!UICONTROL Push]** atividade, selecione o modelo &quot;Desconto de refeição&quot; e defina os **[!UICONTROL Address]** campos e **[!UICONTROL Personalization]** . Adicione uma atividade **[!UICONTROL End]**. 
 
    ![](../assets/journeyuc2_24.png)
 
@@ -154,7 +154,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_31.png)
 
-1. No segundo caminho que segue a condição de reserva (nenhuma sala reservada), adicione uma **[!UICONTROL Push]** atividade e selecione o modelo &quot;Taxas de sala&quot;. Adicione uma **[!UICONTROL End]** atividade.
+1. No segundo caminho que segue a condição de reserva (nenhuma sala reservada), adicione uma **[!UICONTROL Push]** atividade e selecione o modelo &quot;Taxas de sala&quot;. Adicione uma atividade **[!UICONTROL End]**. 
 
    ![](../assets/journeyuc2_25.png)
 
@@ -172,7 +172,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_28.png)
 
-1. Adicione uma **[!UICONTROL End]** atividade.
+1. Adicione uma atividade **[!UICONTROL End]**. 
 
 Clique no botão de **[!UICONTROL Test]** alternância e teste sua jornada. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste-a novamente. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
