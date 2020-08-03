@@ -1,6 +1,6 @@
 ---
 title: Sobre o caso de uso simples
-description: Saiba mais sobre o caso de uso simples da viagem
+description: Saiba mais sobre o caso de uso simples da jornada
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 14%
 
 ---
 
@@ -30,8 +33,8 @@ Queremos enviar uma mensagem apenas se a pessoa for mulher. A mensagem deve ser 
 
 ## Pré-requisitos {#prerequisites}
 
-Para nosso caso de uso, criamos um modelo de mensagens transacionais por email no Adobe Campaign Standard. Estamos usando um modelo de mensagem transacional de evento. Consulte esta [página](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Para nosso caso de uso, criamos um modelo de mensagens transacionais por email no Adobe Campaign Standard. Estamos usando um modelo de mensagens transacionais de evento. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
-O Adobe Campaign Standard está configurado para enviar emails.
+Adobe Campaign Standard está configurado para enviar emails.
 
-Os eventos são enviados do telefone celular do cliente quando são detectados perto de um sinal. Você precisa projetar um aplicativo móvel para enviar eventos do telefone móvel do cliente para o SDK móvel.
+Os Eventos são enviados do celular do cliente quando são detectados perto de um sinal. Você precisa projetar um aplicativo móvel para enviar eventos do telefone móvel do cliente para o SDK móvel.
