@@ -25,7 +25,7 @@ A IA do cliente faz parte dos Serviços inteligentes. Isso ajuda a prever o que 
 
 A IA do cliente permite que as marcas criem pontuações baseadas no aprendizado de máquina de conversão ou de geração de taxa que estarão disponíveis como atributos do perfil (Perfil do cliente em tempo real) nos perfis do Adobe Experience Platform.
 
-Como resultado, eles podem ser usados como quaisquer outros atributos do perfil em condições de Journey Orchestration (para tomar as melhores decisões), ações ou construção de segmentos.
+Como resultado, podem ser usados como quaisquer outros atributos do perfil em condições de Journey Orchestration (para tomar as melhores decisões), ações ou construção de segmentos.
 
 ![](../assets/customer-ai.png)
 
