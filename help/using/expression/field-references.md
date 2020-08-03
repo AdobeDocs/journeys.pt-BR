@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +24,11 @@ source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
 
 Uma referência de campo pode ser anexada a um evento ou grupo de campos. A única informação significativa é o nome do campo e seu caminho.
 
-Se você estiver usando caracteres especiais em um campo, precisará usar aspas duplas ou aspas simples. Estes são os casos em que as cotações são necessárias:
+Se você estiver usando caracteres especiais em um campo, precisará usar aspas de duplo ou aspas simples. Estes são os casos em que as cotações são necessárias:
 
-* o campo começa com caracteres numéricos
-* o campo começa com o caractere &quot;-&quot;
-* o campo contém qualquer outro elemento além de: _a_-_z_, _A_-_Z_, _0____-9, _ , -_
+* os start de campo com caracteres numéricos
+* o campo start com o caractere &quot;-&quot;
+* o campo contém qualquer outro elemento além de: _a_-_z_, _A_-_Z_, _0_-___99, _ , -_
 
 Por exemplo, se seu campo for _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -39,9 +42,9 @@ Por exemplo, se seu campo for _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-Na expressão, os campos de evento são referenciados com &quot;@&quot; e os campos da fonte de dados são referenciados com &quot;#&quot;.
+Na expressão, os campos do evento são referenciados com &quot;@&quot; e os campos da fonte de dados são referenciados com &quot;#&quot;.
 
-Uma cor de sintaxe é usada para distinguir visualmente os campos de eventos (verde) dos grupos de campos (azul).
+Uma cor de sintaxe é usada para diferenciar visualmente os campos de eventos (verde) dos grupos de campos (azul).
 
 **Valores padrão para referências de campo**
 
@@ -72,7 +75,7 @@ Exemplo :
 
 **Referência de um campo definido em um mapa**
 
-Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com o namespace selecionado. Consulte Seleção do namespace. For more information, see [](../event/selecting-the-namespace.md).
+Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com a namespace selecionada. Consulte Seleção da namespace. For more information, see [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
