@@ -83,7 +83,7 @@ Valores possíveis:
 
 * Condição
 * Ação
-* Agendador
+* Scheduler
 * Temporizador
 
 ## stepStatus
