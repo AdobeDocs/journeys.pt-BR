@@ -12,12 +12,15 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 4%
 
 ---
 
 # max{#max}
 
-Retorna o valor máximo entre um conjunto de expressões, fornecido como uma lista ou duas expressões. Valores nulos são ignorados.
+Retorna o valor máximo entre um conjunto de expressões, dado como uma lista ou duas expressões. Valores nulos são ignorados.
 
 ## Categoria
 
