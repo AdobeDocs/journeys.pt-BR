@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -22,7 +25,7 @@ Verifica se a primeira string de argumento termina com uma string específica (s
 
 ## Categoria
 
-Cadeia de caracteres
+String
 
 ## Sintaxe da função
 
@@ -32,8 +35,8 @@ Cadeia de caracteres
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| string | Cadeia de caracteres |
-| valor especificado | Cadeia de caracteres |
+| string | String |
+| valor especificado | String |
 
 ## Assinatura e tipo retornado
 
