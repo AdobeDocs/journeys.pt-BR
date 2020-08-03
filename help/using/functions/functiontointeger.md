@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
@@ -34,8 +37,8 @@ Conversão
 |--- |--- |
 | string | converte o valor da string como um número inteiro |
 | dateTime | converte a data como o número de milissegundos (milissegundos) |
-| decimal | converte em número inteiro removendo a parte decimal (por exemplo: 1,5 passa a 1) |
-| booleano | converte o valor booliano como 1 se verdadeiro, 0 se falso |
+| decimal | converte em número inteiro removendo a parte decimal (por exemplo: 1,5 passa a ser 1) |
+| booleano | converte o valor booliano como 1 se for verdadeiro, 0 se for falso |
 
 ## Assinaturas e tipo retornado
 
