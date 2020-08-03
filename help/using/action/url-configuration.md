@@ -1,5 +1,5 @@
 ---
-title: Configuração do URL
+title: Configurar o URL
 description: Saiba mais sobre a configuração de URL
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,26 +12,29 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 1bc8d845716044671a11c200e4bab92302841994
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 9%
 
 ---
 
 
-# Configuração do URL {#concept_gbg_1f1_2gb}
+# Configurar o URL {#concept_gbg_1f1_2gb}
 
-Ao configurar uma ação personalizada, é necessário definir os seguintes **[!UICONTROL URL Configuration]**parâmetros:
+Ao configurar uma ação personalizada, é necessário definir os seguintes **[!UICONTROL URL Configuration]** parâmetros:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Adicione o controle **[!UICONTROL URL]**do serviço externo.
+1. Add the **[!UICONTROL URL]** of the external service.
 
    >[!NOTE]
    >
-   >Recomendamos o uso do HTTPS por motivos de segurança. Não permitimos o uso de endereços da Adobe que não são públicos e o uso de endereços IP.
+   >Recomendamos o uso de HTTPS por motivos de segurança. Não permitimos o uso de endereços Adobe que não sejam públicos e o uso de endereços IP.
 
-1. Selecione a chamada **[!UICONTROL Method]**: pode ser**[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
-1. Na **[!UICONTROL Headers]**seção, clique**[!UICONTROL Add a header field]** para definir um novo par de chave/valor. Eles correspondem aos cabeçalhos HTTP da solicitação feita ao serviço externo. Para excluir pares de chaves/valores, coloque o cursor no **[!UICONTROL Headers]**campo e clique no**[!UICONTROL Delete]** ícone.
+1. Selecione a chamada **[!UICONTROL Method]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
+1. Na **[!UICONTROL Headers]** seção, clique em **[!UICONTROL Add a header field]** para definir um novo par de chave/valor. Eles correspondem aos cabeçalhos HTTP da solicitação feita ao serviço externo. Para excluir pares de chaves/valores, posicione o cursor no **[!UICONTROL Headers]** campo e clique no **[!UICONTROL Delete]** ícone.
 
-   **[!UICONTROL Content-Type]**e**[!UICONTROL Charset]** são definidas por padrão e não podem ser excluídas ou substituídas.
+   **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** são definidas por padrão e não podem ser excluídas ou substituídas.
 
    >[!NOTE]
    >
