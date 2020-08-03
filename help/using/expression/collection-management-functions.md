@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -215,7 +215,7 @@ O resultado é &quot;token_2&quot;.
 
 **Exemplo 3:**
 
-Verificamos se o primeiro evento (mais recente) da Adobe Analytics com um valor diferente de zero para a ID DMA tem um valor igual a 602.
+Verificamos se o primeiro evento Adobe Analytics (mais recente) com um valor diferente de zero para ID DMA tem um valor igual a 602.
 
 ```
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
