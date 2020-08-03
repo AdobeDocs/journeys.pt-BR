@@ -1,5 +1,5 @@
 ---
-title: contém
+title: contain
 description: Saiba mais sobre a função contém
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 11%
 
 ---
 
 
-# contém {#contain}
+# contain {#contain}
 
 Verifica se a segunda string de argumento está contida na primeira string de argumento.
 
 ## Categoria
 
-Cadeia de caracteres
+String
 
 ## Sintaxe da função
 
