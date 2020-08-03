@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 654888ee62a7b9b6e3d34fc3963fb83cac719003
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 8%
 
 ---
 
 
 # avg {#avg}
 
-Retorna o valor médio entre um conjunto de expressões, fornecido como uma lista ou duas expressões. Valores nulos são ignorados.
+Retorna o valor médio entre um conjunto de expressões, dado como uma lista ou duas expressões. Valores nulos são ignorados.
 
 
 ## Categoria
