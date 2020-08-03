@@ -1,5 +1,5 @@
 ---
-title: parte superior
+title: upper
 description: Saiba mais sobre a função superior
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +25,7 @@ Retorna uma versão em maiúsculas do parâmetro.
 
 ## Categoria
 
-Cadeia de caracteres
+String
 
 ## Sintaxe da função
 
