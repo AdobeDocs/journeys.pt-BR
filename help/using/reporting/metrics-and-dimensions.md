@@ -35,12 +35,12 @@ Para saber mais sobre a compatibilidade entre dimensões e métricas, consulte [
 
 A tabela abaixo apresenta a lista das dimensões usadas nos relatórios de jornada, suas definições e fórmulas.
 
-| Dimensões | Definição |
+| Dimension | Definição |
 |--- |--- |
 | **Ação** | Lista de cada ação (nome da **ação - etiqueta** de ação) usada em viagens, por exemplo, Push - Confirmação de check-out, Email - Fidelidade de recompensas. |
 | **Fonte de dados** | Lista de fontes de dados (nome **da fonte de** dados) usada para enriquecer dados em uma jornada, por exemplo, plataforma Adobe Experience, sistema de reserva. |
-| **[!UICONTROL Event]** | Lista de todos os eventos (nome do **evento - etiqueta** do evento) utilizados em viagens, por exemplo, evento Geometrixx - Verificação Geometrixx. |
-| **Grupo de campos** | Lista de grupos de campos (nome **do grupo de** campos) utilizados para enriquecer dados em viagens, por exemplo, grupo de campos do Perfil, sistema de reservas Geometrixx. |
+| **[!UICONTROL Event]** | Lista de todos os eventos (nome do **evento - etiqueta** do evento) utilizados em viagens, por exemplo, evento do Geometrixx - verificação do Geometrixx. |
+| **Grupo de campos** | Lista de grupos de campos (nome **do grupo de** campos) utilizados para enriquecer dados em viagens, por exemplo, grupo de campos do Perfil, sistema de reservas do Geometrixx. |
 | **Jornada** | Lista de cada viagem (nome **da** viagem) no modo de teste e viver, por exemplo, abandono do carrinho, notificação de reserva do hotel. |
 | **Versão da jornada** | Lista de cada versão publicada de uma viagem (nome da **viagem + número** da versão), por exemplo, abandono do carrinho v1, notificação de reserva do hotel v2. |
 | **Orquestração** | Lista de cada atividade de orquestração (**Condição, Final, Espera**) definida e usada em viagens. |
