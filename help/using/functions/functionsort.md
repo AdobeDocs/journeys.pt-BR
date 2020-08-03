@@ -1,5 +1,5 @@
 ---
-title: espécie
+title: sort
 description: Saiba mais sobre a classificação de função
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 11%
 
 ---
 
 
-# espécie {#sort}
+# sort {#sort}
 
-Classifica uma lista de valores na ordem natural. O primeiro argumento é a lista de valores, o segundo é um valor booliano que indica se a classificação é crescente (true) ou decrescente (false).
+Classifica uma lista de valores na ordem natural. O primeiro argumento é a lista de valores, o segundo é um valor booliano que indica se a classificação é ascendente (true) ou descendente (false).
 
 ## Categoria
 
