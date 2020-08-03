@@ -12,19 +12,22 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: a3df443dcb05018d1f8cac885631dba9c8c20d2b
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 60%
 
 ---
 
 
 # Funções {#concept_p1r_qj5_dgb}
 
-Uma função pode ter assinaturas diferentes (um conjunto diferente de parâmetros solicitados). Uma assinatura de função pode ter expressões 0-N como parâmetros ordenados.
+Uma função pode ter assinaturas diferentes (um conjunto diferente de parâmetros ordenados). Uma assinatura de função pode ter expressões 0-N como parâmetros ordenados.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 Cada função tem um tipo retornado específico.
 
-Esta é a lista de funções suportadas.
+Esta é a lista das funções suportadas.
 
 ## Funções principais
 
@@ -69,25 +72,25 @@ Esta é a lista de funções suportadas.
 | Lista | [](../functions/functionsort.md) |
 | Matemática | [](../functions/functionrandom.md) |
 | Matemática | [](../functions/functionround.md) |
-| Cadeia de caracteres | [](../functions/functionconcat.md) |
-| Cadeia de caracteres | [](../functions/functioncontain.md) |
-| Cadeia de caracteres | [](../functions/functioncontainwithignorecase.md) |
-| Cadeia de caracteres | [](../functions/functionendwith.md) |
-| Cadeia de caracteres | [](../functions/functionendwithignorecase.md) |
-| Cadeia de caracteres | [](../functions/functionequalignorecase.md) |
-| Cadeia de caracteres | [](../functions/functionindexof.md) |
-| Cadeia de caracteres | [](../functions/functionisempty.md) |
-| Cadeia de caracteres | [](../functions/functionisnotempty.md) |
-| Cadeia de caracteres | [](../functions/functionlastindexof.md) |
-| Cadeia de caracteres | [](../functions/functionlength.md) |
-| Cadeia de caracteres | [](../functions/functionlower.md) |
-| Cadeia de caracteres | [](../functions/functionmatchregexp.md) |
-| Cadeia de caracteres | [](../functions/functionnotequalignorecase.md) |
-| Cadeia de caracteres | [](../functions/functionreplace.md) |
-| Cadeia de caracteres | [](../functions/functionreplaceall.md) |
-| Cadeia de caracteres | [](../functions/functionstartwith.md) |
-| Cadeia de caracteres | [](../functions/functionstartwithignorecase.md) |
-| Cadeia de caracteres | [](../functions/functionsubstr.md) |
-| Cadeia de caracteres | [](../functions/functiontrim.md) |
-| Cadeia de caracteres | [](../functions/functionupper.md) |
-| Cadeia de caracteres | [](../functions/functionuuid.md) |
+| String | [](../functions/functionconcat.md) |
+| String | [](../functions/functioncontain.md) |
+| String | [](../functions/functioncontainwithignorecase.md) |
+| String | [](../functions/functionendwith.md) |
+| String | [](../functions/functionendwithignorecase.md) |
+| String | [](../functions/functionequalignorecase.md) |
+| String | [](../functions/functionindexof.md) |
+| String | [](../functions/functionisempty.md) |
+| String | [](../functions/functionisnotempty.md) |
+| String | [](../functions/functionlastindexof.md) |
+| String | [](../functions/functionlength.md) |
+| String | [](../functions/functionlower.md) |
+| String | [](../functions/functionmatchregexp.md) |
+| String | [](../functions/functionnotequalignorecase.md) |
+| String | [](../functions/functionreplace.md) |
+| String | [](../functions/functionreplaceall.md) |
+| String | [](../functions/functionstartwith.md) |
+| String | [](../functions/functionstartwithignorecase.md) |
+| String | [](../functions/functionsubstr.md) |
+| String | [](../functions/functiontrim.md) |
+| String | [](../functions/functionupper.md) |
+| String | [](../functions/functionuuid.md) |
