@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 [!DNL Journey Orchestration] permite que você atribua um conjunto de permissões aos usuários para definir qual parte da interface eles podem acessar.
 
-Eles podem ser gerenciados por administradores que têm acesso ao Admin Console. Para obter mais informações sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
+Eles podem ser gerenciados por administradores que têm acesso ao Admin Console. Para saber mais sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
 
 Para poder acessar [!DNL Journey Orchestration], o usuário deve ser:
 
@@ -74,7 +74,7 @@ Para obter mais informações sobre como criar e gerenciar caixas de proteção,
 
 Para criar um perfil de produto e atribuir um conjunto de permissões e caixas de proteção:
 
-1. No Admin Console, selecione **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
+1. Na Admin Console, selecione **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
 
    ![](../assets/do-not-localize/user_management_5.png)
 
@@ -118,7 +118,7 @@ A lista de cada perfil de produto pronto para uso com permissões atribuídas po
 
 Para atribuir um perfil de produto para um usuário acessar [!DNL Journey Orchestration]:
 
-1. No Admin Console, selecione **[!UICONTROL Journey Orchestration]**.
+1. Na Admin Console, selecione **[!UICONTROL Journey Orchestration]**.
 
    ![](../assets/do-not-localize/user_management.png)
 
@@ -141,7 +141,7 @@ Seu usuário deve receber um email de redirecionamento para sua [!DNL Journey Or
 ## Uso de caixas de proteção {#sandboxes}
 
 [!DNL Journey Orchestration] permite que você partilhe sua instância em ambientes virtuais separados chamados de caixas de proteção.
-As caixas de proteção são atribuídas por meio de perfis de produto no Admin Console. Para obter mais informações sobre como atribuir caixas de proteção, consulte esta [seção](../about/access-management.md#create-product-profile).
+As caixas de proteção são atribuídas por meio de perfis de produto no Admin Console. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
 
 [!DNL Journey Orchestration] reflete as caixas de proteção de Adobe Experience Platform que foram criadas para uma determinada organização.
 As caixas de proteção Adobe Experience Platform podem ser criadas ou redefinidas a partir da sua instância Adobe Experience Platform. Consulte o guia [do usuário do](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) Sandbox para obter as etapas detalhadas.
