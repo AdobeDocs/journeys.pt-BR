@@ -1,5 +1,5 @@
 ---
-title: nosÚltimos Anos
+title: inLastYears
 description: Saiba mais sobre a função emÚltimos Anos
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,11 +12,14 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
 
-# nosÚltimos Anos {#inLastYears}
+# inLastYears {#inLastYears}
 
 Retorna true se determinada data ou dateTime estiver entre agora e agora - anos delta.
 
