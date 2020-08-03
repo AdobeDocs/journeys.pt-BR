@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -21,12 +24,12 @@ source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
 A instrução condicional (if, then, else) é suportada no editor avançado. Permite definir expressões mais complexas. É composto pelos seguintes elementos:
 
 * **[!UICONTROL if]**: a condição a avaliar primeiro.
-* **[!UICONTROL then]**: a expressão a ser avaliada caso o resultado da avaliação da condição seja verdadeiro.
+* **[!UICONTROL then]**: a expressão a avaliar caso o resultado da avaliação da condição seja verdadeiro.
 * **[!UICONTROL else]**: a expressão a ser avaliada caso o resultado da avaliação da condição seja falso.
 
 >[!NOTE]
 >
->Os parênteses são obrigatórios em todas as expressões.
+>Os parênteses são necessários em todas as expressões.
 
 ```
 if  (<expression1>)
