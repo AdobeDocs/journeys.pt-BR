@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ Clique em **[!UICONTROL Add a path]** se desejar definir várias condições. Pa
 
 ![](../assets/journey47.png)
 
-Observe que o projeto de viagens tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho elegível será executado. Isso significa que você pode variar a priorização de caminhos colocando-os acima ou abaixo uns dos outros. Por exemplo, se a condição do primeiro caminho for &quot;A pessoa é um VIP&quot; e a condição do segundo caminho for &quot;A pessoa é um homem&quot;. Se uma pessoa que atende a ambas as condições (um macho que é um VIP) passar essa etapa, o primeiro caminho será escolhido mesmo se ele também estiver qualificado para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
+Observe que o projeto de viagens tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho elegível será executado. Isso significa que você pode variar a priorização de caminhos colocando-os acima ou abaixo uns dos outros. Por exemplo, se a condição do primeiro caminho for &quot;A pessoa é um VIP&quot; e a condição do segundo caminho for &quot;A pessoa é um homem&quot;. Se uma pessoa que atende às duas condições (um macho que é um VIP) passar essa etapa, o primeiro caminho será escolhido mesmo se ele também estiver qualificado para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
 
 ![](../assets/journey48.png)
 
@@ -45,7 +45,7 @@ Você pode criar outro caminho para audiências que não sejam elegíveis às co
 O modo simples permite executar query simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, interbloqueie-os entre si para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
 * E: uma interseção de dois critérios. Somente os elementos que correspondem a todos os critérios são considerados.
-* OU: uma união de dois critérios. São tidos em conta os elementos que correspondem a pelo menos um dos dois critérios.
+* OU: uma união de dois critérios. Os elementos correspondentes a pelo menos um dos critérios são considerados.
 
 ![](../assets/journey64.png)
 
