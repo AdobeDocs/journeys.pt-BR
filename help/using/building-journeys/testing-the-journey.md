@@ -37,7 +37,7 @@ Para usar o modo de teste, siga estas etapas:
 
    ![](../assets/journeytest_wait.png)
 
-1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados a perfis de teste. Consulte [Disparando seus eventos](#firing_events).
+1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados aos perfis de teste. Consulte [Disparando seus eventos](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
