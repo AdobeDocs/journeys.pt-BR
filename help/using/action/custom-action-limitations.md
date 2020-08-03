@@ -30,4 +30,4 @@ Estas são algumas limitações relacionadas ao uso de ações personalizadas:
 * Somente métodos de chamada POST e PUT são suportados.
 * O nome do parâmetro ou cabeçalho do query não deve ser start com &quot;.&quot; ou &quot;$&quot;.
 * Endereços IP não são permitidos.
-* Endereços internos da Adobe (.adobe.) não são permitidas.
+* Endereços de Adobe internos (.adobe.) não são permitidas.
