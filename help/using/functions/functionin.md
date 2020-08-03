@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 939cde1f30a946ba4c20984dd72dcd1526d6e608
 
 Verifica se o primeiro valor de argumento está na lista. A verificação é realizada por meio de um valor Igual em cada valor de argumento. Ele retornará true se o valor do argumento for encontrado, caso contrário, será false.
 
-O tipo da lista `<expression>` deve corresponder aos itens da lista. Os tipos de itens da lista, como lembrete, devem corresponder entre si.
+O tipo da lista `<expression>` deve corresponder aos itens da mesma. Os tipos de itens da lista, como lembrete, devem corresponder entre si.
 
 ## Categoria
 
@@ -34,7 +37,7 @@ Lista
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| Cadeia de caracteres | Cadeia de caracteres |
+| String | String |
 | Booleano | Booleano |
 | Número inteiro | Número inteiro |
 | Decimal | Decimal |
