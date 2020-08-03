@@ -12,6 +12,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -22,7 +25,7 @@ Retorna a posição (no primeiro argumento) da última ocorrência do segundo pa
 
 ## Categoria
 
-Cadeia de caracteres
+String
 
 ## Sintaxe da função
 
@@ -32,8 +35,8 @@ Cadeia de caracteres
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| string | Cadeia de caracteres |
-| valor especificado | Cadeia de caracteres |
+| string | String |
+| valor especificado | String |
 
 ## Assinatura e tipo retornado
 
