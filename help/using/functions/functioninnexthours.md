@@ -12,13 +12,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 0e06abf518445ce145d2d042b16daaa2dfd9603e
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
 
 # inNextHours {#inNextHours}
 
-Retorna true se determinada data ou dateTime estiver entre agora e agora + horas delta.
+Retorna true se uma determinada data ou dateTime estiver entre agora e agora + horas delta.
 
 ## Categoria
 
