@@ -1,5 +1,5 @@
 ---
-title: SAA
+title: substr
 description: Saiba mais sobre a função SAA
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,17 +12,20 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: d6360d616199d597255610959432c7b93fd4e25c
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 6%
 
 ---
 
 
-# SAA {#substr}
+# substr {#substr}
 
-Retorna a subsequência de caracteres da expressão de string entre o índice inicial e o índice final. Se o índice final não estiver definido, ele estará entre o índice inicial e o final.
+Retorna a substring da expressão de string entre o índice inicial e o índice final. Se o índice final não estiver definido, ele estará entre o índice inicial e o final.
 
 ## Categoria
 
-Cadeia de caracteres
+String
 
 ## Sintaxe da função
 
