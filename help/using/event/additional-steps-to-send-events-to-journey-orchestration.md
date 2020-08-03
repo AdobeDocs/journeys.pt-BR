@@ -33,7 +33,7 @@ Para configurar eventos a serem enviados para **[!UICONTROL Streaming Ingestion 
 
 Em seguida, é necessário configurar o sistema de dados que envia eventos para as APIs de ingestão de fluxo usando a carga copiada:
 
-1. Configure uma chamada POST API para o URL das APIs de ingestão de transmissão (chamado de entrada).
+1. Configure uma chamada de API POST para o URL das APIs de ingestão de transmissão (chamada de entrada).
 1. Use a carga copiada [!DNL Journey Orchestration] no corpo (&quot;seção de dados&quot;) da chamada da API para APIs de ingestão de fluxo. Veja abaixo um exemplo
 1. Determine onde obter todas as variáveis presentes na carga. Exemplo: se o evento tiver que indicar o endereço, a carga colada mostrará o &quot;endereço&quot;: &quot;string&quot;. &quot;string&quot; deve ser substituída pela variável que preencherá automaticamente o valor correto, o e-mail da pessoa para quem enviar uma mensagem. Observe que na pré-visualização de carga, na **[!UICONTROL Header]** seção, preenchemos automaticamente muitos valores esperados para facilitar seu trabalho.
 1. Selecione &quot;application/json&quot; como um tipo de corpo.
