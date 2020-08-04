@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 77%
+ht-degree: 89%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. A interface é exibida no idioma definido no IMS. Se o seu idioma IMS não for suportado pelo, [!DNL Journey Orchestration]a interface será exibida em inglês.
+>Para tirar o melhor proveito do [!DNL Journey Orchestration], recomendamos a utilização do Chrome como navegador de Internet. A interface é exibida no idioma definido no IMS. Se o seu idioma IMS não for aceito pelo [!DNL Journey Orchestration], a interface será exibida em inglês.
 >
 >Esta documentação é atualizada com frequência para refletir as alterações recentes no produto. Entretanto, algumas capturas de tela podem diferir ligeiramente da interface do produto.
 
-## Acesso [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+## Acesso ao [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the [!DNL Journey Orchestration]&#39;s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+Para acessar a interface do [!DNL Journey Orchestration], clique no ícone **[!UICONTROL App Selector]** na parte superior direita. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
-You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
+Você também pode acessar o [!DNL Journey Orchestration] na página inicial da Experience Cloud, na seção **[!UICONTROL Quick access]**.
 
 ![](../assets/journey1bis.png)
 
@@ -40,14 +40,14 @@ You can also access [!DNL Journey Orchestration] from the Experience Cloud home 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Sobre a lista da jornada"
->abstract="A lista de jornadas permite visualizar todas as suas jornadas de uma só vez, ver seu status e executar ações básicas. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada que esteja fechada. Você pode criar uma nova versão ou duplicá-la. Você também pode usar a barra de pesquisa para procurar uma jornada."
+>abstract="A lista de jornadas permite visualizar todas as suas jornadas de uma só vez, ver seu status e executar ações básicas. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada encerrada. Você pode criar uma nova versão ou duplicá-la. Você também pode usar a barra de pesquisa para procurar uma jornada."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Assista ao vídeo de demonstração"
 
-The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+Os menus superiores permitem navegar por diferentes funcionalidades do [!DNL Journey Orchestration]: **[!UICONTROL Home]**(as jornadas),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)
 
-Clique no ícone ![](../assets/icon-context.png) no canto superior direito da tela para exibir a ajuda contextual. It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). A ajuda permite visualizar uma descrição rápida da funcionalidade atual e acessar artigos e vídeos relacionados.
+Clique no ícone ![](../assets/icon-context.png) no canto superior direito da tela para exibir a ajuda contextual. Ela está disponível em diferentes telas de lista [!DNL Journey Orchestration] (jornadas, eventos, ações e fontes de dados). A ajuda permite visualizar uma descrição rápida da funcionalidade atual e acessar artigos e vídeos relacionados.
 
 ![](../assets/journey2bis.png)
 
@@ -93,7 +93,7 @@ Se um nome simples estiver disponível, o campo será exibido como `<friendly-na
 
 ## Uso de atalhos diferentes{#section_ksq_zr1_ffb}
 
-Here are the different shortcuts available in the [!DNL Journey Orchestration]&#39;s interface.
+Estes são os diferentes atalhos disponíveis na interface do [!DNL Journey Orchestration].
 
 _Na lista de jornadas, ações, fontes de dados ou eventos:_
 
