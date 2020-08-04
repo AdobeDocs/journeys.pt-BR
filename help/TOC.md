@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 78%
 + Novidades {#release-notes}
    + [Notas de versão](using/release-notes/release-notes.md)
    + [Atualizações da documentação](using/release-notes/documentation-updates.md)
-+ Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Sobre o [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
++ Primeiros passos com o [!DNL Journey Orchestration] {#starting-with-journeys}
+   + [Sobre [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Introdução](using/about/get-started.md)
    + [Interface do usuário](using/about/user-interface.md)
    + [Gerenciamento de acesso](using/about/access-management.md)
@@ -46,8 +46,8 @@ ht-degree: 78%
       + [Limitações de ação personalizada](using/action/custom-action-limitations.md)
       + [Configurar o URL](using/action/url-configuration.md)
       + [Definir os parâmetros da mensagem](using/action/defining-the-message-parameters.md)
-+ Uso de segmentos de plataforma {#configuring-segment}
-   + [Sobre segmentos de plataforma](using/segment/about-segments.md)
++ Uso de segmentos da Platform {#configuring-segment}
+   + [Sobre segmentos da Platform](using/segment/about-segments.md)
    + [Criação de um segmento](using/segment/creating-a-segment.md)
    + [Uso de segmentos em condições](using/segment/using-a-segment.md)
 + Construir uma jornada {#building-journeys}
@@ -76,14 +76,14 @@ ht-degree: 78%
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
    + Compartilhamento de passos de viagem com Adobe Experience Platform {#sharing-journey-steps}
-      + [Visão geral do compartilhamento de etapas de jornada](using/building-journeys/sharing-overview.md)
-      + [campos comuns de eventos de passos](using/building-journeys/sharing-common-fields.md)
-      + [campos de execução de ação de eventos JourStep](using/building-journeys/sharing-execution-fields.md)
-      + [campos de busca de dados dos eventos JourStep](using/building-journeys/sharing-fetch-fields.md)
-      + [campos de identidade do evento JourStep](using/building-journeys/sharing-identity-fields.md)
-      + [campos de viagem](using/building-journeys/sharing-journey-fields.md)
-+ Usar o editor de expressões avançadas {#building-advanced-conditions-journeys}
-   + [Sobre o editor de expressões avançadas](using/expression/expressionadvanced.md)
+      + [Visão geral do compartilhamento de etapas da jornada](using/building-journeys/sharing-overview.md)
+      + [campos comuns de eventos journeySteps](using/building-journeys/sharing-common-fields.md)
+      + [campos de execução de ação de eventos journeyStep](using/building-journeys/sharing-execution-fields.md)
+      + [campos de busca de dados de eventos journeyStep](using/building-journeys/sharing-fetch-fields.md)
+      + [campos de identidade do evento journeyStep](using/building-journeys/sharing-identity-fields.md)
+      + [campos de jornada](using/building-journeys/sharing-journey-fields.md)
++ Uso do editor de expressão avançado {#building-advanced-conditions-journeys}
+   + [Sobre o editor de expressão avançado](using/expression/expressionadvanced.md)
    + Sintaxe {#syntax}
       + [Generalidades](using/expression/generalities.md)
       + [Instrução condicional](using/expression/conditional-instruction.md)
@@ -167,9 +167,9 @@ ht-degree: 78%
    + [Criar relatórios de jornada](using/reporting/creating-your-journey-reports.md)
    + [Métricas e dimensões](using/reporting/metrics-and-dimensions.md)
 + Integração com serviços inteligentes{#use-case-advanced}
-   + [Sobre a integração do AI](using/ai-services/ai-services-overview.md)
-   + [Alavancando a jornada AI](using/ai-services/leveraging-fatigue-scores.md)
-   + [Aproveitando a IA do cliente](using/ai-services/leveraging-customer-ai.md)
+   + [Sobre a integração de AI](using/ai-services/ai-services-overview.md)
+   + [Aproveitamento da AI da jornada](using/ai-services/leveraging-fatigue-scores.md)
+   + [Aproveitamento da AI do cliente](using/ai-services/leveraging-customer-ai.md)
 + Casos de uso{#use-cases-journeys}
    + Caso de uso simples{#use-case-simple}
       + [Sobre o caso de uso simples](using/usecase/about-the-simple-use-case.md)
@@ -182,10 +182,10 @@ ht-degree: 78%
       + [Configurar as fontes de dados](using/usecase/configuring-the-data-sources.md)
       + [Construir a jornada](using/usecase/building-the-journey.md)
 + Trabalho com APIs{#working-with-apis}
-   + [Captando APIs](using/api/capping.md)
+   + [Limitação de APIs](using/api/capping.md)
 + Recursos alfa {#alpha}
-   + [Visão geral dos recursos alfa](using/alpha/alpha-overview.md)
+   + [Visão geral de recursos alfa](using/alpha/alpha-overview.md)
    + [Interface do usuário](using/alpha/alpha-interface.md)
-   + [atividade do acionador do segmento](using/alpha/alpha-segment-trigger.md)
-   + [eventos baseados em regras](using/alpha/alpha-events.md)
+   + [Atividade do acionador de segmento](using/alpha/alpha-segment-trigger.md)
+   + [Eventos com base em regras](using/alpha/alpha-events.md)
 
