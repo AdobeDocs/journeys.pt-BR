@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '1107'
-ht-degree: 66%
+ht-degree: 85%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 66%
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação](../release-notes/documentation-updates.md).
 
-## Versão do segundo trimestre - junho de 2020 {#q2-release---june-2020}
+## Versão do segundo trimestre - Junho de 2020 {#q2-release---june-2020}
 
 <table>
 <thead>
 <tr>
-<th><strong>Aprimoramentos de integração de Adobe Experience Platform</strong><br/></th>
+<th><strong>Aprimoramentos de integração da Adobe Experience Platform</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -40,17 +40,17 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 <li><p>Uma nova atividade permite que as entradas/saídas do segmento de Adobe Experience Platform para fazer com que as pessoas entrem ou avancem em uma jornada. <a href="../building-journeys/segment-qualification-events.md">Leia mais</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Segmentos de Adobe Experience Platform agora podem ser criados e editados sem sair da interface de Journey Orchestration, graças a uma nova guia <strong>Segmentos</strong> .<a href="../segment/about-segments.md">Leia mais</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Leia mais</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>No editor de expressão simples, os segmentos de Adobe Experience Platform agora estão diretamente listados na árvore de navegação para permitir a configuração fácil de condições como "essa pessoa pertence ao segmento A?".<a href="../segment/using-a-segment.md">Leia mais</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration agora passa automaticamente, para o Adobe Experience Platform, as etapas executadas em viagens. Isso inclui possíveis erros encontrados. Essas informações podem ser usadas para obter relatórios e solução de problemas executando query nos eventos de Etapa de Jornada para uma determinada jornada ou para todas as viagens. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
+<li><p>Journey Orchestration agora passa automaticamente, para o Adobe Experience Platform, as etapas executadas em viagens. inclusive possíveis erros que podem ser encontrados. Essas informações podem ser usadas para obter relatórios e solução de problemas executando consultas nos eventos Journey Step para uma determinada jornada ou para todas as jornadas. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Agora, o Journey Orchestration pode ser conectado a caixas de proteção Adobe Experience Platform não produtivas e de produção. Observe que as caixas de proteção são um recurso beta. <a href="../about/access-management.md#sandboxes">Leia mais</a></p>
+<li><p>Agora, o Journey Orchestration pode ser conectado a caixas de proteção Adobe Experience Platform não produtivas e de produção. Observe que as sandboxes são um recurso beta. <a href="../about/access-management.md#sandboxes">Leia mais</a></p>
 </li>
 </td>
 </tr>
@@ -60,21 +60,21 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 <table>
 <thead>
 <tr>
-<th><strong>Aprimoramentos no designer de viagens e no modo de teste</strong><br/></th>
+<th><strong>Aprimoramentos no designer da jornada e no modo de teste</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Foram feitos os seguintes aprimoramentos ao designer de viagem e ao modo de teste:</p>
+<p>Foram feitos os seguintes aprimoramentos ao designer da jornada e ao modo de teste:</p>
 <ul>
-<li><p>Agora você pode copiar atividades de colagem de uma jornada para outra, selecionando 1 ou N atividades de viagem. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Leia mais</a></p>
+<li><p>Agora você pode copiar e colar atividades de uma jornada para outra, selecionando 1 ou N atividades da jornada. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Leia mais</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>Depois de disparar um evento para fazer um perfil de teste entrar em uma jornada, você pode ver seu progresso ao longo da jornada graças a um fluxo visual colorido. Em caso de erro na viagem, são também apresentados pormenores sobre os erros. <a href="../building-journeys/testing-the-journey.md#firing_events">Leia mais</a></p>
+<li><p>Após o disparo de um evento para fazer um perfil de teste entrar em uma jornada, você pode ver o progresso ao longo da jornada graças a um fluxo visual colorido. Em caso de erro na jornada, detalhes do erro também serão exibidos. <a href="../building-journeys/testing-the-journey.md#firing_events">Leia mais</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
-<li>O estado de viagem <strong>Concluído</strong> foi renomeado <strong>Fechado (sem entrada)</strong> para refletir melhor o que esse estado significa.</li>
+<li>O estado da jornada <strong>Concluído</strong> foi renomeado para <strong>Fechado (sem entrada)</strong> para refletir melhor o significado do estado.</li>
 </ul>
 </td>
 </tr>
@@ -83,11 +83,11 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 
 **Outras melhorias**
 
-Para evitar o envio de muitas chamadas de API para sistemas de terceiros, estamos introduzindo uma nova API pública para configurar regras de &quot;limite&quot;. As regras de limitação permitem a definição de um número máximo de chamadas para um terminal de API por milissegundos. [Leia mais](../api/capping.md)
+Para evitar o envio de muitas chamadas de API para sistemas de terceiros, estamos introduzindo uma nova API pública para configurar regras de &quot;limitação&quot;. As regras de limitação permitem a definição de um número máximo de chamadas para um ponto de entrada de API por milissegundos. [Leia mais](../api/capping.md)
 
-O Controle de acesso agora permite mais granularidade no gerenciamento de acesso do usuário. Disponibilidade efetiva: 30 de junho de 2020. [Leia mais](../about/access-management.md#create-product-profile)
+O controle de acesso agora permite mais granularidade no gerenciamento de acesso do usuário. Disponível a partir de 30 de junho de 2020. [Leia mais](../about/access-management.md#create-product-profile)
 
-O Journey Orchestration agora está disponível no APAC (Centro de dados australiano). Disponibilidade efetiva: 30 de junho de 2020
+Agora o Journey Orchestration também está disponível no APAC (Centro de dados australiano). Disponível a partir de 30 de junho de 2020
 
 A interface do Journey Orchestration está disponível em japonês.
 
@@ -203,5 +203,5 @@ O Journey Orchestration permite a orquestração em tempo real com dados context
 
 Recursos adicionais:
 
-* [Tutoriais](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+* [Tutoriais](https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 * [Comunidade](https://www.adobe.com/go/journeyorchestrationcommunity)
