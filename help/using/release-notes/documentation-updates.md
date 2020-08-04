@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 71b5b1ecd20056d0103ae1a8b83a31478449e844
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 52%
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 52%
 # Atualizações da documentação
 
 Esta página lista todas as atualizações de documentação do [!DNL Journey Orchestration].
-You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
+Você também pode consultar as [Notas de versão](../release-notes/release-notes.md) do [!DNL Journey Orchestration].
 
 ## Julho de 2020 {#july-2020}
 
@@ -30,34 +30,34 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 * A seção atividades de eventos foi reorganizada em subseções dedicadas para cada tipo de evento. [Leia mais](../building-journeys/event-activities.md)
 * Adicionadas as práticas recomendadas para evitar sobrecarga com a classificação de segmentos. [Leia mais](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Adicionada uma observação para explicar como fazer uma jornada continuar após um erro em uma ação ou condição. [Leia mais](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Adicionada uma nova seção sobre os recursos Alfa que são testados entre um conjunto limitado de clientes. [Leia mais](../alpha/alpha-overview.md)
-* Adicionada uma nova seção sobre a integração com os Serviços inteligentes. [Leia mais](../ai-services/ai-services-overview.md)
-* Adicionada uma nova seção sobre a criação do perfil de teste. [Leia mais](../building-journeys/testing-the-journey.md#create-test-profile)
-* Foram adicionadas informações sobre como usar o **[!UICONTROL SegmentQualification]** nó em uma condição de jornada ou ação. [Leia mais](../building-journeys/segment-qualification-events.md)
-* Uma observação foi adicionada à publicação de mensagens transacionais e eventos. Consulte [Trabalhar com Adobe Campaign](../action/working-with-adobe-campaign.md) e [Usar ações](../building-journeys/using-adobe-campaign-actions.md)Adobe Campaign.
-* Foram adicionadas informações sobre as verificações realizadas ao testar o URL da instância do Campaign Standard. [Leia mais](../action/working-with-adobe-campaign.md)
-* Foram adicionadas informações sobre a compatibilidade de evento de reação com instâncias Campaign Standard hospedadas em servidores AWS ou Azure. [Leia mais](../building-journeys/reaction-events.md)
-* Foi adicionada uma observação sobre a necessidade de configurar uma regra de limite ao trabalhar com mensagens transacionais de Campaign Standard. [Leia mais](../action/working-with-adobe-campaign.md)
-* Uma observação foi adicionada à geração de eventos reais ao disparar eventos usando o modo de teste. [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
+* Adição de uma nova seção sobre os recursos Alfa que são testados entre um conjunto limitado de clientes. [Leia mais](../alpha/alpha-overview.md)
+* Adição de uma nova seção sobre a integração com os Serviços inteligentes. [Leia mais](../ai-services/ai-services-overview.md)
+* Adição de uma nova seção sobre a criação do perfil de teste. [Leia mais](../building-journeys/testing-the-journey.md#create-test-profile)
+* Adição de informações sobre como usar o nó **[!UICONTROL SegmentQualification]** em uma condição de jornada ou ação. [Leia mais](../building-journeys/segment-qualification-events.md)
+* Adição de uma observação à publicação de mensagens transacionais e eventos do Campaign. Consulte [Trabalhar com Adobe Campaign](../action/working-with-adobe-campaign.md) e [Usar ações do Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md).
+* Adição de informações sobre as verificações feitas ao testar o URL da instância do Campaign Standard. [Leia mais](../action/working-with-adobe-campaign.md)
+* Adição de informações sobre a compatibilidade dos eventos de reação com instâncias do Campaign Standard hospedadas em servidores AWS ou Azure. [Leia mais](../building-journeys/reaction-events.md)
+* Adição de uma observação sobre a necessidade de configurar uma regra de limitação ao trabalhar com mensagens transacionais do Campaign Standard. [Leia mais](../action/working-with-adobe-campaign.md)
+* Foi adicionada uma observação à geração de eventos reais ao disparar eventos usando o modo de teste. [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Junho de 2020 {#june-2020}
 
-* Foram adicionadas informações sobre como alterar a duração do cache do token para uma fonte de dados de autenticação personalizada. [Leia mais](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Capturas de tela e texto atualizados para refletir a renomeação do estado da **[!UICONTROL Finished]** jornada que foi alterado para **[!UICONTROL Closed (no entrance)]**.
-* Foram adicionadas informações sobre como o idioma é definido para a interface. [Leia mais](../about/user-interface.md)
-* A lista dos status da jornada de um indivíduo foi movida para a seção [Testar logs](../building-journeys/testing-the-journey.md#viewing_logs) do modo.
+* Adição de informações sobre como alterar a duração do cache do token para uma fonte de dados de autenticação personalizada. [Leia mais](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Updated screenshots and text to reflect the renaming of the **[!UICONTROL Finished]** journey state which has been changed to **[!UICONTROL Closed (no entrance)]**.
+* Adição de informações sobre como o idioma é definido para a interface. [Leia mais](../about/user-interface.md)
+* A lista dos status da jornada de uma pessoa foi movida para a seção [Logs modo de teste](../building-journeys/testing-the-journey.md#viewing_logs).
 
 ## Abril de 2020 {#april-2020}
 
-* Adicionada uma nova seção sobre a definição do schema do evento da experiência para ajudar os usuários a configurar seu primeiro evento. [Leia mais](../event/experience-event-schema.md)
-* O home page da documentação foi atualizado com links úteis adicionais. [!DNL Journey Orchestration] [Leia mais](../../journey-orchestration-home.md)
+* Adição de uma nova seção sobre a definição do schema do evento da experiência para ajudar os usuários a configurar o primeiro evento. [Leia mais](../event/experience-event-schema.md)
+* A home page da documentação do [!DNL Journey Orchestration] foi atualizada com mais links úteis. [Leia mais](../../journey-orchestration-home.md)
 
 ## Março de 2020 {#march-2020}
 
 * Adição de descrições de parâmetros para _actionExecutionErrors_ e _fetchErrors_ na seção de logs de teste. [Leia mais](../building-journeys/testing-the-journey.md#viewing_logs)
 * As limitações das ações personalizadas usadas em uma jornada foram atualizadas. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [Leia mais](../action/about-custom-action-configuration.md)
 * Novas entradas de ajuda contextual foram adicionadas. O painel de carga útil de autenticação personalizada (em ações e fontes de dados) agora inclui um ícone de ajuda que se vincula a esta [seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-* As viagens fechadas podem agora ser interrompidas. [Leia mais](../building-journeys/using-the-journey-designer.md)
+* Agora as jornadas concluídas podem ser interrompidas. [Leia mais](../building-journeys/using-the-journey-designer.md)
 * A seção de descrição da interface foi reorganizada. [Leia mais](../about/user-interface.md)
 * O acionamento de vários eventos foi adicionado à seção Modo de teste [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
 * A seção Modo de teste foi atualizada em relação ao novo **[!UICONTROL Wait time in test]** parâmetro. [Leia mais](../building-journeys/testing-the-journey.md)
@@ -70,7 +70,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## Fevereiro de 2020 {#february-2020}
 
 * A seção de atalho foi atualizada. O atalho **C** do teclado permite criar um novo item em todas as telas de lista. [Leia mais](../about/user-interface.md#section_ksq_zr1_ffb)
-* As páginas de visão geral da fonte [de](../datasource/about-data-sources.md) dados e da [ação](../action/action.md) foram aprimoradas.
+* As páginas de visão geral de [fonte de dados](../datasource/about-data-sources.md) e [ação](../action/action.md) foram aprimoradas.
 
 ## Janeiro de 2020 {#january-2020}
 
@@ -84,7 +84,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 * Foi adicionado um aviso nas seções de [otimização de tempo de envio de email](../building-journeys/wait-activity.md) e [pontuações de fadiga preditiva](../ai-services/leveraging-fatigue-scores.md). Esses recursos só estão disponíveis para clientes que usam o recurso Data Service do Adobe Campaign Standard .
 * Agora, as jornadas interrompidas podem ser excluídas. As páginas de documentação relacionadas foram atualizadas.
 * Agora, duas cores são exibidas quando problemas são detectados em uma jornada. Vermelho para erros e laranja para avisos. [Leia mais](../about/troubleshooting.md)
-* A seção avançada do editor de expressões foi atualizada. [Leia mais](../expression/expressionadvanced.md).
+* A seção do editor de expressão avançado foi atualizada. [Leia mais](../expression/expressionadvanced.md).
 * As seções [instrução condicional](../expression/conditional-instruction.md) e [gerenciamento de Coleção](../expression/collection-management-functions.md) foram movidas e atualizadas.
 * A seção [funções](../expression/functions.md) foi atualizada com novos exemplos.
 * A documentação da [função toDateTime](../functions/functiontodatetime.md) foi atualizada para divulgar as alterações na sintaxe do fuso horário.
