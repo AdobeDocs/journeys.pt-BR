@@ -1,5 +1,5 @@
 ---
-title: atividade do acionador do segmento
+title: Atividade do acionador de segmento
 description: Saiba mais sobre o Acionador de segmentos
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,20 +14,20 @@ translation-type: tm+mt
 source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# atividade do acionador do segmento {#segment-trigger-activity}
+# Atividade do acionador de segmento {#segment-trigger-activity}
 
 ## Sobre a atividade do acionador de segmento {#about-segment-trigger-actvitiy}
 
 >[!NOTE]
 >
->Se uma atividade de ação predefinida estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a viagem será limitada a 13 entradas por segundo. <br>Se nenhuma atividade de ação predefinida estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a jornada será limitada a 1000 eventos por segundo.
+>Se uma atividade de ação predefinida da Adobe Campaign Standard estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a jornada será limitada a 13 entradas por segundo. <br>Se nenhuma atividade de ação predefinida da Adobe Campaign Standard estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a jornada será limitada a 1000 eventos por segundo.
 
-A atividade do Acionador de segmento permite que todos os indivíduos que pertencem a um segmento de Adobe Experience Platform entrem em uma jornada. A entrada numa viagem pode ser efetuada uma vez ou numa base regular.
+A atividade de Acionador de segmento permite que todos os indivíduos que pertencem a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada numa viagem pode ser efetuada uma vez ou numa base regular.
 
 Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform. Com a atividade do Acionador de segmento, é possível fazer com que todos os indivíduos pertencentes ao segmento do cliente Gold entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de viagem: condições, temporizadores, eventos, ações.
 
@@ -49,7 +49,7 @@ Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform
 
    ![](../assets/segment-trigger-schedule.png)
 
-1. No **[!UICONTROL Segment]** campo, escolha o segmento Adobe Experience Platform que irá entrar na jornada e clique em **[!UICONTROL Save]**.
+1. No **[!UICONTROL Segment]** campo, escolha o segmento Adobe Experience Platform que entrará na jornada e clique em **[!UICONTROL Save]**.
 
    ![](../assets/segment-trigger-segment-selection.png)
 
@@ -73,6 +73,6 @@ Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform
 
    >[!IMPORTANT]
    >
-   >Lembre-se de que os segmentos de Adobe Experience Platform são calculados uma vez por dia (segmentos de **lote** ) ou em tempo real (segmentos **transmitidos** ).
+   >Lembre-se de que os segmentos do Adobe Experience Platform são calculados uma vez por dia (segmentos de **lote** ) ou em tempo real (segmentos **transmitidos** ).
    >
    >Se o segmento selecionado for transmitido em tempo real, os indivíduos que pertencem a esse segmento poderão entrar na jornada em tempo real. Se o segmento for lote, as pessoas recém-qualificadas para esse segmento potencialmente entrarão na jornada quando o cálculo do segmento for executado no Adobe Experience Platform.
