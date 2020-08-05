@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# Alavancando a jornada AI {#concept_dsh_1ry_wfb}
+# Aproveitamento da AI da jornada {#concept_dsh_1ry_wfb}
 
 Este caso de uso mostrará como aproveitar as pontuações de fadiga para evitar a solicitação excessiva de seus clientes em suas viagens.
 
@@ -35,7 +35,7 @@ Siga as etapas descritas em [](../event/about-events.md).
 
 Execute as seguintes etapas para selecionar os campos de pontuação de fadiga na fonte de dados incorporada:
 
-1. No menu superior, clique na **[!UICONTROL Data Sources]** guia e selecione a fonte de dados integrada do Adobe Experience Platform.
+1. No menu superior, clique na **[!UICONTROL Data Sources]** guia e selecione a fonte de dados Adobe Experience Platform integrada.
 
    ![](../assets/journey23.png)
 
