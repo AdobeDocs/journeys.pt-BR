@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Os dados do Delivery e o componente Segmentos só serão preenchidos se você tiver Adobe Campaign Standard.
+>Os dados do Delivery e o componente Segmentos só serão preenchidos se você tiver o Adobe Campaign Standard.
 
 Esta seção apresentará como acessar e usar relatórios para medir a eficácia de suas viagens.
 
