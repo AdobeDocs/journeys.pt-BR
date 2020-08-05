@@ -22,13 +22,13 @@ ht-degree: 0%
 
 # Sobre Schemas ExperienceEvent para [!DNL Journey Orchestration] Eventos
 
-[!DNL Journey Orchestration] Os eventos são Eventos de experiência XDM enviados para o Adobe Experience Platform via assimilação de fluxo.
+[!DNL Journey Orchestration] Os eventos são Eventos de experiência XDM enviados para a Adobe Experience Platform por meio da ingestão de fluxo contínuo.
 
-Dessa forma, um pré-requisito importante para a configuração de eventos [!DNL Journey Orchestration] é que você está familiarizado com o Modelo de Dados de Experiência (ou XDM) do Adobe Experience Platform e como compor schemas de Evento de Experiência XDM, bem como como como fazer o stream de dados formatados XDM para o Adobe Experience Platform.
+Dessa forma, um pré-requisito importante para a configuração de eventos [!DNL Journey Orchestration] é que você está familiarizado com o Experience Data Model (ou XDM) da Adobe Experience Platform e com como compor schemas do Evento de experiência XDM, bem como como como fazer o stream de dados formatados XDM para a Adobe Experience Platform.
 
 ## Requisitos de Schema para [!DNL Journey Orchestration] Eventos
 
-A primeira etapa na configuração de um evento para [!DNL Journey Orchestration] é garantir que você tenha um schema XDM definido para representar o evento e um conjunto de dados criado para registrar instâncias do evento no Adobe Experience Platform. Ter um conjunto de dados para seus eventos não é estritamente necessário, mas enviar os eventos para um conjunto de dados específico permitirá manter o histórico de eventos dos usuários para futura referência e análise, portanto, é sempre uma boa ideia. Se você ainda não tiver um schema e um conjunto de dados adequados para o seu evento, ambas as tarefas poderão ser feitas na interface da Web do Adobe Experience Platform.
+A primeira etapa na configuração de um evento para [!DNL Journey Orchestration] é garantir que você tenha um schema XDM definido para representar o evento e um conjunto de dados criado para registrar instâncias do evento no Adobe Experience Platform. Ter um conjunto de dados para seus eventos não é estritamente necessário, mas enviar os eventos para um conjunto de dados específico permitirá manter o histórico de eventos dos usuários para futura referência e análise, portanto, é sempre uma boa ideia. Se você ainda não tiver um schema e um conjunto de dados adequados para o seu evento, ambas as tarefas poderão ser feitas na interface da Web da Adobe Experience Platform.
 
 ![](../assets/schema1.png)
 
