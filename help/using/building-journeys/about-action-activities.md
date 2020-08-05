@@ -27,7 +27,7 @@ Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Events]** e **[!UICONT
 
 Essas atividades representam os diferentes canais de comunicação disponíveis. Você pode combiná-los para criar um cenário entre canais.
 
-Se você tiver Adobe Campaign Standard, as seguintes atividades de ação prontas para uso estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**. Consulte [](../building-journeys/using-adobe-campaign-actions.md).
+Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação prontas para uso estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**. Consulte [](../building-journeys/using-adobe-campaign-actions.md).
 
 Se você tiver configurado ações personalizadas, elas também aparecerão aqui (consulte [](../building-journeys/using-custom-actions.md)).
 
