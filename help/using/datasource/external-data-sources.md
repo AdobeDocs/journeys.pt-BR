@@ -22,7 +22,7 @@ ht-degree: 98%
 
 # Fontes de dados externas {#concept_t2s_kqt_52b}
 
-Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada do Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
+Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados Adobe Experience Platform integrada, você pode criar quantas fontes de dados externas forem necessárias.
 
 As APIs REST que usam POST ou GET e devolvem JSON são compatíveis. A chave de API, os modos de autenticação básicos e personalizados são compatíveis.
 
