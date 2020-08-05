@@ -25,13 +25,13 @@ O usuário **** comercial pode agora construir a jornada. Nossa jornada incluir�
 
 * duas **[!UICONTROL Event]** atividades: &quot;LobbyBeacon&quot; e &quot;RestaurantBeacon&quot;
 * duas **[!UICONTROL Condition]** atividades
-* três **[!UICONTROL Push]** atividades e uma **[!UICONTROL Email]** atividade (usando Adobe Campaign Standard)
+* três **[!UICONTROL Push]** atividades e uma **[!UICONTROL Email]** atividade (usando o Adobe Campaign Standard)
 * uma atividade **[!UICONTROL Wait]**
 * quatro **[!UICONTROL End]** atividades
 
 >[!NOTE]
 >
->As **[!UICONTROL Push]** atividade **[!UICONTROL Email]** esó estarão disponíveis na paleta se você tiver Adobe Campaign Standard.
+>As **[!UICONTROL Push]** atividades e **[!UICONTROL Email]** as  só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
 Para obter informações adicionais sobre como construir uma jornada, consulte [](../building-journeys/journey.md).
 
@@ -57,7 +57,7 @@ Para obter informações adicionais sobre como construir uma jornada, consulte [
 
    ![](../assets/journeyuc2_15.png)
 
-1. Clique **[!UICONTROL Advanced mode]** e defina a seguinte condição com base nos campos &quot;carimbo de data e hora&quot; e &quot;directMarketing.send.value&quot; provenientes da fonte de dados do Adobe Experience Platform. A sintaxe da expressão é:
+1. Clique **[!UICONTROL Advanced mode]** e defina a seguinte condição com base nos campos &quot;carimbo de data e hora&quot; e &quot;directMarketing.send.value&quot; provenientes da fonte de dados da Adobe Experience Platform. A sintaxe da expressão é:
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
