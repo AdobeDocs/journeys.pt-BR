@@ -26,7 +26,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 
 ## Julho de 2020 {#july-2020}
 
-* Adicionado um link para um novo vídeo tutorial sobre evento relatórios de Adobe Experience Platform. [Leia mais](../building-journeys/sharing-overview.md)
+* Adicionado um link para um novo vídeo tutorial sobre o relatórios de eventos da etapa para Adobe Experience Platform. [Leia mais](../building-journeys/sharing-overview.md)
 * A seção atividades de eventos foi reorganizada em subseções dedicadas para cada tipo de evento. [Leia mais](../building-journeys/event-activities.md)
 * Adicionadas as práticas recomendadas para evitar sobrecarga com a classificação de segmentos. [Leia mais](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Adicionada uma observação para explicar como fazer uma jornada continuar após um erro em uma ação ou condição. [Leia mais](../about/troubleshooting.md#section_h3q_kqk_fhb)
