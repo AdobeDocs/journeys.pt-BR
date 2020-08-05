@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '1335'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ O menu Início da jornada permite que você visualização a **lista das viagens
 
 ## A lista da viagem {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada que esteja fechada. Você pode criar uma nova versão dela, duplicado ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada encerrada. Você pode criar uma nova versão dela, duplicado ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
 
 O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na parte superior esquerda da lista. O menu filtros permite que você filtre as viagens exibidas de acordo com critérios diferentes (status, aqueles criados, os modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as viagens que usam um evento, grupo de campos ou ação específicos. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
 
