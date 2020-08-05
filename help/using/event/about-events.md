@@ -36,11 +36,11 @@ Se você editar um evento usado em um rascunho ou em uma jornada ao vivo, será 
 
 ## Princípio geral {#section_r1f_xqt_pgb}
 
-Eventos são chamadas POST API. Eventos são enviados para o Adobe Experience Platform por meio de APIs de ingestão de transmissão. O destino do URL de eventos enviados por meio de APIs de mensagens transacionais é chamado de &quot;inlet&quot;. A carga útil de eventos segue a formatação XDM.
+Eventos são chamadas POST API. Os Eventos são enviados para a Adobe Experience Platform por meio de APIs de ingestão de fluxo contínuo. O destino do URL de eventos enviados por meio de APIs de mensagens transacionais é chamado de &quot;inlet&quot;. A carga útil de eventos segue a formatação XDM.
 
 O payload contém informações necessárias para que as APIs de assimilação de streaming funcionem (no cabeçalho) e as informações necessárias para que o [!DNL Journey Orchestration] funcione (a ID do evento, parte do corpo do payload útil) e as informações que serão usadas em jornadas (no corpo, por exemplo, o valor total de um carrinho abandonado). Há dois modos para a assimilação de fluxo, autenticados e não autenticados. Para obter detalhes sobre as APIs de assimilação de fluxo, consulte [este link](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html).
 
-Após chegar pelas APIs de ingestão de fluxo contínuo, os eventos fluem para um serviço interno chamado Pipeline e, em seguida, no Adobe Experience Platform. Se o schema do evento tiver o sinalizador de Serviço de perfil do cliente em tempo real ativado e uma ID de conjunto de dados que também tenha o sinalizador de Perfil do cliente em tempo real, ele fluirá para o Serviço de perfil do cliente em tempo real.
+Após chegar pelas APIs de ingestão de fluxo contínuo, os eventos fluem para um serviço interno chamado Pipeline e, em seguida, para o Adobe Experience Platform. Se o schema do evento tiver o sinalizador de Serviço de perfil do cliente em tempo real ativado e uma ID de conjunto de dados que também tenha o sinalizador de Perfil do cliente em tempo real, ele fluirá para o Serviço de perfil do cliente em tempo real.
 
 O Pipeline filtra os eventos que têm um payload contendo [!DNL Journey Orchestration] eventIDs (consulte o processo de criação de eventos abaixo) fornecidos pelo [!DNL Journey Orchestration] e contidos no payload do evento. Esses eventos são acompanhados pelo [!DNL Journey Orchestration] e a jornada correspondente é acionada.
 
