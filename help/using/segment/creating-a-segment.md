@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 5%
 
 # Criação de um segmento {#creating-a-segment}
 
-Você pode criar um segmento usando o Serviço [de segmentação de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform ou acessá-lo e criá-lo diretamente no [!DNL Journey Orchestration].
+Você pode criar um segmento usando o Serviço [de segmentação da](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform ou acessá-lo e criá-lo diretamente no [!DNL Journey Orchestration].
 
-1. No menu superior, clique na guia **[!UICONTROL Segments]**. A lista de segmentos de Adobe Experience Platform é exibida. Você pode procurar um segmento específico na lista.
+1. No menu superior, clique na guia **[!UICONTROL Segments]**. A lista de segmentos do Adobe Experience Platform é exibida. Você pode procurar um segmento específico na lista.
 
 ![](../assets/segment1.png)
 
