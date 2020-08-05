@@ -49,14 +49,14 @@ Nesse caso de uso, será necessário criar dois eventos (consulte [](../usecase/
 
 Será necessário configurar uma conexão com duas fontes de dados (consulte [](../usecase/configuring-the-data-sources.md)):
 
-* A fonte de dados integrada do Adobe Experience Platform, para recuperar as informações de nossas duas condições (associação de fidelidade e data do último contato), bem como as informações de personalização da mensagem.
+* A fonte de dados Adobe Experience Platform integrada, para recuperar as informações de nossas duas condições (associação de fidelidade e data do último contato), bem como as informações de personalização da mensagem.
 * O sistema de reservas do hotel, para recuperar as informações de status da reserva.
 
 ## Pré-requisitos {#prerequisites}
 
-Para nosso caso de uso, criamos três modelos de mensagens transacionais de Adobe Campaign Standard. Estamos usando modelos de mensagens transacionais de evento. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+Para nosso caso de uso, criamos três modelos de mensagens transacionais da Adobe Campaign Standard. Estamos usando modelos de mensagens transacionais de evento. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
-O Adobe Campaign Standard está configurado para enviar emails e notificações por push.
+A Adobe Campaign Standard está configurada para enviar emails e notificações por push.
 
 A ID do Experience Cloud é usada como a chave para identificar o cliente no sistema de reservas do hotel.
 
