@@ -77,7 +77,7 @@ Nas diferentes listas, é possível executar ações básicas em cada elemento. 
 
 ![](../assets/journey4.png)
 
-## Navegação pelos campos de Adobe Experience Platform {#friendly-names-display}
+## Navegação pelos campos do Adobe Experience Platform {#friendly-names-display}
 
 Ao definir a [carga útil do evento](../event/defining-the-payload-fields.md), [carga útil do grupo de campo](../datasource/field-groups.md) e selecionar campos no [editor de expressões](../expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do schema no modelo de dados de experiência.
 
