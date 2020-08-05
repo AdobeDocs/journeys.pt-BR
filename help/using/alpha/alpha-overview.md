@@ -1,5 +1,5 @@
 ---
-title: Visão geral dos recursos alfa
+title: Visão geral de recursos alfa
 description: Saiba mais sobre a versão Alpha do Journey Orchestration.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Visão geral dos recursos alfa
+# Visão geral de recursos alfa
 
 Os recursos do programa Alfa oferta que estão sendo testados atualmente em um conjunto limitado de clientes. Isso nos permite melhorar nosso produto com base no feedback recebido. Esses recursos não estão disponíveis para todos os clientes do Journey Orchestration.
 
