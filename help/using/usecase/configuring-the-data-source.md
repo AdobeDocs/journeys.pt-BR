@@ -21,11 +21,11 @@ ht-degree: 6%
 
 # Configurar a fonte de dados{#concept_ax3_bcy_w2b}
 
-Em nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é uma mulher. Essas informações são armazenadas no banco de dados do Perfil do cliente em tempo real. O usuário **** técnico precisa verificar se esses campos estão definidos na fonte de dados integrada do Adobe Experience Platform.
+Em nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é uma mulher. Essas informações são armazenadas no banco de dados do Perfil do cliente em tempo real. O usuário **** técnico precisa verificar se esses campos estão definidos na fonte de dados Adobe Experience Platform integrada.
 
 Para obter informações adicionais sobre a configuração da fonte de dados, consulte [](../datasource/about-data-sources.md).
 
-1. No menu superior, clique na **[!UICONTROL Data Sources]** guia e selecione a fonte de dados integrada do Adobe Experience Platform.
+1. No menu superior, clique na **[!UICONTROL Data Sources]** guia e selecione a fonte de dados Adobe Experience Platform integrada.
 
    ![](../assets/journey23.png)
 
