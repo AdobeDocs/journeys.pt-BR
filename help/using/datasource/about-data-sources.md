@@ -37,7 +37,7 @@ Essa configuração não é necessária se suas jornadas só usarem os dados loc
 
 Há dois tipos de fontes de dados:
 
-* A fonte de dados Adobe Experience Platform pré-configurada que define a conexão com o Serviço de Perfil do Cliente em tempo real. Essa fonte de dados é integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
+* A fonte de dados Adobe Experience Platform pré-configurada que define a conexão com o Serviço de Perfil do cliente em tempo real. Essa fonte de dados é integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
 * As fontes de dados externas que permitem definir uma conexão com sistemas externos. Essas são as que você pode criar. Consulte [](../datasource/external-data-sources.md).
 
 Para cada fonte de dados, você define as informações que serão recuperadas usando grupos de campos. Grupos de campos são conjuntos de campos que podem ser recuperados de uma fonte de dados. Consulte [](../datasource/field-groups.md).
