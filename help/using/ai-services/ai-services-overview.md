@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 3c5f1dcf66df31b12237788633704eeb348ddfa2
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Sobre a integração do AI {#ai-overview}
+# Sobre a integração de AI {#ai-overview}
 
 A integração com os Serviços inteligentes permite que você aproveite o poder da inteligência artificial e do aprendizado da máquina nos casos de uso da experiência do cliente. Isso permite que os analistas de marketing configurem previsões específicas para as necessidades de uma empresa usando configurações de nível empresarial sem a necessidade de especialização em ciência de dados.
 
