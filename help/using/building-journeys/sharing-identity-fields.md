@@ -1,6 +1,6 @@
 ---
-title: campos de identidade do evento JourStep
-description: campos de identidade do evento JourStep
+title: campos de identidade do evento journeyStep
+description: campos de identidade do evento journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: 10402a774bda66629f30869102d5e6ceca267535
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
 
-# campos de identidade do evento JourStep {#sharing-identity-fields}
+# campos de identidade do evento journeyStep {#sharing-identity-fields}
 
 Essa combinação é específica para o jorStepStepEvent: este evento é relacionado à jornada, e não tem o identityMap, descrevendo a identidade do perfil, se houver.
 
