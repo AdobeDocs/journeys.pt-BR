@@ -75,7 +75,7 @@ ht-degree: 95%
          + [Usar ações personalizadas](using/building-journeys/using-custom-actions.md)
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
-   + Compartilhamento de passos de viagem com Adobe Experience Platform {#sharing-journey-steps}
+   + Compartilhamento de etapas de viagem com a Adobe Experience Platform {#sharing-journey-steps}
       + [Visão geral do compartilhamento de etapas da jornada](using/building-journeys/sharing-overview.md)
       + [campos comuns de eventos journeySteps](using/building-journeys/sharing-common-fields.md)
       + [campos de execução de ação de eventos journeyStep](using/building-journeys/sharing-execution-fields.md)
