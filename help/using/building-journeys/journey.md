@@ -26,7 +26,7 @@ This step is performed by the **business user**. Aqui é onde você cria suas vi
 
 A interface de jornada permite que você arraste e solte facilmente atividades da paleta para a tela. Você também pode clicar com o duplo em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem um papel e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 
-Apenas uma namespace é permitida por viagem. Quando você solta a primeira evento, eventos com namespaces diferentes ficam esmaecidos. Se o primeiro evento não tiver uma namespace, então todos os eventos com uma namespace estarão esmaecidos. Consulte [](../event/selecting-the-namespace.md). Além disso, grupos de Adobe Experience Platform estão esmaecidos se a jornada tiver eventos sem namespace. E finalmente, se você usar vários eventos na mesma jornada, eles precisam usar a mesma namespace.
+Apenas uma namespace é permitida por viagem. Quando você solta a primeira evento, eventos com namespaces diferentes ficam esmaecidos. Se o primeiro evento não tiver uma namespace, então todos os eventos com uma namespace estarão esmaecidos. Consulte [](../event/selecting-the-namespace.md). Além disso, grupos de campo da Adobe Experience Platform ficam esmaecidos se a jornada tiver eventos sem namespace. E finalmente, se você usar vários eventos na mesma jornada, eles precisam usar a mesma namespace.
 
 ## Quick start {#creating_journey}
 
