@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 Para configurar eventos a serem enviados para **[!UICONTROL Streaming Ingestion APIs]** e a serem usados em [!DNL Journey Orchestration], siga estas etapas:
 
-1. Obtenha o URL de entrada das APIs de Adobe Experience Platform (consulte APIs [de ingestão de](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/overview.html)transmissão).
+1. Obtenha o URL de entrada das APIs do Adobe Experience Platform (consulte APIs [de ingestão de](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/overview.html)transmissão contínua).
 1. Copie a carga da pré-visualização de carga no **[!UICONTROL Event]** menu. Consulte [](../event/defining-the-payload-fields.md).
 
 Em seguida, é necessário configurar o sistema de dados que envia eventos para as APIs de ingestão de fluxo usando a carga copiada:
@@ -98,4 +98,4 @@ Este é um exemplo de um evento de APIs de ingestão de transmissão:
 
 Para facilitar a identificação do local onde a parte &quot;dados&quot; deve ser colada, é possível usar uma ferramenta de visualização JSON, como [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Para solucionar problemas de APIs de ingestão de fluxo, consulte esta [página](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html).
+Para solucionar problemas de APIs de ingestão de fluxo, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/troubleshooting.html).
