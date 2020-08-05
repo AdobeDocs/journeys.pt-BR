@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com o Adobe Campaign
-description: Saiba mais sobre ações de Adobe Campaign
+description: Saiba mais sobre as ações do Adobe Campaign
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -21,17 +21,17 @@ ht-degree: 2%
 
 # Trabalhar com o Adobe Campaign {#using_adobe_campaign_standard}
 
-Você pode enviar emails e notificações por push e SMS usando os recursos de Mensagens Transacionais do Adobe Campaign Standard.
+Você pode enviar emails, notificações por push e SMS usando os recursos de Mensagens Transacionais da Adobe Campaign Standard.
 
-[!DNL Journey Orchestration] vem com uma ação predefinida que permite a conexão com o Adobe Campaign Standard.
+[!DNL Journey Orchestration] vem com uma ação pronta para uso que permite a conexão com o Adobe Campaign Standard.
 
 O mensagen transacional Campaign Standard e seu evento associado devem ser publicados para serem usados no Journey Orchestration. Se o evento for publicado, mas a mensagem não for publicada, ele não estará visível na interface do Journey Orchestration. Se a mensagem for publicada, mas seu evento associado não for, ela estará visível na interface do Journey Orchestration, mas não poderá ser usada.
 
 >[!NOTE]
 >
->Para evitar sobrecarregar as mensagens transacionais Adobe Campaign Standard, é recomendável configurar uma regra **de** limite para a integração do Campaign Standard.
+>Para evitar sobrecarregar o Adobe Campaign Standard Transactional Messaging, é recomendável configurar uma regra **de** limite para a integração com o Campaign Standard.
 >
->Leia mais sobre SLAs de mensagens transacionais na Descrição [do produto do](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard.
+>Leia mais sobre SLAs de mensagens transacionais na Descrição [do produto](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard.
 
 Estas são as etapas para configurá-lo:
 
@@ -49,10 +49,10 @@ Estas são as etapas para configurá-lo:
    >
    >* O host é &quot;.campanha.adobe.com&quot; ou &quot;.campanha-sandbox.adobe.com&quot;,
    >* Os start de URL com https,
-   >* O ORG associado a essa instância do Adobe Campaign Standard é o mesmo que o ORG do Journey Orchestration.
+   >* O ORG associado a esta instância do Adobe Campaign Standard é o mesmo que o Journey Orchestration ORG.
 
 
-Ao projetar sua jornada, três ações estarão disponíveis na **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de ações](../building-journeys/using-adobe-campaign-actions.md)de Adobe Campaign). **O evento** Reações também permitirá que você reaja a cliques em mensagens, aberturas, etc. (consulte eventos [de reação](../building-journeys/reaction-events.md)).
+Ao projetar sua jornada, três ações estarão disponíveis na **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de ações](../building-journeys/using-adobe-campaign-actions.md)do Adobe Campaign). **O evento** Reações também permitirá que você reaja a cliques em mensagens, aberturas, etc. (consulte eventos [de reação](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
