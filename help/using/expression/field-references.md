@@ -87,7 +87,7 @@ Nesta expressão, estamos recebendo a entrada da chave &quot;Email&quot; do camp
 
 Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado, uma nova guia será exibida à direita para permitir que você especifique esse parâmetro. Consulte [](../expression/expressionadvanced.md).
 
-Para casos de uso mais complexos, se você quiser incluir os parâmetros da fonte de dados na expressão principal, poderá definir seus valores usando os _parâmetros_ de palavra-chave. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclui outro parâmetro.
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclui outro parâmetro.
 
 >[!NOTE]
 >
