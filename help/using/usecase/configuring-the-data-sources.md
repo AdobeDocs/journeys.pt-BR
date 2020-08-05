@@ -21,11 +21,11 @@ ht-degree: 14%
 
 # Configurar as fontes de dados {#concept_vml_hdy_w2b}
 
-Em nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é um membro da fidelidade e não foi contatada nas últimas 24 horas. Essas informações são armazenadas no banco de dados do Perfil do cliente em tempo real. O usuário **** técnico precisa configurar a fonte de dados Adobe Experience Platform para recuperar esses campos.
+Em nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é um membro da fidelidade e não foi contatada nas últimas 24 horas. Essas informações são armazenadas no banco de dados do Perfil do cliente em tempo real. O usuário **** técnico precisa configurar a fonte de dados da Adobe Experience Platform para recuperar esses campos.
 
 Para obter informações adicionais sobre a configuração da fonte de dados, consulte [](../datasource/about-data-sources.md).
 
-1. No menu superior, clique na **[!UICONTROL Data Sources]** guia e selecione a fonte de dados integrada do Adobe Experience Platform.
+1. No menu superior, clique na **[!UICONTROL Data Sources]** guia e selecione a fonte de dados Adobe Experience Platform integrada.
 
    ![](../assets/journey23.png)
 
