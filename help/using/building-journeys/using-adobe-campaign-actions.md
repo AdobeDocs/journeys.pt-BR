@@ -1,6 +1,6 @@
 ---
 title: Usar ações do Adobe Campaign
-description: Saiba mais sobre ações de Adobe Campaign
+description: Saiba mais sobre as ações do Adobe Campaign
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -21,13 +21,13 @@ ht-degree: 4%
 
 # Usar ações do Adobe Campaign {#using_campaign_action}
 
-Se você tiver Adobe Campaign Standard, as seguintes atividades de ação prontas para uso estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**.
+Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação prontas para uso estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**.
 
 >[!NOTE]
 >
 >Para isso, é necessário configurar a ação integrada. Consulte [](../action/working-with-adobe-campaign.md).
 
-Para cada um desses canais, selecione um **modelo** de mensagens transacionais do Adobe Campaign Standard. Na verdade, não [!DNL Journey Orchestration] é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, confiamos nas Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado modelo de mensagem em suas viagens, deverá publicá-lo no Adobe Campaign Standard. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) para saber como usar este recurso.
+Para cada um desses canais, selecione um **modelo** de Mensagens Transacionais Adobe Campaign Standard. Na verdade, não [!DNL Journey Orchestration] é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, confiamos nas Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado modelo de mensagem em suas viagens, deverá publicá-lo no Adobe Campaign Standard. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) para saber como usar este recurso.
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Esses são os campos que o sistema exige para saber onde enviar a mensagem. Para
 >
 >Não é possível passar uma coleção em dados de personalização. Se o email transacional ou o SMS espera coleções, ele não funcionará. Observe também que os dados de personalização têm um formato esperado (por exemplo: string, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados.
 
-Esses são os campos esperados pela mensagem de Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou selecionar uma variante de mensagem específica.
+Esses são os campos esperados pela mensagem do Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou selecionar uma variante de mensagem específica.
 
 ![](../assets/journey62.png)
 
@@ -93,7 +93,7 @@ Duas categorias estão disponíveis: **[!UICONTROL Target]** e **[!UICONTROL Per
 
 >[!NOTE]
 >
->Essa categoria só estará visível se você selecionar uma mensagem de evento. Para mensagens de perfil, os **[!UICONTROL Target]** campos são recuperados automaticamente pelo sistema usando a reconciliação executada pelo Adobe Campaign Standard.
+>Essa categoria só estará visível se você selecionar uma mensagem de evento. Para mensagens de perfil, os **[!UICONTROL Target]** campos são recuperados automaticamente pelo sistema usando a reconciliação executada pela Adobe Campaign Standard.
 
 Nesta seção, é necessário definir o **[!UICONTROL Push platform]**. A lista suspensa permite selecionar **[!UICONTROL Apple Push Notification Server]** (iOS) ou **[!UICONTROL Firebase Cloud Messaging]** (Android). Como alternativa, você pode selecionar um campo específico de um evento ou de uma fonte de dados, ou definir uma expressão avançada.
 
@@ -109,4 +109,4 @@ Você também precisa definir o **[!UICONTROL Registration Token]**. A expressã
 >
 >Não é possível passar uma coleção em dados de personalização. Se o push transacional espera coleções, ele não funcionará. Observe também que os dados de personalização têm um formato esperado (por exemplo: string, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados.
 
-Esses são os campos esperados pelo modelo transacional usado na mensagem de Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou selecionar uma variante de mensagem específica.
+Esses são os campos esperados pelo modelo transacional usado em sua mensagem do Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou selecionar uma variante de mensagem específica.
