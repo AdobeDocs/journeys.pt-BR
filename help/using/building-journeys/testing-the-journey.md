@@ -37,7 +37,7 @@ Para usar o modo de teste, siga estas etapas:
 
    ![](../assets/journeytest_wait.png)
 
-1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados aos perfis de teste. Consulte [Disparando seus eventos](#firing_events).
+1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados a perfis de teste. Consulte [Disparando seus eventos](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
@@ -51,7 +51,7 @@ Para usar o modo de teste, siga estas etapas:
 
 * É fornecida uma interface para disparar eventos para a viagem testada, mas eventos também podem ser enviados por sistemas de terceiros, como o Postman.
 * Somente indivíduos marcados como &quot;perfis de teste&quot; no Serviço de Perfil do Cliente em tempo real poderão entrar na jornada testada. Consulte [](../building-journeys/testing-the-journey.md#create-test-profile).
-* O modo de teste só está disponível em viagens de rascunho que utilizem uma namespace. O modo de ensaio deve verificar se uma pessoa que entra na viagem é ou não um perfil de ensaio e, por conseguinte, deve poder chegar ao Adobe Experience Platform.
+* O modo de teste só está disponível em viagens de rascunho que utilizem uma namespace. O modo de teste deve verificar se uma pessoa que entra na viagem é ou não um perfil de teste e, portanto, deve poder chegar ao Adobe Experience Platform.
 * O número máximo de perfis de teste que podem entrar em uma jornada durante uma sessão de teste é 100.
 * Quando você desativa o modo de teste, ele esvazia as viagens de todas as pessoas que entraram no modo de teste ou que estão atualmente nele. Ela também limpa o relatórios.
 * Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
