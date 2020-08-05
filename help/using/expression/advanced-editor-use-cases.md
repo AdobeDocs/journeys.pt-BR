@@ -1,5 +1,5 @@
 ---
-title: Usar o editor de expressões avançadas
+title: Uso do editor de expressão avançado
 description: Saiba como criar expressões avançadas
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Usar o editor de expressões avançadas
+# Uso do editor de expressão avançado
 
 O Editor de expressões Avançadas pode ser usado para criar condições que permitam filtrar usuários em suas viagens. Essas condições permitem que você público alvo os usuários no horário, data, local, duração ou ações como compra ou abandono de carrinhos para que eles possam ser redirecionados na viagem.
 
