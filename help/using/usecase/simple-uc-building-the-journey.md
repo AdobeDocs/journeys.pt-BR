@@ -25,12 +25,12 @@ O usuário **** comercial pode agora construir a jornada. Nossa jornada incluir�
 
 * o &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando uma pessoa caminha perto do spa beacon, o sistema receberá um evento e a viagem será start para essa pessoa.
 * uma **[!UICONTROL Condition]** atividade para verificar se a pessoa é uma mulher
-* uma **[!UICONTROL Email]** atividade (usando Adobe Campaign Standard)
+* uma **[!UICONTROL Email]** atividade (usando o Adobe Campaign Standard)
 * uma atividade **[!UICONTROL End]**
 
 >[!NOTE]
 >
->As **[!UICONTROL Push]** atividade **[!UICONTROL Email]** esó estarão disponíveis na paleta se você tiver Adobe Campaign Standard.
+>As **[!UICONTROL Push]** atividades e **[!UICONTROL Email]** as  só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
 Para obter informações adicionais sobre como construir uma jornada, consulte [](../building-journeys/journey.md).
 
