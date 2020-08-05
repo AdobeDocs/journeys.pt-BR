@@ -35,6 +35,6 @@ Queremos enviar uma mensagem apenas se a pessoa for mulher. A mensagem deve ser 
 
 Para nosso caso de uso, criamos um modelo de mensagens transacionais por email no Adobe Campaign Standard. Estamos usando um modelo de mensagens transacionais de evento. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
-Adobe Campaign Standard está configurado para enviar emails.
+A Adobe Campaign Standard está configurada para enviar emails.
 
 Os Eventos são enviados do celular do cliente quando são detectados perto de um sinal. Você precisa projetar um aplicativo móvel para enviar eventos do telefone móvel do cliente para o SDK móvel.
