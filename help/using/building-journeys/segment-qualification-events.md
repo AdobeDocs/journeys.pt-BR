@@ -23,13 +23,13 @@ ht-degree: 0%
 
 ## Sobre eventos de qualificação de segmento{#about-segment-qualification}
 
-Essa atividade permite que sua jornada escute as entradas e saídas dos perfis nos segmentos de Adobe Experience Platform para fazer com que os indivíduos entrem ou avancem em uma jornada. For more information on segment creation, refer to this [section](../segment/about-segments.md).
+Esta atividade permite que sua jornada escute as entradas e saídas dos perfis nos segmentos do Adobe Experience Platform, para que os indivíduos entrem ou avancem em uma jornada. For more information on segment creation, refer to this [section](../segment/about-segments.md).
 
 Digamos que você tenha um segmento de &quot;cliente prateado&quot;. Com essa atividade, todos os novos clientes de prata entram em uma jornada e enviam uma série de mensagens personalizadas.
 
 Esse tipo de evento pode ser posicionado como o primeiro passo ou mais tarde na jornada.
 
-Se o segmento for transmitido com a opção Audiência de Adobe Experience Platform de alta frequência, a entrada e saída serão atendidas em tempo real. Se o segmento não for transmitido, as entradas e saídas serão consideradas no momento do cálculo do segmento.
+Se o segmento for transmitido com a opção Audiências de alta frequência do Adobe Experience Platform, as entradas e saídas serão atendidas em tempo real. Se o segmento não for transmitido, as entradas e saídas serão consideradas no momento do cálculo do segmento.
 
 1. Desdobre a **[!UICONTROL Events]** categoria e solte uma **[!UICONTROL Segment qualification]** atividade na tela.
 
@@ -61,7 +61,7 @@ Consulte atividade [de condição](../building-journeys/condition-activity.md#ab
 
 ## Práticas recomendadas para segmentos {#best-practices-segments}
 
-A **[!UICONTROL Segment Qualification]** atividade permite a entrada imediata em viagens de indivíduos qualificados ou desqualificados de um segmento de Adobe Experience Platform.
+A **[!UICONTROL Segment Qualification]** atividade permite a entrada imediata em viagens de indivíduos qualificados ou desqualificados de um segmento do Adobe Experience Platform.
 
 A velocidade de recepção desta informação é elevada. As medições efetuadas mostram uma velocidade de 10 000 eventos recebidos por segundo. Como resultado, você deve se certificar de entender como os picos de entrada podem acontecer, como evitá-los e como fazer sua jornada pronta para eles.
 
@@ -77,7 +77,7 @@ Ao usar a qualificação de segmento para segmentos dinamizados, há menos risco
 
 ### Como evitar sobrecargas{#overloads-speed-segment-qualification}
 
-Estas são algumas práticas recomendadas que ajudarão a evitar o sobrecarregamento de sistemas aproveitados em viagens (fontes de dados, ações personalizadas, ações de Adobe Campaign Standard).
+Estas são algumas práticas recomendadas que ajudarão a evitar o sobrecarregamento de sistemas aproveitados em viagens (fontes de dados, ações personalizadas, ações do Adobe Campaign Standard).
 
 Não use, em uma **[!UICONTROL Segment Qualification]** atividade, um segmento de lote imediatamente após sua criação. Ele evitará o primeiro pico de cálculo. Observe que haverá um aviso amarelo na tela de viagem se você estiver prestes a usar um segmento que nunca foi calculado.
 
