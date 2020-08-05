@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Os dados do Delivery só serão preenchidos se você tiver Adobe Campaign Standard.
+>Os dados do Delivery só serão preenchidos se você tiver o Adobe Campaign Standard.
 
 Você pode encontrar aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
 
@@ -56,8 +56,8 @@ A tabela abaixo apresenta a lista das dimensões do delivery usadas nos relatór
 | **Dispositivo** | Dispositivo a partir do qual a notificação por email/SMS/push foi aberta/visualizada/clicada. |
 | **Tipo de mensagem** | Canal usado para o delivery, como email, SMS, notificação por push ou no aplicativo. |
 | **Nome do aplicativo móvel** | Nome do aplicativo móvel |
-| **Platform** | Platform do dispositivo a partir do qual a mensagem foi aberta/visualizada/clicada. |
-| **[!UICONTROL Push platform]** | Platform do dispositivo a partir do qual a notificação por push foi aberta, como iOS ou Android. |
+| **Plataforma** | Plataforma do dispositivo a partir do qual a mensagem foi aberta/visualizada/clicada. |
+| **[!UICONTROL Push platform]** | Plataforma do dispositivo a partir do qual a notificação por push foi aberta, como iOS ou Android. |
 | **domínio do Recipient** | Domínio usado para abrir o email. |
 | **URL de rastreamento** | URL clicado pelo usuário na mensagem. |
 | **Rastreamento da categoria de URL** | Categoria atribuída ao URL de rastreamento. |
