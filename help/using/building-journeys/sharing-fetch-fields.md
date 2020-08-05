@@ -1,6 +1,6 @@
 ---
-title: campos de busca de dados dos eventos JourStep
-description: campos de busca de dados dos eventos JourStep
+title: campos de busca de dados de eventos journeyStep
+description: campos de busca de dados de eventos journeyStep
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,12 +14,12 @@ translation-type: tm+mt
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# campos de busca de dados dos eventos JourStep {#sharing-fetch-fields}
+# campos de busca de dados de eventos journeyStep {#sharing-fetch-fields}
 
 Esse mixin será compartilhado por meio de jornadaStepEvent e de jornadaStepProfileEvent.
 
@@ -33,7 +33,7 @@ Tipo: long
 
 ## fetchTypeInError
 
-Define se a busca no erro está no Adobe Experience Platform ou em uma fonte de dados personalizada.
+Define se a busca por erro está no Adobe Experience Platform ou em uma fonte de dados personalizada.
 
 Tipo: string
 
@@ -99,7 +99,7 @@ Tipo: long
 
 ## fetchPlatformCount
 
-Quantas vezes os dados são obtidos de Adobe Experience Platform.
+Quantas vezes os dados são obtidos da Adobe Experience Platform.
 
 Tipo: long
 
