@@ -58,6 +58,6 @@ Devido ao tempo limite de 30 dias de viagem, quando a reentrada da viagem não �
 
 Os fusos horários são definidos ao nível da viagem.
 
-Você pode digitar um fuso horário fixo ou usar perfis de Adobe Experience Platform para definir o fuso horário da jornada.
+Você pode digitar um fuso horário fixo ou usar perfis Adobe Experience Platform para definir o fuso horário da jornada.
 
 Para obter mais informações sobre o gerenciamento de fuso horário, consulte [](../building-journeys/timezone-management.md).
