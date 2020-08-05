@@ -49,7 +49,7 @@ O modo simples permite executar query simples com base em uma combinação de ca
 
 ![](../assets/journey64.png)
 
-Se você estiver usando o Serviço [de segmentação de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform para criar seus segmentos, você pode aproveitá-los em suas condições de jornada. Consulte [Uso de segmentos em condições](../segment/using-a-segment.md).
+Se você estiver usando o Serviço [de segmentação da](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform para criar seus segmentos, poderá aproveitá-los nas condições de viagem. Consulte [Uso de segmentos em condições](../segment/using-a-segment.md).
 
 
 >[!NOTE]
