@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b66cdb31b62b4627ff7378e48879ffadfedda5cb
+source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 1%
+source-wordcount: '559'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,8 @@ Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform
 
    A atividade deve ser posicionada como o primeiro passo de uma viagem.
 
+1. Adicione um **[!UICONTROL Label]** ao atividade. Esta etapa é opcional.
+
 1. Configure the activity **[!UICONTROL Scheduler type]**.
 
    Por padrão, o segmento entra na jornada **[!UICONTROL As soon as possible]**, o que significa 1 hora após a publicação da jornada. Se desejar que o segmento entre na jornada em uma data/hora específica ou de forma recorrente, selecione a opção desejada na lista.
@@ -51,7 +53,17 @@ Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform
 
 1. No **[!UICONTROL Segment]** campo, escolha o segmento Adobe Experience Platform que entrará na jornada e clique em **[!UICONTROL Save]**.
 
+   >[!NOTE]
+   >
+   >Observe que você pode personalizar as colunas exibidas na lista e classificá-las.
+
    ![](../assets/segment-trigger-segment-selection.png)
+
+   Depois que o segmento é adicionado, o **[!UICONTROL Copy]** botão permite copiar seu nome e ID:
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. No **[!UICONTROL Namespace]** campo, escolha a namespace a ser usada para identificar os indivíduos. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 
