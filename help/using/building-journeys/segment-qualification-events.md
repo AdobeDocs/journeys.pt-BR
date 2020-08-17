@@ -1,5 +1,5 @@
 ---
-title: eventos de qualificação de segmentos
+title: Eventos de qualificação de segmentos
 description: Saiba mais sobre eventos de qualificação de segmento
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c486c3e43b0bbda666afba9cf36ba34b362a03
+source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
 
 
-# eventos de qualificação de segmentos {#segment-qualification}
+# Eventos de qualificação de segmentos {#segment-qualification}
 
 ## Sobre eventos de qualificação de segmento{#about-segment-qualification}
 
@@ -39,7 +39,17 @@ Se o segmento for transmitido com a opção Audiências de alta frequência do A
 
 1. Clique no **[!UICONTROL Segment]** campo e selecione os segmentos que deseja aproveitar.
 
+   >[!NOTE]
+   >
+   >Observe que você pode personalizar as colunas exibidas na lista e classificá-las.
+
    ![](../assets/segment6.png)
+
+   Depois que o segmento é adicionado, o **[!UICONTROL Copy]** botão permite copiar seu nome e ID:
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. No **[!UICONTROL Behavior]** campo, escolha se você deseja ouvir as entradas do segmento, as saídas ou ambos.
 
@@ -59,7 +69,7 @@ Consulte atividade [de condição](../building-journeys/condition-activity.md#ab
 
 ![](../assets/segment8.png)
 
-## Práticas recomendadas para segmentos {#best-practices-segments}
+## Práticas recomendadas {#best-practices-segments}
 
 A **[!UICONTROL Segment Qualification]** atividade permite a entrada imediata em viagens de indivíduos qualificados ou desqualificados de um segmento do Adobe Experience Platform.
 
