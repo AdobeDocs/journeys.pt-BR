@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 8641b577e91492c86e6fc8e201acd6a208e5e38b
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Os dados do Delivery só serão preenchidos se você tiver o Adobe Campaign Standard.
+>Os dados do delivery só serão preenchidos se você tiver o Adobe Campaign Standard.
 
 Você pode encontrar aqui a lista de todos os componentes disponíveis em Relatórios dinâmicos, bem como suas definições.
 
@@ -38,27 +38,27 @@ A tabela abaixo apresenta a lista das dimensões usadas nos relatórios de jorna
 | Dimension | Definição |
 |--- |--- |
 | **Ação** | Lista de cada ação (nome da **ação - etiqueta** de ação) usada em viagens, por exemplo, Push - Confirmação de check-out, Email - Fidelidade de recompensas. |
-| **Fonte de dados** | Lista de fontes de dados (nome **da fonte de** dados) usada para enriquecer dados em uma jornada, por exemplo, plataforma Adobe Experience, sistema de reserva. |
+| **Fonte de dados** | Lista de fontes de dados (nome **da fonte de** dados) usadas para enriquecer dados em uma jornada, por exemplo, Adobe Experience Platform, Sistema de reserva. |
 | **[!UICONTROL Event]** | Lista de todos os eventos (nome do **evento - etiqueta** do evento) utilizados em viagens, por exemplo, evento do Geometrixx - verificação do Geometrixx. |
 | **Grupo de campos** | Lista de grupos de campos (nome **do grupo de** campos) utilizados para enriquecer dados em viagens, por exemplo, grupo de campos do Perfil, sistema de reservas do Geometrixx. |
 | **Jornada** | Lista de cada viagem (nome **da** viagem) no modo de teste e viver, por exemplo, abandono do carrinho, notificação de reserva do hotel. |
 | **Versão da jornada** | Lista de cada versão publicada de uma viagem (nome da **viagem + número** da versão), por exemplo, abandono do carrinho v1, notificação de reserva do hotel v2. |
 | **Orquestração** | Lista de cada atividade de orquestração (**Condição, Final, Espera**) definida e usada em viagens. |
 
-## Dimensões do Delivery {#delivery-dimensions}
+## Dimensões do delivery {#delivery-dimensions}
 
 A tabela abaixo apresenta a lista das dimensões do delivery usadas nos relatórios de jornada, suas definições e fórmulas.
 
 | Dimensão | Definição |
 |--- |--- |
 | **Navegador** | Navegador no qual a mensagem foi aberta ou clicada. |
-| **Nome do Delivery** | Rótulo e ID do delivery. |
+| **Nome do delivery** | Rótulo e ID do delivery. |
 | **Dispositivo** | Dispositivo a partir do qual a notificação por email/SMS/push foi aberta/visualizada/clicada. |
 | **Tipo de mensagem** | Canal usado para o delivery, como email, SMS, notificação por push ou no aplicativo. |
 | **Nome do aplicativo móvel** | Nome do aplicativo móvel |
 | **Plataforma** | Plataforma do dispositivo a partir do qual a mensagem foi aberta/visualizada/clicada. |
 | **[!UICONTROL Push platform]** | Plataforma do dispositivo a partir do qual a notificação por push foi aberta, como iOS ou Android. |
-| **domínio do Recipient** | Domínio usado para abrir o email. |
+| **domínio do recipient** | Domínio usado para abrir o email. |
 | **URL de rastreamento** | URL clicado pelo usuário na mensagem. |
 | **Rastreamento da categoria de URL** | Categoria atribuída ao URL de rastreamento. |
 | **Rastreamento do rótulo do URL** | Rótulo fornecido ao URL, como mirror page, entre em contato conosco ou abra. |
@@ -88,14 +88,14 @@ A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, s
 | **Failed** | O número total de viagens que não foram executadas com êxito. |
 | **Taxa de falha** | O número total de viagens que não foram executadas com êxito em comparação com o número de viagens em curso. |
 
-## Métricas de Delivery {#delivery-metrics}
+## Métricas de delivery {#delivery-metrics}
 
 A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, suas definições e fórmulas.
 
 | Métrica | Definição |
 |--- |--- |
 | **Na lista de bloqueios** | Número de recipient que declararam um email como spam ou lixo eletrônico. |
-| **taxa de Lista de bloqueios** | O número total de mensagens na lista de bloqueios em comparação às mensagens enviadas. |
+| **taxa de lista de bloqueios** | O número total de mensagens na lista de bloqueios em comparação às mensagens enviadas. |
 | **Rejeições + erros** | Total de erros acumulados durante o processamento de retorno automático e delivery em relação ao número total de mensagens enviadas. |
 | **Rejeição + taxa de erro** | O número total de mensagens que retornaram em comparação com as mensagens enviadas. |
 | **Clique em** | Número de vezes que um conteúdo foi clicado em um delivery. |
@@ -106,13 +106,13 @@ A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, s
 | **Rejeição forçada** | O número total de erros permanentes, como um endereço de email incorreto. |
 | **Taxa de rejeição em disco** | O número total de delivery que falharam devido a erros permanentes em comparação com as mensagens enviadas. |
 | **Mirror page** | Número de recipient que clicaram no link do mirror page. |
-| **taxa de Mirror page** | O número total de cliques no link do mirror page em comparação ao total de mensagens entregues. |
+| **taxa de mirror page** | O número total de cliques no link do mirror page em comparação ao total de mensagens entregues. |
 | **Abertura** | Número de vezes que uma mensagem foi aberta em um delivery. |
 | **Taxa Aberta** | O número total de mensagens abertas em comparação ao número de mensagens entregues. |
 | **Quarentena** | Número de mensagens que retornou e resultaram na quarentena do endereço. |
-| **Taxa de Quarentena** | O número total de quarentenas em relação às mensagens enviadas. |
+| **Taxa de quarentena** | O número total de quarentenas em relação às mensagens enviadas. |
 | **Rejeitada** | Número de mensagens classificadas como spam pelos servidores SMTP. |
-| **taxa Rejeitada** | O número total de mensagens marcadas como rejeitadas em comparação com as mensagens enviadas. |
+| **taxa rejeitada** | O número total de mensagens marcadas como rejeitadas em comparação com as mensagens enviadas. |
 | **Processado/enviado** | Número total de envios para o delivery. |
 | **Rejeição suave** | O número total de erros temporários, como uma caixa de entrada completa. |
 | **Taxa de rejeição suave** | O número total de delivery que falharam devido ao motivo temporário em comparação com as mensagens enviadas. |
