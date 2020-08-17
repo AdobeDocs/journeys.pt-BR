@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '590'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 
 >[!CAUTION]
 >
->O recurso de otimização do tempo de envio de email só está disponível para clientes que usam o recurso Adobe Campaign Standard Data Service.
+>O recurso de otimização do tempo de envio de email só está disponível para clientes que usam o [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 Esse tipo de espera usa uma pontuação calculada no Adobe Experience Platform. A pontuação calcula a propensão de clicar ou abrir um email no futuro com base no comportamento anterior. Observe que o algoritmo que calcula a pontuação precisa de uma certa quantidade de dados para funcionar. Como resultado, quando não tem dados suficientes, o tempo de espera padrão será aplicado. No momento da publicação, você será notificado de que o horário padrão se aplica.
 
