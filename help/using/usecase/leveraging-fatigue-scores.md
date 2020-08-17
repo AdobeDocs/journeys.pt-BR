@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '245'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ Este caso de uso mostrará como aproveitar as pontuações de fadiga para evitar
 
 >[!NOTE]
 >
->O recurso de pontuação de fadiga preditiva só está disponível para clientes que usam o recurso Adobe Campaign Standard Data Service.
+>O recurso de pontuação de fadiga preditiva só está disponível para clientes que usam o [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 ## Configurar o evento {#section_ptb_ws1_ffb}
 
