@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2155bfc1c9f253be19b93a3d77e0e6d5a108f689
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 78%
+source-wordcount: '724'
+ht-degree: 80%
 
 ---
 
@@ -81,13 +81,14 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 ## Janeiro de 2020 {#january-2020}
 
 * Foram adicionadas limitações à busca de [eventos de experiência](../datasource/adobe-experience-platform-data-source.md) e [segmentos](../functions/functioninsegment.md).
-* A [documentação getBestSendTime](../functions/functiongetbestsendtime.md) foi atualizada.
+
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## Dezembro de 2019 {#december-2019}
 
 * Todas as capturas de tela foram atualizadas para divulgar as alterações na interface.
 * A seção do modo de teste foi atualizada. [Leia mais](../building-journeys/testing-the-journey.md)
-* Foi adicionado um aviso nas seções de [otimização de tempo de envio de email](../building-journeys/wait-activity.md) e [pontuações de fadiga preditiva](../ai-services/leveraging-fatigue-scores.md). Esses recursos só estão disponíveis para clientes que usam o [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * Agora, as jornadas interrompidas podem ser excluídas. As páginas de documentação relacionadas foram atualizadas.
 * Agora, duas cores são exibidas quando problemas são detectados em uma jornada. Vermelho para erros e laranja para avisos. [Leia mais](../about/troubleshooting.md)
 * A seção do editor de expressão avançado foi atualizada. [Leia mais](../expression/expressionadvanced.md).
