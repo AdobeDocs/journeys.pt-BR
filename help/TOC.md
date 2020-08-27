@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Ajuda do Journey Orchestration
 index: true
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '378'
 ht-degree: 95%
 
 ---
@@ -61,9 +61,9 @@ ht-degree: 95%
    + Atividades {#about-journey-building}
       + Atividades de eventos {#events-activities}
          + [Sobre atividades eventos](using/building-journeys/event-activities.md)
-         + [eventos gerais](using/building-journeys/general-events.md)
-         + [eventos de reação](using/building-journeys/reaction-events.md)
-         + [eventos de qualificação de segmentos](using/building-journeys/segment-qualification-events.md)
+         + [Eventos gerais](using/building-journeys/general-events.md)
+         + [Eventos de reação](using/building-journeys/reaction-events.md)
+         + [Eventos de qualificação de segmentos](using/building-journeys/segment-qualification-events.md)
       + Atividades de orquestração {#orchestration-activities}
          + [Sobre atividades de orquestração](using/building-journeys/about-orchestration-activities.md)
          + [Atividade de condição](using/building-journeys/condition-activity.md)
@@ -95,7 +95,6 @@ ht-degree: 95%
    + Funções {#main-functions-journey}
       + [Funções principais](using/expression/functions.md)
       + Adobe Experience Platform {#adobe-experience-platform}
-         + [getBestSendTime](using/functions/functiongetbestsendtime.md)
          + [inSegment](using/functions/functioninsegment.md)
       + Agregação {#aggregation}
          + [avg](using/functions/functionavg.md)
@@ -168,7 +167,6 @@ ht-degree: 95%
    + [Métricas e dimensões](using/reporting/metrics-and-dimensions.md)
 + Integração com serviços inteligentes{#use-case-advanced}
    + [Sobre a integração de AI](using/ai-services/ai-services-overview.md)
-   + [Aproveitamento da AI da jornada](using/ai-services/leveraging-fatigue-scores.md)
    + [Aproveitamento da AI do cliente](using/ai-services/leveraging-customer-ai.md)
 + Casos de uso{#use-cases-journeys}
    + Caso de uso simples{#use-case-simple}
