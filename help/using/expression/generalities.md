@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccf020a882c1d6d9bd00f2e9f5d6b2aee6f7829
+source-git-commit: 10d4fd57e9a801dab2310b2b511bf99cf1d9170a
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 3%
@@ -38,8 +38,8 @@ As expressões serão avaliadas da esquerda para a direita. A associatividade no
 
 Estas são as diferentes regras de diferenciação entre maiúsculas e minúsculas:
 
-* Todos os operadores (e, ou, etc.) deve ser escrito em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_é uma expressão válida, enquanto a expressão_`<expression1>` E não `<expression2>`_ é.
-* Todos os nomes de função fazem distinção entre maiúsculas e minúsculas. Por exemplo, _getBestSendTime()_ é válido enquanto a função _GETBESTSENDTIME()_ não é.
+* Todos os operadores (e, ou, etc.) deve ser escrito em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_ é uma expressão válida, enquanto a expressão _`<expression1>`E não`<expression2>`_ é.
+* Todos os nomes de função fazem distinção entre maiúsculas e minúsculas. Por exemplo, _inSegment()_ é válido, enquanto a função _INSEGMENT()_ não é.
 * As referências de campo e os valores constantes fazem distinção entre maiúsculas e minúsculas: eles não são elementos incorporados da linguagem (ao contrário de operadores e funções), eles são criados pelo usuário final.
 
 ## Tipo de expressão retornado{#section_gyc_435_53b}
