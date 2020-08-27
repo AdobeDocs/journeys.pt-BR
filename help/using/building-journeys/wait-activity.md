@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 92bd110c4c91c459c8074184bdb486733ab5f3d7
+source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 2%
+source-wordcount: '377'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,8 @@ Se quiser esperar antes de executar a próxima atividade no caminho, use uma **[
 * [Duração](#duration)
 * [Data fixa](#fixed_date)
 * [Personalizado](#custom)
-* [Otimização do tempo de envio de email](#email_send_time_optimization)
+
+<!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Sobre a atividade Wait{#about_wait}
 
@@ -66,26 +67,26 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 
 ![](../assets/journey57.png)
 
-## Otimização do tempo de envio de email{#email_send_time_optimization}
+<!--## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
->O recurso de otimização do tempo de envio de email só está disponível para clientes que usam o [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+>The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-Esse tipo de espera usa uma pontuação calculada no Adobe Experience Platform. A pontuação calcula a propensão de clicar ou abrir um email no futuro com base no comportamento anterior. Observe que o algoritmo que calcula a pontuação precisa de uma certa quantidade de dados para funcionar. Como resultado, quando não tem dados suficientes, o tempo de espera padrão será aplicado. No momento da publicação, você será notificado de que o horário padrão se aplica.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
 >[!NOTE]
 >
->A primeira evento da sua jornada deve ter uma namespace.
+>The first event of your journey must have a namespace.
 >
->Esse recurso está disponível somente após uma **[!UICONTROL Email]** atividade. Você precisa ter Adobe Campaign Standard.
+>This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
 
-1. No **[!UICONTROL Amount of time]** campo, defina o número de horas que devem ser consideradas para otimizar o envio de email.
-1. No **[!UICONTROL Optimization type]** campo, escolha se a otimização deve aumentar os cliques ou abrir.
-1. No **[!UICONTROL Default time]** campo, defina o tempo padrão para aguardar se a pontuação de tempo de envio preditiva não estiver disponível.
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
+1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
 
-   >[!NOTE]
-   >
-   >Observe que a pontuação de tempo de envio pode estar indisponível porque não há dados suficientes para executar o cálculo. Nesse caso, você será informado, no momento da publicação, de que o horário padrão se aplica.
+    >[!NOTE]
+    >
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)
+![](../assets/journey57bis.png)-->
