@@ -1,6 +1,6 @@
 ---
-title: Atividade do acionador de segmento
-description: Saiba mais sobre o Acionador de segmentos
+title: Ler atividade do segmento
+description: Saiba mais sobre a atividade Ler segmento.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -11,25 +11,25 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 76c2f4c1f459bb7bb21101708340137ae5f89ae0
+source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 2%
+source-wordcount: '564'
+ht-degree: 0%
 
 ---
 
 
-# Atividade do acionador de segmento {#segment-trigger-activity}
+# Ler atividade do segmento {#segment-trigger-activity}
 
-## Sobre a atividade do acionador de segmento {#about-segment-trigger-actvitiy}
+## Sobre a atividade Ler segmento {#about-segment-trigger-actvitiy}
 
 >[!NOTE]
 >
->Se uma atividade de ação predefinida da Adobe Campaign Standard estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a jornada será limitada a 13 entradas por segundo. <br>Se nenhuma atividade de ação predefinida da Adobe Campaign Standard estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a jornada será limitada a 1000 eventos por segundo.
+>Se uma atividade de ação predefinida da Adobe Campaign Standard estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a jornada será limitada a 13 entradas por segundo. Caso contrário, a viagem será limitada a 1000 eventos por segundo.
 
-A atividade de Acionador de segmento permite que todos os indivíduos que pertencem a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada numa viagem pode ser efetuada uma vez ou numa base regular.
+A atividade Ler segmento permite fazer com que todos os indivíduos que pertencem a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada numa viagem pode ser efetuada uma vez ou numa base regular.
 
-Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform. Com a atividade do Acionador de segmento, é possível fazer com que todos os indivíduos pertencentes ao segmento do cliente Gold entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de viagem: condições, temporizadores, eventos, ações.
+Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform. Com a atividade de segmentos de leitura, é possível fazer com que todos os indivíduos pertencentes ao segmento de clientes Gold entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de viagem: condições, temporizadores, eventos, ações.
 
 ## Configuring the activity {#configuring-segment-trigger-activity}
 
@@ -37,19 +37,11 @@ Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform
 >
 >Devido às latências de exportação de segmento, não é possível acionar uma jornada baseada em segmento em um período de tempo mais curto que uma hora.
 
-1. Desdobre a **[!UICONTROL Orchestration]** categoria e solte uma **[!UICONTROL Segment Trigger]** atividade na tela.
+1. Desdobre a **[!UICONTROL Orchestration]** categoria e solte uma **[!UICONTROL Read Segment]** atividade na tela.
 
    A atividade deve ser posicionada como o primeiro passo de uma viagem.
 
-1. Adicione um **[!UICONTROL Label]** ao atividade. Esta etapa é opcional.
-
-1. Configure the activity **[!UICONTROL Scheduler type]**.
-
-   Por padrão, o segmento entra na jornada **[!UICONTROL As soon as possible]**, o que significa 1 hora após a publicação da jornada. Se desejar que o segmento entre na jornada em uma data/hora específica ou de forma recorrente, selecione a opção desejada na lista.
-
-   No caso de viagens recorrentes, você também pode definir o start e o final da jornada.
-
-   ![](../assets/segment-trigger-schedule.png)
+1. Adicione um item **[!UICONTROL Label]** à atividade (opcional).
 
 1. No **[!UICONTROL Segment]** campo, escolha o segmento Adobe Experience Platform que entrará na jornada e clique em **[!UICONTROL Save]**.
 
@@ -71,20 +63,34 @@ Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform
    >
    >Os indivíduos que pertencem a um segmento que não tem a identidade (namespace) selecionada entre suas diferentes identidades não podem entrar na jornada.
 
-1. Clique em **[!UICONTROL Ok]** para confirmar. Você pode então aproveitar as atividades disponíveis para construir sua jornada.
+1. A **[!UICONTROL Read Segment]** atividade permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no **[!UICONTROL Edit journey schedule]** link para acessar as propriedades da jornada e configure o **[!UICONTROL Scheduler type]** campo.
 
-1. Quando a viagem estiver pronta, você poderá testá-la (consulte [Testando a jornada](../building-journeys/testing-the-journey.md)).
+   ![](../assets/segment-trigger-schedule.png)
 
-   Quando o modo de teste é ativado em uma jornada que começa com uma **[!UICONTROL Segment Trigger]** atividade, 100 perfis de teste serão selecionados aleatoriamente entre os perfis qualificados para o segmento selecionado. Os registros de teste permitirão que você veja o caminho dos indivíduos na jornada e os possíveis erros encontrados (consulte [Visualização dos registros](../building-journeys/testing-the-journey.md#viewing_logs)).
+   Por padrão, os segmentos entram na jornada **[!UICONTROL As soon as possible]**, o que significa 1 hora após a publicação da jornada. Se desejar que o segmento insira a jornada em uma data/hora específica ou de forma recorrente, selecione o valor desejado na lista.
 
    >[!NOTE]
    >
-   >Observe que você não poderá ver as 100 pessoas após a viagem usando o recurso de fluxo visual existente em viagens unitárias.
+   >Observe que a **[!UICONTROL Schedule]** seção só está disponível quando uma **[!UICONTROL Read Segment]** atividade é solta na tela.
 
-1. Em seguida, você pode publicar sua jornada (consulte [Publicação da jornada](../building-journeys/publishing-the-journey.md)). Os indivíduos que pertencem ao segmento inserirão a jornada na data/hora especificada no scheduler de atividade do Acionador de segmentos.
+   ![](../assets/segment-trigger-properties.png)
 
-   >[!IMPORTANT]
-   >
-   >Lembre-se de que os segmentos do Adobe Experience Platform são calculados uma vez por dia (segmentos de **lote** ) ou em tempo real (segmentos **transmitidos** ).
-   >
-   >Se o segmento selecionado for transmitido em tempo real, os indivíduos que pertencem a esse segmento poderão entrar na jornada em tempo real. Se o segmento for lote, as pessoas recém-qualificadas para esse segmento potencialmente entrarão na jornada quando o cálculo do segmento for executado no Adobe Experience Platform.
+## Testar e publicar a viagem {#testing-publishing}
+
+A **[!UICONTROL Read Segment]** atividade permite testar a jornada em um perfil unitário ou em 100 perfis de teste aleatório selecionados entre os perfis qualificados para o segmento.
+
+Para fazer isso, ative o modo de teste e selecione a opção desejada no painel esquerdo.
+
+![](../assets/segment-trigger-test-modes.png)
+
+Você pode configurar o modo de teste como de costume. Na [presente seção](../building-journeys/testing-the-journey.md)são apresentados passos detalhados sobre como testar uma viagem.
+
+Observe que testar a jornada usando até 100 perfis ao mesmo tempo não permite rastrear o progresso dos indivíduos na jornada usando o fluxo visual.
+
+Depois que os testes forem bem-sucedidos, você poderá publicar sua jornada (consulte [Publicação da jornada](../building-journeys/publishing-the-journey.md)). Os indivíduos que pertencem ao segmento entram na viagem na data/hora especificada na seção relativa às propriedades da viagem **[!UICONTROL Scheduler]** .
+
+>[!IMPORTANT]
+>
+>Lembre-se de que os segmentos do Adobe Experience Platform são calculados uma vez por dia (segmentos de **lote** ) ou em tempo real (segmentos **transmitidos** ).
+>
+>Se o segmento selecionado for transmitido, os indivíduos que pertencem a esse segmento potencialmente entrarão na jornada em tempo real. Se o segmento for lote, as pessoas recém-qualificadas para esse segmento potencialmente entrarão na jornada quando o cálculo do segmento for executado no Adobe Experience Platform.
