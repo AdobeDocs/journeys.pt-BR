@@ -1,18 +1,21 @@
 ---
 cloud: experience-cloud
 solution-title: Aprendizagem e suporte
-solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
+solution-hub-url: https://helpx.adobe.com/br/support/experience-cloud.html
 solution-image: assets/campaign-icon-24.png
 getting-started-title: Comunidade
 getting-started-url: https://adobe.com/go/journeyorchestrationcommunity
 tutorials-title: Tutoriais
-tutorials-url: https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html
-git-repo: https://github.com/AdobeDocs/journeys.en
+tutorials-url: https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html
+git-repo: https://git.corp.adobe.com/AdobeDocs/journeys.pt-BR
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61e269bc319407f48006486b96333385ef8b9c58
+workflow-type: ht
+source-wordcount: '31'
+ht-degree: 100%
 
 ---
 
 
-# Metadados para viagens
+# Metadados para jornadas
