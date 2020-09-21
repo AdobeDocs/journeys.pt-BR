@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -37,12 +37,12 @@ Essa configuração não é necessária se suas jornadas só usarem os dados loc
 
 Há dois tipos de fontes de dados:
 
-* A fonte de dados Adobe Experience Platform pré-configurada que define a conexão com o Serviço de Perfil do cliente em tempo real. Essa fonte de dados é integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
+* A fonte de dados pré-configurada da Adobe Experience Platform que define a conexão com o Serviço de perfil do cliente em tempo real. Essa fonte de dados é integrada. Consulte [](../datasource/adobe-experience-platform-data-source.md).
 * As fontes de dados externas que permitem definir uma conexão com sistemas externos. Essas são as que você pode criar. Consulte [](../datasource/external-data-sources.md).
 
 Para cada fonte de dados, você define as informações que serão recuperadas usando grupos de campos. Grupos de campos são conjuntos de campos que podem ser recuperados de uma fonte de dados. Consulte [](../datasource/field-groups.md).
 
-For more information on how to configure an Adobe Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/configure-data-sources.html).
+Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/configure-data-sources.html).
 
 Estas são as etapas principais de configuração da fonte de dados:
 
