@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a480ba736b642485f2078a6e6c40c28a11f38a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,7 @@ Seu usuário deve receber um email de redirecionamento para sua instância [!DNL
 O [!DNL Journey Orchestration] permite particionar sua instância em ambientes virtuais separados chamados de sandboxes.
 As sandboxes são atribuídas por meio de perfis de produto no Admin Console. Para obter mais informações sobre como atribuir sandboxes, consulte esta [seção](../about/access-management.md#create-product-profile).
 
-[!DNL Journey Orchestration] reflete as caixas de proteção do Adobe Experience Platform que foram criadas para uma determinada organização.
-As caixas de proteção do Adobe Experience Platform podem ser criadas ou redefinidas a partir da sua instância do Adobe Experience Platform. Consulte o [guia de usuário de sandbox](https://docs.adobe.com/content/help/pt-BR/experience-platform/sandbox/ui/user-guide.html) para ver as etapas detalhadas.
+O [!DNL Journey Orchestration] reflete as sandboxes da Adobe Experience Platform que foram criadas para uma determinada organização.
+As sandboxes da Adobe Experience Platform podem ser criadas ou redefinidas pela instância da Adobe Experience Platform. Consulte o [guia de usuário de sandbox](https://docs.adobe.com/content/help/pt-BR/experience-platform/sandbox/ui/user-guide.html) para ver as etapas detalhadas.
 
 Você pode encontrar o controle do alternador de sandbox na parte superior esquerda da tela. Para alternar a sandbox, clique na sandbox atualmente ativa no alternador e selecione outra sandbox na lista suspensa.
