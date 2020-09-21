@@ -8,11 +8,11 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c6c20feb2d461a5780dde5539811beee2eb78b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 ## Acesso ao [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acessar a interface do [!DNL Journey Orchestration], clique no ícone **[!UICONTROL App Selector]** na parte superior direita. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below **[!UICONTROL Experience Platform]**.
+Para acessar a interface do [!DNL Journey Orchestration], clique no ícone **[!UICONTROL App Selector]** na parte superior direita. Em seguida, clique em **[!UICONTROL Journey Orchestration]**, no lado direito, abaixo de **[!UICONTROL Experience Platform]**.
 
 ![](../assets/journey1.png)
 
@@ -57,7 +57,7 @@ Em **[!UICONTROL Home]**,**[!UICONTROL Data Sources]**, **[!UICONTROL Events]** 
 
 O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar os elementos exibidos de acordo com diferentes critérios. Você pode optar por exibir apenas os elementos de um determinado tipo ou status, os que você criou ou os que foram modificados nos últimos 30 dias.
 
-In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **[!UICONTROL Creation filters]** to filter on the creation date and user. Por exemplo, você pode optar por exibir somente os eventos criados nos últimos 30 dias.
+Nas listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, use **[!UICONTROL Creation filters]** para filtrar a data de criação e o usuário. Por exemplo, você pode optar por exibir somente os eventos criados nos últimos 30 dias.
 
 Na lista de jornada (abaixo **[!UICONTROL Home]**), além de **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status e versão (**[!UICONTROL Status and version filters]**). Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [](../building-journeys/using-the-journey-designer.md).
 
@@ -77,11 +77,11 @@ Nas diferentes listas, é possível executar ações básicas em cada elemento. 
 
 ![](../assets/journey4.png)
 
-## Navegação pelos campos do Adobe Experience Platform {#friendly-names-display}
+## Navegação pelos campos da Adobe Experience Platform {#friendly-names-display}
 
 Ao definir a [carga útil do evento](../event/defining-the-payload-fields.md), [carga útil do grupo de campo](../datasource/field-groups.md) e selecionar campos no [editor de expressões](../expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do schema no modelo de dados de experiência.
 
-Se descritores como &quot;xdm:alternativoDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos. Você pode configurar descritores de nome simples por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Schema](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html).
+Se descritores como &quot;xdm:alternateDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos. Você pode configurar descritores de nome simples por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Schema](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -104,18 +104,18 @@ _Ao configurar uma atividade em uma jornada:_
 A tela é salva automaticamente. Você pode ver, na parte superior esquerda da tela, o status de salvamento.
 
 * Pressione **escape** para fechar o painel de configuração e descartar as alterações feitas. É equivalente ao botão **[!UICONTROL Cancel]**.
-* Press **Enter** or click outside the pane to close the configuration pane. As alterações são salvas. É equivalente ao botão **[!UICONTROL Ok]**.
-* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
+* Pressione **Enter** ou clique fora do painel para fechar o painel de configuração. As alterações são salvas. É equivalente ao botão **[!UICONTROL Ok]**.
+* Se você pressionar **Delete** ou **backspace**, será possível pressionar **Enter** para confirmar a exclusão.
 
 _Em janelas pop-ups:_
 
-* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
-* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
+* Pressione **escape** para fechar (equivalente ao botão **[!UICONTROL Cancel]**).
+* Pressione **Enter** para salvar ou confirmar (equivalente ao botão **[!UICONTROL Ok]** ou **[!UICONTROL Save]**).
 
 _No painel de configuração do evento, fonte de dados ou ação:_
 
 * Pressione **escape** para fechar o painel de configuração sem salvar.
-* Press **Enter** to save modifications and close the configuration pane.
+* Pressione **Enter** para salvar as modificações e fechar o painel de configuração.
 * Pressione **tab** para saltar entre os diferentes campos que serão configurados.
 
 _No editor de expressões simples_
@@ -137,5 +137,5 @@ _Em uma tela com uma barra de pesquisa:_
 _Na tela de uma jornada:_
 
 * Use a combinação de teclas **Ctrl/Command + A** para selecionar todas as atividades.
-* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
+* Quando uma ou várias atividades forem selecionadas, pressione **Delete** ou **backspace** para excluí-las. Pressione **Enter** na janela pop-up para confirmar.
 * Clique duas vezes em uma atividade da paleta esquerda para adicioná-la à primeira posição disponível (de cima para baixo).
