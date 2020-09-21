@@ -10,54 +10,54 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 771b2b35e0aba412e4eb9e12a5d57de3d4c7068c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # Construir a jornada {#concept_owm_kdy_w2b}
 
-O usuário **** comercial pode agora construir a jornada. Nossa jornada incluirá as seguintes atividades:
+Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá as seguintes atividades:
 
-* duas **[!UICONTROL Event]** atividades: &quot;LobbyBeacon&quot; e &quot;RestaurantBeacon&quot;
-* duas **[!UICONTROL Condition]** atividades
-* três **[!UICONTROL Push]** atividades e uma **[!UICONTROL Email]** atividade (usando o Adobe Campaign Standard)
+* duas atividades **[!UICONTROL Event]**: “LobbyBeacon” e “RestaurantBeacon”
+* duas atividades **[!UICONTROL Condition]**
+* três atividades **[!UICONTROL Push]** e uma atividade **[!UICONTROL Email]** (usando o Adobe Campaign Standard)
 * uma atividade **[!UICONTROL Wait]**
-* quatro **[!UICONTROL End]** atividades
+* quatro atividades **[!UICONTROL End]**
 
 >[!NOTE]
 >
->As **[!UICONTROL Push]** atividades e **[!UICONTROL Email]** as  só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
+>As atividades **[!UICONTROL Push]** e **[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
-Para obter informações adicionais sobre como construir uma jornada, consulte [](../building-journeys/journey.md).
+Para obter informações adicionais sobre como criar uma jornada, consulte [](../building-journeys/journey.md).
 
 ## Primeiros passos{#section_ntb_ws1_ffb}
 
-1. No menu superior, clique na **[!UICONTROL Home]** guia e **[!UICONTROL Create]** para criar uma nova jornada.
+1. No menu superior, clique na guia **[!UICONTROL Home]** e **[!UICONTROL Create]** para criar uma nova jornada.
 
    ![](../assets/journey31.png)
 
-1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Adicione um nome e defina-o para durar um mês, de 1º a 31 de dezembro.
+1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Adicione um nome e defina a duração de um mês, de 1º a 31 de dezembro.
 
    ![](../assets/journeyuc2_12.png)
 
-1. Start ao criar sua jornada arrastando e soltando o evento &quot;LobbyBeacon&quot; da paleta para a tela. Você também pode clicar com o duplo no evento da paleta para adicioná-lo à tela de desenho.
+1. Inicie a criação da jornada arrastando e soltando o evento “LobbyBeacon” da paleta para a tela. Você também pode dar um duplo clique no evento da paleta para adicioná-lo à tela.
 
    ![](../assets/journeyuc2_13.png)
 
-1. Agora vamos adicionar uma condição para verificar se a pessoa não foi contatada nas últimas 24 horas e verificar se ele é um membro de fidelidade. Arraste e solte uma atividade de condição em sua jornada.
+1. Agora vamos adicionar uma condição para verificar se a pessoa não foi contatada nas últimas 24 horas e se é um membro de fidelidade. Arraste e solte uma atividade de condição na sua jornada.
 
    ![](../assets/journeyuc2_14.png)
 
-1. Escolha o **[!UICONTROL Data Source Condition]** tipo e clique no **[!UICONTROL Expression]** campo. Você também pode definir um rótulo de condição que aparecerá na seta, na tela. Em nosso exemplo, substituímos &quot;Condição 1&quot; por &quot;Membro de fidelidade&quot;.
+1. Escolha o tipo **[!UICONTROL Data Source Condition]** e clique no campo **[!UICONTROL Expression]**. Você também pode definir um rótulo de condição que aparecerá na seta sobre a tela. Em nosso exemplo, substituímos “Condição 1” por “Membro de fidelidade”.
 
    ![](../assets/journeyuc2_15.png)
 
-1. Clique **[!UICONTROL Advanced mode]** e defina a seguinte condição com base nos campos &quot;carimbo de data e hora&quot; e &quot;directMarketing.send.value&quot; provenientes da fonte de dados da Adobe Experience Platform. A sintaxe da expressão é:
+1. Clique em **[!UICONTROL Advanced mode]** e defina a seguinte condição com base nos campos “data e hora” e “directMarketing.send.value” provenientes da fonte de dados da Adobe Experience Platform. A sintaxe da expressão é:
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -69,7 +69,7 @@ Para obter informações adicionais sobre como construir uma jornada, consulte [
 
    ![](../assets/journeyuc2_30.png)
 
-1. Clique no **[!UICONTROL Add a path]** botão e crie um segundo caminho para clientes que não foram contatados nas últimas 24 horas e que não são membros da fidelidade. Nomeie o caminho &quot;Não é membro da fidelidade&quot;. A sintaxe da expressão é:
+1. Clique no botão **[!UICONTROL Add a path]** e crie um segundo caminho para clientes que não foram contatados nas últimas 24 horas e que não são membros do programa de fidelidade. Nomeie o caminho “Não é membro do programa de fidelidade”. A sintaxe da expressão é:
 
    ```
    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -81,26 +81,26 @@ Para obter informações adicionais sobre como construir uma jornada, consulte [
 
    >[!NOTE]
    >
-   >Na segunda parte da expressão, &quot;Perfil&quot; é opcional.
+   >Na segunda parte da expressão, o “Perfil” é opcional.
 
-1. Precisamos selecionar uma namespace. Uma namespace é pré-selecionada com base nas propriedades do schema. Você pode manter aquele pré-selecionado. Para obter mais informações sobre namespaces, consulte [](../event/selecting-the-namespace.md).
+1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. Para obter mais informações sobre namespaces, consulte [](../event/selecting-the-namespace.md).
 
-Em nosso caso de uso, só queremos reagir a essas duas condições, então não marcamos a caixa **[!UICONTROL Show path for other cases than the one(s) above]**.
+No nosso caso, só queremos reagir a essas duas condições, então não marcamos a caixa **[!UICONTROL Show path for other cases than the one(s) above]**.
 
 Dois caminhos são criados após sua condição:
 
-* _Clientes que não foram contatados nas últimas 24 horas e são membros de fidelidade._
-* _Clientes que não foram contatados nas últimas 24 horas e que não são membros de fidelidade._
+* _Clientes que não tenham sido contatados nas últimas 24 horas e que sejam membros do programa de fidelidade._
+* _Clientes que não tenham sido contatados nas últimas 24 horas e que sejam membros do programa de fidelidade._
 
 ![](../assets/journeyuc2_16.png)
 
-## Primeiro caminho: o cliente é um membro de fidelidade {#section_otb_ws1_ffb}
+## Primeiro caminho: o cliente é um membro do programa de fidelidade {#section_otb_ws1_ffb}
 
-1. No primeiro caminho, vamos adicionar uma condição para verificar se ele tem uma reserva. Arraste e solte uma atividade de condição em sua jornada.
+1. No primeiro caminho, vamos adicionar uma condição para verificar se ele tem uma reserva. Arraste e solte uma atividade de condição na sua jornada.
 
    ![](../assets/journeyuc2_17.png)
 
-1. Escolha o **[!UICONTROL Data Source Condition]** tipo e defina a condição com base nas informações de status da reserva recuperadas do sistema de reservas:
+1. Escolha o tipo **[!UICONTROL Data Source Condition]** e defina a condição com base nas informações de status da reserva recuperadas do sistema de reservas:
 
    ```
    #{MarltonReservation.MarltonFieldGroup.reservation} == true
@@ -108,7 +108,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Quando um campo é selecionado de uma fonte de dados externa, a parte direita da tela exibe a lista de parâmetros que foram definidos ao configurar a fonte de dados externa (consulte [](../usecase/configuring-the-data-sources.md)). Clique no nome do parâmetro e defina o valor da chave do sistema de reservas, a ID do Experience Cloud, em nosso exemplo:
+1. Quando um campo de uma fonte de dados externa é selecionado, a parte direita da tela exibe a lista de parâmetros que foram definidos na configuração da fonte de dados externa (consulte [](../usecase/configuring-the-data-sources.md)). Clique no nome do parâmetro e defina o valor da chave do sistema de reservas, a Experience Cloud ID, em nosso exemplo:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -122,16 +122,16 @@ Dois caminhos são criados após sua condição:
 
    Dois caminhos são criados:
 
-   * _Clientes que reservaram uma sala_
+   * _Clientes que reservaram um quarto_
    * _Clientes que não reservaram um quarto._
 
    ![](../assets/journeyuc2_21.png)
 
-1. No primeiro caminho (sala reservada), solte uma **[!UICONTROL Push]** atividade, selecione seu aplicativo móvel e seu modelo de &quot;Boas-vindas&quot;.
+1. No primeiro caminho (quarto reservado), solte uma atividade **[!UICONTROL Push]**, selecione seu aplicativo móvel e seu modelo de “Boas-vindas”.
 
    ![](../assets/journeyuc2_22.png)
 
-1. Defina os **[!UICONTROL Target]** campos exigidos pelo sistema para enviar o push.
+1. Defina os campos **[!UICONTROL Target]** exigidos pelo sistema para enviar o push.
 
    * **[!UICONTROL Push platform]**: selecione a plataforma: **[!UICONTROL Apple Push Notification Server]** (Apple) ou **[!UICONTROL Firebase Cloud Messaging]** (Android).
    * **[!UICONTROL Registration token]**: adicione a seguinte expressão (com base no evento configurado) usando o modo avançado:
@@ -142,42 +142,42 @@ Dois caminhos são criados após sua condição:
 
 1. Defina os campos de personalização de notificação por push. Em nosso exemplo: nome e sobrenome.
 
-1. Adicione um evento &quot;RestaurantBeacon&quot;.
+1. Adicione um evento “RestaurantBeacon”.
 
    ![](../assets/journeyuc2_23.png)
 
-1. Adicione uma nova **[!UICONTROL Push]** atividade, selecione o modelo &quot;Desconto de refeição&quot; e defina os **[!UICONTROL Address]** campos e **[!UICONTROL Personalization]** . Adicione uma atividade **[!UICONTROL End]**. 
+1. Adicione uma nova atividade **[!UICONTROL Push]**, selecione o modelo “Desconto de refeição” e defina os campos **[!UICONTROL Address]** e **[!UICONTROL Personalization]**. Adicione uma atividade **[!UICONTROL End]**. 
 
    ![](../assets/journeyuc2_24.png)
 
-1. Queremos enviar uma notificação por push de desconto para refeições somente se a pessoa entrar no restaurante nas próximas 6 horas após o push de boas-vindas. Para fazer isso, precisamos usar uma atividade de espera. Coloque o cursor na atividade de boas-vindas e clique no símbolo &quot;+&quot;. No novo caminho, adicione uma atividade de espera e defina uma duração de 6 horas. A primeira atividade elegível será escolhida. Se o evento do restaurante for recebido menos de 6 horas após o push de boas-vindas, a atividade de push será enviada. Se nenhum evento de restaurante for recebido dentro das próximas 6 horas, a espera será escolhida. Coloque uma **[!UICONTROL End]** atividade depois da atividade de espera.
+1. Queremos enviar uma notificação por push de desconto para refeições somente se a pessoa entrar no restaurante nas próximas 6 horas após o push de boas-vindas. Para isso, precisamos usar uma atividade de espera. Coloque o cursor na atividade de push de boas-vindas e clique no símbolo “+”. No novo caminho, adicione uma atividade de espera e defina uma duração de 6 horas. A primeira atividade elegível será escolhida. Se o evento do restaurante for recebido menos de 6 horas após o push de boas-vindas, a atividade de push será enviada. Se nenhum evento de restaurante for recebido dentro das próximas 6 horas, a espera será escolhida. Coloque uma atividade **[!UICONTROL End]** após a atividade de espera.
 
    ![](../assets/journeyuc2_31.png)
 
-1. No segundo caminho que segue a condição de reserva (nenhuma sala reservada), adicione uma **[!UICONTROL Push]** atividade e selecione o modelo &quot;Taxas de sala&quot;. Adicione uma atividade **[!UICONTROL End]**. 
+1. No segundo caminho após a condição de reserva (nenhum quarto reservado), adicione uma atividade **[!UICONTROL Push]** e selecione o modelo “Tarifas de quartos”. Adicione uma atividade **[!UICONTROL End]**. 
 
    ![](../assets/journeyuc2_25.png)
 
-## Segundo caminho: o cliente não é um membro de fidelidade{#section_ptb_ws1_ffb}
+## Segundo caminho: o cliente não é um membro do programa de fidelidade{#section_ptb_ws1_ffb}
 
-1. No segundo caminho que segue a primeira condição (o cliente não é um membro de fidelidade), adicione uma **[!UICONTROL Email]** atividade e selecione seu modelo de &quot;associação de fidelidade&quot;.
+1. No segundo caminho após a primeira condição (o cliente não é um membro do programa de fidelidade), adicione uma atividade **[!UICONTROL Email]** e selecione seu modelo de “categoria de fidelidade”.
 
    ![](../assets/journeyuc2_26.png)
 
-1. No **[!UICONTROL Address]** campo, selecione o endereço de email da fonte de dados.
+1. No campo **[!UICONTROL Address]**, selecione o endereço de email da fonte de dados.
 
    ![](../assets/journeyuc2_27.png)
 
-1. Defina os campos de personalização de nome e sobrenome da fonte de dados.
+1. Defina os campos de personalização de nome e sobrenome a partir da fonte de dados.
 
    ![](../assets/journeyuc2_28.png)
 
 1. Adicione uma atividade **[!UICONTROL End]**. 
 
-Clique no botão de **[!UICONTROL Test]** alternância e teste sua jornada. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste-a novamente. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md).
+Clique no botão de alternância **[!UICONTROL Test]** e teste sua jornada. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 
-Quando o teste é conclusivo, você pode publicar sua jornada no menu suspenso superior direito.
+Quando o teste for conclusivo, você pode publicar sua jornada pelo menu suspenso no canto superior direito.
 
 ![](../assets/journeyuc2_32.png)
