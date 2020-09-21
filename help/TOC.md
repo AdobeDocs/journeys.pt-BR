@@ -1,13 +1,13 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Guia Journey Orchestration
+user-guide-title: Guia do Journey Orchestration
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad892948c866c8c5cda16c17a33cb225ee7edb33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 94%
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
    + Atividades {#about-journey-building}
       + Atividades de eventos {#events-activities}
-         + [Sobre atividades eventos](using/building-journeys/event-activities.md)
+         + [Sobre atividades de eventos](using/building-journeys/event-activities.md)
          + [Eventos gerais](using/building-journeys/general-events.md)
          + [Eventos de reação](using/building-journeys/reaction-events.md)
          + [Eventos de qualificação de segmento](using/building-journeys/segment-qualification-events.md)
@@ -75,7 +75,7 @@ ht-degree: 94%
          + [Usar ações personalizadas](using/building-journeys/using-custom-actions.md)
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
-   + Compartilhamento de etapas de viagem com a Adobe Experience Platform {#sharing-journey-steps}
+   + Compartilhamento de etapas de jornada com a Adobe Experience Platform {#sharing-journey-steps}
       + [Visão geral do compartilhamento de etapas da jornada](using/building-journeys/sharing-overview.md)
       + [campos comuns de eventos journeySteps](using/building-journeys/sharing-common-fields.md)
       + [campos de execução de ação de eventos journeyStep](using/building-journeys/sharing-execution-fields.md)
@@ -184,6 +184,6 @@ ht-degree: 94%
 + Recursos alfa {#alpha}
    + [Visão geral de recursos alfa](using/alpha/alpha-overview.md)
    + [Interface do usuário](using/alpha/alpha-interface.md)
-   + [Ler atividade do segmento](using/alpha/alpha-segment-trigger.md)
+   + [Atividade Ler segmento](using/alpha/alpha-segment-trigger.md)
    + [Eventos com base em regras](using/alpha/alpha-events.md)
 
