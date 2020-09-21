@@ -10,11 +10,11 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94989635814c9b2f035d736647ae78324d2c4f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 
 ## Agosto de 2020 {#august-2020}
 
-* Foram adicionadas informações sobre como classificar e escolher as colunas a serem exibidas na lista de segmentos. [Leia mais](../building-journeys/segment-qualification-events.md)
-* Foram adicionadas informações sobre como copiar o nome e a ID de um segmento após ele ter sido selecionado. [Leia mais](../building-journeys/segment-qualification-events.md)
-* As ocorrências de Experience Platform foram harmonizadas entre as diferentes páginas.
+* Foram adicionadas informações sobre como classificar e escolher as colunas que serão exibidas na lista de segmentos. [Leia mais](../building-journeys/segment-qualification-events.md)
+* Foram adicionadas informações sobre como copiar o nome e a ID de um segmento após sua seleção. [Leia mais](../building-journeys/segment-qualification-events.md)
+* As ocorrências da Experience Platform foram harmonizadas entre as diferentes páginas.
 
 ## Julho de 2020 {#july-2020}
 
-* Adicionado um link para um novo vídeo tutorial sobre o relatórios de eventos da etapa para Adobe Experience Platform. [Leia mais](../building-journeys/sharing-overview.md)
-* A seção atividades de eventos foi reorganizada em subseções dedicadas para cada tipo de evento. [Leia mais](../building-journeys/event-activities.md)
-* Adicionadas as práticas recomendadas para evitar sobrecarga com a classificação de segmentos. [Leia mais](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
-* Adicionada uma observação para explicar como fazer uma jornada continuar após um erro em uma ação ou condição. [Leia mais](../about/troubleshooting.md#section_h3q_kqk_fhb)
+* Adição de um link para um novo vídeo tutorial sobre os relatórios de eventos da etapa para a Adobe Experience Platform. [Leia mais](../building-journeys/sharing-overview.md)
+* A seção de atividades de eventos foi reorganizada em subseções dedicadas a cada tipo de evento. [Leia mais](../building-journeys/event-activities.md)
+* Adição de práticas recomendadas para evitar sobrecarga com a qualificação de segmento. [Leia mais](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
+* Adição de uma observação explicativa sobre como uma jornada pode continuar após um erro em uma ação ou condição. [Leia mais](../about/troubleshooting.md#section_h3q_kqk_fhb)
 * Adição de uma nova seção sobre os recursos Alfa que são testados entre um conjunto limitado de clientes. [Leia mais](../alpha/alpha-overview.md)
 * Adição de uma nova seção sobre a integração com os Serviços inteligentes. [Leia mais](../ai-services/ai-services-overview.md)
 * Adição de uma nova seção sobre a criação do perfil de teste. [Leia mais](../building-journeys/testing-the-journey.md#create-test-profile)
@@ -49,7 +49,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 ## Junho de 2020 {#june-2020}
 
 * Adição de informações sobre como alterar a duração do cache do token para uma fonte de dados de autenticação personalizada. [Leia mais](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Updated screenshots and text to reflect the renaming of the **[!UICONTROL Finished]** journey state which has been changed to **[!UICONTROL Closed (no entrance)]**.
+* Atualização de capturas de tela e texto para refletir a renomeação do estado da jornada **[!UICONTROL Finished]** que foi alterado para **[!UICONTROL Closed (no entrance)]**.
 * Adição de informações sobre como o idioma é definido para a interface. [Leia mais](../about/user-interface.md)
 * A lista dos status da jornada de uma pessoa foi movida para a seção [Logs modo de teste](../building-journeys/testing-the-journey.md#viewing_logs).
 
@@ -61,12 +61,12 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 ## Março de 2020 {#march-2020}
 
 * Adição de descrições de parâmetros para _actionExecutionErrors_ e _fetchErrors_ na seção de logs de teste. [Leia mais](../building-journeys/testing-the-journey.md#viewing_logs)
-* As limitações das ações personalizadas usadas em uma jornada foram atualizadas. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [Leia mais](../action/about-custom-action-configuration.md)
+* As limitações das ações personalizadas usadas em uma jornada foram atualizadas. Também é possível modificar o campo **[!UICONTROL URL]** e os parâmetros **[!UICONTROL Authentication]**. [Leia mais](../action/about-custom-action-configuration.md)
 * Novas entradas de ajuda contextual foram adicionadas. O painel de carga útil de autenticação personalizada (em ações e fontes de dados) agora inclui um ícone de ajuda que se vincula a esta [seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Agora as jornadas concluídas podem ser interrompidas. [Leia mais](../building-journeys/using-the-journey-designer.md)
 * A seção de descrição da interface foi reorganizada. [Leia mais](../about/user-interface.md)
 * O acionamento de vários eventos foi adicionado à seção Modo de teste [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
-* A seção Modo de teste foi atualizada em relação ao novo **[!UICONTROL Wait time in test]** parâmetro. [Leia mais](../building-journeys/testing-the-journey.md)
+* A seção Modo de teste foi atualizada em relação ao novo parâmetro **[!UICONTROL Wait time in test]**. [Leia mais](../building-journeys/testing-the-journey.md)
 * A seção Log de teste foi atualizada com códigos de erro de chamada externos e respostas. [Leia mais](../building-journeys/testing-the-journey.md#viewing_logs)
 * O gerenciamento de fuso horário agora está centralizado no painel de propriedades da jornada. Leia mais [aqui](../building-journeys/changing-properties.md#timezone) e [aqui](../building-journeys/timezone-management.md)
 * A seção Designer de jornadas foi atualizada para divulgar os aprimoramentos recentes. [Leia mais](../building-journeys/using-the-journey-designer.md)
