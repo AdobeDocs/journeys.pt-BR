@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed0934f141ade1e558131e9fad609844800dd46a
+source-git-commit: 7cac949f2428f29bef1d01122e152429a93d0b1b
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ Para usar o modo de teste, siga estas etapas:
 
    ![](../assets/journeyuctest2.png)
 
-1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste-a novamente. Quando o teste é conclusivo, você pode publicar sua jornada. Consulte [](../building-journeys/publishing-the-journey.md).
+1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Quando o teste é conclusivo, você pode publicar sua jornada. Consulte [](../building-journeys/publishing-the-journey.md).
 
 ## Observações importantes {#important_notes}
 
@@ -169,3 +169,18 @@ Estes são os diferentes status da jornada de um indivíduo:
 * _Concluído_: o indivíduo está no final da viagem.
 * _Erro_: o indivíduo é parado na viagem por causa de um erro.
 * _Tempo limite_: o indivíduo é parado na viagem por causa de um passo que levou muito tempo.
+
+Quando um evento é acionado usando o modo de teste, um conjunto de dados é gerado automaticamente com o nome da fonte.
+
+Quando um evento é acionado usando o modo de teste, um conjunto de dados é gerado automaticamente com o nome da fonte.
+
+O modo de teste cria automaticamente um Evento da Experiência e o envia para a Adobe Experience Platform. O nome da origem desse Evento de experiência é &quot;Eventos de teste de Journey Orchestration&quot;.
+
+No caso de eventos múltiplos acionados a partir de viagens múltiplas
+
+Há um cenário em que vários eventos são enviados de várias viagens que terão Schemas diferentes. Um schema pode mapear para 1 conjunto de dados? Caso contrário, teremos vários conjuntos de dados necessários.
+
+A criação e nomeação automáticas desses conjuntos de dados será realizada se um conjunto de dados de destino não for incluído no evento da experiência. É por isso que vemos o &quot;Conjunto de dados criado automaticamente para o viajante&quot; hoje.
+
+A nomeação de nossa fonte impulsiona a criação automática. Se tivermos vários eventos, devemos concatenar e fazer com que seja &quot;Evento de teste de Journey Orchestration - NOME DO SCHEMA&quot;. Isso será automaticamente direcionado para &quot;Conjunto de dados gerado automaticamente para Evento de teste de Journey Orchestration - NOME DO SCHEMA&quot;.
+
