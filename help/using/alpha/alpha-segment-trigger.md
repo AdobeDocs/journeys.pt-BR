@@ -1,5 +1,5 @@
 ---
-title: Ler atividade do segmento
+title: Atividade Ler segmento
 description: Saiba mais sobre a atividade Ler segmento.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 967f453145dcf9af0e3efc5d52854d0c5c68c54f
+source-git-commit: b068429a0eb72c585de27faefe51ea2889be28f1
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Ler atividade do segmento {#segment-trigger-activity}
+# Atividade Ler segmento {#segment-trigger-activity}
 
 ## Sobre a atividade Ler segmento {#about-segment-trigger-actvitiy}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >Se uma atividade de ação predefinida da Adobe Campaign Standard estiver presente na tela no momento da publicação ou no modo de teste no tempo de ativação, a jornada será limitada a 13 entradas por segundo. Caso contrário, a viagem será limitada a 1000 eventos por segundo.
 
-A atividade Ler segmento permite fazer com que todos os indivíduos que pertencem a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada numa viagem pode ser efetuada uma vez ou numa base regular.
+A atividade Ler segmento permite fazer com que todos os indivíduos que pertencem a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
 Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform. Com a atividade de segmentos de leitura, é possível fazer com que todos os indivíduos pertencentes ao segmento de clientes Gold entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de viagem: condições, temporizadores, eventos, ações.
 
@@ -83,14 +83,20 @@ Para fazer isso, ative o modo de teste e selecione a opção desejada no painel 
 
 ![](../assets/segment-trigger-test-modes.png)
 
-Você pode configurar o modo de teste como de costume. Na [presente seção](../building-journeys/testing-the-journey.md)são apresentados passos detalhados sobre como testar uma viagem.
+Você pode configurar e executar o modo de teste como de costume. Na [presente seção](../building-journeys/testing-the-journey.md)são apresentados passos detalhados sobre como testar uma viagem.
 
-Observe que testar a jornada usando até 100 perfis ao mesmo tempo não permite rastrear o progresso dos indivíduos na jornada usando o fluxo visual.
+Quando o teste estiver em execução, o **[!UICONTROL Show logs]** botão permite que você veja os resultados de teste de acordo com a opção de teste selecionada:
+
+* **[!UICONTROL Single profile at a time]**: os registros de teste exibem as mesmas informações que ao usar o modo de teste unitário. Para obter mais informações, consulte [esta seção](../building-journeys/testing-the-journey.md#viewing_logs)
+
+* **[!UICONTROL Up to 100 profiles at once]**: os registros de teste permitem rastrear a progressão da exportação do segmento da Adobe Experience Platform, bem como o progresso individual de todas as pessoas que entraram na jornada.
+
+   Observe que testar a jornada usando até 100 perfis ao mesmo tempo não permite rastrear o progresso dos indivíduos na jornada usando o fluxo visual.
+
+   ![](../assets/read-segment-log.png)
 
 Depois que os testes forem bem-sucedidos, você poderá publicar sua jornada (consulte [Publicação da jornada](../building-journeys/publishing-the-journey.md)). Os indivíduos que pertencem ao segmento entram na viagem na data/hora especificada na seção relativa às propriedades da viagem **[!UICONTROL Scheduler]** .
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Lembre-se de que os segmentos do Adobe Experience Platform são calculados uma vez por dia (segmentos de **lote** ) ou em tempo real (segmentos **transmitidos** ).
->
->Se o segmento selecionado for transmitido, os indivíduos que pertencem a esse segmento potencialmente entrarão na jornada em tempo real. Se o segmento for lote, as pessoas recém-qualificadas para esse segmento potencialmente entrarão na jornada quando o cálculo do segmento for executado no Adobe Experience Platform.
+>Ao fazer uma nova versão de uma jornada baseada em segmentos que não é recorrente (começando o mais rápido possível ou &quot;uma vez&quot;), todos os indivíduos que entraram na jornada anteriormente não voltarão a entrar na nova versão quando você a publicar. Se você quiser permitir que eles entrem novamente, você deve duplicado a jornada.
