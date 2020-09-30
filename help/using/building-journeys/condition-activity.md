@@ -11,10 +11,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 25d3c3062bca2151faf10d11e9636799c1331f24
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 5%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -32,11 +32,15 @@ Há quatro tipos de condições disponíveis:
 
 ## Sobre a atividade Condition {#about_condition}
 
+Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
+
 Clique em **[!UICONTROL Add a path]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade.
 
 ![](../assets/journey47.png)
 
-Observe que o projeto de viagens tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho elegível será executado. Isso significa que você pode variar a priorização de caminhos colocando-os acima ou abaixo uns dos outros. Por exemplo, se a condição do primeiro caminho for &quot;A pessoa é um VIP&quot; e a condição do segundo caminho for &quot;A pessoa é um homem&quot;. Se uma pessoa que atende às duas condições (um macho que é um VIP) passar essa etapa, o primeiro caminho será escolhido mesmo se ele também estiver qualificado para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
+Observe que o projeto de viagens tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho elegível será executado. Isso significa que você pode variar a priorização de caminhos colocando-os acima ou abaixo uns dos outros.
+
+Por exemplo, vamos pegar o exemplo da condição de um primeiro caminho &quot;A pessoa é um VIP&quot; e a condição de um segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende às duas condições (um macho que é um VIP) passar essa etapa, o primeiro caminho será escolhido mesmo se ele também estiver qualificado para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
 
 ![](../assets/journey48.png)
 
@@ -57,7 +61,7 @@ Se você estiver usando o Serviço [de segmentação da](https://docs.adobe.com/
 >Não é possível executar query em séries cronológicas (por exemplo, uma lista de compras, cliques passados em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [](../expression/expressionadvanced.md).
 
 
-Quando ocorre um erro em uma ação ou condição, a jornada de um indivíduo para. A única maneira de continuar é marcar a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condição da fonte de dados {#data_source_condition}
 
