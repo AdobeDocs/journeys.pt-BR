@@ -1,5 +1,5 @@
 ---
-title: Eventos de qualificação de segmentos
+title: Eventos de qualificação de segmento
 description: Saiba mais sobre eventos de qualificação de segmento
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -11,15 +11,15 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef3ce546a816f1d7d0398acc418a20803886a20
+source-git-commit: 69427556476b5a51e4557307227433cff25f4856
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
 
-# Eventos de qualificação de segmentos {#segment-qualification}
+# Eventos de qualificação de segmento {#segment-qualification}
 
 ## Sobre eventos de qualificação de segmento{#about-segment-qualification}
 
@@ -29,7 +29,12 @@ Digamos que você tenha um segmento de &quot;cliente prateado&quot;. Com essa at
 
 Esse tipo de evento pode ser posicionado como o primeiro passo ou mais tarde na jornada.
 
-Se o segmento for transmitido com a opção Audiências de alta frequência do Adobe Experience Platform, as entradas e saídas serão atendidas em tempo real. Se o segmento não for transmitido, as entradas e saídas serão consideradas no momento do cálculo do segmento.
+>[!IMPORTANT]
+>
+>Lembre-se de que os segmentos Adobe Experience Platform são calculados uma vez por dia (segmentos de **lote** ) ou em tempo real (segmentos **transmitidos** , usando a opção Audiências de alta frequência da Adobe Experience Platform).
+>
+>Se o segmento selecionado for transmitido, os indivíduos que pertencem a esse segmento potencialmente entrarão na jornada em tempo real. Se o segmento for lote, as pessoas recém-qualificadas para esse segmento potencialmente entrarão na jornada quando o cálculo do segmento for executado no Adobe Experience Platform.
+
 
 1. Desdobre a **[!UICONTROL Events]** categoria e solte uma **[!UICONTROL Segment qualification]** atividade na tela.
 
