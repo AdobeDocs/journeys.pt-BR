@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e264f0794bff859d1e1db0b8fc2c66ab19fdec7
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 
 >[!NOTE]
 >
->Você pode aproveitar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Evento.offerOpened.atividade.endTime}), o campo no evento é do formulário 2016-08-12T09:46:06.
+>Você pode aproveitar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, sendo o campo do evento o formulário 2016-08-12T09:46:06Z.
 >
 >O fuso **horário** é esperado nas propriedades de sua jornada. Como resultado, atualmente não é possível da interface para apontar diretamente para um tempo completo ISO-8601 de mistura de carimbo de data e hora e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [](../building-journeys/timezone-management.md).
 
