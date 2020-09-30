@@ -11,21 +11,25 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c3b8f2d88646372e69ae4f24a5dbb5d45721c55
+source-git-commit: 9cdaa673dbe9247aa1e9c9aef58cfa003d014786
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 5%
+source-wordcount: '656'
+ht-degree: 11%
 
 ---
 
 
 # Eventos com base em regras{#simplified-events}
 
-Simplificamos a forma como você configura os eventos de experiência. Estamos introduzindo um novo método que não requer o uso de uma eventID. Ao configurar seu evento no Journey Orchestration, agora é possível definir um evento baseado em regras.
+Simplificamos a forma como você configura os eventos na experiência. Estamos introduzindo um novo método que não requer o uso de uma ID de evento. Agora é possível definir um evento com base em regras ao configurar seu evento no Journey Orchestration.
 
 Esse novo tipo de evento não gera uma eventID. Usando o editor de expressões simples, agora você simplesmente define uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas viagens. Essa regra pode se basear em qualquer campo disponível na carga do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
 
 Esse novo método é transparente para os usuários. A única alteração é um novo campo na tela de definição do evento.
+
+>[!CAUTION]
+>
+>Uma regra de limite é definida para eventos baseados em regras. Limita o número de eventos qualificados que uma jornada pode processar a 400 mil por minuto. Entre em contato com seu ponto de contato do programa Alpha para obter mais informações.
 
 ## Como aproveitar os dados da Adobe Analytics{#analytics-data}
 
@@ -101,5 +105,5 @@ Ao acionar um evento, a tela de configuração **do** Evento permite que você d
 
 ![](../assets/alpha-event8.png)
 
-Para obter mais informações sobre como usar o modo de teste, consulte [](../building-journeys/testing-the-journey.md).
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
 
