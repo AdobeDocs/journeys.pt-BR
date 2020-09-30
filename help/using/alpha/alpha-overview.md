@@ -11,17 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bede8675f72c7b63da59dc8e0a3ca0fb95de87c
+source-git-commit: e5644e28d66652b013d9873275d1d564ad75b97d
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 5%
+source-wordcount: '108'
+ht-degree: 28%
 
 ---
 
 
 # Visão geral de recursos alfa
 
-Os recursos do programa Alfa oferta que estão sendo testados atualmente em um conjunto limitado de clientes. Isso nos permite melhorar nosso produto com base no feedback recebido. Esses recursos não estão disponíveis para todos os clientes do Journey Orchestration.
+O programa Alfa oferece recursos que estão sendo atualmente testados em um conjunto limitado de clientes. Esses recursos não estão disponíveis para todos os clientes do Journey Orchestration.
 
 Esta seção foca apenas nos recursos Alfa. Se você não fizer parte do programa Alpha e quiser saber mais sobre os outros recursos do Journey Orchestration, consulte as outras seções desta [documentação](../../journey-orchestration-home.md).
 
