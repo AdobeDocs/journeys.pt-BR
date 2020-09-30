@@ -11,17 +11,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0db4d65218861b71d35f83ccf2d15e25a1597e8
+source-git-commit: 70bc6653a8cdd552a0441f4b661341d3f095b112
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # now {#now}
 
-Retorna a data atual no formato de data e hora. Para obter mais informações sobre tipos de dados, consulte [](../expression/data-types.md).
+Retorna a data atual no formato de data e hora. For more information on data types, refer to [](../expression/data-types.md).
 
 ## Categoria
 
