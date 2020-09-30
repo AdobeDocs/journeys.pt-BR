@@ -11,7 +11,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a55139697347ade80959f60bf52bfde39e43eb9
+source-git-commit: 4f7cc4da51a93019b5a296003c51d4bee6724498
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -47,10 +47,11 @@ Estas são as etapas para configurá-lo:
    >
    >Este teste verifica se:
    >
-   >* O host é &quot;.campanha.adobe.com&quot; ou &quot;.campanha-sandbox.adobe.com&quot;,
-   >* Os start de URL com https,
-   >* O ORG associado a esta instância do Adobe Campaign Standard é o mesmo que o Journey Orchestration ORG.
-
+   >O host é &quot;.campanha.adobe.com&quot; ou &quot;.campanha-sandbox.adobe.com&quot;,
+   >
+   >Os start de URL com https,
+   >
+   >O ORG associado a esta instância do Adobe Campaign Standard é o mesmo que o Journey Orchestration ORG.
 
 Ao projetar sua jornada, três ações estarão disponíveis na **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de ações](../building-journeys/using-adobe-campaign-actions.md)do Adobe Campaign). **O evento** Reações também permitirá que você reaja a cliques em mensagens, aberturas, etc. (consulte eventos [de reação](../building-journeys/reaction-events.md)).
 
