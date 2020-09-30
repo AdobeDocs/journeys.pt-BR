@@ -9,9 +9,9 @@ topic-tags: journeys
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca4dc447d8ae4ee18e50d7e9a18faf3fa47ae223
+source-git-commit: 6656c3a9b62f13d0cbffa3ac97c0a5314cb050a4
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1108'
 ht-degree: 2%
 
 ---
@@ -82,12 +82,12 @@ A API Capping ajuda a criar, configurar e monitorar suas configurações de capp
 |---|---|---|
 | [!DNL POST] | lista/endpointConfigs | Obtenha uma lista das configurações de limite de ponto final |
 | [!DNL POST] | /endpointConfigs | Criar uma configuração de limite de ponto de extremidade |
-| [!DNL POST] | /endpointConfigs/{uid}/deployment | Implantar uma configuração de limite de ponto de extremidade |
-| [!DNL POST] | /endpointConfigs/{uid}/undeployment | Desimplantar uma configuração de limite de ponto de extremidade |
-| [!DNL POST] | /endpointConfigs/{uid}/canDeploy | Verifique se uma configuração de limite de ponto de extremidade pode ser implantada ou não |
-| [!DNL PUT] | /endpointConfigs/{uid} | Atualizar uma configuração de limite de ponto de extremidade |
-| [!DNL GET] | /endpointConfigs/{uid} | Recuperar uma configuração de limite de ponto de extremidade |
-| [!DNL DELETE] | /endpointConfigs/{uid} | Excluir uma configuração de limite de enpoint |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deplos | Implantar uma configuração de limite de ponto de extremidade |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeplos | Desimplantar uma configuração de limite de ponto de extremidade |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | Verifique se uma configuração de limite de ponto de extremidade pode ser implantada ou não |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | Atualizar uma configuração de limite de ponto de extremidade |
+| [!DNL GET] | /endpointConfigs/`{uid}` | Recuperar uma configuração de limite de ponto de extremidade |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | Excluir uma configuração de limite de enpoint |
 
 Quando uma configuração é criada ou atualizada, uma verificação é executada automaticamente para garantir a sintaxe e a integridade da carga.
 Se ocorrerem alguns problemas, a operação retornará um aviso ou erros para ajudá-lo a corrigir a configuração.
@@ -156,7 +156,7 @@ Os possíveis erros são:
 * **ERR_ENDPOINTCONFIG_108**: configuração de limite: contagem máxima de chamadas inválida (periodInMs)
 * **ERR_ENDPOINTCONFIG_111**: configuração de limite: não é possível criar a configuração de ponto de extremidade: carga inválida
 * **ERR_ENDPOINTCONFIG_112**: configuração de limite: não é possível criar a configuração de ponto de extremidade: esperando uma carga JSON
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome de serviço inválido <!--<given value>-->: deve ser &#39;dataSource&#39; ou &#39;action&#39;
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome de serviço inválido `<!--<given value>-->`: deve ser &#39;dataSource&#39; ou &#39;action&#39;
 
 
 O aviso potencial é:
