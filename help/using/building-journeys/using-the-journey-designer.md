@@ -11,9 +11,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a65a5db5b35291cbc2635f9ae67fd8c8c5284575
+source-git-commit: 27cd94ec9da9e89d62ec8e4f471dab43d2e9e657
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 5%
 
 ---
@@ -65,7 +65,7 @@ A **tela** é a zona central do designer de viagem. É nessa zona que você pode
 
 O painel **de configuração da** atividade é exibido quando você clica em uma atividade na paleta. Preencha os campos obrigatórios. Clique no **[!UICONTROL Delete]** ícone para excluir a atividade. Clique em **[!UICONTROL Cancel]** para cancelar as modificações ou **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma (ou várias) atividade e pressionar a tecla Backspace. Pressione a tecla escape para fechar o painel de configuração da atividade.
 
-Na tela, suas atividades de ação e evento são representadas por um ícone com o nome do evento ou ação exibido abaixo. No painel de configuração da atividade, é possível usar o **[!UICONTROL Label]** campo para adicionar um sufixo ao nome da atividade. Esses rótulos ajudarão a contextualizar o uso de eventos e ações, especialmente quando você usar o mesmo evento ou ação várias vezes em sua jornada. Você também poderá ver os rótulos adicionados ao [!DNL Journey Orchestration] relatórios.
+Na tela, suas atividades de ação e evento são representadas por um ícone com o nome do evento ou ação exibido abaixo. No painel de configuração da atividade, é possível usar o **[!UICONTROL Label]** campo para adicionar um sufixo ao nome da atividade. Esses rótulos ajudarão a contextualizar o uso de eventos e ações, especialmente quando você usar o mesmo evento ou ação várias vezes em sua jornada. Você também poderá ver os rótulos adicionados ao [!DNL Journey Orchestration] relatórios. Você também pode definir rótulos para suas atividades de condição.
 
 ![](../assets/journey59bis.png)
 
@@ -77,7 +77,7 @@ Dependendo do status da jornada, você pode realizar ações diferentes na sua j
 
 ## O uso de caminhos na tela {#paths}
 
-Várias atividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** atividade) permitem definir uma ação de fallback no caso de um erro ou tempo limite. No painel de configuração da atividade, marque a caixa: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Outro caminho é adicionado após a atividade. A duração do tempo limite é definida nas propriedades da jornada (consulte [](../building-journeys/changing-properties.md) por um usuário administrador). Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar um SMS.
+Várias atividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** atividade) permitem definir uma ação de fallback no caso de um erro ou tempo limite. No painel de configuração da atividade, marque a caixa: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Outro caminho é adicionado após a atividade. A duração do tempo limite é definida nas propriedades da jornada (consulte [](../building-journeys/changing-properties.md) por um usuário administrador. Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar um SMS.
 
 ![](../assets/journey42.png)
 
@@ -101,7 +101,7 @@ Você pode copiar uma ou várias atividades de uma jornada e colá-las na mesma 
 
 * Você pode copiar/colar em diferentes guias e navegadores. Você só pode copiar/colar atividades na mesma instância.
 * Não é possível copiar/colar um evento se a jornada de destino tiver um evento que use uma namespace diferente.
-* atividades coladas podem fazer referência a dados que não existem na jornada de destino, por exemplo, se você copiar/colar em diferentes caixas de proteção. Sempre verifique se há erros e faça os ajustes necessários.
+* Atividades coladas podem fazer referência a dados que não existem na jornada de destino, por exemplo, se você copiar/colar em diferentes caixas de proteção. Sempre verifique se há erros e faça os ajustes necessários.
 * Lembre-se de que não é possível desfazer uma ação. Para excluir atividades coladas, é necessário selecioná-las e excluí-las. Portanto, selecione apenas as atividades necessárias antes de copiá-las.
 * Você pode copiar atividades de qualquer jornada, mesmo aquelas que estão em somente leitura.
 * É possível selecionar qualquer atividade, mesmo aquelas que não estão vinculadas. As atividades vinculadas permanecerão vinculadas após serem coladas.
@@ -114,6 +114,6 @@ Estas são as etapas para copiar/colar atividades:
 1. Pressione **Ctrl/Command + C**.
 Se quiser copiar apenas uma atividade, clique nela e use o ícone **Copiar** na parte superior esquerda do painel de configuração da atividade.
    ![](../assets/copy-paste2.png)
-1. Em qualquer jornada, pressione **Ctrl/Command + V** para colar as atividades sem vinculá-las a um nó existente. atividades coladas são colocadas na mesma ordem. Depois de coladas, as atividades permanecem selecionadas para que você possa movê-las facilmente. Você também pode colocar o cursor em um espaço reservado vazio e pressionar **Ctrl/Command + V**. atividades coladas serão vinculadas ao nó.
+1. Em qualquer jornada, pressione **Ctrl/Command + V** para colar as atividades sem vinculá-las a um nó existente. Atividades coladas são colocadas na mesma ordem. Depois de coladas, as atividades permanecem selecionadas para que você possa movê-las facilmente. Você também pode colocar o cursor em um espaço reservado vazio e pressionar **Ctrl/Command + V**. Atividades coladas serão vinculadas ao nó.
    ![](../assets/copy-paste3.png)
 
