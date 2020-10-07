@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -170,12 +170,12 @@ ht-degree: 97%
    + [Sobre a integração de AI](using/ai-services/ai-services-overview.md)
    + [Aproveitamento da AI do cliente](using/ai-services/leveraging-customer-ai.md)
 + Casos de uso{#use-cases-journeys}
-   + Sending a personalized email{#use-case-simple}
+   + Envio de um email personalizado{#use-case-simple}
       + [Sobre o caso de uso simples](using/usecase/about-the-simple-use-case.md)
       + [Configurar o evento](using/usecase/configuring-the-event.md)
       + [Configurar a fonte de dados](using/usecase/configuring-the-data-source.md)
       + [Construir a jornada](using/usecase/simple-uc-building-the-journey.md)
-   + Building a cross-channel journey{#use-case-advanced}
+   + Construir uma jornada entre canais{#use-case-advanced}
       + [Sobre o caso de uso avançado](using/usecase/about-the-advanced-use-case.md)
       + [Configurar os eventos](using/usecase/configuring-the-events.md)
       + [Configurar as fontes de dados](using/usecase/configuring-the-data-sources.md)
