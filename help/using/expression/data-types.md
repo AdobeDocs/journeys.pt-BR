@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4871550d1608f4ffdee3b56d38b08f808eb2281c
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -113,7 +111,7 @@ Veja como as expressões de tipo de dados são representadas:
     </tr>
     <tr>
         <td>lista</td>
-        <td>lista separada por vírgulas de expressões usando colchetes como delimitadores. O polimorfismo não é suportado, portanto, todas as expressões contidas na lista devem ter o mesmo tipo.</td>
+        <td>Lista separada por vírgulas de expressões usando colchetes como delimitadores. O polimorfismo não é suportado, portanto, todas as expressões contidas na lista devem ter o mesmo tipo.</td>
         <td>[&lt;expressão&gt;, &lt;expressão&gt;, ... ]</td>
         <td><p><pre>["value1","value2"]</pre></p><p><pre>[3,5]</pre></p><p><pre>[toDuration(500),toDuration(800)]</pre></p></td>
     </tr>
