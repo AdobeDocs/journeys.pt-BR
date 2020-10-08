@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 4%
@@ -73,7 +71,7 @@ Esses são os campos que o sistema exige para saber onde enviar a mensagem. Para
 
 >[!NOTE]
 >
->Não é possível passar uma coleção em dados de personalização. Se o email transacional ou o SMS espera coleções, ele não funcionará. Observe também que os dados de personalização têm um formato esperado (por exemplo: string, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados.
+>Não é possível passar uma coleção em dados de personalização. Se o email transacional ou SMS espera coleções, ele não funcionará. Observe também que os dados de personalização têm um formato esperado (por exemplo: string, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados.
 
 Esses são os campos esperados pela mensagem do Adobe Campaign Standard. Esses campos podem ser usados para personalizar a mensagem, aplicar formatação condicional ou selecionar uma variante de mensagem específica.
 
