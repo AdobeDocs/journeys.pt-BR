@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 017d502e21605b3e0b8c61e5fea0b4f6a65d4470
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 0%
@@ -62,7 +60,7 @@ listString,listString : listString
 
 **Uso**
 
-A instrução condicional permite otimizar o fluxo de trabalho da jornada reduzindo o número de atividades de condição. Por exemplo, na mesma atividade de ação, você pode especificar duas alternativas para uma definição de campo usando apenas uma expressão de condição.
+A instrução condicional permite otimizar o fluxo de trabalho da jornada reduzindo o número de atividades de condição. Por exemplo, na mesma atividade de ação, é possível especificar duas alternativas para uma definição de campo usando apenas uma expressão de condição.
 
 Exemplo de uma atividade de ação (para um campo que espera uma string como resultado da instrução condicional):
 
