@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eb4474313d3c0470448f9959ed757902ef0ecd2a
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 10%
@@ -43,7 +41,7 @@ Estas são as etapas principais para adicionar grupos de campos à fonte de dado
 
    ![](../assets/journey24.png)
 
-1. Selecione um schema no **[!UICONTROL Schema]** menu suspenso. Este campo lista schemas Perfis e Eventos de experiência disponíveis no Adobe Experience Platform. A criação de Schemas não é realizada em [!DNL Journey Orchestration]. É executado no Adobe Experience Platform.
+1. Selecione um schema no **[!UICONTROL Schema]** menu suspenso. Este campo lista schemas Perfis e Eventos de experiência disponíveis no Adobe Experience Platform. A criação de schemas não é realizada em [!DNL Journey Orchestration]. É executado no Adobe Experience Platform.
 1. Selecione os campos que deseja usar.
 1. Defina a duração do cache.
 1. Clique em **[!UICONTROL Save]**.
