@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 54b54a64ad2822eec96008ac4a2e16c208a4a3ab
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 14%
@@ -37,4 +35,4 @@ Para nosso caso de uso, criamos um modelo de mensagens transacionais por email n
 
 A Adobe Campaign Standard está configurada para enviar emails.
 
-Os Eventos são enviados do celular do cliente quando são detectados perto de um sinal. Você precisa projetar um aplicativo móvel para enviar eventos do telefone móvel do cliente para o SDK móvel.
+Os eventos são enviados do celular do cliente quando são detectados perto de um sinal. Você precisa projetar um aplicativo móvel para enviar eventos do telefone móvel do cliente para o SDK móvel.
