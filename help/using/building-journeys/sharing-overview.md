@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b8cfc9de56e879d8812cf3871067252937454e1d
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -37,9 +35,9 @@ As viagens enviam os dados como ocorrem, de forma contínua. É possível query 
 
 Os seguintes schemas são criados:
 
-* schema de Perfil da Etapa de Jornada para [!DNL Journey Orchestration] - Eventos de experiência para as etapas realizadas em uma Jornada junto com um Mapa de identidade a ser usado para mapear para um participante individual da jornada.
-* schema de Evento de Etapa de Jornada para [!DNL Journey Orchestration] - evento de etapa de jornada vinculado a um Metadados de Jornada.
-* schema de jornada com campos de jornada para [!DNL Journey Orchestration] - Metadados de jornada para descrever Jornadas.
+* Schema de Perfil da Etapa de Jornada para [!DNL Journey Orchestration] - Eventos de experiência para as etapas realizadas em uma Jornada junto com um Mapa de identidade a ser usado para mapear para um participante individual da jornada.
+* Schema de Evento de Etapa de Jornada para [!DNL Journey Orchestration] - evento de etapa de jornada vinculado a um Metadados de Jornada.
+* Schema de jornada com campos de jornada para [!DNL Journey Orchestration] - Metadados de jornada para descrever Jornadas.
 
 ![](../assets/sharing1.png)
 
@@ -47,7 +45,7 @@ Os seguintes schemas são criados:
 
 Os seguintes conjuntos de dados são enviados:
 
-* schema de Perfil da Etapa de Jornada para Evento [!DNL Journey Orchestration]
+* Schema de Perfil da Etapa de Jornada para Evento [!DNL Journey Orchestration]
 * Eventos de Etapa de Jornada
 * Jornadas
 
