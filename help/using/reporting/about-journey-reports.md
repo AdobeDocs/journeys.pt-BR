@@ -8,10 +8,8 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b5b3c8b6adafaedbdd80db3091300e7a26249a3e
+source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 1%
@@ -23,7 +21,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Os dados do Delivery e o componente Segmentos só serão preenchidos se você tiver o Adobe Campaign Standard.
+>Os dados do delivery e o componente Segmentos só serão preenchidos se você tiver o Adobe Campaign Standard.
 
 Esta seção apresentará como acessar e usar relatórios para medir a eficácia de suas viagens.
 
@@ -98,7 +96,7 @@ A **[!UICONTROL Journey summary]** tabela contém os dados disponíveis para sua
 * **[!UICONTROL Failed]**: número total de viagens que não foram executadas com êxito.
 * **[!UICONTROL Failed rate]**: número total de viagens que não foram executadas com êxito em comparação com o número de viagens em curso.
 
-A **[!UICONTROL Top events]** tabela exibe os eventos mais bem-sucedidos e as ações **[!UICONTROL Top action]** mais bem-sucedidas em suas viagens.
+A **[!UICONTROL Top events]** tabela exibe os eventos mais bem-sucedidos e **[!UICONTROL Top action]** as ações mais bem-sucedidas em suas viagens.
 
 ![](../assets/dynamic_report_journey_11.png)
 
