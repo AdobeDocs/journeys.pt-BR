@@ -1,6 +1,6 @@
 ---
 title: Sobre a construção de jornada
-description: Como usuário comercial, aprenda a combinar atividades de evento, orquestração e ação para construir uma jornada.
+description: Como usuário empresarial, aprenda a combinar atividades de evento, orquestração e ação para criar uma jornada.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
