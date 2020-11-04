@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 44b2da66d6621b18b13ff99e46af02eddcaac6b1
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -38,8 +38,10 @@ A tabela abaixo apresenta a lista das dimensões usadas nos relatórios de jorna
 | **Ação** | Lista de cada ação (nome da **ação - etiqueta** de ação) usada em viagens, por exemplo, Push - Confirmação de check-out, Email - Fidelidade de recompensas. |
 | **Fonte de dados** | Lista de fontes de dados (nome **da fonte de** dados) usadas para enriquecer dados em uma jornada, por exemplo, Adobe Experience Platform, Sistema de reserva. |
 | **[!UICONTROL Event]** | Lista de todos os eventos (nome do **evento - etiqueta** do evento) utilizados em viagens, por exemplo, evento do Geometrixx - verificação do Geometrixx. |
+| **[!UICONTROL Event origin]** | Analisar eventos por categorias: **[!UICONTROL Internal event]** e **[!UICONTROL External event]**. Para obter mais informações, consulte esta [página](../building-journeys/jump.md). |
 | **Grupo de campos** | Lista de grupos de campos (nome **do grupo de** campos) utilizados para enriquecer dados em viagens, por exemplo, grupo de campos do Perfil, sistema de reservas do Geometrixx. |
 | **Jornada** | Lista de cada viagem (nome **da** viagem) no modo de teste e viver, por exemplo, abandono do carrinho, notificação de reserva do hotel. |
+| **[!UICONTROL Journey origin]** | Detalhamento **[!UICONTROL Internal event]** por viagens. |
 | **Versão da jornada** | Lista de cada versão publicada de uma viagem (nome da **viagem + número** da versão), por exemplo, abandono do carrinho v1, notificação de reserva do hotel v2. |
 | **Orquestração** | Lista de cada atividade de orquestração (**Condição, Final, Espera**) definida e usada em viagens. |
 
@@ -61,7 +63,6 @@ A tabela abaixo apresenta a lista das dimensões do delivery usadas nos relatór
 | **Rastreamento da categoria de URL** | Categoria atribuída ao URL de rastreamento. |
 | **Rastreamento do rótulo do URL** | Rótulo fornecido ao URL, como mirror page, entre em contato conosco ou abra. |
 | **Variante** | Variante do email no caso de teste A/B. |
-
 
 ## Métricas de jornada {#MBE_p_p22_c4j_w2b}
 
