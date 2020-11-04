@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7bfe162783ef558ae86edb87ba01bb6d793246b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -34,24 +34,24 @@ Qualquer schema XDM que será usado para [!DNL Journey Orchestration] eventos de
 
 * O schema deve ser da classe XDM ExperienceEvent.
 
-![](../assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * O schema deve incluir a combinação Orchestration eventID. [!DNL Journey Orchestration] usa esse campo para identificar eventos usados em viagens.
 
-![](../assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * Declarar um campo de identidade para identificar o assunto do evento. Se nenhuma identidade for especificada, um mapa de identidade poderá ser usado. Isso não é recomendado.
 
-![](../assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * Se desejar que esses dados estejam disponíveis para pesquisa mais tarde em uma Jornada, marque o schema e o conjunto de dados para perfil.
 
-![](../assets/schema5.png)
+   ![](../assets/schema5.png)
 
-![](../assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * Sinta-se à vontade para incluir campos de dados para capturar quaisquer outros dados de contexto que você deseja incluir com o evento, como informações sobre o usuário, o dispositivo a partir do qual o evento foi gerado, o local ou quaisquer outras circunstâncias significativas relacionadas ao evento.
 
-![](../assets/schema7.png)
+   ![](../assets/schema7.png)
 
-![](../assets/schema8.png)
+   ![](../assets/schema8.png)
