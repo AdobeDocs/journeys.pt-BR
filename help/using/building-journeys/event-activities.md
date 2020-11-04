@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 65ff1003fdfec087e4e2030dd81df8dab6229495
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -31,12 +31,29 @@ Quando você clica na atividade do evento na tela, o painel de configuração da
 
 ![](../assets/journey33.png)
 
-## Uso avançado: eventos com espera em paralelo{#section_vxv_h25_pgb}
+## Acompanhamento de eventos durante um horário específico
 
-**Como você pode ouvir um evento apenas durante um determinado tempo?**
+Uma atividade evento posicionada na viagem escuta eventos indefinidamente. Para ouvir um evento somente durante um determinado tempo, é necessário configurar um tempo limite para o evento.
 
-Uma atividade evento posicionada na viagem escuta eventos indefinidamente. Para ouvir um evento somente durante um determinado tempo, é necessário adicionar uma atividade de espera paralela ao caminho do evento. A viagem ouvirá o evento durante o tempo especificado na atividade de espera. Se um evento for recebido durante esse período, ele fluirá no caminho do evento. Caso contrário, o cliente fluirá para o caminho de espera.
+A viagem ouvirá o evento durante o tempo especificado no tempo limite. Se um evento for recebido durante esse período, ele fluirá no caminho do evento. Caso contrário, o cliente fluirá para um caminho de tempo limite ou encerrará sua jornada.
 
-Por exemplo, você enviou um primeiro push de boas-vindas para um cliente e deseja enviar um push de desconto de refeição somente se o cliente entrar no restaurante dentro das próximas 6 horas. Para fazer isso, você criará um segundo caminho (paralelo ao evento do restaurante um) com uma atividade de espera de 6 horas. Se o evento do restaurante for recebido menos de 6 horas após o push de boas-vindas, a atividade de push de desconto para refeições será enviada. Se nenhum evento de restaurante for recebido dentro das próximas 6 horas, a pessoa percorre o caminho de espera.
+Para configurar um tempo limite para um evento, siga estas etapas:
 
-![](../assets/journeyuc2_31.png)
+1. Ative a **[!UICONTROL Enable the event timeout]** opção nas propriedades do evento.
+
+1. Especifique a quantidade de tempo que a jornada aguardará pelo evento.
+
+1. Se desejar enviar os indivíduos para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, ative a **[!UICONTROL Set the timeout path]** opção. Se essa opção não estiver ativada, a jornada terminará para o indivíduo depois que o tempo limite for atingido.
+
+   ![](../assets/event-timeout.png)
+
+Neste exemplo, a jornada envia um primeiro empurrão bem-vindo a um cliente. Em seguida, ele envia um desconto de refeição somente se o cliente entrar no restaurante no dia seguinte. Portanto, configuramos o evento do restaurante com um tempo limite de 1 dia:
+
+* Se o evento do restaurante for recebido menos de 1 dia após o push de boas-vindas, a atividade de push de desconto para refeições será enviada.
+* Se nenhum evento de restaurante for recebido no dia seguinte, a pessoa percorre o tempo limite.
+
+Observe que se você quiser configurar um tempo limite em vários eventos posicionados após uma **[!UICONTROL Wait]** atividade, é necessário configurar o tempo limite em apenas um desses eventos.
+
+O tempo limite será aplicado a todos os eventos posicionados após a **[!UICONTROL Wait]** atividade. Se nenhum evento for recebido após o tempo limite especificado, os indivíduos irão fluir para um único caminho de tempo limite ou terminarão sua jornada.
+
+![](../assets/event-timeout-group.png)
