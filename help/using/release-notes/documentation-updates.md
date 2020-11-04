@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: fe51a1600050a42c2070ad78f14490ea1813bd14
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 96%
+source-wordcount: '771'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 96%
 
 Esta página lista todas as atualizações de documentação do [!DNL Journey Orchestration].
 Você também pode consultar as [Notas de versão](../release-notes/release-notes.md) do [!DNL Journey Orchestration].
+
+## Outubro de 2020 {#october-2020}
+
+* Foram adicionadas informações sobre como configurar um tempo limite para um evento. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
 
 ## Setembro de 2020 {#september-2020}
 
