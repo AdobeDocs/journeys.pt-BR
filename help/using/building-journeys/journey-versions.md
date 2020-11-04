@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -43,4 +43,4 @@ Versões de viagem podem ser interrompidas individualmente. Todas as versões da
 
 >[!NOTE]
 >
->Se você tiver várias versões ao vivo e parar a mais recente, as pessoas não voltarão para uma versão anterior. Nenhuma entrada na viagem acontecerá.
+>Quando você publica uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status **Fechado** . Nenhuma entrada na viagem acontecerá. Mesmo se você interromper a versão mais recente, a versão anterior permanecerá fechada.
