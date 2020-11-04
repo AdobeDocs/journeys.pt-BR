@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7a4d67af88827dfc852a281a7877efb2853facf
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '420'
 ht-degree: 7%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 7%
 
 [!DNL Journey Orchestration] envia automaticamente os dados de desempenho da jornada para a Adobe Experience Platform para que possam ser combinados com outros dados para fins de análise.
 
+>[!NOTE]
+>
+>Este recurso não é ativado por padrão em todas as instâncias recém-implantadas. A ativação é mediante solicitação.
+
 Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar [!DNL Journey Orchestration] dados com dados de evento downstream, como quantas conversões ocorreram, quanto envolvimento aconteceu no site ou quantas transações ocorreram na loja. As informações de viagem podem ser combinadas com dados no Adobe Experience Platform, de outras propriedades digitais ou de propriedades offline, para proporcionar uma visualização mais abrangente de desempenho.
 
 [!DNL Journey Orchestration] cria automaticamente os schemas e fluxos necessários em conjuntos de dados para a Adobe Experience Platform para cada etapa que um indivíduo faz em uma jornada. Um evento Step corresponde a um indivíduo que se move de um nó para outro em uma jornada. Por exemplo, em uma jornada que tenha um evento, uma condição e uma ação, eventos de três etapas são enviados para a Adobe Experience Platform.
@@ -29,7 +33,7 @@ A lista de campos XDM que são passados é abrangente. Alguns contêm códigos g
 
 >[!CAUTION]
 >
->Os conjuntos de dados não podem ser ativados para o serviço de perfil em tempo real. Certifique-se de que a **[!UICONTROL Profile]** alternância está desativada
+>Os conjuntos de dados não podem ser ativados para o serviço de perfil em tempo real. Certifique-se de que a **[!UICONTROL Profile]** alternância está desligada.
 
 As viagens enviam os dados como ocorrem, de forma contínua. É possível query desses dados usando o Serviço de Query. Você pode se conectar ao Customer Journey Analytics ou a outras ferramentas BI para visualização de dados relacionados a essas etapas.
 
