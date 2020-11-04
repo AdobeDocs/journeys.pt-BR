@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: c7bfe162783ef558ae86edb87ba01bb6d793246b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 7%
@@ -24,10 +24,10 @@ Você pode criar um segmento usando o Serviço [de segmentação da](https://doc
 
 1. No menu superior, clique na guia **[!UICONTROL Segments]**. A lista de segmentos do Adobe Experience Platform é exibida. Você pode procurar um segmento específico na lista.
 
-![](../assets/segment1.png)
+   ![](../assets/segment1.png)
 
 1. Click **[!UICONTROL Add]** to create a new segment. A tela de definição de segmento permite configurar todos os campos necessários para definir seu segmento. A configuração é a mesma do Serviço de segmentação. Consulte o guia [do usuário do Construtor de](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmentos.
 
-![](../assets/segment2.png)
+   ![](../assets/segment2.png)
 
 Seu segmento agora pode ser usado em suas viagens para criar condições ou adicionar um **[!UICONTROL Segment qualification]** evento. Consulte [Uso de segmentos em atividades](../segment/using-a-segment.md) de condições e [Eventos](../building-journeys/segment-qualification-events.md).
