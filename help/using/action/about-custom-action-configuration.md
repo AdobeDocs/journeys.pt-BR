@@ -9,18 +9,18 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 12%
+source-wordcount: '249'
+ht-degree: 15%
 
 ---
 
 
 # Sobre a configuração de ação personalizada {#concept_sxy_bzs_dgb}
 
-Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser [!DNL Journey Orchestration] enviar chamadas de API para um sistema de terceiros, é aqui que você configura a conexão com [!DNL Journey Orchestration]. A ação personalizada definida pelos usuários técnicos estará disponível na paleta esquerda de sua jornada, na **[!UICONTROL Action]** categoria (consulte [](../building-journeys/about-action-activities.md). Estes são alguns exemplos de sistemas aos quais você pode se conectar com ações personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
-As limitações estão listadas aqui: [](../action/custom-action-limitations.md).
+Se você estiver usando um sistema de terceiros para enviar mensagens ou se quiser [!DNL Journey Orchestration] enviar chamadas de API para um sistema de terceiros, é aqui que você configura a conexão com [!DNL Journey Orchestration]. A ação personalizada definida pelos usuários técnicos estará disponível na paleta esquerda de sua jornada, na **[!UICONTROL Action]** categoria (consulte [esta página](../building-journeys/about-action-activities.md)). Estes são alguns exemplos de sistemas aos quais você pode se conectar com ações personalizadas: Epsilon, Facebook, Adobe.io, Firebase, etc.
+As limitações estão listadas [nesta página](../action/custom-action-limitations.md).
 
 Estas são as principais etapas necessárias para configurar uma ação personalizada:
 
@@ -36,12 +36,12 @@ Estas são as principais etapas necessárias para configurar uma ação personal
 
 1. Adicione uma descrição à sua ação. Esta etapa é opcional.
 1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of  journeys using this action.
-1. Define the different **[!UICONTROL URL Configuration]** parameters. Consulte [](../action/url-configuration.md).
-1. Configure a **[!UICONTROL Authentication]** seção. Essa configuração é a mesma para fontes de dados.  Consulte [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Defina o **[!UICONTROL Message parameters]**. Consulte [](../action/defining-the-message-parameters.md).
+1. Define the different **[!UICONTROL URL Configuration]** parameters. Consulte [esta página](../action/url-configuration.md).
+1. Configure a **[!UICONTROL Authentication]** seção. Essa configuração é a mesma para fontes de dados.  Consulte [esta seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Defina o **[!UICONTROL Message parameters]**. Consulte [esta página](../action/defining-the-message-parameters.md).
 1. Clique em **[!UICONTROL Save]**.
 
-   A ação personalizada agora está configurada e pronta para ser usada em suas viagens. Consulte [](../building-journeys/about-action-activities.md).
+   A ação personalizada agora está configurada e pronta para ser usada em suas viagens. Consulte [esta página](../building-journeys/about-action-activities.md).
 
    >[!NOTE]
    >
