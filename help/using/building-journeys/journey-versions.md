@@ -9,17 +9,17 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 09bebf62cda32e357f5f8b795e6702a69edb83a7
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 3%
 
 ---
 
 
 # Versões de jornada{#concept_ldc_k55_zgb}
 
-Na lista de viagem, todas as versões de viagem são exibidas com o número da versão. Consulte [](../building-journeys/using-the-journey-designer.md). Quando você procura por uma jornada, as versões mais recentes aparecem no topo da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida no topo da interface da edição da jornada, acima da tela.
+Na lista de viagem, todas as versões de viagem são exibidas com o número da versão. Consulte [esta página](../building-journeys/using-the-journey-designer.md). Quando você procura por uma jornada, as versões mais recentes aparecem no topo da lista na primeira vez que o aplicativo é aberto. Em seguida, você pode definir a classificação desejada e o aplicativo a manterá como uma preferência de usuário. A versão da jornada também é exibida no topo da interface da edição da jornada, acima da tela.
 
 ![](../assets/journeyversions1.png)
 
