@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '743'
+ht-degree: 10%
 
 ---
 
@@ -56,14 +56,13 @@ Se você estiver usando o Serviço [de segmentação da](https://docs.adobe.com/
 
 >[!NOTE]
 >
->Não é possível executar query em séries cronológicas (por exemplo, uma lista de compras, cliques passados em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [](../expression/expressionadvanced.md).
+>Não é possível executar query em séries cronológicas (por exemplo, uma lista de compras, cliques passados em mensagens) com o editor simples. Para isso, será necessário usar o editor avançado. Consulte [esta página](../expression/expressionadvanced.md).
 
-
-A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [](../building-journeys/using-the-journey-designer.md#paths).
+A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Condição da fonte de dados {#data_source_condition}
 
-Isso permite definir uma condição com base nos campos das fontes de dados ou dos eventos posicionados anteriormente na jornada. Para saber como usar o editor de expressões, consulte [](../expression/expressionadvanced.md). Usando o editor de expressões avançado, você pode configurar condições mais avançadas manipulando coleções ou usando fontes de dados que exigem a passagem de parâmetros. Consulte [](../datasource/external-data-sources.md).
+Isso permite definir uma condição com base nos campos das fontes de dados ou dos eventos posicionados anteriormente na jornada. Para saber como usar o editor de expressões, consulte [esta página](../expression/expressionadvanced.md). Usando o editor de expressões avançado, você pode configurar condições mais avançadas manipulando coleções ou usando fontes de dados que exigem a passagem de parâmetros. Consulte [esta página](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
@@ -73,7 +72,7 @@ Isso permite executar ações diferentes de acordo com a hora do dia e/ou o dia 
 
 >[!NOTE]
 >
->O fuso horário já não é específico de uma condição e está agora definido ao nível da viagem nas propriedades da viagem. Consulte [](../building-journeys/timezone-management.md).
+>O fuso horário já não é específico de uma condição e está agora definido ao nível da viagem nas propriedades da viagem. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -85,7 +84,6 @@ Essa opção permite que você divida aleatoriamente a audiência para definir u
 >
 >Observe que não há nenhum botão para adicionar um caminho na condição de divisão de porcentagem. O número de caminhos dependerá do número de divisões. Em condições divididas, não é possível adicionar um caminho para outros casos, pois ele não pode ocorrer. As pessoas sempre vão para um dos caminhos divididos.
 
-
 ![](../assets/journey52.png)
 
 ## Condição de data {#date_condition}
@@ -94,6 +92,6 @@ Isso permite definir um fluxo diferente com base na data. Por exemplo, se a pess
 
 >[!NOTE]
 >
->O fuso horário já não é específico de uma condição e está agora definido ao nível da viagem nas propriedades da viagem. Consulte [](../building-journeys/timezone-management.md).
+>O fuso horário já não é específico de uma condição e está agora definido ao nível da viagem nas propriedades da viagem. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)
