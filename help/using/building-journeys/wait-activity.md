@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 3%
+source-wordcount: '384'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Você pode definir uma condição se desejar restringir a espera a uma determina
 >
 >A duração máxima de espera é de 30 dias.
 >
->No modo de teste, o **[!UICONTROL Wait time in test]** parâmetro permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [](../building-journeys/testing-the-journey.md)
+>No modo de teste, o **[!UICONTROL Wait time in test]** parâmetro permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
 ## Duração da espera{#duration}
 
@@ -55,13 +55,13 @@ Selecione a data para a execução da próxima atividade.
 
 ## Espera personalizada{#custom}
 
-Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17 horas, usando uma expressão avançada baseada em um campo proveniente de um evento ou de uma fonte de dados. Isso não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressões deve fornecer um formato dateTimeOnly. Consulte [](../expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte [](../expression/data-types.md).
+Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17 horas, usando uma expressão avançada baseada em um campo proveniente de um evento ou de uma fonte de dados. Isso não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressões deve fornecer um formato dateTimeOnly. Consulte [esta página](../expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte [esta página](../expression/data-types.md).
 
 >[!NOTE]
 >
 >Você pode aproveitar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, sendo o campo do evento o formulário 2016-08-12T09:46:06Z.
 >
->O fuso **horário** é esperado nas propriedades de sua jornada. Como resultado, atualmente não é possível da interface para apontar diretamente para um tempo completo ISO-8601 de mistura de carimbo de data e hora e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [](../building-journeys/timezone-management.md).
+>O fuso **horário** é esperado nas propriedades de sua jornada. Como resultado, atualmente não é possível da interface para apontar diretamente para um tempo completo ISO-8601 de mistura de carimbo de data e hora e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
