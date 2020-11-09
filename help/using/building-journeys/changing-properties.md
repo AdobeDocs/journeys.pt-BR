@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,4 @@ Os fusos horários são definidos ao nível da viagem.
 
 Você pode digitar um fuso horário fixo ou usar perfis Adobe Experience Platform para definir o fuso horário da jornada.
 
-Para obter mais informações sobre o gerenciamento de fuso horário, consulte [](../building-journeys/timezone-management.md).
+Para obter mais informações sobre o gerenciamento de fuso horário, consulte [esta página](../building-journeys/timezone-management.md).
