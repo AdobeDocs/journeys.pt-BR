@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 43%
+source-wordcount: '395'
+ht-degree: 38%
 
 ---
 
@@ -30,7 +30,7 @@ Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá a
 >
 >As atividades **[!UICONTROL Push]** e **[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
-Para obter informações adicionais sobre como criar uma jornada, consulte [](../building-journeys/journey.md).
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 1. No menu superior, clique na guia **[!UICONTROL Home]** e **[!UICONTROL Create]** para criar uma nova jornada.
 
@@ -72,7 +72,7 @@ Para obter informações adicionais sobre como criar uma jornada, consulte [](..
 
    ![](../assets/journeyuc1_17.png)
 
-1. Clique na opção de **[!UICONTROL Test]** alternar e teste sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [](../building-journeys/testing-the-journey.md).
+1. Clique na opção de **[!UICONTROL Test]** alternar e teste sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
@@ -80,4 +80,4 @@ Para obter informações adicionais sobre como criar uma jornada, consulte [](..
 
    ![](../assets/journeyuc1_18.png)
 
-Na próxima vez que uma mulher caminhar perto do beacon spa, ela receberá imediatamente um e-mail personalizado com &quot;desconto spa&quot;.
+Na próxima vez que uma mulher caminhar perto do beacon spa, ela receberá imediatamente um email personalizado com &quot;desconto spa&quot;.
