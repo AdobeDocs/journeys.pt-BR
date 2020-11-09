@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '847'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá a
 >
 >As atividades **[!UICONTROL Push]** e **[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
-Para obter informações adicionais sobre como criar uma jornada, consulte [](../building-journeys/journey.md).
+For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
 
 ## Primeiros passos{#section_ntb_ws1_ffb}
 
@@ -81,7 +81,7 @@ Para obter informações adicionais sobre como criar uma jornada, consulte [](..
    >
    >Na segunda parte da expressão, o “Perfil” é opcional.
 
-1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. Para obter mais informações sobre namespaces, consulte [](../event/selecting-the-namespace.md).
+1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
 No nosso caso, só queremos reagir a essas duas condições, então não marcamos a caixa **[!UICONTROL Show path for other cases than the one(s) above]**.
 
@@ -106,7 +106,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Quando um campo de uma fonte de dados externa é selecionado, a parte direita da tela exibe a lista de parâmetros que foram definidos na configuração da fonte de dados externa (consulte [](../usecase/configuring-the-data-sources.md)). Clique no nome do parâmetro e defina o valor da chave do sistema de reservas, a Experience Cloud ID, em nosso exemplo:
+1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [this page](../usecase/configuring-the-data-sources.md)). Clique no nome do parâmetro e defina o valor da chave do sistema de reservas, a Experience Cloud ID, em nosso exemplo:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -172,7 +172,7 @@ Dois caminhos são criados após sua condição:
 
 1. Adicione uma atividade **[!UICONTROL End]**. 
 
-Clique no botão de alternância **[!UICONTROL Test]** e teste sua jornada. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [](../building-journeys/testing-the-journey.md).
+Clique no botão de alternância **[!UICONTROL Test]** e teste sua jornada. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
 
 ![](../assets/journeyuc2_32bis.png)
 
