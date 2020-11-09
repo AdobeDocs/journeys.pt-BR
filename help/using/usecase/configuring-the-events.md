@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 Em nosso cenário, precisamos receber um evento toda vez que uma pessoa entra no hotel Marlton e no restaurante. O usuário **** técnico precisa configurar os dois eventos que queremos que o sistema escute em nossa jornada.
 
-Para obter informações adicionais sobre a configuração do evento, consulte [](../event/about-events.md).
+For additional information on event configuration, refer to [this page](../event/about-events.md).
 
 1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
@@ -43,7 +43,7 @@ Para obter informações adicionais sobre a configuração do evento, consulte [
    >
    >A lista dos campos varia de um schema para outro. De acordo com a definição do schema, alguns campos podem ser obrigatórios e pré-selecionados.
 
-1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. Para obter mais informações sobre namespaces, consulte [](../event/selecting-the-namespace.md).
+1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -57,4 +57,4 @@ Para obter informações adicionais sobre a configuração do evento, consulte [
 
    ![](../assets/journeyuc2_5.png)
 
-Da mesma forma, crie o evento &quot;RestaurantBeacon&quot;. Seus dois eventos de beacon são criados e agora podem ser usados em nossa jornada. Agora é necessário configurar o aplicativo móvel para que ele possa enviar a carga esperada para o ponto de extremidade das APIs de ingestão de transmissão. Consulte [](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+Da mesma forma, crie o evento &quot;RestaurantBeacon&quot;. Seus dois eventos de beacon são criados e agora podem ser usados em nossa jornada. Agora é necessário configurar o aplicativo móvel para que ele possa enviar a carga esperada para o ponto de extremidade das APIs de ingestão de transmissão. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
