@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
 
 # Finalizar atividade{#section_vqp_4ft_dgb}
 
-A **[!UICONTROL End]** atividade permite que você marque o fim de cada caminho da jornada. Não é obrigatório, mas recomendado para clareza visual. Na verdade, se a viagem tiver várias atividades finais, recomendamos que você adicione um rótulo a cada extremidade para facilitar a leitura dos relatórios. Consulte [](../reporting/about-journey-reports.md).
+A **[!UICONTROL End]** atividade permite que você marque o fim de cada caminho da jornada. Não é obrigatório, mas recomendado para clareza visual. Na verdade, se a viagem tiver várias atividades finais, recomendamos que você adicione um rótulo a cada extremidade para facilitar a leitura dos relatórios. Consulte [esta página](../reporting/about-journey-reports.md).
 
 ![](../assets/journey54.png)
