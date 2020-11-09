@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ Se precisar usar uma chave diferente, como uma ID CRM ou um endereço de email, 
 
    ![](../assets/journey20.png)
 
-Quando o evento for recebido, o valor da chave permitirá que o sistema identifique a pessoa associada ao evento. Associada a uma namespace (consulte [](../event/selecting-the-namespace.md)), a chave pode ser usada para executar query no Adobe Experience Platform. Consulte [](../building-journeys/about-orchestration-activities.md).
+Quando o evento for recebido, o valor da chave permitirá que o sistema identifique a pessoa associada ao evento. Associada a uma namespace (consulte [esta página](../event/selecting-the-namespace.md)), a chave pode ser usada para executar query no Adobe Experience Platform. Consulte [esta página](../building-journeys/about-orchestration-activities.md).
 A chave também é usada para verificar se uma pessoa está em uma jornada. Na verdade, uma pessoa não pode estar em dois lugares diferentes na mesma viagem. Como resultado, o sistema não permite que a mesma chave, por exemplo a chave CRMID=3224, esteja em diferentes locais na mesma viagem.
 
-Você também tem acesso às funções de expressão avançadas (**[!UICONTROL Advanced mode]**) se quiser realizar manipulações adicionais. Essas funções permitem manipular os valores usados para realizar query específicos, como formatos alterados, realizar concatenações de campo, levando em conta apenas uma parte de um campo (por exemplo, os 10 primeiros caracteres). Consulte [](../expression/expressionadvanced.md).
+Você também tem acesso às funções de expressão avançadas (**[!UICONTROL Advanced mode]**) se quiser realizar manipulações adicionais. Essas funções permitem manipular os valores usados para realizar query específicos, como formatos alterados, realizar concatenações de campo, levando em conta apenas uma parte de um campo (por exemplo, os 10 primeiros caracteres). Consulte [esta página](../expression/expressionadvanced.md).
