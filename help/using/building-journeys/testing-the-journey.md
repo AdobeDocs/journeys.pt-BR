@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 3%
 
 # Testar a jornada{#testing_the_journey}
 
-Antes de poder testar sua jornada, você deve resolver todos os erros, se houver. Consulte [](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Antes de poder testar sua jornada, você deve resolver todos os erros, se houver. Consulte [esta seção](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 Você tem a possibilidade de testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação.
 
 Para usar o modo de teste, siga estas etapas:
 
-1. Antes de testar sua jornada, verifique se ela é válida e se não há erro. Você não poderá iniciar um teste de uma jornada com erros. Consulte [](../about/troubleshooting.md#section_h3q_kqk_fhb). Um símbolo de aviso é exibido quando há erros.
+1. Antes de testar sua jornada, verifique se ela é válida e se não há erro. Você não poderá iniciar um teste de uma jornada com erros. Consulte [esta seção](../about/troubleshooting.md#section_h3q_kqk_fhb). Um símbolo de aviso é exibido quando há erros.
 
 1. Para ativar o modo de teste, clique na **[!UICONTROL Test]** alternância localizada no canto superior direito.
 
@@ -43,12 +43,12 @@ Para usar o modo de teste, siga estas etapas:
 
    ![](../assets/journeyuctest2.png)
 
-1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Quando o teste é conclusivo, você pode publicar sua jornada. Consulte [](../building-journeys/publishing-the-journey.md).
+1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Quando o teste é conclusivo, você pode publicar sua jornada. Consulte [esta página](../building-journeys/publishing-the-journey.md).
 
 ## Observações importantes {#important_notes}
 
 * É fornecida uma interface para disparar eventos para a viagem testada, mas eventos também podem ser enviados por sistemas de terceiros, como o Postman.
-* Somente indivíduos marcados como &quot;perfis de teste&quot; no Serviço de Perfil do Cliente em tempo real poderão entrar na jornada testada. Consulte [](../building-journeys/testing-the-journey.md#create-test-profile).
+* Somente indivíduos marcados como &quot;perfis de teste&quot; no Serviço de Perfil do Cliente em tempo real poderão entrar na jornada testada. Consulte [esta seção](../building-journeys/testing-the-journey.md#create-test-profile).
 * O modo de teste só está disponível em viagens de rascunho que utilizem uma namespace. O modo de teste deve verificar se uma pessoa que entra na viagem é ou não um perfil de teste e, portanto, deve poder chegar ao Adobe Experience Platform.
 * O número máximo de perfis de teste que podem entrar em uma jornada durante uma sessão de teste é 100.
 * Quando você desativa o modo de teste, ele esvazia as viagens de todas as pessoas que entraram no modo de teste ou que estão atualmente nele. Ela também limpa o relatórios.
