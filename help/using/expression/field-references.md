@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 2%
+source-wordcount: '433'
+ht-degree: 4%
 
 ---
 
@@ -63,7 +63,7 @@ Um valor padrão pode ser associado a um nome de campo. A sintaxe é a seguinte:
 
 **Referência de um campo em coleções**
 
-Os elementos definidos nas coleções são referenciados usando as funções específicas, primeiro e último. For more information, see [](../expression/collection-management-functions.md).
+Os elementos definidos nas coleções são referenciados usando as funções específicas, primeiro e último. Para saber mais, consulte [esta página](../expression/collection-management-functions.md).
 
 Exemplo :
 
@@ -73,17 +73,17 @@ Exemplo :
 
 **Referência de um campo definido em um mapa**
 
-Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com a namespace selecionada. Consulte Seleção da namespace. For more information, see [](../event/selecting-the-namespace.md).
+Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com a namespace selecionada. Consulte Seleção da namespace. For more information, see [this page](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Nesta expressão, estamos recebendo a entrada da chave &quot;Email&quot; do campo &quot;IdentityMap&quot; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual retiramos a &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. For more information, see [](../expression/collection-management-functions.md).
+Nesta expressão, estamos recebendo a entrada da chave &quot;Email&quot; do campo &quot;IdentityMap&quot; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual retiramos a &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. For more information, see [this page](../expression/collection-management-functions.md).
 
 **Valores de parâmetro de uma fonte de dados (valores dinâmicos da fonte de dados)**
 
-Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado, uma nova guia será exibida à direita para permitir que você especifique esse parâmetro. Consulte [](../expression/expressionadvanced.md).
+Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado, uma nova guia será exibida à direita para permitir que você especifique esse parâmetro. Consulte [esta página](../expression/expressionadvanced.md).
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclui outro parâmetro.
 
