@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '93'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ Conversão
 
 >[!NOTE]
 >
->A ID de fuso horário deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão. For more information on data types, refer to [](../expression/data-types.md).
+>A ID de fuso horário deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão. For more information on data types, refer to [this page](../expression/data-types.md).
 
 ## Assinaturas e tipos retornados
 
