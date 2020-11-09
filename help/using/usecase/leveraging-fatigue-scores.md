@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: bcb8a71a27e2b9e37af7d0260cec04ed0fda24ee
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '249'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,7 @@ Este caso de uso mostrará como aproveitar as pontuações de fadiga para evitar
 
 ## Configurar o evento {#section_ptb_ws1_ffb}
 
-Siga as etapas descritas em [](../event/about-events.md).
+Siga as etapas descritas [nesta página](../event/about-events.md).
 
 ## Configurar a fonte de dados {#section_o3n_4yy_wfb}
 
@@ -46,7 +46,7 @@ Execute as seguintes etapas para selecionar os campos de pontuação de fadiga n
 
 ## Construir a jornada {#section_uzm_pyy_wfb}
 
-Para criar, validar e publicar a jornada, siga as etapas descritas em [](../building-journeys/journey.md).
+Para criar, validar e publicar a jornada, siga as etapas descritas [nesta página](../building-journeys/journey.md).
 
 Em nosso caso de uso, estamos alavancando o **[!UICONTROL fatigueLevel]** campo. Você também pode usar o **[!UICONTROL fatigueScore]** campo.
 
