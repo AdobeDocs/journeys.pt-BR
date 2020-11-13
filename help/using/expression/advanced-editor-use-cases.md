@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b852c08a488a1bec02b8b31a1fccf1a8773b99af
+source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
 
 
-# Uso do editor de expressão avançado
+# Exemplos de expressão avançada
 
 O Editor de expressões Avançadas pode ser usado para criar condições que permitam filtrar usuários em suas viagens. Essas condições permitem que você público alvo os usuários no horário, data, local, duração ou ações como compra ou abandono de carrinhos para que eles possam ser redirecionados na viagem.
 
@@ -54,24 +54,23 @@ Em seguida, seleciona todos os eventos do addtocart que não se transformaram em
 
 O carimbo de data e hora especificado está agindo como o valor de data e hora, o segundo é o número de dias.
 
-    &quot;
-    In( &quot;addToCart&quot;, #{ExperiencePlatformDataSource
-    .ExperienceEventFieldGroup
-    .experienceevent
-    .all(
-    inLastDays(currentDataPackField.timestamp, 7 ))
-    .productData
-    .productInteraction})
-    
-    AndNot(In( &quot;completePurchase&quot;, # PlatformDataSource
-    .ExperienceEventFieldGroup
-    
-    
-    
-    
-    
-    
-    .experienceEventEventProvider.all(emÚltimosDias(currentDataPackField.timestamp, 7 )).productData.productInteraction})&quot;
+```
+        In( “addToCart”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+        And
+        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+```
 
 Esta expressão retorna um booleano.
 
@@ -107,44 +106,42 @@ A partir daí você pode adicionar outro caminho na sua jornada para quando o pr
 
 Essa condição recupera somente os eventos de geofence acionados em &quot;Arlington&quot;:
 
-    &quot;
-    @{GeofenceEntry
-    .placeContext
-    .POIintervention
-    .POIDetail
-    .name} == &quot;Arlington&quot;
-    &quot;
+```
+        @{GeofenceEntry
+                    .placeContext
+                    .POIinteraction
+                    .POIDetail
+                    .name} == "Arlington"
+```
 
 Explicação: Esta é uma comparação de strings estrita (diferencia maiúsculas de minúsculas), equivalente a um query no modo simples que usa `equal to` com `Is sensitive` marcado.
 
 O mesmo query com `Is sensitive` desmarcado gerará a seguinte expressão no modo avançado:
 
-    &quot;
-    EqualIgnoreCase(@{GeofenceEntry
-    .placeContext
-    .POIintervention
-    .POIDetail
-    .name}, &quot;Arlington&quot;)
-    
-    &quot;
+```
+        equalIgnoreCase(@{GeofenceEntry
+                        .placeContext
+                        .POIinteraction
+                        .POIDetail
+                        .name}, "Arlington")
+```
 
 **Em ações**
 
 A expressão a seguir permite definir a ID do CRM em um campo de personalização da ação:
 
-    &quot;
-    JSC(@{MobileAppLaunch
-    )._myOrganization
-    .identification
-    .crmid}, 1,
-    lastIndexOf(@{MobileAppLaunch
-    )._myOrganization
-    .identification
-    .crmid}
-    }
-    ))
-    
-    &quot;
+```
+    substr(@{MobileAppLaunch
+            ._myorganization
+            .identification
+            .crmid}, 1, 
+            lastIndexOf(@{MobileAppLaunch
+                        ._myorganization
+                        .identification
+                        .crmid}
+                         }
+                         ))
+```
 
 Explicação: Este exemplo usa `substr` e `lastIndexOf` funções para remover chaves que incluem a ID do CRM transmitida com um evento de inicialização de aplicativo móvel.
 
