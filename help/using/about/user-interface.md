@@ -9,10 +9,10 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: e353d593ab2710f50a88a3715378c86c2e37b4f6
+source-git-commit: 9999546d08d0279f013ead3a1e71bb7f9305bebc
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 98%
+source-wordcount: '1063'
+ht-degree: 93%
 
 ---
 
@@ -139,3 +139,11 @@ _Na tela de uma jornada:_
 * Use a combinação de teclas **Ctrl/Command + A** para selecionar todas as atividades.
 * Quando uma ou várias atividades forem selecionadas, pressione **Delete** ou **backspace** para excluí-las. Pressione **Enter** na janela pop-up para confirmar.
 * Clique duas vezes em uma atividade da paleta esquerda para adicioná-la à primeira posição disponível (de cima para baixo).
+
+_Numa viagem:_
+
+* Pressione **T** para ativar/desativar o modo de teste.
+* Em uma jornada baseada em eventos no modo de teste, pressione **E** para disparar um evento.
+* Em uma jornada baseada em segmentos, quando a opção **perfil único em um determinado momento** é selecionada no modo de teste, pressione **P** para acionar um evento.
+* No modo de teste, pressione **L** para exibir os registros.
+
