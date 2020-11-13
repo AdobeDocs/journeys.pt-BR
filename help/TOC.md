@@ -5,9 +5,9 @@ user-guide-title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 translation-type: tm+mt
-source-git-commit: 38b555e19b9c3a0757962cbedbf3587e64f69add
+source-git-commit: 59b726388ee1c2c4b51ada9e7e5f7ca4eb6554b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 100%
    + [Atualizações da documentação](using/release-notes/documentation-updates.md)
 + Primeiros passos com o [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Sobre [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Limitações](using/about/limitations.md)
    + [Introdução](using/about/get-started.md)
    + [Interface do usuário](using/about/user-interface.md)
    + [Gerenciamento de acesso](using/about/access-management.md)
@@ -44,7 +45,6 @@ ht-degree: 100%
    + [Trabalhar com o Adobe Campaign](using/action/working-with-adobe-campaign.md)
    + Usar um sistema de terceiros {#action-third-party}
       + [Sobre a configuração de ação personalizada](using/action/about-custom-action-configuration.md)
-      + [Limitações de ação personalizada](using/action/custom-action-limitations.md)
       + [Configurar o URL](using/action/url-configuration.md)
       + [Definir os parâmetros da mensagem](using/action/defining-the-message-parameters.md)
 + Uso de segmentos da Platform {#configuring-segment}
