@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 2af6e632461a8c01451f96c121469c9a32ae7f32
+source-git-commit: eec6203f63fa6d7ea706595ea866d2b330d284a8
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 5%
@@ -46,11 +46,11 @@ Esta é a lista dos operadores suportados:
 <tr><th>Operador</th><th>Expressão literal</th><th>Exemplo</th></tr>
 </thead>
 <tbody>
-<tr>&gt;<td>e</td><td><p><pre>&lt;expressão1&gt; e &lt;expressão2&gt;</pre></p>Ambos &lt;expressão1&gt; e &lt;expressão2&gt; devem ser booleanos. O resultado é booleano.</td><td><pre>3.14 &gt; 2 e 3.15 &lt; 1</pre></td></tr>
+<tr><td>e</td><td><p><pre>&lt;expressão1&gt; e &lt;expressão2&gt;</pre></p>Ambos &lt;expressão1&gt; e &lt;expressão2&gt; devem ser booleanos. O resultado é booleano.</td><td><pre>3.14 &gt; 2 e 3.15 &lt; 1</pre></td></tr>
 <tr><td>ou</td><td><p><pre>&lt;expressão1&gt; ou &lt;expressão2&gt;</pre></p><p>Ambos &lt;expressão1&gt; e &lt;expressão2&gt; devem ser booleanos.</p><p> O resultado é booleano.</p></td><td><p><pre>3.14 &gt; 2 ou 3.15 &lt; 1</pre></p></td></tr>
 <tr><td>not</td><td><p><pre>not &lt;expressão&gt;</pre></p><p>&lt;expressão&gt; deve ser booleano.</p><p> O resultado é booleano.</p></td><td><pre>não 3,15 &lt; 1</pre></td></tr>
 </tbody>
-  </table>
+</table>
 
 ## Comparação
 
@@ -88,11 +88,13 @@ Esta é a lista dos operadores suportados:
 
 <table>
 <thead>
-<tr><th>Operador</th><th>Expressão literal </th><th>Exemplo</th></tr>
+<tr><th>Operador</th><th>Expressão literal</th><th>Exemplo</th></tr>
 </thead>
 <tbody><tr><td>é numérico</td><td><p><pre>&lt;expressão&gt; é numérico</pre></p><p>O tipo da expressão é inteiro ou decimal.</p></td><td><pre>@ é numérico</pre></td></tr>
 <tr><td>é integer</td><td><p><pre>&lt;expressão&gt; é um número inteiro</pre></p><p>O tipo da expressão é inteiro.</p></td><td><pre>@ é inteiro</pre></td></tr>
 <tr><td>é decimal</td><td><p><pre>&lt;expressão&gt; é decimal</pre></p><p>O tipo da expressão é decimal.</p></td><td><pre>@ é decimal</pre></td></tr>
+</tbody>
+</table>
 
 ## String
 
