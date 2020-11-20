@@ -1,15 +1,10 @@
 ---
+product: adobe campaign
+solution: Journey Orchestration
 title: Saltando de uma viagem para outra
 description: Saltando de uma viagem para outra
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-audience: rns
-content-type: reference
-topic-tags: journeys
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 1ec824dcfd54bde5f3aab80ce30dbc9a19b9e4c1
+source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -97,5 +92,5 @@ Quando um salto é configurado em uma jornada, um ícone de entrada de salto é 
 
 Quando a viagem é publicada ou está em modo de teste, ocorrerão erros se:
 * a viagem de público alvo já não existe
-* a viagem de público alvo for desembaraçada, fechada ou interrompida
+* a viagem de público alvo estiver desembaraçada, fechada ou parada
 * se o primeiro evento da jornada do público alvo tiver mudado e o mapeamento estiver quebrado
