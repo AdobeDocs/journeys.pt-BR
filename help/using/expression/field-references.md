@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Referências de campo
 description: Saiba mais sobre referências de campo em expressões avançadas
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e2f7c39e61118c42272f730cf5f688ee34d6a9c2
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 4%
+source-wordcount: '434'
+ht-degree: 5%
 
 ---
 
@@ -55,6 +55,38 @@ Um valor padrão pode ser associado a um nome de campo. A sintaxe é a seguinte:
 >[!NOTE]
 >
 >O tipo do campo e o valor padrão devem ser os mesmos. Por exemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: {2} será inválido porque o valor padrão é um número inteiro, enquanto o valor esperado deve ser uma string.
+
+Exemplos:
+
+```
+// for an event 'OrderEvent' having the following payload:
+{
+    "orderId": "12345"
+}
+ 
+expression example:
+- @{OrderEvent.orderId}                                    -> "12345"
+- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @{OrderEvent.productId}                                  -> null
+ 
+ 
+// for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
+{
+    "person": {
+        "lastName":"Snow"
+    },
+    "emails": [
+        { "email":"john.snow@winterfell.westeros" },
+        { "email":"snow@thewall.westeros" }
+    ]
+}
+ 
+expression examples:
+- #{ACP.Profile.person.lastName}                 -> "Snow"
+- #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
+- #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
+- #{ACP.Profile.person.age}                      -> null
+```
 
 **Referência de um campo em coleções**
 
