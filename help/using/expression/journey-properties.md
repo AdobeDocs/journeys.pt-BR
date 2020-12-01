@@ -4,17 +4,17 @@ solution: Journey Orchestration
 title: Propriedades da viagem
 description: Saiba mais sobre as propriedades de viagem
 translation-type: tm+mt
-source-git-commit: 1fd02fcc2a535046cfbcdb5d1c52850ee93370af
+source-git-commit: b989e167c4aa5d8ef2667442231ff8857c5f0b18
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Propriedades da viagem {#journey-properties}
+# Propriedades da jornada {#journey-properties}
 
-No editor avançado de expressões, você encontrará a categoria Propriedades **da** jornada, abaixo do evento e das categorias da fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Esta é a informação obtida pelo sistema a partir de viagens em vida, como a identificação da viagem ou os erros específicos encontrados.
+No editor avançado de expressões, você encontrará a categoria **Propriedades da jornada**, abaixo das categorias de evento e fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Esta é a informação obtida pelo sistema a partir de viagens em vida, como a identificação da viagem ou os erros específicos encontrados.
 
 ![](../assets/journey-properties.png)
 
@@ -37,26 +37,26 @@ Estes são alguns exemplos de casos de uso:
 
 ## List of fields {#journey-properties-fields}
 
-|Categoria|Nome do campo|Rótulo|Descrição|
-|-|-|-|—
-|Versão da jornada|ID da jornada|Identificador da jornada| |
-| |Identificação da Versão de Viagem|ID de Id de Versão de Viagem| |
-| |JourneyVersionName|Nome da Versão da Jornada| |
-| |descrição de JourneyVersion|Descrição de versão de jornada| |
-| |JourneyVersion|Versão da jornada| |
-|Instância de jornada|instanceUID|Identificador de instância de jornada|ID da instância|
-| |externalKey|Chave externa|Identificador individual que aciona a viagem|
-|Identidade|profileId|Identificador de identidade do Perfil|Identificador do perfil na jornada|
-| |namespace|Namespace de identificação do Perfil|Namespace do perfil na jornada (por exemplo: ECID)|
-|Nó atual|currentNodeId|Identificador de nó atual|Identificador da atividade atual (nó)|
-| |currentNodeName|Nome do nó atual|Nome da atividade atual (nó)|
-|Nó anterior|previousNodeId|Identificador de nó anterior|Identificador da atividade anterior (nó)|
-| |previousNodeName|Nome do nó anterior|Nome da atividade anterior (nó)|
-|Erros|lastNodeUIDInErro|Identificador do último nó em Erro|Identificador da última atividade (nó) em erro|
-| |lastNodeNameInError|Last Node Name in Error|Name of the latest atividade (node) in error|
-| |lastNodeTypeInError|Last Node Type in Error|Tipo de erro da mais recente atividade (nó) com erro. Tipos possíveis:<ul><li>Eventos: Eventos, Reações, SQ (exemplo: Qualificação do segmento)</li><li>Controlo de fluxo: End, Condition, Wait</li><li>Ações: Ações ACS, Jump, Ação personalizada</li></ul>|
-| |lastErrorCode|Last Error Code|Error code of the latest atividade (node) in error (Código do último erro). Possíveis erros: <ul><li>Códigos de erro HTTP</li><li>limitado</li><li>timedOut</li><li>error (por exemplo: padrão no caso de um erro inesperado. Não deveria/extremamente raramente)</li></ul>|
-| |lastExecutedActionErrorCode|Código de erro da última ação executada|Código de erro da última ação em erro |
-| |lastDataFetchErrorCode|Código de Erro da Última Busca de Dados|Código de erro da busca de dados mais recente a partir de fontes de dados|
-|Time|lastActionExecutionElapsedTime|Tempo decorrido da última execução da ação|Tempo gasto para executar a ação mais recente|
-| |lastDataFetchElapsedTime|Tempo decorrido da última busca de dados|Tempo gasto para executar a busca de dados mais recente a partir de fontes de dados|
+| Categoria | Nome do campo | Rótulo | Descrição |
+|---|---|---|------------|
+| Versão da jornada | jortUID | Identificador de jornada |  |
+|  | jortVersionUID | Identificador da versão do diário |  |
+|  | JourVersionName | Nome da versão da jornada |  |
+|  | pathVersionDescription | Descrição da versão do diário |  |
+|  | JourVersion | Versão da jornada |  |
+| Instância de Jornada | instanceUID | Identificador de instância de jornada | ID da instância |
+|  | externalKey | Chave externa | Identificador individual que desencadeia a viagem |
+| Identidade | profileId | Identificador de identidade do perfil | Identificador do perfil na viagem |
+|  | namespace | Namespace de identidade do perfil | Namespace do perfil na viagem (exemplo: ECID) |
+| Nó atual | currentNodeId | Identificador de nó atual | Identificador da atividade atual (nó) |
+|  | currentNodeName | Nome do nó atual | Nome da atividade atual (nó) |
+| Nó anterior | previousNodeId | Identificador de nó anterior | Identificador da atividade anterior (nó) |
+|  | previousNodeName | Nome do nó anterior | Nome da atividade anterior (nó) |
+| Erros | lastNodeUIDInError | Identificador do último nó em erro | Identificador da atividade mais recente (nó) em erro |
+|  | lastNodeNameInError | Nome do último nó no erro | Nome da atividade mais recente (nó) no erro |
+|  | lastNodeTypeInError | Último tipo de nó em erro | Tipo de erro da atividade mais recente (nó) em erro. Tipos possíveis:<ul><li>Eventos: Eventos, Reações, SQ (exemplo: Qualificação do segmento)</li><li>Controlo de fluxo: End, Condition, Wait</li><li>Ações: Ações ACS, Jump, Ação personalizada</li></ul> |
+|  | lastErrorCode | Último código de erro | Erro no código de erro da atividade mais recente (nó). Possíveis erros: <ul><li>Códigos de erro HTTP</li><li>limitado</li><li>timedOut</li><li>error (por exemplo: padrão no caso de um erro inesperado. Não deveria/extremamente raramente)</li></ul> |
+|  | lastExecutedActionErrorCode | Código de erro da última ação executada | Código de erro da ação mais recente em erro |
+|  | lastDataFetchErrorCode | Código de erro da última busca de dados | Código de erro da busca de dados mais recente de fontes de dados |
+| Hora | lastActionExecutionElapsedTime | Tempo decorrido da última execução da ação | Tempo gasto para executar a ação mais recente |
+|  | lastDataFetchElapsedTime | Tempo decorrido da última busca de dados | Tempo gasto para executar a busca de dados mais recente a partir de fontes de dados |
