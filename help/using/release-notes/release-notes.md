@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 90%
+source-wordcount: '2055'
+ht-degree: 77%
 
 ---
 
@@ -16,6 +16,71 @@ ht-degree: 90%
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação](../release-notes/documentation-updates.md).
+
+## Versão de novembro de 2020 {#november-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Saltando de uma viagem para outra</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adicionamos uma nova atividade de ação que permite que você empurre indivíduos de uma jornada para outra. A atividade Jump permite:
+</p>
+<ul>
+<li>simplificar a concepção de viagens muito complexas, dividindo-as em várias </li>
+<li>construir viagens baseadas em padrões de viagem comuns e reutilizáveis</li>
+</ul>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/jump.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Uso de propriedades de jornada no editor de expressões</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>No editor de expressões avançada, adicionamos uma nova categoria à lista de campos e funções. Esta é a informação obtida pelo sistema a partir de viagens em vida, como a identificação da viagem ou os erros específicos encontrados. Isso lhe dará mais possibilidades ao construir suas viagens. Por exemplo, você poderá alertar sistemas de terceiros em caso de erros encontrados em uma condição ou ação.
+</p>
+<p>Observe que esse recurso estará disponível nos próximos dias.</p>
+<p>Para obter mais informações, consulte a <a href="../expression/journey-properties.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Eventos com base em regras (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adicionamos um novo método para configurar seus eventos mais facilmente. Esse recurso, que foi testado entre um conjunto limitado de clientes por meio do programa Alpha, está agora disponível em Beta para todos os clientes. Esse novo método não exige o uso de eventID. Ele avalia se o evento deve ser acionado de acordo com uma condição. Você ainda pode usar o método existente, agora chamado de "gerado pelo sistema".
+</p>
+<p>Observe que esse recurso estará disponível nos próximos dias.</p>
+<p>Para obter mais informações, consulte a <a href="../expression/journey-properties.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Outras melhorias{#october-november}
+
+Foram adicionadas limitações ao criar novas versões de uma jornada. Essas limitações evitam mudanças drásticas demais na jornada para manter alguma consistência entre as versões. [Leia mais](../about/limitations.md#journey-versions-limitations)
+
+A atividade de qualificação **de** segmento não pode mais ser usada em uma jornada que inclui atividades de mensagem de Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso da Qualificação de segmento pode levar a picos diários de envio de mensagens que sobrecarregariam o envio de mensagens transacionais Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
 
 ## Versão de outubro de 2020 {#october-release}
 
@@ -135,11 +200,11 @@ Para saber mais sobre o escopo do Alfa, consulte esta [seção](../alpha/alpha-o
 <p>As seguintes melhorias foram realizadas em eventos baseados em regras:
 </p>
 <ul>
-<li><p>Agora você pode aproveitar todos os dados de evento comportamental do Adobe Analytics que já estão sendo capturados e transmitidos na plataforma para acionar jornadas e automatizar experiências para seus clientes. <a href="../alpha/alpha-events.md#analytics-data">Leia mais</a></p>
+<li><p>Agora você pode aproveitar todos os dados de evento comportamental do Adobe Analytics que já estão sendo capturados e transmitidos na plataforma para acionar jornadas e automatizar experiências para seus clientes. <a href="../event/about-analytics.md">Leia mais</a></p>
 </li>
-<li><p>A partir de agora, ao acionar um evento com base em regras no modo de teste, será possível visualizar diretamente a condição da ID do evento. Além disso, uma dica de ferramenta foi adicionada ao lado de cada campo de avaliação da regra. <a href="../alpha/alpha-events.md#configuring-rule-based">Leia mais</a></p>
+<li><p>A partir de agora, ao acionar um evento com base em regras no modo de teste, será possível visualizar diretamente a condição da ID do evento. Além disso, uma dica de ferramenta foi adicionada ao lado de cada campo de avaliação da regra. <a href="../building-journeys/testing-the-journey.md#test-rule-based">Leia mais</a></p>
 </li>
-<li><p>A tela de definição de evento com base em regras foi reorganizada para obter uma experiência avançada. <a href="../alpha/alpha-events.md#test-rule-based">Leia mais</a></p>
+<li><p>A tela de definição de evento com base em regras foi reorganizada para obter uma experiência avançada. <a href="../event/about-creating.md">Leia mais</a></p>
 </li>
 </ul>
 </td>
@@ -201,7 +266,7 @@ Esses recursos são descritos em uma [seção](../alpha/alpha-overview.md) espec
 <tbody>
 <tr>
 <td>
-<p>Simplificamos a forma como você configura os eventos na experiência. Estamos introduzindo um novo método que não requer o uso de uma ID de evento. Agora é possível definir um evento com base em regras ao configurar seu evento no Journey Orchestration. <a href="../alpha/alpha-events.md">Leia mais</a>
+<p>Simplificamos a forma como você configura os eventos na experiência. Estamos introduzindo um novo método que não requer o uso de uma ID de evento. Agora é possível definir um evento com base em regras ao configurar seu evento no Journey Orchestration. <a href="../event/about-events.md">Leia mais</a>
 </p>
 </td>
 </tr>
@@ -277,8 +342,6 @@ Agora o Journey Orchestration também está disponível no APAC (Centro de dados
 A interface do Journey Orchestration está disponível em japonês.
 
 ## Versão do primeiro trimestre - Março de 2020 {#q1-release---march-2020}
-
-**Novidades**
 
 <table>
 <thead>
