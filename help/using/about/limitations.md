@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Limitações de Journey Orchestration
 description: Saiba mais sobre limitações de Journey Orchestration
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 2%
+source-wordcount: '361'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,19 @@ Aqui estão limitações relacionadas ao uso do Journey Orchestration.
 * Duas tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
 * O evento integrado de **reação** permite que você reaja a ações inovadoras (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, é necessário configurar um evento dedicado. 
 * Não há integração produzida pela Adobe Campaign Classic.
+
+## Limitações de versões de viagem {#journey-versions-limitations}
+
+* uma jornada que começa com uma atividade de evento na v1 não pode ser start com algo além de um evento em versões posteriores. Não é possível start de uma jornada com um evento de qualificação **de** segmento.
+* uma jornada que começa com uma atividade de Qualificação **de** Segmento na v1 deve sempre ser start com uma Qualificação **de** Segmento em versões posteriores.
+* O segmento e a namespace escolhidos na qualificação **do** segmento (primeiro nó) não podem ser alterados em novas versões.
+* A regra de reentrada deve ser a mesma em todas as versões de viagem.
+
+## Qualificação de segmento {#segment-qualification}
+
+* A atividade de qualificação **do** segmento não pode ser usada juntamente com o Adobe Campaign Standard Transactional Messaging devido a restrições de throughput. Consulte Descrição [do produto](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard. 
  
+
 ## Limitações de ações personalizadas
 
 * O URL de ação personalizado não suporta parâmetros dinâmicos. 
@@ -35,8 +47,8 @@ Aqui estão limitações relacionadas ao uso do Journey Orchestration.
 ## Limitações de ações do Adobe Campaign
 
 * O Adobe Campaign Standard Transactional Messaging tem uma escala máxima de 50.000 mensagens por hora em canais para uma determinada instância. Consulte Descrição [do produto](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard. 
-* A atividade de qualificação **do** segmento não deve ser usada juntamente com o Adobe Campaign Standard Transactional Messaging devido a restrições de throughput.
  
+
 ## Limitações de eventos
 
 * Os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Orchestration primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada à carga de streaming que entra no Adobe Experience Platform.
