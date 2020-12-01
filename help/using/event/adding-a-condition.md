@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Adicionar uma condição
 description: Saiba como adicionar uma condição
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: bf371ef7f2f69cf610c6644db648d304dc9ba525
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '205'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Adicionar uma condição {#concept_rbg_gqt_52b}
 
-A condição do evento permite que o sistema filtre o processamento de eventos. Se a condição for verdadeira, o evento será processado. Se a condição não for verdadeira, o evento será ignorado.
+Para eventos gerados pelo sistema, você pode definir uma condição de evento que permite ao sistema filtrar o processamento de eventos. Se a condição for verdadeira, o evento será processado. Se a condição não for verdadeira, o evento será ignorado.
 
 A condição nos eventos só pode ser baseada nos dados transmitidos na carga do evento. A condição definida no nível do evento não pode ser alterada na tela por um comerciante. O objetivo é endurecer essa condição quando esse evento for usado. Por exemplo, se você nunca quiser que os comerciantes usem eventos de abandono do carrinho se o valor do carrinho for muito pequeno, você pode criar uma condição no campo de evento &quot;valor do carrinho&quot; e impor um valor acima de 100 dólares.
 
