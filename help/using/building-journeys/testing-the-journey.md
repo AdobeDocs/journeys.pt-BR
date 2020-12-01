@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Testar a jornada
 description: 'Saiba mais sobre testes de viagem '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 3%
 
 ---
@@ -133,6 +133,16 @@ Quando você seleciona um perfil de teste diferente na tela de configuração do
 Ao abrir uma jornada no teste, o caminho exibido corresponde ao último teste executado.
 
 O fluxo visual funciona se o evento é disparado pela interface ou externamente (usando o Postman, por exemplo).
+
+## Modo de ensaio para viagens com base em regras {#test-rule-based}
+
+O modo de teste também está disponível para viagens que usam um evento baseado em regras. For more information on rule-based events, refer to [this page](../event/about-events.md).
+
+Ao acionar um evento, a tela de configuração **do** Evento permite que você defina os parâmetros do evento a serem aprovados no teste. Você pode visualização a condição da ID do evento clicando no ícone da dica de ferramenta no canto superior direito. Uma dica de ferramenta também está disponível ao lado de cada campo que faz parte da avaliação da regra.
+
+![](../assets/alpha-event8.png)
+
+Para obter mais informações sobre como usar o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
 ## Exibição dos registros {#viewing_logs}
 
