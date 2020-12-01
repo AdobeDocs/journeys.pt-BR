@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Eventos de qualificação de segmento
 description: Saiba mais sobre eventos de qualificação de segmento
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -82,6 +82,8 @@ Além disso, se o segmento do lote for recém-criado e imediatamente utilizado n
 ### Segmentos transmitidos{#streamed-speed-segment-qualification}
 
 Ao usar a qualificação de segmento para segmentos dinamizados, há menos risco de obter grandes picos de entradas/saídas devido à avaliação contínua do segmento. Mesmo assim, se a definição do segmento levar a tornar um grande volume de clientes qualificados ao mesmo tempo, também pode haver um pico.
+
+For more information on streaming segmentation, refer to this [page](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Como evitar sobrecargas{#overloads-speed-segment-qualification}
 
