@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
 translation-type: tm+mt
-source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
+source-git-commit: fe34587181d284944ce1af64b12ad1185c59f890
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -80,7 +80,7 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 
 Foram adicionadas limitações ao criar novas versões de uma jornada. Essas limitações evitam mudanças drásticas demais na jornada para manter alguma consistência entre as versões. [Leia mais](../about/limitations.md#journey-versions-limitations)
 
-A atividade de qualificação **de** segmento não pode mais ser usada em uma jornada que inclui atividades de mensagem de Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso da Qualificação de segmento pode levar a picos diários de envio de mensagens que sobrecarregariam o envio de mensagens transacionais Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
+A atividade **Qualificação de segmento** não pode mais ser usada em uma jornada que inclui atividades de mensagem de Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso da Qualificação de segmento pode levar a picos diários de envio de mensagens que sobrecarregariam o envio de mensagens transacionais Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
 
 ## Versão de outubro de 2020 {#october-release}
 
@@ -139,7 +139,7 @@ Para saber mais sobre o escopo do Alfa, consulte esta [seção](../alpha/alpha-o
 <tbody>
 <tr>
 <td>
-<p>The following improvements have been made to the <strong>Read segment</strong> activity:
+<p>As seguintes melhorias foram feitas na atividade <strong>Read segment</strong>:
 </p>
 <ul>
 <li><p>As viagens baseadas em segmentos agora exibem, acima da tela, um lembrete do tipo de programação da jornada. Você pode clicar neste lembrete para acessar o menu de configuração do agendamento.</p>
@@ -147,7 +147,7 @@ Para saber mais sobre o escopo do Alfa, consulte esta [seção](../alpha/alpha-o
 <li><p>A granularidade dos logs de modo de teste foi aprimorada para exibir o status de progresso de exportação do segmento.</p>
 </li>
 </ul>
-<p>Para obter mais informações sobre a atividade de segmentos <strong></strong> Lidos, consulte a documentação <a href="../alpha/alpha-segment-trigger.md"></a>detalhada.</p>
+<p>Para obter mais informações sobre a atividade <strong>Read segment</strong>, consulte a <a href="../alpha/alpha-segment-trigger.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
