@@ -6,10 +6,10 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 99%
+source-wordcount: '404'
+ht-degree: 95%
 
 ---
 
@@ -28,14 +28,18 @@ ht-degree: 99%
    + [Gerenciamento de acesso](using/about/access-management.md)
    + [Solução de problemas](using/about/troubleshooting.md)
 + Configurar um evento {#events-journeys}
-   + [Sobre eventos](using/event/about-events.md)
-   + [Sobre schemas ExperienceEvent](using/event/experience-event-schema.md)
+   + Sobre eventos {#about-events}
+      + [Princípio geral](using/event/about-events.md)
+      + [Ciclo de dados](using/event/about-data-cycle.md)
+      + [Criação de um evento](using/event/about-creating.md)
+      + [Aproveitando a Adobe Analytics](using/event/about-analytics.md)
+      + [Sobre schemas ExperienceEvent](using/event/experience-event-schema.md)
+      + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Definir campos de carga](using/event/defining-the-payload-fields.md)
    + [Selecionar namespace](using/event/selecting-the-namespace.md)
    + [Definir a chave de evento](using/event/defining-the-event-key.md)
    + [Adicionar uma condição](using/event/adding-a-condition.md)
    + [Visualizar a carga](using/event/previewing-the-payload.md)
-   + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
 + Configurar uma fonte de dados {#data-source-journeys}
    + [Sobre fontes de dados](using/datasource/about-data-sources.md)
    + [Grupos de campos](using/datasource/field-groups.md)
@@ -75,6 +79,7 @@ ht-degree: 99%
          + [Sobre atividades de ação](using/building-journeys/about-action-activities.md)
          + [Usar ações do Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
          + [Usar ações personalizadas](using/building-journeys/using-custom-actions.md)
+         + [Saltando de uma viagem para outra](using/building-journeys/jump.md)
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
    + Compartilhamento de etapas de jornada com a Adobe Experience Platform {#sharing-journey-steps}
@@ -93,6 +98,7 @@ ht-degree: 99%
       + [Referências de campo](using/expression/field-references.md)
       + [Funções de gerenciamento de coleções](using/expression/collection-management-functions.md)
       + [Operadores](using/expression/operators.md)
+      + [Propriedades da viagem](using/expression/journey-properties.md)
       + [Exemplos](using/expression/advanced-editor-use-cases.md)
    + Funções {#main-functions-journey}
       + [Funções principais](using/expression/functions.md)
@@ -187,5 +193,4 @@ ht-degree: 99%
    + [Visão geral de recursos alfa](using/alpha/alpha-overview.md)
    + [Interface do usuário](using/alpha/alpha-interface.md)
    + [Atividade Ler segmento](using/alpha/alpha-segment-trigger.md)
-   + [Eventos com base em regras](using/alpha/alpha-events.md)
 
