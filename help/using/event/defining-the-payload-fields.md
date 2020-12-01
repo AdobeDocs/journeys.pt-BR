@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Definir campos de carga
 description: Saiba mais sobre como definir os campos de carga
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '282'
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ A definição da carga permite escolher as informações que o sistema espera re
 
    >[!NOTE]
    >
-   >O **[!UICONTROL eventID]** campo é adicionado automaticamente na lista dos campos selecionados para que [!DNL Journey Orchestration] seja possível identificar o evento. O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Consulte [esta página](../event/previewing-the-payload.md).
+   >Para eventos gerados pelo sistema, o **[!UICONTROL eventID]** campo é adicionado automaticamente na lista dos campos selecionados para que [!DNL Journey Orchestration] seja possível identificar o evento. O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Consulte [esta página](../event/previewing-the-payload.md).
 
 1. Quando terminar de selecionar os campos necessários, clique **[!UICONTROL Save]** ou pressione **[!UICONTROL Enter]**.
 
