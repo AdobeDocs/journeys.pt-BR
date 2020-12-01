@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Versões de jornada
 description: Saiba mais sobre as versões de viagem
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -19,6 +19,10 @@ Na lista de viagem, todas as versões de viagem são exibidas com o número da v
 ![](../assets/journeyversions1.png)
 
 Se você precisa modificar uma jornada ao vivo, você precisa criar uma nova versão de sua jornada.
+
+>[!NOTE]
+>
+>Para saber mais sobre limitações de versões de viagem, consulte [esta página](../about/limitations.md#journey-versions-limitations)
 
 1. Abra a versão mais recente de sua jornada ao vivo, clique **[!UICONTROL Create a new version]** e confirme.
 
