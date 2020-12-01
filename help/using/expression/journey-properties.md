@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Propriedades da viagem
 description: Saiba mais sobre as propriedades de viagem
 translation-type: tm+mt
-source-git-commit: b989e167c4aa5d8ef2667442231ff8857c5f0b18
+source-git-commit: 341138c31676870878099b4f4eecec200a614c69
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Estes são alguns exemplos de casos de uso:
 
 * **Registrar perfis** descartados: você pode enviar todos os perfis excluídos de uma mensagem por uma regra de limite para um sistema de terceiros para fins de registro. Para isso, configure um caminho em caso de tempo limite e erro e adicione uma condição para filtrar em um tipo de erro específico, por exemplo: &quot;descarte as pessoas ao limitar a regra&quot;. Em seguida, é possível encaminhar os perfis descartados para um sistema de terceiros por meio de uma ação personalizada.
 
-* **Alertas de push enviados em caso de erros**: você pode enviar uma notificação para um sistema de terceiros sempre que ocorrer um erro em uma mensagem. Para isso, configure um caminho em caso de erro, adicione uma condição e uma ação personalizada. Você pode enviar uma notificação em um canal Slack, por exemplo, com a descrição do erro encontrado.
+* **Enviar alertas em caso de erros**: você pode enviar uma notificação para um sistema de terceiros sempre que ocorrer um erro em uma mensagem. Para isso, configure um caminho em caso de erro, adicione uma condição e uma ação personalizada. Você pode enviar uma notificação em um canal Slack, por exemplo, com a descrição do erro encontrado.
 
 * **Refinar erros no relatórios** : em vez de ter apenas um caminho para mensagens em erro, você pode definir uma condição por tipo de erro. Isso permitirá refinar o relatórios e visualização de todos os dados de tipos de erro.
 
