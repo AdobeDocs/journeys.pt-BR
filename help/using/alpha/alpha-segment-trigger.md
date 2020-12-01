@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Atividade Ler segmento
 description: Saiba mais sobre a atividade Ler segmento.
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 4%
 A atividade Ler segmento permite fazer com que todos os indivíduos que pertencem a um segmento do Adobe Experience Platform entrem em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente.
 
 Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform. Com a atividade de segmentos de leitura, é possível fazer com que todos os indivíduos pertencentes ao segmento de clientes Gold entrem em uma jornada e façam com que eles fluam em jornadas individualizadas que aproveitarão todas as funcionalidades de viagem: condições, temporizadores, eventos, ações.
+
+>[!NOTE]
+>
+>Não se pode ter um salto e uma atividade de segmento **** Read na mesma jornada. Não é possível pular para uma jornada que se start com um evento de segmento **** Lido.
 
 ## Configuring the activity {#configuring-segment-trigger-activity}
 
