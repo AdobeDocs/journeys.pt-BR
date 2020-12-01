@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Visualizar a carga
 description: Saiba como pré-visualização a carga
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ A pré-visualização payload permite validar a definição da carga.
 
 >[!NOTE]
 >
->Ao criar um evento, antes de exibir a pré-visualização de carga, salve o evento e abra-o novamente. Essa etapa é necessária para gerar uma ID de evento na carga.
+>Para eventos gerados pelo sistema, ao criar um evento, antes de exibir a pré-visualização de carga, salve o evento e abra-o novamente. Essa etapa é necessária para gerar uma ID de evento na carga.
 
 1. Clique no **[!UICONTROL View Payload]** ícone para pré-visualização da carga esperada pelo sistema.
 
