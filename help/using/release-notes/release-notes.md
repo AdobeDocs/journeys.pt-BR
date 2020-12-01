@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
 translation-type: tm+mt
-source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
+source-git-commit: 3015d4caaedbd45ea5b94e426788f39b2774053e
 workflow-type: tm+mt
 source-wordcount: '2055'
 ht-degree: 77%
@@ -70,7 +70,7 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 <p>Adicionamos um novo método para configurar seus eventos mais facilmente. Esse recurso, que foi testado entre um conjunto limitado de clientes por meio do programa Alpha, está agora disponível em Beta para todos os clientes. Esse novo método não exige o uso de eventID. Ele avalia se o evento deve ser acionado de acordo com uma condição. Você ainda pode usar o método existente, agora chamado de "gerado pelo sistema".
 </p>
 <p>Observe que esse recurso estará disponível nos próximos dias.</p>
-<p>Para obter mais informações, consulte a <a href="../expression/journey-properties.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../event/about-events.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
