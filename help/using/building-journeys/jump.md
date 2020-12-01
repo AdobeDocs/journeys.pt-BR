@@ -4,19 +4,15 @@ solution: Journey Orchestration
 title: Saltando de uma viagem para outra
 description: Saltando de uma viagem para outra
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
 
 
 # Saltando de uma viagem para outra {#jump}
-
->[!NOTE]
->
->Disponibilidade efetiva: 15 de novembro de 2020
 
 A atividade de ação **Saltar** permite que você empurre indivíduos de uma jornada para outra. Este recurso permite:
 
@@ -38,21 +34,31 @@ Estas são as diferentes etapas do processo de execução:
 1. O indivíduo atinge o salto.
 1. O indivíduo é empurrado para a Jornada B, e segue para os próximos passos na Jornada A, depois do salto.
 
-Na **jornada B**, o primeiro evento pode ser acionado externamente (como um evento normal) ou internamente, através de um salto da jornada A:
+Na jornada B, o primeiro evento é acionado internamente, através do salto da jornada A:
 
 1. A jornada B recebeu um evento interno da Jornada A.
-1. O primeiro evento da Jornada B é acionado com as informações vindas da Jornada A.
 1. Os start individuais que fluem na Jornada B.
+
+>[!NOTE]
+>
+>A jornada B também pode ser acionada por meio de um evento externo.
 
 ## Observações importantes
 
+### Criação
+
+* O salto só está disponível em viagens que usam namespace.
 * Você só pode pular para uma jornada que usa a mesma namespace que a jornada da origem.
 * Não é possível pular para uma jornada que se start com um evento de qualificação **de** Segmento.
-* Quando o salto é executado, a versão mais recente da jornada do público alvo é acionada.
+* Não é possível ter um evento de qualificação **de salto e** Segmento na mesma jornada.
 * Você pode incluir tantos saltos quanto precisar em uma jornada. Após um salto, você pode adicionar qualquer atividade necessária.
 * Você pode ter quantos níveis de salto forem necessários. Por exemplo, a jornada A vai para a jornada B, que vai para a jornada C, e assim por diante.
 * A jornada do público alvo também pode incluir quantos saltos forem necessários.
 * Os padrões de loop não são suportados. Não há como ligar duas ou mais viagens que criariam um ciclo infinito. A tela de configuração **Jump** atividade impede que você faça isso.
+
+### Execução
+
+* Quando o salto é executado, a versão mais recente da jornada do público alvo é acionada.
 * Como de costume, um indivíduo único só pode estar presente uma vez na mesma jornada. Como resultado, se o indivíduo empurrado da jornada de origem já está na jornada do público alvo, então o indivíduo não entrará na jornada do público alvo. Nenhum erro será relatado no salto porque esse é um comportamento normal.
 
 ## Configuração do salto
@@ -84,9 +90,16 @@ O campo **Primeiro evento** é preenchido com o nome do primeiro evento da jorna
 
    ![](../assets/jump5.png)
 
+
+   >[!NOTE]
+   >
+   >A identidade do indivíduo é automaticamente mapeada. Essas informações não estão visíveis na interface.
+
 Seu salto está configurado. Assim que sua jornada estiver ao vivo ou no modo de teste, os indivíduos que chegarem ao salto serão empurrados da jornada para o público alvo.
 
 Quando um salto é configurado em uma jornada, um ícone de entrada de salto é adicionado automaticamente no início da jornada do público alvo. Isso ajuda a identificar que a jornada pode ser acionada externamente, mas também internamente, a partir de um salto.
+
+![](../assets/jump7.png)
 
 ## Solução de problemas
 
@@ -94,3 +107,5 @@ Quando a viagem é publicada ou está em modo de teste, ocorrerão erros se:
 * a viagem de público alvo já não existe
 * a viagem de público alvo estiver desembaraçada, fechada ou parada
 * se o primeiro evento da jornada do público alvo tiver mudado e o mapeamento estiver quebrado
+
+![](../assets/jump6.png)
