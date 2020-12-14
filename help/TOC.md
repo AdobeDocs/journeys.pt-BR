@@ -5,11 +5,11 @@ user-guide-title: Journey Orchestration
 title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 95%
       + [Princípio geral](using/event/about-events.md)
       + [Ciclo de dados](using/event/about-data-cycle.md)
       + [Criação de um evento](using/event/about-creating.md)
-      + [Aproveitando a Adobe Analytics](using/event/about-analytics.md)
-      + [Sobre schemas ExperienceEvent](using/event/experience-event-schema.md)
+      + [Aproveitar a Adobe Analytics](using/event/about-analytics.md)
+      + [Sobre esquemas ExperienceEvent](using/event/experience-event-schema.md)
       + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Definir campos de carga](using/event/defining-the-payload-fields.md)
    + [Selecionar namespace](using/event/selecting-the-namespace.md)
@@ -79,7 +79,7 @@ ht-degree: 95%
          + [Sobre atividades de ação](using/building-journeys/about-action-activities.md)
          + [Usar ações do Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
          + [Usar ações personalizadas](using/building-journeys/using-custom-actions.md)
-         + [Saltando de uma viagem para outra](using/building-journeys/jump.md)
+         + [Mudar de uma jornada para outra](using/building-journeys/jump.md)
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
    + Compartilhamento de etapas de jornada com a Adobe Experience Platform {#sharing-journey-steps}
@@ -98,7 +98,7 @@ ht-degree: 95%
       + [Referências de campo](using/expression/field-references.md)
       + [Funções de gerenciamento de coleções](using/expression/collection-management-functions.md)
       + [Operadores](using/expression/operators.md)
-      + [Propriedades da viagem](using/expression/journey-properties.md)
+      + [Propriedades da jornada](using/expression/journey-properties.md)
       + [Exemplos](using/expression/advanced-editor-use-cases.md)
    + Funções {#main-functions-journey}
       + [Funções principais](using/expression/functions.md)
