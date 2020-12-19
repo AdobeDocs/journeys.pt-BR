@@ -16,7 +16,7 @@ ht-degree: 12%
 
 Verifica se o primeiro valor de argumento está na lista. A verificação é realizada por meio de um valor Igual em cada valor de argumento. Ele retornará true se o valor do argumento for encontrado, caso contrário, será false.
 
-O tipo da lista `<expression>` deve corresponder aos itens da mesma. Os tipos de itens da lista, como lembrete, devem corresponder entre si.
+O tipo de `<expression>` deve corresponder aos itens da lista. Os tipos de itens da lista, como lembrete, devem corresponder entre si.
 
 ## Categoria
 
