@@ -37,7 +37,7 @@ Por exemplo, vamos pegar o exemplo da condição de um primeiro caminho &quot;A 
 
 ![](../assets/journey48.png)
 
-Você pode criar outro caminho para audiências que não sejam elegíveis às condições definidas, verificando **[!UICONTROL Show path for other cases than the one(s) above]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão](#percentage_split)de porcentagem.
+Você pode criar outro caminho para audiências que não sejam elegíveis às condições definidas, verificando **[!UICONTROL Show path for other cases than the one(s) above]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
 O modo simples permite executar query simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os diferentes elementos, interbloqueie-os entre si para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
@@ -46,7 +46,7 @@ O modo simples permite executar query simples com base em uma combinação de ca
 
 ![](../assets/journey64.png)
 
-Se você estiver usando o Serviço [de segmentação da](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) Adobe Experience Platform para criar seus segmentos, poderá aproveitá-los nas condições de viagem. Consulte [Uso de segmentos em condições](../segment/using-a-segment.md).
+Se estiver usando o [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) para criar seus segmentos, você pode aproveitá-los nas condições de viagem. Consulte [Usando segmentos em condições](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -55,13 +55,13 @@ Se você estiver usando o Serviço [de segmentação da](https://docs.adobe.com/
 
 A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. O único modo de fazê-la continuar é marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Consulte [esta seção](../building-journeys/using-the-journey-designer.md#paths).
 
-## Condição da fonte de dados {#data_source_condition}
+## Condição da Fonte de Dados {#data_source_condition}
 
 Isso permite definir uma condição com base nos campos das fontes de dados ou dos eventos posicionados anteriormente na jornada. Para saber como usar o editor de expressões, consulte [esta página](../expression/expressionadvanced.md). Usando o editor de expressões avançado, você pode configurar condições mais avançadas manipulando coleções ou usando fontes de dados que exigem a passagem de parâmetros. Consulte [esta página](../datasource/external-data-sources.md).
 
 ![](../assets/journey50.png)
 
-## Condição de tempo{#time_condition}
+## Condição de hora{#time_condition}
 
 Isso permite executar ações diferentes de acordo com a hora do dia e/ou o dia da semana. Por exemplo, você pode decidir enviar mensagens SMS durante o dia e e-mails à noite durante os dias da semana.
 
@@ -71,9 +71,9 @@ Isso permite executar ações diferentes de acordo com a hora do dia e/ou o dia 
 
 ![](../assets/journey51.png)
 
-## Divisão de porcentagem {#percentage_split}
+## Porcentagem dividida {#percentage_split}
 
-Essa opção permite que você divida aleatoriamente a audiência para definir uma ação diferente para cada grupo. Defina o número de divisões e a repartição para cada caminho. O cálculo da divisão é estatístico, já que o sistema não consegue prever quantas pessoas fluirão nesta atividade da viagem. Como resultado, a divisão tem uma margem de erro muito baixa. Essa função se baseia em um mecanismo aleatório Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Essa opção permite que você divida aleatoriamente a audiência para definir uma ação diferente para cada grupo. Defina o número de divisões e a repartição para cada caminho. O cálculo da divisão é estatístico, já que o sistema não consegue prever quantas pessoas fluirão nesta atividade da viagem. Como resultado, a divisão tem uma margem de erro muito baixa. Esta função se baseia em um mecanismo aleatório Java (consulte esta [página](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
 >[!NOTE]
 >
