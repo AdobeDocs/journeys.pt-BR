@@ -12,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# journeysteps events common fields {#sharing-common-fields}
+# eventos de etapas do diário campos comuns {#sharing-common-fields}
 
 Esse mixin será compartilhado por meio de jornadaStepEvent e de jornadaStepProfileEvent.
 
-Esses são os campos XDM comuns que [!DNL Journey Orchestration] enviam para a Adobe Experience Platform. Campos comuns serão enviados para cada etapa que for processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
+Esses são os campos XDM comuns que [!DNL Journey Orchestration] envia para a Adobe Experience Platform. Campos comuns serão enviados para cada etapa que for processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
 
 Alguns desses campos estão disponíveis apenas em padrões de processamento específicos (execução de ação, busca de dados etc.) para limitar o tamanho dos eventos.
 
