@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ## Parênteses e prioridade da expressão{#section_edf_fks_bgb}
 
-Os parênteses podem ser usados para tornar uma expressão complexa mais legível. _(&lt;expressão>)_ é o equivalente de _&lt;expressão>_. Os parênteses também podem ser usados para definir a ordem de avaliação e a associatividade.
+Os parênteses podem ser usados para tornar uma expressão complexa mais legível. _(&lt;expression>)_ é o equivalente a  _&lt;expression>_. Os parênteses também podem ser usados para definir a ordem de avaliação e a associatividade.
 
 As expressões serão avaliadas da esquerda para a direita. A associatividade nos operadores aritméticos deve ser aplicada: multiplicações e divisões têm prioridade sobre adições e subtrações. Para impor uma ordem específica, os parênteses devem ser adicionados para delimitar as operações. Por exemplo:
 
@@ -31,8 +31,8 @@ As expressões serão avaliadas da esquerda para a direita. A associatividade no
 
 Estas são as diferentes regras de diferenciação entre maiúsculas e minúsculas:
 
-* Todos os operadores (e, ou, etc.) deve ser escrito em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_ é uma expressão válida, enquanto a expressão _`<expression1>`E não`<expression2>`_ é.
-* Todos os nomes de função fazem distinção entre maiúsculas e minúsculas. Por exemplo, _inSegment()_ é válido, enquanto a função _INSEGMENT()_ não é.
+* Todos os operadores (e, ou, etc.) deve ser escrito em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_ são uma expressão válida, enquanto a expressão _`<expression1>`AND`<expression2>`_ não é.
+* Todos os nomes de função fazem distinção entre maiúsculas e minúsculas. Por exemplo, _inSegment()_ é válido enquanto a função _INSEGMENT()_ não é válida.
 * As referências de campo e os valores constantes fazem distinção entre maiúsculas e minúsculas: eles não são elementos incorporados da linguagem (ao contrário de operadores e funções), eles são criados pelo usuário final.
 
 ## Tipo de expressão retornado{#section_gyc_435_53b}
