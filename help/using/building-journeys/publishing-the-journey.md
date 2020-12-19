@@ -21,7 +21,7 @@ Se você precisa fazer modificações em uma jornada publicada, você precisa cr
 Se pararmos uma viagem, ela será permanentemente interrompida. Todas as pessoas que fluem na viagem serão permanentemente interrompidas e a viagem deixará de permitir novas entradas. Se você precisar usar a jornada novamente, você precisa duplicado-la e publicá-la.
 
 1. Antes de publicar sua jornada, verifique se ela é válida e se não há erro. Você não será capaz de publicar uma jornada com erros. Consulte [esta seção](../about/troubleshooting.md#section_h3q_kqk_fhb). Também é recomendável testar sua jornada antes da publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
-1. Para publicar a jornada, clique na **[!UICONTROL Publish]** opção, localizada no menu suspenso superior direito.
+1. Para publicar a jornada, clique na opção **[!UICONTROL Publish]**, localizada no menu suspenso superior direito.
 
    ![](../assets/journeyuc1_18.png)
 
