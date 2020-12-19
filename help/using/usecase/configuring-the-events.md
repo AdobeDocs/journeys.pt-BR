@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # Configurar os eventos {#concept_sbp_5cy_w2b}
 
-Em nosso cenário, precisamos receber um evento toda vez que uma pessoa entra no hotel Marlton e no restaurante. O usuário **** técnico precisa configurar os dois eventos que queremos que o sistema escute em nossa jornada.
+Em nosso cenário, precisamos receber um evento toda vez que uma pessoa entra no hotel Marlton e no restaurante. O **usuário técnico** precisa configurar os dois eventos que queremos que o sistema escute em nossa jornada.
 
-For additional information on event configuration, refer to [this page](../event/about-events.md).
+Para obter informações adicionais sobre a configuração do evento, consulte [esta página](../event/about-events.md).
 
-1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
+1. No menu superior, clique na guia **[!UICONTROL Events]** e clique em **[!UICONTROL Add]** para criar um novo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -30,7 +30,7 @@ For additional information on event configuration, refer to [this page](../event
 
    Também precisamos do token de registro para enviar mensagens de push: &quot;_experience > campanha > mensagem > perfil > pushNotificationTokens > token&quot;
 
-   Uma ID é gerada automaticamente para este evento. Essa ID é armazenada no **[!UICONTROL eventID]** campo (&quot;_experience > campanha > orquestração > eventID&quot;). O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Em nosso caso de uso, essa ID é usada para identificar a localização do beacon. Cada vez que uma pessoa caminha perto do beacon do lobby, um evento será enviado contendo essa ID de evento específica. O mesmo princípio se aplica aos eventos de beacon do restaurante. Isso permite que o sistema saiba qual sinal disparou o envio do evento.
+   Uma ID é gerada automaticamente para este evento. Essa ID é armazenada no campo **[!UICONTROL eventID]** (&quot;_experience > campanha > orquestração > eventID&quot;). O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Em nosso caso de uso, essa ID é usada para identificar a localização do beacon. Cada vez que uma pessoa caminha perto do beacon do lobby, um evento será enviado contendo essa ID de evento específica. O mesmo princípio se aplica aos eventos de beacon do restaurante. Isso permite que o sistema saiba qual sinal disparou o envio do evento.
 
    ![](../assets/journeyuc2_2.png)
 
@@ -38,7 +38,7 @@ For additional information on event configuration, refer to [this page](../event
    >
    >A lista dos campos varia de um schema para outro. De acordo com a definição do schema, alguns campos podem ser obrigatórios e pré-selecionados.
 
-1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
+1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. Para obter mais informações sobre o namespace, consulte [esta página](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc2_4.png)
 
@@ -48,7 +48,7 @@ For additional information on event configuration, refer to [this page](../event
 
 1. Clique em **[!UICONTROL Save]**.
 
-1. Clique no **[!UICONTROL View Payload]** ícone para pré-visualização da carga esperada pelo sistema e compartilhá-la com a pessoa responsável pelo envio do evento.  Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
+1. Clique no ícone **[!UICONTROL View Payload]** para pré-visualização da carga esperada pelo sistema e compartilhá-la com a pessoa responsável pelo envio do evento.  Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
 
    ![](../assets/journeyuc2_5.png)
 
