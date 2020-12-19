@@ -21,7 +21,7 @@ A pré-visualização payload permite validar a definição da carga.
 >
 >Para eventos gerados pelo sistema, ao criar um evento, antes de exibir a pré-visualização de carga, salve o evento e abra-o novamente. Essa etapa é necessária para gerar uma ID de evento na carga.
 
-1. Clique no **[!UICONTROL View Payload]** ícone para pré-visualização da carga esperada pelo sistema.
+1. Clique no ícone **[!UICONTROL View Payload]** para pré-visualização da carga esperada pelo sistema.
 
    ![](../assets/journey13.png)
 
