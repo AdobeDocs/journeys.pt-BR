@@ -34,7 +34,7 @@ Há dois tipos de operadores: operadores unários e binários. Há operadores un
 
 Esta é a lista dos operadores suportados:
 
-## Lógica  {#logical}
+## Logical {#logical}
 
 ### e
 
@@ -74,7 +74,7 @@ Exemplo:
 not <expression>
 ```
 
-&lt;expressão> deve ser booleano. O resultado é booleano.
+&lt;expression> deve ser booleano. O resultado é booleano.
 
 Exemplo:
 
@@ -128,7 +128,7 @@ Exemplo:
 <expression> has null
 ```
 
-&lt;expressão> deve ser uma lista. O resultado é booleano.
+&lt;expression> deve ser uma lista. O resultado é booleano.
 
 Útil para identificar se uma lista contém pelo menos um valor nulo.
 
@@ -254,7 +254,7 @@ Exemplo:
 42 < 3.14
 ```
 
-### &lt;=
+### &lt;>
 
 
 
@@ -328,7 +328,7 @@ Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
-&lt;expressão2> não deve ser igual a 0 (retorna 0).
+&lt;expression2> não deve ser igual a 0 (retorna 0).
 
 Exemplo:
 
