@@ -22,19 +22,19 @@ O mensagen transacional Campaign Standard e seu evento associado devem ser publi
 
 >[!NOTE]
 >
->O Adobe Campaign Standard Transactional Messaging tem uma escala máxima de 50.000 mensagens por hora em canais para uma determinada instância. Para reduzir o risco de sobrecarga, recomendamos que você configure uma regra **de** limite para a integração com o Campaign Standard.
+>O Adobe Campaign Standard Transactional Messaging tem uma escala máxima de 50.000 mensagens por hora em canais para uma determinada instância. Para reduzir o risco de sobrecarga, recomendamos que você configure uma **regra de limite** para a integração com o Campaign Standard.
 >
->Leia mais sobre SLAs de mensagens transacionais na Descrição [do produto](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html)Adobe Campaign Standard.
+>Leia mais sobre SLAs de mensagens transacionais em [Descrição do Produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
 
 Estas são as etapas para configurá-lo:
 
-1. Na **[!UICONTROL Actions]** lista, clique na ação integrada **[!UICONTROL AdobeCampaignStandard]** . O painel de configuração de ação é aberto no lado direito da tela.
+1. Na lista **[!UICONTROL Actions]**, clique na ação incorporada **[!UICONTROL AdobeCampaignStandard]**. O painel de configuração de ação é aberto no lado direito da tela.
 
    ![](../assets/actioncampaign.png)
 
-1. Copie o URL da instância do Adobe Campaign Standard e cole-o no **[!UICONTROL URL]** campo.
+1. Copie o URL da instância do Adobe Campaign Standard e cole-o no campo **[!UICONTROL URL]**.
 
-1. Clique no link **[!UICONTROL Test the instance URL]** para testar a validade da instância.
+1. Clique em **[!UICONTROL Test the instance URL]** para testar a validade da instância.
 
    >[!NOTE]
    >
@@ -46,8 +46,8 @@ Estas são as etapas para configurá-lo:
    >
    >O ORG associado a esta instância do Adobe Campaign Standard é o mesmo que o Journey Orchestration ORG.
 
-Ao projetar sua jornada, três ações estarão disponíveis na **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de ações](../building-journeys/using-adobe-campaign-actions.md)do Adobe Campaign). **O evento** Reações também permitirá que você reaja a cliques em mensagens, aberturas, etc. (consulte eventos [de reação](../building-journeys/reaction-events.md)).
+Ao projetar sua jornada, três ações estarão disponíveis na categoria **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de ações do Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Os** eventos de reações também permitirão que você reaja aos cliques em mensagens, às aberturas, etc. (consulte [eventos de reação](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 
-Se você estiver usando um sistema de terceiros para enviar mensagens, precisará adicionar e configurar uma ação personalizada. See [About custom action configuration](../action/about-custom-action-configuration.md).
+Se você estiver usando um sistema de terceiros para enviar mensagens, precisará adicionar e configurar uma ação personalizada. Consulte [Sobre a configuração de ação personalizada](../action/about-custom-action-configuration.md).
