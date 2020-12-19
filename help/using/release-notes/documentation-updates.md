@@ -23,7 +23,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 
 ## Setembro de 2020 {#september-2020}
 
-* A seção de descrição da interface foi atualizada para refletir o novo menu **Todos os seletores** . [Leia mais](../about/user-interface.md)
+* A seção de descrição da interface foi atualizada para refletir o novo menu **Todos os seletores**. [Leia mais](../about/user-interface.md)
 * Adicionada uma observação sobre as novas versões de viagens baseadas em segmentos que não são recorrentes. [Leia mais](../alpha/alpha-segment-trigger.md)
 
 ## Agosto de 2020 {#august-2020}
