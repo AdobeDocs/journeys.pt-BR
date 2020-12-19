@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # nowWithDelta {#nowWithDelta}
 
-Retorna o datetime atual, incluindo um deslocamento. Se uma ID de fuso horário for especificada, o deslocamento de fuso horário será aplicado. For more information on data types, refer to [this page](../expression/data-types.md).
+Retorna o datetime atual, incluindo um deslocamento. Se uma ID de fuso horário for especificada, o deslocamento de fuso horário será aplicado. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
 
 ## Categoria
 
@@ -30,7 +30,7 @@ Data
 |--- |--- |
 | delta | valor inteiro positivo ou negativo |
 | parte da data | anos, meses, dias, horas, minutos ou segundos como uma sequência |
-| id de fuso horário | representação da string do valor do fuso horário. Para obter mais informações, consulte Tipos [de](../expression/data-types.md)dados. A ID de fuso horário deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão. |
+| id de fuso horário | representação da string do valor do fuso horário. Para obter mais informações, consulte [Tipos de dados](../expression/data-types.md). A ID de fuso horário deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão. |
 
 ## Assinaturas e tipo retornado
 
