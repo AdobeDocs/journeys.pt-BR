@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # Sobre as atividades de ação {#concept_hbj_hrt_52b}
 
-Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, você encontrará a **[!UICONTROL Actions]** categoria.
+Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, você encontrará a categoria **[!UICONTROL Actions]**.
 
 ![](../assets/journey58.png)
 
@@ -24,7 +24,7 @@ Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação pron
 
 Se você tiver configurado ações personalizadas, elas também aparecerão aqui (consulte [esta página](../building-journeys/using-custom-actions.md)).
 
-Ao soltar uma atividade de ação na tela, é possível definir uma **[!UICONTROL Label]**. Isso permite que você adicione um sufixo ao nome da ação que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma ação várias vezes em sua jornada e quiser identificá-los mais facilmente. Os relatórios também serão mais fáceis de ler. Você também pode adicionar uma opção **[!UICONTROL Description]**.
+Ao soltar uma atividade de ação na tela, você pode definir um **[!UICONTROL Label]**. Isso permite que você adicione um sufixo ao nome da ação que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma ação várias vezes em sua jornada e quiser identificá-los mais facilmente. Os relatórios também serão mais fáceis de ler. Você também pode adicionar um **[!UICONTROL Description]** opcional.
 
 ![](../assets/journey59bis.png)
 
