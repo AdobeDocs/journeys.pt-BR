@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # toDuration {#toDuration}
 
-Converte um valor de argumento em uma duração. For more information on data types, refer to [this page](../expression/data-types.md).
+Converte um valor de argumento em uma duração. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
 
 ## Categoria
 
