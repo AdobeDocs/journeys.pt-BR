@@ -14,11 +14,11 @@ ht-degree: 8%
 
 # Configurar o evento{#concept_y44_hcy_w2b}
 
-Em nosso cenário, precisamos receber um evento toda vez que uma pessoa caminha perto de um farol posicionado ao lado do spa. O usuário **** técnico precisa configurar o evento que o sistema vai ouvir em nossa jornada.
+Em nosso cenário, precisamos receber um evento toda vez que uma pessoa caminha perto de um farol posicionado ao lado do spa. O **usuário técnico** precisa configurar o evento que o sistema vai ouvir em nossa jornada.
 
-For additional information on event configuration, refer to [this page](../event/about-events.md).
+Para obter informações adicionais sobre a configuração do evento, consulte [esta página](../event/about-events.md).
 
-1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
+1. No menu superior, clique na guia **[!UICONTROL Events]** e clique em **[!UICONTROL Add]** para criar um novo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -26,7 +26,7 @@ For additional information on event configuration, refer to [this page](../event
 
    ![](../assets/journeyuc1_2.png)
 
-1. Em seguida, selecionamos o schema e definimos a carga esperada para esse evento. Selecionamos os campos necessários no modelo normalizado XDM. Precisamos da ID do Experience Cloud para identificar a pessoa no banco de dados do Perfil do cliente em tempo real: _endUserIDs > experience > mcid > id_. Uma ID é gerada automaticamente para este evento. Essa ID é armazenada no **[!UICONTROL eventID]** campo (_experiência > campanha > orquestração > eventID_). O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Em nosso caso de uso, essa ID é usada para identificar a localização do beacon. Cada vez que uma pessoa caminha perto do beacon spa, um evento será enviado contendo essa ID de evento específica. Isso permite que o sistema saiba qual sinal disparou o envio do evento.
+1. Em seguida, selecionamos o schema e definimos a carga esperada para esse evento. Selecionamos os campos necessários no modelo normalizado XDM. Precisamos da ID do Experience Cloud para identificar a pessoa no banco de dados do Perfil do cliente em tempo real: _endUserIDs > experience > mcid > id_. Uma ID é gerada automaticamente para este evento. Essa ID é armazenada no campo **[!UICONTROL eventID]** (_experiência > campanha > orquestração > eventID_). O sistema que envia o evento não deve gerar uma ID; ele deve usar a que está disponível na pré-visualização de carga. Em nosso caso de uso, essa ID é usada para identificar a localização do beacon. Cada vez que uma pessoa caminha perto do beacon spa, um evento será enviado contendo essa ID de evento específica. Isso permite que o sistema saiba qual sinal disparou o envio do evento.
 
    ![](../assets/journeyuc1_3.png)
 
@@ -34,7 +34,7 @@ For additional information on event configuration, refer to [this page](../event
    >
    >A lista dos campos varia de um schema para outro. De acordo com a definição do schema, alguns campos podem ser obrigatórios e pré-selecionados.
 
-1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. For more information on namespaces, see [this page](../event/selecting-the-namespace.md).
+1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. Para obter mais informações sobre o namespace, consulte [esta página](../event/selecting-the-namespace.md).
 
    ![](../assets/journeyuc1_6.png)
 
@@ -44,7 +44,7 @@ For additional information on event configuration, refer to [this page](../event
 
 1. Clique em **[!UICONTROL Save]**.
 
-1. Clique no **[!UICONTROL View Payload]** ícone para pré-visualização da carga esperada pelo sistema e compartilhá-la com a pessoa responsável pelo envio do evento. Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
+1. Clique no ícone **[!UICONTROL View Payload]** para pré-visualização da carga esperada pelo sistema e compartilhá-la com a pessoa responsável pelo envio do evento. Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
 
    ![](../assets/journeyuc1_7.png)
 
