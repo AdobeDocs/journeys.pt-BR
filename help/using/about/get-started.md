@@ -14,7 +14,7 @@ ht-degree: 92%
 
 # Introdução{#concept_y4b_4qt_52b}
 
-No [!DNL Journey Orchestration] existem dois tipos de usuários, cada um deles com tarefas específicas: o **usuário técnico** e o **usuário empresarial**. O acesso do usuário é gerenciado por perfis de produtos e direitos. Refer to [this page](../about/access-management.md) to learn how to configure user access.
+No [!DNL Journey Orchestration] existem dois tipos de usuários, cada um deles com tarefas específicas: o **usuário técnico** e o **usuário empresarial**. O acesso do usuário é gerenciado por perfis de produtos e direitos. Consulte [esta página](../about/access-management.md) para saber como configurar o acesso do usuário.
 
 Estas são as etapas principais para configurar e utilizar o [!DNL Journey Orchestration]:
 
