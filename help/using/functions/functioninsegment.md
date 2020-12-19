@@ -50,4 +50,4 @@ Retorna um booleano.
 
 Explicação:
 
-A função retornará **[!UICONTROL true]** se o indivíduo dentro da instância da jornada fizer parte do segmento Adobe Experience Platform chamado &quot;homens acima de 50&quot;, caso contrário, **[!UICONTROL false]** .
+A função retornará **[!UICONTROL true]** se o indivíduo dentro da instância de jornada fizer parte do segmento Adobe Experience Platform chamado &quot;men above 50&quot;, senão **[!UICONTROL false]**.
