@@ -14,6 +14,6 @@ ht-degree: 11%
 
 # Finalizar atividade{#section_vqp_4ft_dgb}
 
-A **[!UICONTROL End]** atividade permite que você marque o fim de cada caminho da jornada. Não é obrigatório, mas recomendado para clareza visual. Na verdade, se a viagem tiver várias atividades finais, recomendamos que você adicione um rótulo a cada extremidade para facilitar a leitura dos relatórios. Consulte [esta página](../reporting/about-journey-reports.md).
+A atividade **[!UICONTROL End]** permite que você marque o fim de cada caminho da jornada. Não é obrigatório, mas recomendado para clareza visual. Na verdade, se a viagem tiver várias atividades finais, recomendamos que você adicione um rótulo a cada extremidade para facilitar a leitura dos relatórios. Consulte [esta página](../reporting/about-journey-reports.md).
 
 ![](../assets/journey54.png)
