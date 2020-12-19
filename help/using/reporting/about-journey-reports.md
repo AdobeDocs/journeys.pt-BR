@@ -26,7 +26,7 @@ A barra de ferramentas superior permite, por exemplo, modificar, salvar ou impri
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Use a **[!UICONTROL Project]** guia para:
+Use a guia **[!UICONTROL Project]** para:
 
 * **[!UICONTROL Open]**: abre um relatório ou modelo criado anteriormente.
 * **[!UICONTROL Save As]**: Modelos de duplicados para poder modificá-los.
@@ -34,13 +34,13 @@ Use a **[!UICONTROL Project]** guia para:
 * **[!UICONTROL Download CSV]**: exporta seus relatórios para um arquivo CSV.
 * **[!UICONTROL Print]**: imprime seu relatório.
 
-A **[!UICONTROL Edit]** guia permite:
+A guia **[!UICONTROL Edit]** permite:
 
 * **[!UICONTROL Undo]**: cancela sua última ação em seu painel.
-* **[!UICONTROL Redo]**: cancela sua última **[!UICONTROL Undo]** ação no seu painel.
+* **[!UICONTROL Redo]**: cancela sua última  **[!UICONTROL Undo]** ação em seu painel.
 * **[!UICONTROL Clear all]**: exclui todos os painéis do seu painel.
 
-A **[!UICONTROL Insert]** tabela permite personalizar seus relatórios adicionando gráficos e tabelas ao seu painel:
+A tabela **[!UICONTROL Insert]** permite personalizar seus relatórios adicionando gráficos e tabelas ao seu painel:
 
 * **[!UICONTROL New Blank Panel]**: adiciona um novo painel em branco ao seu painel.
 * **[!UICONTROL New Freeform]**: adiciona uma nova tabela de forma livre ao seu painel.
@@ -53,11 +53,11 @@ As guias à esquerda permitem que você crie seu relatório e filtre seus dados 
 
 Essas guias fornecem acesso aos seguintes itens:
 
-* **[!UICONTROL Panels]**: adicione um painel em branco ou forma livre ao seu relatório para filtrar seus dados por start. For more on this, refer to the [Adding panels](../reporting/creating-your-journey-reports.md#adding-panels) section
-* **[!UICONTROL Visualizations]**: arraste e solte uma seleção de itens de visualização para dar ao seu relatório uma dimensão gráfica. For more on this, refer to the [Adding visualizations](../reporting/creating-your-journey-reports.md#adding-visualizations) section.
-* **[!UICONTROL Components]**: personalize seus relatórios com diferentes dimensões, métricas, segmentos e períodos. For more on this, refer to the [Adding components](../reporting/creating-your-journey-reports.md#adding-components) section.
+* **[!UICONTROL Panels]**: adicione um painel em branco ou forma livre ao seu relatório para filtrar seus dados por start. Para obter mais informações, consulte a seção [Adição de painéis](../reporting/creating-your-journey-reports.md#adding-panels)
+* **[!UICONTROL Visualizations]**: arraste e solte uma seleção de itens de visualização para dar ao seu relatório uma dimensão gráfica. Para obter mais informações, consulte a seção [Adicionar visualizações](../reporting/creating-your-journey-reports.md#adding-visualizations).
+* **[!UICONTROL Components]**: personalize seus relatórios com diferentes dimensões, métricas, segmentos e períodos. Para obter mais informações, consulte a seção [Adicionar componentes](../reporting/creating-your-journey-reports.md#adding-components).
 
-## Modelo de resumo de viagem {#ootb-template}
+## Modelo de resumo de jornada {#ootb-template}
 
 Os relatórios são divididos em duas categorias: um modelo predefinido e relatórios personalizados.
 O modelo predefinido, **[!UICONTROL Journey summary]**, fornece uma visualização clara dos dados de rastreamento mais importantes.
@@ -83,7 +83,7 @@ A visualização do fluxo de jornada permite que você veja o caminho dos perfis
 
 ![](../assets/dynamic_report_journey_10.png)
 
-A **[!UICONTROL Journey summary]** tabela contém os dados disponíveis para sua jornada, como:
+A tabela **[!UICONTROL Journey summary]** contém os dados disponíveis para sua jornada, como:
 
 * **[!UICONTROL Entered]**: número total de pessoas que chegaram ao evento de entrada da viagem.
 * **[!UICONTROL Completion rate]**: número total de indivíduos que atingiram o controlo de fluxo final da viagem em comparação com o número total de indivíduos que entraram na viagem.
@@ -91,11 +91,11 @@ A **[!UICONTROL Journey summary]** tabela contém os dados disponíveis para sua
 * **[!UICONTROL Failed]**: número total de viagens que não foram executadas com êxito.
 * **[!UICONTROL Failed rate]**: número total de viagens que não foram executadas com êxito em comparação com o número de viagens em curso.
 
-A **[!UICONTROL Top events]** tabela exibe os eventos mais bem-sucedidos e **[!UICONTROL Top action]** as ações mais bem-sucedidas em suas viagens.
+A tabela **[!UICONTROL Top events]** exibe os eventos mais bem-sucedidos e **[!UICONTROL Top action]**, as ações mais bem-sucedidas em suas viagens.
 
 ![](../assets/dynamic_report_journey_11.png)
 
-A **[!UICONTROL Delivery - Sending summary]** tabela contém os dados disponíveis para os delivery de sua jornada, como:
+A tabela **[!UICONTROL Delivery - Sending summary]** contém os dados disponíveis para os delivery de sua jornada, como:
 
 * **[!UICONTROL Processed/sent]**: número total de mensagens enviadas.
 * **[!UICONTROL Delivered rate]**: número total de mensagens entregues com êxito em comparação com as mensagens enviadas.
@@ -103,7 +103,7 @@ A **[!UICONTROL Delivery - Sending summary]** tabela contém os dados disponíve
 * **[!UICONTROL Bounce + error rate]**: o número total de mensagens que retornaram em comparação com as mensagens enviadas.
 * **[!UICONTROL Bounces + errors]**: Total de erros acumulados durante o processamento de retorno automático e delivery em relação ao número total de mensagens enviadas.
 
-A **[!UICONTROL Delivery - Tracking summary]** tabela contém os dados disponíveis para rastrear o sucesso dos delivery de suas viagens, como:
+A tabela **[!UICONTROL Delivery - Tracking summary]** contém os dados disponíveis para rastrear o sucesso dos delivery de suas viagens, como:
 
 * **[!UICONTROL Open Rate]**: porcentagem de mensagens abertas.
 * **[!UICONTROL Open]**: número de vezes que uma mensagem foi aberta em um delivery.
