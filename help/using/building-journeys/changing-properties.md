@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Clique no ícone de lápis, na parte superior direita, para acessar as propriedades da jornada.
 
-Você pode alterar o nome da jornada, adicionar uma descrição, permitir a reentrada, escolher datas de start e término e definir uma **[!UICONTROL Timeout and error]** duração se você for administrador.
+Você pode alterar o nome da jornada, adicionar uma descrição, permitir a reentrada, escolher datas de start e término e definir uma duração **[!UICONTROL Timeout and error]** se você for administrador.
 
 ![](../assets/journey32.png)
 
@@ -25,21 +25,21 @@ Você pode alterar o nome da jornada, adicionar uma descrição, permitir a reen
 
 Por padrão, novas viagens permitem a reentrada. Você pode desmarcar a opção por viagens de &quot;uma foto&quot;, por exemplo, se quiser oferta de um presente único quando uma pessoa entrar em uma loja. Nesse caso, você não quer que o cliente seja capaz de entrar novamente na viagem e receber a oferta novamente.
 
-Quando uma viagem &quot;termina&quot;, ela terá status **[!UICONTROL Closed (no entrance)]**. A viagem deixará de deixar novos indivíduos entrarem na viagem. As pessoas que já se encontram na viagem terminarão a viagem normalmente.
+Quando uma jornada &quot;termina&quot;, ela terá o status **[!UICONTROL Closed (no entrance)]**. A viagem deixará de deixar novos indivíduos entrarem na viagem. As pessoas que já se encontram na viagem terminarão a viagem normalmente.
 
 ## Tempo limite e erro nas atividades de viagem {#timeout_and_error}
 
-Ao editar uma ação ou atividade de condição, você pode definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida nas propriedades da viagem (**[!UICONTROL Timeout and  error]** campo), o segundo caminho será escolhido para executar uma potencial ação de fallback.
+Ao editar uma ação ou atividade de condição, você pode definir um caminho alternativo em caso de erro ou tempo limite. Se o processamento da atividade que interroga um sistema de terceiros exceder a duração do tempo limite definida nas propriedades da jornada (**[!UICONTROL Timeout and  error]** campo), o segundo caminho será escolhido para executar uma potencial ação de fallback.
 
 Os valores autorizados estão entre 1 e 30 segundos.
 
-Recomendamos que você defina um **[!UICONTROL Timeout and error]** valor muito curto se sua jornada for sensível ao tempo (por exemplo: reação ao local em tempo real de uma pessoa) porque não é possível atrasar a ação por mais de alguns segundos. Se sua jornada for menos sensível ao tempo, você poderá usar um valor maior para dar mais tempo ao sistema chamado para enviar uma resposta válida.
+Recomendamos que você defina um valor **[!UICONTROL Timeout and error]** muito curto se sua jornada for sensível ao tempo (por exemplo: reação ao local em tempo real de uma pessoa) porque não é possível atrasar a ação por mais de alguns segundos. Se sua jornada for menos sensível ao tempo, você poderá usar um valor maior para dar mais tempo ao sistema chamado para enviar uma resposta válida.
 
-[!DNL Journey Orchestration] também usa um tempo limite global. Consulte a [próxima seção](#global_timeout).
+[!DNL Journey Orchestration] também usa um tempo limite global. Consulte a próxima seção [](#global_timeout).
 
 ## Tempo limite de jornada global {#global_timeout}
 
-Além do [tempo limite](#timeout_and_error) utilizado nas atividades de viagem, existe também um tempo limite de viagem global que não é apresentado na interface e não pode ser alterado. Este tempo limite interromperá o progresso dos indivíduos na viagem 30 dias após a sua entrada. Isto significa que a viagem de um indivíduo não pode durar mais de 30 dias. Após o período de tempo limite de 30 dias, os dados do indivíduo são excluídos. As pessoas que continuam a fluir na viagem no final do período de tempo limite serão interrompidas e serão tidas em conta como erros de relatórios.
+Além do [timeout](#timeout_and_error) usado em atividades de jornada, há também um tempo limite de jornada global que não é exibido na interface e não pode ser alterado. Este tempo limite interromperá o progresso dos indivíduos na viagem 30 dias após a sua entrada. Isto significa que a viagem de um indivíduo não pode durar mais de 30 dias. Após o período de tempo limite de 30 dias, os dados do indivíduo são excluídos. As pessoas que continuam a fluir na viagem no final do período de tempo limite serão interrompidas e serão tidas em conta como erros de relatórios.
 
 >[!NOTE]
 >
