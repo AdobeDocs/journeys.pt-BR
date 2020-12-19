@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: b3ed5d305ddd1c86814373fc923390dc50a80c7e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -20,4 +20,4 @@ O payload contém informações necessárias para que as APIs de assimilação d
 
 Após a chegada através das APIs de assimilação de streaming, os eventos fluem para um serviço interno chamado Pipeline e, em seguida, para a Adobe Experience Platform. Se o schema do evento tiver o sinalizador de Serviço de perfil do cliente em tempo real ativado e uma ID de conjunto de dados que também tenha o sinalizador de Perfil do cliente em tempo real, ele fluirá para o Serviço de perfil do cliente em tempo real.
 
-For system-generated events, the Pipeline filters events which have a payload containing [!DNL Journey Orchestration] eventIDs (see the event creation process below) provided by [!DNL Journey Orchestration] and contained in event payload. Para eventos baseados em regras, o sistema identifica o evento usando a condição eventID. Esses eventos são acompanhados pelo [!DNL Journey Orchestration] e a jornada correspondente é acionada.
+Para eventos gerados pelo sistema, os eventos Pipeline filtros que têm uma carga contendo [!DNL Journey Orchestration] eventIDs (consulte o processo de criação de evento abaixo) fornecidos por [!DNL Journey Orchestration] e contidos na carga do evento. Para eventos baseados em regras, o sistema identifica o evento usando a condição eventID. Esses eventos são acompanhados pelo [!DNL Journey Orchestration] e a jornada correspondente é acionada.
