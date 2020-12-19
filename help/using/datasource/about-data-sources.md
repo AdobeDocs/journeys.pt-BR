@@ -45,11 +45,11 @@ Estas são as etapas principais de configuração da fonte de dados:
 
 1. No menu superior, clique na guia **[!UICONTROL Data Sources]**.
 
-   A lista das fontes de dados é exibida. See [this page](../about/user-interface.md) for more information on the interface.
+   A lista das fontes de dados é exibida. Consulte [esta página](../about/user-interface.md) para obter mais informações sobre a interface.
 
    ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [this page](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [this page](../datasource/external-data-sources.md)) and associated field groups (see [this page](../datasource/field-groups.md)).
+1. Em seguida, você pode adicionar grupos de campos à fonte de dados integrada (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) ou criar uma nova fonte de dados externa (consulte [esta página](../datasource/external-data-sources.md)) e grupos de campos associados (consulte [esta página](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 
