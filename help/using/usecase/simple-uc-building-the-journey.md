@@ -6,8 +6,8 @@ description: Saiba como criar uma viagem de caso de uso simples
 translation-type: tm+mt
 source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 38%
 Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá apenas um caminho com as seguintes atividades:
 
 * o &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando uma pessoa caminha perto do spa beacon, o sistema receberá um evento e a viagem será start para essa pessoa.
-* uma **[!UICONTROL Condition]** atividade para verificar se a pessoa é uma mulher
-* uma **[!UICONTROL Email]** atividade (usando o Adobe Campaign Standard)
+* uma atividade **[!UICONTROL Condition]** para verificar se a pessoa é uma mulher
+* uma atividade **[!UICONTROL Email]** (usando o Adobe Campaign Standard)
 * uma atividade **[!UICONTROL End]**
 
 >[!NOTE]
 >
 >As atividades **[!UICONTROL Push]** e **[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
-For additional information on how to build a journey, refer to [this page](../building-journeys/journey.md).
+Para obter informações adicionais sobre como construir uma jornada, consulte [esta página](../building-journeys/journey.md).
 
 1. No menu superior, clique na guia **[!UICONTROL Home]** e **[!UICONTROL Create]** para criar uma nova jornada.
 
@@ -51,11 +51,11 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_12.png)
 
-1. Solte uma **[!UICONTROL Email]** atividade e selecione seu modelo de mensagem transacional de &quot;Desconto do Spa&quot;. Este modelo foi projetado usando o Adobe Campaign. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Solte uma atividade **[!UICONTROL Email]** e selecione seu modelo de mensagem transacional &quot;Spa discount&quot;. Este modelo foi projetado usando o Adobe Campaign. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Click inside the **[!UICONTROL Email]** field and select the email address from the data source.
+1. Clique no campo **[!UICONTROL Email]** e selecione o endereço de email da fonte de dados.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -63,11 +63,11 @@ For additional information on how to build a journey, refer to [this page](../bu
 
    ![](../assets/journeyuc1_15.png)
 
-1. Solte uma **[!UICONTROL End]** atividade.
+1. Solte uma atividade **[!UICONTROL End]**.
 
    ![](../assets/journeyuc1_17.png)
 
-1. Clique na opção de **[!UICONTROL Test]** alternar e teste sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. For more information on the test mode, refer to [this page](../building-journeys/testing-the-journey.md).
+1. Clique no **[!UICONTROL Test]** para alternar e testar sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
