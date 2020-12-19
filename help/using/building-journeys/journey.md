@@ -14,23 +14,23 @@ ht-degree: 17%
 
 # Criar uma jornada {#concept_gq5_sqt_52b}
 
-This step is performed by the **business user**. Aqui é onde você cria suas viagens. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
+Esta etapa é executada pelo **usuário comercial**. Aqui é onde você cria suas viagens. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
 
 A interface de jornada permite que você arraste e solte facilmente atividades da paleta para a tela. Você também pode clicar com o duplo em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem um papel e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 
 Apenas uma namespace é permitida por viagem. Quando você solta a primeira evento, eventos com namespaces diferentes ficam esmaecidos. Se o primeiro evento não tiver uma namespace, então todos os eventos com uma namespace estarão esmaecidos. Consulte [esta página](../event/selecting-the-namespace.md). Além disso, grupos de campo da Adobe Experience Platform ficam esmaecidos se a jornada tiver eventos sem namespace. E finalmente, se você usar vários eventos na mesma jornada, eles precisam usar a mesma namespace.
 
-## Quick start {#creating_journey}
+## Start rápido {#creating_journey}
 
 Estes são os principais passos para criar e publicar uma jornada.
 
 1. No menu superior, clique na guia **[!UICONTROL Home]**.
 
-   A lista das viagens é exibida. Refer to [this page](../building-journeys/using-the-journey-designer.md) for more information on the interface.
+   A lista das viagens é exibida. Consulte [esta página](../building-journeys/using-the-journey-designer.md) para obter mais informações sobre a interface.
 
    ![](../assets/journey30.png)
 
-1. Click **[!UICONTROL Create]** to create a new journey.
+1. Clique em **[!UICONTROL Create]** para criar uma nova jornada.
 
    ![](../assets/journey31.png)
 
@@ -42,15 +42,15 @@ Estes são os principais passos para criar e publicar uma jornada.
 
    ![](../assets/journey33.png)
 
-1. Arraste e solte suas outras atividades e configure-as. Consulte as páginas atividades [do](../building-journeys/event-activities.md)Evento, [Sobre atividades](../building-journeys/about-orchestration-activities.md) de orquestração e [Sobre atividades](../building-journeys/about-action-activities.md)de ação.
+1. Arraste e solte suas outras atividades e configure-as. Consulte as páginas [atividades do Evento](../building-journeys/event-activities.md), [Sobre atividades de orquestração](../building-journeys/about-orchestration-activities.md) e [Sobre atividades de ação](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Sua jornada é automaticamente salva. Teste sua jornada e publique-a. Consulte [Testando a jornada](../building-journeys/testing-the-journey.md) e [Publicando a jornada](../building-journeys/publishing-the-journey.md).
+1. Sua jornada é automaticamente salva. Teste sua jornada e publique-a. Consulte [testando a jornada](../building-journeys/testing-the-journey.md) e [Publicando a jornada](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
-## Terminar uma viagem {#ending_a_journey}
+## Terminando uma jornada {#ending_a_journey}
 
 Há duas maneiras de terminar uma jornada:
 
