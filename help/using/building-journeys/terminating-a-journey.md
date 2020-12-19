@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # Encerrar uma jornada
 
-As **[!UICONTROL Stop]** opções e **[!UICONTROL Close to new entrances]** permitem que você encerre as viagens **em tempo real** . Encerrar uma viagem implica **que a chegada de novos clientes à viagem seja bloqueada** e que os clientes que já entraram na viagem possam experimentá-la até o fim. Essa é a maneira mais recomendada de acabar com uma jornada, pois oferta a melhor experiência para os clientes. Parar uma viagem implica que as pessoas que já entraram numa viagem sejam todas interrompidas no seu progresso. A jornada é basicamente desligada.
+As opções **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** permitem que você encerre **viagens ao vivo**. O encerramento de uma viagem implica **que a chegada de novos clientes à viagem seja bloqueada** e que os clientes que já entraram na viagem possam experimentá-la até ao fim. Essa é a maneira mais recomendada de acabar com uma jornada, pois oferta a melhor experiência para os clientes. Parar uma viagem implica que as pessoas que já entraram numa viagem sejam todas interrompidas no seu progresso. A jornada é basicamente desligada.
 
 >[!NOTE]
 >
@@ -26,13 +26,13 @@ Você pode fechar uma jornada manualmente para garantir que os clientes que já 
 
 Uma versão de viagem fechada não pode ser reiniciada ou excluída. Você pode criar uma nova versão ou duplicado dela.
 
-Você pode fechar uma jornada clicando **[!UICONTROL Close to new entrances]** enquanto passa o mouse sobre uma jornada na lista de viagens.
+Você pode fechar uma jornada clicando em **[!UICONTROL Close to new entrances]** enquanto passa o mouse sobre uma jornada na lista de viagens.
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
 Você também pode:
 
-1. Em **[!UICONTROL Home]**, clique na jornada que você quer fechar.
+1. Em **[!UICONTROL Home]**, clique na jornada que deseja fechar.
 1. No canto superior direito, clique na seta para baixo.
 
    ![](../assets/finish_drop_down_list.png)
@@ -46,13 +46,13 @@ Você pode parar uma jornada quando uma emergência ocorreu e todo o processamen
 
 Uma versão de viagem interrompida não pode ser reiniciada.
 
-Você pode interromper uma jornada (por exemplo, se um comerciante perceber que a jornada público alvo a audiência errada ou uma ação personalizada suposta para entregar mensagens não está funcionando corretamente...) clicando **[!UICONTROL Stop]** ao passar o mouse sobre uma jornada na lista de viagens.
+Você pode interromper uma jornada (por exemplo, se um comerciante perceber que a jornada público alvo a audiência errada ou uma ação personalizada suposta para entregar mensagens não está funcionando corretamente...) clicando em **[!UICONTROL Stop]** ao passar o mouse sobre uma jornada na lista de viagens.
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
 Você também pode:
 
-1. Em **[!UICONTROL Home]**, clique na jornada que você quer parar.
+1. Em **[!UICONTROL Home]**, clique na jornada que deseja parar.
 1. No canto superior direito, clique na seta para baixo.
 
 ![](../assets/finish_drop_down_list.png)
