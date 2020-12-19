@@ -32,9 +32,9 @@ else
    (<expression3>)
 ```
 
-`<expression1>` deve retornar um **booleano**.
+`<expression1>` deve retornar um  **booleano**.
 
-`<expression2>` e `<expression3>` devem ter o mesmo tipo ou tipos compatíveis. As assinaturas suportadas e os tipos retornados são:
+`<expression2>` e  `<expression3>` devem ter o mesmo tipo ou tipos compatíveis. As assinaturas suportadas e os tipos retornados são:
 
 ```
 boolean,boolean : boolean
