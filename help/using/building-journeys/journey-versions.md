@@ -24,7 +24,7 @@ Se você precisa modificar uma jornada ao vivo, você precisa criar uma nova ver
 >
 >Para saber mais sobre limitações de versões de viagem, consulte [esta página](../about/limitations.md#journey-versions-limitations)
 
-1. Abra a versão mais recente de sua jornada ao vivo, clique **[!UICONTROL Create a new version]** e confirme.
+1. Abra a versão mais recente de sua jornada ao vivo, clique em **[!UICONTROL Create a new version]** e confirme.
 
    ![](../assets/journeyversions2.png)
 
@@ -32,7 +32,7 @@ Se você precisa modificar uma jornada ao vivo, você precisa criar uma nova ver
    >
    >Você só pode criar uma nova versão a partir da versão mais recente de uma jornada.
 
-1. Faça suas modificações, clique **[!UICONTROL Publish]** e confirme.
+1. Faça suas modificações, clique em **[!UICONTROL Publish]** e confirme.
 
    ![](../assets/journeyversions3.png)
 
@@ -42,4 +42,4 @@ Versões de viagem podem ser interrompidas individualmente. Todas as versões da
 
 >[!NOTE]
 >
->Quando você publica uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status **Fechado** . Nenhuma entrada na viagem acontecerá. Mesmo se você interromper a versão mais recente, a versão anterior permanecerá fechada.
+>Quando você publica uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status **Fechado**. Nenhuma entrada na viagem acontecerá. Mesmo se você interromper a versão mais recente, a versão anterior permanecerá fechada.
