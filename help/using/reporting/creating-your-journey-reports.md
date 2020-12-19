@@ -28,31 +28,31 @@ Para acessar os relatórios de suas viagens e o start que acompanha o sucesso de
 
 1. Selecione a jornada na qual deseja relatar.
 
-   Observe que você também pode acessar seus relatórios clicando em **Relatório** enquanto passa o mouse sobre uma jornada na lista de viagens.
+   Observe que você também pode acessar seus relatórios clicando em **Relatório** ao passar o mouse sobre uma jornada na lista de viagens.
 
    ![](../assets/dynamic_report_journey.png)
 
-1. Clique no **[!UICONTROL Report]** ícone na parte superior direita da tela.
+1. Clique no ícone **[!UICONTROL Report]** na parte superior direita da tela.
 
    ![](../assets/dynamic_report_journey_2.png)
 
-1. O relatório **[!UICONTROL Journey summary]** pronto para uso aparece na tela. Para acessar relatórios personalizados, clique no **[!UICONTROL Close]** botão.
+1. O relatório **[!UICONTROL Journey summary]** predefinido é exibido na tela. Para acessar relatórios personalizados, clique no botão **[!UICONTROL Close]**.
 
    ![](../assets/dynamic_report_journey_12.png)
 
-1. Clique no link **[!UICONTROL Create new project]** para criar seu relatório do zero.
+1. Clique em **[!UICONTROL Create new project]** para criar seu relatório do zero.
 
    ![](../assets/dynamic_report_journey_3.png)
 
-1. Na **[!UICONTROL Panels]** guia, arraste e solte quantos painéis ou tabelas de forma livre forem necessários. Para obter mais informações, consulte esta [seção](#adding-panels).
+1. Na guia **[!UICONTROL Panels]**, arraste e solte quantos painéis ou tabelas de forma livre forem necessários. Para obter mais informações, consulte esta [seção](#adding-panels).
 
    ![](../assets/dynamic_report_journey_4.png)
 
-1. Você pode filtrar seus dados por start arrastando e soltando dimensões e métricas da **[!UICONTROL Components]** guia para a tabela de forma livre. Para obter mais informações, consulte esta [seção](#adding-components).
+1. Em seguida, é possível filtrar seus dados por start arrastando e soltando dimensões e métricas da guia **[!UICONTROL Components]** para a tabela de forma livre. Para obter mais informações, consulte esta [seção](#adding-components).
 
    ![](../assets/dynamic_report_journey_5.png)
 
-1. Para ter uma visualização mais clara dos seus dados, você pode adicionar visualizações na **[!UICONTROL Visualizations]** guia. Para obter mais informações, consulte esta [seção](#adding-visualizations).
+1. Para ter uma visualização mais clara dos seus dados, você pode adicionar visualizações da guia **[!UICONTROL Visualizations]**. Para obter mais informações, consulte esta [seção](#adding-visualizations).
 
 ## Adicionar painéis{#adding-panels}
 
@@ -62,7 +62,7 @@ Para start de seu relatório, é possível adicionar um conjunto de painéis a u
 
 Esse painel permite que você crie seus relatórios conforme necessário. Você pode adicionar quantos painéis desejar em seus relatórios para filtrar seus dados com períodos de tempo diferentes.
 
-1. Clique no ícone **[!UICONTROL Panels]**. Você também pode adicionar um painel clicando no painel **[!UICONTROL Insert tab]** e selecionando **[!UICONTROL New Blank Panel]**.
+1. Clique no ícone **[!UICONTROL Panels]**. Você também pode adicionar um painel clicando em **[!UICONTROL Insert tab]** e selecionando **[!UICONTROL New Blank Panel]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
@@ -74,7 +74,7 @@ Agora é possível adicionar uma tabela de forma livre ao painel aos dados de di
 
 ### Adicionar uma tabela de forma livre {#adding-a-freeform-table}
 
-As tabelas de forma livre permitem criar uma tabela para analisar seus dados usando as diferentes métricas e dimensões disponíveis na **[!UICONTROL Component]** tabela.
+As tabelas de forma livre permitem criar uma tabela para analisar seus dados usando as diferentes métricas e dimensões disponíveis na tabela **[!UICONTROL Component]**.
 
 Cada tabela e visualização é redimensionável e pode ser movida para personalizar melhor seu relatório.
 
@@ -82,21 +82,21 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
 
    ![](../assets/dynamic_report_panel_1.png)
 
-1. Arraste e solte o **[!UICONTROL Freeform]** item no seu painel.
+1. Arraste e solte o item **[!UICONTROL Freeform]** no seu painel.
 
-   Você também pode adicionar uma tabela clicando na **[!UICONTROL Insert]** guia e selecionando **[!UICONTROL New Freeform]** ou clicando **[!UICONTROL Add a freeform table]** em um painel vazio.
+   Você também pode adicionar uma tabela clicando na guia **[!UICONTROL Insert]** e selecionando **[!UICONTROL New Freeform]** ou clicando em **[!UICONTROL Add a freeform table]** em um painel vazio.
 
    ![](../assets/dynamic_report_panel_2.png)
 
-1. Arraste e solte itens da **[!UICONTROL Components]** guia nas colunas e linhas para criar sua tabela.
+1. Arraste e solte itens da guia **[!UICONTROL Components]** nas colunas e linhas para criar sua tabela.
 
    ![](../assets/dynamic_report_freeform_3.png)
 
-1. Clique no **[!UICONTROL Settings]** ícone para alterar como os dados são exibidos nas colunas.
+1. Clique no ícone **[!UICONTROL Settings]** para alterar a forma como os dados são exibidos nas colunas.
 
    ![](../assets/dynamic_report_freeform_4.png)
 
-   O **[!UICONTROL Column settings]** grupo é composto por:
+   O **[!UICONTROL Column settings]** é composto por:
 
    * **[!UICONTROL Number]**: permite mostrar ou ocultar números de resumo na coluna.
    * **[!UICONTROL Percent]**: permite mostrar ou ocultar porcentagens na coluna.
@@ -104,7 +104,7 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
    * **[!UICONTROL Background]**: permite mostrar ou ocultar a barra de progresso horizontal nas células.
    * **[!UICONTROL Include retries]**: permite incluir tentativas no resultado. Isso só está disponível para **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Selecione uma ou várias linhas e clique no **[!UICONTROL Visualize]** ícone. Uma visualização é adicionada para refletir as linhas selecionadas.
+1. Selecione uma ou várias linhas e clique no ícone **[!UICONTROL Visualize]**. Uma visualização é adicionada para refletir as linhas selecionadas.
 
    ![](../assets/dynamic_report_freeform_5.png)
 
@@ -114,7 +114,7 @@ Agora você pode adicionar quantos componentes precisar e também adicionar visu
 
 Os componentes ajudam você a personalizar seus relatórios com diferentes dimensões, métricas e períodos.
 
-1. Clique na **[!UICONTROL Components]** guia para acessar a lista dos componentes.
+1. Clique na guia **[!UICONTROL Components]** para acessar a lista dos componentes.
 
    ![](../assets/dynamic_report_components.png)
 
@@ -132,18 +132,18 @@ Você pode arrastar e soltar quantos componentes forem necessários e compará-l
 
 ## Adicionar visualizações{#adding-visualizations}
 
-A **[!UICONTROL Visualizations]** guia permite arrastar e soltar itens de visualização, como área, rosca e gráfico. As visualizações fornecem representações gráficas dos seus dados.
+A guia **[!UICONTROL Visualizations]** permite arrastar e soltar itens de visualização, como área, rosca e gráfico. As visualizações fornecem representações gráficas dos seus dados.
 
-1. Na **[!UICONTROL Visualizations]** guia, arraste e solte um item de visualização em um painel.
+1. Na guia **[!UICONTROL Visualizations]**, arraste e solte um item de visualização em um painel.
 
    ![](../assets/dynamic_report_visualization_1.png)
 
 1. Após adicionar uma visualização ao painel, seus relatórios detectarão automaticamente os dados na tabela de forma livre. Selecione as configurações para sua visualização.
-1. Se você tiver mais de uma tabela de forma livre, escolha a fonte de dados disponível para adicionar em seu gráfico na **[!UICONTROL Data Source Settings]** janela. Essa janela também está disponível ao clicar no ponto colorido ao lado do título da visualização.
+1. Se você tiver mais de uma tabela de forma livre, escolha a fonte de dados disponível para adicionar em seu gráfico na janela **[!UICONTROL Data Source Settings]**. Essa janela também está disponível ao clicar no ponto colorido ao lado do título da visualização.
 
    ![](../assets/dynamic_report_visualization_2.png)
 
-1. Clique no botão de **[!UICONTROL Visualization]** configurações para alterar diretamente o tipo de gráfico ou o que é exibido nele, como:
+1. Clique no botão **[!UICONTROL Visualization]** settings (Configurações de &lt;a0/>) para alterar diretamente o tipo de gráfico ou o que é exibido nele, como:
 
    * **[!UICONTROL Percentages]**: Exibe os valores em porcentagem.
    * **[!UICONTROL Anchor Y Axis at Zero]**: Força o eixo y a zero mesmo se os valores estiverem acima de zero.
