@@ -28,13 +28,13 @@ A lista de campos XDM que são passados é abrangente. Alguns contêm códigos g
 
 >[!CAUTION]
 >
->Os conjuntos de dados não podem ser ativados para o serviço de perfil em tempo real. Certifique-se de que a **[!UICONTROL Profile]** alternância está desligada.
+>Os conjuntos de dados não podem ser ativados para o serviço de perfil em tempo real. Certifique-se de que a alternância **[!UICONTROL Profile]** esteja desativada.
 
 As viagens enviam os dados como ocorrem, de forma contínua. É possível query desses dados usando o Serviço de Query. Você pode se conectar ao Customer Journey Analytics ou a outras ferramentas BI para visualização de dados relacionados a essas etapas.
 
 Os seguintes schemas são criados:
 
-* Schema de Perfil da Etapa de Jornada para [!DNL Journey Orchestration] - Eventos de experiência para as etapas realizadas em uma Jornada junto com um Mapa de identidade a ser usado para mapear para um participante individual da jornada.
+* Schema de Evento de Perfil de Etapa de Jornada para [!DNL Journey Orchestration] - Experimente Eventos para obter as etapas realizadas em uma Jornada juntamente com um Mapa de Identidade a ser usado para mapear para um Participante de Jornada individual.
 * Schema de Evento de Etapa de Jornada para [!DNL Journey Orchestration] - evento de etapa de jornada vinculado a um Metadados de Jornada.
 * Schema de jornada com campos de jornada para [!DNL Journey Orchestration] - Metadados de jornada para descrever Jornadas.
 
@@ -44,7 +44,7 @@ Os seguintes schemas são criados:
 
 Os seguintes conjuntos de dados são enviados:
 
-* Schema de Perfil da Etapa de Jornada para Evento [!DNL Journey Orchestration]
+* Schema de Evento de Perfil da Etapa de Jornada para [!DNL Journey Orchestration]
 * Eventos de Etapa de Jornada
 * Jornadas
 
@@ -58,4 +58,4 @@ As listas dos campos XDM passados para a Adobe Experience Platform estão detalh
 * [campos de identidade do evento journeyStep](../building-journeys/sharing-identity-fields.md)
 * [campos de jornada](../building-journeys/sharing-journey-fields.md)
 
-Para obter mais informações sobre o relatórios de eventos de etapa para o Adobe Experience Platform, assista a este vídeo [de](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html)tutorial.
+Para obter mais informações sobre o relatórios de eventos de etapa para o Adobe Experience Platform, assista a este [vídeo tutorial](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
