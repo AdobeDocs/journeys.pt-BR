@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ![](../assets/messageparameterssection.png)
 
-Na **[!UICONTROL Message parameters]** seção, cole um exemplo da carga JSON para enviar ao serviço externo.
+Na seção **[!UICONTROL Message parameters]**, cole um exemplo da carga JSON para enviar ao serviço externo.
 
 ![](../assets/customactionpayloadmessage.png)
 
