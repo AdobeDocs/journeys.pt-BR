@@ -22,19 +22,19 @@ Para usar o modo de teste, siga estas etapas:
 
 1. Antes de testar sua jornada, verifique se ela é válida e se não há erro. Você não poderá iniciar um teste de uma jornada com erros. Consulte [esta seção](../about/troubleshooting.md#section_h3q_kqk_fhb). Um símbolo de aviso é exibido quando há erros.
 
-1. Para ativar o modo de teste, clique na **[!UICONTROL Test]** alternância localizada no canto superior direito.
+1. Para ativar o modo de teste, clique na opção **[!UICONTROL Test]**, localizada no canto superior direito.
 
    ![](../assets/journeytest1.png)
 
-1. Use o **[!UICONTROL Wait time in test]** parâmetro, no canto inferior esquerdo, para definir o tempo que cada atividade de espera durará no modo de teste. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Este parâmetro só será exibido se você tiver soltado uma ou mais atividades de espera em sua jornada.
+1. Use o parâmetro **[!UICONTROL Wait time in test]**, no canto inferior esquerdo, para definir o tempo que cada atividade de espera durará no modo de teste. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Este parâmetro só será exibido se você tiver soltado uma ou mais atividades de espera em sua jornada.
 
    ![](../assets/journeytest_wait.png)
 
-1. Clique **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados aos perfis de teste. Consulte [Disparando seus eventos](#firing_events).
+1. Clique em **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados aos perfis de teste. Consulte [Acionando seus eventos](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. Depois que os eventos forem recebidos, clique no **[!UICONTROL Show log]** botão para visualização do resultado do teste e verificá-los. Consulte [Visualização dos registros](#viewing_logs).
+1. Depois que os eventos forem recebidos, clique no botão **[!UICONTROL Show log]** para visualização do resultado do teste e verificá-los. Consulte [Ver os registros](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
@@ -50,9 +50,9 @@ Para usar o modo de teste, siga estas etapas:
 * Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
 * Não é possível modificar sua jornada quando o modo de teste é ativado. Quando estiver no modo de teste, você pode publicar diretamente a jornada, não é necessário desativar o modo de teste antes.
 
-## Creating a test profile{#create-test-profile}
+## Criação de um perfil de teste{#create-test-profile}
 
-O processo para criar um perfil de teste é o mesmo que quando você cria um perfil no Adobe Experience Platform. Ela é executada por meio de chamadas de API. See this [page](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)
+O processo para criar um perfil de teste é o mesmo que quando você cria um perfil no Adobe Experience Platform. Ela é executada por meio de chamadas de API. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)
 
 Você deve usar um schema que contenha a combinação &quot;detalhes do teste do perfil&quot;. O sinalizador testProfile faz parte dessa mistura.
 
@@ -106,7 +106,7 @@ curl -X POST \
 
 ## Acionando seus eventos {#firing_events}
 
-O **[!UICONTROL Trigger an event]** botão permite configurar um evento que fará com que uma pessoa entre na jornada.
+O botão **[!UICONTROL Trigger an event]** permite configurar um evento que fará com que uma pessoa entre na jornada.
 
 >[!NOTE]
 >
@@ -118,13 +118,13 @@ Se sua jornada contiver vários eventos, use a lista suspensa para selecionar um
 
 ![](../assets/journeytest4.png)
 
-A interface permite que você passe parâmetros de evento simples. Se quiser passar coleções ou outros objetos avançados no evento, clique em para ver todo o código da carga e modificá-lo. **[!UICONTROL Code View]** Por exemplo, você pode copiar e colar informações do evento preparadas por um usuário técnico.
+A interface permite que você passe parâmetros de evento simples. Se quiser enviar coleções ou outros objetos avançados no evento, clique em **[!UICONTROL Code View]** para ver o código inteiro da carga e modificá-lo. Por exemplo, você pode copiar e colar informações do evento preparadas por um usuário técnico.
 
 ![](../assets/journeytest5.png)
 
 Um usuário técnico também pode usar essa interface para compor cargas úteis de eventos e acionar eventos sem precisar usar uma ferramenta de terceiros.
 
-Ao clicar no **[!UICONTROL Send]** botão, o teste é iniciado. A progressão do indivíduo na jornada é representada por um fluxo visual. O caminho se torna progressivamente verde à medida que o indivíduo se move através da jornada. Se ocorrer um erro, um símbolo de aviso será exibido na etapa correspondente. Você pode colocar o cursor nele para exibir mais informações sobre o erro e acessar os detalhes completos (quando disponíveis).
+Ao clicar no botão **[!UICONTROL Send]**, o teste é iniciado. A progressão do indivíduo na jornada é representada por um fluxo visual. O caminho se torna progressivamente verde à medida que o indivíduo se move através da jornada. Se ocorrer um erro, um símbolo de aviso será exibido na etapa correspondente. Você pode colocar o cursor nele para exibir mais informações sobre o erro e acessar os detalhes completos (quando disponíveis).
 
 ![](../assets/journeytest6.png)
 
@@ -134,19 +134,19 @@ Ao abrir uma jornada no teste, o caminho exibido corresponde ao último teste ex
 
 O fluxo visual funciona se o evento é disparado pela interface ou externamente (usando o Postman, por exemplo).
 
-## Modo de ensaio para viagens com base em regras {#test-rule-based}
+## Modo de ensaio para viagens baseadas em regras {#test-rule-based}
 
-O modo de teste também está disponível para viagens que usam um evento baseado em regras. For more information on rule-based events, refer to [this page](../event/about-events.md).
+O modo de teste também está disponível para viagens que usam um evento baseado em regras. Para obter mais informações sobre eventos baseados em regras, consulte [esta página](../event/about-events.md).
 
-Ao acionar um evento, a tela de configuração **do** Evento permite que você defina os parâmetros do evento a serem aprovados no teste. Você pode visualização a condição da ID do evento clicando no ícone da dica de ferramenta no canto superior direito. Uma dica de ferramenta também está disponível ao lado de cada campo que faz parte da avaliação da regra.
+Ao acionar um evento, a tela **configuração do Evento** permite que você defina os parâmetros do evento a serem aprovados no teste. Você pode visualização a condição da ID do evento clicando no ícone da dica de ferramenta no canto superior direito. Uma dica de ferramenta também está disponível ao lado de cada campo que faz parte da avaliação da regra.
 
 ![](../assets/alpha-event8.png)
 
 Para obter mais informações sobre como usar o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-## Exibição dos registros {#viewing_logs}
+## Visualização dos registros {#viewing_logs}
 
-O **[!UICONTROL Show log]** botão permite que você visualização os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados de teste da jornada.
+O botão **[!UICONTROL Show log]** permite que você visualização os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados de teste da jornada.
 
 ![](../assets/journeytest3.png)
 
@@ -158,9 +158,9 @@ O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentr
 
 * _Id_: a ID interna da pessoa na jornada. Isso pode ser usado para fins de depuração.
 * _etapa atual_: a etapa em que o indivíduo está na viagem. Recomendamos adicionar etiquetas às suas atividades para identificá-las mais facilmente.
-* _etapa atual_ > fase: o estado da viagem da pessoa (em execução, concluída, erro ou tempo limite). Consulte abaixo para obter mais informações.
-* _etapa atual_ > _extraInfo_: descrição do erro e outras informações contextuais.
-* _currentstep_ > _fetchErrors_: informações sobre erros de busca de dados ocorridos durante esta etapa.
+* _currentstep_ > fase: o estado da viagem da pessoa (em execução, concluída, erro ou tempo limite). Consulte abaixo para obter mais informações.
+* _currentstep_ >  _extraInfo_: descrição do erro e outras informações contextuais.
+* _currentstep_ >  _fetchErrors_: informações sobre erros de busca de dados ocorridos durante esta etapa.
 * _externalKeys_: o valor da fórmula de chave definida no evento.
 * _EnhedData_: os dados que a jornada recuperou se a jornada utiliza fontes de dados.
 * _TransitionHistory_: a lista de etapas que o indivíduo seguiu. Para eventos, a carga é exibida.
