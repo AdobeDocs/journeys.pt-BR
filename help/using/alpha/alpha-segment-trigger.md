@@ -26,21 +26,21 @@ Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform
 
 >[!NOTE]
 >
->Não se pode ter um salto e uma atividade de segmento **** Read na mesma jornada. Não é possível pular para uma jornada que se start com um evento de segmento **** Lido.
+>Não é possível ter um salto e uma atividade **Leia o segmento** na mesma jornada. Não é possível pular para uma jornada que se start com um evento **Read segment**.
 
-## Configuring the activity {#configuring-segment-trigger-activity}
+## Configuração da atividade {#configuring-segment-trigger-activity}
 
 >[!NOTE]
 >
 >Devido às latências de exportação de segmento, não é possível acionar uma jornada baseada em segmento em um período de tempo mais curto que uma hora.
 
-1. Desdobre a **[!UICONTROL Orchestration]** categoria e solte uma **[!UICONTROL Read Segment]** atividade na tela.
+1. Desdobre a categoria **[!UICONTROL Orchestration]** e solte uma atividade **[!UICONTROL Read Segment]** na sua tela.
 
    A atividade deve ser posicionada como o primeiro passo de uma viagem.
 
-1. Adicione um item **[!UICONTROL Label]** à atividade (opcional).
+1. Adicione um **[!UICONTROL Label]** à atividade (opcional).
 
-1. No **[!UICONTROL Segment]** campo, escolha o segmento Adobe Experience Platform que entrará na jornada e clique em **[!UICONTROL Save]**.
+1. No campo **[!UICONTROL Segment]**, escolha o segmento Adobe Experience Platform que entrará na jornada e clique em **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
@@ -48,19 +48,19 @@ Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform
 
    ![](../assets/segment-trigger-segment-selection.png)
 
-   Depois que o segmento é adicionado, o **[!UICONTROL Copy]** botão permite copiar seu nome e ID:
+   Depois que o segmento é adicionado, o botão **[!UICONTROL Copy]** permite que você copie seu nome e ID:
 
    `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-trigger-copy.png)
 
-1. No **[!UICONTROL Namespace]** campo, escolha a namespace a ser usada para identificar os indivíduos. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
+1. No campo **[!UICONTROL Namespace]**, escolha a namespace a ser usada para identificar os indivíduos. Para obter mais informações sobre o namespace, consulte [esta seção](../event/selecting-the-namespace.md).
 
    >[!NOTE]
    >
    >Os indivíduos que pertencem a um segmento que não tem a identidade (namespace) selecionada entre suas diferentes identidades não podem entrar na jornada.
 
-1. A **[!UICONTROL Read Segment]** atividade permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no **[!UICONTROL Edit journey schedule]** link para acessar as propriedades da jornada e configure o **[!UICONTROL Scheduler type]** campo.
+1. A atividade **[!UICONTROL Read Segment]** permite especificar a hora em que o segmento entrará na jornada. Para fazer isso, clique no link **[!UICONTROL Edit journey schedule]** para acessar as propriedades da jornada e configure o campo **[!UICONTROL Scheduler type]**.
 
    ![](../assets/segment-trigger-schedule.png)
 
@@ -68,21 +68,21 @@ Digamos que você tenha um segmento de cliente Gold no Adobe Experience Platform
 
    >[!NOTE]
    >
-   >Observe que a **[!UICONTROL Schedule]** seção só está disponível quando uma **[!UICONTROL Read Segment]** atividade é solta na tela.
+   >Observe que a seção **[!UICONTROL Schedule]** só está disponível quando uma atividade **[!UICONTROL Read Segment]** foi solta na tela.
 
    ![](../assets/segment-trigger-properties.png)
 
-## Testar e publicar a viagem {#testing-publishing}
+## Testar e publicar a jornada {#testing-publishing}
 
-A **[!UICONTROL Read Segment]** atividade permite testar a jornada em um perfil unitário ou em 100 perfis de teste aleatório selecionados entre os perfis qualificados para o segmento.
+A atividade **[!UICONTROL Read Segment]** permite testar a jornada em um perfil unitário ou em 100 perfis de teste aleatório selecionados entre os perfis qualificados para o segmento.
 
 Para fazer isso, ative o modo de teste e selecione a opção desejada no painel esquerdo.
 
 ![](../assets/segment-trigger-test-modes.png)
 
-Você pode configurar e executar o modo de teste como de costume. Na [presente seção](../building-journeys/testing-the-journey.md)são apresentados passos detalhados sobre como testar uma viagem.
+Você pode configurar e executar o modo de teste como de costume. As etapas detalhadas sobre como testar uma jornada são apresentadas em [esta seção](../building-journeys/testing-the-journey.md).
 
-Quando o teste estiver em execução, o **[!UICONTROL Show logs]** botão permite que você veja os resultados de teste de acordo com a opção de teste selecionada:
+Quando o teste estiver em execução, o botão **[!UICONTROL Show logs]** permitirá que você veja os resultados de teste de acordo com a opção de teste selecionada:
 
 * **[!UICONTROL Single profile at a time]**: os registros de teste exibem as mesmas informações que ao usar o modo de teste unitário. Para obter mais informações, consulte [esta seção](../building-journeys/testing-the-journey.md#viewing_logs)
 
@@ -92,7 +92,7 @@ Quando o teste estiver em execução, o **[!UICONTROL Show logs]** botão permit
 
    ![](../assets/read-segment-log.png)
 
-Depois que os testes forem bem-sucedidos, você poderá publicar sua jornada (consulte [Publicação da jornada](../building-journeys/publishing-the-journey.md)). Os indivíduos que pertencem ao segmento entram na viagem na data/hora especificada na seção relativa às propriedades da viagem **[!UICONTROL Scheduler]** .
+Assim que os testes forem bem-sucedidos, você poderá publicar sua jornada (consulte [Publicando a jornada](../building-journeys/publishing-the-journey.md)). Os indivíduos que pertencem ao segmento irão entrar na viagem na data/hora especificada na seção **[!UICONTROL Scheduler]** das propriedades da viagem.
 
 >[!NOTE]
 >
