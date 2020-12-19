@@ -57,7 +57,7 @@ Esta é a lista das funções suportadas.
 | Data | [setHours](../functions/functionsethours.md) |
 | Data | [setDays](../functions/functionsetdays.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
-| Lista | [distinctCount](../functions/functiondistinctcount.md) |
+| Lista | [differentCount](../functions/functiondistinctcount.md) |
 | Lista | [in](../functions/functionin.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
