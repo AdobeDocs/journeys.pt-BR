@@ -24,19 +24,19 @@ A tabela abaixo apresenta a lista das dimensões usadas nos relatórios de jorna
 
 Para saber mais sobre a compatibilidade entre dimensões e métricas, consulte [esta página](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
-## Dimensões da viagem {#MBE_table_wk4_bnj_w2b}
+## Dimensões de viagem {#MBE_table_wk4_bnj_w2b}
 
 A tabela abaixo apresenta a lista das dimensões usadas nos relatórios de jornada, suas definições e fórmulas.
 
 | Dimension | Definição |
 |--- |--- |
-| **Ação** | Lista de cada ação (nome da **ação - etiqueta** de ação) usada em viagens, por exemplo, Push - Confirmação de check-out, Email - Fidelidade de recompensas. |
-| **Fonte de dados** | Lista de fontes de dados (nome **da fonte de** dados) usadas para enriquecer dados em uma jornada, por exemplo, Adobe Experience Platform, Sistema de reserva. |
-| **[!UICONTROL Event]** | Lista de todos os eventos (nome do **evento - etiqueta** do evento) utilizados em viagens, por exemplo, evento do Geometrixx - verificação do Geometrixx. |
-| **Grupo de campos** | Lista de grupos de campos (nome **do grupo de** campos) utilizados para enriquecer dados em viagens, por exemplo, grupo de campos do Perfil, sistema de reservas do Geometrixx. |
-| **Jornada** | Lista de cada viagem (nome **da** viagem) no modo de teste e viver, por exemplo, abandono do carrinho, notificação de reserva do hotel. |
-| **Versão da jornada** | Lista de cada versão publicada de uma viagem (nome da **viagem + número** da versão), por exemplo, abandono do carrinho v1, notificação de reserva do hotel v2. |
-| **Orquestração** | Lista de cada atividade de orquestração (**Condição, Final, Espera**) definida e usada em viagens. |
+| **Ação** | Lista de cada ação (**nome da ação - rótulo da ação**) usada em viagens, por exemplo, Empurrar - Confirmação de check-out, Email - Fidelidade de recompensas. |
+| **Fonte de dados** | Lista de fontes de dados (**nome da fonte de dados**) usada para enriquecer dados em uma jornada, por exemplo, Adobe Experience Platform, Sistema de reserva. |
+| **[!UICONTROL Event]** | Lista de cada evento (**nome do evento - etiqueta do evento**) usada em viagens como, por exemplo, evento do Geometrixx - retirada do Geometrixx. |
+| **Grupo de campos** | Lista de grupos de campos (**nome do grupo de campos**) utilizada para enriquecer dados em viagens, por exemplo, grupo de campos de Perfis, sistema de reserva de Geometrixx. |
+| **Jornada** | Lista de cada jornada (**nome da jornada**) no modo de teste e viver, por exemplo, abandono do carrinho, notificação de reserva do hotel. |
+| **Versão da jornada** | Lista de cada versão publicada de uma jornada (**nome da jornada + número da versão**), por exemplo, abandono do carrinho v1, notificação de reserva do hotel v2. |
+| **Orquestração** | Lista de cada atividade de orquestração (**Condição, Fim, Espera**) definida e usada em viagens. |
 
 ## Dimensões do delivery {#delivery-dimensions}
 
@@ -82,7 +82,8 @@ A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, s
 
 ## Métricas de delivery {#delivery-metrics}
 
-A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, suas definições e fórmulas.
+A tabela abaixo fornece a lista das métricas usadas em jornada
+relatórios, suas definições e fórmulas.
 
 | Métrica | Definição |
 |--- |--- |
