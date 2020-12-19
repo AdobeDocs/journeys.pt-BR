@@ -6,8 +6,8 @@ description: Saiba mais sobre as notas de versão
 translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Você também pode consultar as [Atualizações da documentação mais recentes]
 <table>
 <thead>
 <tr>
-<th><strong>Saltando de uma viagem para outra</strong><br/></th>
+<th><strong>Mudar de uma jornada para outra</strong><br/></th>
 </tr>
 </thead>
 <tbody>
