@@ -21,7 +21,7 @@ Se você estiver usando caracteres especiais em um campo, precisará usar aspas 
 
 * os start de campo com caracteres numéricos
 * o campo start com o caractere &quot;-&quot;
-* o campo contém qualquer outro elemento além de: _a_-_z_, _A_-_Z_, _0_-___99, _ , -_
+* o campo contém qualquer outro elemento além de: _a_-_z_, _A_-_Z_, _0_-_9_, _, _-_
 
 Por exemplo, se seu campo for _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
@@ -54,7 +54,7 @@ Um valor padrão pode ser associado a um nome de campo. A sintaxe é a seguinte:
 
 >[!NOTE]
 >
->O tipo do campo e o valor padrão devem ser os mesmos. Por exemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: {2} será inválido porque o valor padrão é um número inteiro, enquanto o valor esperado deve ser uma string.
+>O tipo do campo e o valor padrão devem ser os mesmos. Por exemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: :   será inválido porque o valor padrão é um número inteiro, enquanto o valor esperado deve ser uma string.
 
 Exemplos:
 
@@ -100,19 +100,19 @@ Exemplo :
 
 **Referência de um campo definido em um mapa**
 
-Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com a namespace selecionada. Consulte Seleção da namespace. For more information, see [this page](../event/selecting-the-namespace.md).
+Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com a namespace selecionada. Consulte Seleção da namespace. Para obter mais informações, consulte [esta página](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Nesta expressão, estamos recebendo a entrada da chave &quot;Email&quot; do campo &quot;IdentityMap&quot; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual retiramos a &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. For more information, see [this page](../expression/collection-management-functions.md).
+Nesta expressão, estamos recebendo a entrada da chave &quot;Email&quot; do campo &quot;IdentityMap&quot; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual retiramos a &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
 **Valores de parâmetro de uma fonte de dados (valores dinâmicos da fonte de dados)**
 
 Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado, uma nova guia será exibida à direita para permitir que você especifique esse parâmetro. Consulte [esta página](../expression/expressionadvanced.md).
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclui outro parâmetro.
+Para casos de uso mais complexos, se você quiser incluir os parâmetros da fonte de dados na expressão principal, poderá definir seus valores usando a palavra-chave _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclui outro parâmetro.
 
 >[!NOTE]
 >
