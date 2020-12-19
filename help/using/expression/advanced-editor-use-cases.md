@@ -79,7 +79,7 @@ Esta expressão retorna um booleano.
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* E especifique SKU, usando a função `first` para recuperar a interação mais recente &quot;addToCart&quot;:
+* E especifique SKU, usando a função `first` para recuperar a interação mais recente de &quot;addToCart&quot;:
 
    ```
        #{ExperiencePlatformDataSource
@@ -109,7 +109,7 @@ Essa condição recupera somente os eventos de geofence acionados em &quot;Arlin
                     .name} == "Arlington"
 ```
 
-Explicação: Esta é uma comparação de strings estrita (diferencia maiúsculas de minúsculas), equivalente a um query no modo simples que usa `equal to` com `Is sensitive` marcado.
+Explicação: Esta é uma comparação rigorosa de sequência de caracteres (diferencia maiúsculas de minúsculas), equivalente a um query no modo simples que usa `equal to` com `Is sensitive` marcado.
 
 O mesmo query com `Is sensitive` desmarcado gerará a seguinte expressão no modo avançado:
 
@@ -138,6 +138,6 @@ A expressão a seguir permite definir a ID do CRM em um campo de personalizaçã
                          ))
 ```
 
-Explicação: Este exemplo usa `substr` e `lastIndexOf` funções para remover chaves que incluem a ID do CRM transmitida com um evento de inicialização de aplicativo móvel.
+Explicação: Este exemplo usa as funções `substr` e `lastIndexOf` para remover chaves que incluem a ID do CRM transmitida com um evento de inicialização do aplicativo móvel.
 
-Para saber mais sobre como usar o editor de expressões avançada, assista a [este vídeo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Para obter mais informações sobre como usar o editor de expressões avançado, assista [a este vídeo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
