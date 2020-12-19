@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Atividade de espera{#section_rlm_nft_dgb}
 
-Se quiser esperar antes de executar a próxima atividade no caminho, use uma **[!UICONTROL Wait]** atividade. Permite definir o momento em que a próxima atividade será executada. Quatro opções estão disponíveis:
+Se desejar aguardar antes de executar a próxima atividade no caminho, use uma atividade **[!UICONTROL Wait]**. Permite definir o momento em que a próxima atividade será executada. Quatro opções estão disponíveis:
 
 * [Duração](#duration)
 * [Data fixa](#fixed_date)
@@ -22,7 +22,7 @@ Se quiser esperar antes de executar a próxima atividade no caminho, use uma **[
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
-## Sobre a atividade Wait{#about_wait}
+## Sobre a atividade de Espera{#about_wait}
 
 Veja como as esperas são priorizadas quando você usa várias esperas em paralelo. Se eles tiverem a mesma configuração de tempo e uma condição diferente, mas sobreposta, a espera posicionada acima será a priorizada. Por exemplo, a condição da primeira espera é &quot;ser mulher&quot; e a condição da segunda espera em paralelo é &quot;ser uma VIP&quot;. A primeira atividade de espera será priorizada
 
@@ -34,9 +34,9 @@ Você pode definir uma condição se desejar restringir a espera a uma determina
 >
 >A duração máxima de espera é de 30 dias.
 >
->No modo de teste, o **[!UICONTROL Wait time in test]** parâmetro permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+>No modo de teste, o parâmetro **[!UICONTROL Wait time in test]** permite que você defina o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
-## Duração da espera{#duration}
+## Duração aguardar{#duration}
 
 Selecione a duração da espera antes da execução da próxima atividade.
 
@@ -54,9 +54,9 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 
 >[!NOTE]
 >
->Você pode aproveitar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, sendo o campo do evento o formulário 2016-08-12T09:46:06Z.
+>Você pode aproveitar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, sendo o campo no evento do formulário 2016-08-12T09:46:06Z.
 >
->O fuso **horário** é esperado nas propriedades de sua jornada. Como resultado, atualmente não é possível da interface para apontar diretamente para um tempo completo ISO-8601 de mistura de carimbo de data e hora e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
+>O **fuso horário** é esperado nas propriedades da sua viagem. Como resultado, atualmente não é possível da interface para apontar diretamente para um tempo completo ISO-8601 de mistura de carimbo de data e hora e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
