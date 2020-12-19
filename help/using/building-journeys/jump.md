@@ -1,18 +1,18 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Saltando de uma viagem para outra
-description: Saltando de uma viagem para outra
+title: Mudar de uma jornada para outra
+description: Mudar de uma jornada para outra
 translation-type: tm+mt
 source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Saltando de uma viagem para outra {#jump}
+# Mudar de uma jornada para outra {#jump}
 
 A atividade de ação **[!UICONTROL Jump]** permite que você empurre indivíduos de uma jornada para outra. Este recurso permite:
 
@@ -105,7 +105,7 @@ Quando uma atividade **[!UICONTROL Jump]** é configurada em uma jornada, um íc
 
 Quando a viagem é publicada ou está em modo de teste, ocorrerão erros se:
 * a viagem de público alvo já não existe
-* a viagem de público alvo estiver desembaraçada, fechada ou parada
+* a viagem de público alvo for desembaraçada, fechada ou interrompida
 * se o primeiro evento da jornada do público alvo tiver mudado e o mapeamento estiver quebrado
 
 ![](../assets/jump6.png)
