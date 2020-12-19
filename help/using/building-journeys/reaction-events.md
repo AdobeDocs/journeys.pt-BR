@@ -14,19 +14,19 @@ ht-degree: 1%
 
 # Eventos de reação {#section_dhx_gss_dgb}
 
-Entre as diferentes atividades de evento disponíveis na paleta, você encontrará o **[!UICONTROL Reactions]** evento integrado. Esta atividade permite que você reaja aos dados de rastreamento relacionados a uma mensagem enviada com atividades de email, SMS ou push na mesma jornada. Essas informações vêm de mensagens transacionais no Adobe Campaign Standard. Captamos essas informações em tempo real no momento em que são compartilhadas com a Adobe Experience Platform. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha.
+Entre as diferentes atividades de evento disponíveis na paleta, você encontrará o evento **[!UICONTROL Reactions]** incorporado. Esta atividade permite que você reaja aos dados de rastreamento relacionados a uma mensagem enviada com atividades de email, SMS ou push na mesma jornada. Essas informações vêm de mensagens transacionais no Adobe Campaign Standard. Captamos essas informações em tempo real no momento em que são compartilhadas com a Adobe Experience Platform. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha.
 
 Você também pode usar esse mecanismo para executar uma ação quando não houver reação às suas mensagens. Para fazer isso, crie um segundo caminho paralelo à atividade de reação e adicione uma atividade de espera. Se não houver reação durante o período definido na atividade de espera, o segundo caminho será escolhido. Você pode optar por enviar, por exemplo, uma mensagem de acompanhamento.
 
 Observe que você só pode usar uma atividade de reação na tela se houver uma atividade de email, push ou SMS antes.
 
-See [About action activities](../building-journeys/about-action-activities.md).
+Consulte [Sobre atividades de ação](../building-journeys/about-action-activities.md).
 
 ![](../assets/journey45.png)
 
 Estas são as diferentes etapas para configurar os eventos de reação:
 
-1. Adicione um comentário **[!UICONTROL Label]** à reação. Esta etapa é opcional.
+1. Adicione um **[!UICONTROL Label]** à reação. Esta etapa é opcional.
 1. Na lista suspensa, selecione a atividade de ação à qual deseja reagir. É possível selecionar qualquer atividade de ação posicionada nas etapas anteriores do caminho.
 1. Dependendo da ação selecionada (um email, SMS ou uma notificação por push), escolha o que deseja reagir.
 1. É possível definir uma condição como uma etapa opcional. Por exemplo, após uma ação de email, você pode decidir criar dois caminhos, um com um evento de reação para rastrear cliques somente para clientes VIP e outro com um evento de reação para rastrear cliques executados por mulheres.
