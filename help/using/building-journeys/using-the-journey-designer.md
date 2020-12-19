@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # Usar o designer de jornada {#concept_m1g_5qt_52b}
 
-O menu Início da jornada permite que você visualização a **lista das viagens**. Crie uma nova jornada ou clique em uma já existente para abrir a interface **do designer de** jornada. O criador é constituído pelas seguintes zonas: a paleta, a tela e o painel de configuração da atividade.
+O menu Início da jornada permite que você visualização a **lista de viagens**. Crie uma nova jornada ou clique em uma já existente para abrir a **interface do designer de jornada**. O criador é constituído pelas seguintes zonas: a paleta, a tela e o painel de configuração da atividade.
 
-## A lista da viagem {#journey_list}
+## A lista de viagem {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada encerrada. Você pode criar uma nova versão dela, duplicado ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
+A **lista de jornada** permite que você visualização todas as suas viagens de uma só vez, veja seu status e execute ações básicas. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada encerrada. Você pode criar uma nova versão dela, duplicado ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
 
 O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na parte superior esquerda da lista. O menu filtros permite que você filtre as viagens exibidas de acordo com critérios diferentes (status, aqueles criados, os modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as viagens que usam um evento, grupo de campos ou ação específicos. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
 
@@ -34,7 +34,7 @@ Todas as versões de suas viagens aparecem na lista com o número da versão. Co
 
 ## A paleta {#palette}
 
-A **paleta** fica do lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. Você pode expandir/recolher as diferentes categorias clicando em seu nome. Para usar uma atividade em sua jornada, arraste-a e solte-a da paleta até sua tela. Você também pode clicar com o duplo em uma atividade na paleta para adicioná-la à tela de desenho, na próxima etapa disponível. É necessário configurar cada atividade adicionada a partir da paleta antes de publicar a jornada. Se você soltar uma atividade na tela e não terminar sua configuração, ela permanecerá na tela, mas um aviso vermelho indicará que a configuração não foi concluída para essa atividade.
+A **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. Você pode expandir/recolher as diferentes categorias clicando em seu nome. Para usar uma atividade em sua jornada, arraste-a e solte-a da paleta até sua tela. Você também pode clicar com o duplo em uma atividade na paleta para adicioná-la à tela de desenho, na próxima etapa disponível. É necessário configurar cada atividade adicionada a partir da paleta antes de publicar a jornada. Se você soltar uma atividade na tela e não terminar sua configuração, ela permanecerá na tela, mas um aviso vermelho indicará que a configuração não foi concluída para essa atividade.
 
 >[!NOTE]
 >
@@ -42,23 +42,23 @@ A **paleta** fica do lado esquerdo da tela. Todas as atividades disponíveis sã
 
 ![](../assets/journey38.png)
 
-The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-los, eles aparecerão esmaecidos.
+O ícone **[!UICONTROL Show disabled items]** no canto superior esquerdo permite ocultar ou exibir elementos não disponíveis na paleta, por exemplo, os eventos que usam uma namespace diferente daqueles usados em sua jornada. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-los, eles aparecerão esmaecidos.
 
-Ao usar o **[!UICONTROL Search]** campo, o número de resultados é exibido para cada categoria de atividade da tela.
+Ao usar o campo **[!UICONTROL Search]**, o número de resultados é exibido para cada categoria de atividade da tela.
 
 ![](../assets/palette-filter.png)
 
 ## A tela {#canvas}
 
-A **tela** é a zona central do designer de viagem. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito. É possível aumentar e diminuir o zoom usando os botões &quot;+&quot; e &quot;-&quot; no canto superior direito. Na tela, todas as atividades permitem que você adicione uma próxima etapa após elas, exceto **[!UICONTROL End]** atividades (consulte [esta página](../building-journeys/end-activity.md)).
+A **tela** é a zona central no designer de viagem. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito. É possível aumentar e diminuir o zoom usando os botões &quot;+&quot; e &quot;-&quot; no canto superior direito. Na tela, todas as atividades permitem que você adicione uma próxima etapa após elas, exceto **[!UICONTROL End]** atividades (consulte [esta página](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
 ## O painel de configuração da atividade {#configuration_pane}
 
-O painel **de configuração da** atividade é exibido quando você clica em uma atividade na paleta. Preencha os campos obrigatórios. Clique no **[!UICONTROL Delete]** ícone para excluir a atividade. Clique em **[!UICONTROL Cancel]** para cancelar as modificações ou **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma (ou várias) atividade e pressionar a tecla Backspace. Pressione a tecla escape para fechar o painel de configuração da atividade.
+O **painel de configuração da atividade** é exibido quando você clica em uma atividade na paleta. Preencha os campos obrigatórios. Clique no ícone **[!UICONTROL Delete]** para excluir a atividade. Clique em **[!UICONTROL Cancel]** para cancelar as modificações ou em **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma (ou várias) atividade e pressionar a tecla Backspace. Pressione a tecla escape para fechar o painel de configuração da atividade.
 
-Na tela, suas atividades de ação e evento são representadas por um ícone com o nome do evento ou ação exibido abaixo. No painel de configuração da atividade, é possível usar o **[!UICONTROL Label]** campo para adicionar um sufixo ao nome da atividade. Esses rótulos ajudarão a contextualizar o uso de eventos e ações, especialmente quando você usar o mesmo evento ou ação várias vezes em sua jornada. Você também poderá ver os rótulos adicionados ao [!DNL Journey Orchestration] relatórios. Você também pode definir rótulos para suas atividades de condição.
+Na tela, suas atividades de ação e evento são representadas por um ícone com o nome do evento ou ação exibido abaixo. No painel de configuração da atividade, você pode usar o campo **[!UICONTROL Label]** para adicionar um sufixo ao nome da atividade. Esses rótulos ajudarão a contextualizar o uso de eventos e ações, especialmente quando você usar o mesmo evento ou ação várias vezes em sua jornada. Você também poderá ver os rótulos adicionados no relatórios [!DNL Journey Orchestration]. Você também pode definir rótulos para suas atividades de condição.
 
 ![](../assets/journey59bis.png)
 
@@ -70,7 +70,7 @@ Dependendo do status da jornada, você pode realizar ações diferentes na sua j
 
 ## O uso de caminhos na tela {#paths}
 
-Várias atividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** atividade) permitem definir uma ação de fallback no caso de um erro ou tempo limite. No painel de configuração da atividade, marque a caixa: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Outro caminho é adicionado após a atividade. A duração do tempo limite é definida nas propriedades da jornada (consulte [esta página](../building-journeys/changing-properties.md) por um usuário administrador. Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar um SMS.
+Várias atividades (**[!UICONTROL Condition]**, **[!UICONTROL Action]** atividades) permitem que você defina uma ação de fallback no caso de um erro ou tempo limite. No painel de configuração da atividade, marque a caixa: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Outro caminho é adicionado após a atividade. A duração do tempo limite é definida nas propriedades da jornada (consulte [esta página](../building-journeys/changing-properties.md) por um usuário administrador. Por exemplo, se um email demorar muito para ser enviado ou estiver com erro, você pode decidir enviar um SMS.
 
 ![](../assets/journey42.png)
 
@@ -78,7 +78,7 @@ Várias atividades (evento, ação, espera) permitem que você adicione vários 
 
 Ao ouvir um evento, recomendamos que você não espere o evento indefinidamente. Não é obrigatório, é apenas uma boa prática. Se você quiser ouvir um ou vários eventos apenas durante um determinado tempo, insira um ou vários eventos e uma atividade de espera em paralelo. Consulte [esta seção](../building-journeys/event-activities.md#section_vxv_h25_pgb).
 
-Para excluir o caminho, posicione o cursor nele e clique no **[!UICONTROL Delete arrow]** ícone.
+Para excluir o caminho, coloque o cursor nele e clique no ícone **[!UICONTROL Delete arrow]**.
 
 ![](../assets/journey42ter.png)
 
@@ -86,7 +86,7 @@ Na tela de desenho, quando duas atividades são desconectadas, um aviso é exibi
 
 ![](../assets/canvas-disconnected.png)
 
-## Copiar e colar atividades {#copy-paste}
+## Copiando e colando atividades {#copy-paste}
 
 Você pode copiar uma ou várias atividades de uma jornada e colá-las na mesma jornada ou em uma diferente. Isso permite economizar tempo se você quiser reutilizar várias atividades que já foram configuradas em uma jornada anterior.
 
@@ -102,7 +102,7 @@ Você pode copiar uma ou várias atividades de uma jornada e colá-las na mesma 
 Estas são as etapas para copiar/colar atividades:
 
 1. Abra uma jornada.
-1. Selecione as atividades que deseja copiar movendo o mouse enquanto clica. Você também pode clicar em cada atividade enquanto pressiona a tecla **Ctrl/Command** . Use **Ctrl/Command + A** se desejar selecionar todas as atividades.
+1. Selecione as atividades que deseja copiar movendo o mouse enquanto clica. Você também pode clicar em cada atividade enquanto pressiona a tecla **Ctrl/Command**. Use **Ctrl/Command + A** se quiser selecionar todas as atividades.
    ![](../assets/copy-paste1.png)
 1. Pressione **Ctrl/Command + C**.
 Se quiser copiar apenas uma atividade, clique nela e use o ícone **Copiar** na parte superior esquerda do painel de configuração da atividade.
