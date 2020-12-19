@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # Fonte de dados da Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-A fonte de dados Adobe Experience Platform define a conexão com o Serviço de Perfil do Cliente em tempo real. Essa fonte de dados é incorporada e pré-configurada. Não pode ser eliminada. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de Perfil do Cliente em tempo real (por exemplo, verifique se a pessoa que entrou em uma jornada é uma fêmea). Ele permite que você use dados de Perfis e dados de Eventos de experiência. Para obter mais informações sobre o Serviço de Perfil do cliente em tempo real, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
+A fonte de dados Adobe Experience Platform define a conexão com o Serviço de Perfil do Cliente em tempo real. Essa fonte de dados é incorporada e pré-configurada. Não pode ser eliminada. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de Perfil do Cliente em tempo real (por exemplo, verifique se a pessoa que entrou em uma jornada é uma fêmea). Ele permite que você use dados de Perfis e dados de Eventos de experiência. Para obter mais informações sobre o Serviço de Perfil do Cliente em tempo real, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ Estas são as etapas principais para adicionar grupos de campos à fonte de dado
 
    ![](../assets/journey24.png)
 
-1. Selecione um schema no **[!UICONTROL Schema]** menu suspenso. Este campo lista schemas Perfis e Eventos de experiência disponíveis no Adobe Experience Platform. A criação de schemas não é realizada em [!DNL Journey Orchestration]. É executado no Adobe Experience Platform.
+1. Selecione um schema no menu suspenso **[!UICONTROL Schema]**. Este campo lista schemas Perfis e Eventos de experiência disponíveis no Adobe Experience Platform. A criação do schema não é realizada em [!DNL Journey Orchestration]. É executado no Adobe Experience Platform.
 1. Selecione os campos que deseja usar.
 1. Defina a duração do cache.
 1. Clique em **[!UICONTROL Save]**.
 
-Quando você coloca o cursor no nome de um grupo de campos, você verá dois ícones à direita. Eles permitem que você exclua e duplicado o grupo de campos. Observe que o **[!UICONTROL Delete]** ícone só estará disponível se o grupo de campos não for usado em nenhuma jornada ao vivo ou de rascunho (informações exibidas no **[!UICONTROL Used in]** campo).
+Quando você coloca o cursor no nome de um grupo de campos, você verá dois ícones à direita. Eles permitem que você exclua e duplicado o grupo de campos. Observe que o ícone **[!UICONTROL Delete]** só estará disponível se o grupo de campos não for usado em nenhuma jornada ao vivo ou de rascunho (informações exibidas no campo **[!UICONTROL Used in]**).
