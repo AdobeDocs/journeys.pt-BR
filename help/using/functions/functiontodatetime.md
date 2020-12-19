@@ -34,7 +34,7 @@ Conversão
 
 >[!NOTE]
 >
->A ID de fuso horário deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão. For more information on data types, refer to [this page](../expression/data-types.md).
+>A ID de fuso horário deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
 
 ## Assinaturas e tipos retornados
 
