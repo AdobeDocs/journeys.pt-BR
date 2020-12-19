@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Aproveitamento da AI do cliente {#customer-ai}
 
-A IA do cliente faz parte dos Serviços inteligentes. Isso ajuda a prever o que um cliente provavelmente fará. See the [documentation](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+A IA do cliente faz parte dos Serviços inteligentes. Isso ajuda a prever o que um cliente provavelmente fará. Consulte a [documentação](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
 
 A IA do cliente permite que as marcas criem pontuações baseadas em aprendizagem de máquina de conversão ou de geração de taxa que estarão disponíveis como atributos de perfil nos perfis Adobe Experience Platform (Perfil do cliente em tempo real).
 
