@@ -20,7 +20,7 @@ Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação pron
 >
 >Para isso, é necessário configurar a ação integrada. Consulte [esta página](../action/working-with-adobe-campaign.md).
 
-Para cada um desses canais, selecione um **modelo** de Mensagens Transacionais Adobe Campaign Standard. Na verdade, não [!DNL Journey Orchestration] é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, confiamos nas Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado modelo de mensagem em suas viagens, deverá publicá-lo no Adobe Campaign Standard. Consulte [esta página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) para saber como usar este recurso.
+Para cada um desses canais, selecione um Adobe Campaign Standard Transactional Messaging **template**. Na verdade, [!DNL Journey Orchestration] não é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, confiamos nas Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado modelo de mensagem em suas viagens, deverá publicá-lo no Adobe Campaign Standard. Consulte [esta página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) para saber como usar este recurso.
 
 >[!NOTE]
 >
@@ -44,19 +44,19 @@ Para **[!UICONTROL Email]** e **[!UICONTROL SMS]**, os parâmetros são idêntic
 
 >[!NOTE]
 >
->Para email, se você estiver usando um modelo transacional de perfis, o mecanismo de unsubscription é manipulado prontamente por Campaign Standard. Basta adicionar um bloco **[!UICONTROL Unsubscription link]** de conteúdo ao modelo ([saiba mais](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Se você estiver usando um modelo baseado em eventos (rtEvent), precisará adicionar, na mensagem, um link que passe o email da pessoa no parâmetro URL e aponte para uma landing page de unsubscription. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a inscrição seja transmitida para a Adobe.
+>Para email, se você estiver usando um modelo transacional de perfis, o mecanismo de unsubscription é manipulado prontamente por Campaign Standard. Basta adicionar um bloco de conteúdo **[!UICONTROL Unsubscription link]** no modelo ([saiba mais](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Se você estiver usando um modelo baseado em eventos (rtEvent), precisará adicionar, na mensagem, um link que passe o email da pessoa no parâmetro URL e aponte para uma landing page de unsubscription. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a inscrição seja transmitida para a Adobe.
 
 Primeiro, você precisa escolher um modelo de mensagem transacional. Consulte [esta página](../building-journeys/about-action-activities.md).
 
 Duas categorias estão disponíveis: **[!UICONTROL Address]** e **[!UICONTROL Personalization Data]**.
 
-Você pode definir facilmente onde recuperar o **[!UICONTROL Address]** ou o **[!UICONTROL Personalization Data]** usando a interface. É possível navegar pelos eventos e campos da fonte de dados disponíveis. Você também pode usar o editor de expressões avançado para casos de uso mais avançados, como o uso de uma fonte de dados que exija a passagem de parâmetros ou a realização de manipulações. Consulte [esta página](../expression/expressionadvanced.md).
+Você pode definir facilmente onde recuperar **[!UICONTROL Address]** ou **[!UICONTROL Personalization Data]** usando a interface. É possível navegar pelos eventos e campos da fonte de dados disponíveis. Você também pode usar o editor de expressões avançado para casos de uso mais avançados, como o uso de uma fonte de dados que exija a passagem de parâmetros ou a realização de manipulações. Consulte [esta página](../expression/expressionadvanced.md).
 
 **[!UICONTROL Address]**
 
 >[!NOTE]
 >
->Essa categoria só estará visível se você selecionar um mensagen transacional &quot;evento&quot;. Para mensagens de &quot;perfil&quot;, o **[!UICONTROL Address]** campo é recuperado automaticamente do Adobe Campaign Standard pelo sistema.
+>Essa categoria só estará visível se você selecionar um mensagen transacional &quot;evento&quot;. Para mensagens de &quot;perfil&quot;, o campo **[!UICONTROL Address]** é recuperado automaticamente do Adobe Campaign Standard pelo sistema.
 
 Esses são os campos que o sistema exige para saber onde enviar a mensagem. Para um modelo de email, é o endereço de email. Para um SMS, é o número do telefone celular.
 
@@ -86,11 +86,11 @@ Duas categorias estão disponíveis: **[!UICONTROL Target]** e **[!UICONTROL Per
 
 >[!NOTE]
 >
->Essa categoria só estará visível se você selecionar uma mensagem de evento. Para mensagens de perfil, os **[!UICONTROL Target]** campos são recuperados automaticamente pelo sistema usando a reconciliação executada pela Adobe Campaign Standard.
+>Essa categoria só estará visível se você selecionar uma mensagem de evento. Para mensagens de perfil, os campos **[!UICONTROL Target]** são recuperados automaticamente pelo sistema usando a reconciliação executada pelo Adobe Campaign Standard.
 
-Nesta seção, é necessário definir o **[!UICONTROL Push platform]**. A lista suspensa permite selecionar **[!UICONTROL Apple Push Notification Server]** (iOS) ou **[!UICONTROL Firebase Cloud Messaging]** (Android). Como alternativa, você pode selecionar um campo específico de um evento ou de uma fonte de dados, ou definir uma expressão avançada.
+Nesta seção, é necessário definir **[!UICONTROL Push platform]**. A lista suspensa permite selecionar **[!UICONTROL Apple Push Notification Server]** (iOS) ou **[!UICONTROL Firebase Cloud Messaging]** (Android). Como alternativa, você pode selecionar um campo específico de um evento ou de uma fonte de dados, ou definir uma expressão avançada.
 
-Você também precisa definir o **[!UICONTROL Registration Token]**. A expressão depende de como o token é definido na carga do evento ou em outras [!DNL Journey Orchestration] informações. Pode ser um campo simples ou uma expressão mais complexa caso o token seja definido em uma coleção, por exemplo:
+Você também precisa definir **[!UICONTROL Registration Token]**. A expressão depende de como o token é definido na carga do evento ou em outras informações [!DNL Journey Orchestration]. Pode ser um campo simples ou uma expressão mais complexa caso o token seja definido em uma coleção, por exemplo:
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
