@@ -18,6 +18,6 @@ O programa Alfa oferece recursos que estão sendo atualmente testados em um conj
 
 Esta seção foca apenas nos recursos Alfa. Se você não fizer parte do programa Alpha e quiser saber mais sobre os outros recursos do Journey Orchestration, consulte as outras seções desta [documentação](../../journey-orchestration-home.md).
 
-Se você estiver interessado em participar deste programa Alpha, preencha [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4RuhNDklrkhHrsBisppjRThURDJTTUxWSTBJQU1OSTBTVjMwUDRIQURDNS4u) e nós voltaremos a você.
+Se você estiver interessado em participar deste programa Alfa, preencha [este formulário](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4RuhNDklrkhHrsBisppjRThURDJTTUxWSTBJQU1OSTBTVjMwUDRIQURDNS4u) e nós voltaremos a você.
 
 
