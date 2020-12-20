@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # toString {#toString}
 
-Converte um valor de argumento em um valor de string, dependendo de seu tipo. For more information on data types, refer to [this page](../expression/data-types.md).
+Converte um valor de argumento em um valor de string, dependendo de seu tipo. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
 
 ## Categoria
 
