@@ -2,11 +2,11 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Propriedades da jornada
-description: Saiba mais sobre as propriedades de viagem
+description: Saiba mais sobre as propriedades de jornada
 translation-type: tm+mt
-source-git-commit: 341138c31676870878099b4f4eecec200a614c69
+source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '571'
 ht-degree: 2%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # Propriedades da jornada {#journey-properties}
 
-No editor avançado de expressões, você encontrará a categoria **Propriedades da jornada**, abaixo das categorias de evento e fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Esta é a informação obtida pelo sistema a partir de viagens em vida, como a identificação da viagem ou os erros específicos encontrados.
+No editor avançado de expressões, você encontrará a categoria **Propriedades da Jornada**, abaixo do evento e das categorias de fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Essas são as informações recuperadas pelo sistema a partir do live jornada, como a ID da jornada ou os erros específicos encontrados.
 
 ![](../assets/journey-properties.png)
 
 Você encontrará informações, por exemplo, sobre:
 
-* versão de viagem: uid de jornada, uid de versão de jornada, uid de instância, etc.
+* Versão da jornada: uid de jornada, uid de versão de jornada, uid de instância etc.
 * erros: busca de dados, execução da ação etc.
 * etapa atual, última etapa atual etc.
 * perfis descartados
@@ -40,14 +40,16 @@ Estes são alguns exemplos de casos de uso:
 | Categoria | Nome do campo | Rótulo | Descrição |
 |---|---|---|------------|
 | Versão da jornada | jortUID | Identificador de jornada |  |
-|  | jortVersionUID | Identificador da versão do diário |  |
+|  | jortVersionUID | Identificador de versão de jornada |  |
 |  | JourVersionName | Nome da versão da jornada |  |
-|  | pathVersionDescription | Descrição da versão do diário |  |
+|  | pathVersionDescription | Descrição da versão de jornada |  |
 |  | JourVersion | Versão da jornada |  |
-| Instância de Jornada | instanceUID | Identificador de instância de jornada | ID da instância |
-|  | externalKey | Chave externa | Identificador individual que desencadeia a viagem |
-| Identidade | profileId | Identificador de identidade do perfil | Identificador do perfil na viagem |
-|  | namespace | Namespace de identidade do perfil | Namespace do perfil na viagem (exemplo: ECID) |
+| Instância de jornada | instanceUID | Identificador de instância de jornada | ID da instância |
+|  | externalKey | Chave externa | Identificador individual que aciona a jornada |
+|  | OrganizationId | Identificador da organização | Organização da marca |
+|  | sandboxName | Nome da caixa de proteção | Nome da caixa de proteção |
+| Identidade | profileId | Identificador de identidade do perfil | Identificador do perfil na jornada |
+|  | namespace | Namespace de identidade do perfil | Namespace do perfil na jornada (por exemplo: ECID) |
 | Nó atual | currentNodeId | Identificador de nó atual | Identificador da atividade atual (nó) |
 |  | currentNodeName | Nome do nó atual | Nome da atividade atual (nó) |
 | Nó anterior | previousNodeId | Identificador de nó anterior | Identificador da atividade anterior (nó) |
