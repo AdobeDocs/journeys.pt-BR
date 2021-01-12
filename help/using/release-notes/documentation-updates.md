@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Atualizações da documentação
 description: Saiba mais sobre atualizações da documentação
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 94%
+source-wordcount: '789'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 94%
 Esta página lista todas as atualizações de documentação do [!DNL Journey Orchestration].
 Você também pode consultar as [Notas de versão](../release-notes/release-notes.md) do [!DNL Journey Orchestration].
 
+## Janeiro de 2021 {#january-2021}
+
+* Foram adicionadas as práticas recomendadas ao acionar uma jornada ao mesmo tempo que uma criação de perfil. [Leia mais](../about/limitations.md#journeys-limitation-profile-creation).
+
 ## Outubro de 2020 {#october-2020}
 
 * Foram adicionadas informações sobre como configurar um tempo limite para um evento. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
@@ -24,7 +28,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 ## Setembro de 2020 {#september-2020}
 
 * A seção de descrição da interface foi atualizada para refletir o novo menu **Todos os seletores**. [Leia mais](../about/user-interface.md)
-* Adicionada uma observação sobre as novas versões de viagens baseadas em segmentos que não são recorrentes. [Leia mais](../alpha/alpha-segment-trigger.md)
+* Adicionada uma observação sobre novas versões baseadas em jornadas baseadas em segmentos que não são recorrentes. [Leia mais](../alpha/alpha-segment-trigger.md)
 
 ## Agosto de 2020 {#august-2020}
 
