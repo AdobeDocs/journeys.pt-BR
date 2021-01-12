@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Limitações de Journey Orchestration
 description: Saiba mais sobre limitações de Journey Orchestration
 translation-type: tm+mt
-source-git-commit: 6ebedad2cb8e78b4dd953bc7a2993cebbeefabcc
+source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 3%
+source-wordcount: '515'
+ht-degree: 2%
 
 ---
 
@@ -23,12 +23,12 @@ Aqui estão limitações relacionadas ao uso do Journey Orchestration.
 * O evento incorporado **Reaction** permite que você reaja às ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, é necessário configurar um evento dedicado. 
 * Não há integração produzida pela Adobe Campaign Classic.
 
-## Limitações de versões de viagem {#journey-versions-limitations}
+## Limitações de versões jornadas {#journey-versions-limitations}
 
-* uma jornada que começa com uma atividade de evento na v1 não pode ser start com algo além de um evento em versões posteriores. Não é possível start de uma jornada com um evento **Qualificação de segmento**.
-* uma jornada que começa com uma **Qualificação de segmento** atividade em v1 deve sempre ser start com uma **Qualificação de segmento** em versões posteriores.
+* uma jornada que começa com uma atividade de evento na v1 não pode ser start com outra coisa além de um evento em versões posteriores. Não é possível start de uma jornada com um evento **Qualificação de segmento**.
+* uma jornada que comece com uma atividade **Qualificação de segmento** no v1 deve sempre ter um start com uma **Qualificação de segmento** em versões posteriores.
 * O segmento e a namespace escolhidos em **Qualificação de segmento** (primeiro nó) não podem ser alterados em novas versões.
-* A regra de reentrada deve ser a mesma em todas as versões de viagem.
+* A regra de reentrada deve ser a mesma em todas as versões de jornada.
 
 ## Qualificação de segmento {#segment-qualification}
 
@@ -57,3 +57,15 @@ Aqui estão limitações relacionadas ao uso do Journey Orchestration.
 ## Limitações das fontes de dados
 
 * Fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da REST API, suportar JSON e ser capazes de lidar com o volume de solicitações.
+
+## Jornadas que começam ao mesmo tempo que uma criação de perfil {#journeys-limitation-profile-creation}
+
+Há um atraso associado à criação/atualização de perfis com base em API no Adobe Experience Platform. O Público alvo de nível de serviço (SLT) em termos de latência é &lt; 1 min desde a ingestão até o Perfil unificado por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
+
+Se uma Jornada for disparada simultaneamente para uma criação de perfil e verificar/recuperar imediatamente as informações do Serviço de Perfil, talvez não funcione corretamente.
+
+É possível escolher uma destas duas soluções:
+
+* Adicione uma atividade de espera após o primeiro evento para conceder à Adobe Experience Platform o tempo necessário para executar a ingestão ao Serviço de Perfil.
+
+* Configure uma jornada que não aproveite imediatamente o perfil. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento da experiência poderá conter as informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc).
