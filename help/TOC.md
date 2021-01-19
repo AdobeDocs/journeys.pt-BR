@@ -5,9 +5,9 @@ user-guide-title: Journey Orchestration
 title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9cd37af0281e9fb837c7bf52a52c8dbffd0d4a78
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
