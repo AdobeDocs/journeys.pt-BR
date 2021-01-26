@@ -4,17 +4,21 @@ solution: Journey Orchestration
 title: Propriedades da jornada
 description: Saiba mais sobre as propriedades de jornada
 translation-type: tm+mt
-source-git-commit: ba50a1be1a1b8665ab3c557cc1ccc5c4f27bcc87
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 2%
+source-wordcount: '586'
+ht-degree: 1%
 
 ---
 
 
-# Propriedades da jornada {#journey-properties}
+# Atributos de propriedades de jornada {#journey-properties}
 
 No editor avançado de expressões, você encontrará a categoria **Propriedades da Jornada**, abaixo do evento e das categorias de fonte de dados. Esta categoria contém campos técnicos relacionados à jornada de um determinado perfil. Essas são as informações recuperadas pelo sistema a partir do live jornada, como a ID da jornada ou os erros específicos encontrados.
+
+>[!NOTE]
+>
+>Os atributos de propriedades de jornada também estão disponíveis no editor de expressão simples. Consulte esta [seção](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 
