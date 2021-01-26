@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
 translation-type: tm+mt
-source-git-commit: 010bccb16d2b6980ff758e3922d3bc315706f61b
+source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2169'
+ht-degree: 73%
 
 ---
 
@@ -16,6 +16,20 @@ ht-degree: 0%
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações da documentação mais recentes](../release-notes/documentation-updates.md).
+
+## Versão de janeiro de 2021 {#january-release}
+
+Ao selecionar um schema na configuração do evento, somente os campos obrigatórios para que o evento seja recebido corretamente por Journey Orchestration são selecionados. [Leia mais](../event/defining-the-payload-fields.md)
+
+Os atributos de propriedades de jornada agora estão disponíveis no editor de expressão simples.
+
+Dois novos atributos de propriedades de jornada foram adicionados (sandboxName e OrganizationId). [Leia mais](../expression/journey-properties.md)
+
+Para alinhar com os SLAs do Adobe Campaign Standard, uma regra de limite de 13 chamadas por segundo é automaticamente definida para ações do Adobe Campaign Standard assim que a integração do Adobe Campaign Standard é configurada. [Leia mais](../action/working-with-adobe-campaign.md)
+
+A duração do tempo limite do evento agora é especificada mais claramente no caminho do tempo limite. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+As funções [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) foram adicionadas à lista de funções disponíveis no editor de expressões avançado. Isso oferta mais possibilidades em seus casos de uso de computação de sequência.
 
 ## Versão de novembro de 2020 {#november-release}
 
@@ -28,13 +42,13 @@ Você também pode consultar as [Atualizações da documentação mais recentes]
 <tbody>
 <tr>
 <td>
-<p>Uma nova atividade de ação permite empurrar indivíduos de uma jornada para outra. A atividade <strong>Jump</strong> permite:
+<p>Uma nova atividade de ação permite que você empurre indivíduos de uma jornada para outra. A atividade <strong>Jump</strong> permite:
 </p>
 <ul>
-<li>simplificar a concepção de viagens muito complexas, dividindo-as em várias </li>
-<li>construir viagens baseadas em padrões de viagem comuns e reutilizáveis</li>
+<li>simplifique o design de jornadas muito complexas dividindo-as em várias </li>
+<li>criar jornadas com base em padrões de jornada comuns e reutilizáveis</li>
 </ul>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/jump.md">documentação detalhada</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/jump.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">vídeo tutorial</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -49,7 +63,7 @@ Você também pode consultar as [Atualizações da documentação mais recentes]
 <tbody>
 <tr>
 <td>
-<p>No editor de expressões avançada, adicionamos uma nova categoria à lista de campos e funções. Esta é a informação obtida pelo sistema a partir de viagens em vida, como a identificação da viagem ou os erros específicos encontrados. Isso lhe dará mais possibilidades ao construir suas viagens. Por exemplo, você poderá alertar sistemas de terceiros em caso de erros encontrados em uma condição ou ação.
+<p>No editor de expressões avançada, adicionamos uma nova categoria à lista de campos e funções. Essas são as informações recuperadas pelo sistema a partir do live jornada, como a ID da jornada ou os erros específicos encontrados. Isso lhe dará mais possibilidades ao construir suas jornadas. Por exemplo, você poderá alertar sistemas de terceiros em caso de erros encontrados em uma condição ou ação.
 </p>
 <p>Para obter mais informações, consulte a <a href="../expression/journey-properties.md">documentação detalhada</a>.</p>
 </td>
@@ -74,11 +88,11 @@ Você também pode consultar as [Atualizações da documentação mais recentes]
 </tbody>
 </table>
 
-### Outras melhorias{#october-november}
+### Outras melhorias
 
 Foram adicionadas limitações ao criar novas versões de uma jornada. Essas limitações evitam mudanças drásticas demais na jornada para manter alguma consistência entre as versões. [Leia mais](../about/limitations.md#journey-versions-limitations)
 
-A atividade **Qualificação de segmento** não pode mais ser usada em uma jornada que inclui atividades de mensagem de Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso da Qualificação de segmento pode levar a picos diários de envio de mensagens que sobrecarregariam o envio de mensagens transacionais Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
+A atividade **Qualificação de segmento** não pode mais ser usada em uma jornada que inclui atividades de mensagem Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso da Qualificação de segmento pode levar a picos diários de envio de mensagens que sobrecarregariam o envio de mensagens transacionais Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
 
 ## Versão de outubro de 2020 {#october-release}
 
@@ -91,7 +105,7 @@ A atividade **Qualificação de segmento** não pode mais ser usada em uma jorna
 <tbody>
 <tr>
 <td>
-<p>Agora você pode configurar um tempo limite para um evento para fazer uma jornada ouvir um evento somente durante um determinado tempo. Não é mais necessário adicionar uma atividade de espera em paralelo ao caminho do evento para conseguir isso.
+<p>Agora você pode configurar um tempo limite para um evento para fazer com que uma jornada escute um evento somente durante um determinado tempo. Não é mais necessário adicionar uma atividade de espera em paralelo ao caminho do evento para conseguir isso.
 </p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentação detalhada</a>.</p>
 </td>
@@ -99,9 +113,9 @@ A atividade **Qualificação de segmento** não pode mais ser usada em uma jorna
 </tbody>
 </table>
 
-### Outras melhorias{#october-other}
+### Outras melhorias
 
-* Quando você publica uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status Fechado. [Leia mais](../building-journeys/journey-versions.md)
+* Quando você publica uma nova versão de uma jornada, a versão anterior é automaticamente encerrada e alterna para o status Fechado. [Leia mais](../building-journeys/journey-versions.md)
 
 ## Versão de setembro de 2020 {#september-release}
 
@@ -116,7 +130,7 @@ A atividade **Qualificação de segmento** não pode mais ser usada em uma jorna
 <tbody>
 <tr>
 <td>
-<p>Ao adicionar condições à sua jornada, agora você pode definir um rótulo. Se você usar várias condições em uma jornada, isso permite que você as identifique mais facilmente.
+<p>Ao adicionar condições à sua jornada, agora é possível definir um rótulo. Se você usar várias condições em uma jornada, isso permitirá que você as identifique mais facilmente.
 </p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/condition-activity.md#about_condition">documentação detalhada</a>.</p>
 </td>
@@ -140,7 +154,7 @@ Para saber mais sobre o escopo do Alfa, consulte esta [seção](../alpha/alpha-o
 <p>As seguintes melhorias foram feitas na atividade <strong>Read segment</strong>:
 </p>
 <ul>
-<li><p>As viagens baseadas em segmentos agora exibem, acima da tela, um lembrete do tipo de programação da jornada. Você pode clicar neste lembrete para acessar o menu de configuração do agendamento.</p>
+<li><p>As jornadas baseadas em segmentos agora exibem, acima da tela, um lembrete do tipo de agendamento da jornada. Você pode clicar neste lembrete para acessar o menu de configuração do agendamento.</p>
 </li>
 <li><p>A granularidade dos logs de modo de teste foi aprimorada para exibir o status de progresso de exportação do segmento.</p>
 </li>
