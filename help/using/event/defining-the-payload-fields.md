@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Definir campos de carga
 description: Saiba mais sobre como definir os campos de carga
 translation-type: tm+mt
-source-git-commit: 81bb0b5da38217f9290214901c64e90d7ec2ba0e
+source-git-commit: a515e052a5bc1359632a1829df70a206614a5bb2
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '301'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ A definição da carga permite escolher as informações que o sistema espera re
 
    ![](../assets/journey8.png)
 
-   Todos os campos definidos no schema são exibidos. A lista dos campos varia de um schema para outro. Você pode pesquisar por um campo específico ou usar os filtros para exibir todos os nós e campos ou apenas os campos selecionados. De acordo com a definição do schema, alguns campos podem ser obrigatórios e pré-selecionados. Não é possível desmarcá-los.
+   Todos os campos definidos no schema são exibidos. A lista dos campos varia de um schema para outro. Você pode pesquisar por um campo específico ou usar os filtros para exibir todos os nós e campos ou apenas os campos selecionados. De acordo com a definição do schema, alguns campos podem ser obrigatórios e pré-selecionados. Não é possível desmarcá-los. Todos os campos obrigatórios para o evento são selecionados por padrão.
 
    >[!NOTE]
    >
@@ -28,7 +28,7 @@ A definição da carga permite escolher as informações que o sistema espera re
 
    ![](../assets/journey9.png)
 
-1. Selecione os campos que você espera receber do evento. Estes são os campos que o usuário do negócio vai aproveitar na jornada. Eles também devem incluir a chave que será usada para identificar a pessoa associada ao evento (consulte [esta página](../event/defining-the-event-key.md)).
+1. Selecione os campos que você espera receber do evento. Esses são os campos que o usuário comercial vai aproveitar na jornada. Eles também devem incluir a chave que será usada para identificar a pessoa associada ao evento (consulte [esta página](../event/defining-the-event-key.md)).
 
    ![](../assets/journey10.png)
 
