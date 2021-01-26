@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
 translation-type: tm+mt
-source-git-commit: 3c678a16d13b8578526dd0bf9192ace26ade5ed0
+source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 73%
 
 ---
@@ -21,7 +21,7 @@ Você também pode consultar as [Atualizações da documentação mais recentes]
 
 Ao selecionar um schema na configuração do evento, somente os campos obrigatórios para que o evento seja recebido corretamente por Journey Orchestration são selecionados. [Leia mais](../event/defining-the-payload-fields.md)
 
-Os atributos de propriedades de jornada agora estão disponíveis no editor de expressão simples.
+Os atributos de propriedades de jornada agora estão disponíveis no editor de expressão simples. [Leia mais](../expression/journey-properties.md)
 
 Dois novos atributos de propriedades de jornada foram adicionados (sandboxName e OrganizationId). [Leia mais](../expression/journey-properties.md)
 
