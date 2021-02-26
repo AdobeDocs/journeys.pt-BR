@@ -6,7 +6,7 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 98%
@@ -52,6 +52,7 @@ ht-degree: 98%
       + [Sobre a configuração de ação personalizada](using/action/about-custom-action-configuration.md)
       + [Configurar o URL](using/action/url-configuration.md)
       + [Definir os parâmetros da mensagem](using/action/defining-the-message-parameters.md)
+   + [Integração com a Adobe Campaign Classic](using/beta/acc-action.md)
 + Uso de segmentos da Platform {#configuring-segment}
    + [Sobre segmentos da Platform](using/segment/about-segments.md)
    + [Criação de um segmento](using/segment/creating-a-segment.md)
@@ -195,5 +196,4 @@ ht-degree: 98%
    + [Visão geral de recursos alfa](using/alpha/alpha-overview.md)
    + [Interface do usuário](using/alpha/alpha-interface.md)
    + [Atividade Ler segmento](using/alpha/alpha-segment-trigger.md)
-   + [Integração com a Adobe Campaign Classic](using/beta/acc-action.md)
 
