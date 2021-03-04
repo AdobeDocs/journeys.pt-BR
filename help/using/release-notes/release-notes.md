@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
 translation-type: tm+mt
-source-git-commit: c7eb29c873f91ed1debe4e8c786a96a1f6b71b71
+source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 73%
+source-wordcount: '2264'
+ht-degree: 68%
 
 ---
 
@@ -15,21 +15,46 @@ ht-degree: 73%
 # Notas de versão {#release-notes}
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
-Você também pode consultar as [Atualizações da documentação mais recentes](../release-notes/documentation-updates.md).
+Você também pode consultar as [Atualizações de documentação](../release-notes/documentation-updates.md) mais recentes.
 
-## Versão de janeiro de 2021 {#january-release}
+## Versão de fevereiro de 2021 {#february-2021-release}
 
-Ao selecionar um schema na configuração do evento, somente os campos obrigatórios para que o evento seja recebido corretamente por Journey Orchestration são selecionados. [Leia mais](../event/defining-the-payload-fields.md)
+<table>
+<thead>
+<tr>
+<th><strong>Atualizar atividade do perfil</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Essa nova atividade de ação permite atualizar um perfil existente da Adobe Experience Platform com informações provenientes do evento, uma fonte de dados ou usando um valor específico.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/update-profiles.md">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-Os atributos de propriedades de jornada agora estão disponíveis no editor de expressão simples. [Leia mais](../expression/journey-properties.md)
+### Outras melhorias
 
-Dois novos atributos de propriedades de jornada foram adicionados (sandboxName e OrganizationId). [Leia mais](../expression/journey-properties.md)
+* Agora, ao configurar um evento, somente os campos obrigatórios para a validação XDM são pré-selecionados por padrão. Esses campos não podem ser desmarcados.
+* Na paleta jornada, um novo filtro foi adicionado. Ela permite exibir apenas os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos. [Leia mais](../building-journeys/using-the-journey-designer.md#palette)
+* Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa agora ficam ocultos. Isso se refere a todas as ações, à atividade de condição, à espera e à reação.
+* Na parte esquerda do editor de expressão avançado, as funções agora são reagrupadas em uma seção **Funções** no final da lista.
 
-Para alinhar com os SLAs do Adobe Campaign Standard, uma regra de limite de 13 chamadas por segundo é automaticamente definida para ações do Adobe Campaign Standard assim que a integração do Adobe Campaign Standard é configurada. [Leia mais](../action/working-with-adobe-campaign.md)
+## Versão de janeiro de 2021 {#january-2021-release}
 
-A duração do tempo limite do evento agora é especificada mais claramente no caminho do tempo limite. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+Ao selecionar um schema na configuração do evento, somente os campos obrigatórios para o evento ser recebido corretamente pelo Journey Orchestration são selecionados. [Leia mais](../event/defining-the-payload-fields.md)
 
-As funções [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) foram adicionadas à lista de funções disponíveis no editor de expressões avançado. Isso oferta mais possibilidades em seus casos de uso de computação de sequência.
+Os atributos de propriedades da jornada agora estão disponíveis no editor de expressões simples. [Leia mais](../expression/journey-properties.md)
+
+Dois novos atributos de propriedades da jornada foram adicionados (sandboxName e organizationId). [Leia mais](../expression/journey-properties.md)
+
+Para se alinhar aos SLAs do Adobe Campaign Standard, uma regra de limitação de 13 chamadas por segundo agora é definida automaticamente para ações do Adobe Campaign Standard assim que a integração do Adobe Campaign Standard é configurada. [Leia mais](../action/working-with-adobe-campaign.md)
+
+A duração do tempo limite do evento agora é especificada mais claramente no caminho de tempo limite. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+
+As funções [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferecerá mais possibilidades em seus casos de uso de cálculo de string.
 
 ## Versão de novembro de 2020 {#november-release}
 
@@ -42,7 +67,7 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 <tbody>
 <tr>
 <td>
-<p>Uma nova atividade de ação permite que você empurre indivíduos de uma jornada para outra. A atividade <strong>Jump</strong> permite:
+<p>Uma nova atividade de ação permite enviar indivíduos de uma jornada para outra. A atividade <strong>Jump</strong> permite:
 </p>
 <ul>
 <li>simplifique o design de jornadas muito complexas dividindo-as em várias </li>
@@ -57,13 +82,13 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 <table>
 <thead>
 <tr>
-<th><strong>Uso de propriedades de jornada no editor de expressões</strong><br/></th>
+<th><strong>Uso das propriedades da jornada no editor de expressão</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>No editor de expressões avançada, adicionamos uma nova categoria à lista de campos e funções. Essas são as informações recuperadas pelo sistema a partir do live jornada, como a ID da jornada ou os erros específicos encontrados. Isso lhe dará mais possibilidades ao construir suas jornadas. Por exemplo, você poderá alertar sistemas de terceiros em caso de erros encontrados em uma condição ou ação.
+<p>No editor de expressão avançado, adicionamos uma nova categoria à lista de campos e funções. Essas são as informações recuperadas pelo sistema a partir de jornadas ao vivo, como a ID da jornada ou os erros específicos encontrados. Isso lhe dará mais possibilidades ao criar suas jornadas. Por exemplo, você poderá alertar sistemas de terceiros em caso de erros encontrados em uma condição ou ação.
 </p>
 <p>Para obter mais informações, consulte a <a href="../expression/journey-properties.md">documentação detalhada</a>.</p>
 </td>
@@ -80,9 +105,8 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 <tbody>
 <tr>
 <td>
-<p>Um novo método agora está disponível para configurar seus eventos mais facilmente, sem usar uma eventID: eventos baseados em regras avaliam se o evento deve ser acionado de acordo com uma condição. Você ainda pode usar o método existente, agora chamado de "gerado pelo sistema". Esse recurso, que foi testado entre um conjunto limitado de clientes por meio do programa Alpha, está agora disponível em Beta para todos os clientes.
+<p>Um novo método está disponível para configurar os eventos com mais facilidade, sem usar uma eventID: os eventos baseados em regras avaliam se o evento deve ser acionado de acordo com uma condição. Você ainda pode usar o método existente, agora chamado de "gerado pelo sistema". Esse recurso, que foi testado entre um conjunto limitado de clientes por meio do programa Alfa, agora está disponível em Beta para todos os clientes.
 </p>
-<p>Para obter mais informações, consulte a <a href="../event/about-events.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -90,9 +114,9 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 
 ### Outras melhorias
 
-Foram adicionadas limitações ao criar novas versões de uma jornada. Essas limitações evitam mudanças drásticas demais na jornada para manter alguma consistência entre as versões. [Leia mais](../about/limitations.md#journey-versions-limitations)
+Foram adicionadas limitações ao criar novas versões de uma jornada. Essas limitações evitam alterações muito drásticas na jornada para manter alguma consistência entre as versões. [Leia mais](../about/limitations.md#journey-versions-limitations)
 
-A atividade **Qualificação de segmento** não pode mais ser usada em uma jornada que inclui atividades de mensagem Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso da Qualificação de segmento pode levar a picos diários de envio de mensagens que sobrecarregariam o envio de mensagens transacionais Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
+A atividade **Segment Qualification** não pode mais ser usada em uma jornada que inclui atividades de mensagem do Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso de qualificação de segmento pode levar a picos diários de envio de mensagem que sobrecarregariam as mensagens transacionais do Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
 
 ## Versão de outubro de 2020 {#october-release}
 
@@ -105,7 +129,7 @@ A atividade **Qualificação de segmento** não pode mais ser usada em uma jorna
 <tbody>
 <tr>
 <td>
-<p>Agora você pode configurar um tempo limite para um evento para fazer com que uma jornada escute um evento somente durante um determinado tempo. Não é mais necessário adicionar uma atividade de espera em paralelo ao caminho do evento para conseguir isso.
+<p>Agora é possível configurar um tempo limite para um evento a fim de fazer com que uma jornada escute um evento somente durante um determinado tempo. Não é mais necessário adicionar uma atividade Wait em paralelo ao caminho do evento para fazer isso.
 </p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/event-activities.md#listening-to-events-during-a-specific-time">documentação detalhada</a>.</p>
 </td>
@@ -115,7 +139,7 @@ A atividade **Qualificação de segmento** não pode mais ser usada em uma jorna
 
 ### Outras melhorias
 
-* Quando você publica uma nova versão de uma jornada, a versão anterior é automaticamente encerrada e alterna para o status Fechado. [Leia mais](../building-journeys/journey-versions.md)
+* Ao publicar uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status Fechado . [Leia mais](../building-journeys/journey-versions.md)
 
 ## Versão de setembro de 2020 {#september-release}
 
@@ -124,13 +148,13 @@ A atividade **Qualificação de segmento** não pode mais ser usada em uma jorna
 <table>
 <thead>
 <tr>
-<th><strong>Melhorias na atividade da condição</strong><br/></th>
+<th><strong>Melhorias da atividade de condição</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ao adicionar condições à sua jornada, agora é possível definir um rótulo. Se você usar várias condições em uma jornada, isso permitirá que você as identifique mais facilmente.
+<p>Ao adicionar condições à sua jornada, você pode definir um rótulo. Se você usar várias condições em uma jornada, isso permitirá identificá-las mais facilmente.
 </p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/condition-activity.md#about_condition">documentação detalhada</a>.</p>
 </td>
@@ -140,26 +164,23 @@ A atividade **Qualificação de segmento** não pode mais ser usada em uma jorna
 
 ### Atualizações Alfa{#september-alpha-update}
 
-Para saber mais sobre o escopo do Alfa, consulte esta [seção](../alpha/alpha-overview.md).
-
 <table>
 <thead>
 <tr>
-<th><strong>Ler melhorias na atividade do segmento</strong><br/></th>
+<th><strong>Ler melhorias nas atividades do segmento</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>As seguintes melhorias foram feitas na atividade <strong>Read segment</strong>:
+<p>As seguintes melhorias foram feitas na atividade <strong>Read segment</strong> :
 </p>
 <ul>
-<li><p>As jornadas baseadas em segmentos agora exibem, acima da tela, um lembrete do tipo de agendamento da jornada. Você pode clicar neste lembrete para acessar o menu de configuração do agendamento.</p>
+<li><p>As jornadas baseadas em segmentos agora exibem, acima da tela, um lembrete do tipo de agendamento da jornada. Você pode clicar nesse lembrete para acessar o menu de configuração do agendamento.</p>
 </li>
-<li><p>A granularidade dos logs de modo de teste foi aprimorada para exibir o status de progresso de exportação do segmento.</p>
+<li><p>A granularidade dos logs do modo de teste foi aprimorada para exibir o status do progresso da exportação do segmento.</p>
 </li>
 </ul>
-<p>Para obter mais informações sobre a atividade <strong>Read segment</strong>, consulte a <a href="../alpha/alpha-segment-trigger.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -172,8 +193,6 @@ Para saber mais sobre o escopo do Alfa, consulte esta [seção](../alpha/alpha-o
 Agora o payload dos eventos de qualificação de segmento contém as seguintes informações de contexto, que podem ser usadas em condições e ações: o comportamento (entrada, saída), a data e hora da qualificação e a ID do segmento. [Leia mais](../building-journeys/segment-qualification-events.md)
 
 ### Atualizações Alfa{#august-alpha-update}
-
-Para saber mais sobre o escopo do Alfa, consulte esta [seção](../alpha/alpha-overview.md).
 
 <table>
 <thead>
@@ -194,7 +213,6 @@ Para saber mais sobre o escopo do Alfa, consulte esta [seção](../alpha/alpha-o
 <li><p>Agora você pode testar a jornada em um perfil unitário e acompanhar seu progresso na jornada usando o fluxo visual.</p>
 </li>
 </ul>
-<p>Para obter mais informações, consulte a <a href="../alpha/alpha-segment-trigger.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -228,8 +246,6 @@ Para saber mais sobre o escopo do Alfa, consulte esta [seção](../alpha/alpha-o
 
 O programa Alfa oferece recursos que estão sendo atualmente testados em um conjunto limitado de clientes. Ele permite a melhoria do produto com base no feedback recebido. Esses recursos não estão disponíveis para todos os clientes do Journey Orchestration.
 
-Esses recursos são descritos em uma [seção](../alpha/alpha-overview.md) específica.
-
 <table>
 <thead>
 <tr>
@@ -247,7 +263,6 @@ Esses recursos são descritos em uma [seção](../alpha/alpha-overview.md) espec
 <li><p>Agrupamento de funcionalidades do administrador em um único painel.</p>
 </li>
 </ul>
-<p>Para obter mais informações, consulte a <a href="../alpha/alpha-interface.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -262,7 +277,7 @@ Esses recursos são descritos em uma [seção](../alpha/alpha-overview.md) espec
 <tbody>
 <tr>
 <td>
-<p>A atividade do acionador de segmento permite que todos os indivíduos pertencentes a um segmento da Adobe Experience Platform possam entrar em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente. <a href="../alpha/alpha-segment-trigger.md">Leia mais</a>
+<p>A atividade do acionador de segmento permite que todos os indivíduos pertencentes a um segmento da Adobe Experience Platform possam entrar em uma jornada. A entrada em uma jornada pode ser efetuada uma vez ou regularmente. 
 </p>
 </td>
 </tr>
