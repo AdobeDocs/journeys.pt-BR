@@ -1,12 +1,12 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Limitações de Journey Orchestration
-description: Saiba mais sobre limitações de Journey Orchestration
+title: Limitações do Journey Orchestration
+description: Saiba mais sobre as limitações do Journey Orchestration
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: a0b6f54e37abded690dc200bc3a901a8e0f04f79
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '527'
 ht-degree: 2%
 
 ---
@@ -14,58 +14,58 @@ ht-degree: 2%
 
 # Limitações {#limitations}
 
-Aqui estão limitações relacionadas ao uso do Journey Orchestration.
+Estas são as limitações relacionadas ao uso do Journey Orchestration.
 
 ## Limitações de ações gerais
 
-* Não há limite de envio. 
+* Não há limitação de envio. 
 * Duas tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
-* O evento incorporado **Reaction** permite que você reaja às ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, é necessário configurar um evento dedicado. 
-* Não há integração produzida pela Adobe Campaign Classic.
+* O evento integrado **Reaction** permite reagir a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
+* Não há integração produzida no Adobe Campaign Classic.
 
-## Limitações de versões jornadas {#journey-versions-limitations}
+## Limitações das versões de jornada {#journey-versions-limitations}
 
-* uma jornada que começa com uma atividade de evento na v1 não pode ser start com outra coisa além de um evento em versões posteriores. Não é possível start de uma jornada com um evento **Qualificação de segmento**.
-* uma jornada que comece com uma atividade **Qualificação de segmento** no v1 deve sempre ter um start com uma **Qualificação de segmento** em versões posteriores.
-* O segmento e a namespace escolhidos em **Qualificação de segmento** (primeiro nó) não podem ser alterados em novas versões.
-* A regra de reentrada deve ser a mesma em todas as versões de jornada.
+* uma jornada que começa com uma atividade de evento na v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de segmento**.
+* uma jornada que começa com uma atividade **Segment Qualification** em v1 deve sempre começar com uma **Segment Qualification** em outras versões.
+* O segmento e o namespace escolhidos em **Segment qualification** (primeiro nó) não podem ser alterados em novas versões.
+* A regra de reentrada deve ser a mesma em todas as versões da jornada.
 
-## Qualificação de segmento {#segment-qualification}
+## Qualificação do segmento {#segment-qualification}
 
-* A atividade **Qualificação de segmento** não pode ser usada juntamente com o Adobe Campaign Standard Transactional Messaging devido a restrições de throughput. Consulte [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* A atividade **Segment qualification** não pode ser usada juntamente com as mensagens transacionais do Adobe Campaign Standard devido a restrições de taxa de transferência. Consulte [Descrição de produto do Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitações de ações personalizadas
 
-* O URL de ação personalizado não suporta parâmetros dinâmicos. 
-* Somente métodos de chamada POST e PUT são suportados. 
-* O nome do parâmetro ou cabeçalho do query não deve ser start com &quot;.&quot; ou &quot;$&quot;. 
+* O URL de ação personalizada não suporta parâmetros dinâmicos. 
+* Somente métodos de chamada POST e PUT são compatíveis. 
+* O nome do parâmetro de consulta ou cabeçalho não deve começar com &quot;.&quot; ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
-* Endereços de Adobe internos (.adobe.) não são permitidas.
+* Endereços internos da Adobe (.adobe.) não são permitidas.
  
 
-## Limitações de ações do Adobe Campaign
+## Limitações das ações do Adobe Campaign
 
-* O Adobe Campaign Standard Transactional Messaging tem uma escala máxima de 50.000 mensagens por hora em canais para uma determinada instância. Consulte [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* As mensagens transacionais do Adobe Campaign Standard têm uma escala de no máximo 50.000 mensagens por hora nos canais para uma determinada instância. Consulte [Descrição de produto do Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitações de eventos
 
-* Os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Orchestration primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada à carga de streaming que entra no Adobe Experience Platform.
+* Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Gerenciamento de jornada do cliente primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada à carga de transmissão que entra na Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
  
 
 ## Limitações das fontes de dados
 
-* Fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da REST API, suportar JSON e ser capazes de lidar com o volume de solicitações.
+* As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e podem lidar com o volume de solicitações.
 
 ## Jornadas que começam ao mesmo tempo que uma criação de perfil {#journeys-limitation-profile-creation}
 
-Há um atraso associado à criação/atualização de perfis com base em API no Adobe Experience Platform. O Público alvo de nível de serviço (SLT) em termos de latência é &lt; 1 min desde a ingestão até o Perfil unificado por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
+Há um atraso associado à criação/atualização de perfil com base em API na Adobe Experience Platform. O Service Level Target (SLT) em termos de latência é &lt; 1 min desde a assimilação até o Perfil unificado, por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
 
-Se uma Jornada for disparada simultaneamente para uma criação de perfil e verificar/recuperar imediatamente as informações do Serviço de Perfil, talvez não funcione corretamente.
+Se uma jornada for acionada simultaneamente à criação de um perfil e verificar/recuperar imediatamente as informações do Serviço de perfil, ela pode não funcionar corretamente.
 
-É possível escolher uma destas duas soluções:
+Você pode escolher uma dessas duas soluções:
 
-* Adicione uma atividade de espera após o primeiro evento para conceder à Adobe Experience Platform o tempo necessário para executar a ingestão ao Serviço de Perfil.
+* Adicione uma atividade de espera após o primeiro evento para conceder à Adobe Experience Platform o tempo necessário para executar a assimilação no Serviço de perfil.
 
-* Configure uma jornada que não aproveite imediatamente o perfil. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento da experiência poderá conter as informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc).
+* Configure uma jornada que não use o perfil imediatamente. Por exemplo, se a jornada for projetada para confirmar a criação de uma conta, o evento de experiência poderá conter as informações necessárias para enviar a primeira mensagem de confirmação (nome, sobrenome, endereço de email etc.).
