@@ -1,14 +1,14 @@
 ---
-keywords: Journeys;home;popular topics
+keywords: Jornadas, home, tópicos populares
 product: adobe campaign
 solution: Journey Orchestration
 title: Documentação do produto Journey Orchestration
 topic: Premium
-translation-type: ht
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 98%
 
 ---
 
@@ -30,9 +30,6 @@ Saiba como configurar os eventos que suas jornadas vão ouvir.
 
 * **[Descubra as novidades](using/release-notes/release-notes.md)**<br/>
 Descubra detalhes sobre as últimas versões.
-
-* **[Recursos alfa](using/alpha/alpha-overview.md)**<br/>
-Conheça os recursos que estão disponíveis no momento através do programa Alfa.
 
 ## Páginas principais
 
