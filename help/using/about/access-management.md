@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Gerenciamento de acesso
 description: Saiba mais sobre o gerenciamento de acesso
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: e55078b31b5f0e5811575d5e8993a01a90ec9c14
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 99%
 
 ---
 
@@ -45,6 +45,7 @@ No Admin Console, é possível atribuir um dos seguintes perfis de produto pront
    * Gerenciar jornadas
    * Publicar jornadas
    * Gerenciar relatórios
+   * Ler eventos, fontes de dados e ações
 
 Você também pode criar seus próprios perfis de produtos se os perfis prontos para uso não forem suficientes para gerenciar os usuários.
 Os usuários devem estar sempre vinculados a um perfil de produto, permitindo que você atribua a eles permissões de criação específicas, como:
