@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: 'Fontes de dados externas '
 description: 'Saiba como configurar fontes de dados externas '
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 99%
@@ -74,9 +74,9 @@ Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos 
 * **[!UICONTROL Dynamic Values]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. Consulte [esta página](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
 
-No caso de uma chamada GET que exige parâmetros, você informa os parâmetros no campo **[!UICONTROL Parameters]** e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
+No caso de uma chamada GET que exige parâmetros, você informa os parâmetros no campo **[!UICONTROL Dynamic Values]** e eles são adicionados automaticamente no final da chamada. No caso de uma chamada POST, é necessário:
 
-* listar os parâmetros que serão transmitidos no momento da chamada no campo **[!UICONTROL Parameter]** (no exemplo abaixo: &quot;identificador&quot;).
+* listar os parâmetros que serão transmitidos no momento da chamada no campo **[!UICONTROL Dynamic Values]** (no exemplo abaixo: &quot;identificador&quot;).
 * especificá-los também com a mesma sintaxe no corpo da carga útil enviada. Para fazer isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
 
    ```
