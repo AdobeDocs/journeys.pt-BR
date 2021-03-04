@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Atualizações da documentação
 description: Saiba mais sobre atualizações da documentação
 translation-type: tm+mt
-source-git-commit: f562d4a967e6551d3b8a1bc4dbddbf01da9b3e70
+source-git-commit: 349af3a922faa2cf4561c7974466255562d6917d
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '785'
 ht-degree: 93%
 
 ---
@@ -19,7 +19,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 
 ## Janeiro de 2021 {#january-2021}
 
-* Foram adicionadas as práticas recomendadas ao acionar uma jornada ao mesmo tempo que uma criação de perfil. [Leia mais](../about/limitations.md#journeys-limitation-profile-creation).
+* Adição de práticas recomendadas ao acionar uma jornada ao mesmo tempo que uma criação de perfil. [Leia mais](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Outubro de 2020 {#october-2020}
 
@@ -27,8 +27,8 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 
 ## Setembro de 2020 {#september-2020}
 
-* A seção de descrição da interface foi atualizada para refletir o novo menu **Todos os seletores**. [Leia mais](../about/user-interface.md)
-* Adicionada uma observação sobre novas versões baseadas em jornadas baseadas em segmentos que não são recorrentes. [Leia mais](../alpha/alpha-segment-trigger.md)
+* A seção de descrição da interface foi atualizada para refletir o novo menu **All seletor**. [Leia mais](../about/user-interface.md)
+* Adição de uma observação sobre as novas versões das jornadas baseadas em segmentos que não são recorrentes.
 
 ## Agosto de 2020 {#august-2020}
 
@@ -42,7 +42,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 * A seção de atividades de eventos foi reorganizada em subseções dedicadas a cada tipo de evento. [Leia mais](../building-journeys/event-activities.md)
 * Adição de práticas recomendadas para evitar sobrecarga com a qualificação de segmento. [Leia mais](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Adição de uma observação explicativa sobre como uma jornada pode continuar após um erro em uma ação ou condição. [Leia mais](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Adição de uma nova seção sobre os recursos Alfa que são testados entre um conjunto limitado de clientes. [Leia mais](../alpha/alpha-overview.md)
+* Adição de uma nova seção sobre os recursos Alfa que são testados entre um conjunto limitado de clientes.
 * Adição de uma nova seção sobre a integração com os Serviços inteligentes. [Leia mais](../ai-services/ai-services-overview.md)
 * Adição de uma nova seção sobre a criação do perfil de teste. [Leia mais](../building-journeys/testing-the-journey.md#create-test-profile)
 * Adição de informações sobre como usar o nó **[!UICONTROL SegmentQualification]** em uma condição de jornada ou ação. [Leia mais](../building-journeys/segment-qualification-events.md)
