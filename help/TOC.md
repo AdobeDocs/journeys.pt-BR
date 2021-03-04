@@ -6,9 +6,9 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 translation-type: tm+mt
-source-git-commit: 59fef99ac17621e81037ddbcc280e9341db729eb
+source-git-commit: d6665fff2d2f7055df09ce8c6b00eac1379002ec
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '403'
 ht-degree: 98%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 98%
       + [Sobre a configuração de ação personalizada](using/action/about-custom-action-configuration.md)
       + [Configurar o URL](using/action/url-configuration.md)
       + [Definir os parâmetros da mensagem](using/action/defining-the-message-parameters.md)
-   + [Integração com a Adobe Campaign Classic](using/beta/acc-action.md)
+   + [Integração com o Adobe Campaign Classic](using/beta/acc-action.md)
 + Uso de segmentos da Platform {#configuring-segment}
    + [Sobre segmentos da Platform](using/segment/about-segments.md)
    + [Criação de um segmento](using/segment/creating-a-segment.md)
@@ -81,6 +81,7 @@ ht-degree: 98%
          + [Usar ações do Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
          + [Usar ações personalizadas](using/building-journeys/using-custom-actions.md)
          + [Mudar de uma jornada para outra](using/building-journeys/jump.md)
+         + [Atualizar perfil](using/building-journeys/update-profiles.md)
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
    + Compartilhamento de etapas de jornada com a Adobe Experience Platform {#sharing-journey-steps}
@@ -192,8 +193,3 @@ ht-degree: 98%
       + [Construir a jornada](using/usecase/building-the-journey.md)
 + Trabalho com APIs{#working-with-apis}
    + [Limitação de APIs](using/api/capping.md)
-+ Recursos alfa {#alpha}
-   + [Visão geral de recursos alfa](using/alpha/alpha-overview.md)
-   + [Interface do usuário](using/alpha/alpha-interface.md)
-   + [Atividade Ler segmento](using/alpha/alpha-segment-trigger.md)
-
