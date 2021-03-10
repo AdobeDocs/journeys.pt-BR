@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Mudar de uma jornada para outra
 description: Mudar de uma jornada para outra
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 5c94f64c10d12690e27585806962bf9537636e9c
+source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '446'
 ht-degree: 3%
 
 ---
@@ -14,11 +17,11 @@ ht-degree: 3%
 
 # Atualizar perfil {#update-profile}
 
-A atividade de ação **[!UICONTROL Update profile]** permite atualizar um perfil existente da Adobe Experience Platform com informações provenientes do evento, uma fonte de dados ou usando um valor específico.
+A atividade de ação **[!UICONTROL Update profile]** permite atualizar um perfil do Adobe Experience Platform existente com informações provenientes do evento, uma fonte de dados ou usando um valor específico.
 
 ## Observações importantes
 
-* A ação **Update profile** só pode ser usada em jornadas que comecem com um evento que tenha um namespace.
+* A ação **Atualizar perfil** só pode ser usada em jornadas que comecem com um evento que tenha um namespace.
 * A ação atualiza apenas os campos existentes, mas não cria novos campos de perfil.
 * Você não pode usar a ação **Atualizar perfil** para gerar eventos de experiência, por exemplo, uma compra.
 * Assim como qualquer outra ação, você pode definir um caminho alternativo em caso de erro ou tempo limite e não pode colocar duas ações em paralelo.
@@ -35,7 +38,7 @@ Para obter mais informações sobre o modo de teste, consulte esta [seção](../
 
 ## Usar a atualização de perfil
 
-1. Projete sua jornada começando com um evento. Consulte esta [seção](../building-journeys/journey.md).
+1. Crie a jornada começando com um evento. Consulte esta [seção](../building-journeys/journey.md).
 
 1. Na seção **Action** da paleta, solte a atividade **Update profile** na tela.
 
