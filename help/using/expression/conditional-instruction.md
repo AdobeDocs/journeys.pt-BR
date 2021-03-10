@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Instrução condicional (if, then, else)
-description: Saiba mais sobre instruções condicionais
+description: Saiba mais sobre instrução condicional
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -14,11 +17,11 @@ ht-degree: 0%
 
 # Instrução condicional (if, then, else) {#section_cdz_lsk_w3b}
 
-A instrução condicional (if, then, else) é suportada no editor avançado. Permite definir expressões mais complexas. É composto pelos seguintes elementos:
+A instrução condicional (if, then, else) é compatível no editor avançado. Ela permite definir expressões mais complexas. Ele é composto pelos seguintes elementos:
 
-* **[!UICONTROL if]**: a condição a avaliar primeiro.
-* **[!UICONTROL then]**: a expressão a avaliar caso o resultado da avaliação da condição seja verdadeiro.
-* **[!UICONTROL else]**: a expressão a ser avaliada caso o resultado da avaliação da condição seja falso.
+* **[!UICONTROL if]**: a condição a ser avaliada primeiro.
+* **[!UICONTROL then]**: a expressão a ser avaliada caso o resultado da avaliação de condição seja true.
+* **[!UICONTROL else]**: a expressão a ser avaliada caso o resultado da avaliação de condição seja false.
 
 >[!NOTE]
 >
@@ -34,7 +37,7 @@ else
 
 `<expression1>` deve retornar um  **booleano**.
 
-`<expression2>` e  `<expression3>` devem ter o mesmo tipo ou tipos compatíveis. As assinaturas suportadas e os tipos retornados são:
+`<expression2>` e  `<expression3>` devem ter o mesmo tipo ou tipos compatíveis. As assinaturas compatíveis e os tipos retornados são:
 
 ```
 boolean,boolean : boolean
@@ -55,9 +58,9 @@ listString,listString : listString
 
 **Uso**
 
-A instrução condicional permite otimizar o fluxo de trabalho da jornada reduzindo o número de atividades de condição. Por exemplo, na mesma atividade de ação, é possível especificar duas alternativas para uma definição de campo usando apenas uma expressão de condição.
+A instrução condicional permite otimizar o workflow do jornada, reduzindo o número de atividades de condição. Por exemplo, na mesma atividade de ação, é possível especificar duas alternativas para uma definição de campo usando apenas uma expressão de condição.
 
-Exemplo de uma atividade de ação (para um campo que espera uma string como resultado da instrução condicional):
+Exemplo para uma atividade de ação (para um campo que espera uma string como resultado da instrução condicional):
 
 ```
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
