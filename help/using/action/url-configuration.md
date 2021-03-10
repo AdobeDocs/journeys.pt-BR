@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Configurar o URL
-description: Saiba mais sobre a configuração de URL
+description: Saiba mais sobre a configuração do URL
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '130'
 ht-degree: 9%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 9%
 
 # Configurar o URL {#concept_gbg_1f1_2gb}
 
-Ao configurar uma ação personalizada, é necessário definir os seguintes parâmetros **[!UICONTROL URL Configuration]**:
+Ao configurar uma ação personalizada, você precisa definir os seguintes parâmetros **[!UICONTROL URL Configuration]**:
 
 ![](../assets/journeyurlconfiguration.png)
 
@@ -22,10 +25,10 @@ Ao configurar uma ação personalizada, é necessário definir os seguintes par�
 
    >[!NOTE]
    >
-   >Recomendamos o uso de HTTPS por motivos de segurança. Não permitimos o uso de endereços Adobe que não sejam públicos e o uso de endereços IP.
+   >Recomendamos o uso de HTTPS por motivos de segurança. Não permitimos o uso de endereços Adobe que não são públicos e o uso de endereços IP.
 
 1. Selecione a chamada **[!UICONTROL Method]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
-1. Na seção **[!UICONTROL Headers]**, clique em **[!UICONTROL Add a header field]** para definir um novo par de chave/valor. Eles correspondem aos cabeçalhos HTTP da solicitação feita ao serviço externo. Para excluir pares de chave/valor, posicione o cursor no campo **[!UICONTROL Headers]** e clique no ícone **[!UICONTROL Delete]**.
+1. Na seção **[!UICONTROL Headers]**, clique em **[!UICONTROL Add a header field]** para definir um novo par de chave/valor. Eles correspondem aos cabeçalhos HTTP da solicitação feita para o serviço externo. Para excluir pares de chave/valor, coloque o cursor no campo **[!UICONTROL Headers]** e clique no ícone **[!UICONTROL Delete]**.
 
    **[!UICONTROL Content-Type]** e  **[!UICONTROL Charset]** são definidas por padrão e não podem ser excluídas ou substituídas.
 
