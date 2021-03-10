@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: startWithIgnoreCase
 description: Saiba mais sobre a função startWithIgnoreCase
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-Retorna true se o segundo parâmetro for um prefixo do primeiro sem considerar letras maiúsculas e minúsculas.
+Retorna true se o segundo parâmetro for um prefixo do primeiro sem considerar um caso.
 
 ## Categoria
 
