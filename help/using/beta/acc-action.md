@@ -1,14 +1,17 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Sobre a integração com o Campaign Classic
-description: Saiba mais sobre a integração com o Campaign Classic
+title: Sobre a integração do Campaign Classic
+description: Saiba mais sobre a integração do Campaign Classic
 hide: true
 hidefromtoc: true
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 937b7235d41fe7f0395e303736974e32eea8558f
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '444'
 ht-degree: 5%
 
 ---
@@ -16,9 +19,9 @@ ht-degree: 5%
 
 # Integração com o Adobe Campaign Classic {#integrating-with-adobe-campaign-classic}
 
-Essa integração permite enviar emails, notificações por push e SMS usando os recursos de Mensagens Transacionais da Adobe Campaign Classic.
+Essa integração permite enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Classic.
 
-A conexão entre as instâncias Journey Orchestration e Campaign Classic é configurada por Adobe no momento do provisionamento.
+A conexão entre as instâncias Journey Orchestration e Campaign Classic é configurada pelo Adobe no momento do provisionamento.
 
 >[!CAUTION]
 >
@@ -26,19 +29,19 @@ A conexão entre as instâncias Journey Orchestration e Campaign Classic é conf
 
 ## Observações importantes
 
-* Não há limitação de mensagens. Limitamos o número de mensagens que podem ser enviadas para 50.000/hora com base no nosso atual SLA de Campaign Classic. Por esta razão, a orquestração da Jornada só deve ser utilizada em casos de utilização unitária (eventos individuais, não segmentos).
+* Não há limitação de mensagens. Limitamos o número de mensagens que podem ser enviadas para 50.000/hora com base no nosso SLA Campaign Classic atual. Por isso, a orquestração de Jornadas deve ser usada somente em casos de uso unitários (eventos individuais, não segmentos).
 
-* É necessário configurar uma ação na tela de desenho por modelo que deseja usar.
+* É necessário configurar uma ação na tela por modelo que deseja usar.
 
-* Recomendamos que você use uma instância dedicada do Centro de mensagens hospedada para essa integração, a fim de evitar o impacto de outras operações de Campaign Classic que você possa ter em andamento. O servidor de marketing pode ser hospedado ou no local. A compilação necessária é o candidato à versão 21.1.
+* Recomendamos usar uma instância dedicada do Centro de Mensagens que esteja hospedada para essa integração, a fim de evitar o impacto de outras operações do Campaign Classic que você possa ter realizado. O servidor de marketing pode ser hospedado ou no local. A build necessária é 21.1 Release Candidate.
 
-* Não há validação de que a carga ou a mensagem Campaign Classic esteja correta.
+* Não há validação de que a carga ou a mensagem de Campaign Classic esteja correta.
 
-* Não é possível usar uma Campaign Classic com uma qualificação de segmento.
+* Não é possível usar uma Campaign Classic action com uma qualificação de segmento.
 
 ## Pré-requisitos
 
-No Campaign Classic, é necessário criar e publicar um mensagen transacional e seu evento associado. Consulte a [documentação da Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
+No Campaign Classic, é necessário criar e publicar uma mensagem transacional e seu evento associado. Consulte a [documentação do Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging).
 
 Entre em contato com o Adobe para obter a carga JSON correspondente a cada mensagem. Em seguida, você colará essa carga ao configurar a ação no Journey Orchestration (veja abaixo).
 
@@ -57,13 +60,13 @@ Aqui está um exemplo:
 
 ## Configurar a ação
 
-No Journey Orchestration, é necessário configurar uma ação por mensagen transacional. Siga estas etapas:
+No Journey Orchestration, é necessário configurar uma ação por mensagem transacional. Siga estas etapas:
 
 1. Crie uma nova ação. Consulte esta [seção](../action/action.md).
 1. Insira um nome e uma descrição.
-1. No campo **Tipo de ação**, selecione **Adobe Campaign Classic**.
-1. Clique no campo **Payload** e cole um exemplo da carga JSON correspondente à mensagem Campaign Classic. Entre em contato com a Adobe para obter esta carga.
-1. Ajuste os diferentes campos. Determinados campos, como parâmetros de canal e campos de personalização (ctx), precisam ser definidos como variáveis.
+1. No campo **Action type**, selecione **Adobe Campaign Classic**.
+1. Clique no campo **Payload** e cole um exemplo da carga JSON correspondente à mensagem Campaign Classic. Entre em contato com o Adobe para obter essa carga.
+1. Ajuste os diferentes campos. Determinados campos, como parâmetros de canal e campos de personalização (ctx) precisam ser definidos como variáveis.
 1. Clique em **Save**.
 
 ![](../assets/accintegration1.png)
@@ -72,9 +75,9 @@ Para cada ação configurada, uma atividade de ação está disponível na palet
 
 ## Adicionar uma mensagem em uma jornada
 
-1. Projete sua jornada, começando com um evento. Consulte esta [seção](../building-journeys/journey.md).
-1. Na seção **Action** da paleta, selecione uma ação de Campaign Classic e adicione-a à sua jornada.
-1. Em **Parâmetros de ação**, todos os campos esperados na carga da mensagem são exibidos. É necessário mapear cada um desses campos com o campo que deseja usar, a partir do evento ou da fonte de dados. Isso é semelhante às ações personalizadas. Consulte esta [seção](../building-journeys/using-custom-actions.md).
+1. Projete a jornada, começando por um evento. Consulte esta [seção](../building-journeys/journey.md).
+1. Na seção **Action** da paleta, selecione uma ação Campaign Classic e adicione-a à jornada.
+1. Nos **Action parameters**, todos os campos esperados na carga da mensagem são exibidos. Você precisa mapear cada um desses campos com o campo que deseja usar, do evento ou da fonte de dados. Isso é semelhante às ações personalizadas. Consulte esta [seção](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
 
