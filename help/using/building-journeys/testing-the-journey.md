@@ -2,11 +2,11 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Testar a jornada
-description: 'Saiba mais sobre testes de viagem '
+description: 'Saiba mais sobre testes de jornada '
 translation-type: tm+mt
-source-git-commit: 5e97f511872a924cc8c2c3a6904859d63ebeddcd
+source-git-commit: ceb8e3267aa9e467ccecf9b343d9f4d883a41e14
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1538'
 ht-degree: 3%
 
 ---
@@ -18,45 +18,53 @@ Antes de poder testar sua jornada, você deve resolver todos os erros, se houver
 
 Você tem a possibilidade de testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação.
 
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode [criar um novo perfil de teste](../building-journeys/testing-the-journey.md#create-test-profile) ou [transformar um perfil existente em um perfil de teste](../building-journeys/testing-the-journey.md#turning-profile-into-test).
+
 Para usar o modo de teste, siga estas etapas:
 
 1. Antes de testar sua jornada, verifique se ela é válida e se não há erro. Você não poderá iniciar um teste de uma jornada com erros. Consulte [esta seção](../about/troubleshooting.md#section_h3q_kqk_fhb). Um símbolo de aviso é exibido quando há erros.
 
-1. Para ativar o modo de teste, clique na opção **[!UICONTROL Test]**, localizada no canto superior direito.
+1. Para ativar o modo de teste, clique no botão **[!UICONTROL Test]** , localizado no canto superior direito.
 
    ![](../assets/journeytest1.png)
 
-1. Use o parâmetro **[!UICONTROL Wait time in test]**, no canto inferior esquerdo, para definir o tempo que cada atividade de espera durará no modo de teste. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Este parâmetro só será exibido se você tiver soltado uma ou mais atividades de espera em sua jornada.
+1. Use o parâmetro **[!UICONTROL Wait time in test]**, no canto inferior esquerdo, para definir o tempo que cada atividade de espera durará no modo de teste. O tempo padrão é de 10 segundos. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Esse parâmetro só será exibido se você tiver soltado uma ou mais atividades de espera em sua jornada.
 
    ![](../assets/journeytest_wait.png)
 
-1. Clique em **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados aos perfis de teste. Consulte [Acionando seus eventos](#firing_events).
+1. Clique em **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados a perfis de teste. Consulte [Acionando seus eventos](#firing_events).
 
    ![](../assets/journeyuctest1.png)
 
-1. Depois que os eventos forem recebidos, clique no botão **[!UICONTROL Show log]** para visualização do resultado do teste e verificá-los. Consulte [Ver os registros](#viewing_logs).
+1. Depois que os eventos forem recebidos, clique no botão **[!UICONTROL Show log]** para visualizar o resultado do teste e verificá-los. Consulte [Visualização dos logs](#viewing_logs).
 
    ![](../assets/journeyuctest2.png)
 
-1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Quando o teste é conclusivo, você pode publicar sua jornada. Consulte [esta página](../building-journeys/publishing-the-journey.md).
+1. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Quando o teste for conclusivo, você poderá publicar sua jornada. Consulte [esta página](../building-journeys/publishing-the-journey.md).
 
 ## Observações importantes {#important_notes}
 
-* É fornecida uma interface para disparar eventos para a viagem testada, mas eventos também podem ser enviados por sistemas de terceiros, como o Postman.
-* Somente indivíduos marcados como &quot;perfis de teste&quot; no Serviço de Perfil do Cliente em tempo real poderão entrar na jornada testada. Consulte [esta seção](../building-journeys/testing-the-journey.md#create-test-profile).
-* O modo de teste só está disponível em viagens de rascunho que utilizem uma namespace. O modo de teste deve verificar se uma pessoa que entra na viagem é ou não um perfil de teste e, portanto, deve poder chegar ao Adobe Experience Platform.
+* É fornecida uma interface para acionar eventos na jornada testada, mas os eventos também podem ser enviados por sistemas de terceiros, como o Postman.
+* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte [esta seção](../building-journeys/testing-the-journey.md#create-test-profile).
+* O modo de teste só está disponível em jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é um perfil de teste ou não e, portanto, deve conseguir acessar a Adobe Experience Platform.
 * O número máximo de perfis de teste que podem entrar em uma jornada durante uma sessão de teste é 100.
-* Quando você desativa o modo de teste, ele esvazia as viagens de todas as pessoas que entraram no modo de teste ou que estão atualmente nele. Ela também limpa o relatórios.
+* Quando você desativa o modo de teste, ele esvazia as jornadas de todas as pessoas que entraram no modo no passado ou que estão nele no momento. Também limpa o relatório.
 * Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
 * Não é possível modificar sua jornada quando o modo de teste é ativado. Quando estiver no modo de teste, você pode publicar diretamente a jornada, não é necessário desativar o modo de teste antes.
 
+## Como transformar um perfil em um perfil de teste{#turning-profile-into-test}
+
+Você pode transformar um perfil existente em um perfil de teste. Na Adobe Experience Platform, é possível atualizar os atributos de perfil por meio de chamadas de API, mas ele não pode ser executado por meio da interface.
+
+A maneira mais fácil de fazer isso é usando uma atividade de ação **Update profile** e alterar o campo booleano do perfil de teste de false para true. Consulte [esta seção](../building-journeys/update-profiles.md#using-the-test-mode).
+
 ## Criação de um perfil de teste{#create-test-profile}
 
-O processo para criar um perfil de teste é o mesmo que quando você cria um perfil no Adobe Experience Platform. Ela é executada por meio de chamadas de API. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)
+Se quiser criar um novo perfil de teste, o procedimento será o mesmo que criar um perfil na Adobe Experience Platform. Ele é executado por meio de chamadas de API. Veja esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)
 
-Você deve usar um schema que contenha a combinação &quot;detalhes do teste do perfil&quot;. O sinalizador testProfile faz parte dessa mistura.
+Você deve usar um esquema Profile que contenha a combinação &quot;detalhes do teste de perfil&quot;. O sinalizador testProfile faz parte dessa mistura.
 
-Ao criar um perfil, certifique-se de enviar o valor: testprofile = true.
+Ao criar um perfil, transmita o valor: testProfile = true.
 
 Observe que você também pode atualizar um perfil existente para alterar seu sinalizador testProfile para &quot;true&quot;.
 
@@ -104,86 +112,86 @@ curl -X POST \
 }'
 ```
 
-## Acionando seus eventos {#firing_events}
+## Acionar seus eventos {#firing_events}
 
 O botão **[!UICONTROL Trigger an event]** permite configurar um evento que fará com que uma pessoa entre na jornada.
 
 >[!NOTE]
 >
->Quando você aciona um evento no modo de teste, um evento real é gerado, o que significa que ele também atingirá outra jornada ouvindo esse evento.
+>Quando você aciona um evento no modo de teste, um evento real é gerado, o que significa que também acessará outra jornada ouvindo esse evento.
 
-Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no Adobe Experience Platform. Na verdade, o modo de teste só permite esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser um ECID, por exemplo.
+Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste na Adobe Experience Platform. Na verdade, o modo de teste permite somente esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser uma ECID, por exemplo.
 
-Se sua jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface o ajuda a passar as informações certas na carga do evento e a verificar se o tipo de informações está correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
+Se sua jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda a transmitir as informações certas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
 ![](../assets/journeytest4.png)
 
-A interface permite que você passe parâmetros de evento simples. Se quiser enviar coleções ou outros objetos avançados no evento, clique em **[!UICONTROL Code View]** para ver o código inteiro da carga e modificá-lo. Por exemplo, você pode copiar e colar informações do evento preparadas por um usuário técnico.
+A interface permite que você passe parâmetros de evento simples. Se quiser transmitir coleções ou outros objetos avançados no evento, clique em **[!UICONTROL Code View]** para ver todo o código do payload e modificá-lo. Por exemplo, você pode copiar e colar informações do evento preparadas por um usuário técnico.
 
 ![](../assets/journeytest5.png)
 
-Um usuário técnico também pode usar essa interface para compor cargas úteis de eventos e acionar eventos sem precisar usar uma ferramenta de terceiros.
+Um usuário técnico também pode usar essa interface para compor cargas de evento e acionar eventos sem precisar usar uma ferramenta de terceiros.
 
-Ao clicar no botão **[!UICONTROL Send]**, o teste é iniciado. A progressão do indivíduo na jornada é representada por um fluxo visual. O caminho se torna progressivamente verde à medida que o indivíduo se move através da jornada. Se ocorrer um erro, um símbolo de aviso será exibido na etapa correspondente. Você pode colocar o cursor nele para exibir mais informações sobre o erro e acessar os detalhes completos (quando disponíveis).
+Ao clicar no botão **[!UICONTROL Send]**, o teste é iniciado. A progressão do indivíduo na jornada é representada por um fluxo visual. O caminho se torna progressivamente verde à medida que o indivíduo se move pela jornada. Se ocorrer um erro, um símbolo de aviso será exibido na etapa correspondente. Você pode colocar o cursor nele para exibir mais informações sobre o erro e acessar detalhes completos (quando disponível).
 
 ![](../assets/journeytest6.png)
 
-Quando você seleciona um perfil de teste diferente na tela de configuração do evento e executa o teste novamente, o fluxo visual é apagado e mostra o caminho do novo indivíduo.
+Quando você seleciona um perfil de teste diferente na tela de configuração do evento e executa o teste novamente, o fluxo visual é limpo e mostra o caminho do novo indivíduo.
 
 Ao abrir uma jornada no teste, o caminho exibido corresponde ao último teste executado.
 
-O fluxo visual funciona se o evento é disparado pela interface ou externamente (usando o Postman, por exemplo).
+O fluxo visual funciona se o evento é acionado por meio da interface ou externamente (usando Postman, por exemplo).
 
-## Modo de ensaio para viagens baseadas em regras {#test-rule-based}
+## Modo de teste para jornadas baseadas em regras {#test-rule-based}
 
-O modo de teste também está disponível para viagens que usam um evento baseado em regras. Para obter mais informações sobre eventos baseados em regras, consulte [esta página](../event/about-events.md).
+O modo de teste também está disponível para jornadas que usam um evento com base em regras. Para obter mais informações sobre eventos com base em regras, consulte [esta página](../event/about-events.md).
 
-Ao acionar um evento, a tela **configuração do Evento** permite que você defina os parâmetros do evento a serem aprovados no teste. Você pode visualização a condição da ID do evento clicando no ícone da dica de ferramenta no canto superior direito. Uma dica de ferramenta também está disponível ao lado de cada campo que faz parte da avaliação da regra.
+Ao acionar um evento, a tela **Configuração do evento** permite que você defina os parâmetros do evento que serão passados no teste. Você pode exibir a condição de ID do evento clicando no ícone de dica de ferramenta no canto superior direito. Uma dica de ferramenta também está disponível ao lado de cada campo que faz parte da avaliação da regra.
 
 ![](../assets/alpha-event8.png)
 
 Para obter mais informações sobre como usar o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
-## Visualização dos registros {#viewing_logs}
+## Visualização dos logs {#viewing_logs}
 
-O botão **[!UICONTROL Show log]** permite que você visualização os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados de teste da jornada.
+O botão **[!UICONTROL Show log]** permite visualizar os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. Você precisa atualizar manualmente a página para atualizar os resultados de teste da jornada.
 
 ![](../assets/journeytest3.png)
 
 >[!NOTE]
 >
->Nos registros de teste, no caso de erro ao chamar um sistema de terceiros (fonte de dados ou ação), o código de erro e a resposta do erro são exibidos.
+>Nos logs de teste, em caso de erro ao chamar um sistema de terceiros (fonte de dados ou ação), o código de erro e a resposta do erro são exibidos.
 
-O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentro da jornada é exibido. Estas são informações úteis exibidas para cada indivíduo:
+O número de indivíduos (tecnicamente chamados de instâncias) atualmente na jornada é exibido. Estas são informações úteis exibidas para cada indivíduo:
 
 * _Id_: a ID interna da pessoa na jornada. Isso pode ser usado para fins de depuração.
-* _etapa atual_: a etapa em que o indivíduo está na viagem. Recomendamos adicionar etiquetas às suas atividades para identificá-las mais facilmente.
-* _currentstep_ > fase: o estado da viagem da pessoa (em execução, concluída, erro ou tempo limite). Consulte abaixo para obter mais informações.
-* _currentstep_ >  _extraInfo_: descrição do erro e outras informações contextuais.
-* _currentstep_ >  _fetchErrors_: informações sobre erros de busca de dados ocorridos durante esta etapa.
-* _externalKeys_: o valor da fórmula de chave definida no evento.
-* _EnhedData_: os dados que a jornada recuperou se a jornada utiliza fontes de dados.
-* _TransitionHistory_: a lista de etapas que o indivíduo seguiu. Para eventos, a carga é exibida.
+* _etapa atual_: a etapa em que o indivíduo está na jornada. Recomendamos adicionar rótulos às suas atividades para identificá-las mais facilmente.
+* _currentstep_ > fase: o status da jornada do indivíduo (em execução, concluído, erro ou tempo limite). Consulte abaixo para obter mais informações.
+* _currentstep_  >  _extraInfo_: descrição do erro e outras informações contextuais.
+* _currentstep_  >  _fetchErrors_: informações sobre erros de busca de dados ocorridos durante esta etapa.
+* _externalKeys_: o valor da fórmula-chave definida no evento.
+* _enriquecidoData_: os dados que a jornada recuperou se ela usar fontes de dados.
+* _transitionHistory_: a lista de etapas que o indivíduo seguiu. Para eventos, a carga é exibida.
 * _actionExecutionErrors_ : informações sobre os erros que ocorreram.
 
 Estes são os diferentes status da jornada de um indivíduo:
 
-* _Em execução_: o indivíduo está atualmente na viagem.
-* _Concluído_: o indivíduo está no final da viagem.
-* _Erro_: o indivíduo é parado na viagem por causa de um erro.
-* _Tempo limite_: o indivíduo é parado na viagem por causa de um passo que levou muito tempo.
+* _Em execução_: o indivíduo está atualmente na jornada.
+* _Concluído_: o indivíduo estiver no final da jornada.
+* _Erro_: o indivíduo é parado na jornada devido a um erro.
+* _Tempo limite_: o indivíduo é parado na jornada devido a um passo que levou muito tempo.
 
 Quando um evento é acionado usando o modo de teste, um conjunto de dados é gerado automaticamente com o nome da fonte.
 
 Quando um evento é acionado usando o modo de teste, um conjunto de dados é gerado automaticamente com o nome da fonte.
 
-O modo de teste cria automaticamente um Evento da Experiência e o envia para a Adobe Experience Platform. O nome da origem desse Evento de experiência é &quot;Eventos de teste de Journey Orchestration&quot;.
+O modo de teste cria automaticamente um Evento de experiência e o envia para a Adobe Experience Platform. O nome da origem desse evento de experiência é &quot;Eventos de teste do Journey Orchestration&quot;.
 
-No caso de eventos múltiplos acionados a partir de viagens múltiplas
+No caso de vários eventos acionados de várias jornadas
 
-Há um cenário em que vários eventos são enviados de várias viagens que terão Schemas diferentes. Um schema pode mapear para 1 conjunto de dados? Caso contrário, teremos vários conjuntos de dados necessários.
+Há um cenário em que há vários eventos enviados de várias jornadas que terão esquemas diferentes. Um esquema pode mapear para 1 conjunto de dados? Caso contrário, teremos vários conjuntos de dados necessários.
 
-A criação e nomeação automáticas desses conjuntos de dados será realizada se um conjunto de dados de destino não for incluído no evento da experiência. É por isso que vemos o &quot;Conjunto de dados criado automaticamente para o viajante&quot; hoje.
+A criação e nomeação automáticas desses conjuntos de dados é realizada se um conjunto de dados de destino não estiver incluído no evento da experiência. É por isso que vemos o &quot;Conjunto de dados criado automaticamente para o explorador&quot; hoje.
 
-A nomeação de nossa fonte impulsiona a criação automática. Se tivermos vários eventos, devemos concatenar e fazer com que seja &quot;Evento de teste de Journey Orchestration - NOME DO SCHEMA&quot;. Isso será automaticamente direcionado para &quot;Conjunto de dados gerado automaticamente para Evento de teste de Journey Orchestration - NOME DO SCHEMA&quot;.
+A nomeação de nossa origem gera a criação automática. Se houver vários eventos, devemos concatenar e fazer com que seja &quot;Journey Orchestration Test Event - NAME OF SCHEMA&quot;. Isso será automaticamente transformado em &quot;Conjunto de dados gerado automaticamente para o evento de teste do Journey Orchestration - NOME DO ESQUEMA&quot;.
 
