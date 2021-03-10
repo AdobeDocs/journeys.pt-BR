@@ -3,40 +3,43 @@ product: adobe campaign
 solution: Journey Orchestration
 title: campos de jornada
 description: campos de jornada
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '71'
+ht-degree: 9%
 
 ---
 
 
 # campos de jornada {#sharing-journey-fields}
 
-Esta mistura é usada no schema de viagem (em relação a jornadaStepEvent). Ele contém os seguintes campos:
+Esse mixin é usado no schema de jornadas (em relação a journeyStepEvent). Ele contém os seguintes campos:
 
-## IDdajornada
+## journeyID
 
-Id da viagem principal.
+Id da jornada principal.
 
 Tipo: string
 
-## IDdaVersãoDoCaminho
+## journeyVersionID
 
-Id da versão da jornada. Este id representa a identidade de uma jornada.
+Id da versão do jornada. Essa id representa a identidade de uma jornada.
 
 Tipo: string
 
 ## name
 
-Nome da viagem.
+Nome da jornada.
 
 Tipo: string
 
 ## descrição
 
-Descrição da viagem.
+Descrição da jornada.
 
 Tipo: string
 
