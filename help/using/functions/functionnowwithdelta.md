@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: nowWithDelta
 description: Saiba mais sobre a função nowWithDelta
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 4%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 
 
 # nowWithDelta {#nowWithDelta}
 
-Retorna o datetime atual, incluindo um deslocamento. Se uma ID de fuso horário for especificada, o deslocamento de fuso horário será aplicado. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
+Retorna a data e hora atual, incluindo um deslocamento. Se um ID de fuso horário for especificado, o deslocamento de fuso horário será aplicado. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
 
 ## Categoria
 
@@ -29,8 +32,8 @@ Data
 | Parâmetro | Descrição |
 |--- |--- |
 | delta | valor inteiro positivo ou negativo |
-| parte da data | anos, meses, dias, horas, minutos ou segundos como uma sequência |
-| id de fuso horário | representação da string do valor do fuso horário. Para obter mais informações, consulte [Tipos de dados](../expression/data-types.md). A ID de fuso horário deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão. |
+| parte da data | anos, meses, dias, horas, minutos ou segundos como uma string |
+| id de fuso horário | representação de string do valor de fuso horário. Para obter mais informações, consulte [Tipos de dados](../expression/data-types.md). A ID de fuso horário deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão. |
 
 ## Assinaturas e tipo retornado
 
