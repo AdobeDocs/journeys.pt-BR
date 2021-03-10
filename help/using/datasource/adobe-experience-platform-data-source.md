@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: 'Fonte de dados da Adobe Experience Platform '
-description: 'Saiba como configurar a fonte de dados Adobe Experience Platform '
+description: 'Saiba como configurar a fonte de dados do Adobe Experience Platform '
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '360'
 ht-degree: 11%
 
 ---
@@ -14,15 +17,15 @@ ht-degree: 11%
 
 # Fonte de dados da Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-A fonte de dados Adobe Experience Platform define a conexão com o Serviço de Perfil do Cliente em tempo real. Essa fonte de dados é incorporada e pré-configurada. Não pode ser eliminada. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de Perfil do Cliente em tempo real (por exemplo, verifique se a pessoa que entrou em uma jornada é uma fêmea). Ele permite que você use dados de Perfis e dados de Eventos de experiência. Para obter mais informações sobre o Serviço de Perfil do Cliente em tempo real, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
+A fonte de dados da Adobe Experience Platform define a conexão com o Serviço de perfil do cliente em tempo real. Essa fonte de dados é incorporada e pré-configurada. Não pode ser eliminado. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verifique se a pessoa que inseriu uma jornada é uma mulher). Ela permite usar os dados de Perfil e os dados de Eventos de experiência. Para obter mais informações sobre o Serviço de perfil do cliente em tempo real, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
 >Você pode recuperar os 1000 eventos de experiência mais recentes criados há menos de um ano.
 
-Para permitir a conexão com o Serviço de Perfil do Cliente em tempo real, precisamos usar uma chave para identificar uma pessoa e uma namespace que contextualize a chave. Como resultado, você só poderá usar essa fonte de dados se sua jornada for start com um evento contendo uma chave e uma namespace. Consulte [esta página](../building-journeys/journey.md).
+Para permitir a conexão com o Serviço de perfil do cliente em tempo real, devemos usar uma chave para identificar uma pessoa e um namespace que contextualize a chave. Como resultado, você só poderá usar essa fonte de dados se suas jornadas começarem com um evento contendo uma chave e um namespace. Consulte [esta página](../building-journeys/journey.md).
 
-Você pode editar o grupo de campos pré-configurado chamado &quot;ProfileFieldGroup&quot;, adicionar novos e remover os que não são usados em nenhuma jornada de rascunho ou ao vivo. Consulte [esta página](../datasource/field-groups.md).
+Você pode editar o grupo de campos pré-configurado chamado &quot;ProfileFieldGroup&quot;, adicionar novos campos e remover aqueles que não são usados em nenhum rascunho ou jornadas ativas. Consulte [esta página](../datasource/field-groups.md).
 
 Estas são as etapas principais para adicionar grupos de campos à fonte de dados integrada.
 
@@ -36,9 +39,9 @@ Estas são as etapas principais para adicionar grupos de campos à fonte de dado
 
    ![](../assets/journey24.png)
 
-1. Selecione um schema no menu suspenso **[!UICONTROL Schema]**. Este campo lista schemas Perfis e Eventos de experiência disponíveis no Adobe Experience Platform. A criação do schema não é realizada em [!DNL Journey Orchestration]. É executado no Adobe Experience Platform.
+1. Selecione um schema no menu suspenso **[!UICONTROL Schema]**. Este campo lista os esquemas Perfil e Eventos de experiência disponíveis na Adobe Experience Platform. A criação do esquema não é executada em [!DNL Journey Orchestration]. Ele é executado na Adobe Experience Platform.
 1. Selecione os campos que deseja usar.
 1. Defina a duração do cache.
 1. Clique em **[!UICONTROL Save]**.
 
-Quando você coloca o cursor no nome de um grupo de campos, você verá dois ícones à direita. Eles permitem que você exclua e duplicado o grupo de campos. Observe que o ícone **[!UICONTROL Delete]** só estará disponível se o grupo de campos não for usado em nenhuma jornada ao vivo ou de rascunho (informações exibidas no campo **[!UICONTROL Used in]**).
+Ao colocar o cursor no nome de um grupo de campos, você verá dois ícones à direita. Eles permitem excluir e duplicar o grupo de campos. Observe que o ícone **[!UICONTROL Delete]** só estará disponível se o grupo de campos não for usado em nenhuma jornada ao vivo ou de rascunho (informações exibidas no campo **[!UICONTROL Used in]** ).
