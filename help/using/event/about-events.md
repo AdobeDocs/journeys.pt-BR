@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Sobre eventos
 description: Saiba mais sobre eventos
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 3dd7cd4dc4e4398b029dd1becd11c8dd7e7c3542
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '378'
 ht-degree: 55%
 
 ---
@@ -29,13 +32,13 @@ Se você editar um evento usado em um rascunho ou em uma jornada ao vivo, será 
 
 Você pode definir dois tipos de eventos:
 
-* **Baseados** em regras: esse tipo de evento não gera uma eventID. Usando o editor de expressões simples, basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas viagens. Essa regra pode se basear em qualquer campo disponível na carga do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
+* **Baseados** em regras: esse tipo de evento não gera uma eventID. Usando o editor de expressões simples, basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas jornadas. Essa regra pode ser baseada em qualquer campo disponível no payload do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
 
    >[!CAUTION]
    >
-   >Uma regra de limite é definida para eventos baseados em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5000 por segundo para uma determinada Organização (ORG). Corresponde a SLAs Journey Orchestration. Consulte esta [página](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Uma regra de limitação é definida para eventos com base em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5000 por segundo em uma determinada organização (ORG). Corresponde a Journey Orchestration SLAs. Consulte esta [página](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
-* **Desenvolvedores** gerados pelo sistema: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID; ele deve passar pela que está disponível na pré-visualização de carga.
+* **Eventos** gerados pelo sistema: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
 
 Para saber como criar um evento, consulte esta [página](../event/about-creating.md).
 
