@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: min
-description: Saiba mais sobre a função min
+description: Saiba mais sobre o min da função
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 4%
+source-wordcount: '92'
+ht-degree: 5%
 
 ---
 
 
 # min {#min}
 
-Retorna o valor mínimo entre um conjunto de expressões, dado como uma lista ou duas expressões. Valores nulos são ignorados.
+Retorna o valor mínimo entre um conjunto de expressões, considerando como uma lista ou duas expressões. Valores nulos são ignorados.
 
 ## Categoria
 
@@ -31,7 +34,7 @@ Agregação
 * listDecimal
 * listDateTime
 * listDateTimeOnly
-* duração
+* duration
 * integer
 * decimal
 * dateTime
