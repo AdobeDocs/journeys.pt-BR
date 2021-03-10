@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Solução de problemas
 description: Saiba mais sobre solução de problemas
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 98%
+source-wordcount: '1044'
+ht-degree: 97%
 
 ---
 
@@ -46,7 +49,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem ao [!DNL Journey Orchestration]. Na verdade, o [!DNL Journey Orchestration] depende das APIs de assimilação de streaming da Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte [esta página](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/troubleshooting.html) para obter a solução de problemas das APIs de ingestão de transmissão.
+Eventos não são levados diretamente da origem ao [!DNL Journey Orchestration]. Na verdade, o [!DNL Journey Orchestration] depende das APIs de assimilação de streaming da Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte [esta página](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/troubleshooting.html) para obter a solução de problemas de APIs de assimilação de streaming.
 
 ## Verificação da entrada de pessoas na jornada{#section_x4v_zzs_dgb}
 
