@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Atividade de espera
 description: Saiba mais sobre a atividade de espera
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '388'
 ht-degree: 4%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 4%
 
 # Atividade de espera{#section_rlm_nft_dgb}
 
-Se desejar aguardar antes de executar a próxima atividade no caminho, use uma atividade **[!UICONTROL Wait]**. Permite definir o momento em que a próxima atividade será executada. Quatro opções estão disponíveis:
+Se desejar esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade **[!UICONTROL Wait]** . Ela permite definir o momento em que a próxima atividade será executada. Quatro opções estão disponíveis:
 
 * [Duração](#duration)
 * [Data fixa](#fixed_date)
@@ -22,21 +25,21 @@ Se desejar aguardar antes de executar a próxima atividade no caminho, use uma a
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
-## Sobre a atividade de Espera{#about_wait}
+## Sobre a atividade de espera{#about_wait}
 
-Veja como as esperas são priorizadas quando você usa várias esperas em paralelo. Se eles tiverem a mesma configuração de tempo e uma condição diferente, mas sobreposta, a espera posicionada acima será a priorizada. Por exemplo, a condição da primeira espera é &quot;ser mulher&quot; e a condição da segunda espera em paralelo é &quot;ser uma VIP&quot;. A primeira atividade de espera será priorizada
+Veja como as esperas são priorizadas quando você usa várias esperas em paralelo. Se eles tiverem a mesma configuração de tempo e uma condição diferente, mas sobreposta, a espera posicionada acima será a priorizada. Por exemplo, a condição da primeira espera é &quot;ser mulher&quot; e a condição da segunda espera em paralelo é &quot;ser um VIP&quot;. A primeira atividade de espera será priorizada
 
 Observe também que, se duas esperas diferentes estiverem em paralelo, a que ocorrer primeiro será priorizada, independentemente de sua posição vertical. Por exemplo, se uma espera de 1 hora estiver acima e uma espera de 30 minutos estiver abaixo, após 30 minutos, a espera de 30 minutos será processada.
 
-Você pode definir uma condição se desejar restringir a espera a uma determinada população.
+Você pode definir uma condição se quiser restringir a espera para uma determinada população.
 
 >[!NOTE]
 >
->A duração máxima de espera é de 30 dias.
+>A duração máxima da espera é de 30 dias.
 >
->No modo de teste, o parâmetro **[!UICONTROL Wait time in test]** permite que você defina o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+>No modo de teste, o parâmetro **[!UICONTROL Wait time in test]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
 
-## Duração aguardar{#duration}
+## Duração da espera{#duration}
 
 Selecione a duração da espera antes da execução da próxima atividade.
 
@@ -48,15 +51,15 @@ Selecione a data para a execução da próxima atividade.
 
 ![](../assets/journey56.png)
 
-## Espera personalizada{#custom}
+## Aguardar personalizado{#custom}
 
-Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17 horas, usando uma expressão avançada baseada em um campo proveniente de um evento ou de uma fonte de dados. Isso não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressões deve fornecer um formato dateTimeOnly. Consulte [esta página](../expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte [esta página](../expression/data-types.md).
+Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de 2020 às 17h, usando uma expressão avançada com base em um campo proveniente de um evento ou uma fonte de dados. Ela não permite definir uma duração personalizada, por exemplo, 7 dias. A expressão no editor de expressão deve fornecer um formato dateTimeOnly . Consulte [esta página](../expression/expressionadvanced.md). Para obter mais informações sobre o formato dateTimeOnly, consulte [esta página](../expression/data-types.md).
 
 >[!NOTE]
 >
->Você pode aproveitar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, sendo o campo no evento do formulário 2016-08-12T09:46:06Z.
+>Você pode utilizar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, o campo no caso de ser do formulário 2016-08-12T09:46:06Z.
 >
->O **fuso horário** é esperado nas propriedades da sua viagem. Como resultado, atualmente não é possível da interface para apontar diretamente para um tempo completo ISO-8601 de mistura de carimbo de data e hora e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
+>O **fuso horário** é esperado nas propriedades da sua jornada. Como resultado, hoje não é possível da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo, tempo de combinação e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
