@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: setDays
 description: Saiba mais sobre a função setDays
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '78'
 ht-degree: 8%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 8%
 
 # setDays {#setDays}
 
-Define somente o dia de uma data, hora ou data. Por exemplo, se você quiser esperar até um determinado dia do mês, você pode forçar o dia.
+Define somente o dia de uma data ou hora. Por exemplo, se você quiser esperar até um determinado dia do mês, é possível forçar o dia.
 
 ## Categoria
 
@@ -28,8 +31,8 @@ Data
 
 | Parâmetro | Tipo |
 |--- |--- |
-| data hora | dateTime |
-| data e hora sem considerar o fuso horário | dateTimeOnly |
+| data e hora | dateTime |
+| data e hora sem considerar fuso horário | dateTimeOnly |
 | dias | integer |
 
 ## Assinaturas e tipo retornado
