@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: distinctWithNull
-description: Saiba mais sobre a função differentWithNull
+description: Saiba mais sobre a função distinctWithNull
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '103'
 ht-degree: 12%
 
 ---
@@ -48,7 +51,7 @@ Retorna uma lista de decimais.
 
 `distinctWithNull(<listString>)`
 
-Retorna uma lista de strings.
+Retorna uma lista de cadeias de caracteres.
 
 `distinctWithNull(<listDateTimeOnly>)`
 
@@ -70,4 +73,4 @@ Retorna uma lista de durações.
 
 `distinctWithNull([10,2,10,null])`
 
-Retorna [10, 2, nulo]
+Retorna [10, 2, null]
