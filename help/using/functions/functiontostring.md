@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toString
 description: Saiba mais sobre a função toString
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 4%
+source-wordcount: '118'
+ht-degree: 5%
 
 ---
 
@@ -30,11 +33,11 @@ Conversão
 |--- |--- |
 | dateTime | converte a data em formato de data UTC |
 | dateTimeOnly | converte a data em formato de data UTC |
-| duração | converter no número correspondente de milissegundos como uma string |
-| fuso horário | converter na representação da cadeia de caracteres de ID de fuso horário (ID do JODA) |
-| integer | converte para representação de string do valor (1 se torna &quot;1&quot;) |
-| decimal | converte para representação de string do valor (1,5 se torna &quot;1,5&quot;) |
-| booleano | converter o valor booliano como &#39;true&#39; se for verdadeiro, &#39;false&#39; se for falso |
+| duration | converter no número correspondente de milissegundos como uma string |
+| fuso horário | converter em representação da cadeia de caracteres de id do fuso horário (ID do JODA) |
+| integer | converte em representação de string do valor (1 se torna &quot;1&quot;) |
+| decimal | converte em representação de string do valor (1,5 se torna &quot;1,5&quot;) |
+| booleano | converter o valor booleano como &#39;true&#39; se for verdadeiro, &#39;false&#39; se for falso |
 
 ## Assinaturas e tipo retornado
 
@@ -52,7 +55,7 @@ Conversão
 
 `toString(<decimal>)`
 
-Retorna uma string.
+Retorne uma string.
 
 ## Exemplo
 
