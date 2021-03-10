@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: inSegment
 description: Saiba mais sobre a função noSegment
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 7%
+source-wordcount: '110'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +21,7 @@ Verifica se um indivíduo pertence a um determinado segmento.
 
 O nome do segmento deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão.
 
-Os segmentos são definidos no [Adobe Experience Platform](https://platform.adobe.com/segment/overview). O editor de expressões fornece uma lista de segmentos preenchida automaticamente.
+Os segmentos são definidos no [Adobe Experience Platform](https://platform.adobe.com/segment/overview). O editor de expressão fornece uma lista de segmentos preenchida automaticamente.
 
 >[!NOTE]
 >
@@ -50,4 +53,4 @@ Retorna um booleano.
 
 Explicação:
 
-A função retornará **[!UICONTROL true]** se o indivíduo dentro da instância de jornada fizer parte do segmento Adobe Experience Platform chamado &quot;men above 50&quot;, senão **[!UICONTROL false]**.
+A função retornará **[!UICONTROL true]** se o indivíduo na instância do jornada fizer parte do segmento do Adobe Experience Platform chamado &quot;homens acima de 50&quot;, caso contrário, **[!UICONTROL false]**.
