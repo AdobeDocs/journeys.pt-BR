@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: toDuration
 description: Saiba mais sobre a função toDuration
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 1%
+source-wordcount: '283'
+ht-degree: 2%
 
 ---
 
@@ -28,12 +31,12 @@ Conversão
 
 | Parâmetro | Descrição |
 |--- |--- |
-| string | formatos baseados no formato de duração ISO-8601 PnDTnHnMn.nS com dias considerados exatamente 24 horas |
+| string | formatos baseados no formato ISO-8601 duration PnDTnHnMn.nS com dias considerados exatamente 24 horas |
 | integer | número de milissegundos |
 
-Se a expressão da string: os formatos aceitos são baseados no formato de duração ISO-8601 PnDTnHnMn.nS com dias considerados exatamente 24 horas.
+Se expressão da string: Os formatos aceites são baseados no formato ISO-8601 duration PnDTnHnMn.sS com dias considerados exatamente 24 horas.
 
-A string start com um sinal opcional, denotado pelo símbolo negativo ou positivo ASCII. Se negativo, todo o período é negado. A letra ASCII &quot;P&quot; é a seguinte em maiúsculas ou minúsculas. Em seguida, há quatro seções, cada uma delas com um número e um sufixo. As seções têm sufixos no ASCII de &quot;D&quot;, &quot;H&quot;, &quot;M&quot; e &quot;S&quot; para dias, horas, minutos e segundos, aceitos em maiúsculas ou minúsculas. Os sufixos devem ocorrer em ordem. A letra &quot;T&quot; do ASCII deve ocorrer antes da primeira ocorrência, se houver, de uma hora, minuto ou segunda seção. Deve estar presente pelo menos uma das quatro seções e, se &quot;T&quot; estiver presente, deve existir pelo menos uma seção após &quot;T&quot;. A parte numérica de cada seção deve consistir em um ou mais dígitos ASCII. O número pode ser prefixado pelo símbolo negativo ou positivo ASCII. O número de dias, horas e minutos deve ser analisado. O número de segundos deve ser analisado junto com a fração opcional. O ponto decimal pode ser um ponto ou uma vírgula. A parte fracional pode ter de zero a 9 dígitos.
+A string começa com um sinal opcional, denotado pelo símbolo negativo ou positivo ASCII. Se for negativo, todo o período é negado. A letra ASCII &quot;P&quot; é a próxima em maiúscula ou minúscula. Em seguida, há quatro seções, cada uma com um número e um sufixo. As seções têm sufixos no ASCII de &quot;D&quot;, &quot;H&quot;, &quot;M&quot; e &quot;S&quot; para dias, horas, minutos e segundos, aceitos em letras maiúsculas ou minúsculas. Os sufixos devem ocorrer em ordem. A letra ASCII &quot;T&quot; deve ocorrer antes da primeira ocorrência, se houver, de uma hora, minuto ou segunda seção. Pelo menos uma das quatro seções deve estar presente e, se &quot;T&quot; estiver presente, deve haver pelo menos uma seção após o &quot;T&quot;. A parte do número de cada seção deve consistir em um ou mais dígitos ASCII. O número pode ser pré-fixado pelo símbolo negativo ou positivo ASCII. O número de dias, horas e minutos deve ser analisado. O número de segundos deve ser analisado junto com a fração opcional. O ponto decimal pode ser um ponto ou uma vírgula. A parte fracional pode ter de zero a 9 dígitos.
 
 ## Assinaturas e tipo retornado
 
