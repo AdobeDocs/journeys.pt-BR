@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: 'Fontes de dados externas '
 description: 'Saiba como configurar fontes de dados externas '
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 28604af956df18fbc89e44ace36904c5897c028e
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 99%
+source-wordcount: '1279'
+ht-degree: 98%
 
 ---
 
