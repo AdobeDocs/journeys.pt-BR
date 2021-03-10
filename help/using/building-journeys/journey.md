@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Sobre a construção de jornada
 description: Como usuário empresarial, aprenda a combinar atividades de evento, orquestração e ação para criar uma jornada.
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: c41b49e2208727f5e3a562b838c4b052c70e8412
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '439'
 ht-degree: 15%
 
 ---
@@ -16,15 +19,15 @@ ht-degree: 15%
 
 Esta etapa é executada pelo **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
 
-A interface de jornada permite arrastar e soltar facilmente atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem uma função e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
+A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem uma função e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 
-Somente um namespace é permitido por jornada. Ao soltar o primeiro evento, os eventos com namespaces diferentes serão esmaecidos. Se o primeiro evento não tiver um namespace, todos os eventos com um namespace serão esmaecidos. Consulte [esta página](../event/selecting-the-namespace.md). Além disso, os grupos de campos da Adobe Experience Platform ficam esmaecidos se a jornada tiver eventos sem um namespace. E, por fim, se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace.
+Somente um namespace é permitido por jornada. Ao soltar o primeiro evento, os eventos com namespaces diferentes serão esmaecidos. Se o primeiro evento não tiver um namespace, todos os eventos com um namespace serão esmaecidos. Consulte [esta página](../event/selecting-the-namespace.md). Além disso, os grupos de campos do Adobe Experience Platform ficam esmaecidos se a jornada tiver eventos sem um namespace. Por fim, se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace.
 
 Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa são ocultos. Isso se refere a todas as ações, à atividade de condição, à espera e à reação.
 
 ## Início rápido {#creating_journey}
 
-Estas são as principais etapas para criar e publicar uma jornada.
+Estas são as etapas principais para criar e publicar uma jornada.
 
 1. No menu superior, clique na guia **[!UICONTROL Home]**.
 
@@ -48,7 +51,7 @@ Estas são as principais etapas para criar e publicar uma jornada.
 
    ![](../assets/journey34.png)
 
-1. Sua jornada é salva automaticamente. Teste sua jornada e publique-a. Consulte [teste da jornada](../building-journeys/testing-the-journey.md) e [Publicação da jornada](../building-journeys/publishing-the-journey.md).
+1. Sua jornada é salva automaticamente. Teste sua jornada e publique-a. Consulte [testando a jornada](../building-journeys/testing-the-journey.md) e [Publicando a jornada](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
