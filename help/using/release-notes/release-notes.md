@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
+feature: Jornada
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 9f312c779a6229507c72d3f116b8192bb5f1df34
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2268'
 ht-degree: 68%
 
 ---
@@ -28,7 +31,7 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 <tbody>
 <tr>
 <td>
-<p>Essa nova atividade de ação permite atualizar um perfil existente da Adobe Experience Platform com informações provenientes do evento, uma fonte de dados ou usando um valor específico.</p>
+<p>Essa nova atividade de ação permite atualizar um perfil do Adobe Experience Platform existente com informações provenientes do evento, fonte de dados ou usando um valor específico.</p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/update-profiles.md">documentação detalhada</a>.</p>
 </td>
 </tr>
@@ -46,9 +49,9 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 
 Ao selecionar um schema na configuração do evento, somente os campos obrigatórios para o evento ser recebido corretamente pelo Journey Orchestration são selecionados. [Leia mais](../event/defining-the-payload-fields.md)
 
-Os atributos de propriedades da jornada agora estão disponíveis no editor de expressões simples. [Leia mais](../expression/journey-properties.md)
+Os atributos de propriedades do Jornada agora estão disponíveis no editor de expressões simples. [Leia mais](../expression/journey-properties.md)
 
-Dois novos atributos de propriedades da jornada foram adicionados (sandboxName e organizationId). [Leia mais](../expression/journey-properties.md)
+Dois novos atributos de propriedades de jornada foram adicionados (sandboxName e organizationId). [Leia mais](../expression/journey-properties.md)
 
 Para se alinhar aos SLAs do Adobe Campaign Standard, uma regra de limitação de 13 chamadas por segundo agora é definida automaticamente para ações do Adobe Campaign Standard assim que a integração do Adobe Campaign Standard é configurada. [Leia mais](../action/working-with-adobe-campaign.md)
 
@@ -70,7 +73,7 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 <p>Uma nova atividade de ação permite enviar indivíduos de uma jornada para outra. A atividade <strong>Jump</strong> permite:
 </p>
 <ul>
-<li>simplifique o design de jornadas muito complexas dividindo-as em várias </li>
+<li>simplificar o design de jornadas muito complexas dividindo-as em várias </li>
 <li>criar jornadas com base em padrões de jornada comuns e reutilizáveis</li>
 </ul>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/jump.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">vídeo tutorial</a>.</p>
@@ -82,13 +85,13 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 <table>
 <thead>
 <tr>
-<th><strong>Uso das propriedades da jornada no editor de expressão</strong><br/></th>
+<th><strong>Uso das propriedades do jornada no editor de expressão</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>No editor de expressão avançado, adicionamos uma nova categoria à lista de campos e funções. Essas são as informações recuperadas pelo sistema a partir de jornadas ao vivo, como a ID da jornada ou os erros específicos encontrados. Isso lhe dará mais possibilidades ao criar suas jornadas. Por exemplo, você poderá alertar sistemas de terceiros em caso de erros encontrados em uma condição ou ação.
+<p>No editor de expressão avançado, adicionamos uma nova categoria à lista de campos e funções. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. Isso lhe dará mais possibilidades ao criar suas jornadas. Por exemplo, você poderá alertar sistemas de terceiros em caso de erros encontrados em uma condição ou ação.
 </p>
 <p>Para obter mais informações, consulte a <a href="../expression/journey-properties.md">documentação detalhada</a>.</p>
 </td>
@@ -116,7 +119,7 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 
 Foram adicionadas limitações ao criar novas versões de uma jornada. Essas limitações evitam alterações muito drásticas na jornada para manter alguma consistência entre as versões. [Leia mais](../about/limitations.md#journey-versions-limitations)
 
-A atividade **Segment Qualification** não pode mais ser usada em uma jornada que inclui atividades de mensagem do Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso de qualificação de segmento pode levar a picos diários de envio de mensagem que sobrecarregariam as mensagens transacionais do Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
+A atividade **Segment Qualification** não pode mais ser usada em uma jornada que inclui atividades de mensagem de Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso de qualificação de segmento pode levar a picos diários de envio de mensagem que sobrecarregariam as mensagens transacionais do Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
 
 ## Versão de outubro de 2020 {#october-release}
 
@@ -139,7 +142,7 @@ A atividade **Segment Qualification** não pode mais ser usada em uma jornada qu
 
 ### Outras melhorias
 
-* Ao publicar uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status Fechado . [Leia mais](../building-journeys/journey-versions.md)
+* Quando você publica uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status Closed . [Leia mais](../building-journeys/journey-versions.md)
 
 ## Versão de setembro de 2020 {#september-release}
 
@@ -154,7 +157,7 @@ A atividade **Segment Qualification** não pode mais ser usada em uma jornada qu
 <tbody>
 <tr>
 <td>
-<p>Ao adicionar condições à sua jornada, você pode definir um rótulo. Se você usar várias condições em uma jornada, isso permitirá identificá-las mais facilmente.
+<p>Ao adicionar condições à jornada, agora é possível definir um rótulo. Se você usar várias condições em uma jornada, isso permitirá identificá-las mais facilmente.
 </p>
 <p>Para obter mais informações, consulte a <a href="../building-journeys/condition-activity.md#about_condition">documentação detalhada</a>.</p>
 </td>
@@ -176,7 +179,7 @@ A atividade **Segment Qualification** não pode mais ser usada em uma jornada qu
 <p>As seguintes melhorias foram feitas na atividade <strong>Read segment</strong> :
 </p>
 <ul>
-<li><p>As jornadas baseadas em segmentos agora exibem, acima da tela, um lembrete do tipo de agendamento da jornada. Você pode clicar nesse lembrete para acessar o menu de configuração do agendamento.</p>
+<li><p>Jornadas baseadas em segmentos agora exibem, acima da tela, um lembrete do tipo de agendamento da jornada. Você pode clicar nesse lembrete para acessar o menu de configuração do agendamento.</p>
 </li>
 <li><p>A granularidade dos logs do modo de teste foi aprimorada para exibir o status do progresso da exportação do segmento.</p>
 </li>
