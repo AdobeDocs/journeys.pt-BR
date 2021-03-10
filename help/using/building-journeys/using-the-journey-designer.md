@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: Usar o designer de jornada
-description: Saiba mais sobre como usar o designer de jornada
+description: Saiba mais sobre como usar o designer do jornada
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 566252f72ef706308249c3b6b27564f086b40760
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1392'
 ht-degree: 5%
 
 ---
@@ -14,27 +17,27 @@ ht-degree: 5%
 
 # Usar o designer de jornada {#concept_m1g_5qt_52b}
 
-O menu Página inicial da jornada permite visualizar a lista de **jornadas**. Crie uma nova jornada ou clique em uma já existente para abrir a interface do designer de jornada **.** O desenhador é composto pelas seguintes zonas: a paleta, a tela e o painel de configuração da atividade.
+O menu Início da jornada permite visualizar a lista **de jornadas**. Crie uma nova jornada ou clique em uma existente para abrir a **interface do designer do jornada**. O desenhador é composto pelas seguintes zonas: a paleta, a tela e o painel de configuração da atividade.
 
-## A lista de jornada {#journey_list}
+## A lista de jornadas {#journey_list}
 
-A **lista de jornada** permite visualizar todas as suas jornadas de uma só vez, ver seu status e executar ações básicas. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada encerrada. Você pode criar uma nova versão dela, duplicá-la ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
+A **jornada list** permite visualizar todas as jornadas de uma só vez, ver o status e executar ações básicas. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada encerrada. Você pode criar uma nova versão dela, duplicá-la ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
 
-O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar as jornadas exibidas de acordo com critérios diferentes (status, os que você criou, os que foram modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
+O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar as jornadas exibidas de acordo com critérios diferentes (status, aqueles criados, os modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
 
 ![](../assets/journey74.png)
 
-Todas as versões de suas jornadas aparecem na lista com o número da versão. Consulte [esta página](../building-journeys/journey-versions.md).
+Todas as versões das jornadas são exibidas na lista com o número da versão. Consulte [esta página](../building-journeys/journey-versions.md).
 
 ![](../assets/journey37.png)
 
 >[!NOTE]
 >
->Para abrir a tela de uma jornada em uma guia diferente do navegador, mantenha pressionada a tecla **Control** ou **Command** e clique na jornada.
+>Para abrir uma tela de jornada em uma guia diferente do navegador, mantenha pressionada a tecla **Control** ou **Command** e clique na jornada.
 
 ## A paleta {#palette}
 
-A **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. É possível expandir/recolher as diferentes categorias clicando no nome. Para usar uma atividade em sua jornada, arraste-a e solte-a da paleta na tela. Também é possível clicar duas vezes em uma atividade na paleta para adicioná-la à tela, na próxima etapa disponível. É necessário configurar cada atividade adicionada a partir da paleta antes de publicar a jornada. Se soltar uma atividade na tela e não finalizar sua configuração, ela permanecerá na tela, mas um aviso vermelho indicará que a configuração não foi concluída para essa atividade.
+A **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis são classificadas em várias categorias: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. É possível expandir/recolher as diferentes categorias clicando no nome. Para usar uma atividade na jornada, arraste-a e solte-a da paleta na tela. Também é possível clicar duas vezes em uma atividade na paleta para adicioná-la à tela, na próxima etapa disponível. É necessário configurar cada atividade adicionada a partir da paleta antes de publicar a jornada. Se soltar uma atividade na tela e não finalizar sua configuração, ela permanecerá na tela, mas um aviso vermelho indicará que a configuração não foi concluída para essa atividade.
 
 >[!NOTE]
 >
@@ -44,7 +47,7 @@ A **paleta** está no lado esquerdo da tela. Todas as atividades disponíveis s�
 
 O ícone **[!UICONTROL Filter items]** no canto superior esquerdo permite exibir os seguintes filtros:
 
-* **Mostrar apenas itens** disponíveis: ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam um namespace diferente daqueles usados em sua jornada. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-las, elas aparecerão esmaecidas.
+* **Mostrar apenas itens** disponíveis: ocultar ou exibir elementos indisponíveis na paleta, por exemplo, os eventos que usam um namespace diferente daqueles usados na jornada. Por padrão, os itens indisponíveis ficam ocultos. Se você optar por exibi-las, elas aparecerão esmaecidas.
 
 * **Mostrar apenas itens** recentes: esse filtro permite exibir somente os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos.
 
@@ -54,7 +57,7 @@ Também é possível usar o campo **[!UICONTROL Search]**.
 
 ## A tela {#canvas}
 
-A **tela** é a zona central no designer de jornada. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito. É possível ampliar e diminuir o zoom usando os botões &quot;+&quot; e &quot;-&quot; na parte superior direita. Na tela, todas as atividades permitem adicionar uma próxima etapa após elas, exceto **[!UICONTROL End]** atividades (consulte [esta página](../building-journeys/end-activity.md)).
+A **tela** é a zona central no designer de jornadas. É nessa zona que você pode soltar suas atividades e configurá-las. Clique em uma atividade na tela para configurá-la. Isso abre o painel de configuração da atividade no lado direito. É possível ampliar e diminuir o zoom usando os botões &quot;+&quot; e &quot;-&quot; na parte superior direita. Na tela, todas as atividades permitem adicionar uma próxima etapa após elas, exceto **[!UICONTROL End]** atividades (consulte [esta página](../building-journeys/end-activity.md)).
 
 ![](../assets/journey39.png)
 
@@ -62,7 +65,7 @@ A **tela** é a zona central no designer de jornada. É nessa zona que você pod
 
 O **painel de configuração da atividade** é exibido ao clicar em uma atividade na paleta. Preencha os campos obrigatórios. Clique no ícone **[!UICONTROL Delete]** para excluir a atividade. Clique em **[!UICONTROL Cancel]** para cancelar as modificações ou em **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma atividade (ou várias) e pressionar a tecla Backspace. Pressionar a tecla escape fechará o painel de configuração da atividade.
 
-Na tela, suas atividades de ação e evento são representadas por um ícone com o nome do evento ou ação exibido abaixo. No painel de configuração da atividade, você pode usar o campo **[!UICONTROL Label]** para adicionar um sufixo ao nome da atividade. Esses rótulos ajudarão você a contextualizar o uso de eventos e ações, especialmente quando você usar o mesmo evento ou ação várias vezes em sua jornada. Você também poderá ver os rótulos adicionados no relatório [!DNL Journey Orchestration]. Você também pode definir rótulos para suas atividades de condição.
+Na tela, suas atividades de ação e evento são representadas por um ícone com o nome do evento ou ação exibido abaixo. No painel de configuração da atividade, você pode usar o campo **[!UICONTROL Label]** para adicionar um sufixo ao nome da atividade. Esses rótulos ajudarão você a contextualizar o uso de eventos e ações, especialmente quando você usar o mesmo evento ou ação várias vezes na jornada. Você também poderá ver os rótulos adicionados no relatório [!DNL Journey Orchestration]. Você também pode definir rótulos para suas atividades de condição.
 
 ![](../assets/journey59bis.png)
 
@@ -92,7 +95,7 @@ Na tela, quando duas atividades são desconectadas, um aviso é exibido. Coloque
 
 ## Copiar e colar atividades {#copy-paste}
 
-Você pode copiar uma ou várias atividades de uma jornada e colá-las na mesma jornada ou em uma diferente. Isso permite economizar tempo se quiser reutilizar várias atividades que já foram configuradas em uma jornada anterior.
+É possível copiar uma ou várias atividades de uma jornada e colá-las na mesma jornada ou em uma diferente. Isso permite economizar tempo se quiser reutilizar várias atividades que já foram configuradas em uma jornada anterior.
 
 **Observações importantes**
 
@@ -100,7 +103,7 @@ Você pode copiar uma ou várias atividades de uma jornada e colá-las na mesma 
 * Não é possível copiar/colar um evento se a jornada de destino tiver um evento que use um namespace diferente.
 * Atividades coladas podem fazer referência a dados que não existem na jornada de destino, por exemplo, se você copiar/colar em diferentes sandboxes. Sempre verifique se há erros e faça os ajustes necessários.
 * Esteja ciente de que não é possível desfazer uma ação. Para excluir atividades coladas, é necessário selecioná-las e excluí-las. Portanto, selecione somente as atividades necessárias antes de copiá-las.
-* Você pode copiar atividades de qualquer jornada, mesmo aquelas que estão em somente leitura.
+* Você pode copiar atividades de qualquer jornada, mesmo as que estão em somente leitura.
 * Você pode selecionar qualquer atividade, mesmo aquelas que não estão vinculadas. As atividades vinculadas permanecerão vinculadas após serem coladas.
 
 Estas são as etapas para copiar/colar atividades:
