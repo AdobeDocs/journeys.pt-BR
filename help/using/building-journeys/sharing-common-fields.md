@@ -1,28 +1,31 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: eventos de jorneystep campos comuns
-description: eventos de jorneystep campos comuns
+title: campos comuns de eventos journeystep
+description: campos comuns de eventos journeystep
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
 
 
-# eventos de etapas do diário campos comuns {#sharing-common-fields}
+# campos comuns de eventos de passos de jornada {#sharing-common-fields}
 
-Esse mixin será compartilhado por meio de jornadaStepEvent e de jornadaStepProfileEvent.
+Esse mixin será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 
-Esses são os campos XDM comuns que [!DNL Journey Orchestration] envia para a Adobe Experience Platform. Campos comuns serão enviados para cada etapa que for processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
+Esses são os campos XDM comuns que [!DNL Journey Orchestration] envia para o Adobe Experience Platform. Campos comuns serão enviados para cada etapa que é processada em uma jornada. Campos mais específicos são usados para ações e enriquecimentos personalizados.
 
 Alguns desses campos estão disponíveis apenas em padrões de processamento específicos (execução de ação, busca de dados etc.) para limitar o tamanho dos eventos.
 
 ## entrada
 
-Indica se o usuário entrou na jornada. Se não estiver presente, presumimos que o valor é falso.
+Indica se o usuário inseriu a jornada. Se não estiver presente, assumimos que o valor é false.
 
 Tipo: booleano
 
@@ -30,7 +33,7 @@ Valores: true/false
 
 ## reentrada
 
-Indica se o usuário entrou novamente na jornada com a mesma instância. Se não estiver presente, presumimos que o valor é falso.
+Indica se o usuário entrou novamente na jornada com a mesma instância. Se não estiver presente, assumimos que o valor é false.
 
 Tipo: booleano
 
@@ -44,13 +47,13 @@ Tipo: booleano
 
 ## eventID
 
-ID do evento no processamento, para o processamento da etapa. Se o evento for externo, o valor será eventId. Se o evento for interno, o valor será eventId interno (como por exemplo, SchedulNotificationReceived, executeAction etc.).
+ID do evento no processamento, para o processamento da etapa. Se o evento for externo, o valor será eventId. Se o evento for interno, o valor será eventId interno (como scheduledNotificationReceived, executionAction, etc.).
 
 Tipo: string
 
 ## nodeID
 
-ID do nó cliente (da tela).
+ID do nó do cliente (na tela).
 
 Tipo: string
 
@@ -81,46 +84,46 @@ Valores possíveis:
 
 ## stepStatus
 
-O status da etapa, que representa o status da etapa, quando seu processamento foi concluído (e o evento da etapa acionado).
+Status da etapa, representando o status da etapa, quando o processamento foi concluído (e o evento de etapa foi acionado).
 
 Tipo: string
 
 O status pode ser:
 
-* encerrada: a etapa não tem transição e seu processamento foi concluído com êxito.
+* encerrado: a etapa não tem transição e seu processamento foi concluído com êxito.
 * erro: o processamento da etapa gerou um erro.
-* transições: a etapa está aguardando que um evento seja transição para outra etapa.
+* transições: a etapa está aguardando a transição de um evento para outra etapa.
 * limitado: a etapa falhou em um erro de limitação, gerado durante uma ação ou enriquecimento.
 * tempo limite: a etapa falhou em um erro de tempo limite, gerado durante uma ação ou enriquecimento.
-* instanceTimedout: a etapa parou o processamento, pois a instância atingiu o tempo limite.
+* instanceTimedout: a etapa interrompeu o processamento porque a instância atingiu o tempo limite.
 
-## IDdajornada
+## journeyID
 
-ID da viagem.
-
-Tipo: string
-
-## IDdaVersãoDoCaminho
-
-ID da versão da jornada. Esta id representa a referência de identidade para a jornada, no caso de jornadaStepEvent.
+ID da jornada.
 
 Tipo: string
 
-## JourVersionName
+## journeyVersionID
 
-Nome da versão da jornada.
+ID da versão do jornada. Essa id representa a referência de identidade para a jornada, no caso de journeyStepEvent.
 
 Tipo: string
 
-## JourVersion
+## journeyVersionName
 
-Versão da jornada.
+Nome da versão do jornada.
+
+Tipo: string
+
+## journeyVersion
+
+Versão da versão do jornada.
 
 Tipo: string
 
 ## instanceID
 
-ID interna da instância da jornada.
+ID interna da instância do jornada.
 
 Tipo: string
 
@@ -132,7 +135,7 @@ Tipo: string
 
 ## parentStepID
 
-ID da etapa do pai da etapa processada atual na instância.
+ID da etapa principal da etapa processada atual na instância.
 
 Tipo: string
 
@@ -156,50 +159,50 @@ Tipo: string
 
 ## inTest
 
-Indicado se esta viagem está ou não no modo de ensaio.
+Indicado se essa jornada está no modo de teste ou não.
 
 Tipo: booleano
 
 ## processingTime
 
-Tempo total em milissegundos desde a entrada da etapa da instância até o final do processamento.
+Tempo total em milissegundos desde a entrada da etapa da instância até o fim do processamento.
 
 Tipo: long
 
 ## instanceType
 
-Indica o tipo de instância, se for lote ou unitário.
+Indica o tipo de instância, se for em lote ou unitário.
 
 Tipo: string
 
 Valores: lote/unidade
 
-## frequencyIndex
+## periodicidadeIndex
 
-Índice de recorrência se a jornada for em lote e recorrente (a primeira execução tem recorrênciaIndex = 1).
+Índice da recorrência se a jornada for em lote e recorrente (a primeira execução tem recorrênciaIndex = 1).
 
 Tipo: long
 
-## isBatchToUnitário
+## isBatchToUnitary
 
-Indica se esta instância unitária foi acionada a partir de uma instância em lote.
+Indica se essa instância unitária foi acionada a partir de uma instância de lote.
 
 Tipo: booleano
 
 ## batchExternalKey
 
-Chave externa do evento batch.
+Chave externa para o evento batch.
 
 Tipo: string
 
 ## batchInstanceID
 
-essa é a ID da instância do lote.
+essa é a ID da instância de lote.
 
 Tipo: string
 
-## batchUnitárioBranchID
+## batchUnitaryBranchID
 
-se a instância tiver sido acionada a partir de uma instância em lote, uma ID de ramificação unitária.
+se a instância tiver sido acionada a partir de uma instância de lote, a ID de ramificação unitária.
 
 Tipo: string
