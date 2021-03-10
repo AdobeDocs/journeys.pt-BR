@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Introdução
 description: Descubra as etapas principais para configurar o Journey Orchestration e criar sua primeira jornada.
+feature: Jornada
+role: Profissional
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 92%
+source-wordcount: '326'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +59,7 @@ Estas são as etapas principais para configurar e utilizar o [!DNL Journey Orche
 
    Você precisa validar e ativar a jornada. Esta etapa é executada por um **usuário empresarial**.
 
-   Para obter mais informações, consulte as páginas [Testando a jornada](../building-journeys/testing-the-journey.md) e [Publicando a jornada](../building-journeys/publishing-the-journey.md).
+   Para obter mais informações, consulte as páginas [Teste da jornada](../building-journeys/testing-the-journey.md) e [Publicação da jornada](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journeyuc2_32bis.png)
 
