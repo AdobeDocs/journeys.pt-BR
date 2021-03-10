@@ -2,12 +2,15 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: toDecimal
-description: Saiba mais sobre a função toDecimal
+description: Saiba mais sobre a função para Decimal
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 7%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 
@@ -28,10 +31,10 @@ Conversão
 
 | Parâmetro | Descrição |
 |--- |--- |
-| string | converte o valor da string como um decimal |
-| dateTime | converte a data como o número de milissegundos (milissegundos) |
-| booleano | converte o valor booliano como 1 se for verdadeiro, 0 se for falso |
-| integer | converte para um decimal (por exemplo).: 1 se torna 1,0) |
+| string | converte o valor da string como decimal |
+| dateTime | converte a data como o número de milissegundos (milissegundos de época) |
+| booleano | converte o valor booleano como 1 se verdadeiro, 0 se falso |
+| integer | converte para um decimal (por exemplo).: 1 torna-se 1,0) |
 
 ## Assinaturas e tipos retornados
 
