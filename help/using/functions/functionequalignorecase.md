@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: equalWithIgnoreCase
-description: Saiba mais sobre a função EqualWithIgnoreCase
+description: Saiba mais sobre a função equalWithIgnoreCase
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
 
 # equalWithIgnoreCase {#equalWithIgnoreCase}
 
-Compara a primeira string de argumento com a segunda string de argumento, ignorando considerações de maiúsculas e minúsculas.
+Compara a primeira string de argumento com a segunda string de argumento, ignorando considerações de caso.
 
 ## Categoria
 
