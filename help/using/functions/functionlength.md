@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: length
 description: Saiba mais sobre a duração da função
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 10%
 
 ---
 
 
 # length {#length}
 
-Retorna o número de caracteres da expressão de string no parâmetro.
+Retorna o número de caracteres da expressão da string no parâmetro .
 
 ## Categoria
 
