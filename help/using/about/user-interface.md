@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: A interface do usuário
 description: Saiba mais sobre a interface do usuário
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1067'
 ht-degree: 93%
 
 ---
@@ -22,7 +25,7 @@ ht-degree: 93%
 
 ## Acesso ao [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acessar a interface de [!DNL Journey Orchestration], clique no ícone **[!UICONTROL App Selector]**, no canto superior direito, em seguida, clique em **[!UICONTROL Journey Orchestration]**.
+Para acessar a interface do [!DNL Journey Orchestration], clique no ícone **[!UICONTROL App Selector]**, na parte superior direita, e clique em **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -135,10 +138,10 @@ _Na tela de uma jornada:_
 * Quando uma ou várias atividades forem selecionadas, pressione **Delete** ou **backspace** para excluí-las. Pressione **Enter** na janela pop-up para confirmar.
 * Clique duas vezes em uma atividade da paleta esquerda para adicioná-la à primeira posição disponível (de cima para baixo).
 
-_Numa viagem:_
+_Em uma jornada:_
 
 * Pressione **T** para ativar/desativar o modo de teste.
-* Em uma jornada baseada em eventos no modo de teste, pressione **E** para disparar um evento.
-* Em uma jornada baseada em segmento, quando a opção **perfil único em um horário** estiver selecionada no modo de teste, pressione **P** para acionar um evento.
-* No modo de teste, pressione **L** para exibir os registros.
+* Em uma jornada baseada em eventos no modo de teste, pressione **E** para acionar um evento.
+* Em uma jornada baseada em segmento, quando a opção **Single profile at a time** estiver selecionada no modo de teste, pressione **P** para acionar um evento.
+* No modo de teste, pressione **L** para exibir os logs.
 
