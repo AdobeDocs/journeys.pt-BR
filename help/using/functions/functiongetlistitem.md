@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: getListItem
 description: Saiba mais sobre a função gstListItem
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 5539ea0e8f124896f5599dba63babaa3e5b0229b
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 11%
+source-wordcount: '101'
+ht-degree: 12%
 
 ---
 
@@ -49,7 +52,7 @@ Retorna uma lista de decimais.
 
 `getListItem(<listString>,<index>)`
 
-Retorna uma lista de strings.
+Retorna uma lista de cadeias de caracteres.
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
@@ -76,7 +79,7 @@ Retorna &quot;2&quot;
 `getListItem(["A", "B", "C"], 3)`
 Retorna &quot;C&quot;
 
-Exemplos com um campo de evento &#39;evento.appVersion&#39; com valor: &quot;20.45.2.3434&quot;
+Exemplos com um campo de evento &#39;event.appVersion&#39; com o valor: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
