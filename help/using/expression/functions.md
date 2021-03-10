@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Funções
 description: Saiba mais sobre funções
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 73%
+source-wordcount: '171'
+ht-degree: 71%
 
 ---
 
@@ -18,9 +21,9 @@ Uma função pode ter assinaturas diferentes (um conjunto diferente de parâmetr
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Cada função tem um tipo retornado específico.
+Cada função tem um tipo específico retornado.
 
-Esta é a lista das funções suportadas.
+Esta é a lista de funções suportadas.
 
 ## Funções principais
 
@@ -57,7 +60,7 @@ Esta é a lista das funções suportadas.
 | Data | [setHours](../functions/functionsethours.md) |
 | Data | [setDays](../functions/functionsetdays.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
-| Lista | [differentCount](../functions/functiondistinctcount.md) |
+| Lista | [distinctCount](../functions/functiondistinctcount.md) |
 | Lista | [in](../functions/functionin.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
