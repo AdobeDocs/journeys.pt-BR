@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Usar ações personalizadas
 description: Saiba mais sobre atividades de ação
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 7%
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
@@ -18,6 +21,6 @@ Se estiver usando uma ação personalizada, você verá, em somente leitura, os 
 
 >[!NOTE]
 >
->Não é possível passar uma coleção em parâmetros de ação personalizados. Se a ação personalizada espera coleções, ela não funcionará. Observe também que os parâmetros têm um formato esperado (por exemplo: string, decimal etc.). Você deve ter cuidado para respeitar esses formatos esperados.
+>Não é possível passar uma coleção em parâmetros de ação personalizados. Se a ação personalizada espera coleções, ela não funcionará. Observe também que os parâmetros têm um formato esperado (por exemplo: string, decimal, etc.). Você deve ter cuidado para respeitar esses formatos esperados.
 
-Na seção **[!UICONTROL Action parameters]**, você verá os parâmetros de mensagem definidos como _&quot;Variable&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (por exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançado podem ser manipulação de dados e outras utilizações de função. Consulte [esta página](../expression/expressionadvanced.md)
+Na seção **[!UICONTROL Action parameters]**, você verá os parâmetros de mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. Consulte [esta página](../expression/expressionadvanced.md)
