@@ -3,20 +3,23 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Tipos de dados
 description: Saiba mais sobre tipos de dados em expressões avançadas
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: a95b8311aff2d95402afa9b80488ced2a3e6fbba
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 5%
+source-wordcount: '562'
+ht-degree: 4%
 
 ---
 
 
 # Tipos de dados {#concept_gp3_rj5_dgb}
 
-Tecnicamente, uma constante sempre contém um tipo de dados. Na expressão literal, especificamos apenas o valor. O tipo de dados pode ser inferido a partir do valor (por exemplo, string, integer, decimal etc.). Para casos específicos, como data e hora, usamos funções dedicadas para a representação.
+Tecnicamente, uma constante sempre contém um tipo de dados. Na expressão literal, especificamos apenas o valor . O tipo de dados pode ser inferido a partir do valor (por exemplo, string, número inteiro, decimal, etc.). Para casos específicos, como a data e hora, usamos funções dedicadas para a representação.
 
-As seções abaixo fornecem informações sobre os diferentes tipos de dados expressões e como eles são representados.
+As seções abaixo fornecem informações sobre as diferentes expressões de tipo de dados e como elas são representadas.
 
 ## string {#string}
 
@@ -52,7 +55,7 @@ Formato de serialização: UTF-8
 
 **Descrição**
 
-Valor inteiro de -2^63 a 2^63-1.
+Valor inteiro de -2^63 para 2^63-1.
 
 Formato JSON: Número
 
@@ -72,11 +75,11 @@ Formato JSON: Número
 
 **Descrição**
 
-Número decimal. Representa um valor flutuante:
+Número decimal. Ele representa um valor flutuante:
 
-* maior valor positivo finito do tipo duplo, (2-2^-52)x2^1023
+* maior valor finito positivo do tipo duplo, (2-2^-52)x2^1023
 * menor valor normal positivo do tipo duplo, 2-1022
-* menor valor positivo diferente de zero do tipo duplo, 2 p-1074
+* menor valor positivo diferente de zero do tipo double, 2 p-1074
 
 Formato JSON: Número
 
@@ -98,7 +101,7 @@ Formato de serialização: usando &#39;.&#39; como separador decimal.
 
 **Descrição**
 
-Valor booliano escrito em minúsculas: true ou false
+Valor booleano gravado em minúsculas: verdadeiro ou falso
 
 Formato JSON: Booleano
 
@@ -122,11 +125,11 @@ true
 
 **Descrição**
 
-Representa uma hora de data sem fuso horário, exibida como ano-mês-dia-hora-minuto-segundo-milissegundo.
+Representa uma data/hora sem fuso horário, exibida como ano-mês-dia-hora-minuto-segundo-milissegundo.
 
 Ele não armazena ou representa um fuso horário. Em vez disso, é uma descrição da data, como usada para aniversários, combinada com a hora local, como visto em um relógio de parede.
 
-Não pode representar um instante na linha do tempo sem informações adicionais, como deslocamento ou fuso horário.
+Ele não pode representar um instante na linha do tempo sem informações adicionais, como um deslocamento ou um fuso horário.
 
 Formato de serialização: Formato de data e hora de deslocamento estendido ISO-8601.
 
@@ -146,15 +149,15 @@ Constante de data e hora que também considera fuso horário. Representa uma dat
 
 Ele pode ser exibido como um instantâneo no tempo com as informações adicionais do deslocamento. É uma forma de representar um &quot;momento&quot; específico em um certo lugar do mundo.
 
-Formato JSON: String.
+Formato JSON: Sequência de caracteres.
 
-Ele deve ser encapsulado em uma função toDateTime.
+Ele deve ser encapsulado em uma função toDateTime .
 
 Formato de serialização: Formato de data e hora de deslocamento estendido ISO-8601.
 
 Ele usa DateTimeFormatter ISO_OFFSET_DATE_TIME para desserializar e serializar o valor. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-Você também pode passar um número inteiro transmitindo um valor de época. [Leia mais](https://www.epochconverter.com)
+Você também pode passar um número inteiro passando por um valor de época. [Leia mais](https://www.epochconverter.com)
 
 O fuso horário pode ser especificado por um deslocamento ou um código de fuso horário (por exemplo: Europa/Paris, Z - ou seja, UTC).
 
@@ -200,15 +203,15 @@ toDateTime(1560762190189)
 
 Representa uma quantidade de tempo baseada em tempo, como &quot;34,5 segundos&quot;. Ele modela uma quantidade ou quantidade de tempo em termos de milissegundos.
 
-As unidades temporais suportadas são: milissegundos, segundos, minutos, horas, dias em que um dia é igual a 24 horas. Anos e meses não são suportados porque não são um tempo fixo.
+As unidades temporais suportadas são: milissegundos, segundos, minutos, horas, dias em que um dia é igual a 24 horas. Anos e meses não são suportados, pois não são um período fixo.
 
-Formato JSON: String.
+Formato JSON: Sequência de caracteres.
 
-Ele deve ser encapsulado em uma função toDuration.
+Ele deve ser encapsulado em uma função toDuration .
 
 Formato de serialização: Para desserializar uma ID de fuso horário, ela usa a função java java.time.
 
-Duração.análise: os formatos aceitos são baseados no formato de duração ISO-8601 PnDTnHnMn.nS com dias considerados exatamente 24 horas. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duração.análise: os formatos aceitos são baseados no formato ISO-8601 duration PnDTnHnMn.nS com dias considerados exatamente 24 horas. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
 
 **Representação literal**
 
@@ -266,7 +269,7 @@ toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"
 
 **Descrição**
 
-Lista separada por vírgulas de expressões usando colchetes como delimitadores.
+Lista de expressões separada por vírgulas usando colchetes como delimitadores.
 
 O polimorfismo não é suportado, portanto, todas as expressões contidas na lista devem ter o mesmo tipo.
 
