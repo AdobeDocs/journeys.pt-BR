@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: inNextYears
-description: Saiba mais sobre a função em Próximos Anos
+description: Saiba mais sobre a função em NextYears
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
 
 # inNextYears {#inNextYears}
 
-Retorna true se determinada data ou dateTime estiver entre agora e agora + anos delta.
+Retorna true se uma determinada data ou dateTime estiver entre agora e agora + anos delta.
 
 ## Categoria
 
@@ -28,7 +31,7 @@ Data
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| data hora | dateTime |
+| data e hora | dateTime |
 | delta | integer |
 
 ## Assinaturas e tipo retornado
