@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Sobre as atividades de ação
 description: Saiba mais sobre atividades de ação
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 28%
+source-wordcount: '177'
+ht-degree: 27%
 
 ---
 
@@ -18,13 +21,13 @@ Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Events]** e **[!UIC
 
 ![](../assets/journey58.png)
 
-Essas atividades representam os diferentes canais de comunicação disponíveis. Você pode combiná-los para criar um cenário entre canais.
+Essas atividades representam os diferentes canais de comunicação disponíveis. É possível combiná-los para criar um cenário entre canais.
 
-Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação prontas para uso estão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**. Consulte [esta página](../building-journeys/using-adobe-campaign-actions.md).
+Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação prontas para uso estarão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**. Consulte [esta página](../building-journeys/using-adobe-campaign-actions.md).
 
-Se você tiver configurado ações personalizadas, elas também aparecerão aqui (consulte [esta página](../building-journeys/using-custom-actions.md)).
+Se você configurou ações personalizadas, elas também serão exibidas aqui (consulte [esta página](../building-journeys/using-custom-actions.md)).
 
-Ao soltar uma atividade de ação na tela, você pode definir um **[!UICONTROL Label]**. Isso permite que você adicione um sufixo ao nome da ação que aparecerá sob sua atividade na tela. Isso é útil se você usar a mesma ação várias vezes em sua jornada e quiser identificá-los mais facilmente. Os relatórios também serão mais fáceis de ler. Você também pode adicionar um **[!UICONTROL Description]** opcional.
+Ao soltar uma atividade de ação na tela, você pode definir um **[!UICONTROL Label]**. Isso permite adicionar um sufixo ao nome da ação que aparecerá sob a atividade na tela. Isso é útil se você usar a mesma ação várias vezes na jornada e quiser identificá-las mais facilmente. Os relatórios também serão mais fáceis de ler. Você também pode adicionar um **[!UICONTROL Description]** opcional.
 
 ![](../assets/journey59bis.png)
 
