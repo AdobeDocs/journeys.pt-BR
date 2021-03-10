@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: uuid
-description: Saiba mais sobre a função uuid
+description: Saiba mais sobre a uuid de função
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 9%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
 
 # uuid {#uuid}
 
-Gera um UUID aleatório (ID exclusiva universal).
+Gera um UUID aleatório (Universal Unique IDentifier).
 
 ## Categoria
 
@@ -26,7 +29,7 @@ String
 
 ## Parâmetros
 
-Essa função não exige parâmetros.
+Essa função não requer parâmetros.
 
 ## Assinatura e tipo retornado
 
