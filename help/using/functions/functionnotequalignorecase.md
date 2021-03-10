@@ -3,18 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: notEqualWithIgnoreCase
 description: Saiba mais sobre a função notEqualWithIgnoreCase
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 10%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
 
 # notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
 
-Verifique se a primeira string de argumento com a segunda string de argumento é diferente, ignorando considerações de maiúsculas e minúsculas.
+Verifique se a primeira string de argumento com a segunda string de argumento é diferente, ignorando considerações de caso.
 
 ## Categoria
 
