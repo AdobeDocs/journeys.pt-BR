@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: serializeList
 description: Saiba mais sobre a função serializeList
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '90'
 ht-degree: 16%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 16%
 
 # serializeList {#serializeList}
 
-Converte a lista (qualquer tipo) fornecida no primeiro parâmetro em uma string. O segundo parâmetro representa o separador a ser usado. O terceiro parâmetro é um valor booliano que indica se cada elemento da expressão deve incluir aspas.
+Converte a lista (qualquer tipo) fornecida no primeiro parâmetro em uma string. O segundo parâmetro representa o separador a ser usado. O terceiro parâmetro é um valor booleano que indica se cada elemento da expressão deve incluir aspas.
 
 ## Categoria
 
@@ -57,7 +60,7 @@ Lista
 
 `serializeList(<listPoint>,<string>,<boolean>)`
 
-Retorna uma string.
+Retorne uma string.
 
 ## Exemplo
 
