@@ -2,11 +2,14 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: distinctCount
-description: Saiba mais sobre a função differentCount
+description: Saiba mais sobre a função distinctCount
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '51'
 ht-degree: 25%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 25%
 
 # distinctCount{#distinctCount}
 
-Conta o número de valores diferentes ignorando os valores nulos.
+Conta o número de valores diferentes que ignoram os valores nulos.
 
 ## Categoria
 
