@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: campos de execução de ação de eventos journeyStep
 description: campos de execução de ação de eventos journeyStep
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 5%
 
 ---
@@ -14,9 +17,9 @@ ht-degree: 5%
 
 # campos de execução de ação de eventos journeyStep {#sharing-execution-fields}
 
-Esse mixin será compartilhado por meio de jornadaStepEvent e de jornadaStepProfileEvent.
+Esse mixin será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 
-Se a etapa tiver uma ação a ser processada, esses campos serão adicionados à carga do evento.
+Se a etapa tiver uma ação a ser processada, esses campos serão adicionados ao payload do evento.
 
 ## actionID
 
@@ -26,7 +29,7 @@ Tipo: string
 
 ## actionName
 
-Nome da ação. Se nenhum nome tiver sido definido, StepName será executado.
+Nome da ação. Se nenhum nome tiver sido definido, o stepName será executado.
 
 Tipo: string
 
@@ -38,7 +41,7 @@ Tipo: string
 
 ## actionParameterized
 
-Indica se a ação foi parametrizada ou não.
+Indica se a ação está parametrizada ou não.
 
 Tipo: booleano
 
@@ -62,16 +65,16 @@ Valores:
 
 ## actionExecutionErrorCode
 
-Código para erro de execução de ação. Apresente se o erro tiver um código, como um HTTP.
+Código para erro de execução de ação. Apresentar se o erro tiver um código, como um HTTP.
 
 Tipo: string
 
 ## actionExecutionOriginError
 
-Pode ocorrer um tempo limite, em dois casos:
+Um tempo limite pode ocorrer, em dois casos:
 
 * na primeira tentativa, uma ação é executada. Nesse caso, a execução não está concluída, portanto, não há erro subjacente
-* em uma nova tentativa: nesse caso, actionExecOrigError/actionExecOrigErrorCode descreve o erro encontrado na tentativa antes da nova tentativa.
+* em uma nova tentativa: nesse caso, o actionExecOrigError/actionExecOrigErrorCode descreve o erro encontrado na tentativa antes da nova tentativa.
 
 Por exemplo, um email está sendo enviado e um erro HTTP 500 é retornado na primeira tentativa. A busca é repetida, mas a duração das 2 tentativas excede o tempo limite. Em seguida, a execução da ação é marcada como tempo limite. A parte de ação terá a seguinte aparência:
 
@@ -100,10 +103,10 @@ Indica o tipo de ação.
 
 Valores:
 
-* edifício
+* construção
 * Email ACS
 * SMS ACS
-* Empurramento ACS
+* Envio ACS
 * cliente
 * Epsilon
 * ...
@@ -112,24 +115,24 @@ Tipo: string
 
 ## deliveryJobID
 
-Esta descreve a ID de trabalho do delivery para o lote Jornada.
+Este artigo descreve a ID de trabalho de delivery para a Jornada em lote.
 
 Tipo: string
 
 ## batchDeliveryID
 
-Esta descreve a ID do delivery para o lote Jornada.
+Este artigo descreve a ID de delivery da Jornada em lote.
 
 Tipo: string
 
 ## fromSegmentTrigger
 
-Isso descreve se a jornada em lote é acionada a partir do segmento de Audiência.
+Isso descreve se a Jornada em lote é acionada pelo Segmento do público-alvo.
 
 Tipo: booleano
 
 ## actionSchedulerCount
 
-Contagem de solicitações de notificação de scheduler enviadas ao serviço de scheduler durante o processamento da etapa.
+Contagem de solicitações de notificação do programador enviadas ao serviço do programador durante o processamento da etapa.
 
 Tipo: long
