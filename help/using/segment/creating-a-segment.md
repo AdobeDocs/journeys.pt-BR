@@ -1,12 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Uso de um segmento
+title: Usar um segmento
 description: Saiba como usar um segmento
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '145'
 ht-degree: 7%
 
 ---
@@ -15,9 +18,9 @@ ht-degree: 7%
 
 # Criação de um segmento {#creating-a-segment}
 
-Você pode criar um segmento usando o [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ou pode acessá-lo e criá-lo diretamente em [!DNL Journey Orchestration].
+Você pode criar um segmento usando o [Serviço de segmentação do Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ou pode acessá-lo e criá-lo diretamente em [!DNL Journey Orchestration].
 
-1. No menu superior, clique na guia **[!UICONTROL Segments]**. A lista de segmentos do Adobe Experience Platform é exibida. Você pode procurar um segmento específico na lista.
+1. No menu superior, clique na guia **[!UICONTROL Segments]**. A lista de segmentos do Adobe Experience Platform é exibida. Você pode pesquisar por um segmento específico na lista.
 
    ![](../assets/segment1.png)
 
@@ -25,4 +28,4 @@ Você pode criar um segmento usando o [Adobe Experience Platform Segmentation Se
 
    ![](../assets/segment2.png)
 
-Seu segmento agora pode ser usado em suas viagens para criar condições ou adicionar um evento **[!UICONTROL Segment qualification]**. Consulte [Usando segmentos em condições](../segment/using-a-segment.md) e [atividades de Eventos](../building-journeys/segment-qualification-events.md).
+Seu segmento agora pode ser usado em suas jornadas para criar condições ou adicionar um evento **[!UICONTROL Segment qualification]** . Consulte [Uso de segmentos em condições](../segment/using-a-segment.md) e [Atividades de eventos](../building-journeys/segment-qualification-events.md).
