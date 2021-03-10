@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: containWithIgnoreCase
-description: Saiba mais sobre a função containsWithIgnoreCase
+description: Saiba mais sobre a função containWithIgnoreCase
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
 
 # containWithIgnoreCase {#containWithIgnoreCase}
 
-Verifica se a segunda string de argumento está contida na primeira string de argumento, sem levar em conta o caso.
+Verifica se a segunda string de argumento está contida na primeira string de argumento, sem considerar o caso.
 
 ## Categoria
 
@@ -29,7 +32,7 @@ String
 | Parâmetro | Tipo |
 |-----------|------------------|
 | string | string |
-| sequência pesquisada | string |
+| string pesquisada | string |
 
 ## Assinatura e tipo retornado
 
