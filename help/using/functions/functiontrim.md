@@ -2,19 +2,22 @@
 product: adobe campaign
 solution: Journey Orchestration
 title: trim
-description: Saiba mais sobre a apara de função
+description: Saiba mais sobre o painel de funções
+feature: Jornada
+role: Engenheiro de dados
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
 
 
 # trim {#trim}
 
-Remove espaços de start e fim.
+Remove espaços de início e fim.
 
 ## Categoria
 
@@ -34,7 +37,7 @@ String
 
 `trim(<string>)`
 
-Retorna uma string.
+Retorne uma string.
 
 ## Exemplo
 
