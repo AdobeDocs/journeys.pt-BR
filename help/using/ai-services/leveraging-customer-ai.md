@@ -1,12 +1,15 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Aproveitando as pontuações da IA do cliente
-description: Aproveitando as pontuações da IA do cliente
+title: Aproveitamento das pontuações do AI do cliente
+description: Aproveitamento das pontuações do AI do cliente
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---
@@ -14,14 +17,14 @@ ht-degree: 2%
 
 # Aproveitamento da AI do cliente {#customer-ai}
 
-A IA do cliente faz parte dos Serviços inteligentes. Isso ajuda a prever o que um cliente provavelmente fará. Consulte a [documentação](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+A API do cliente faz parte dos Serviços inteligentes. Ele ajuda a prever o que um cliente provavelmente fará. Consulte a [documentação](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
 
-A IA do cliente permite que as marcas criem pontuações baseadas em aprendizagem de máquina de conversão ou de geração de taxa que estarão disponíveis como atributos de perfil nos perfis Adobe Experience Platform (Perfil do cliente em tempo real).
+O Customer AI permite que as marcas criem pontuações baseadas em aprendizado de máquina de conversão ou de rotatividade que estarão disponíveis como atributos de perfil nos perfis do Adobe Experience Platform (Perfil do cliente em tempo real).
 
-Como resultado, podem ser usados como quaisquer outros atributos do perfil em condições de Journey Orchestration (para tomar as melhores decisões), ações ou construção de segmentos.
+Como resultado, eles podem ser usados como quaisquer outros atributos de perfil em condições do Journey Orchestration (para tomar as melhores decisões), ações ou criação de segmentos.
 
 ![](../assets/customer-ai.png)
 
-Observe que a IA do cliente é um recurso pago da Adobe Experience Platform.
+Observe que o Customer AI é um recurso pago da Adobe Experience Platform.
 
 
