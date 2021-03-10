@@ -3,10 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Eventos de reações
 description: Saiba mais sobre eventos de reação
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '411'
 ht-degree: 1%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 1%
 
 # Eventos de reação {#section_dhx_gss_dgb}
 
-Entre as diferentes atividades de evento disponíveis na paleta, você encontrará o evento **[!UICONTROL Reactions]** incorporado. Esta atividade permite que você reaja aos dados de rastreamento relacionados a uma mensagem enviada com atividades de email, SMS ou push na mesma jornada. Essas informações vêm de mensagens transacionais no Adobe Campaign Standard. Captamos essas informações em tempo real no momento em que são compartilhadas com a Adobe Experience Platform. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha.
+Entre as diferentes atividades de evento disponíveis na paleta, você encontrará o evento **[!UICONTROL Reactions]** incorporado. Essa atividade permite reagir a dados de rastreamento relacionados a uma mensagem enviada com atividades de email, SMS ou push na mesma jornada. Essas informações vêm de mensagens transacionais no Adobe Campaign Standard. Capturamos essas informações em tempo real no momento em que são compartilhadas com a Adobe Experience Platform. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha.
 
 Você também pode usar esse mecanismo para executar uma ação quando não houver reação às suas mensagens. Para fazer isso, crie um segundo caminho paralelo à atividade de reação e adicione uma atividade de espera. Se não houver reação durante o período definido na atividade de espera, o segundo caminho será escolhido. Você pode optar por enviar, por exemplo, uma mensagem de acompanhamento.
 
@@ -27,18 +30,18 @@ Consulte [Sobre atividades de ação](../building-journeys/about-action-activiti
 Estas são as diferentes etapas para configurar os eventos de reação:
 
 1. Adicione um **[!UICONTROL Label]** à reação. Esta etapa é opcional.
-1. Na lista suspensa, selecione a atividade de ação à qual deseja reagir. É possível selecionar qualquer atividade de ação posicionada nas etapas anteriores do caminho.
+1. Na lista suspensa, selecione a atividade de ação à qual deseja reagir. Você pode selecionar qualquer atividade de ação posicionada nas etapas anteriores do caminho.
 1. Dependendo da ação selecionada (um email, SMS ou uma notificação por push), escolha o que deseja reagir.
-1. É possível definir uma condição como uma etapa opcional. Por exemplo, após uma ação de email, você pode decidir criar dois caminhos, um com um evento de reação para rastrear cliques somente para clientes VIP e outro com um evento de reação para rastrear cliques executados por mulheres.
+1. Você pode definir uma condição como uma etapa opcional. Por exemplo, após uma ação de email, você pode decidir criar dois caminhos, um com um evento de reação para rastrear cliques somente para clientes VIP e outro com um evento de reação para rastrear cliques realizados por mulheres.
 
 >[!NOTE]
 >
->Os eventos de reação funcionam com o Adobe Campaign Standard, independentemente de ele estar implantado em servidores AWS ou Azure.
+>As reações funcionam com o Adobe Campaign Standard, seja ele implantado em servidores AWS ou Azure.
 >
 >Os eventos de reação não podem rastrear ações de email, SMS ou push que ocorrem em uma jornada diferente.
 >
->Os eventos de reação rastreiam cliques em links do tipo &quot;acompanhados&quot; (consulte esta [página](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Os links de unsubscription e mirror page não são considerados.
+>Os eventos de reação rastreiam cliques em links do tipo &quot;rastreados&quot; (consulte esta [página](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Os links de unsubscription e mirror pages não são considerados.
 
 >[!IMPORTANT]
 >
->Clientes de email como o Gmail permitem bloqueio de imagem. Os e-mails abertos são rastreados usando uma imagem de 0 pixels incluída no e-mail. Se as imagens estiverem bloqueadas, as aberturas de e-mail não serão levadas em conta.
+>Clientes de email como o Gmail permitem bloqueio de imagem. As aberturas de emails são rastreadas usando uma imagem de 0 pixel incluída no email. Se as imagens estiverem bloqueadas, as aberturas de email não serão consideradas.
