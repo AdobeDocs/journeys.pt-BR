@@ -3,11 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Construir a jornada
 description: 'Saiba como criar a jornada de casos de uso avançado '
+feature: Jornada
+role: Profissional
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '851'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +29,7 @@ Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá a
 >
 >As atividades **[!UICONTROL Push]** e **[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
-Para obter informações adicionais sobre como construir uma jornada, consulte [esta página](../building-journeys/journey.md).
+Para obter informações adicionais sobre como criar uma jornada, consulte [esta página](../building-journeys/journey.md).
 
 ## Primeiros passos{#section_ntb_ws1_ffb}
 
@@ -76,7 +79,7 @@ Para obter informações adicionais sobre como construir uma jornada, consulte [
    >
    >Na segunda parte da expressão, o “Perfil” é opcional.
 
-1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. Para obter mais informações sobre o namespace, consulte [esta página](../event/selecting-the-namespace.md).
+1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. Para obter mais informações sobre namespaces, consulte [esta página](../event/selecting-the-namespace.md).
 
 No nosso caso, só queremos reagir a essas duas condições, então não marcamos a caixa **[!UICONTROL Show path for other cases than the one(s) above]**.
 
@@ -101,7 +104,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Quando um campo é selecionado de uma fonte de dados externa, a parte direita da tela exibe a lista dos parâmetros que foram definidos ao configurar a fonte de dados externa (consulte [esta página](../usecase/configuring-the-data-sources.md)). Clique no nome do parâmetro e defina o valor da chave do sistema de reservas, a Experience Cloud ID, em nosso exemplo:
+1. Quando um campo de uma fonte de dados externa é selecionado, a parte direita da tela exibe a lista de parâmetros que foram definidos ao configurar a fonte de dados externa (consulte [this page](../usecase/configuring-the-data-sources.md)). Clique no nome do parâmetro e defina o valor da chave do sistema de reservas, a Experience Cloud ID, em nosso exemplo:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}
