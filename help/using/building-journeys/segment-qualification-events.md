@@ -7,9 +7,9 @@ feature: Jornada
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '753'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,11 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 
    ![](../assets/segment-copy.png)
 
-1. No campo **[!UICONTROL Behavior]** , escolha é escutar as entradas, saídas ou ambos do segmento.
+1. No campo **[!UICONTROL Behaviour]** , escolha é escutar as entradas, saídas ou ambos do segmento.
+
+   >[!NOTE]
+   >
+   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação do segmento **Realizado** e **Saído** do Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada.
 
