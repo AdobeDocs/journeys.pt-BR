@@ -7,10 +7,10 @@ feature: Jornada
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '166'
+ht-degree: 2%
 
 ---
 
@@ -31,5 +31,9 @@ Para usar um segmento em uma condição de jornada, siga estas etapas:
 1. No lado esquerdo, expanda o nó **[!UICONTROL Segments]** . Arraste e solte o segmento que deseja usar para sua condição. Por padrão, a condição no segmento é verdadeira.
 
    ![](../assets/segment4.png)
+
+   >[!NOTE]
+   >
+   >Somente os indivíduos com os status de participação do segmento **Realizado** e **Existente** serão considerados membros do segmento. Para obter mais informações sobre como avaliar um segmento, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 Para obter mais informações sobre as condições da jornada e como usar o editor de expressão simples, consulte [Condition activity](../building-journeys/condition-activity.md#about_condition).
