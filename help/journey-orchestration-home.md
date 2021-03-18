@@ -1,17 +1,17 @@
 ---
-keywords: Jornada, home, tópicos populares
+keywords: Jornadas;página inicial;tópicos populares
 product: adobe campaign
 solution: Journey Orchestration
 title: Documentação do produto Journey Orchestration
 topic: Premium
-feature: Jornada
+feature: Jornadas
 role: Profissional
 level: Iniciante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
