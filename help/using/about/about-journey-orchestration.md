@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Sobre o Journey Orchestration
 description: Saiba mais sobre o Journey Orchestration
-feature: Jornada
+feature: Jornadas
 role: Profissional
 level: Iniciante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
