@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Sobre fontes de dados
 description: 'Saiba como configurar uma fonte de dados '
-feature: Jornada
+feature: Jornadas
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 87%
+source-wordcount: '348'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
 >title="Sobre fontes de dados"
->abstract="A configuração da fonte de dados é sempre executada por um usuário técnico. A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas para: definição de condição, parâmetro e dados de personalização em ações, definição de espera personalizada e definição de fuso horário personalizado."
+>abstract="A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas."
 
 A configuração da fonte de dados permite definir uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas, para:
 
