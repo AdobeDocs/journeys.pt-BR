@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: A interface do usuário
 description: Saiba mais sobre a interface do usuário
-feature: Jornada
+feature: Jornadas
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 93%
+source-wordcount: '1014'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ Você também pode acessar o [!DNL Journey Orchestration] na página inicial da 
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="Sobre a lista da jornada"
->abstract="A lista de jornadas permite visualizar todas as suas jornadas de uma só vez, ver seu status e executar ações básicas. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada encerrada. Você pode criar uma nova versão ou duplicá-la. Você também pode usar a barra de pesquisa para procurar uma jornada."
+>abstract="A lista de jornadas permite visualizar todas as suas jornadas de uma só vez, ver seu status e executar ações básicas."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Assista ao vídeo de demonstração"
 
 Os menus superiores permitem navegar por diferentes funcionalidades do [!DNL Journey Orchestration]: **[!UICONTROL Home]**(as jornadas),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
