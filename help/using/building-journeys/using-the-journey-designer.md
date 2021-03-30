@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Usar o designer de jornada
 description: Saiba mais sobre como usar o designer do jornada
-feature: Jornada
+feature: Jornadas
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1416'
 ht-degree: 5%
 
 ---
@@ -66,6 +66,8 @@ A **tela** é a zona central no designer de jornadas. É nessa zona que você po
 O **painel de configuração da atividade** é exibido ao clicar em uma atividade na paleta. Preencha os campos obrigatórios. Clique no ícone **[!UICONTROL Delete]** para excluir a atividade. Clique em **[!UICONTROL Cancel]** para cancelar as modificações ou em **[!UICONTROL Ok]** para confirmar. Para excluir atividades, você também pode selecionar uma atividade (ou várias) e pressionar a tecla Backspace. Pressionar a tecla escape fechará o painel de configuração da atividade.
 
 Na tela, suas atividades de ação e evento são representadas por um ícone com o nome do evento ou ação exibido abaixo. No painel de configuração da atividade, você pode usar o campo **[!UICONTROL Label]** para adicionar um sufixo ao nome da atividade. Esses rótulos ajudarão você a contextualizar o uso de eventos e ações, especialmente quando você usar o mesmo evento ou ação várias vezes na jornada. Você também poderá ver os rótulos adicionados no relatório [!DNL Journey Orchestration]. Você também pode definir rótulos para suas atividades de condição.
+
+Por padrão, os campos somente leitura ficam ocultos. Para exibi-los, clique no ícone **Mostrar campos somente leitura** na parte superior esquerda do painel de configuração da atividade.
 
 ![](../assets/journey59bis.png)
 
