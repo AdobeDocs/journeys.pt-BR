@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
-feature: Jornada
+feature: Jornadas
 role: Profissional
 level: Iniciante
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 68%
+source-wordcount: '2438'
+ht-degree: 64%
 
 ---
 
@@ -19,6 +19,15 @@ ht-degree: 68%
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação](../release-notes/documentation-updates.md) mais recentes.
+
+## Versão de março de 2021 {#march-2021-release}
+
+### Aprimoramentos
+
+* Um novo status foi adicionado ao jornada. Quando uma jornada termina ou é fechada manualmente, seu status muda de **Closed** para **Finished** 30 dias após ter sido fechada. Isso permitirá identificar jornadas inativas com mais facilidade, garantindo que todos os indivíduos ainda presentes tenham tempo para concluir a jornada. [Leia mais](../building-journeys/journey.md#ending_a_journey)
+* Nos painéis à direita da atividade de jornadas de rascunho, os campos somente leitura agora estão ocultos por padrão. Essa simplificação da interface ajudará você a configurar suas atividades com mais facilidade. Para exibi-los, clique no ícone **Mostrar campos somente leitura**, disponível no canto superior esquerdo do painel de configuração da atividade. [Leia mais](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* No modo de teste, na tela **Configuração do evento**, o campo **Chave** usado para definir a ID do perfil de teste foi renomeado para **Identificador de perfil** para obter uma melhor experiência do usuário. [Leia mais](../building-journeys/testing-the-journey.md).
+* Para eventos de reação, a duração do tempo limite só pode ser definida entre 40 segundos e 30 dias. Ao testar uma jornada que usa um evento de reação, o modo de teste **[!UICONTROL Wait time]** padrão e o valor mínimo agora são 40 segundos. [Leia mais](../building-journeys/reaction-events.md).
 
 ## Versão de fevereiro de 2021 {#february-2021-release}
 
