@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Sobre a construção de jornada
 description: Como usuário empresarial, aprenda a combinar atividades de evento, orquestração e ação para criar uma jornada.
-feature: Jornada
+feature: Jornadas
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 15%
+source-wordcount: '561'
+ht-degree: 13%
 
 ---
 
@@ -57,9 +57,20 @@ Estas são as etapas principais para criar e publicar uma jornada.
 
 ## Encerrar uma jornada {#ending_a_journey}
 
-Há duas maneiras de encerrar uma jornada:
+Uma jornada pode terminar para um indivíduo por dois motivos:
 
 * A pessoa chega à última atividade de um caminho. Essa última atividade pode ser uma atividade final ou outra atividade. Não há obrigação de encerrar um caminho com uma atividade final. Consulte [esta página](../building-journeys/end-activity.md).
 * A pessoa chega a uma atividade de condição (ou uma atividade de espera com uma condição) e não corresponde a nenhuma das condições.
 
 A pessoa pode então entrar novamente na jornada se a reentrada for permitida. Consulte [esta página](../building-journeys/changing-properties.md).
+
+Uma jornada pode ser fechada pelos seguintes motivos:
+
+* A jornada é fechada manualmente por meio do botão **[!UICONTROL Close to new entrances]**.
+* A data de término da jornada é atingida.
+
+Quando uma jornada é fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed (no entrance)]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada mudará para o status **Finished**. Consulte esta [seção](../building-journeys/changing-properties.md#entrance).
+
+Caso precise parar o progresso de todos os indivíduos na jornada, você pode pará-la. Parar a jornada atingirá o tempo limite para todos os indivíduos na jornada.
+
+Para saber como fechar ou parar uma jornada manualmente, consulte esta [seção](../building-journeys/terminating-a-journey.md).
