@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Eventos de reações
 description: Saiba mais sobre eventos de reação
-feature: Jornada
+feature: Jornadas
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Estas são as diferentes etapas para configurar os eventos de reação:
 1. Adicione um **[!UICONTROL Label]** à reação. Esta etapa é opcional.
 1. Na lista suspensa, selecione a atividade de ação à qual deseja reagir. Você pode selecionar qualquer atividade de ação posicionada nas etapas anteriores do caminho.
 1. Dependendo da ação selecionada (um email, SMS ou uma notificação por push), escolha o que deseja reagir.
-1. Você pode definir uma condição como uma etapa opcional. Por exemplo, após uma ação de email, você pode decidir criar dois caminhos, um com um evento de reação para rastrear cliques somente para clientes VIP e outro com um evento de reação para rastrear cliques realizados por mulheres.
+1. Você pode definir um tempo limite de evento (entre 40 segundos e 30 dias) e um caminho de tempo limite. Isso criará um segundo caminho para indivíduos que não reagiram dentro da duração definida. Ao testar uma jornada que usa um evento de reação, o modo de teste **[!UICONTROL Wait time]** padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
