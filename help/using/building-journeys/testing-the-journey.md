@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Testar a jornada
 description: 'Saiba mais sobre o teste de jornada '
-feature: Jornada
+feature: Jornadas
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 8685dfdcbfb414af89b304a6a9a0f9418959909b
+source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1619'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,21 @@ Para usar o modo de teste, siga estas etapas:
 
    ![](../assets/journeytest1.png)
 
-1. Use o parâmetro **[!UICONTROL Wait time in test]**, no canto inferior esquerdo, para definir o tempo que cada atividade de espera durará no modo de teste. O tempo padrão é de 10 segundos. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Esse parâmetro só será exibido se você tiver soltado uma ou mais atividades de espera na jornada.
+1. Use o parâmetro **[!UICONTROL Wait time]**, no canto inferior esquerdo, para definir o tempo que cada atividade de espera e tempo limite do evento durarão no modo de teste. O tempo padrão é de 10 segundos para esperas e tempos limite do evento. Isso garantirá que os resultados do teste sejam obtidos rapidamente. Esse parâmetro só será exibido se você tiver soltado uma ou mais atividades de espera na jornada.
 
    ![](../assets/journeytest_wait.png)
 
-1. Clique em **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada. Certifique-se de enviar eventos relacionados a perfis de teste. Consulte [Acionando seus eventos](#firing_events).
+   >[!NOTE]
+   >
+   >Quando um evento de reação é usado em uma jornada, o tempo de espera padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md)
+
+1. Clique em **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada.
 
    ![](../assets/journeyuctest1.png)
+
+1. Configure os diferentes campos esperados. No campo **Profile Identifier**, insira o valor do campo usado para identificar o perfil de teste. Pode ser o endereço de email, por exemplo. Certifique-se de enviar eventos relacionados a perfis de teste. Consulte [Acionando seus eventos](#firing_events).
+
+   ![](../assets/journeyuctest1-bis.png)
 
 1. Depois que os eventos forem recebidos, clique no botão **[!UICONTROL Show log]** para visualizar o resultado do teste e verificá-los. Consulte [Visualização dos logs](#viewing_logs).
 
@@ -123,7 +131,7 @@ O botão **[!UICONTROL Trigger an event]** permite configurar um evento que far�
 >
 >Quando você aciona um evento no modo de teste, um evento real é gerado, o que significa que ele também acessará outras jornadas ao ouvir esse evento.
 
-Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no Adobe Experience Platform. Na verdade, o modo de teste permite somente esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser uma ECID, por exemplo.
+Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no Adobe Experience Platform. Na verdade, o modo de teste permite somente esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser um ECID ou um endereço de email, por exemplo. O valor dessa chave precisa ser adicionado no campo **Identificador de perfil**.
 
 Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda a transmitir as informações certas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
