@@ -4,10 +4,10 @@ solution: Journey Orchestration
 title: Criação de um perfil de teste
 description: 'Saiba mais sobre a criação de perfil de teste '
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 2%
+source-wordcount: '728'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/badge.png)
 
-Os perfis de teste são necessários ao usar o modo de teste em uma jornada. Você pode transformar um [perfil existente](../building-journeys/creating-test-profiles.md#turning-profile-into-test) em um perfil de teste ou [criar um perfil de teste](../building-journeys/creating-test-profiles.md#create-test-profiles-csv). Para saber como usar o modo de teste, consulte [esta seção](../building-journeys/testing-the-journey.md).
+Os perfis de teste são necessários ao usar o modo de teste em uma jornada. Para saber como usar o modo de teste, consulte [esta seção](../building-journeys/testing-the-journey.md).
 
-Há diferentes maneiras de criar um perfil de teste no Adobe Experience Platform. Nesta documentação, nos concentramos em dois métodos: carregar um arquivo [csv](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) e usar [chamadas de API](../building-journeys/creating-test-profiles.md#create-test-profiles-api). Você também pode fazer upload de um arquivo json em um conjunto de dados, consulte a [documentação de assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset)
+Há diferentes maneiras de criar um perfil de teste no Adobe Experience Platform. Nesta documentação, nos concentramos em dois métodos: carregar um arquivo [csv](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) e usar [chamadas de API](../building-journeys/creating-test-profiles.md#create-test-profiles-api). Você também pode fazer upload de um arquivo json em um conjunto de dados, consulte a [Documentação de assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+
+Esses métodos de importação também permitem atualizar atributos de perfil. Dessa forma, você pode transformar um perfil existente em um perfil de teste. Basta usar um arquivo ou uma chamada de API semelhante e incluir apenas o campo &quot;testProfile&quot; com o valor &quot;true&quot;.
 
 Criar um perfil de teste é semelhante à criação de perfis regulares no Adobe Experience Platform. Para obter mais informações, consulte a [documentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
@@ -68,44 +70,6 @@ Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serã
 >[!NOTE]
 >
 > Para obter mais informações sobre a criação do conjunto de dados, consulte a [Documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
-
-## Como transformar um perfil em um perfil de teste{#turning-profile-into-test}
-
-Você pode transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, você pode atualizar os atributos de perfil da mesma forma que ao criar um perfil.
-
-Uma maneira mais simples de fazer isso é usando uma atividade de ação **Update profile** em uma jornada e alterar o campo booleano testProfile de false para true.
-
-Sua jornada será composta de um **Read segment** e uma atividade **Update profile**. Primeiro, é necessário criar um segmento direcionado aos perfis que você deseja transformar em perfis de teste.
-
->[!NOTE]
->
-> Como você atualizará o campo **testProfile**, os perfis escolhidos devem incluir este campo. O schema relacionado deve ter a combinação **Profile test details**. Consulte [esta seção](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
-
-1. No Gerenciamento de Jornada do cliente, clique em **Segmentos** no menu esquerdo e, em seguida, em **Criar segmento**, no canto superior direito.
-   ![](../assets/test-profiles-22.png)
-1. Defina um nome para o segmento e crie o segmento: escolha os campos e os valores para direcionar os perfis desejados.
-   ![](../assets/test-profiles-23.png)
-1. Clique em **Save** e verifique se os perfis são direcionados corretamente pelo segmento.
-   ![](../assets/test-profiles-24.png)
-
-   >[!NOTE]
-   >
-   > O cálculo de segmentos pode levar algum tempo. Saiba mais sobre segmentos em [esta seção](../segment/about-segments.md).
-
-1. Agora crie uma nova jornada e comece com uma atividade de orquestração **Ler segmento**.
-1. Escolha o segmento criado anteriormente e o namespace que seus perfis usam.
-   ![](../assets/test-profiles-25.png)
-1. Adicione uma atividade de ação **Atualizar perfil** .
-1. Selecione o esquema, o campo **testProfiles**, o conjunto de dados e defina o valor como &quot;true&quot;.
-   ![](../assets/test-profiles-26.png)
-1. Adicione uma atividade **End** e clique em **Publish**.
-   ![](../assets/test-profiles-27.png)
-1. No Adobe Experience Platform, verifique se os perfis foram atualizados corretamente.
-   ![](../assets/test-profiles-28.png)
-
-   >[!NOTE]
-   >
-   > Para obter mais informações sobre a atividade **Update profile**, consulte [esta seção](../building-journeys/update-profiles.md).
 
 ## Criação de um perfil de teste usando um arquivo csv{#create-test-profiles-csv}
 
