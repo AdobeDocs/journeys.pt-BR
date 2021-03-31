@@ -7,7 +7,7 @@ feature: Jornadas
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 4b30ac80a2dfb5b0675a88ecb5abf81e57c64097
+source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
 workflow-type: tm+mt
 source-wordcount: '1619'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Para usar o modo de teste, siga estas etapas:
 
    >[!NOTE]
    >
-   >Quando um evento de reação é usado em uma jornada, o tempo de espera padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md)
+   >Quando um evento de reação é usado em uma jornada, o tempo de espera padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md).
 
 1. Clique em **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada.
 
