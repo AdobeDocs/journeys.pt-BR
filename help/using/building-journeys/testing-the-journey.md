@@ -7,9 +7,9 @@ feature: Jornadas
 role: Profissional
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 1100f8224284f3b863ecd053469e86d72f18287e
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1624'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Antes de poder testar sua jornada, você deve resolver todos os erros, se houver
 
 Você tem a possibilidade de testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode [criar um novo perfil de teste](../building-journeys/testing-the-journey.md#create-test-profile) ou [transformar um perfil existente em um perfil de teste](../building-journeys/testing-the-journey.md#turning-profile-into-test).
+Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Consulte esta [seção](../building-journeys/creating-test-profiles.md).
 
 Para usar o modo de teste, siga estas etapas:
 
@@ -56,7 +56,7 @@ Para usar o modo de teste, siga estas etapas:
 ## Observações importantes {#important_notes}
 
 * Uma interface é fornecida para acionar eventos na jornada testada, mas os eventos também podem ser enviados por sistemas de terceiros, como o Postman.
-* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte [esta seção](../building-journeys/testing-the-journey.md#create-test-profile).
+* Somente indivíduos sinalizados como &quot;perfis de teste&quot; no Serviço de perfil do cliente em tempo real poderão entrar na jornada testada. Consulte esta [seção](../building-journeys/creating-test-profiles.md).
 * O modo de teste só está disponível em jornadas de rascunho que usam um namespace. O modo de teste precisa verificar se uma pessoa que entra na jornada é ou não um perfil de teste e, portanto, deve conseguir acessar a Adobe Experience Platform.
 * O número máximo de perfis de teste que podem ser inseridos em uma jornada durante uma sessão de teste é 100.
 * Quando você desativa o modo de teste, ele esvazia as jornadas de todas as pessoas que entraram no modo no passado ou que estão nele no momento. Também limpa o relatório.
