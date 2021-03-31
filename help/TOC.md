@@ -6,10 +6,10 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 feature: Jornadas
-translation-type: ht
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
-workflow-type: ht
-source-wordcount: '404'
+translation-type: tm+mt
+source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+workflow-type: tm+mt
+source-wordcount: '406'
 ht-degree: 100%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 100%
       + [Versões de jornada](using/building-journeys/journey-versions.md)
       + [Encerrar uma jornada](using/building-journeys/terminating-a-journey.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
+      + [Testar perfis](using/building-journeys/creating-test-profiles.md)
    + Atividades {#about-journey-building}
       + Atividades de eventos {#events-activities}
          + [Sobre atividades de eventos](using/building-journeys/event-activities.md)
