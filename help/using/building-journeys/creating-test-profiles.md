@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Criação de um perfil de teste
 description: 'Saiba mais sobre a criação de perfil de teste '
 translation-type: tm+mt
-source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
+source-git-commit: 86df088c3e2da43318de16b7ae51ff0e3a20d55b
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 
 
 # Criar perfis de teste {#create-test-profiles}
-
-![](../assets/do-not-localize/badge.png)
 
 Os perfis de teste são necessários ao usar o modo de teste em uma jornada. Para saber como usar o modo de teste, consulte [esta seção](../building-journeys/testing-the-journey.md).
 
