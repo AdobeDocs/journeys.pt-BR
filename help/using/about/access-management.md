@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Gerenciamento de acesso
 description: Saiba mais sobre o gerenciamento de acesso
-feature: Jornada
-role: Profissional
-level: Intermediário
+feature: Jornadas
+role: Business Practitioner
+level: Intermediate
+exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 2f824417d3e5357f0c015c40233296239ab8db5c
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '861'
 ht-degree: 98%
 
 ---
-
 
 # Gerenciamento de acesso{#concept_rfj_wpt_52b}
 
@@ -42,7 +42,7 @@ No Admin Console, é possível atribuir um dos seguintes perfis de produto pront
 
    >[!NOTE]
    >
-   >**[!UICONTROL Administrators]** é o único perfil de produto que permite a criação, edição e publicação de mensagens transacionais (ou modelos de mensagens) no Adobe Campaign Standard. Esse perfil de produto é necessário se você usar o Adobe Campaign Standard para enviar mensagens em suas jornadas.
+   >**[!UICONTROL Administrators]** é o único perfil de produto que permite a criação, edição e publicação de mensagens transacionais (ou modelos de mensagens) no Adobe Campaign Standard. Esse perfil de produto é necessário se você usar o Adobe Campaign Standard para enviar mensagens em suas jornadas. Ele não deve ser renomeado no Admin Console.
 
 * **[!UICONTROL Standard User]**: usuário com acesso básico, como gestão de jornada. Este perfil de produto conta com as seguintes permissões:
    * Gerenciar jornadas
