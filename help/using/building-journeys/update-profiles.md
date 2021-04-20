@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Mudar de uma jornada para outra
 description: Mudar de uma jornada para outra
-feature: Jornadas
-role: Profissional
-level: Intermediário
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7123cff30039d6a5174b0272db33e4a9d15d4ca9
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Atualizações da documentação
 description: Saiba mais sobre atualizações da documentação
-feature: Jornadas
-role: Profissional
-level: Iniciante
+feature: Journeys
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
 workflow-type: tm+mt

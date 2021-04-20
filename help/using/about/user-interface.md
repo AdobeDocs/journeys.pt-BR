@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: A interface do usuário
 description: Saiba mais sobre a interface do usuário
-feature: Jornadas
-role: Profissional
-level: Intermediário
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
 workflow-type: tm+mt

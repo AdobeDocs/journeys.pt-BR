@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Eventos de qualificação de segmento
 description: Saiba mais sobre eventos de qualificação de segmento
-feature: Jornada
-role: Profissional
-level: Intermediário
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a99ad6a589bcd1f3083eabbcac35dd5c0497093d
 workflow-type: tm+mt

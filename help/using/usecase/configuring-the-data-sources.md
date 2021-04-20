@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Configurar as fontes de dados
 description: Saiba como configurar a fonte de dados para o caso de uso avançado do jornada
-feature: Jornada
-role: Profissional
-level: Intermediário
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
 workflow-type: tm+mt

@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Alterar propriedades
 description: Saiba como alterar propriedades
-feature: Jornadas
-role: Profissional
-level: Intermediário
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a8bfd4fd829ff8fadc68de87dc0b9de085a962e3
 workflow-type: tm+mt

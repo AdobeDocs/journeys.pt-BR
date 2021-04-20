@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Sobre a construção de jornada
 description: Como usuário empresarial, aprenda a combinar atividades de evento, orquestração e ação para criar uma jornada.
-feature: Jornadas
-role: Profissional
-level: Intermediário
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
 workflow-type: tm+mt

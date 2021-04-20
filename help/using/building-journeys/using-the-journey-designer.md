@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Usar o designer de jornada
 description: Saiba mais sobre como usar o designer do jornada
-feature: Jornadas
-role: Profissional
-level: Intermediário
+feature: Journeys
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
 workflow-type: tm+mt
