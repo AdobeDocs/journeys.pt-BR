@@ -3,22 +3,28 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Beginner
+exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 translation-type: tm+mt
-source-git-commit: 455b0f083d598e70b8a3f33c7f21432628fef8b5
+source-git-commit: 573475039693b3439d52872bcc4722f3658eef9d
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 64%
+source-wordcount: '2479'
+ht-degree: 63%
 
 ---
-
 
 # Notas de versão {#release-notes}
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação](../release-notes/documentation-updates.md) mais recentes.
+
+## Versão de abril de 2021 {#april-2021-release}
+
+### Aprimoramentos
+
+* Na tela **Event configuration** do modo de teste, uma lista suspensa agora é exibida para campos que esperam uma enumeração. Basta selecionar um dos valores disponíveis. Isso evitará erros ao acionar o evento se um valor incorreto for definido.
 
 ## Versão de março de 2021 {#march-2021-release}
 
