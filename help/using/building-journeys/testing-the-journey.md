@@ -3,17 +3,17 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Testar a jornada
 description: 'Saiba mais sobre o teste de jornada '
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
+exl-id: be413905-0631-4229-a954-80a92651206d
 translation-type: tm+mt
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
+source-git-commit: cb90f764ae6ccc0dab9728899dafd266db89a4e7
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1638'
 ht-degree: 3%
 
 ---
-
 
 # Testar a jornada{#testing_the_journey}
 
@@ -133,6 +133,10 @@ O botão **[!UICONTROL Trigger an event]** permite configurar um evento que far�
 
 Como pré-requisito, você deve saber quais perfis são sinalizados como perfis de teste no Adobe Experience Platform. Na verdade, o modo de teste permite somente esses perfis na jornada e o evento deve conter uma ID. A ID esperada depende da configuração do evento. Pode ser um ECID ou um endereço de email, por exemplo. O valor dessa chave precisa ser adicionado no campo **Identificador de perfil**.
 
+>[!NOTE]
+>
+>Uma lista suspensa é exibida para campos que esperam uma enumeração. Basta selecionar um dos valores disponíveis.
+
 Se a jornada contiver vários eventos, use a lista suspensa para selecionar um evento. Em seguida, para cada evento, configure os campos transmitidos e a execução do envio do evento. A interface ajuda a transmitir as informações certas na carga do evento e garantir que o tipo de informação esteja correto. O modo de teste salva os últimos parâmetros usados em uma sessão de teste para uso posterior.
 
 ![](../assets/journeytest4.png)
@@ -205,4 +209,3 @@ Há um cenário em que há vários eventos enviados de várias jornadas que ter�
 A criação e nomeação automáticas desses conjuntos de dados é realizada se um conjunto de dados de destino não estiver incluído no evento da experiência. É por isso que vemos o &quot;Conjunto de dados criado automaticamente para o explorador&quot; hoje.
 
 A nomeação de nossa origem gera a criação automática. Se houver vários eventos, devemos concatenar e fazer com que seja &quot;Evento de teste de Journey Orchestration - NOME DO SCHEMA&quot;. Isso se tornará automaticamente em &quot;Conjunto de dados gerado automaticamente para Journey Orchestration Test Event - NAME OF SCHEMA&quot;.
-
