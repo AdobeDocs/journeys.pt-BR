@@ -3,21 +3,21 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Atividade de espera
 description: Saiba mais sobre a atividade de espera
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
+exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 4%
+source-wordcount: '387'
+ht-degree: 5%
 
 ---
 
-
 # Atividade de espera{#section_rlm_nft_dgb}
 
-Se desejar esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade **[!UICONTROL Wait]** . Ela permite definir o momento em que a próxima atividade será executada. Quatro opções estão disponíveis:
+Se desejar esperar antes de executar a próxima atividade no caminho, você pode usar uma atividade **[!UICONTROL Wait]** . Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
 
 * [Duração](#duration)
 * [Data fixa](#fixed_date)
@@ -57,7 +57,7 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 
 >[!NOTE]
 >
->Você pode utilizar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, o campo no caso de ser do formulário 2016-08-12T09:46:06Z.
+>Você pode utilizar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), o campo no evento é do formulário 2016-08-12T09:46:06Z.
 >
 >O **fuso horário** é esperado nas propriedades da sua jornada. Como resultado, hoje não é possível da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo, tempo de combinação e deslocamento de fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
