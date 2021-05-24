@@ -3,17 +3,16 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Sobre atividades de eventos
 description: Saiba mais sobre atividades de eventos
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 3a4ff8b1-bbe7-47c8-9fba-defe4b1d5299
+source-git-commit: db7567f7f3333ad69015d07991158ce5b8f01af5
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '447'
 ht-degree: 1%
 
 ---
-
 
 # Sobre atividades de eventos {#concept_rws_1rt_52b}
 
@@ -52,6 +51,6 @@ Neste exemplo, a jornada envia um primeiro push de boas-vindas a um cliente. Em 
 
 Observe que, se quiser configurar um tempo limite em vários eventos posicionados após uma atividade **[!UICONTROL Wait]** , será necessário configurar o tempo limite em um desses eventos somente.
 
-O tempo limite será aplicado a todos os eventos posicionados após a atividade **[!UICONTROL Wait]** . Se nenhum evento for recebido após o tempo limite especificado, os indivíduos fluirão para um único caminho de tempo limite ou encerrarão sua jornada.
+O tempo limite será aplicado a todos os eventos posicionados após a atividade **[!UICONTROL Wait]** . Se nenhum evento for recebido antes do tempo limite especificado, os indivíduos fluirão para um único caminho de tempo limite ou encerrarão sua jornada.
 
 ![](../assets/event-timeout-group.png)
