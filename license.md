@@ -1,14 +1,22 @@
 ---
-source-git-commit: 5476f47904ddbd3e9480ab05c43180e93d642ada
-translation-type: tm+mt
+source-git-commit: 64cb7a0e9c25ae44bcfb8a1cc7f61e2cabf3ea64
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 100%
 
 ---
 # Licença do MIT
 
-© Copyright 2018 Adobe. Todos os direitos reservados.
+© Copyright 2021 Adobe. All rights reserved.
 
-A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o &quot;Software&quot;), para negociar o Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, intercalar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e para permitir às pessoas a quem o Software for fornecido fazê-lo, sob as seguintes condições:
+A permissão é, de agora em diante, concedida gratuitamente a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o &quot;Software&quot;), para negociar o Software sem restrições, ou seja, sem limitação de direitos para usar, copiar, modificar, unificar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e para permitir às pessoas a quem o Software for fornecido fazê-lo, sob as seguintes condições:
 
-O aviso de copyright acima e este aviso de permissão serão incluídos em todas as cópias ou partes substanciais do Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-O SOFTWARE É FORNECIDO &quot;NO ESTADO EM QUE SE ENCONTRA&quot;, SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO LIMITADA, AS GARANTIAS DE COMERCIABILIDADE, ADEQUAÇÃO A UM FIM EM PARTICULAR E NÃO-INFRAÇÃO. OS TITULARES DE DIREITOS AUTORAIS OU DE COPYRIGHT NÃO SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, QUER EM AÇÃO DE CONTRATO, TORTO OU DE OUTRA FORMA, RESULTANTE DE, PARA FORA OU EM RELAÇÃO AO SOFTWARE OU À UTILIZAÇÃO OU OUTROS TRATAMENTOS NO SOFTWARE.
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
