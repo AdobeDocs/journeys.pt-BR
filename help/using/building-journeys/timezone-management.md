@@ -3,18 +3,16 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Gerenciamento de fuso horário
 description: Saiba mais sobre o gerenciamento de fuso horário
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
+source-git-commit: a19493178652a7fc91b7b778c5cb47eda72cd877
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 2%
 
 ---
-
-
 
 # Gerenciamento de fuso horário {#timezone_management}
 
@@ -37,7 +35,7 @@ O fuso horário também pode ser corrigido. Limpe o fuso horário predefinido e 
 
 Para fazer isso, em **[!UICONTROL Properties]**, selecione um fuso horário.
 
-![](../assets/journey73.png)
+![](../assets/journey72.png)
 
 ## Uso de perfis para definir o fuso horário da jornada {#timezone-from-profiles}
 
@@ -49,7 +47,7 @@ Se o perfil do indivíduo não contiver um fuso horário, o fuso horário recupe
 
 Para fazer isso, em **[!UICONTROL Properties]**, marque **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
-![](../assets/journey72.png)
+![](../assets/journey73.png)
 
 ## Uso de fusos horários em expressões {#timezone-in-expressions}
 
