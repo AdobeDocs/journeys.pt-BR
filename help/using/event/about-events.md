@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Sobre eventos
 description: Saiba mais sobre eventos
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 49%
+source-wordcount: '354'
+ht-degree: 48%
 
 ---
-
 
 # Princípio geral {#concept_gfj_fqt_52b}
 
@@ -41,4 +39,3 @@ Você pode definir dois tipos de eventos:
 * **Eventos** gerados pelo sistema: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
 
 Para saber como criar um evento, consulte esta [página](../event/about-creating.md).
-
