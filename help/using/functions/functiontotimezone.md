@@ -1,13 +1,11 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: toTimeZone
-description: Saiba mais sobre a função toTimeZone
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+description: Saiba mais sobre a função paraTimeZone
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -28,7 +26,7 @@ Conversão
 
 | Parâmetro | Descrição |
 |--- |--- |
-| string | O valor da cadeia de caracteres deve conter a ID da zona. Pode ser uma referência de campo ou uma expressão |
+| string | O valor da string deve conter a ID da zona. Pode ser uma referência de campo ou uma expressão |
 
 ## Assinaturas e tipos retornados
 
