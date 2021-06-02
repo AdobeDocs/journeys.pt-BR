@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Sobre a configuração de ação personalizada
 description: Saiba como configurar uma ação personalizada
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 8b24abef-700d-4f68-a921-d7299c939439
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '250'
 ht-degree: 15%
 
 ---
-
 
 # Sobre a configuração de ação personalizada {#concept_sxy_bzs_dgb}
 
