@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Usar ações do Adobe Campaign
 description: Saiba mais sobre as ações do Adobe Campaign
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '900'
 ht-degree: 5%
 
 ---
-
 
 # Usar ações do Adobe Campaign {#using_campaign_action}
 
@@ -75,7 +73,7 @@ Esses são os campos esperados pela mensagem do Adobe Campaign Standard. Esses c
 
 ![](../assets/journey62.png)
 
-## Empurrar {#section_im3_hvf_nhb}
+## Push {#section_im3_hvf_nhb}
 
 Antes de usar a atividade de push, o aplicativo móvel precisa ser configurado junto com o Campaign Standard para enviar notificações por push. Use este [artigo](https://helpx.adobe.com/br/campaign/kb/integrate-mobile-sdk.html) para tomar as etapas de implementação necessárias para dispositivos móveis.
 
