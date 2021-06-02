@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Usar o designer de jornada
 description: Saiba mais sobre como usar o designer do jornada
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7755822065eb0bcc44f78e0e36c53ce73ac60ada
+exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1413'
 ht-degree: 5%
 
 ---
-
 
 # Usar o designer de jornada {#concept_m1g_5qt_52b}
 
@@ -118,4 +116,3 @@ Se quiser copiar apenas uma atividade, clique nela e use o ícone **Copiar** na 
    ![](../assets/copy-paste2.png)
 1. Em qualquer jornada, pressione **Ctrl/Command + V** para colar as atividades sem vinculá-las a um nó existente. As atividades coladas são colocadas na mesma ordem. Após serem coladas, as atividades permanecem selecionadas para que você possa movê-las facilmente. Também é possível colocar o cursor em um espaço reservado vazio e pressionar **Ctrl/Command + V**. As atividades coladas serão vinculadas ao nó .
    ![](../assets/copy-paste3.png)
-
