@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Atividade de espera
 description: Saiba mais sobre a atividade de espera
 feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-translation-type: tm+mt
-source-git-commit: 532e8db3fde8ec86714d0b45a1b2a6c9c54367fb
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 5%
@@ -25,7 +23,7 @@ Se desejar esperar antes de executar a próxima atividade no caminho, você pode
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
-## Sobre a atividade de espera{#about_wait}
+## Sobre a atividade Wait{#about_wait}
 
 Veja como as esperas são priorizadas quando você usa várias esperas em paralelo. Se eles tiverem a mesma configuração de tempo e uma condição diferente, mas sobreposta, a espera posicionada acima será a priorizada. Por exemplo, a condição da primeira espera é &quot;ser mulher&quot; e a condição da segunda espera em paralelo é &quot;ser um VIP&quot;. A primeira atividade de espera será priorizada
 
