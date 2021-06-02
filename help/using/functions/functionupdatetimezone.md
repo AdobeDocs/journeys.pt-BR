@@ -1,20 +1,18 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: updateTimeZone
 description: Saiba mais sobre a função updateTimeZone
-translation-type: tm+mt
-source-git-commit: 57dc86d775bf8860aa09300cf2432d70c62a2993
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
 # updateTimeZone {#updateTimeZone}
 
-Retorna um novo horário de data, com um novo fuso horário no mesmo instante.
+Retorna uma nova data/hora, com um novo fuso horário no mesmo instante.
 
 ## Categoria
 
@@ -26,7 +24,7 @@ Data
 
 ## Parâmetros
 
-* id do fuso horário: string
+* id de fuso horário: string
 * dateTime
 
 ## Assinatura e tipo retornado
