@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: A interface do usuário
 description: Saiba mais sobre a interface do usuário
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: f73e357d8947997f7f5872efa6a5ef4f51bc63a9
+exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 92%
+source-wordcount: '1011'
+ht-degree: 93%
 
 ---
-
 
 # Interface do usuário{#concept_rcq_lqt_52b}
 
@@ -144,4 +142,3 @@ _Em uma jornada:_
 * Em uma jornada baseada em eventos no modo de teste, pressione **E** para acionar um evento.
 * Em uma jornada baseada em segmento, quando a opção **Single profile at a time** estiver selecionada no modo de teste, pressione **P** para acionar um evento.
 * No modo de teste, pressione **L** para exibir os logs.
-
