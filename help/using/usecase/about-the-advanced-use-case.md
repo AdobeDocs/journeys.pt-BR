@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Sobre o caso de uso avançado
 description: Saiba mais sobre o caso de uso avançado do jornada
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 43435aee-572d-4db2-88d5-6124ce074285
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '419'
 ht-degree: 6%
 
 ---
-
 
 # Sobre o caso de uso avançado{#concept_vzy_ncy_w2b}
 
