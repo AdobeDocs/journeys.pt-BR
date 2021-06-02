@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Métricas e dimensões
 description: Saiba mais sobre as dimensões e métricas disponíveis para o Journey Orchestration
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
-
 
 # Métricas e dimensões {#concept_rfj_wpt_52b}
 
@@ -27,7 +25,7 @@ A tabela abaixo fornece a lista de dimensões usadas nos relatórios de jornada 
 
 Para saber mais sobre a compatibilidade entre dimensões e métricas, consulte [esta página](../assets/do-not-localize/dynamic_report_compatibility_journey.pdf).
 
-## Jornada dimensões {#MBE_table_wk4_bnj_w2b}
+## Dimensões de jornada {#MBE_table_wk4_bnj_w2b}
 
 A tabela abaixo fornece a lista de dimensões usadas nos relatórios de jornada, suas definições e fórmulas.
 
@@ -80,7 +78,7 @@ A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, s
 | **Enriquecimento executado** | Número total de enriquecimentos executados chamando uma fonte de dados para obter grupos de campos específicos. |
 | **Evento executado** | Número total de ações executadas para uma jornada. |
 | **Orquestração executada** | Número total de objetos de orquestração (fim, espera, condição) executados para uma jornada. |
-| **Failed** | Número total de jornadas que não foram executadas com êxito. |
+| **Com falha** | Número total de jornadas que não foram executadas com êxito. |
 | **Taxa de falha** | Número total de jornadas que não foram executadas com êxito em comparação ao número de jornadas de execução. |
 
 ## Métricas de delivery {#delivery-metrics}
