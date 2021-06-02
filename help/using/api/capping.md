@@ -1,20 +1,18 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Limitação da descrição da API
 description: Saiba mais sobre a API de limitação.
 products: journeys
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1109'
 ht-degree: 2%
 
 ---
-
 
 # Como trabalhar com a API de limitação
 
@@ -214,4 +212,3 @@ Caso de uso n°5: **Atualizar uma configuração de limitação já implementada
 1. cancelar implantação
 1. pode implantar
 1. implantar
-
