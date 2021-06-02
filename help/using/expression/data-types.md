@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Tipos de dados
 description: Saiba mais sobre tipos de dados em expressões avançadas
-feature: Journeys
+feature: Jornadas
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 4%
+source-wordcount: '559'
+ht-degree: 5%
 
 ---
-
 
 # Tipos de dados {#concept_gp3_rj5_dgb}
 
@@ -197,7 +195,7 @@ toDateTime("2011-12-03T15:15:30.123-00:20")
 toDateTime(1560762190189)
 ```
 
-## duração {#duration}
+## duration {#duration}
 
 **Descrição**
 
