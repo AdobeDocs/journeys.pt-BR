@@ -1,14 +1,12 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 user-guide-title: Journey Orchestration
 title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
-feature: Journeys
-translation-type: ht
-source-git-commit: 8c7c7d85d4e7835721b70faa7b3b6166796e79c4
-workflow-type: ht
+feature: Jornadas
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -22,7 +20,7 @@ ht-degree: 100%
    + [Notas de versão](using/release-notes/release-notes.md)
    + [Atualizações da documentação](using/release-notes/documentation-updates.md)
 + Primeiros passos com o [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Sobre [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Sobre o [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitações](using/about/limitations.md)
    + [Introdução](using/about/get-started.md)
    + [Interface do usuário](using/about/user-interface.md)
@@ -151,7 +149,7 @@ ht-degree: 100%
       + Matemática {#math}
          + [random](using/functions/functionrandom.md)
          + [round](using/functions/functionround.md)
-      + Cadeia de caracteres {#string}
+      + String {#string}
          + [concat](using/functions/functionconcat.md)
          + [contain](using/functions/functioncontain.md)
          + [containWithIgnoreCase](using/functions/functioncontainwithignorecase.md)
