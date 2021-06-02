@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Atividade de condição
 description: Saiba mais sobre atividades de condição
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 10%
 
 ---
-
 
 # Atividade de condição{#section_e2n_pft_dgb}
 
@@ -26,7 +24,7 @@ Quatro tipos de condições estão disponíveis:
 
 ![](../assets/journey49.png)
 
-## Sobre a atividade de condição {#about_condition}
+## Sobre a atividade Condição {#about_condition}
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
