@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Sobre a construção de jornada
 description: Como usuário empresarial, aprenda a combinar atividades de evento, orquestração e ação para criar uma jornada.
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 409197458ba32f9fdb3e42e4b06eae2814eff9f8
+exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 13%
 
 ---
-
 
 # Criar uma jornada {#concept_gq5_sqt_52b}
 
@@ -55,7 +53,7 @@ Estas são as etapas principais para criar e publicar uma jornada.
 
    ![](../assets/journey36.png)
 
-## Encerrar uma jornada {#ending_a_journey}
+## Encerramento de uma jornada {#ending_a_journey}
 
 Uma jornada pode terminar para um indivíduo por dois motivos:
 
