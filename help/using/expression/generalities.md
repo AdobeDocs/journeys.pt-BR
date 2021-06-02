@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Generalidades
 description: Saiba mais sobre generalidades de expressão avançada
-feature: Journeys
+feature: Jornadas
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 3%
 
 ---
-
 
 # Generalidades {#concept_rcy_qj5_dgb}
 
@@ -38,7 +36,7 @@ Estas são as diferentes regras de diferenciação entre maiúsculas e minúscul
 * Todos os nomes de função fazem distinção entre maiúsculas e minúsculas. Por exemplo, _inSegment()_ é válido, enquanto a função _INSEGMENT()_ não é.
 * As referências de campo e os valores constantes distinguem maiúsculas de minúsculas: eles não são elementos integrados do idioma (em vez de operadores e funções), eles são criados pelo usuário final.
 
-## Tipo de expressão retornado{#section_gyc_435_53b}
+## Tipo de expressão retornada{#section_gyc_435_53b}
 
 Dependendo do contexto de uso, o editor de expressão pode retornar valores diferentes.
 
