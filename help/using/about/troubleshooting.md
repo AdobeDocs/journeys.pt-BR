@@ -1,19 +1,17 @@
 ---
 product: adobe campaign
-solution: Journey Orchestration
 title: Solução de problemas
 description: Saiba mais sobre solução de problemas
-feature: Journeys
+feature: Jornadas
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: ab19cc5a3d998d1178984c5028b1ba650d3e1292
+exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
+source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 97%
+source-wordcount: '1041'
+ht-degree: 98%
 
 ---
-
 
 # Solução de problemas{#concept_nlv_bcv_2fb}
 
@@ -88,4 +86,3 @@ Se as pessoas físicas continuarem percorrendo o caminho certo na jornada, mas n
 * As mensagens transacionais enviaram a mensagem com êxito. Você pode ver o status de cada execução nos registros de envio da mensagem transacional. Se é verde, vermelho e qual o problema. Um usuário empresarial pode acessar essa tela e enviar os registros a um administrador para fazer mais investigações.
 
 No caso de mensagem enviada através de ação personalizada, a única coisa a ser verificada durante o teste da jornada é o fato de a chamada do sistema da ação personalizada causar ou não um erro. Se a chamada para o sistema externo associada à ação personalizada não causar um erro, mas também não enviar a mensagem, algumas investigações devem ser feitas por parte do sistema externo.
-
