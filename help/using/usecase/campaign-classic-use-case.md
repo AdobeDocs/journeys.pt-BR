@@ -3,9 +3,9 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Aproveitar pontuações de fadiga
 description: Saiba como aproveitar as pontuações de fadiga no jornada
-source-git-commit: bc17cd3c0aee2652e55e3cf0623f87c4187a165e
+source-git-commit: 83a2410151a8a388d1db845502f434e97d89bdcc
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '392'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Esse caso de uso apresenta todas as etapas necessárias para enviar um email usando a integração do Adobe Campaign Classic.
 
-Primeiro, criaremos um template de email transacional no Campaign Classic. Então, no Journey Orchestration, criaremos a ação e projetaremos a jornada.
+Primeiro, criaremos um template de email transacional no Campaign Classic. Em seguida, no Journey Orchestration, criaremos o evento, a ação e projetaremos a jornada.
 
 Para saber mais sobre a integração do Campaign Classic, consulte estas páginas:
 
@@ -28,7 +28,7 @@ Sua instância do Campaign Classic precisa ser provisionada para essa integraç�
 
 1. Faça logon na instância de controle do Campaign Classic.
 
-1. Em **Administration** > **Platform** > **Enumerations**, selecione a enumeração **Event type** (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, no nosso exemplo). Você terá que usar o nome interno do tipo de evento ao gravar o arquivo JSON.
+1. Em **Administration** > **Platform** > **Enumerations**, selecione a enumeração **Event type** (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, no nosso exemplo). Você precisará usar o nome interno do tipo de evento ao gravar o arquivo JSON posteriormente.
 
    ![](../assets/accintegration-uc-1.png)
 
@@ -59,14 +59,14 @@ Sua instância do Campaign Classic precisa ser provisionada para essa integraç�
 }
 ```
 
-    * Para o canal, é necessário digitar &quot;email&quot;.
-    * Para eventType, use o nome interno do tipo de evento criado anteriormente.
-    * O endereço de email será uma variável, portanto, você pode digitar qualquer rótulo.
-    * Em ctx, os campos de personalização também são variáveis.
+* Para o canal, é necessário digitar &quot;email&quot;.
+* Para eventType, use o nome interno do tipo de evento criado anteriormente.
+* O endereço de email será uma variável, portanto, você pode digitar qualquer rótulo.
+* Em ctx, os campos de personalização também são variáveis.
 
 **Journey Orchestration**
 
-1. Primeiro, você precisa criar um evento . Certifique-se de incluir o &quot;purchaseOrderNumber&quot;.
+1. Primeiro, você precisa criar um evento . Certifique-se de incluir o campo &quot;purchaseOrderNumber&quot;.
 
    ![](../assets/accintegration-uc-5.png)
 
@@ -78,11 +78,11 @@ Sua instância do Campaign Classic precisa ser provisionada para essa integraç�
 
    ![](../assets/accintegration-uc-7.png)
 
-1. Para o endereço de email e dois campos de personalização, altere **Constant** para **Variable**.
+1. Para o endereço de email e os dois campos de personalização, altere **Constant** para **Variable**.
 
    ![](../assets/accintegration-uc-8.png)
 
-1. Agora crie uma nova jornada e comece com o evento criado antes.
+1. Agora crie uma nova jornada e comece com o evento criado anteriormente.
 
    ![](../assets/accintegration-uc-9.png)
 
@@ -92,6 +92,6 @@ Sua instância do Campaign Classic precisa ser provisionada para essa integraç�
 
 1. Adicione uma atividade **End** e teste sua jornada.
 
-   ![](../assets/accintegration-uc-10.png)
+   ![](../assets/accintegration-uc-11.png)
 
 1. Agora você pode publicar sua jornada.
