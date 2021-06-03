@@ -5,10 +5,10 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 feature: Jornadas
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: 33e7f08cfe7eb39b761991fdcfbabe99af02e3f0
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 94%
+source-wordcount: '421'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 94%
    + [Interface do usuário](using/about/user-interface.md)
    + [Gerenciamento de acesso](using/about/access-management.md)
    + [Solução de problemas](using/about/troubleshooting.md)
+   + [Integração com sistemas externos](using/about/external-systems.md)
 + Configurar um evento {#events-journeys}
    + Sobre eventos {#about-events}
       + [Princípio geral](using/event/about-events.md)
