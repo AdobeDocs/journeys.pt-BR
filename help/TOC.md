@@ -5,10 +5,10 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 feature: Jornadas
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 100%
    + [Fontes de dados externas](using/datasource/external-data-sources.md)
 + Configurar uma ação {#action-journeys}
    + [Sobre ações](using/action/action.md)
-   + [Trabalhar com o Adobe Campaign](using/action/working-with-adobe-campaign.md)
+   + [Trabalhar com o Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
+   + [Trabalhar com o Adobe Campaign Classic](using/action/acc-action.md)
    + Usar um sistema de terceiros {#action-third-party}
       + [Sobre a configuração de ação personalizada](using/action/about-custom-action-configuration.md)
       + [Configurar o URL](using/action/url-configuration.md)
       + [Definir os parâmetros da mensagem](using/action/defining-the-message-parameters.md)
-   + [Integração com o Adobe Campaign Classic](using/beta/acc-action.md)
 + Uso de segmentos da Platform {#configuring-segment}
    + [Sobre segmentos da Platform](using/segment/about-segments.md)
    + [Criação de um segmento](using/segment/creating-a-segment.md)
@@ -78,7 +78,8 @@ ht-degree: 100%
          + [Atividade de espera](using/building-journeys/wait-activity.md)
       + Atividades de ação {#action-activities}
          + [Sobre atividades de ação](using/building-journeys/about-action-activities.md)
-         + [Usar ações do Adobe Campaign](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Uso do Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
+         + [Uso do Adobe Campaign Classic](using/building-journeys/using-adobe-campaign-classic.md)
          + [Usar ações personalizadas](using/building-journeys/using-custom-actions.md)
          + [Mudar de uma jornada para outra](using/building-journeys/jump.md)
          + [Atualizar perfil](using/building-journeys/update-profiles.md)
@@ -191,5 +192,6 @@ ht-degree: 100%
       + [Configurar os eventos](using/usecase/configuring-the-events.md)
       + [Configurar as fontes de dados](using/usecase/configuring-the-data-sources.md)
       + [Construir a jornada](using/usecase/building-the-journey.md)
+   + [Envio de uma mensagem usando o Campaign Classic](using/usecase/campaign-classic-use-case.md)
 + Trabalho com APIs{#working-with-apis}
    + [Limitação de APIs](using/api/capping.md)
