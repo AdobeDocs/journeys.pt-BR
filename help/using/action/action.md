@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 1712529984af02d0a3f678418db1e819370056d6
+source-git-commit: eff510d0e41e07560db8d56a8ca64da546e8fca6
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '314'
 ht-degree: 85%
 
 ---
@@ -36,9 +36,9 @@ Para visualizar a lista de ações ou configurar uma nova ação, clique em **[!
 
 ![](../assets/custom1.png)
 
-Se você tiver o Adobe Campaign Standard, precisará configurar a ação pronta para enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign Standard. Consulte [esta página](../action/working-with-adobe-campaign.md).
+Se você tiver o Adobe Campaign Standard, precisará configurar a ação pronta para enviar emails, notificações por push e SMS usando os recursos de mensagens transacionais do Adobe Campaign Standard. Consulte [esta página](../action/working-with-adobe-campaign.md#using_adobe_campaign_standard).
 
-Se você tiver o Adobe Campaign Classic, uma integração estará disponível mediante solicitação. Consulte [esta página](../action/acc-action.md).
+Se você tiver o Adobe Campaign v7 ou v8, uma integração estará disponível mediante solicitação. Consulte [esta página](../action/working-with-adobe-campaign.md#using_adobe_campaign_v7_v8).
 
 Se você estiver usando um sistema de terceiros para enviar mensagens como Epsilon, Facebook, Adobe.io, Firebase, etc., é necessário adicionar e configurar uma ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
