@@ -1,31 +1,31 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Usar ações do Adobe Campaign
-description: Saiba mais sobre as ações do Adobe Campaign
+title: Uso de ações do Adobe Campaign v7/v8
+description: Saiba mais sobre as ações do Adobe Campaign v7/v8
 feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: c17808a4cae7ebbd1129f6b28ad2ea945098f826
+source-git-commit: f4344697c24d8436f7c474e828f820e7f3f9a48e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '165'
+ht-degree: 7%
 
 ---
 
-# Uso do Adobe Campaign Classic {#using_campaign_classic}
+# Uso do Adobe Campaign v7/v8 {#using_campaign_classic}
 
-Uma integração estará disponível se você tiver o Adobe Campaign Classic. Ele permitirá enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Classic.
+Uma integração está disponível se você tiver o Adobe Campaign v7 ou v8. Ele permitirá enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign.
 
-A conexão entre as instâncias Journey Orchestration e Campaign Classic é configurada pelo Adobe no momento do provisionamento. Entre em contato com o Adobe.
+A conexão entre as instâncias do Journey Orchestration e do Campaign é configurada pelo Adobe no momento do provisionamento. Entre em contato com o Adobe.
 
 Para que isso funcione, é necessário configurar uma ação dedicada. Consulte esta [seção](../action/acc-action.md).
 
 Um caso de uso completo é apresentado nesta [seção](../usecase/campaign-classic-use-case.md).
 
 1. Projete a jornada, começando por um evento. Consulte esta [seção](../building-journeys/journey.md).
-1. Na seção **Action** da paleta, selecione uma ação Campaign Classic e adicione-a à jornada.
+1. Na seção **Action** da paleta, selecione uma ação Campanha e adicione-a à jornada.
 1. Nos **Action parameters**, todos os campos esperados na carga da mensagem são exibidos. Você precisa mapear cada um desses campos com o campo que deseja usar, do evento ou da fonte de dados. Isso é semelhante às ações personalizadas. Consulte esta [seção](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)
