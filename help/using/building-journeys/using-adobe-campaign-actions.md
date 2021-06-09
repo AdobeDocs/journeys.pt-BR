@@ -6,10 +6,10 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: 2565f6be500440455aa60724272790537a28ce2d
+source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 5%
+source-wordcount: '896'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação pron
 >
 >Para isso, é necessário configurar a ação incorporada. Consulte [esta página](../action/working-with-adobe-campaign.md).
 
-Para cada um desses canais, selecione um **template** de Mensagens Transacionais do Adobe Campaign Standard. Na verdade, [!DNL Journey Orchestration] não é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, dependemos de Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado template de mensagem em suas jornadas, deverá publicá-lo no Adobe Campaign Standard. Consulte [esta página](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) para saber como usar este recurso.
+Para cada um desses canais, selecione um **template** de Mensagens Transacionais do Adobe Campaign Standard. Na verdade, [!DNL Journey Orchestration] não é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, dependemos de Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado template de mensagem em suas jornadas, deverá publicá-lo no Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) para saber como usar este recurso.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Para **[!UICONTROL Email]** e **[!UICONTROL SMS]**, os parâmetros são idêntic
 
 >[!NOTE]
 >
->Para emails, se estiver usando um template transacional de perfis, o mecanismo de unsubscription é manipulado pronto para uso pelo Campaign Standard. Basta adicionar um bloco de conteúdo **[!UICONTROL Unsubscription link]** no modelo ([saiba mais](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). Se estiver usando um modelo baseado em eventos (rtEvent), será necessário adicionar, na mensagem, um link que passe o email da pessoa no parâmetro de URL e aponte para uma landing page de unsubscription. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a assinatura seja transmitida ao Adobe.
+>Para emails, se estiver usando um template transacional de perfis, o mecanismo de unsubscription é manipulado pronto para uso pelo Campaign Standard. Basta adicionar um bloco de conteúdo **[!UICONTROL Unsubscription link]** no modelo ([saiba mais](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Se estiver usando um modelo baseado em eventos (rtEvent), será necessário adicionar, na mensagem, um link que passe o email da pessoa no parâmetro de URL e aponte para uma landing page de unsubscription. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a assinatura seja transmitida ao Adobe.
 
 Primeiro, você precisa escolher um template de mensagem transacional. Consulte [esta página](../building-journeys/about-action-activities.md).
 
