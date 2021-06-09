@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '417'
 ht-degree: 4%
 
 ---
@@ -48,7 +48,7 @@ Precisaremos configurar uma conexão com duas fontes de dados (consulte [esta p�
 
 ## Pré-requisitos {#prerequisites}
 
-Para nosso caso de uso, projetamos três templates de mensagens transacionais do Adobe Campaign Standard. Estamos usando templates de mensagens transacionais de evento. Consulte esta [página]().
+Para nosso caso de uso, projetamos três templates de mensagens transacionais do Adobe Campaign Standard. Estamos usando templates de mensagens transacionais de evento. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
 
 O Adobe Campaign Standard está configurado para enviar emails e notificações por push.
 
