@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '220'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 4%
 Na seção **[!UICONTROL Message parameters]**, cole um exemplo da carga JSON para enviar ao serviço externo.
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>Os nomes de campo no payload não podem conter um &quot;.&quot; caractere.
 
 Você poderá definir o tipo de parâmetro (por exemplo: string, número inteiro, etc.).
 
