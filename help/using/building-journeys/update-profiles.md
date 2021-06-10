@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 29aa6b6e16f8e6d051065f8157f4e25e8b1c05e1
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '371'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,11 @@ A atividade de ação **[!UICONTROL Update profile]** permite atualizar um perfi
 
    ![](../assets/profileupdate2.png)
 
-1. Selecione um conjunto de dados na lista. A seleção do conjunto de dados determinará onde o novo valor do campo de perfil será armazenado.
+1. Selecione um conjunto de dados na lista.
+
+   >[!NOTE]
+   >
+   >A ação **Atualizar perfil** atualiza os dados do perfil em tempo real, mas não atualiza os conjuntos de dados. A seleção do conjunto de dados é necessária, pois o perfil é um registro relacionado a um conjunto de dados.
 
 1. Clique no campo **Value** para definir o valor que deseja usar:
 
