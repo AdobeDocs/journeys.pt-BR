@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 
 ## Janeiro de 2021 {#january-2021}
 
-* Adição de práticas recomendadas ao acionar uma jornada ao mesmo tempo em que uma criação de perfil. [Leia mais](../about/limitations.md#journeys-limitation-profile-creation).
+* Adição de práticas recomendadas ao acionar uma jornada ao mesmo tempo que a criação de um perfil. [Leia mais](../about/limitations.md#journeys-limitation-profile-creation).
 
 ## Outubro de 2020 {#october-2020}
 
@@ -32,7 +32,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 
 ## Setembro de 2020 {#september-2020}
 
-* A seção de descrição da interface foi atualizada para refletir o novo menu **All seletor**. [Leia mais](../about/user-interface.md)
+* A seção de descrição da interface foi atualizada para refletir o novo menu **Todos os seletores**. [Leia mais](../about/user-interface.md)
 * Adição de uma observação sobre as novas versões das jornadas baseadas em segmentos que não são recorrentes.
 
 ## Agosto de 2020 {#august-2020}
