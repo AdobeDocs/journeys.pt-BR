@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ Se você editar um evento usado em um rascunho ou em uma jornada ao vivo, será 
 
 Você pode definir dois tipos de eventos:
 
-* **Baseados** em regras: esse tipo de evento não gera uma eventID. Usando o editor de expressões simples, basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas jornadas. Essa regra pode ser baseada em qualquer campo disponível no payload do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
+* **Eventos baseados em regras**: esse tipo de evento não gera uma eventID. Usando o editor de expressões simples, basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas jornadas. Essa regra pode ser baseada em qualquer campo disponível na carga do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
 
    >[!CAUTION]
    >
-   >Uma regra de limitação é definida para eventos com base em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5000 por segundo em uma determinada organização (ORG). Corresponde a Journey Orchestration SLAs. Consulte esta [página](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Uma regra de limite é definida para eventos baseados em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5000 por segundo em uma determinada organização (ORG). Corresponde aos SLAs do Journey Orchestration. Consulte esta [página](https://helpx.adobe.com/br/legal/product-descriptions/journey-orchestration.html).
 
-* **Eventos** gerados pelo sistema: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
+* **Eventos gerados pelo sistema**: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
 
 Para saber como criar um evento, consulte esta [página](../event/about-creating.md).
