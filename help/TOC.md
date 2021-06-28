@@ -6,14 +6,14 @@ user-guide-description: Fornece instruções passo a passo para implementar e cr
 index: true
 feature: Jornadas
 source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration] Guia {#using}
+# Manual do [!DNL Journey Orchestration] {#using}
 
 + [Documentação do produto](journey-orchestration-home.md)
 + Novidades {#release-notes}
@@ -32,11 +32,11 @@ ht-degree: 92%
       + [Princípio geral](using/event/about-events.md)
       + [Ciclo de dados](using/event/about-data-cycle.md)
       + [Criação de um evento](using/event/about-creating.md)
-      + [Aproveitar a Adobe Analytics](using/event/about-analytics.md)
+      + [Aproveitar o Adobe Analytics](using/event/about-analytics.md)
       + [Sobre esquemas ExperienceEvent](using/event/experience-event-schema.md)
       + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
-   + [Definir campos de carga](using/event/defining-the-payload-fields.md)
-   + [Selecionar namespace](using/event/selecting-the-namespace.md)
+   + [Definir os campos de carga](using/event/defining-the-payload-fields.md)
+   + [Selecionar o namespace](using/event/selecting-the-namespace.md)
    + [Definir a chave de evento](using/event/defining-the-event-key.md)
    + [Adicionar uma condição](using/event/adding-a-condition.md)
    + [Visualizar a carga](using/event/previewing-the-payload.md)
@@ -175,24 +175,24 @@ ht-degree: 92%
          + [trim](using/functions/functiontrim.md)
          + [upper](using/functions/functionupper.md)
          + [uuid](using/functions/functionuuid.md)
-+ Criar relatórios{#journey-reports}
++ Criação de relatórios{#journey-reports}
    + [Sobre relatórios de jornada](using/reporting/about-journey-reports.md)
-   + [Criar relatórios de jornada](using/reporting/creating-your-journey-reports.md)
+   + [Criação de relatórios de jornada](using/reporting/creating-your-journey-reports.md)
    + [Métricas e dimensões](using/reporting/metrics-and-dimensions.md)
 + Integração com serviços inteligentes{#use-case-advanced}
-   + [Sobre a integração de AI](using/ai-services/ai-services-overview.md)
-   + [Aproveitamento da AI do cliente](using/ai-services/leveraging-customer-ai.md)
+   + [Sobre a integração de IA](using/ai-services/ai-services-overview.md)
+   + [Aproveitamento da IA do cliente](using/ai-services/leveraging-customer-ai.md)
 + Casos de uso{#use-cases-journeys}
    + Envio de um email personalizado{#use-case-simple}
       + [Sobre o caso de uso simples](using/usecase/about-the-simple-use-case.md)
-      + [Configurar o evento](using/usecase/configuring-the-event.md)
-      + [Configurar a fonte de dados](using/usecase/configuring-the-data-source.md)
-      + [Construir a jornada](using/usecase/simple-uc-building-the-journey.md)
-   + Construir uma jornada entre canais{#use-case-advanced}
+      + [Configuração do evento](using/usecase/configuring-the-event.md)
+      + [Configuração da fonte de dados](using/usecase/configuring-the-data-source.md)
+      + [Construção da jornada](using/usecase/simple-uc-building-the-journey.md)
+   + Construção de uma jornada entre canais{#use-case-advanced}
       + [Sobre o caso de uso avançado](using/usecase/about-the-advanced-use-case.md)
-      + [Configurar os eventos](using/usecase/configuring-the-events.md)
-      + [Configurar as fontes de dados](using/usecase/configuring-the-data-sources.md)
-      + [Construir a jornada](using/usecase/building-the-journey.md)
+      + [Configuração de eventos](using/usecase/configuring-the-events.md)
+      + [Configuração de fontes de dados](using/usecase/configuring-the-data-sources.md)
+      + [Construção da jornada](using/usecase/building-the-journey.md)
    + [Envio de uma mensagem usando o Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
 + Trabalho com APIs{#working-with-apis}
-   + [Limitação de APIs](using/api/capping.md)
+   + [APIs de limite](using/api/capping.md)
