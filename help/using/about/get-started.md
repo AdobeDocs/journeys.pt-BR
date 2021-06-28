@@ -7,15 +7,15 @@ role: Business Practitioner
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Introdução{#concept_y4b_4qt_52b}
 
-No [!DNL Journey Orchestration] existem dois tipos de usuários, cada um deles com tarefas específicas: o **usuário técnico** e o **usuário empresarial**. O acesso do usuário é gerenciado por perfis de produtos e direitos. Consulte [esta página](../about/access-management.md) para saber como configurar o acesso do usuário.
+No [!DNL Journey Orchestration] existem dois tipos de usuários, cada um deles com tarefas específicas: o **usuário técnico** e o **usuário empresarial**. O acesso do usuário é gerenciado por perfis de produtos e direitos. Consulte [esta página](../about/access-management.md) para aprender a configurar o acesso do usuário.
 
 Estas são as etapas principais para configurar e utilizar o [!DNL Journey Orchestration]:
 
@@ -39,7 +39,7 @@ Estas são as etapas principais para configurar e utilizar o [!DNL Journey Orche
 
    Se você estiver usando um sistema de terceiros para enviar mensagens, será necessário configurar a conexão com o [!DNL Journey Orchestration]. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-   Se você estiver usando o Adobe Campaign Standard para enviar mensagens, é necessário configurar a ação integrada. Consulte [esta página](../action/working-with-adobe-campaign.md).
+   Se você está usando o Adobe Campaign Standard para enviar mensagens, é necessário configurar a ação integrada. Consulte [esta página](../action/working-with-adobe-campaign.md).
 
    Estas etapas são executadas por um **usuário técnico**.
 
@@ -49,7 +49,7 @@ Estas são as etapas principais para configurar e utilizar o [!DNL Journey Orche
 
    Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas. Esta etapa é executada por um **usuário empresarial**.
 
-   Para obter mais informações, consulte [esta seção](../building-journeys/journey.md).
+   Para obter mais informações, consulte [esta página](../building-journeys/journey.md).
 
    ![](../assets/journeyuc2_24.png)
 
@@ -65,6 +65,6 @@ Estas são as etapas principais para configurar e utilizar o [!DNL Journey Orche
 
    Use as ferramentas de relatórios exclusivos para medir a eficiência da sua jornada. Esta etapa é executada por um **usuário empresarial**.
 
-   Para obter mais informações, consulte [esta seção](../reporting/about-journey-reports.md).
+   Para obter mais informações, consulte [esta página](../reporting/about-journey-reports.md).
 
    ![](../assets/dynamic_report_journey_12.png)
