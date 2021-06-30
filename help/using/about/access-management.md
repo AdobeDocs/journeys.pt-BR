@@ -6,25 +6,25 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '855'
+ht-degree: 95%
 
 ---
 
 # Gerenciamento de acesso{#concept_rfj_wpt_52b}
 
-## Sobre o gerenciamento de acesso {#about-access-management}
+## Sobre gerenciamento de acesso {#about-access-management}
 
 O [!DNL Journey Orchestration] permite atribuir um conjunto de permissões aos usuários para definir qual parte da interface pode ser acessada.
 
-Eles podem ser gerenciados por administradores com acesso ao Admin Console. Para obter mais informações sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
+Eles podem ser gerenciados por administradores com acesso ao Admin Console. Para obter mais informações sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/admin-guide.html).
 
 Para acessar o [!DNL Journey Orchestration], o usuário deve ser:
 
 * parte de um [!DNL Journey Orchestration] **[!UICONTROL product profile]** associado às permissões [!DNL Journey Orchestration].
-* parte de um [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. Não há uma permissão obrigatória. O usuário deve ter a permissão **[!UICONTROL profile management]** para criar e editar segmentos da plataforma na interface do [!DNL Journey Orchestration]. Para obter mais informações, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/access-control/home.html#adobe-admin-console).
+* parte de um [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. Não há uma permissão obrigatória. O usuário deve ter a permissão **[!UICONTROL profile management]** para criar e editar segmentos da plataforma na interface do [!DNL Journey Orchestration]. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
 No Admin Console, é possível atribuir um dos seguintes perfis de produto prontos para uso aos usuários:
 
@@ -67,7 +67,7 @@ Você pode encontrar abaixo a compatibilidade entre as permissões e diferentes 
 
 O [!DNL Journey Orchestration] permite criar seus próprios perfis de produtos e atribuir um conjunto de permissões e sandboxes aos usuários. Com perfis de produtos, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
-Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://docs.adobe.com/content/help/pt-BR/experience-platform/sandbox/ui/user-guide.html).
+Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
 
 Para criar um perfil de produto e atribuir um conjunto de permissões e sandboxes:
 
@@ -141,6 +141,6 @@ O [!DNL Journey Orchestration] permite particionar sua instância em ambientes v
 As sandboxes são atribuídas por meio de perfis de produto no Admin Console. Para obter mais informações sobre como atribuir sandboxes, consulte esta [seção](../about/access-management.md#create-product-profile).
 
 O [!DNL Journey Orchestration] reflete as sandboxes da Adobe Experience Platform que foram criadas para uma determinada organização.
-As sandboxes da Adobe Experience Platform podem ser criadas ou redefinidas pela instância da Adobe Experience Platform. Consulte o [guia de usuário de sandbox](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) para ver as etapas detalhadas.
+As sandboxes da Adobe Experience Platform podem ser criadas ou redefinidas pela instância da Adobe Experience Platform. Consulte o [guia de usuário de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) para ver as etapas detalhadas.
 
 Você pode encontrar o controle do alternador de sandbox na parte superior esquerda da tela. Para alternar a sandbox, clique na sandbox atualmente ativa no alternador e selecione outra sandbox na lista suspensa.
