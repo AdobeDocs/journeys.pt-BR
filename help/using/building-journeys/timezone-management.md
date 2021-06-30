@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,11 @@ Esse fuso horário será usado para cada atividade da jornada que contém um ele
 
 Você pode selecionar um fuso horário ou optar por usar o fuso horário definido no perfil do usuário.
 
-## Definição de um fuso horário fixo {#fixed-timezone}
+>[!NOTE]
+>
+>O fuso horário do perfil funciona com o campo **timeZone** existente no grupo de campos **Detalhes de preferência**.
+
+## Definição de fuso horário fixo {#fixed-timezone}
 
 O fuso horário também pode ser corrigido. Limpe o fuso horário predefinido e escolha um na lista suspensa. Se você usar um fuso horário fixo, será o mesmo para todos os indivíduos que inseriram a jornada.
 
