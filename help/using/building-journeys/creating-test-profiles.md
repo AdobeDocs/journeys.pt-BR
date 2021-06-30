@@ -3,10 +3,10 @@ product: adobe campaign
 title: Criação de um perfil de teste
 description: Saiba mais sobre a criação de perfil de teste
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 3%
+source-wordcount: '675'
+ht-degree: 2%
 
 ---
 
@@ -97,9 +97,9 @@ Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jor
 >
 > Para obter mais informações sobre importações de csv, consulte a [documentação sobre assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
 
-## Criar perfis de teste usando chamadas de API{#create-test-profiles-api}
+## Criação de perfis de teste usando chamadas de API{#create-test-profiles-api}
 
-Também é possível criar perfis de teste por meio de chamadas de API. Consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
+Também é possível criar perfis de teste por meio de chamadas de API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 Você deve usar um Esquema de perfil que contenha a combinação &quot;Detalhes do teste de perfil&quot;. O sinalizador testProfile faz parte dessa mistura.
 
