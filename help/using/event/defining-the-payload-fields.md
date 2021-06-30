@@ -1,21 +1,21 @@
 ---
 product: adobe campaign
-title: Definir campos de carga
+title: Definir os campos de carga
 description: Saiba mais sobre como definir os campos de carga
 feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: '300'
+ht-degree: 4%
 
 ---
 
-# Definir campos de carga {#concept_yrw_3qt_52b}
+# Definir os campos de carga {#concept_yrw_3qt_52b}
 
-A definição de carga permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo Experience Cloud XDM. Para obter mais informações sobre XDM, consulte [esta página](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/home.html).
+A definição de carga permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo Experience Cloud XDM. Para obter mais informações sobre XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 1. Selecione um esquema XDM na lista e clique no campo **[!UICONTROL Payload]** ou no ícone **[!UICONTROL Edit]**.
 
