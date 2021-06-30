@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,8 @@ Consulte [Atividade de condição](../building-journeys/condition-activity.md#ab
 
 ![](../assets/segment8.png)
 
+Uma nova jornada que inclui um evento de qualificação de segmento é operacional dez minutos após a publicação. Esse intervalo de tempo corresponde ao intervalo de atualização do cache do serviço dedicado. Portanto, é necessário aguardar dez minutos antes de usar essa jornada.
+
 ## Práticas recomendadas {#best-practices-segments}
 
 A atividade **[!UICONTROL Segment Qualification]** permite a entrada imediata em jornadas de indivíduos que se qualificam ou se desqualificam de um segmento do Adobe Experience Platform.
@@ -84,7 +86,7 @@ Ao usar a qualificação de segmento para um segmento de lote, observe que um pi
 
 Além disso, se o segmento de lote for recém-criado e usado imediatamente em uma jornada, o primeiro lote de cálculo pode fazer com que um grande número de indivíduos insira a jornada.
 
-### Segmentos transmitidos{#streamed-speed-segment-qualification}
+### Segmentos canalizados{#streamed-speed-segment-qualification}
 
 Ao usar a qualificação de segmento para segmentos dinamizados, há menos risco de obter grandes picos de entradas/saídas devido à avaliação contínua do segmento. Ainda assim, se a definição do segmento levar a que um grande volume de clientes se qualifique ao mesmo tempo, também pode haver um pico.
 
