@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1665'
 ht-degree: 3%
 
 ---
@@ -60,6 +60,7 @@ Para usar o modo de teste, siga estas etapas:
 * Quando você desativa o modo de teste, ele esvazia as jornadas de todas as pessoas que entraram no modo no passado ou que estão nele no momento. Também limpa o relatório.
 * Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
 * Não é possível modificar a jornada quando o modo de teste é ativado. Quando estiver no modo de teste, você pode publicar diretamente a jornada, não é necessário desativar o modo de teste antes.
+* Ao alcançar uma divisão, a ramificação superior é sempre escolhida. Você pode reorganizar a posição das ramificações divididas se quiser que o teste escolha um caminho diferente.
 
 ## Como transformar um perfil em um perfil de teste{#turning-profile-into-test}
 
@@ -69,7 +70,7 @@ A maneira mais fácil de fazer isso é usando uma atividade de ação **Update p
 
 ## Criação de um perfil de teste{#create-test-profile}
 
-Se você quiser criar um novo perfil de teste, o procedimento será o mesmo que criar um perfil no Adobe Experience Platform. Ele é executado por meio de chamadas de API. Veja esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html)
+Se você quiser criar um novo perfil de teste, o procedimento será o mesmo que criar um perfil no Adobe Experience Platform. Ele é executado por meio de chamadas de API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
 Você deve usar um esquema Profile que contenha a combinação &quot;detalhes do teste de perfil&quot;. O sinalizador testProfile faz parte dessa mistura.
 
