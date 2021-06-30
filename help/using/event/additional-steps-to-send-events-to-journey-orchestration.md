@@ -6,10 +6,10 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 7%
+source-wordcount: '320'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 Para configurar eventos a serem enviados para **[!UICONTROL Streaming Ingestion APIs]** e serem usados em [!DNL Journey Orchestration], siga estas etapas:
 
-1. Obtenha o URL de entrada das APIs do Adobe Experience Platform (consulte [APIs de assimilação de fluxo](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/overview.html)).
+1. Obtenha o URL de entrada das APIs do Adobe Experience Platform (consulte [APIs de assimilação de fluxo](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html)).
 1. Copie a carga da pré-visualização de carga no menu **[!UICONTROL Event]**. Consulte [esta página](../event/defining-the-payload-fields.md).
 
 Em seguida, é necessário configurar o sistema de dados que envia eventos para as APIs de assimilação de streaming usando a carga útil copiada:
@@ -91,4 +91,4 @@ Veja um exemplo de um evento de APIs de assimilação de fluxo:
 
 Para facilitar a identificação do local onde colar a parte &quot;dados&quot;, você pode usar uma ferramenta de visualização JSON, como [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-Para solucionar problemas de APIs de assimilação de fluxo, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/streaming/troubleshooting.html).
+Para solucionar problemas de APIs de assimilação de fluxo, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html).
