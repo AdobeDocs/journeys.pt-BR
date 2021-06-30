@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
+source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2625'
 ht-degree: 60%
 
 ---
@@ -40,7 +40,7 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 ### Melhorias
 
 * Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](../about/external-systems.md#capping)
-* No editor de expressão simples e avançado, agora oferecemos suporte ao formato de data XDM.
+* Os editores de expressão simples e avançados agora oferecem suporte ao formato de data XDM.
 * Na tela jornada list , um novo filtro foi adicionado. Agora é possível filtrar por tipo de jornada: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. [Leia mais](../about/user-interface.md#section_lgm_hpz_pgb)
 * Para jornadas ao vivo, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. Essas informações também estão disponíveis ao copiar os detalhes técnicos da jornada. [Leia mais](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
