@@ -7,9 +7,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5d2e82c10dd22b5b4bac15a78a2f6f592aedd371
+source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,11 @@ Quando o Journey Orchestration executa uma chamada para uma API externa, as grad
 
 ## Limitação{#capping}
 
-A API de limitação integrada oferece uma garantia técnica de upstream que ajuda a proteger seu sistema externo. Anteriormente, é necessário avaliar a capacidade da API externa. Por exemplo, se o Journey Orchestration enviar 1000 chamadas por segundo e o sistema suportar apenas 100 chamadas por segundo, é necessário definir uma regra de limitação para que o sistema não fique saturado.
+A API de limitação integrada oferece uma garantia técnica de upstream que ajuda a proteger seu sistema externo.
+
+Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para adicionar o ponto de extremidade à lista de permissões. Isso não é possível para fontes de dados externas públicas.
+
+Para ações personalizadas, é necessário avaliar a capacidade da API externa. Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e o sistema suportar apenas 100 chamadas por segundo, é necessário definir uma regra de limitação para que o sistema não fique saturado.
 
 As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado). No tempo de execução, o Journey Orchestration verifica se há uma regra de limitação definida e aplica a taxa definida durante as chamadas para esse terminal. Se o número de chamadas exceder a taxa definida, as chamadas restantes serão descartadas e serão contadas como erros no relatório.
 
