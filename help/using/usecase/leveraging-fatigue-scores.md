@@ -2,9 +2,9 @@
 product: adobe campaign
 title: Aproveitar pontuações de fadiga
 description: Saiba como aproveitar as pontuações de fadiga no jornada
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '248'
 ht-degree: 10%
 
 ---
@@ -16,13 +16,13 @@ Esse caso de uso mostrará como aproveitar as pontuações de fadiga para evitar
 
 >[!NOTE]
 >
->O recurso de pontuação de fadiga preditiva só está disponível para clientes que usam o [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+>O recurso de pontuação de fadiga preditiva só está disponível para clientes que usam o [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
 
-## Configurar o evento {#section_ptb_ws1_ffb}
+## Configuração do evento {#section_ptb_ws1_ffb}
 
 Siga as etapas descritas em [this page](../event/about-events.md).
 
-## Configurar a fonte de dados {#section_o3n_4yy_wfb}
+## Configuração da fonte de dados {#section_o3n_4yy_wfb}
 
 Execute as seguintes etapas para selecionar os campos de pontuação de fadiga na fonte de dados incorporada:
 
@@ -37,7 +37,7 @@ Execute as seguintes etapas para selecionar os campos de pontuação de fadiga n
 
 1. Clique em **[!UICONTROL Save]**.
 
-## Construir a jornada {#section_uzm_pyy_wfb}
+## Construção da jornada {#section_uzm_pyy_wfb}
 
 Para criar, validar e publicar a jornada, siga as etapas descritas em [this page](../building-journeys/journey.md).
 
