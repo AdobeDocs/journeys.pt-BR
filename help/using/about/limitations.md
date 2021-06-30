@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 784c91054e0f6b9ea12aa4b7f4079f7c2da8f949
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '519'
 ht-degree: 2%
 
 ---
@@ -20,14 +20,13 @@ Estas são limitações relacionadas ao uso do Journey Orchestration.
 ## Limitações de ações gerais
 
 * Não há limitação de envio. 
-* Duas tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
+* Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
 * O evento integrado **Reaction** permite reagir a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
-* Não há integração produzida pela Adobe Campaign Classic.
 
 ## Limitações das versões do Jornada {#journey-versions-limitations}
 
-* uma jornada que inicia com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de segmento**.
-* uma jornada que começa com uma atividade **Segment Qualification** em v1 deve sempre começar com uma **Segment Qualification** em outras versões.
+* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de segmento**.
+* Uma jornada que começa com uma atividade **Qualificação de segmento** em v1 deve sempre começar com uma **Qualificação de segmento** em outras versões.
 * O segmento e o namespace escolhidos em **Segment qualification** (primeiro nó) não podem ser alterados em novas versões.
 * A regra de reentrada deve ser a mesma em todas as versões do jornada.
 
