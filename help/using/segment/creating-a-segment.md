@@ -6,22 +6,22 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '138'
 ht-degree: 8%
 
 ---
 
 # Criação de um segmento {#creating-a-segment}
 
-Você pode criar um segmento usando o [Serviço de segmentação do Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) ou pode acessá-lo e criá-lo diretamente em [!DNL Journey Orchestration].
+Você pode criar um segmento usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) ou pode acessá-lo e criá-lo diretamente em [!DNL Journey Orchestration].
 
 1. No menu superior, clique na guia **[!UICONTROL Segments]**. A lista de segmentos do Adobe Experience Platform é exibida. Você pode pesquisar por um segmento específico na lista.
 
    ![](../assets/segment1.png)
 
-1. Clique em **[!UICONTROL Add]** para criar um novo segmento. A tela de definição de segmento permite configurar todos os campos necessários para definir seu segmento. A configuração é a mesma do Serviço de segmentação. Consulte o [Guia do usuário do Construtor de segmentos](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+1. Clique em **[!UICONTROL Add]** para criar um novo segmento. A tela de definição de segmento permite configurar todos os campos necessários para definir seu segmento. A configuração é a mesma do Serviço de segmentação. Consulte o [Guia do usuário do Construtor de segmentos](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](../assets/segment2.png)
 
