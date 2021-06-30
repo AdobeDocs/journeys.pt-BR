@@ -6,10 +6,10 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e09b49372f217a2e77504046ddf11e04a4c2b364
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 93%
+source-wordcount: '1015'
+ht-degree: 89%
 
 ---
 
@@ -55,7 +55,7 @@ O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na pa
 
 Nas listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, use **[!UICONTROL Creation filters]** para filtrar a data de criação e o usuário. Por exemplo, você pode optar por exibir somente os eventos criados nos últimos 30 dias.
 
-Na lista de jornada (abaixo **[!UICONTROL Home]**), além de **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status e versão (**[!UICONTROL Status and version filters]**). Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
+Na lista de jornadas (em **[!UICONTROL Home]**), além de **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status, tipo e versão (**[!UICONTROL Status and version filters]**). O tipo pode ser: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Nas diferentes listas, é possível executar ações básicas em cada elemento. 
 
 Ao definir a [carga útil do evento](../event/defining-the-payload-fields.md), [carga útil do grupo de campo](../datasource/field-groups.md) e selecionar campos no [editor de expressões](../expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do schema no modelo de dados de experiência.
 
-Se descritores como &quot;xdm:alternateDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos. Você pode configurar descritores de nome simples por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Schema](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/api/getting-started.html).
+Se descritores como &quot;xdm:alternateDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos. Você pode configurar descritores de nome simples por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](../assets/xdm-from-descriptors.png)
 
