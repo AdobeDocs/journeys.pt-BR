@@ -6,16 +6,16 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
 
 # Sobre segmentos do Adobe Experience Platform {#about-segments}
 
-Se estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) para criar seus segmentos, você pode aproveitá-los em [!DNL Journey Orchestration]. Graças a uma atividade dedicada de evento, você pode fazer indivíduos entrarem ou avançarem em uma jornada com base nas entradas e saídas do segmento do Adobe Experience Platform. Isso também permite criar condições complexas em suas jornadas usando o editor de expressão simples ou avançado.
+Se estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) para criar seus segmentos, você pode aproveitá-los em [!DNL Journey Orchestration]. Graças a uma atividade dedicada de evento, você pode fazer indivíduos entrarem ou avançarem em uma jornada com base nas entradas e saídas do segmento do Adobe Experience Platform. Isso também permite criar condições complexas em suas jornadas usando o editor de expressão simples ou avançado.
 
 Digamos que você tenha um segmento de &quot;cliente prateado&quot;. Com essa atividade, você pode fazer com que todos os novos clientes de prata insiram uma jornada e enviem uma série de mensagens personalizadas. Também é possível criar condições facilmente com base nesse segmento.
 
