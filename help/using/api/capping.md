@@ -7,9 +7,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1103'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Durante uma configuração de fonte de dados, você definirá uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas ou para uma definição de ação, você configurará a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Sempre que uma chamada de API é executada pelo Jornada, a API de limitação é consultada, a chamada é enviada pelo mecanismo de API. Se houver um limite definido, a chamada será rejeitada e o sistema externo não será sobrecarregado.
 
-Para saber mais sobre a ação ou a configuração da fonte de dados, consulte [Sobre ações](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) ou [Sobre fontes de dados](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
+Para saber mais sobre a ação ou a configuração da fonte de dados, consulte [Sobre ações](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) ou [Sobre fontes de dados](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
 
 ## Recursos
@@ -173,7 +173,7 @@ Esta Coleção Postman foi configurada para compartilhar a coleção Variável P
 Após o download e o upload para o Postman, é necessário adicionar três variáveis: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` :  [!DNL Journey Orchestration] URL do gateway
 * `{BASE_PATH}` : ponto de entrada para a API. O valor é &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : o cabeçalho  **x-sandbox-name**  (por exemplo, &quot;prod&quot;) correspondente ao nome da sandbox onde as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) para obter mais informações.
+* `{SANDBOX_NAME}` : o cabeçalho  **x-sandbox-name**  (por exemplo, &quot;prod&quot;) correspondente ao nome da sandbox onde as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) para obter mais informações.
 
 Na seção a seguir, você encontrará a lista ordenada Rest API calls para executar o caso de uso.
 
