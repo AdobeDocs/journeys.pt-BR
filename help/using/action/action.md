@@ -6,10 +6,10 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 85%
+source-wordcount: '312'
+ht-degree: 83%
 
 ---
 
@@ -42,4 +42,4 @@ Se você tiver o Adobe Campaign v7 ou v8, uma integração estará disponível m
 
 Se você estiver usando um sistema de terceiros para enviar mensagens como Epsilon, Facebook, Adobe.io, Firebase, etc., é necessário adicionar e configurar uma ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-Para obter mais informações sobre como configurar uma Ação no [!DNL Journey Orchestration] e como usá-la em uma jornada, assista a este [vídeo tutorial](https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/configure-actions.html).
+Para obter mais informações sobre como configurar uma Ação no [!DNL Journey Orchestration] e como usá-la em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-actions.html).
