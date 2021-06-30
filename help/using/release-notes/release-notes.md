@@ -6,10 +6,10 @@ feature: Jornadas
 role: Business Practitioner
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 002b67f4e09635b58c00fad9dbc2c16b872a5fb3
+source-git-commit: 120671af1f8863c9d8dce5a93a487ee42a92a408
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 62%
+source-wordcount: '2627'
+ht-degree: 60%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 62%
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação](../release-notes/documentation-updates.md) mais recentes.
 
-## Versão de junho de 2021 {#may-2021-release}
+## Versão de junho de 2021 {#june-2021-release}
 
 <table>
 <thead>
@@ -30,22 +30,29 @@ Você também pode consultar as [Atualizações de documentação](../release-no
 <tr>
 <td>
 <p>A integração com a Adobe Campaign Classic agora está disponível. Ele permite enviar emails, notificações por push e SMS usando os recursos de Mensagens Transacionais Adobe Campaign v7 ou v8.</p>
-<p>A conexão entre as instâncias do Journey Orchestration e do Campaign é configurada pelo Adobe no momento do provisionamento.</p>
+<p>A conexão entre as instâncias do Journey Orchestration e do Campaign é configurada pela Adobe no momento do provisionamento.</p>
 <p>Para obter mais informações, consulte a <a href="../action/acc-action.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+### Melhorias
+
+* Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](../about/external-systems.md#capping)
+* No editor de expressão simples e avançado, agora oferecemos suporte ao formato de data XDM.
+* Na tela jornada list , um novo filtro foi adicionado. Agora é possível filtrar por tipo de jornada: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. [Leia mais](../about/user-interface.md#section_lgm_hpz_pgb)
+* Para jornadas ao vivo, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. Essas informações também estão disponíveis ao copiar os detalhes técnicos da jornada. [Leia mais](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+
 ## Versão de abril de 2021 {#april-2021-release}
 
-### Aprimoramentos
+### Melhorias
 
 * Na tela **Event configuration** do modo de teste, uma lista suspensa agora é exibida para campos que esperam uma enumeração. Basta selecionar um dos valores disponíveis. Isso evitará erros ao acionar o evento se um valor incorreto for definido. [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Versão de março de 2021 {#march-2021-release}
 
-### Aprimoramentos
+### Melhorias
 
 * Um novo status foi adicionado ao jornada. Quando uma jornada termina ou é fechada manualmente, seu status muda de **Closed** para **Finished** 30 dias após ter sido fechada. Isso permitirá identificar jornadas inativas com mais facilidade, garantindo que todos os indivíduos ainda presentes tenham tempo para concluir a jornada. [Leia mais](../building-journeys/journey.md#ending_a_journey)
 * Nos painéis à direita da atividade de jornadas de rascunho, os campos somente leitura agora estão ocultos por padrão. Essa simplificação da interface ajudará você a configurar suas atividades com mais facilidade. Para exibi-los, clique no ícone **Mostrar campos somente leitura**, disponível no canto superior esquerdo do painel de configuração da atividade. [Leia mais](../building-journeys/using-the-journey-designer.md#configuration_pane)
@@ -513,5 +520,5 @@ O Journey Orchestration permite a orquestração em tempo real com dados context
 
 Recursos adicionais:
 
-* [Tutoriais](https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
+* [Tutoriais](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Comunidade](https://www.adobe.com/go/journeyorchestrationcommunity)
