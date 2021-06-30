@@ -6,16 +6,16 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 11%
+source-wordcount: '355'
+ht-degree: 9%
 
 ---
 
 # Fonte de dados da Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-A fonte de dados da Adobe Experience Platform define a conexão com o Serviço de perfil do cliente em tempo real. Essa fonte de dados é incorporada e pré-configurada. Não pode ser eliminado. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verifique se a pessoa que inseriu uma jornada é uma mulher). Ela permite usar os dados de Perfil e os dados de Eventos de experiência. Para obter mais informações sobre o Serviço de perfil do cliente em tempo real, consulte esta [página](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/home.html).
+A fonte de dados da Adobe Experience Platform define a conexão com o Serviço de perfil do cliente em tempo real. Essa fonte de dados é incorporada e pré-configurada. Não pode ser eliminado. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verifique se a pessoa que inseriu uma jornada é uma mulher). Ela permite usar os dados de Perfil e os dados de Eventos de experiência. Para obter mais informações sobre o Serviço de perfil do cliente em tempo real, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
