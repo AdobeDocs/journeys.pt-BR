@@ -3,10 +3,10 @@ product: adobe campaign
 title: Importar descrição da API de exportação
 description: Saiba mais sobre a API de exportação de importação.
 products: journeys
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 3%
+source-wordcount: '1123'
+ht-degree: 2%
 
 ---
 
@@ -30,16 +30,16 @@ Para testar e preparar sua integração, uma coleção do Postman está disponí
 
 Recomendamos seguir essas etapas para exportar e importar suas jornadas entre ambientes:
 
-1. Crie e defina um parâmetro para uma jornada no seu ambiente inicial. [Mais informações aqui](https://docs.adobe.com/content/help/pt-BR/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Verifique se a versão do jornada não tem erro. [Mais informações aqui](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/testing-the-journey.html)
+1. Crie e defina um parâmetro para uma jornada no seu ambiente inicial. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
+1. Verifique se a versão do jornada não tem erro. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
 1. Chame a API **/list/jornada** para recuperar a jornada UID e o UID da versão mais recente do jornada. Se necessário, você pode chamar **/jornada/`{uid}`/último** para encontrar o UID da versão mais recente do jornada.
 1. Chame a API **export** com os parâmetros de ambiente de início (orgID e sandboxName).
 1. Abra a carga de retorno e verifique os seguintes itens:
    * Se a jornada exportada contém **credenciais específicas**, é necessário substituir essas credenciais por aquelas correspondentes ao novo ambiente.
-   * Se a jornada exportada contém **events** que apontam para um **XDM schema**, é necessário atualizar manualmente a referência da ID do schema com a ID do schema do novo ambiente no nó xdmEntity se os valores de IDs forem diferentes. Essa atualização precisa ser feita para cada evento. [Mais informações aqui](https://docs.adobe.com/content/help/en/journeys/using/events-journeys/experience-event-schema.html)
+   * Se a jornada exportada contém **events** que apontam para um **XDM schema**, é necessário atualizar manualmente a referência da ID do schema com a ID do schema do novo ambiente no nó xdmEntity se os valores de IDs forem diferentes. Essa atualização precisa ser feita para cada evento. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * Se a jornada contiver ações de email, sms ou push, talvez seja necessário atualizar o nome do modelo ou o nome do mobileApp se o nome no ambiente de destino for diferente daquele no ambiente de início.
 1. Chame a API **Import** com os parâmetros de ambiente de destino (orgID e sandboxName). Observe que você pode chamar a API de importação quantas vezes desejar. A UUID e o nome de cada objeto contido na jornada são gerados toda vez que você chama a API de importação.
-1. Depois que a Jornada for importada, você poderá publicá-la no aplicativo Journey Orchestration. Mais informações [aqui](https://docs.adobe.com/content/help/en/journeys/using/building-journeys/publishing-the-journey.html)
+1. Depois que a Jornada for importada, você poderá publicá-la no aplicativo Journey Orchestration. Mais informações [aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
 ## Autenticação
