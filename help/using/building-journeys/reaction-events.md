@@ -6,9 +6,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Estas são as diferentes etapas para configurar os eventos de reação:
 >
 >Os eventos de reação não podem rastrear ações de email, SMS ou push que ocorrem em uma jornada diferente.
 >
->Os eventos de reação rastreiam cliques em links do tipo &quot;rastreados&quot; (consulte esta [página](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Os links de unsubscription e mirror pages não são considerados.
+>Os eventos de reação rastreiam cliques em links do tipo &quot;rastreados&quot; (consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Os links de unsubscription e mirror pages não são considerados.
 
 >[!IMPORTANT]
 >
