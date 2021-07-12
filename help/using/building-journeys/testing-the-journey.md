@@ -6,7 +6,7 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 3%
@@ -64,7 +64,7 @@ Para usar o modo de teste, siga estas etapas:
 
 ## Como transformar um perfil em um perfil de teste{#turning-profile-into-test}
 
-Você pode transformar um perfil existente em um perfil de teste. Na Adobe Experience Platform, é possível atualizar os atributos de perfil por meio de chamadas de API, mas ele não pode ser executado por meio da interface.
+Você pode transformar um perfil existente em um perfil de teste. No Adobe Experience Platform, é possível atualizar os atributos de perfil por meio das chamadas de API, mas ele não pode ser executado por meio da interface.
 
 A maneira mais fácil de fazer isso é usando uma atividade de ação **Update profile** e alterar o campo booleano do perfil de teste de false para true. Consulte [esta seção](../building-journeys/update-profiles.md#using-the-test-mode).
 
@@ -180,7 +180,7 @@ O número de indivíduos (tecnicamente chamados de instâncias) atualmente na jo
 
 * _Id_: a ID interna da pessoa na jornada. Isso pode ser usado para fins de depuração.
 * _etapa atual_: a etapa em que o indivíduo está na jornada. Recomendamos adicionar rótulos às suas atividades para identificá-las mais facilmente.
-* _currentstep_ > fase: o status da jornada do indivíduo (em execução, concluído, erro ou tempo limite). Consulte abaixo para obter mais informações.
+* _currentstep_ > fase: o status da jornada do indivíduo (em execução, concluído, erro ou tempo limite). Veja mais informações abaixo.
 * _currentstep_  >  _extraInfo_: descrição do erro e outras informações contextuais.
 * _currentstep_  >  _fetchErrors_: informações sobre erros de busca de dados ocorridos durante esta etapa.
 * _externalKeys_: o valor da fórmula-chave definida no evento.
