@@ -6,7 +6,7 @@ feature: Jornadas
 role: Business Practitioner
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 78c758c75825c0f85788190c4526fa5c743c6673
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Esse recurso é ativado por padrão em todas as instâncias para eventos de etapas do jornada. Para eventos de etapa de perfil do jornada, a ativação é feita mediante solicitação. Os esquemas e conjuntos de dados criados durante o provisionamento para esse recurso não devem ser alterados.
+>Esse recurso é ativado por padrão em todas as instâncias para eventos de etapas do jornada. Para eventos de etapa do perfil do jornada, a ativação é feita mediante solicitação. Os esquemas e conjuntos de dados criados durante o provisionamento para esse recurso não devem ser alterados.
 
 Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar [!DNL Journey Orchestration] dados com dados de evento downstream, como quantas conversões ocorreram, quanto envolvimento aconteceu no site ou quantas transações ocorreram na loja. As informações de jornada podem ser combinadas com dados no Adobe Experience Platform, de outras propriedades digitais ou de propriedades offline, para fornecer uma visão mais abrangente do desempenho.
 
