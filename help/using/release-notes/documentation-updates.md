@@ -1,22 +1,22 @@
 ---
 product: adobe campaign
-title: Atualizações da documentação
+title: Atualizações de documentação
 description: Saiba mais sobre atualizações da documentação
 feature: Jornadas
 role: Business Practitioner
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
-workflow-type: ht
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
+workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
-# Atualizações da documentação
+# Atualizações de documentação
 
 Esta página lista todas as atualizações de documentação do [!DNL Journey Orchestration].
-Você também pode consultar as [Notas de versão](../release-notes/release-notes.md) do [!DNL Journey Orchestration].
+Você também pode consultar as [!DNL Journey Orchestration][Notas de versão](../release-notes/release-notes.md).
 
 ## Março de 2021 {#march-2021}
 
@@ -39,7 +39,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 
 * Foram adicionadas informações sobre como classificar e escolher as colunas que serão exibidas na lista de segmentos. [Leia mais](../building-journeys/segment-qualification-events.md)
 * Foram adicionadas informações sobre como copiar o nome e a ID de um segmento após sua seleção. [Leia mais](../building-journeys/segment-qualification-events.md)
-* As ocorrências da Experience Platform foram harmonizadas entre as diferentes páginas.
+* As ocorrências de Experience Platform foram harmonizadas entre as diferentes páginas.
 
 ## Julho de 2020 {#july-2020}
 
@@ -67,7 +67,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 ## Abril de 2020 {#april-2020}
 
 * Adição de uma nova seção sobre a definição do schema do evento da experiência para ajudar os usuários a configurar o primeiro evento. [Leia mais](../event/experience-event-schema.md)
-* A home page da documentação do [!DNL Journey Orchestration] foi atualizada com mais links úteis. [Leia mais](../../journey-orchestration-home.md)
+* A página inicial da documentação [!DNL Journey Orchestration] foi atualizada com links úteis adicionais. [Leia mais](../../journey-orchestration-home.md)
 
 ## Março de 2020 {#march-2020}
 
@@ -95,7 +95,7 @@ Você também pode consultar as [Notas de versão](../release-notes/release-note
 
 <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
-## Dezembro de 2019 {#december-2019}
+## 2019 de dezembro {#december-2019}
 
 * Todas as capturas de tela foram atualizadas para divulgar as alterações na interface.
 * A seção do modo de teste foi atualizada. [Leia mais](../building-journeys/testing-the-journey.md)
