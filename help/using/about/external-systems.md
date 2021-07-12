@@ -7,9 +7,9 @@ feature: Jornadas
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 5346c3a25900b1e167ea5b199e1873adab39d07d
+source-git-commit: f6059f174e983433d3ad24d06c0d0c74788bc792
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Vamos tomar um exemplo por um tempo limite de 5 segundos.
 
 Por padrão, não há regra de limitação. As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação. Consulte [esta seção](../about/external-systems.md#capping) e [esta página](../api/capping.md).
 
-**Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período de espera mínimo entre tentativas?**
+**Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre as tentativas?**
 
 Para uma chamada específica, é possível executar no máximo três tentativas após a primeira chamada, até que o tempo limite seja atingido. Não é possível alterar o número de tentativas e o tempo entre cada nova tentativa. Consulte [esta seção](../about/external-systems.md#timeout).
 
