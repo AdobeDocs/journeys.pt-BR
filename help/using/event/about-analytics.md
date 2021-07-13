@@ -3,13 +3,13 @@ product: adobe campaign
 title: Sobre dados do Adobe Analytics
 description: Saiba como aproveitar os dados do Adobe Analytics
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e9b128be-9411-4b68-935e-4cc09eae3ef6
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -33,4 +33,4 @@ Isso ativa o conector de origem do Analytics para esse conjunto de relatórios. 
 
 ![](../assets/alpha-event9.png)
 
-Para obter mais informações sobre o conector de origem do Adobe Analytics, consulte a [documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Para obter mais informações sobre o conector de origem do Adobe Analytics, consulte a [documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR) e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=pt-BR).
