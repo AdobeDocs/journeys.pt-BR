@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Construir a jornada
+title: Construção da jornada
 description: Saiba como criar a jornada de caso de uso simples
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
-# Construir a jornada{#concept_eyw_mcy_w2b}
+# Construção da jornada{#concept_eyw_mcy_w2b}
 
 Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá apenas um caminho com as seguintes atividades:
 
@@ -52,7 +52,7 @@ Para obter informações adicionais sobre como criar uma jornada, consulte [esta
 
    ![](../assets/journeyuc1_12.png)
 
-1. Solte uma atividade **[!UICONTROL Email]** e selecione seu modelo de mensagens transacionais &quot;Desconto de Spa&quot;. Esse modelo foi projetado usando o Adobe Campaign. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+1. Solte uma atividade **[!UICONTROL Email]** e selecione seu modelo de mensagens transacionais &quot;Desconto de Spa&quot;. Esse modelo foi projetado usando o Adobe Campaign. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
 
    ![](../assets/journeyuc1_13.png)
 
