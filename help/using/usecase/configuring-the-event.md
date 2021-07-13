@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Configurar o evento
+title: Configuração do evento
 description: Saiba como configurar o evento para o caso de uso simples do jornada
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7423f4eb-005d-43a5-a403-97bee1e8d480
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
 
 ---
 
-# Configurar o evento{#concept_y44_hcy_w2b}
+# Configuração do evento{#concept_y44_hcy_w2b}
 
 Em nosso cenário, precisamos receber um evento sempre que uma pessoa caminhar perto de um beacon posicionado ao lado do spa. O **usuário técnico** precisa configurar o evento que o sistema ouvirá em nossa jornada.
 
