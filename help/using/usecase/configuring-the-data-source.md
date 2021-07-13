@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Configurar a fonte de dados
+title: Configuração da fonte de dados
 description: Saiba como configurar a fonte de dados para o caso de uso simples do jornada
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 87f63d7d-b7d9-4243-a5ce-8948939f3d93
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 7%
 
 ---
 
-# Configurar a fonte de dados{#concept_ax3_bcy_w2b}
+# Configuração da fonte de dados{#concept_ax3_bcy_w2b}
 
 Em nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é mulher. Essas informações são armazenadas no banco de dados do Perfil do cliente em tempo real. O **usuário técnico** precisa verificar se esses campos estão definidos na fonte de dados integrada do Adobe Experience Platform.
 
