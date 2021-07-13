@@ -3,19 +3,19 @@ product: adobe campaign
 title: Sobre o caso de uso avançado
 description: Saiba mais sobre o caso de uso avançado do jornada
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 3af822bacfd1a5a53ec7280dff1136d77b90c809
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # Sobre o caso de uso avançado{#concept_vzy_ncy_w2b}
 
-## Finalidade {#purpose}
+## Propósito {#purpose}
 
 Vejamos o exemplo de uma marca de hotel chamada Marlton. Em seus hotéis, eles posicionaram dispositivos de beacon perto de todas as áreas estratégicas: saguão, chão, restaurante, ginástica, piscina, etc.
 
@@ -48,7 +48,7 @@ Precisaremos configurar uma conexão com duas fontes de dados (consulte [esta p�
 
 ## Pré-requisitos {#prerequisites}
 
-Para nosso caso de uso, projetamos três templates de mensagens transacionais do Adobe Campaign Standard. Estamos usando templates de mensagens transacionais de evento. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html).
+Para nosso caso de uso, projetamos três templates de mensagens transacionais do Adobe Campaign Standard. Estamos usando templates de mensagens transacionais de evento. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
 
 O Adobe Campaign Standard está configurado para enviar emails e notificações por push.
 
