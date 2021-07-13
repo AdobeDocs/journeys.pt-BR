@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Configurar as fontes de dados
+title: Configuração de fontes de dados
 description: Saiba como configurar a fonte de dados para o caso de uso avançado do jornada
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 14%
 
 ---
 
-# Configurar as fontes de dados {#concept_vml_hdy_w2b}
+# Configuração de fontes de dados {#concept_vml_hdy_w2b}
 
 Em nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é um membro do programa de fidelidade e não foi contatado nas últimas 24 horas. Essas informações são armazenadas no banco de dados do Perfil do cliente em tempo real. O **usuário técnico** precisa configurar a fonte de dados do Adobe Experience Platform para recuperar esses campos.
 
