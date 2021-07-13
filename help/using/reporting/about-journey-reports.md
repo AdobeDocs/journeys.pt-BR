@@ -3,10 +3,10 @@ product: adobe campaign
 title: Sobre relatórios de jornada
 description: Saiba como criar relatórios do jornada
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 1%
@@ -58,7 +58,7 @@ Essas guias fornecem acesso aos seguintes itens:
 * **[!UICONTROL Visualizations]**: arraste e solte uma seleção de itens de visualização para dar ao seu relatório uma dimensão gráfica. Para obter mais informações, consulte a seção [Adição de visualizações](../reporting/creating-your-journey-reports.md#adding-visualizations) .
 * **[!UICONTROL Components]**: personalize seus relatórios com diferentes dimensões, métricas, segmentos e períodos. Para obter mais informações, consulte a seção [Adição de componentes](../reporting/creating-your-journey-reports.md#adding-components) .
 
-## Modelo de resumo de jornada {#ootb-template}
+## Modelo de resumo da jornada {#ootb-template}
 
 Os relatórios são divididos em duas categorias: um modelo pronto para uso e relatórios personalizados.
 O template pronto para uso, **[!UICONTROL Journey summary]**, fornece uma exibição clara dos dados de rastreamento mais importantes.
