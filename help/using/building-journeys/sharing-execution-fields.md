@@ -3,13 +3,13 @@ product: adobe campaign
 title: campos de execução de ação de eventos journeyStep
 description: campos de execução de ação de eventos journeyStep
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
@@ -23,19 +23,19 @@ Se a etapa tiver uma ação a ser processada, esses campos serão adicionados ao
 
 ID da ação que está sendo executada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## actionName
 
 Nome da ação. Se nenhum nome tiver sido definido, o stepName será executado.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## actionType
 
 Tipo da ação.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## actionParameterized
 
@@ -53,7 +53,7 @@ Tipo: long
 
 Tipo de erro que ocorre quando a ação é chamada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 Valores:
 * http
@@ -65,7 +65,7 @@ Valores:
 
 Código para erro de execução de ação. Apresentar se o erro tiver um código, como um HTTP.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## actionExecutionOriginError
 
@@ -87,13 +87,13 @@ Por exemplo, um email está sendo enviado e um erro HTTP 500 é retornado na pri
     "actionExecOrigErrorCode": "500"
 ```
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## actionExecutionOriginCode
 
 Código de erro de actionExecOrigError.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## actionBusinessType
 
@@ -109,19 +109,19 @@ Valores:
 * Epsilon
 * ...
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## deliveryJobID
 
 Este artigo descreve a ID de trabalho de delivery para a Jornada em lote.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## batchDeliveryID
 
 Este artigo descreve a ID de delivery da Jornada em lote.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## fromSegmentTrigger
 
