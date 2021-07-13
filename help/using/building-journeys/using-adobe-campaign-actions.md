@@ -3,13 +3,13 @@ product: adobe campaign
 title: Usar ações do Adobe Campaign
 description: Saiba mais sobre as ações do Adobe Campaign
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
-source-git-commit: e7c3dde02837d31c5eb7d170cae7f142ce376175
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação pron
 >
 >Para isso, é necessário configurar a ação incorporada. Consulte [esta página](../action/working-with-adobe-campaign.md).
 
-Para cada um desses canais, selecione um **template** de Mensagens Transacionais do Adobe Campaign Standard. Na verdade, [!DNL Journey Orchestration] não é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, dependemos de Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado template de mensagem em suas jornadas, deverá publicá-lo no Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html) para saber como usar este recurso.
+Para cada um desses canais, selecione um **template** de Mensagens Transacionais do Adobe Campaign Standard. Na verdade, [!DNL Journey Orchestration] não é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, dependemos de Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado template de mensagem em suas jornadas, deverá publicá-lo no Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR) para saber como usar este recurso.
 
 >[!NOTE]
 >
