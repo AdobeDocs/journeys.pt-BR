@@ -3,17 +3,17 @@ product: adobe campaign
 title: campos comuns de eventos journeystep
 description: campos comuns de eventos journeystep
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 5cf8e6b5-2162-4aa3-b071-96ede31948e6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# campos comuns de eventos de passos de jornada {#sharing-common-fields}
+# campos comuns de eventos journeystep {#sharing-common-fields}
 
 Esse mixin será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 
@@ -47,31 +47,31 @@ Tipo: booleano
 
 ID do evento no processamento, para o processamento da etapa. Se o evento for externo, o valor será eventId. Se o evento for interno, o valor será eventId interno (como scheduledNotificationReceived, executionAction, etc.).
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## nodeID
 
 ID do nó do cliente (na tela).
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## stepID
 
 Id exclusiva da etapa que está sendo processada no momento.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## stepName
 
 Nome da etapa que está sendo processada no momento.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## stepType
 
 Tipo da etapa.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 Valores possíveis:
 
@@ -84,7 +84,7 @@ Valores possíveis:
 
 Status da etapa, representando o status da etapa, quando o processamento foi concluído (e o evento de etapa foi acionado).
 
-Tipo: string
+Tipo: sequência de caracteres
 
 O status pode ser:
 
@@ -99,61 +99,61 @@ O status pode ser:
 
 ID da jornada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## journeyVersionID
 
 ID da versão do jornada. Essa id representa a referência de identidade para a jornada, no caso de journeyStepEvent.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## journeyVersionName
 
 Nome da versão do jornada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## journeyVersion
 
 Versão da versão do jornada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## instanceID
 
 ID interna da instância do jornada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## externalKey
 
 Chave externa extraída do evento para processá-la.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## parentStepID
 
 ID da etapa principal da etapa processada atual na instância.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## parentStepName
 
 Nome da etapa do pai da etapa atual.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## parentTransitionID
 
 Id da transição que trouxe a instância para a etapa processada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## parentTransitionName
 
 Nome da transição que trouxe a instância para a etapa processada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## inTest
 
@@ -171,7 +171,7 @@ Tipo: long
 
 Indica o tipo de instância, se for em lote ou unitário.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 Valores: lote/unidade
 
@@ -191,16 +191,16 @@ Tipo: booleano
 
 Chave externa para o evento batch.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## batchInstanceID
 
 essa é a ID da instância de lote.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## batchUnitaryBranchID
 
 se a instância tiver sido acionada a partir de uma instância de lote, a ID de ramificação unitária.
 
-Tipo: string
+Tipo: sequência de caracteres
