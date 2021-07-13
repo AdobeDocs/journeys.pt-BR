@@ -3,20 +3,20 @@ product: adobe campaign
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e2ff3e9d86aa9f603cf3d66507881d482a95a4a5
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '2625'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
 # Notas de versão {#release-notes}
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
-Você também pode consultar as [Atualizações de documentação](../release-notes/documentation-updates.md) mais recentes.
+Você também pode consultar as [Atualizações de documentação mais recentes](../release-notes/documentation-updates.md).
 
 ## Versão de junho de 2021 {#june-2021-release}
 
@@ -115,7 +115,7 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 <li>simplificar o design de jornadas muito complexas dividindo-as em várias </li>
 <li>criar jornadas com base em padrões de jornada comuns e reutilizáveis</li>
 </ul>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/jump.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html">vídeo tutorial</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/jump.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=pt-BR">vídeo tutorial</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -500,7 +500,7 @@ A interface do Journey Orchestration está disponível em japonês.
 
 * Além dos EUA, o Journey Orchestration agora está disponível na **Europa, no Oriente Médio e na África**. O aplicativo e a documentação estão disponíveis em francês e alemão.
 
-* A Experience League agora está integrada ao produto, o que simplifica o acesso ao conteúdo relacionado e ajuda a aproveitar ao máximo a Experience Cloud. O acesso direto à documentação do Journey Orchestration está disponível na parte inferior da guia Ajuda. Além disso, clique em Ajuda > Feedback para reportar problemas ou compartilhar suas ideias com a Adobe.
+* A Experience League agora está integrada ao produto, o que simplifica o acesso ao conteúdo relacionado e ajuda a aproveitar ao máximo a Experience Cloud. O acesso direto à documentação do Journey Orchestration está disponível na parte inferior da guia Ajuda. Além disso, clique em Ajuda > Feedback para relatar problemas ou compartilhar suas ideias com a Adobe.
 
 * O atalho **C** do teclado, que permite criar um novo item, agora está disponível em todas as telas de lista: jornadas, fontes de dados, ações e eventos. [Leia mais](../about/user-interface.md#section_ksq_zr1_ffb)
 
@@ -510,9 +510,9 @@ A interface do Journey Orchestration está disponível em japonês.
 
 ## Última Versão - Dezembro de 2019 {#ga-release---december-2019}
 
-O Journey Orchestration agora está pronta.
+Agora a Orquestração da jornada é GA.
 
-Crie casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados.
+Crie casos de uso de orquestração em tempo real aproveitando dados contextuais armazenados em eventos ou fontes de dados.
 
 O Journey Orchestration permite a orquestração em tempo real com dados contextuais de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros. O aplicativo determina, em fluxos multi-fases chamados jornadas, as melhores próximas ações específicas para o consumidor, de acordo com o perfil e o comportamento. Inclui o momento ideal e o tipo de ação, como enviar ao consumidor uma notificação por push por meio dos recursos de mensagens transacionais do Adobe Campaign Standard (é preciso ter o Adobe Campaign Standard) ou a notificação de um sistema de terceiros. Essas decisões são tomadas com base em regras e pontuações do Sensei.
 
