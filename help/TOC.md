@@ -5,20 +5,20 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 feature: Jornadas
-source-git-commit: 8d10739381b4f5b09ad7070498d5f1566961c221
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
 
-# Manual do [!DNL Journey Orchestration] {#using}
+# [!DNL Journey Orchestration] Guia {#using}
 
 + [Documentação do produto](journey-orchestration-home.md)
 + Novidades {#release-notes}
    + [Notas de versão](using/release-notes/release-notes.md)
-   + [Atualizações da documentação](using/release-notes/documentation-updates.md)
+   + [Atualizações de documentação](using/release-notes/documentation-updates.md)
 + Primeiros passos com o [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Sobre o [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitações](using/about/limitations.md)
@@ -53,8 +53,8 @@ ht-degree: 100%
       + [Sobre a configuração de ação personalizada](using/action/about-custom-action-configuration.md)
       + [Configurar o URL](using/action/url-configuration.md)
       + [Definir os parâmetros da mensagem](using/action/defining-the-message-parameters.md)
-+ Uso de segmentos da Platform {#configuring-segment}
-   + [Sobre segmentos da Platform](using/segment/about-segments.md)
++ Uso de segmentos {#configuring-segment}
+   + [Sobre segmentos](using/segment/about-segments.md)
    + [Criação de um segmento](using/segment/creating-a-segment.md)
    + [Uso de segmentos em condições](using/segment/using-a-segment.md)
 + Construir uma jornada {#building-journeys}
@@ -70,7 +70,7 @@ ht-degree: 100%
       + Atividades de eventos {#events-activities}
          + [Sobre atividades de eventos](using/building-journeys/event-activities.md)
          + [Eventos gerais](using/building-journeys/general-events.md)
-         + [Eventos de reação](using/building-journeys/reaction-events.md)
+         + [Reação events](using/building-journeys/reaction-events.md)
          + [Eventos de qualificação de segmento](using/building-journeys/segment-qualification-events.md)
       + Atividades de orquestração {#orchestration-activities}
          + [Sobre atividades de orquestração](using/building-journeys/about-orchestration-activities.md)
@@ -144,7 +144,7 @@ ht-degree: 100%
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
-         + [in](using/functions/functionin.md)
+         + [ no ](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
