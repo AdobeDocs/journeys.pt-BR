@@ -3,13 +3,13 @@ product: adobe campaign
 title: campos de busca de dados de eventos journeyStep
 description: campos de busca de dados de eventos journeyStep
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ Tipo: long
 
 Define se a busca com erro está na Adobe Experience Platform ou em uma fonte de dados personalizada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 Valores:
 * aep
@@ -39,7 +39,7 @@ Valores:
 
 Tipo de erro que ocorre quando a busca de dados é processada.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 Valores:
 * http
@@ -51,7 +51,7 @@ Valores:
 
 Código para erro de busca. Apresentar se o erro tiver um código, como um HTTP. Por exemplo, se actionExecError for http, o código 404 representa o erro HTTP 404.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## fetchOriginError
 
@@ -71,13 +71,13 @@ Por exemplo, os dados estão sendo buscados no Serviço de perfil unificado e um
     "fetchOrigErrorCode": "500"
 ```
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## fetchOriginErrorCode
 
 O código de erro fornecido pelo sistema [!DNL Journey Orchestration] está consultando. Por exemplo, pode ser 404, 500 etc.
 
-Tipo: string
+Tipo: sequência de caracteres
 
 ## fetchCount
 
