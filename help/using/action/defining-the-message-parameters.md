@@ -3,10 +3,10 @@ product: adobe campaign
 title: Definir os parâmetros da mensagem
 description: Saiba como definir os parâmetros da mensagem
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 1251eafcfe7487c3df01b412f17706f5ed6c6836
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 4%
