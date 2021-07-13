@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: Criar relatórios de jornada
+title: Criação de relatórios de jornada
 description: Saiba como criar relatórios do jornada
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0d2417e9-5b3f-442d-a00d-8b4df239d952
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 5%
 
 ---
 
-# Criar relatórios de jornada {#concept_rfj_wpt_52b}
+# Criação de relatórios de jornada {#concept_rfj_wpt_52b}
 
 ## Acesso e criação de relatórios {#accessing-reports}
 
@@ -57,7 +57,7 @@ Para acessar os relatórios do jornada e começar a rastrear o sucesso dos deliv
 
 ## Adicionar painéis{#adding-panels}
 
-### Adicionar um painel em branco {#adding-a-blank-panel}
+### Adição de um painel em branco {#adding-a-blank-panel}
 
 Para iniciar seu relatório, é possível adicionar um conjunto de painéis a um relatório pronto para uso ou personalizado. Cada painel contém conjuntos de dados diferentes e é composto de tabelas e visualizações de forma livre.
 
@@ -111,7 +111,7 @@ Cada tabela e visualização é redimensionável e pode ser movida para personal
 
 Agora é possível adicionar quantos componentes forem necessários e também adicionar visualizações para fornecer representações gráficas de seus dados.
 
-## Adicionar componentes{#adding-components}
+## Adição de componentes{#adding-components}
 
 Os componentes ajudam você a personalizar seus relatórios com diferentes dimensões, métricas e períodos.
 
