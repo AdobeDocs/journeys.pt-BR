@@ -3,10 +3,10 @@ product: adobe campaign
 title: Usar o designer de jornada
 description: Saiba mais sobre como usar o designer do jornada
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: 51915ac931c0c4af03b49140c20e1b0939beff65
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 5%
@@ -21,7 +21,7 @@ O menu Início da jornada permite visualizar a lista **de jornadas**. Crie uma n
 
 A **jornada list** permite visualizar todas as jornadas de uma só vez, ver o status e executar ações básicas. Você pode duplicar, interromper ou excluir suas jornadas. Dependendo da jornada, certas ações podem não estar disponíveis. Por exemplo, você não pode excluir ou reiniciar uma jornada encerrada. Você pode criar uma nova versão dela, duplicá-la ou pará-la. Você também pode usar a barra de pesquisa para procurar uma jornada.
 
-O **[!UICONTROL Filters]** é acessível com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar as jornadas exibidas de acordo com critérios diferentes (status, aqueles criados, os modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
+Os **[!UICONTROL Filters]** podem ser acessados com um clique no ícone de filtro na parte superior esquerda da lista. O menu de filtros permite filtrar as jornadas exibidas de acordo com critérios diferentes (status, aqueles criados, os modificados nos últimos 30 dias, somente as versões mais recentes etc.). Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica. As colunas exibidas na lista podem ser configuradas. Todos os filtros e colunas são salvos por usuário.
 
 ![](../assets/journey74.png)
 
