@@ -3,10 +3,10 @@ product: adobe campaign
 title: Etapas adicionais para enviar eventos para o Journey Orchestration
 description: Saiba mais sobre as etapas adicionais para enviar eventos para o Journey Orchestration
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 11e337c6-5e05-4898-9953-b6b821af8fd1
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 2%
