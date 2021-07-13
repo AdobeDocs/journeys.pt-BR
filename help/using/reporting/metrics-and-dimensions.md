@@ -3,13 +3,13 @@ product: adobe campaign
 title: Métricas e dimensões
 description: Saiba mais sobre as dimensões e métricas disponíveis para o Journey Orchestration
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Para saber mais sobre a compatibilidade entre dimensões e métricas, consulte [
 
 A tabela abaixo fornece a lista de dimensões usadas nos relatórios de jornada, suas definições e fórmulas.
 
-| Dimension | Definição |
+| Dimensões | Definição |
 |--- |--- |
 | **Ação** | Lista de todas as ações (**action name - action label**) usadas em jornadas, por exemplo, Push - Check out confirmation, Email - Rewards fidelity. |
 | **Fonte de dados** | Lista de fontes de dados (**data source name**) usadas para enriquecer dados em uma jornada, por exemplo, Adobe Experience Platform, Sistema de reserva. |
@@ -45,7 +45,7 @@ A tabela abaixo fornece a lista de dimensões de delivery usadas nos relatórios
 
 | Dimensão | Definição |
 |--- |--- |
-| **Navegador** | Navegador do qual a mensagem foi aberta ou clicada. |
+| **Browser** | Navegador do qual a mensagem foi aberta ou clicada. |
 | **Nome do delivery** | Rótulo e ID do delivery. |
 | **Dispositivo** | Dispositivo do qual a notificação por email/SMS/push foi aberta/exibida/clicada. |
 | **Tipo de mensagem** | Canal usado para o delivery, como email, SMS, notificação por push ou No aplicativo. |
@@ -73,12 +73,12 @@ A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, s
 | **Erro na ação** | Número total de erros que ocorreram para ações. |
 | **Erro no enriquecimento** | Número total de erros que ocorreram para um enriquecimento de dados ao chamar uma fonte de dados/grupo de campos. |
 | **Erro no Evento** | Número total de erros que ocorreram para eventos. |
-| **Taxa de Erro** | Número total de erros que ocorreram durante uma jornada em comparação ao número total de ocorrências na jornada. |
+| **Taxa de erro** | Número total de erros que ocorreram durante uma jornada em comparação ao número total de ocorrências na jornada. |
 | **Ação executada** | Número total de ações executadas para uma jornada. |
 | **Enriquecimento executado** | Número total de enriquecimentos executados chamando uma fonte de dados para obter grupos de campos específicos. |
 | **Evento executado** | Número total de ações executadas para uma jornada. |
 | **Orquestração executada** | Número total de objetos de orquestração (fim, espera, condição) executados para uma jornada. |
-| **Com falha** | Número total de jornadas que não foram executadas com êxito. |
+| **Falha** | Número total de jornadas que não foram executadas com êxito. |
 | **Taxa de falha** | Número total de jornadas que não foram executadas com êxito em comparação ao número de jornadas de execução. |
 
 ## Métricas de delivery {#delivery-metrics}
@@ -94,14 +94,14 @@ relatórios, suas definições e fórmulas.
 | **Rejeição + taxa de erro** | Número total de mensagens que retornaram em comparação às mensagens enviadas. |
 | **Clique em** | Número de vezes que um conteúdo foi clicado em um delivery. |
 | **Índice de click-through** | Número total de cliques em um delivery em comparação ao número de mensagens entregues. |
-| **Entregue** | Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas. |
+| **Entregues** | Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas. |
 | **Taxa de delivery** | Número total de mensagens entregues com êxito em comparação às mensagens enviadas. |
 | **Erro** | Número total de erros que ocorreram durante uma jornada, mas que não impediram o sucesso da jornada. |
 | **Rejeição permanente** | Número total de erros permanentes, como um endereço de email incorreto. |
 | **Taxa de rejeição permanente** | Número total de deliveries que falharam devido a erros permanentes em comparação a mensagens enviadas. |
 | **Mirror page** | Número de recipients que clicaram no link da mirror page. |
 | **Taxa de mirror page** | Número total de cliques no link da mirror page em comparação ao total de mensagens entregues. |
-| **Abertura** | Número de vezes que uma mensagem foi aberta em um delivery. |
+| **Abrir** | Número de vezes que uma mensagem foi aberta em um delivery. |
 | **Taxa de abertura** | Número total de mensagens abertas em comparação ao número de mensagens entregues. |
 | **Quarentena** | Número de mensagens que retornaram e resultaram na quarentena do endereço. |
 | **Taxa de Quarentena** | Número total de quarentenas em comparação às mensagens enviadas. |
