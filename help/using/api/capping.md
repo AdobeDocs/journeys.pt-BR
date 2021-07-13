@@ -4,13 +4,13 @@ title: Limitação da descrição da API
 description: Saiba mais sobre a API de limitação.
 products: journeys
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: e42ef98b1d84d8311cf49967ec75ec9be6cc53f1
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Para testar e preparar sua integração, uma coleção do Postman está disponí
 
 >[!CAUTION]
 >
->Para gerenciar certificados no Adobe I/O, verifique se você tem os direitos de <b>Administrador do sistema</b> na organização ou uma [conta do desenvolvedor](https://helpx.adobe.com/enterprise/using/manage-developers.html) no Admin Console.
+>Para gerenciar certificados no Adobe I/O, verifique se você tem os direitos de <b>Administrador do sistema</b> na organização ou uma [conta do desenvolvedor](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) no Admin Console.
 
 1. **Verifique se você tem um certificado** digital ou crie um, se necessário. As chaves públicas e privadas fornecidas com o certificado são necessárias nas etapas a seguir.
 1. **Crie uma nova integração no  [!DNL Journey Orchestration]** Service no Adobe I/O e configure-a. O acesso ao perfil do produto é necessário para [!DNL Journey Orchestration] e Adobe Experience Platform. Suas credenciais serão geradas (Chave da API, Segredo do cliente...).
@@ -76,7 +76,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 A API de limitação ajuda a criar, configurar e monitorar as configurações de limitação.
 
-| Método | Caminho | Descrição |
+| Método | Path | Descrição |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Obter uma lista das configurações de limite do ponto de extremidade |
 | [!DNL POST] | /endpointConfigs | Criar uma configuração de limite de ponto de extremidade |
@@ -174,20 +174,20 @@ Esta Coleção Postman foi configurada para compartilhar a coleção Variável P
 Após o download e o upload para o Postman, é necessário adicionar três variáveis: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` :  [!DNL Journey Orchestration] URL do gateway
 * `{BASE_PATH}` : ponto de entrada para a API. O valor é &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : o cabeçalho  **x-sandbox-name**  (por exemplo, &quot;prod&quot;) correspondente ao nome da sandbox onde as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html) para obter mais informações.
+* `{SANDBOX_NAME}` : o cabeçalho  **x-sandbox-name**  (por exemplo, &quot;prod&quot;) correspondente ao nome da sandbox onde as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR) para obter mais informações.
 
 Na seção a seguir, você encontrará a lista ordenada Rest API calls para executar o caso de uso.
 
 Caso de uso n°1: **Criação e implantação de uma nova configuração de limitação**
 
-1. lista
+1. listar
 1. criar
 1. pode implantar
 1. implantar
 
 Caso de uso n°2: **Atualize e implante uma configuração de limitação ainda não implementada**
 
-1. lista
+1. listar
 1. get
 1. atualizar
 1. pode implantar
@@ -195,19 +195,19 @@ Caso de uso n°2: **Atualize e implante uma configuração de limitação ainda 
 
 Caso de uso n° 3: **Desimplantar e excluir uma configuração de limite implantada**
 
-1. lista
+1. listar
 1. cancelar implantação
 1. excluir
 
 Caso de uso n°4: **Exclua uma configuração de limite implantada.**
 
 Em apenas uma chamada de API, é possível desimplantar e excluir a configuração com o uso do parâmetro forceDelete.
-1. lista
+1. listar
 1. excluir, com o parâmetro forceDelete
 
 Caso de uso n°5: **Atualizar uma configuração de limitação já implementada**
 
-1. lista
+1. listar
 1. get
 1. atualizar
 1. cancelar implantação
