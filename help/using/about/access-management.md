@@ -3,13 +3,13 @@ product: adobe campaign
 title: Gerenciamento de acesso
 description: Saiba mais sobre o gerenciamento de acesso
 feature: Jornadas
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 O [!DNL Journey Orchestration] permite atribuir um conjunto de permissões aos usuários para definir qual parte da interface pode ser acessada.
 
-Eles podem ser gerenciados por administradores com acesso ao Admin Console. Para obter mais informações sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/admin-guide.html).
+Eles podem ser gerenciados por administradores com acesso ao Admin Console. Para obter mais informações sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
 
 Para acessar o [!DNL Journey Orchestration], o usuário deve ser:
 
@@ -67,7 +67,7 @@ Você pode encontrar abaixo a compatibilidade entre as permissões e diferentes 
 
 O [!DNL Journey Orchestration] permite criar seus próprios perfis de produtos e atribuir um conjunto de permissões e sandboxes aos usuários. Com perfis de produtos, você pode autorizar ou negar acesso a determinadas funcionalidades ou objetos na interface.
 
-Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Para obter mais informações sobre como criar e gerenciar sandboxes, consulte a [documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=pt-BR).
 
 Para criar um perfil de produto e atribuir um conjunto de permissões e sandboxes:
 
@@ -135,7 +135,7 @@ Para atribuir um perfil de produto a um usuário acesse [!DNL Journey Orchestrat
 
 Seu usuário deve receber um email de redirecionamento para sua instância [!DNL Journey Orchestration].
 
-## Uso de sandboxes {#sandboxes}
+## Utilização de sandboxes {#sandboxes}
 
 O [!DNL Journey Orchestration] permite particionar sua instância em ambientes virtuais separados chamados de sandboxes.
 As sandboxes são atribuídas por meio de perfis de produto no Admin Console. Para obter mais informações sobre como atribuir sandboxes, consulte esta [seção](../about/access-management.md#create-product-profile).
