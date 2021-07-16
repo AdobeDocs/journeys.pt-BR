@@ -9,7 +9,7 @@ exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Você também pode consultar as [!DNL Journey Orchestration][Notas de versão](.
 
 * Foram adicionadas informações sobre como classificar e escolher as colunas que serão exibidas na lista de segmentos. [Leia mais](../building-journeys/segment-qualification-events.md)
 * Foram adicionadas informações sobre como copiar o nome e a ID de um segmento após sua seleção. [Leia mais](../building-journeys/segment-qualification-events.md)
-* As ocorrências de Experience Platform foram harmonizadas entre as diferentes páginas.
+* As ocorrências da Experience Platform foram harmonizadas entre as diferentes páginas.
 
 ## Julho de 2020 {#july-2020}
 
@@ -67,7 +67,7 @@ Você também pode consultar as [!DNL Journey Orchestration][Notas de versão](.
 ## Abril de 2020 {#april-2020}
 
 * Adição de uma nova seção sobre a definição do schema do evento da experiência para ajudar os usuários a configurar o primeiro evento. [Leia mais](../event/experience-event-schema.md)
-* A página inicial da documentação [!DNL Journey Orchestration] foi atualizada com links úteis adicionais. [Leia mais](../../journey-orchestration-home.md)
+* A home page da documentação do [!DNL Journey Orchestration] foi atualizada com links úteis adicionais. [Leia mais](../../journey-orchestration-home.md)
 
 ## Março de 2020 {#march-2020}
 
@@ -95,7 +95,7 @@ Você também pode consultar as [!DNL Journey Orchestration][Notas de versão](.
 
 <!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
-## 2019 de dezembro {#december-2019}
+## Dezembro de 2019 {#december-2019}
 
 * Todas as capturas de tela foram atualizadas para divulgar as alterações na interface.
 * A seção do modo de teste foi atualizada. [Leia mais](../building-journeys/testing-the-journey.md)
