@@ -9,7 +9,7 @@ exl-id: ff8effa9-404a-482b-8842-a276f029e2ed
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ Retorna true se uma determinada data ou dateTime estiver entre agora e agora - m
 
 ## Categoria
 
-Data
+Data 
 
 ## Sintaxe da função
 
