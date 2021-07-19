@@ -6,7 +6,7 @@ exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Há diferentes maneiras de criar um perfil de teste no Adobe Experience Platform
 
 Esses métodos de importação também permitem atualizar atributos de perfil. Dessa forma, você pode transformar um perfil existente em um perfil de teste. Basta usar um arquivo ou uma chamada de API semelhante e incluir apenas o campo &quot;testProfile&quot; com o valor &quot;true&quot;.
 
-Criar um perfil de teste é semelhante à criação de perfis regulares no Adobe Experience Platform. Para obter mais informações, consulte a [documentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Criar um perfil de teste é semelhante à criação de perfis regulares no Adobe Experience Platform. Para obter mais informações, consulte a [documentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR).
 
 ## Pré-requisitos{#test-profile-prerequisites}
 
