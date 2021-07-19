@@ -9,7 +9,7 @@ exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 10%
+ht-degree: 17%
 
 ---
 
@@ -32,7 +32,7 @@ String
 | Parâmetro | Tipo |
 |-----------|--------------|
 | base | string |
-| público-alvo | string |
+| target | string |
 | substituição | string |
 
 ## Assinatura e tipo retornado
