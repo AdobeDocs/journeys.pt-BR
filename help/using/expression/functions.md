@@ -9,7 +9,7 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 73%
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 Uma função pode ter assinaturas diferentes (um conjunto diferente de parâmetros ordenados). Uma assinatura de função pode ter expressões 0-N como parâmetros ordenados.
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ... ,`<expression as param N>`)
 
 Cada função tem um tipo específico retornado.
 
@@ -44,22 +44,22 @@ Esta é a lista de funções suportadas.
 | Conversão | [toDuration](../functions/functiontoduration.md) |
 | Conversão | [toInteger](../functions/functiontointeger.md) |
 | Conversão | [toString](../functions/functiontostring.md) |
-| Data | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| Data | [inLastDays](../functions/functioninlastdays.md) |
-| Data | [inLastHours](../functions/functioninlasthours.md) |
-| Data | [inLastMonths](../functions/functioninlastmonths.md) |
-| Data | [inLastYears](../functions/functioninlastyears.md) |
-| Data | [inNextDays](../functions/functioninnextdays.md) |
-| Data | [inNextHours](../functions/functioninnexthours.md) |
-| Data | [inNextMonths](../functions/functioninnextmonths.md) |
-| Data | [inNextYears](../functions/functioninnextyears.md) |
-| Data | [now](../functions/functionnow.md) |
-| Data | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| Data | [setHours](../functions/functionsethours.md) |
-| Data | [setDays](../functions/functionsetdays.md) |
+| Data  | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Data  | [inLastDays](../functions/functioninlastdays.md) |
+| Data  | [inLastHours](../functions/functioninlasthours.md) |
+| Data  | [inLastMonths](../functions/functioninlastmonths.md) |
+| Data  | [inLastYears](../functions/functioninlastyears.md) |
+| Data  | [inNextDays](../functions/functioninnextdays.md) |
+| Data  | [inNextHours](../functions/functioninnexthours.md) |
+| Data  | [inNextMonths](../functions/functioninnextmonths.md) |
+| Data  | [inNextYears](../functions/functioninnextyears.md) |
+| Data  | [now](../functions/functionnow.md) |
+| Data  | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Data  | [setHours](../functions/functionsethours.md) |
+| Data  | [setDays](../functions/functionsetdays.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctCount](../functions/functiondistinctcount.md) |
-| Lista | [in](../functions/functionin.md) |
+| Lista | [ no ](../functions/functionin.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |
