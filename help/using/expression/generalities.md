@@ -9,7 +9,7 @@ exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ As expressões serão avaliadas da esquerda para a direita. A associação em op
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; tem prioridade sobre &#39;+&#39;: 2 * 10 é avaliado → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Os parênteses alteram a prioridade: (4 + 2) é avaliado → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Diferenciação de maiúsculas e minúsculas{#section_lrb_xh5_dgb}
+## Diferencia maiúsculas de minúsculas{#section_lrb_xh5_dgb}
 
 Estas são as diferentes regras de diferenciação entre maiúsculas e minúsculas:
 
