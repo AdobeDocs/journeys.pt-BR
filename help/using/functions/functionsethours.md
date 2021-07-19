@@ -9,7 +9,7 @@ exl-id: d4fe578f-c3be-4c8b-98b3-090dab0c41d1
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ Define somente as horas de uma data ou hora de data. Por exemplo, se você quise
 
 ## Categoria
 
-Data
+Data 
 
 ## Sintaxe da função
 
