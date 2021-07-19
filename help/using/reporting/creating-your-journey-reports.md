@@ -63,7 +63,7 @@ Para iniciar seu relatório, é possível adicionar um conjunto de painéis a um
 
 Esse painel permite que você crie seus relatórios, conforme necessário. Você pode adicionar quantos painéis desejar em seus relatórios para filtrar seus dados com períodos de tempo diferentes.
 
-1. Clique no ícone **[!UICONTROL Panels]**. Você também pode adicionar um painel clicando em **[!UICONTROL Insert tab]** e selecionando **[!UICONTROL New Blank Panel]**.
+1. Clique no ícone do **[!UICONTROL Panels]**. Você também pode adicionar um painel clicando em **[!UICONTROL Insert tab]** e selecionando **[!UICONTROL New Blank Panel]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
@@ -79,7 +79,7 @@ As tabelas de forma livre permitem criar uma tabela para analisar seus dados usa
 
 Cada tabela e visualização é redimensionável e pode ser movida para personalizar melhor seu relatório.
 
-1. Clique no ícone **[!UICONTROL Panels]**.
+1. Clique no ícone do **[!UICONTROL Panels]**.
 
    ![](../assets/dynamic_report_panel_1.png)
 
