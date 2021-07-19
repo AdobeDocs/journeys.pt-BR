@@ -230,7 +230,7 @@ Exemplo:
 42 >= 3.14
 ```
 
-### &lt;
+### &lt;>
 
 
 
@@ -454,7 +454,7 @@ Exemplo:
 "a" + "b" + "c" + 1234 -- returns "abc1234".
 ```
 
-## Data {#date}
+## Data  {#date}
 
 ### +
 
