@@ -50,7 +50,7 @@ O acesso à API do Journey Orchestration é configurado pelas etapas abaixo. Cad
 
 >[!CAUTION]
 >
->Para gerenciar certificados no Adobe I/O, verifique se você tem os direitos de <b>Administrador do sistema</b> na organização ou uma [conta do desenvolvedor](https://helpx.adobe.com/enterprise/using/manage-developers.html) no Admin Console.
+>Para gerenciar certificados no Adobe I/O, verifique se você tem os direitos de <b>Administrador do sistema</b> na organização ou uma [conta do desenvolvedor](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) no Admin Console.
 
 1. **Verifique se você tem um certificado** digital ou crie um, se necessário. As chaves públicas e privadas fornecidas com o certificado são necessárias nas etapas a seguir.
 1. **Crie uma nova integração no  [!DNL Journey Orchestration]** Service no Adobe I/O e configure-a. O acesso ao perfil do produto é necessário para o Journey Orchestration e Adobe Experience Platform. Suas credenciais serão geradas (Chave da API, Segredo do cliente...).
@@ -82,7 +82,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 Essa API permite exportar uma versão do jornada identificada por sua UID e todos os objetos relacionados (jornada, eventos, fontes de dados, grupos de campos, ações personalizadas) por sua uid.
 A carga útil resultante pode ser usada para importar a versão do jornada em outro ambiente (sandbox ou instância).
 
-| Método | Caminho | Descrição |
+| Método | Path | Descrição |
 |---|---|---|
 | `[POST]` | /journeyVersions/import | Importar um conteúdo de versão do jornada resultante de uma exportação de versão do jornada |
 | `[GET]` | /journeyVersions/`{uid}`/exportar | Exportar uma versão do jornada |
