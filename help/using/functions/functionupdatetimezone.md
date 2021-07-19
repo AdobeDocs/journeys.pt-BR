@@ -5,7 +5,7 @@ description: Saiba mais sobre a função updateTimeZone
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ Retorna uma nova data/hora, com um novo fuso horário no mesmo instante.
 
 ## Categoria
 
-Data
+Data 
 
 ## Sintaxe da função
 
