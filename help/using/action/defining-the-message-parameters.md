@@ -6,9 +6,9 @@ feature: Jornadas
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '226'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ Na seção **[!UICONTROL Message parameters]**, cole um exemplo da carga JSON pa
 
 >[!NOTE]
 >
->Os nomes de campo no payload não podem conter um &quot;.&quot; caractere.
+>Os nomes de campo no payload não podem conter um &quot;.&quot; caractere. Eles não podem começar com um caractere &quot;$&quot;.
 
 Você poderá definir o tipo de parâmetro (por exemplo: string, número inteiro, etc.).
 
