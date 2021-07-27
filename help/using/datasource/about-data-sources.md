@@ -6,10 +6,10 @@ feature: Jornadas
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 79%
+source-wordcount: '345'
+ht-degree: 76%
 
 ---
 
@@ -44,7 +44,7 @@ Estas são as etapas principais de configuração da fonte de dados:
 >
 >A configuração da fonte de dados é sempre executada por um **usuário técnico**.
 
-1. No menu superior, clique na guia **[!UICONTROL Data Sources]**.
+1. No painel de menus, selecione **[!UICONTROL Admin]**. Na seção **[!UICONTROL Data sources]**, clique em **[!UICONTROL Manage]**.
 
    A lista das fontes de dados é exibida. Consulte [esta página](../about/user-interface.md) para obter mais informações sobre a interface.
 
