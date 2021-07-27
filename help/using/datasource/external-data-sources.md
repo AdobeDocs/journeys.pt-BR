@@ -6,10 +6,10 @@ feature: Jornadas
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 99%
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ A chamada é composta de um URL principal (_https://api.adobeweather.org/weather
 
 Estas são as principais etapas para criar e configurar uma nova fonte de dados externa:
 
-1. Na lista de fontes de dados, clique em **[!UICONTROL Add]** para criar uma nova fonte de dados externa.
+1. Na lista de fontes de dados, clique em **[!UICONTROL Create data source]** para criar uma nova fonte de dados externa.
 
    ![](../assets/journey25.png)
 
@@ -69,7 +69,6 @@ Para o conjunto de parâmetros &quot;long/lat&quot;, criamos um grupo de campos 
 
 * **[!UICONTROL Used in]**: exibe o número de jornadas que usam um grupo de campos. Você pode clicar no ícone **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse grupo de campos.
 * **[!UICONTROL Method]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
-* **[!UICONTROL Cache duration]**: no nosso caso, queremos que os dados de meteorologia sejam armazenados em cache por 10 minutos.
 * **[!UICONTROL Response Payload]**: clique dentro do campo **[!UICONTROL Payload]** e cole um exemplo da carga útil retornada pela chamada. Para nosso exemplo, usamos uma carga encontrada em um site da API de meteorologia. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. Observe que você pode clicar em **[!UICONTROL Paste a new payload]** se desejar alterar a carga útil transmitida no momento.
 * **[!UICONTROL Dynamic Values]**: insira os diferentes parâmetros separados por vírgula, &quot;long,lat&quot; no nosso exemplo. Como os valores dos parâmetros dependem do contexto de execução, eles serão definidos nas jornadas. Consulte [esta página](../expression/expressionadvanced.md).
 * **[!UICONTROL Sent Payload]**: este campo não aparece no nosso exemplo. Ele só estará disponível se você selecionar o método POST. Cole a carga útil que será enviada para o sistema de terceiros.
