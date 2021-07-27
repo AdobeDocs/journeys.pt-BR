@@ -6,9 +6,9 @@ feature: Jornadas
 role: User
 level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '351'
 ht-degree: 11%
 
 ---
@@ -39,7 +39,6 @@ Estas são as etapas principais para adicionar grupos de campos à fonte de dado
 
 1. Selecione um schema no menu suspenso **[!UICONTROL Schema]**. Este campo lista os esquemas Perfil e Eventos de experiência disponíveis na Adobe Experience Platform. A criação do esquema não é executada em [!DNL Journey Orchestration]. Ele é executado na Adobe Experience Platform.
 1. Selecione os campos que deseja usar.
-1. Defina a duração do cache.
 1. Clique em **[!UICONTROL Save]**.
 
 Ao colocar o cursor no nome de um grupo de campos, você verá dois ícones à direita. Eles permitem excluir e duplicar o grupo de campos. Observe que o ícone **[!UICONTROL Delete]** só estará disponível se o grupo de campos não for usado em nenhuma jornada ao vivo ou de rascunho (informações exibidas no campo **[!UICONTROL Used in]** ).
