@@ -6,10 +6,10 @@ feature: Jornadas
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 61%
+source-wordcount: '2701'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,29 @@ ht-degree: 61%
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação mais recentes](../release-notes/documentation-updates.md).
+
+## Versão de julho de 2021 {#july-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Aproveitar relacionamentos de schema</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro. O Journey Orchestration agora pode aproveitar os dados provenientes de um schema vinculado.</p>
+<p>Esses campos estão disponíveis na configuração de evento unitário, nas condições de jornada e na personalização da ação personalizada.
+<p>Para obter mais informações, consulte a <a href="../event/experience-event-schema.md#leverage_schema_relationships">documentação detalhada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias
+
+* O campo **Cache duration** foi removido do painel de configuração da fonte de dados. [Leia mais](../datasource/about-data-sources.md)
 
 ## Versão de junho de 2021 {#june-2021-release}
 
