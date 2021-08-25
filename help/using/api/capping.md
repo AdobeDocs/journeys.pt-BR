@@ -3,13 +3,13 @@ product: adobe campaign
 title: Limitação da descrição da API
 description: Saiba mais sobre a API de limitação.
 products: journeys
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1173'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 Durante uma configuração de fonte de dados, você definirá uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas ou para uma definição de ação, você configurará a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Sempre que uma chamada de API é executada pelo Jornada, a API de limitação é consultada, a chamada é enviada pelo mecanismo de API. Se houver um limite definido, a chamada será rejeitada e o sistema externo não será sobrecarregado.
 
-Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para adicionar o ponto de extremidade à lista de permissões. Isso não é possível para fontes de dados externas públicas. Para saber mais sobre as práticas recomendadas e as medidas de proteção ao integrar sistemas externos, consulte esta [página](../about/external-systems.md).
+Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para incluir o ponto de extremidade na  de lista de permissões. Isso não é possível para fontes de dados externas públicas. Para saber mais sobre as práticas recomendadas e as medidas de proteção ao integrar sistemas externos, consulte esta [página](../about/external-systems.md).
 
 Para saber mais sobre a ação ou a configuração da fonte de dados, consulte [Sobre ações](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) ou [Sobre fontes de dados](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
