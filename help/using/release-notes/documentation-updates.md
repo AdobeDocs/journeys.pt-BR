@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Atualizações de documentação
 description: Saiba mais sobre atualizações da documentação
-feature: Jornadas
+feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 100%
 
 Esta página lista todas as atualizações de documentação do [!DNL Journey Orchestration].
 Você também pode consultar as [!DNL Journey Orchestration][Notas de versão](../release-notes/release-notes.md).
+
+## Agosto de 2021
+
+* Atualização do procedimento de configuração para ações personalizadas com caminhos dinâmicos de URL e cabeçalhos dinâmicos. [Leia mais](../action/url-configuration.md)
+* Adição de uma seção sobre recursos de acessibilidade. [Leia mais](../about/user-interface.md#accessibility)
+* Adição de uma seção sobre métodos de avaliação de segmento. [Leia mais](../segment/about-segments.md#evaluation-method-in-journey-orchestration)
 
 ## Março de 2021 {#march-2021}
 
@@ -99,7 +105,7 @@ Você também pode consultar as [!DNL Journey Orchestration][Notas de versão](.
 
 * Todas as capturas de tela foram atualizadas para divulgar as alterações na interface.
 * A seção do modo de teste foi atualizada. [Leia mais](../building-journeys/testing-the-journey.md)
-<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Agora, as jornadas interrompidas podem ser excluídas. As páginas de documentação relacionadas foram atualizadas.
 * Agora, duas cores são exibidas quando problemas são detectados em uma jornada. Vermelho para erros e laranja para avisos. [Leia mais](../about/troubleshooting.md)
 * A seção do editor de expressão avançado foi atualizada. [Leia mais](../expression/expressionadvanced.md).
