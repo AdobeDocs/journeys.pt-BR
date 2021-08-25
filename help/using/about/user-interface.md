@@ -2,14 +2,14 @@
 product: adobe campaign
 title: A interface do usuário
 description: Saiba mais sobre a interface do usuário
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 95%
+source-wordcount: '989'
+ht-degree: 61%
 
 ---
 
@@ -87,58 +87,135 @@ Se um nome simples estiver disponível, o campo será exibido como `<friendly-na
 >
 >Os nomes simples não são recuperados ao selecionar campos de uma união de schemas.
 
-## Uso de atalhos diferentes{#section_ksq_zr1_ffb}
+## Acessibilidade{#accessibility}
 
-Estes são os diferentes atalhos disponíveis na interface do [!DNL Journey Orchestration].
+Os recursos de acessibilidade do Adobe Journey Optimizer são fornecidos pela Adobe Experience Platform:
 
-_Na lista de jornadas, ações, fontes de dados ou eventos:_
+* Acessibilidade do teclado
+* Contraste de cores
+* Validação de campos obrigatórios
 
-* Pressione **c** para criar uma nova jornada, ação, fonte de dados ou evento.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
 
-_Ao configurar uma atividade em uma jornada:_
+Você pode usar esses atalhos de teclado comuns no Adobe Journey Optimizer:
 
-A tela é salva automaticamente. Você pode ver, na parte superior esquerda da tela, o status de salvamento.
+| Ação | Atalho |
+| --- | --- |
+| Mover entre elementos da interface do usuário, seções e grupos de menu | Tabulação |
+| Recuar entre elementos da interface do usuário, seções e grupos de menu | Shift + Guia |
+| Mover dentro de seções para definir o foco de elementos individuais | Seta |
+| Selecionar ou limpar um elemento em foco | Inserir ou Barra de espaço |
+| Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
 
-* Pressione **escape** para fechar o painel de configuração e descartar as alterações feitas. É equivalente ao botão **[!UICONTROL Cancel]**.
-* Pressione **Enter** ou clique fora do painel para fechar o painel de configuração. As alterações são salvas. É equivalente ao botão **[!UICONTROL Ok]**.
-* Se você pressionar **Delete** ou **backspace**, será possível pressionar **Enter** para confirmar a exclusão.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
 
-_Em janelas pop-ups:_
+Você pode usar esses atalhos em partes específicas do Journey Optimizer:
 
-* Pressione **escape** para fechar (equivalente ao botão **[!UICONTROL Cancel]**).
-* Pressione **Enter** para salvar ou confirmar (equivalente ao botão **[!UICONTROL Ok]** ou **[!UICONTROL Save]**).
+<table>
+  <thead>
+    <tr>
+      <th>Elemento da interface</th>
+      <th>Ação</th>
+      <th>Atalho</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Lista de jornadas, ações, fontes de dados ou eventos</td>
+    <td>Criar uma jornada, uma ação, uma fonte de dados ou um evento</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Jornada tela no status de rascunho</td>
+    <td>Adicionar uma atividade da paleta esquerda na primeira posição disponível, de cima para baixo</td>
+    <td>Clique duas vezes na atividade</td>
+  </tr>
+  <tr>
+    <td>Selecionar todas as atividades</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Excluir as atividades selecionadas</td>
+    <td>Excluir ou Backspace, em seguida, Inserir para confirmar a exclusão</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
 
-_No painel de configuração do evento, fonte de dados ou ação:_
+Painel de configuração desses elementos:
 
-* Pressione **escape** para fechar o painel de configuração sem salvar.
-* Pressione **Enter** para salvar as modificações e fechar o painel de configuração.
-* Pressione **tab** para saltar entre os diferentes campos que serão configurados.
+<ul>
+  <li>Atividade em uma jornada</li>
+  <li>Evento</li>
+  <li>Fonte de dados</li>
+  <li>Ação</li>
+</ul>
 
-_No editor de expressões simples_
+</td>
+    <td>Mover para o próximo campo a ser configurado</td>
+    <td>Tabulação</td>
+  </tr>
+  <tr>
+    <td>Salve as alterações e feche o painel de configuração</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Descartar alterações e fechar o painel de configuração</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Jornada no modo de teste</td>
+    <td>Ative ou desative o modo de teste</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Acionar um evento em uma jornada baseada em eventos</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
 
-* Duplo clique em um campo, à esquerda, para adicionar uma query (equivalente a arrastar e soltar).
+Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UICONTROL Single profile at a time]** esteja ativada
 
-_Ao navegar pelos campos XDM:_
-
-* Marcar um &quot;nó&quot; selecionará todos os campos do nó.
-
-_Em todas as áreas de texto:_
-
-* Use a combinação de teclas **Ctrl/Command + A** para selecionar o texto. Na pré-visualização de carga, é selecionada a carga útil.
-
-_Em uma tela com uma barra de pesquisa:_
-
-* Use a combinação de teclas **Ctrl/Command + F** para selecionar a barra de pesquisa.
-
-_Na tela de uma jornada:_
-
-* Use a combinação de teclas **Ctrl/Command + A** para selecionar todas as atividades.
-* Quando uma ou várias atividades forem selecionadas, pressione **Delete** ou **backspace** para excluí-las. Pressione **Enter** na janela pop-up para confirmar.
-* Clique duas vezes em uma atividade da paleta esquerda para adicioná-la à primeira posição disponível (de cima para baixo).
-
-_Em uma jornada:_
-
-* Pressione **T** para ativar/desativar o modo de teste.
-* Em uma jornada baseada em eventos no modo de teste, pressione **E** para acionar um evento.
-* Em uma jornada baseada em segmentos, quando a opção **Um perfil único de cada vez** estiver selecionada no modo de teste, pressione **P** para acionar um evento.
-* No modo de teste, pressione **L** para exibir os logs.
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>Exibir os logs de teste</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Campo de texto</td>
+    <td>Selecionar todo o texto no campo selecionado</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Janela pop-up</td>
+    <td>Salvar alterações ou confirmar a ação</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Feche a janela</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Editor de expressão simples</td>
+    <td>Selecionar e adicionar um campo</td>
+    <td>Clique duas vezes em um campo</td>
+  </tr>
+  <tr>
+    <td>Navegação pelos campos XDM</td>
+    <td>Selecionar todos os campos de um nó</td>
+    <td>Selecione o nó pai</td>
+  </tr>
+  <tr>
+    <td>Visualização da carga útil</td>
+    <td>Selecionar a carga</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+  </tr>
+</table>
