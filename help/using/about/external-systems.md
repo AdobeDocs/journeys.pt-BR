@@ -3,13 +3,13 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Integração com sistemas externos
 description: Conheça as práticas recomendadas ao integrar sistemas externos
-feature: Jornadas
+feature: Journeys
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: a32a208fcaef9a408c850c0ad74ab44e3eb44709
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Quando o Journey Orchestration executa uma chamada para uma API externa, as grad
 
 A API de limitação integrada oferece uma garantia técnica de upstream que ajuda a proteger seu sistema externo.
 
-Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para adicionar o ponto de extremidade à lista de permissões. Isso não é possível para fontes de dados externas públicas.
+Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para incluir o ponto de extremidade na  de lista de permissões. Isso não é possível para fontes de dados externas públicas.
 
 Para ações personalizadas, é necessário avaliar a capacidade da API externa. Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e o sistema suportar apenas 100 chamadas por segundo, é necessário definir uma regra de limitação para que o sistema não fique saturado.
 
