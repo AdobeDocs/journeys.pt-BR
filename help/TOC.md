@@ -4,11 +4,11 @@ user-guide-title: Journey Orchestration
 title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
-feature: Jornadas
-source-git-commit: a472bb9ffe45159c8318f00a43c25fc41cb6d683
+feature: Journeys
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 99%
    + Usar um sistema de terceiros {#action-third-party}
       + [Sobre a configuração de ação personalizada](using/action/about-custom-action-configuration.md)
       + [Configurar o URL](using/action/url-configuration.md)
-      + [Definir os parâmetros da mensagem](using/action/defining-the-message-parameters.md)
+      + [Definição dos parâmetros de ação](using/action/defining-the-message-parameters.md)
 + Uso de segmentos {#configuring-segment}
    + [Sobre segmentos](using/segment/about-segments.md)
    + [Criação de um segmento](using/segment/creating-a-segment.md)
