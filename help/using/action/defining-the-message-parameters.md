@@ -1,23 +1,23 @@
 ---
 product: adobe campaign
-title: Definir os parâmetros da mensagem
-description: Saiba como definir os parâmetros da mensagem
-feature: Jornadas
+title: Definição dos parâmetros de ação
+description: Saiba como definir os parâmetros de ação
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
-source-git-commit: eb765d2f12ade397e124281f52213bb3e58263cb
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 4%
+source-wordcount: '225'
+ht-degree: 0%
 
 ---
 
-# Definir os parâmetros da mensagem {#concept_wy4_bf1_2gb}
+# Definição dos parâmetros de ação {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-Na seção **[!UICONTROL Message parameters]**, cole um exemplo da carga JSON para enviar ao serviço externo.
+Na seção **[!UICONTROL Action parameters]**, cole um exemplo da carga JSON para enviar ao serviço externo.
 
 ![](../assets/customactionpayloadmessage.png)
 
