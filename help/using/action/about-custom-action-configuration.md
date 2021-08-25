@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Sobre a configuração de ação personalizada
 description: Saiba como configurar uma ação personalizada
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 8b24abef-700d-4f68-a921-d7299c939439
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ Estas são as principais etapas necessárias para configurar uma ação personal
 1. O número de jornadas que usam essa ação é exibido no campo **[!UICONTROL Used in]**. Você pode clicar no botão **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esta ação.
 1. Defina os diferentes parâmetros **[!UICONTROL URL Configuration]**. Consulte [esta página](../action/url-configuration.md).
 1. Configure a seção **[!UICONTROL Authentication]**. Essa configuração é igual à das fontes de dados.  Consulte [esta seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Defina o **[!UICONTROL Message parameters]**. Consulte [esta página](../action/defining-the-message-parameters.md).
+1. Defina o **[!UICONTROL Action parameters]**. Consulte [esta página](../action/defining-the-message-parameters.md).
 1. Clique em **[!UICONTROL Save]**.
 
    A ação personalizada agora está configurada e pronta para ser usada em suas jornadas. Consulte [esta página](../building-journeys/about-action-activities.md).
