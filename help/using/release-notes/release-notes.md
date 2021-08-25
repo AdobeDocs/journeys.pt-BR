@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Notas de versão
 description: Saiba mais sobre as notas de versão
-feature: Jornadas
+feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6300a606d49a65a5527f9ba29a7efdfe782c7334
+source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
 workflow-type: tm+mt
-source-wordcount: '2701'
-ht-degree: 60%
+source-wordcount: '2756'
+ht-degree: 59%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 60%
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação mais recentes](../release-notes/documentation-updates.md).
+
+## Versão de agosto de 2021 {#august-2021-release}
+
+### Melhorias
+
+**Jornadas**
+
+* **Cabeçalhos dinâmicos**  - Agora é possível transmitir dados dinâmicos em parâmetros do cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais](../action/url-configuration.md)
+* **Caminhos de URL dinâmicos**  - agora você pode configurar caminhos de URL dinâmicos para ações personalizadas. [Leia mais](../action/url-configuration.md)
 
 ## Versão de julho de 2021 {#july-2021-release}
 
