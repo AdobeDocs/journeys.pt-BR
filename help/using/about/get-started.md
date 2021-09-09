@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Introdução
 description: Descubra as etapas principais para configurar o Journey Orchestration e criar sua primeira jornada.
-feature: Jornadas
+feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: tm+mt
-source-wordcount: '323'
+workflow-type: ht
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
