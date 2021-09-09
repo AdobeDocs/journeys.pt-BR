@@ -6,14 +6,14 @@ user-guide-description: Fornece instruções passo a passo para implementar e cr
 index: true
 feature: Journeys
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Journey Orchestration] Guia {#using}
+# Manual do [!DNL Journey Orchestration] {#using}
 
 + [Documentação do produto](journey-orchestration-home.md)
 + Novidades {#release-notes}
@@ -52,8 +52,8 @@ ht-degree: 98%
    + Usar um sistema de terceiros {#action-third-party}
       + [Sobre a configuração de ação personalizada](using/action/about-custom-action-configuration.md)
       + [Configurar o URL](using/action/url-configuration.md)
-      + [Definição dos parâmetros de ação](using/action/defining-the-message-parameters.md)
-+ Uso de segmentos {#configuring-segment}
+      + [Definição dos parâmetros de imagem](using/action/defining-the-message-parameters.md)
++ Utilização de segmentos {#configuring-segment}
    + [Sobre segmentos](using/segment/about-segments.md)
    + [Criação de um segmento](using/segment/creating-a-segment.md)
    + [Uso de segmentos em condições](using/segment/using-a-segment.md)
@@ -70,7 +70,7 @@ ht-degree: 98%
       + Atividades de eventos {#events-activities}
          + [Sobre atividades de eventos](using/building-journeys/event-activities.md)
          + [Eventos gerais](using/building-journeys/general-events.md)
-         + [Reação events](using/building-journeys/reaction-events.md)
+         + [Reação eventos](using/building-journeys/reaction-events.md)
          + [Eventos de qualificação de segmento](using/building-journeys/segment-qualification-events.md)
       + Atividades de orquestração {#orchestration-activities}
          + [Sobre atividades de orquestração](using/building-journeys/about-orchestration-activities.md)
@@ -144,7 +144,7 @@ ht-degree: 98%
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
          + [getListItem](using/functions/functiongetlistitem.md)
-         + [ no ](using/functions/functionin.md)
+         + [no](using/functions/functionin.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -162,7 +162,7 @@ ht-degree: 98%
          + [isEmpty](using/functions/functionisempty.md)
          + [isNotEmpty](using/functions/functionisnotempty.md)
          + [lastIndexOf](using/functions/functionlastindexof.md)
-         + [length](using/functions/functionlength.md)
+         + [comprimento](using/functions/functionlength.md)
          + [lower](using/functions/functionlower.md)
          + [matchRegExp](using/functions/functionmatchregexp.md)
          + [notEqualWithIgnoreCase](using/functions/functionnotequalignorecase.md)
