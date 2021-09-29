@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Funções
 description: Saiba mais sobre funções
-feature: Jornadas
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 74%
 
 ---
@@ -38,6 +38,7 @@ Esta é a lista de funções suportadas.
 | Agregação | [min](../functions/functionmin.md) |
 | Agregação | [sum](../functions/functionsum.md) |
 | Conversão | [toBool](../functions/functiontobool.md) |
+| Conversão | [toDateOnly](../functions/functiontodateonly.md) |
 | Conversão | [toDateTime](../functions/functiontodatetime.md) |
 | Conversão | [toDateTimeOnly](../functions/functiontodatetimeonly.md) |
 | Conversão | [toDecimal](../functions/functiontodecimal.md) |
@@ -58,8 +59,11 @@ Esta é a lista de funções suportadas.
 | Data  | [setHours](../functions/functionsethours.md) |
 | Data  | [setDays](../functions/functionsetdays.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
-| Lista | [distinctCount](../functions/functiondistinctcount.md) |
-| Lista | [ no ](../functions/functionin.md) |
+| Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
+| Lista | [filter](../functions/functionfilter.md) |
+| Lista | [getListItem](../functions/functiongetlistitem.md) |
+| Lista | [no](../functions/functionin.md) |
+| Lista | [interseção](../functions/functionintersect.md) |
 | Lista | [listSize](../functions/functionlistsize.md) |
 | Lista | [serializeList](../functions/functionserializelist.md) |
 | Lista | [sort](../functions/functionsort.md) |
@@ -75,7 +79,7 @@ Esta é a lista de funções suportadas.
 | String | [isEmpty](../functions/functionisempty.md) |
 | String | [isNotEmpty](../functions/functionisnotempty.md) |
 | String | [lastIndexOf](../functions/functionlastindexof.md) |
-| String | [length](../functions/functionlength.md) |
+| String | [comprimento](../functions/functionlength.md) |
 | String | [lower](../functions/functionlower.md) |
 | String | [matchRegExp](../functions/functionmatchregexp.md) |
 | String | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |

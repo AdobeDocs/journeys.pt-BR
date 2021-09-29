@@ -2,14 +2,14 @@
 product: adobe campaign
 title: 'Fontes de dados externas '
 description: 'Saiba como configurar fontes de dados externas '
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 5ea6578ec15b8e1116f58f7644cbf45c523d1840
+source-git-commit: 7805ee4beb056ba84bc994162da2b0e54db60ca3
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 98%
+source-wordcount: '1318'
+ht-degree: 93%
 
 ---
 
@@ -183,3 +183,7 @@ O formato dessa autenticação é:
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>A duração do cache ajuda a evitar muitas chamadas para os pontos de extremidade de autenticação. A retenção de token de autenticação está armazenada em cache nos serviços, não há persistência. Se um serviço for reiniciado, ele será iniciado com um cache limpo. A duração padrão do cache é de 1 hora. Na carga da ação personalizada, ela pode ser adaptada especificando outra duração de retenção.

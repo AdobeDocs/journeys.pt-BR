@@ -5,10 +5,10 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 feature: Journeys
-source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
    + [Notas de versão](using/release-notes/release-notes.md)
    + [Atualizações de documentação](using/release-notes/documentation-updates.md)
 + Primeiros passos com o [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Sobre o [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Sobre [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitações](using/about/limitations.md)
    + [Introdução](using/about/get-started.md)
    + [Interface do usuário](using/about/user-interface.md)
@@ -93,6 +93,7 @@ ht-degree: 100%
       + [campos de busca de dados de eventos journeyStep](using/building-journeys/sharing-fetch-fields.md)
       + [campos de identidade do evento journeyStep](using/building-journeys/sharing-identity-fields.md)
       + [campos de jornada](using/building-journeys/sharing-journey-fields.md)
+      + [Exemplos de consultas](using/building-journeys/query-examples.md)
 + Uso do editor de expressão avançado {#building-advanced-conditions-journeys}
    + [Sobre o editor de expressão avançado](using/expression/expressionadvanced.md)
    + Sintaxe {#syntax}
@@ -120,6 +121,7 @@ ht-degree: 100%
          + [sum](using/functions/functionsum.md)
       + Conversão {#conversion}
          + [toBool](using/functions/functiontobool.md)
+         + [toDateOnly](using/functions/functiontodateonly.md)
          + [toDateTime](using/functions/functiontodatetime.md)
          + [toDateTimeOnly](using/functions/functiontodatetimeonly.md)
          + [toDecimal](using/functions/functiontodecimal.md)
@@ -143,8 +145,10 @@ ht-degree: 100%
       + Lista {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
+         + [filter](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [no](using/functions/functionin.md)
+         + [interseção](using/functions/functionintersect.md)
          + [listSize](using/functions/functionlistsize.md)
          + [serializeList](using/functions/functionserializelist.md)
          + [sort](using/functions/functionsort.md)
@@ -194,5 +198,6 @@ ht-degree: 100%
       + [Configuração de fontes de dados](using/usecase/configuring-the-data-sources.md)
       + [Construção da jornada](using/usecase/building-the-journey.md)
    + [Envio de uma mensagem usando o Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
+   + [Envio dinâmico de coleções usando ações personalizadas](using/usecase/collections.md)
 + Trabalho com APIs{#working-with-apis}
    + [APIs de limite](using/api/capping.md)

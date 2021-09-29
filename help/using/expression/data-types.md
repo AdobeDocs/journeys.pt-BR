@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Tipos de dados
 description: Saiba mais sobre tipos de dados em expressões avançadas
-feature: Jornadas
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '636'
 ht-degree: 5%
 
 ---
@@ -119,15 +119,47 @@ false
 true
 ```
 
+## dateOnly {#date-only}
+
+**Descrição**
+
+Representa uma data somente sem fuso horário, exibida como um dia de ano/mês.
+
+É uma descrição da data, conforme usado para aniversários.
+
+Formato JSON: Sequência de caracteres.
+
+O formato é: AAAA-MM-DD (ISO-8601), por exemplo: &quot;2021-03-11&quot;.
+
+Ele pode ser encapsulado em uma função toDateOnly .
+
+Ele usa DateTimeFormatter ISO_LOCAL_DATE_TIME para desserializar e serializar o valor. [Saiba mais](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+
+**Representação literal**
+
+```
+date("<dateOnly in ISO-8601 format>")  
+```
+
+**Exemplo**
+
+```
+date("2021-02-19")
+```
+
 ## dateTimeOnly {#date-time-only}
 
 **Descrição**
 
 Representa uma data/hora sem fuso horário, exibida como ano-mês-dia-hora-minuto-segundo-milissegundo.
 
+Formato JSON: Sequência de caracteres.
+
 Ele não armazena ou representa um fuso horário. Em vez disso, é uma descrição da data, como usada para aniversários, combinada com a hora local, como visto em um relógio de parede.
 
 Ele não pode representar um instante na linha do tempo sem informações adicionais, como um deslocamento ou um fuso horário.
+
+Ele pode ser encapsulado em uma função toDateTimeOnly .
 
 Formato de serialização: Formato de data e hora de deslocamento estendido ISO-8601.
 
@@ -136,7 +168,14 @@ Ele usa DateTimeFormatter ISO_LOCAL_DATE_TIME para desserializar e serializar o 
 **Representação literal**
 
 ```
-toDateTimeOnly("<dateTimeOnly in ISO-8601 format>")  
+date("<dateTimeOnly in ISO-8601 format>")  
+```
+
+**Exemplos**
+
+```
+date("2021-02-19T00.00.000")
+date("2021-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -149,7 +188,7 @@ Ele pode ser exibido como um instantâneo no tempo com as informações adiciona
 
 Formato JSON: Sequência de caracteres.
 
-Ele deve ser encapsulado em uma função toDateTime .
+Ele pode ser encapsulado em uma função toDateTime .
 
 Formato de serialização: Formato de data e hora de deslocamento estendido ISO-8601.
 
@@ -166,10 +205,18 @@ toDateTime("<dateTime in ISO-8601 format>")
 ```
 
 ```
+date("<dateTime in ISO-8601 format>")
+```
+
+```
 toDateTime(<integer value of an epoch in milliseconds>)
 ```
 
-**Exemplo**
+**Exemplos**
+
+```
+date("2021-02-19T00.00.000Z")
+```
 
 ```
 toDateTime("1977-04-22T06:00:00Z")

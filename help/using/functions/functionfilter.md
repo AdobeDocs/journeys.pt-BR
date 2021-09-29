@@ -1,0 +1,86 @@
+---
+product: adobe campaign
+title: filter
+description: Saiba mais sobre o criador de funções
+feature: Journeys
+role: Data Engineer
+level: Experienced
+exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
+source-git-commit: 729ee71e063ae73c7c10f20bb3a410c43cb75faf
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 10%
+
+---
+
+# filter{#filter}
+
+Retorna um listObject com objetos com o atributo de chave correspondente a um dos valores de chave fornecidos.
+
+## Categoria
+
+Lista
+
+## Sintaxe da função
+
+`filter(<parameters>)`
+
+## Parâmetros
+
+| Parâmetro | Tipo | Descrição |
+|-----------|------------------|------------------|
+| listToFilter | listObject | lista de objetos a serem filtrados. Deve ser uma referência de campo. |
+| keyAttributeName | string | nome do atributo nos objetos da lista fornecida, usado como chave para filtragem |
+| keyValueList | listar | matriz de valores principais para filtragem |
+
+## Assinaturas e tipos retornados
+
+`filter(listObject, string, listString)`
+
+`filter(listObject, string, listInteger)`
+
+`filter(listObject, string, listDecimal)`
+
+`filter(listObject, string, listDateTime)`
+
+`filter(listObject, string, listDateTimeOnly)`
+
+`filter(listObject, string, listDateOnly)`
+
+`filter(listObject, string, listDuration)`
+
+`filter(listObject, string, listBoolean)`
+
+Retorna um listObject.
+
+## Exemplos
+
+Este é um exemplo de uma carga transmitida em um evento de entrada &quot;myevent&quot;:
+
+```
+"productListItems": [{
+   "id": "product1",
+   "name": "the product 1",
+   "price": 20
+},{
+   "id": "product2",
+   "name": "the product 2",
+   "price": 30
+},{
+   "id": "product3",
+   "name": "the product 3",
+   "price": 50
+}]
+```
+
+Você pode usar a seguinte expressão:
+
+```
+filter(
+ @{myevent.productListItems},
+ id", 
+ ["product2", "product3", "product4"]
+)
+```
+
+Retorna um listObject contendo os dois objetos com &quot;product2&quot; e &quot;product3&quot; como id.

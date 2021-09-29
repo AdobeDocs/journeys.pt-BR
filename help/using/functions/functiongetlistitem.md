@@ -2,14 +2,14 @@
 product: adobe campaign
 title: getListItem
 description: Saiba mais sobre a função gstListItem
-feature: Jornadas
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: a3b24f25-5f6d-44fe-b755-3734e4fab944
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5e2af021f1c82063fcc0d4e4b5edf13c57cc6c72
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 18%
+source-wordcount: '85'
+ht-degree: 21%
 
 ---
 
@@ -36,37 +36,38 @@ Lista
 | listar | listDuration |
 | listar | listDateTime |
 | listar | listDateTimeOnly |
+| listar | listDateOnly |
 | índice | integer |
 
 ## Assinaturas e tipo retornado
 
 `getListItem(<listInteger>,<index>)`
 
-Retorna uma lista de números inteiros.
+Retorna um número inteiro.
 
 `getListItem(<listDecimal>,<index>)`
 
-Retorna uma lista de decimais.
+Retorna um decimal.
 
 `getListItem(<listString>,<index>)`
 
-Retorna uma lista de cadeias de caracteres.
+Retorna uma string.
 
 `getListItem(<listDateTimeOnly>,<index>)`
 
-Retorna uma lista de datetimes sem considerar o fuso horário.
+Retorna um datetime sem considerar o fuso horário.
 
 `getListItem(<listDateTime>,<index>)`
 
-Retorna uma lista de datetimes.
+Retorna um datetime.
 
 `getListItem(<listBoolean>,<index>)`
 
-Retorna uma lista de booleanos.
+Retorna um booleano.
 
 `getListItem(<listDuration>,<index>)`
 
-Retorna uma lista de durações.
+Retorna uma duração.
 
 ## Exemplo
 
@@ -74,7 +75,7 @@ Retorna uma lista de durações.
 
 Retorna &quot;2&quot;
 
-`getListItem(["A", "B", "C"], 3)`
+`getListItem(["A", "B", "C"], 2)`
 Retorna &quot;C&quot;
 
 Exemplos com um campo de evento &#39;event.appVersion&#39; com o valor: &quot;20.45.2.3434&quot;

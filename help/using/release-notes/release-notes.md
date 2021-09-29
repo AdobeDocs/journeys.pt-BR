@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: e71d641888caa9385d078d9c85e073b5f1ed743f
+source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 59%
+source-wordcount: '2965'
+ht-degree: 56%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 59%
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação mais recentes](../release-notes/documentation-updates.md).
+
+## Versão de setembro de 2021 {#september-2021-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Transmita listas de dados dinamicamente usando ações personalizadas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível enviar coleções ou uma lista de dados nos parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções: coleções simples e coleções de objetos. As ações personalizadas criadas anteriormente continuarão funcionando. </p>
+<p>Para obter mais informações sobre coleções, consulte a <a href="../usecase/collections.md">documentação detalhada</a>. </p>
+<p>As funções de filtro e interseção foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferece mais possibilidades para filtragem e comparação de coleção.</p>
+<p>Consulte a documentação nas funções <a href="../functions/functionfilter.md">filter</a> e <a href="../functions/functionintersect.md">intersett</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Melhorias
+
+* Os esquemas e conjuntos de dados gerados pelo sistema que foram criados durante o provisionamento para eventos da etapa agora estão no modo somente leitura, protegendo contra qualquer modificação inadvertida em esquemas críticos. [Saiba mais](../building-journeys/sharing-overview.md)
+* Rotule a atividade **Wait** com um rótulo que será exibido na tela. O rótulo também é usado em registros de relatórios e modos de teste para identificar claramente o que você está fazendo. [Saiba mais](../building-journeys/using-the-journey-designer.md)
+* Encontre seus eventos e ações mais rapidamente filtrando elementos nas categorias **Events** e **Action** usando pesquisa. As atividades de orquestração não são mais filtradas. [Saiba mais](../building-journeys/using-the-journey-designer.md)
+* Ao definir uma condição de ID de evento em uma regra baseada, o operador &quot;contains&quot; agora está disponível para tipos de cadeia de caracteres de campos. [Saiba mais](../event/about-creating.md)
 
 ## Versão de agosto de 2021 {#august-2021-release}
 
@@ -27,12 +54,12 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 * **Cabeçalhos dinâmicos**  - Agora é possível transmitir dados dinâmicos em parâmetros do cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais](../action/url-configuration.md)
 * **Caminhos de URL dinâmicos**  - agora você pode configurar caminhos de URL dinâmicos para ações personalizadas. [Leia mais](../action/url-configuration.md)
 
-## Versão de julho de 2021 {#july-2021-release}
+## Julho de 2021 Versão {#july-2021-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>Aproveitar relacionamentos de schema</strong><br/></th>
+<th><strong>Aproveitar relacionamentos de esquema</strong><br/></th>
 </tr>
 </thead>
 <tbody>
