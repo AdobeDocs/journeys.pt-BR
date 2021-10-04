@@ -4,9 +4,9 @@ solution: Journey Orchestration
 title: Envie coleções dinamicamente usando ações personalizadas
 description: Envio de uma mensagem usando o Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 5fa7df4f2e778c0b0fd31d81edab34e86ee40c47
+source-git-commit: 8225167c686112f737d2b6ca22237324a6189b09
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '434'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
    ![](../assets/uc-collection-4.png)
 
-No campo da matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos as funções [filter](https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functionfilter.md) e [intersett](https://git.corp.adobe.com/AdobeDocs/journeys.en/blob/fvi-21.9/help/using/functions/functiontintersect.md):
+No campo da matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos as funções [filter](../functions/functionfilter.md) e [intersett](../functions/functiontintersect.md):
 
 ![](../assets/uc-collection-5.png)
 
