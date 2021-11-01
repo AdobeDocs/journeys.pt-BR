@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: 5c3cc59d83b4b88c8ba9bde1bb8ea15a29e069be
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
    + [Notas de versão](using/release-notes/release-notes.md)
    + [Atualizações de documentação](using/release-notes/documentation-updates.md)
 + Primeiros passos com o [!DNL Journey Orchestration] {#starting-with-journeys}
-   + [Sobre [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
+   + [Sobre o  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitações](using/about/limitations.md)
    + [Introdução](using/about/get-started.md)
    + [Interface do usuário](using/about/user-interface.md)
@@ -145,7 +145,7 @@ ht-degree: 97%
       + Lista {#list}
          + [distinct](using/functions/functiondistinct.md)
          + [distinctWithNull](using/functions/functiondistinctwithnull.md)
-         + [filter](using/functions/functionfilter.md)
+         + [filtro](using/functions/functionfilter.md)
          + [getListItem](using/functions/functiongetlistitem.md)
          + [no](using/functions/functionin.md)
          + [interseção](using/functions/functionintersect.md)
