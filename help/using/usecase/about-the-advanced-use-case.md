@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Sobre o caso de uso avançado
 description: Saiba mais sobre o caso de uso avançado do jornada
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 5%
 
 ---
@@ -31,17 +31,17 @@ Em seguida, verificamos duas condições:
 
 * Se essa pessoa não for um membro do programa de fidelidade, enviamos um email para associar-se à oferta de associação de fidelidade.
 * Se essa pessoa já for um membro do programa de fidelidade, verificamos se ela tem uma reserva de quarto:
-   * Se não, enviamos uma notificação por push com as taxas do quarto.
-   * Se o fizer, enviamos-lhe uma notificação por push de boas-vindas. E se ele entrar no restaurante nas próximas 6 horas, enviamos uma notificação por push com desconto em uma refeição.
+   * Caso contrário, enviamos uma notificação por push com as taxas de sala.
+   * Se ele fizer isso, enviamos uma notificação por push de boas-vindas. E se ele entrar no restaurante nas próximas 6 horas, enviamos uma notificação por push com um desconto em uma refeição.
 
 ![](../assets/journeyuc2_29.png)
 
-Para esse caso de uso, precisaremos criar dois eventos (consulte [this page](../usecase/configuring-the-events.md)):
+Nesse caso de uso, será necessário criar dois eventos (consulte [esta página](../usecase/configuring-the-events.md)):
 
 * O evento de beacon do lobby que será enviado para o sistema quando um cliente entrar no hotel.
 * O evento de beacon do restaurante que será enviado quando um cliente entrar no restaurante.
 
-Precisaremos configurar uma conexão com duas fontes de dados (consulte [esta página](../usecase/configuring-the-data-sources.md)):
+Será necessário configurar uma conexão com duas fontes de dados (consulte [esta página](../usecase/configuring-the-data-sources.md)):
 
 * A fonte de dados integrada do Adobe Experience Platform, para recuperar as informações de nossas duas condições (associação de fidelidade e data do último contato), bem como as informações de personalização da mensagem.
 * O sistema de reservas do hotel, para recuperar as informações de status da reserva.

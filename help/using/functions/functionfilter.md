@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: filter
-description: Saiba mais sobre o criador de funções
+title: filtro
+description: Saiba mais sobre o filtro de função
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 19a4b7f8-5636-4b8f-b81f-28ff7da99671
-source-git-commit: 729ee71e063ae73c7c10f20bb3a410c43cb75faf
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 10%
 
 ---
 
-# filter{#filter}
+# filtro{#filter}
 
 Retorna um listObject com objetos com o atributo de chave correspondente a um dos valores de chave fornecidos.
 
@@ -57,7 +57,7 @@ Retorna um listObject.
 
 Este é um exemplo de uma carga transmitida em um evento de entrada &quot;myevent&quot;:
 
-```
+```json
 "productListItems": [{
    "id": "product1",
    "name": "the product 1",
@@ -75,10 +75,10 @@ Este é um exemplo de uma carga transmitida em um evento de entrada &quot;myeven
 
 Você pode usar a seguinte expressão:
 
-```
+```json
 filter(
  @{myevent.productListItems},
- id", 
+ "id", 
  ["product2", "product3", "product4"]
 )
 ```

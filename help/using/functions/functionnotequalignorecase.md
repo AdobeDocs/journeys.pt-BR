@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: notEqualWithIgnoreCase
-description: Saiba mais sobre a função notEqualWithIgnoreCase
-feature: Jornadas
+title: notEqualIgnoreCase
+description: Saiba mais sobre a função notEqualIgnoreCase
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d99601cf-2ba8-4150-afa7-df6b8af47bf6
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 21%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
-# notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
+# notEqualIgnoreCase {#notEqualIgnoreCase}
 
 Verifique se a primeira string de argumento com a segunda string de argumento é diferente, ignorando considerações de caso.
 
@@ -23,7 +23,7 @@ String
 
 ## Sintaxe da função
 
-`notEqualWithIgnoreCase(<parameters>)`
+`notEqualIgnoreCase(<parameters>)`
 
 ## Parâmetros
 
@@ -31,10 +31,10 @@ String
 
 ## Assinatura e tipo retornado
 
-`notEqualWithIgnoreCase(<string>,<string>)`
+`notEqualIgnoreCase(<string>,<string>)`
 
 Retorna um booleano.
 
 ## Exemplo
 
-`notEqualWithIgnoreCase(@{iOSPushPermissionAllowed.device.model}, "iPad"))`
+`notEqualIgnoreCase(@{iOSPushPermissionAllowed.device.model}, "iPad")`

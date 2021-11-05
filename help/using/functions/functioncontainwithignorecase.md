@@ -1,19 +1,19 @@
 ---
 product: adobe campaign
-title: containWithIgnoreCase
-description: Saiba mais sobre a função containWithIgnoreCase
-feature: Jornadas
+title: containIgnoreCase
+description: Saiba mais sobre a função containIgnoreCase
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ebec646e-9dbb-4432-a430-ab69fb7d75cf
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 24%
+source-wordcount: '48'
+ht-degree: 18%
 
 ---
 
-# containWithIgnoreCase {#containWithIgnoreCase}
+# containIgnoreCase {#containIgnoreCase}
 
 Verifica se a segunda string de argumento está contida na primeira string de argumento, sem considerar o caso.
 
@@ -23,7 +23,7 @@ String
 
 ## Sintaxe da função
 
-`containWithIgnoreCase(<parameters>)`
+`containIgnoreCase(<parameters>)`
 
 ## Parâmetros
 
@@ -34,12 +34,12 @@ String
 
 ## Assinatura e tipo retornado
 
-`containWithIgnoreCase(<string>,<string>)`
+`containIgnoreCase(<string>,<string>)`
 
 Retorna um booleano.
 
 ## Exemplo
 
-`containWithIgnoreCase("rowing is great', "GREAT")`
+`containIgnoreCase("rowing is great", "GREAT")`
 
 Retorna true.

@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: a60640f91e80becd2769d647b762ca2225f9e9b2
+source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
-source-wordcount: '2965'
-ht-degree: 56%
+source-wordcount: '3069'
+ht-degree: 54%
 
 ---
 
@@ -17,6 +17,30 @@ ht-degree: 56%
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação mais recentes](../release-notes/documentation-updates.md).
+
+## Versão de outubro de 2021 {#october-2021-release}
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Profile cap condition</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
+<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Melhorias
+
+* **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. [Saiba mais](../expression/field-references.md)
+* **Acessibilidade** - Foram implementadas melhorias de acessibilidade. O Journey Orchestration agora é totalmente compatível em termos de acessibilidade.
+* **Coleções** - Matrizes de objetos que contêm subobjetos agora são compatíveis. [Leia mais](../usecase/collections.md)
+* **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../building-journeys/sharing-field-list.md#serviceevents) foram adicionados relacionados a trabalhos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora são organizados em categorias diferentes no schema Evento de etapa de Jornada para Journey Orchestration. Todos os campos de eventos de etapa anteriores ainda estão disponíveis no [stepEvents](../building-journeys/sharing-legacy-fields.md) categoria .
 
 ## Versão de setembro de 2021 {#september-2021-release}
 
@@ -30,9 +54,9 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 <tr>
 <td>
 <p>Agora é possível enviar coleções ou uma lista de dados nos parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções: coleções simples e coleções de objetos. As ações personalizadas criadas anteriormente continuarão funcionando. </p>
-<p>Para obter mais informações sobre coleções, consulte a <a href="../usecase/collections.md">documentação detalhada</a>. </p>
+<p>Para obter mais informações sobre coleções, consulte <a href="../usecase/collections.md">documentação detalhada</a>. </p>
 <p>As funções de filtro e interseção foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferece mais possibilidades para filtragem e comparação de coleção.</p>
-<p>Consulte a documentação nas funções <a href="../functions/functionfilter.md">filter</a> e <a href="../functions/functionintersect.md">intersett</a>.</p>
+<p>Consulte a documentação no <a href="../functions/functionfilter.md">filter</a> e <a href="../functions/functionintersect.md">interseção</a> funções.</p>
 </td>
 </tr>
 </tbody>
@@ -41,8 +65,8 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 ### Melhorias
 
 * Os esquemas e conjuntos de dados gerados pelo sistema que foram criados durante o provisionamento para eventos da etapa agora estão no modo somente leitura, protegendo contra qualquer modificação inadvertida em esquemas críticos. [Saiba mais](../building-journeys/sharing-overview.md)
-* Rotule a atividade **Wait** com um rótulo que será exibido na tela. O rótulo também é usado em registros de relatórios e modos de teste para identificar claramente o que você está fazendo. [Saiba mais](../building-journeys/using-the-journey-designer.md)
-* Encontre seus eventos e ações mais rapidamente filtrando elementos nas categorias **Events** e **Action** usando pesquisa. As atividades de orquestração não são mais filtradas. [Saiba mais](../building-journeys/using-the-journey-designer.md)
+* Rotule claramente o **Aguardar** atividade com um rótulo que será exibido na tela. O rótulo também é usado em registros de relatórios e modos de teste para identificar claramente o que você está fazendo. [Saiba mais](../building-journeys/using-the-journey-designer.md)
+* Encontre seus eventos e ações mais rapidamente filtrando elementos no **Eventos** e **Ação** categorias usando pesquisa. As atividades de orquestração não são mais filtradas. [Saiba mais](../building-journeys/using-the-journey-designer.md)
 * Ao definir uma condição de ID de evento em uma regra baseada, o operador &quot;contains&quot; agora está disponível para tipos de cadeia de caracteres de campos. [Saiba mais](../event/about-creating.md)
 
 ## Versão de agosto de 2021 {#august-2021-release}
@@ -51,10 +75,10 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 
 **Jornadas**
 
-* **Cabeçalhos dinâmicos**  - Agora é possível transmitir dados dinâmicos em parâmetros do cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais](../action/url-configuration.md)
-* **Caminhos de URL dinâmicos**  - agora você pode configurar caminhos de URL dinâmicos para ações personalizadas. [Leia mais](../action/url-configuration.md)
+* **Cabeçalhos dinâmicos** - Agora é possível passar dados dinâmicos em parâmetros do cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais](../action/url-configuration.md)
+* **Caminhos dinâmicos do URL** - Agora você pode configurar caminhos dinâmicos de URL para ações personalizadas. [Leia mais](../action/url-configuration.md)
 
-## Julho de 2021 Versão {#july-2021-release}
+## Versão de julho de 2021 {#july-2021-release}
 
 <table>
 <thead>
@@ -75,7 +99,7 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 
 ### Melhorias
 
-* O campo **Cache duration** foi removido do painel de configuração da fonte de dados. [Leia mais](../datasource/about-data-sources.md)
+* O **Duração do cache** foi removido do painel de configuração da fonte de dados. [Leia mais](../datasource/about-data-sources.md)
 
 ## Versão de junho de 2021 {#june-2021-release}
 
@@ -107,16 +131,16 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 
 ### Melhorias
 
-* Na tela **Event configuration** do modo de teste, uma lista suspensa agora é exibida para campos que esperam uma enumeração. Basta selecionar um dos valores disponíveis. Isso evitará erros ao acionar o evento se um valor incorreto for definido. [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
+* No **Configuração do evento** no modo de teste, uma lista suspensa é exibida para campos que esperam uma enumeração. Basta selecionar um dos valores disponíveis. Isso evitará erros ao acionar o evento se um valor incorreto for definido. [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Versão de março de 2021 {#march-2021-release}
 
 ### Melhorias
 
-* Um novo status foi adicionado ao jornada. Quando uma jornada termina ou é fechada manualmente, seu status muda de **Closed** para **Finished** 30 dias após ter sido fechada. Isso permitirá identificar jornadas inativas com mais facilidade, garantindo que todos os indivíduos ainda presentes tenham tempo para concluir a jornada. [Leia mais](../building-journeys/journey.md#ending_a_journey)
-* Nos painéis à direita da atividade de jornadas de rascunho, os campos somente leitura agora estão ocultos por padrão. Essa simplificação da interface ajudará você a configurar suas atividades com mais facilidade. Para exibi-los, clique no ícone **Mostrar campos somente leitura**, disponível no canto superior esquerdo do painel de configuração da atividade. [Leia mais](../building-journeys/using-the-journey-designer.md#configuration_pane)
-* No modo de teste, na tela **Configuração do evento**, o campo **Chave** usado para definir a ID do perfil de teste foi renomeado para **Identificador de perfil** para obter uma melhor experiência do usuário. [Leia mais](../building-journeys/testing-the-journey.md).
-* Para eventos de reação, a duração do tempo limite só pode ser definida entre 40 segundos e 30 dias. Ao testar uma jornada que usa um evento de reação, o modo de teste **[!UICONTROL Wait time]** padrão e o valor mínimo agora são 40 segundos. [Leia mais](../building-journeys/reaction-events.md).
+* Um novo status foi adicionado ao jornada. Quando uma jornada termina ou é fechada manualmente, seu status muda de **Fechado** para **Concluído** 30 dias após o seu encerramento. Isso permitirá identificar jornadas inativas com mais facilidade, garantindo que todos os indivíduos ainda presentes tenham tempo para concluir a jornada. [Leia mais](../building-journeys/journey.md#ending_a_journey)
+* Nos painéis à direita da atividade de jornadas de rascunho, os campos somente leitura agora estão ocultos por padrão. Essa simplificação da interface ajudará você a configurar suas atividades com mais facilidade. Para exibi-las, clique no botão **Mostrar campos somente leitura** ícone , disponível no canto superior esquerdo do painel de configuração da atividade. [Leia mais](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* No modo de teste, no **Configuração do evento** , a **Chave** o campo usado para definir a ID do perfil de teste foi renomeado **Identificador de perfil** para uma melhor experiência do usuário. [Leia mais](../building-journeys/testing-the-journey.md).
+* Para eventos de reação, a duração do tempo limite só pode ser definida entre 40 segundos e 30 dias. Ao testar uma jornada que usa um evento de reação, o modo de teste **[!UICONTROL Wait time]** o valor padrão e mínimo agora é de 40 segundos. [Leia mais](../building-journeys/reaction-events.md).
 
 ## Versão de fevereiro de 2021 {#february-2021-release}
 
@@ -141,7 +165,7 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 * Agora, ao configurar um evento, somente os campos obrigatórios para a validação XDM são pré-selecionados por padrão. Esses campos não podem ser desmarcados.
 * Na paleta jornada, um novo filtro foi adicionado. Ela permite exibir apenas os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos. [Leia mais](../building-journeys/using-the-journey-designer.md#palette)
 * Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa agora ficam ocultos. Isso se refere a todas as ações, à atividade de condição, à espera e à reação.
-* Na parte esquerda do editor de expressão avançado, as funções agora são reagrupadas em uma seção **Funções** no final da lista.
+* Na parte esquerda do editor de expressão avançado, as funções agora são reagrupadas em um **Funções** no final da lista.
 
 ## Versão de janeiro de 2021 {#january-2021-release}
 
@@ -155,7 +179,7 @@ Para se alinhar aos SLAs do Adobe Campaign Standard, uma regra de limitação de
 
 A duração do tempo limite do evento agora é especificada mais claramente no caminho de tempo limite. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-As funções [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferecerá mais possibilidades em seus casos de uso de cálculo de string.
+O [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) As funções do foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferecerá mais possibilidades em seus casos de uso de cálculo de string.
 
 ## Versão de novembro de 2020 {#november-release}
 
@@ -168,7 +192,7 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 <tbody>
 <tr>
 <td>
-<p>Uma nova atividade de ação permite enviar indivíduos de uma jornada para outra. A atividade <strong>Jump</strong> permite:
+<p>Uma nova atividade de ação permite enviar indivíduos de uma jornada para outra. O <strong>Salto</strong> permite:
 </p>
 <ul>
 <li>simplificar o design de jornadas muito complexas dividindo-as em várias </li>
@@ -217,7 +241,7 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [split](../fun
 
 Foram adicionadas limitações ao criar novas versões de uma jornada. Essas limitações evitam alterações muito drásticas na jornada para manter alguma consistência entre as versões. [Leia mais](../about/limitations.md#journey-versions-limitations)
 
-A atividade **Segment Qualification** não pode mais ser usada em uma jornada que inclui atividades de mensagem de Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso de qualificação de segmento pode levar a picos diários de envio de mensagem que sobrecarregariam as mensagens transacionais do Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
+O **Qualificação do segmento** não pode mais ser usada em uma jornada que inclui atividades de mensagem de Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso de qualificação de segmento pode levar a picos diários de envio de mensagem que sobrecarregariam as mensagens transacionais do Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
 
 ## Versão de outubro de 2020 {#october-release}
 
@@ -274,7 +298,7 @@ A atividade **Segment Qualification** não pode mais ser usada em uma jornada qu
 <tbody>
 <tr>
 <td>
-<p>As seguintes melhorias foram feitas na atividade <strong>Read segment</strong> :
+<p>Foram efetuadas as seguintes melhorias no <strong>Ler segmento</strong> atividade :
 </p>
 <ul>
 <li><p>Jornadas baseadas em segmentos agora exibem, acima da tela, um lembrete do tipo de agendamento da jornada. Você pode clicar nesse lembrete para acessar o menu de configuração do agendamento.</p>

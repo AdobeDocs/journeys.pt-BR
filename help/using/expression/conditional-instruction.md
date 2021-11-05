@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Instrução condicional (if, then, else)
 description: Saiba mais sobre instrução condicional
-feature: Jornadas
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 48fb4944-5b78-4ccd-9b9b-ffe0719e7c21
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 9c33474a72542b6ad1d1ae0854622dfd7575f2d9
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ A instrução condicional (if, then, else) é compatível no editor avançado. E
 >
 >Os parênteses são necessários em todas as expressões.
 
-```
+```json
 if  (<expression1>)
 then
    (<expression2>)
@@ -33,11 +33,11 @@ else
    (<expression3>)
 ```
 
-`<expression1>` deve retornar um  **booleano**.
+`<expression1>` deve retornar um **booleano**.
 
-`<expression2>` e  `<expression3>` devem ter o mesmo tipo ou tipos compatíveis. As assinaturas compatíveis e os tipos retornados são:
+`<expression2>` e `<expression3>` deve ter o mesmo tipo ou tipos compatíveis. As assinaturas compatíveis e os tipos retornados são:
 
-```
+```json
 boolean,boolean : boolean
 dateTime,dateTime : dateTime
 dateTimeOnly,dateTimeOnly : dateTimeOnly
@@ -49,6 +49,7 @@ string,string : string
 listBoolean,listBoolean : listBoolean
 listDateTime,listDateTime : listDateTime
 listDateTimeOnly,listDateTimeOnly : listDateTimeOnly
+listDateOnly,listDateOnly : listDateOnly
 listDecimal,listDecimal : listDecimal
 listInteger,listInteger : listInteger
 listString,listString : listString
@@ -60,7 +61,7 @@ A instrução condicional permite otimizar o workflow do jornada, reduzindo o n�
 
 Exemplo para uma atividade de ação (para um campo que espera uma string como resultado da instrução condicional):
 
-```
+```json
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
 then
    ('apns')

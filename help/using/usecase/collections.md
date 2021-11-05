@@ -1,12 +1,12 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Envie coleções dinamicamente usando ações personalizadas
+title: Pass collections dynamically using custom actions
 description: Envio de uma mensagem usando o Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: ded8f65e7210c252f59ec26150daaa964c7a6a77
+source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '424'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Envie coleções dinamicamente usando ações personalizadas{#passing-collection}
 
-Você pode passar uma coleção em parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções:
+You can pass a collection in custom action parameters that will be dynamically populated at runtime. Há suporte para dois tipos de coleções:
 
 * coleções simples: arrays de tipos de dados simples, por exemplo, com uma listString:
 
@@ -53,23 +53,6 @@ Você pode passar uma coleção em parâmetros de ação personalizados que ser�
 
 ## Limitações {#limitations}
 
-* Matrizes de objetos que contêm subobjetos não são compatíveis. Por exemplo:
-
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "details": {
-        "color":"blue"
-        },
-        "price":20.0
-     }
-    ]
-   }
-   ```
-
 * Matrizes aninhadas de objetos em uma matriz de objetos não são compatíveis no momento. Por exemplo:
 
    ```
@@ -84,7 +67,7 @@ Você pode passar uma coleção em parâmetros de ação personalizados que ser�
     ]
    }
    ```
-* Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. O modo de visualização de código não é compatível com eventos comerciais no momento. Você só pode enviar uma coleção com um único elemento.
+* Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. O modo de visualização de código não é compatível com eventos comerciais no momento. You can only send a collection with a single element.
 
 ## Procedimento geral {#general-procedure}
 
@@ -114,21 +97,21 @@ Nesta seção, usaremos o seguinte exemplo de carga JSON. Esta é uma matriz de 
 }
 ```
 
-Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você precisa ter pelo menos um objeto.
+You can see that &quot;products&quot; is an array of two objects. Você precisa ter pelo menos um objeto.
 
 1. Crie sua ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. Na seção **[!UICONTROL Action parameters]**, cole o exemplo JSON. A estrutura exibida é estática: ao colar a carga útil, todos os campos são definidos como constantes.
+1. In the **[!UICONTROL Action parameters]** section, paste the JSON example. The displayed structure is static: when pasting the payload, all fields are defined as constants.
 
    ![](../assets/uc-collection-1.png)
 
-1. Se necessário, ajuste os tipos de campo. Os seguintes tipos de campo são suportados para coleções: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObjectListObject
+1. Se necessário, ajuste os tipos de campo. The following field types are supported for collections: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
    >[!NOTE]
    >
-   >O tipo de campo é automaticamente inferido de acordo com o exemplo de carga útil.
+   >The field type is automatically inferred according to the payload example.
 
-1. Se você deseja transmitir objetos dinamicamente, é necessário defini-los como variáveis. Neste exemplo, definimos &quot;produtos&quot; como variável. Todos os campos de objeto incluídos no objeto são definidos como variáveis automaticamente.
+1. If you want to pass objects dynamically, you need to set them as variables. In this example we set &quot;products&quot; as variable. Todos os campos de objeto incluídos no objeto são definidos como variáveis automaticamente.
 
    >[!NOTE]
    >
@@ -140,7 +123,7 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
 1. Crie sua jornada e adicione a ação personalizada criada. Consulte [esta página](../building-journeys/using-custom-actions.md).
 
-1. Na seção **[!UICONTROL Action parameters]** , defina o parâmetro de matriz (&quot;products&quot; em nosso exemplo) usando o editor de expressão avançado.
+1. No **[!UICONTROL Action parameters]** , defina o parâmetro de matriz (&quot;products&quot; no nosso exemplo) usando o editor de expressão avançado.
 
    ![](../assets/uc-collection-3.png)
 
@@ -148,13 +131,13 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
    ![](../assets/uc-collection-4.png)
 
-No campo da matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos as funções [filter](../functions/functionfilter.md) e [intersett](../functions/functionintersect.md):
+No campo da matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos o [filter](../functions/functionfilter.md) e [interseção](../functions/functionintersect.md) funções:
 
 ![](../assets/uc-collection-5.png)
 
 ## Casos particulares{#examples}
 
-Para tipos heterogêneos e matrizes de matrizes, a matriz é definida com o tipo listAny . Você só pode mapear itens individuais, mas não pode alterar a matriz para a variável.
+For heterogeneous types and arrays of arrays, the array is defined with the listAny type. Você só pode mapear itens individuais, mas não pode alterar a matriz para a variável.
 
 ![](../assets/uc-collection-heterogeneous.png)
 
@@ -187,4 +170,4 @@ Exemplo de matriz de arrays:
 
 **Tópicos relacionados**
 
-[Usar ações personalizadas](../building-journeys/using-custom-actions.md)
+[Use custom actions](../building-journeys/using-custom-actions.md)

@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Referências de campo
 description: Saiba mais sobre referências de campo em expressões avançadas
-feature: Jornadas
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: e4a003656058ac7ae6706e22fd5162c9e875629a
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 4%
+source-wordcount: '524'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Uma referência de campo pode ser anexada a um evento ou grupo de campos. As únicas informações significativas são o nome do campo e seu caminho.
 
-Se você estiver usando caracteres especiais em um campo, precisará usar aspas duplas ou aspas simples. Estes são os casos em que as aspas são necessárias:
+Se você estiver usando caracteres especiais em um campo, precisará usar aspas duplas ou aspas simples. Here are the cases when quotes are needed:
 
 * o campo começa com caracteres numéricos
 * o campo começa com o caractere &quot;-&quot;
@@ -25,7 +25,7 @@ Se você estiver usando caracteres especiais em um campo, precisará usar aspas 
 
 Por exemplo, se o campo for _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id}
@@ -35,15 +35,15 @@ Por exemplo, se o campo for _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} 
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-Na expressão, os campos de evento são referenciados com &quot;@&quot; e os campos da fonte de dados são referenciados com &quot;#&quot;.
+In the expression, event fields are referenced with &quot;@&quot; and data source fields are referenced with &quot;#&quot;.
 
 Uma cor de sintaxe é usada para distinguir visualmente os campos de eventos (verde) dos grupos de campos (azul).
 
-**Valores padrão para referências de campo**
+## Valores padrão para referências de campo
 
 Um valor padrão pode ser associado a um nome de campo. A sintaxe é a seguinte:
 
-```
+```json
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
@@ -54,11 +54,11 @@ Um valor padrão pode ser associado a um nome de campo. A sintaxe é a seguinte:
 
 >[!NOTE]
 >
->O tipo do campo e o valor padrão devem ser iguais. Por exemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} será inválido porque o valor padrão é um número inteiro, enquanto o valor esperado deve ser uma cadeia de caracteres.
+>O tipo do campo e o valor padrão devem ser iguais. For example, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} será inválido porque o valor padrão é um número inteiro, enquanto o valor esperado deve ser uma cadeia de caracteres.
 
 Exemplos:
 
-```
+```json
 // for an event 'OrderEvent' having the following payload:
 {
     "orderId": "12345"
@@ -88,31 +88,55 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-**Referência de um campo em coleções**
+## Reference to a field within collections
 
-Os elementos definidos nas coleções são referenciados usando as funções específicas primeiro e último. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
+The elements defined within collections are referenced using the specific functions `all`, `first` and `last`. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
 Exemplo :
 
-```
+```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
-**Referência de um campo definido em um mapa**
+## Referência a um campo definido em um mapa
+
+### Função `entry` 
 
 Para recuperar um elemento em um mapa, usamos a função de entrada com uma determinada chave. Por exemplo, ele é usado ao definir a chave de um evento, de acordo com o namespace selecionado. Consulte Seleção do namespace. Para obter mais informações, consulte [esta página](../event/selecting-the-namespace.md).
 
-```
+```json
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Nesta expressão, estamos obtendo a entrada da chave &#39;Email&#39; do campo &#39;IdentityMap&#39; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual tiramos o &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
+Nesta expressão, estamos obtendo a entrada da chave &#39;Email&#39; do campo &#39;IdentityMap&#39; de um evento. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [this page](../expression/collection-management-functions.md).
 
-**Valores de parâmetros de uma fonte de dados (valores dinâmicos da fonte de dados)**
+### Função `firstEntryKey` 
+
+Para recuperar a primeira chave de entrada de um mapa, use o `firstEntryKey` .
+
+Este exemplo mostra como recuperar o primeiro endereço de email dos assinantes de uma lista específica:
+
+```json
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
+```
+
+Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Email addresses are defined as keys in the `subscribers` map, which is linked to the subscription list map.
+
+### Função `keys` 
+
+Para recuperar todas as chaves de um mapa, use o `keys` .
+
+Este exemplo mostra como recuperar, para um perfil específico, todos os endereços de email associados aos assinantes de uma lista específica:
+
+```json
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
+```
+
+## Valores de parâmetros de uma fonte de dados (valores dinâmicos da fonte de dados)
 
 Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado, uma nova guia será exibida à direita para permitir que você especifique esse parâmetro. Consulte [esta página](../expression/expressionadvanced.md).
 
-Para casos de uso mais complexos, se você quiser incluir os parâmetros da fonte de dados na expressão principal, poderá definir seus valores usando a palavra-chave _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclui outro parâmetro.
+Para casos de uso mais complexos, se você quiser incluir os parâmetros da fonte de dados na expressão principal, poderá definir seus valores usando a palavra-chave _params_. A parameter can be any valid expression even from another data source that also includes another parameter.
 
 >[!NOTE]
 >
@@ -120,7 +144,7 @@ Para casos de uso mais complexos, se você quiser incluir os parâmetros da font
 
 Use a seguinte sintaxe:
 
-```
+```json
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
@@ -129,7 +153,7 @@ Use a seguinte sintaxe:
 
 Exemplo:
 
-```
+```json
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
 ```

@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
-source-git-commit: 0b4d925410e1ab4895f27455eb082dd9cc305cff
+source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 74%
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 Uma função pode ter assinaturas diferentes (um conjunto diferente de parâmetros ordenados). Uma assinatura de função pode ter expressões 0-N como parâmetros ordenados.
 
-`<function name>`(`<expression as param 1>`,  `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
 Cada função tem um tipo específico retornado.
 
@@ -60,7 +60,7 @@ Esta é a lista de funções suportadas.
 | Data  | [setDays](../functions/functionsetdays.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Lista | [filter](../functions/functionfilter.md) |
+| Lista | [filtro](../functions/functionfilter.md) |
 | Lista | [getListItem](../functions/functiongetlistitem.md) |
 | Lista | [no](../functions/functionin.md) |
 | Lista | [interseção](../functions/functionintersect.md) |
@@ -71,10 +71,10 @@ Esta é a lista de funções suportadas.
 | Matemática | [round](../functions/functionround.md) |
 | String | [concat](../functions/functionconcat.md) |
 | String | [contain](../functions/functioncontain.md) |
-| String | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| String | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
 | String | [endWith](../functions/functionendwith.md) |
 | String | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| String | [equalWithIgnoreCase](../functions/functionequalignorecase.md) |
+| String | [equalIgnoreCase](../functions/functionequalignorecase.md) |
 | String | [indexOf](../functions/functionindexof.md) |
 | String | [isEmpty](../functions/functionisempty.md) |
 | String | [isNotEmpty](../functions/functionisnotempty.md) |
@@ -82,7 +82,7 @@ Esta é a lista de funções suportadas.
 | String | [comprimento](../functions/functionlength.md) |
 | String | [lower](../functions/functionlower.md) |
 | String | [matchRegExp](../functions/functionmatchregexp.md) |
-| String | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md) |
+| String | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | String | [replace](../functions/functionreplace.md) |
 | String | [replaceAll](../functions/functionreplaceall.md) |
 | String | [startWith](../functions/functionstartwith.md) |
