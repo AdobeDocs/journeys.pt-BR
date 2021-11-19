@@ -2,20 +2,20 @@
 product: adobe campaign
 title: Sobre o editor de expressão avançado
 description: Saiba como criar expressões avançadas
-feature: Jornadas
+feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 90%
+source-wordcount: '550'
+ht-degree: 85%
 
 ---
 
 # Sobre o editor de expressão avançado {#concept_uyj_trt_52b}
 
-O editor de expressão avançado permite criar expressões avançadas em várias telas da interface, por exemplo, ao definir uma condição de fonte de dados.
+Use o editor de expressão avançado para criar expressões avançadas em várias telas da interface. Por exemplo, você pode criar expressões ao configurar e usar jornadas e ao definir uma condição de fonte de dados.
 Ele também está disponível sempre que for necessário definir parâmetros de ação que exijam manipulações de dados específicos. Você pode usar os dados provenientes dos eventos ou informações adicionais recuperadas da fonte de dados. Em uma jornada, a lista exibida de campos de evento é contextual e varia de acordo com os eventos adicionados na jornada.
 
 O editor de expressão avançado oferece um conjunto de funções e operadores integrados, permitindo manipular valores e definir uma expressão que se ajuste especificamente às suas necessidades. O editor de expressão avançado também permite definir os valores do parâmetro de fonte de dados externa, manipular campos de mapa e coleções, como eventos de experiência.
@@ -58,7 +58,7 @@ Nesta tela você pode escrever manualmente a expressão.
 Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
 * **[!UICONTROL Events]**: escolha um dos campos recebidos a partir do evento de entrada. A lista exibida dos campos do evento é contextual e varia de acordo com os eventos adicionados na jornada. [Leia mais](../event/about-events.md)
-* **[!UICONTROL Segments]**: se soltou um  **[!UICONTROL Segment qualification]** evento, escolha o segmento que deseja usar na expressão. [Leia mais](../segment/using-a-segment.md)
+* **[!UICONTROL Segments]**: se tiver deixado cair uma **[!UICONTROL Segment qualification]** , escolha o segmento que deseja usar na expressão. [Leia mais](../segment/using-a-segment.md)
 * **[!UICONTROL Data Sources]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Leia mais](../datasource/about-data-sources.md)
 * **[!UICONTROL Journey properties]**: esta seção agrupa os campos técnicos relacionados à jornada de um determinado perfil. [Leia mais](../expression/journey-properties.md)
 * **[!UICONTROL Functions]**: escolha entre uma lista de funções integradas que permitem fazer uma filtragem complexa. As funções são organizadas por categorias. [Leia mais](../expression/functions.md)

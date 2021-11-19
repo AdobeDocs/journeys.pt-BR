@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: 601bed30d3c414f03c60ef52c787372e778dee54
+source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
@@ -30,7 +30,7 @@ Os eventos de experiência são recuperados do Adobe Experience Platform como um
 * a primeira função retornará o evento mais recente
 * a última função retornará a mais antiga.
 
-Por exemplo, digamos que você queira direcionar os clientes com um abandono de carrinho nos últimos 7 dias para enviar uma mensagem quando o cliente estiver se aproximando de uma loja, com uma oferta sobre itens que ele queria que estivessem na loja.
+Por exemplo, digamos que você queira direcionar os clientes com um abandono de carrinho nos últimos 7 dias para enviar uma mensagem quando o cliente estiver se aproximando de uma loja, com uma oferta sobre itens que queriam que estivessem na loja.
 
 **Você precisa criar as seguintes condições:**
 
@@ -127,15 +127,20 @@ O mesmo query com `Is sensitive` desmarcado gerará a seguinte expressão no mod
 A seguinte expressão permite definir a ID do CRM em um campo de personalização de ação:
 
 ```json
-    substr(@{MobileAppLaunch
-            ._myorganization
-            .identification
-            .crmid}, 1, 
-            lastIndexOf(@{MobileAppLaunch
-                        ._myorganization
-                        .identification
-                        .crmid}
-                         ))
+substr(
+   @{MobileAppLaunch
+   ._myorganization
+   .identification
+   .crmid},
+   1, 
+   lastIndexOf(
+     @{MobileAppLaunch
+     ._myorganization
+     .identification
+     .crmid},
+     '}'
+   )
+)
 ```
 
 Explicação: Esse exemplo usa `substr` e `lastIndexOf` para remover chaves que encerram a ID do CRM transmitida com um evento de inicialização de aplicativo móvel.
