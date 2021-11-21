@@ -2,13 +2,13 @@
 product: adobe campaign
 title: campos de execução de ação de eventos journeyStep
 description: campos de execução de ação de eventos journeyStep
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9af66037-63d7-41a8-86d1-b03c655dfb82
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '320'
 ht-degree: 13%
 
 ---

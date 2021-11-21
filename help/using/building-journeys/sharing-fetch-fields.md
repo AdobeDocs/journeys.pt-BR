@@ -2,13 +2,13 @@
 product: adobe campaign
 title: campos de busca de dados de eventos journeyStep
 description: campos de busca de dados de eventos journeyStep
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4df471ae-c6b7-452e-8e44-a108d0da276f
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ Tipo: sequência de caracteres
 
 ## fetchOriginErrorCode
 
-O código de erro fornecido pelo sistema [!DNL Journey Orchestration] está consultando. Por exemplo, pode ser 404, 500 etc.
+O código de erro fornecido pelo sistema [!DNL Journey Orchestration] O está consultando o . Por exemplo, pode ser 404, 500 etc.
 
 Tipo: sequência de caracteres
 
@@ -99,7 +99,7 @@ Tipo: long
 
 ## fetchCustomTotalTime
 
-Quantidade de tempo para buscar os dados personalizados em millis. Observação: esse período é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento ao serviço de enriquecimento e recebe a resposta
+Quantidade de tempo para buscar os dados personalizados em millis. Observação: esse período é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento para o serviço de enriquecimento e recebe a resposta
 
 Tipo: long
 

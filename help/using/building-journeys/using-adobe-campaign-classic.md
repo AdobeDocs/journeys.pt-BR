@@ -3,14 +3,14 @@ product: adobe campaign
 solution: Journey Orchestration
 title: Uso de ações do Adobe Campaign v7/v8
 description: Saiba mais sobre as ações do Adobe Campaign v7/v8
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 18%
+source-wordcount: '164'
+ht-degree: 17%
 
 ---
 
@@ -24,8 +24,8 @@ Para que isso funcione, é necessário configurar uma ação dedicada. Consulte 
 
 Um caso de uso completo é apresentado nesta [seção](../usecase/campaign-classic-use-case.md).
 
-1. Projete a jornada, começando por um evento. Consulte esta [seção](../building-journeys/journey.md).
-1. Na seção **Action** da paleta, selecione uma ação Campanha e adicione-a à jornada.
-1. Nos **Action parameters**, todos os campos esperados na carga da mensagem são exibidos. Você precisa mapear cada um desses campos com o campo que deseja usar, do evento ou da fonte de dados. Isso é semelhante às ações personalizadas. Consulte esta [seção](../building-journeys/using-custom-actions.md).
+1. Projete a jornada, começando por um evento. Veja isso [seção](../building-journeys/journey.md).
+1. No **Ação** da paleta, selecione uma ação Campanha e adicione-a à jornada.
+1. No **Parâmetros de ação**, todos os campos esperados no payload da mensagem são exibidos. Você precisa mapear cada um desses campos com o campo que deseja usar, do evento ou da fonte de dados. Isso é semelhante às ações personalizadas. Consulte esta [seção](../building-journeys/using-custom-actions.md).
 
 ![](../assets/accintegration2.png)

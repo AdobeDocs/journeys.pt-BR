@@ -8,7 +8,7 @@ exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: e758d4430bb28c109633c96e330b56ad08a61c02
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -70,7 +70,7 @@ O resultado deve ser maior que 0. Esse query retorna o número exato de vezes qu
 
 ### Localizar se um perfil recebeu uma mensagem específica
 
-**Método 1:** se o nome da sua mensagem não for exclusivo na jornada (ela será usada em vários lugares).
+**Método 1:** se o nome da mensagem não for exclusivo na jornada (será usado em vários lugares).
 
 _Consulta Data Lake_
 

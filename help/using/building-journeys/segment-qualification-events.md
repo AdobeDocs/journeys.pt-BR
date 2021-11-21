@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Eventos de qualificação de segmento
 description: Saiba mais sobre eventos de qualificação de segmento
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## Sobre eventos de qualificação de segmento{#about-segment-qualification}
 
-Essa atividade permite que sua jornada escute as entradas e saídas dos perfis nos segmentos do Adobe Experience Platform para fazer com que os indivíduos entrem ou avancem em uma jornada. Para obter mais informações sobre a criação de segmentos, consulte esta [seção](../segment/about-segments.md).
+Essa atividade permite que sua jornada escute as entradas e saídas dos perfis nos segmentos do Adobe Experience Platform para fazer com que os indivíduos entrem ou avancem em uma jornada. Para obter mais informações sobre a criação de segmentos, consulte esta seção [seção](../segment/about-segments.md).
 
 Digamos que você tenha um segmento de &quot;cliente prateado&quot;. Com essa atividade, você pode fazer com que todos os novos clientes de prata insiram uma jornada e enviem uma série de mensagens personalizadas.
 
@@ -25,18 +25,18 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 
 >[!IMPORTANT]
 >
->Lembre-se de que os segmentos do Adobe Experience Platform são calculados uma vez por dia (**segmentos batch**) ou em segmentos em tempo real (**transmitidos**, usando a opção Públicos de alta frequência do Adobe Experience Platform).
+>Lembre-se de que os segmentos do Adobe Experience Platform são calculados uma vez por dia (**lote** segmentos) ou em tempo real (**transmitido** segmentos, usando a opção Públicos de alta frequência do Adobe Experience Platform).
 >
 >Se o segmento selecionado for transmitido, os indivíduos pertencentes a esse segmento potencialmente entrarão na jornada em tempo real. Se o segmento for em lote, as pessoas recém-qualificadas para esse segmento potencialmente inserirão a jornada quando o cálculo de segmentos for executado na Adobe Experience Platform.
 
 
-1. Expanda a categoria **[!UICONTROL Events]** e solte uma atividade **[!UICONTROL Segment qualification]** na tela.
+1. Expanda a **[!UICONTROL Events]** categoria e solte uma **[!UICONTROL Segment qualification]** atividade na tela.
 
    ![](../assets/segment5.png)
 
-1. Adicione um **[!UICONTROL Label]** à atividade. Esta etapa é opcional.
+1. Adicione um **[!UICONTROL Label]** à atividade . Esta etapa é opcional.
 
-1. Clique em no campo **[!UICONTROL Segment]** e selecione os segmentos que deseja aproveitar.
+1. Clique no botão **[!UICONTROL Segment]** e selecione os segmentos que deseja aproveitar.
 
    >[!NOTE]
    >
@@ -44,17 +44,17 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posterior na j
 
    ![](../assets/segment6.png)
 
-   Depois que o segmento é adicionado, o botão **[!UICONTROL Copy]** permite copiar o nome e a ID:
+   Depois que o segmento é adicionado, a variável **[!UICONTROL Copy]** permite copiar o nome e a ID:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-copy.png)
 
-1. No campo **[!UICONTROL Behaviour]** , escolha se deseja ouvir as entradas do segmento, as saídas ou ambos.
+1. No **[!UICONTROL Behaviour]** escolha se deseja acompanhar as entradas do segmento, as saídas ou ambos.
 
    >[!NOTE]
    >
-   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem aos status de participação do segmento **Realizado** e **Saído** do Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Observe que **[!UICONTROL Enter]** e **[!UICONTROL Exit]** correspondem à **Realizado** e **Saída** status de participação do segmento da Adobe Experience Platform. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 1. Selecione um namespace. Isso só será necessário se o evento for posicionado como a primeira etapa da jornada.
 
@@ -66,7 +66,7 @@ A carga contém as seguintes informações de contexto, que podem ser usadas em 
 * o carimbo de data e hora da qualificação
 * a id do segmento
 
-Ao usar o editor de expressão em uma condição ou ação que segue uma atividade **[!UICONTROL Segment qualification]**, você tem acesso ao nó **[!UICONTROL SegmentQualification]**. Você pode escolher entre **[!UICONTROL Last qualification time]** e **[!UICONTROL status]** (inserir ou sair).
+Ao usar o editor de expressão em uma condição ou ação que siga um **[!UICONTROL Segment qualification]** você tem acesso à atividade **[!UICONTROL SegmentQualification]** nó . Você pode escolher entre a variável **[!UICONTROL Last qualification time]** e **[!UICONTROL status]** (entrar ou sair).
 
 Consulte [Atividade de condição](../building-journeys/condition-activity.md#about_condition).
 
@@ -76,7 +76,7 @@ Uma nova jornada que inclui um evento de qualificação de segmento é operacion
 
 ## Práticas recomendadas {#best-practices-segments}
 
-A atividade **[!UICONTROL Segment Qualification]** permite a entrada imediata em jornadas de indivíduos que se qualificam ou se desqualificam de um segmento do Adobe Experience Platform.
+O **[!UICONTROL Segment Qualification]** atividade permite a entrada imediata em jornadas de indivíduos que se qualificam ou se desqualificam de um segmento do Adobe Experience Platform.
 
 A velocidade de recepção dessas informações é alta. As medições efetuadas mostram uma velocidade de 10 000 eventos recebidos por segundos. Como resultado, você deve entender como os picos de entrada podem ocorrer, como evitá-los e como preparar sua jornada para eles.
 
@@ -90,18 +90,18 @@ Além disso, se o segmento de lote for recém-criado e usado imediatamente em um
 
 Ao usar a qualificação de segmento para segmentos dinamizados, há menos risco de obter grandes picos de entradas/saídas devido à avaliação contínua do segmento. Ainda assim, se a definição do segmento levar a que um grande volume de clientes se qualifique ao mesmo tempo, também pode haver um pico.
 
-Para obter mais informações sobre a segmentação de transmissão, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Para obter mais informações sobre a segmentação de streaming, consulte esta seção [página](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Como evitar sobrecargas{#overloads-speed-segment-qualification}
 
 Estas são algumas práticas recomendadas que ajudarão a evitar sobrecarga de sistemas aproveitados no jornada (fontes de dados, ações personalizadas, ações do Adobe Campaign Standard).
 
-Não use, em uma atividade **[!UICONTROL Segment Qualification]**, um segmento de lote imediatamente após sua criação. Ele evitará o primeiro pico de cálculo. Observe que haverá um aviso amarelo na tela de jornada se você estiver prestes a usar um segmento que nunca foi calculado.
+Não use em **[!UICONTROL Segment Qualification]** , um segmento de lote imediatamente após sua criação. Ele evitará o primeiro pico de cálculo. Observe que haverá um aviso amarelo na tela de jornada se você estiver prestes a usar um segmento que nunca foi calculado.
 
 ![](../assets/segment-error.png)
 
-Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarregá-las (consulte esta [seção](../api/capping.md)). Observe que a regra de limitação não tem nenhuma tentativa. Se precisar tentar novamente, use um caminho alternativo na jornada, marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]** em condições ou ações.
+Coloque uma regra de limitação para fontes de dados e ações usadas em jornadas para evitar sobrecarregá-las (consulte esta seção) [seção](../api/capping.md)). Observe que a regra de limitação não tem nenhuma tentativa. Se precisar tentar novamente, use um caminho alternativo na jornada marcando a caixa **[!UICONTROL Add an alternative path in case of a timeout or an error]** em condições ou ações.
 
-Antes de usar o segmento em uma jornada de produção, sempre avalie primeiro o volume de indivíduos qualificados para esse segmento a cada dia. Para fazer isso, você pode verificar a seção **[!UICONTROL Segments]** no Adobe Experience Platform e examinar o gráfico no lado direito.
+Antes de usar o segmento em uma jornada de produção, sempre avalie primeiro o volume de indivíduos qualificados para esse segmento a cada dia. Para fazer isso, você pode verificar a variável **[!UICONTROL Segments]** na Adobe Experience Platform e observe o gráfico no lado direito.
 
 ![](../assets/segment-overload.png)

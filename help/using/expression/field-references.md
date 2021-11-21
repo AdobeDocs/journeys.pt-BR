@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Uma referência de campo pode ser anexada a um evento ou grupo de campos. As únicas informações significativas são o nome do campo e seu caminho.
 
-Se você estiver usando caracteres especiais em um campo, precisará usar aspas duplas ou aspas simples. Here are the cases when quotes are needed:
+Se você estiver usando caracteres especiais em um campo, precisará usar aspas duplas ou aspas simples. Estes são os casos em que as aspas são necessárias:
 
 * o campo começa com caracteres numéricos
 * o campo começa com o caractere &quot;-&quot;
@@ -35,7 +35,7 @@ Por exemplo, se o campo for _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} 
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-In the expression, event fields are referenced with &quot;@&quot; and data source fields are referenced with &quot;#&quot;.
+Na expressão, os campos de evento são referenciados com &quot;@&quot; e os campos da fonte de dados são referenciados com &quot;#&quot;.
 
 Uma cor de sintaxe é usada para distinguir visualmente os campos de eventos (verde) dos grupos de campos (azul).
 
@@ -54,7 +54,7 @@ Um valor padrão pode ser associado a um nome de campo. A sintaxe é a seguinte:
 
 >[!NOTE]
 >
->O tipo do campo e o valor padrão devem ser iguais. For example, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} será inválido porque o valor padrão é um número inteiro, enquanto o valor esperado deve ser uma cadeia de caracteres.
+>O tipo do campo e o valor padrão devem ser iguais. Por exemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} será inválido porque o valor padrão é um número inteiro, enquanto o valor esperado deve ser uma cadeia de caracteres.
 
 Exemplos:
 
@@ -88,9 +88,9 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-## Reference to a field within collections
+## Referência a um campo em coleções
 
-The elements defined within collections are referenced using the specific functions `all`, `first` and `last`. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
+Os elementos definidos nas coleções são referenciados usando as funções específicas `all`, `first` e `last`. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
 Exemplo :
 
@@ -108,7 +108,7 @@ Para recuperar um elemento em um mapa, usamos a função de entrada com uma dete
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Nesta expressão, estamos obtendo a entrada da chave &#39;Email&#39; do campo &#39;IdentityMap&#39; de um evento. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [this page](../expression/collection-management-functions.md).
+Nesta expressão, estamos obtendo a entrada da chave &#39;Email&#39; do campo &#39;IdentityMap&#39; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual tiramos o &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
 ### Função `firstEntryKey` 
 
@@ -120,7 +120,7 @@ Este exemplo mostra como recuperar o primeiro endereço de email dos assinantes 
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Email addresses are defined as keys in the `subscribers` map, which is linked to the subscription list map.
+Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Os endereços de email são definidos como chaves na variável `subscribers` , que é vinculado ao mapa de lista de assinaturas.
 
 ### Função `keys` 
 
@@ -136,7 +136,7 @@ Este exemplo mostra como recuperar, para um perfil específico, todos os endere�
 
 Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado, uma nova guia será exibida à direita para permitir que você especifique esse parâmetro. Consulte [esta página](../expression/expressionadvanced.md).
 
-Para casos de uso mais complexos, se você quiser incluir os parâmetros da fonte de dados na expressão principal, poderá definir seus valores usando a palavra-chave _params_. A parameter can be any valid expression even from another data source that also includes another parameter.
+Para casos de uso mais complexos, se você quiser incluir os parâmetros da fonte de dados na expressão principal, poderá definir seus valores usando a palavra-chave _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclui outro parâmetro.
 
 >[!NOTE]
 >

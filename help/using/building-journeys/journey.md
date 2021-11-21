@@ -2,20 +2,20 @@
 product: adobe campaign
 title: Sobre a construção de jornada
 description: Como usuário empresarial, aprenda a combinar atividades de evento, orquestração e ação para criar uma jornada.
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 12%
 
 ---
 
 # Criar uma jornada {#concept_gq5_sqt_52b}
 
-Esta etapa é executada pelo **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
+Essa etapa é executada pela **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
 
 A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem uma função e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 
@@ -45,11 +45,11 @@ Estas são as etapas principais para criar e publicar uma jornada.
 
    ![](../assets/journey33.png)
 
-1. Arraste e solte suas outras atividades e configure-as. Consulte as páginas [Atividades de evento](../building-journeys/event-activities.md), [Sobre atividades de orquestração](../building-journeys/about-orchestration-activities.md) e [Sobre atividades de ação](../building-journeys/about-action-activities.md).
+1. Arraste e solte suas outras atividades e configure-as. Consulte as páginas [Atividades de evento](../building-journeys/event-activities.md), [Sobre atividades de orquestração](../building-journeys/about-orchestration-activities.md) e [Sobre as atividades de ação](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Sua jornada é salva automaticamente. Teste sua jornada e publique-a. Consulte [testando a jornada](../building-journeys/testing-the-journey.md) e [Publicando a jornada](../building-journeys/publishing-the-journey.md).
+1. Sua jornada é salva automaticamente. Teste sua jornada e publique-a. Consulte [teste da jornada](../building-journeys/testing-the-journey.md) e [Publicar a jornada](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -64,11 +64,11 @@ A pessoa pode então entrar novamente na jornada se a reentrada for permitida. C
 
 Uma jornada pode ser fechada pelos seguintes motivos:
 
-* A jornada é fechada manualmente por meio do botão **[!UICONTROL Close to new entrances]**.
+* A jornada é fechada manualmente por meio do **[!UICONTROL Close to new entrances]** botão.
 * A data de término da jornada é atingida.
 
-Quando uma jornada é fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada mudará para o status **Finished**. Consulte esta [seção](../building-journeys/changing-properties.md#entrance).
+Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Veja isso [seção](../building-journeys/changing-properties.md#entrance).
 
 Caso precise parar o progresso de todos os indivíduos na jornada, você pode pará-la. Parar a jornada atingirá o tempo limite para todos os indivíduos na jornada.
 
-Para saber como fechar ou parar uma jornada manualmente, consulte esta [seção](../building-journeys/terminating-a-journey.md).
+Para saber como fechar ou parar uma jornada manualmente, consulte esta seção [seção](../building-journeys/terminating-a-journey.md).

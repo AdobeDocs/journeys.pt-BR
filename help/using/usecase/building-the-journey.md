@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Construir a jornada
 description: 'Saiba como criar a jornada de casos de uso avançado '
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '847'
 ht-degree: 92%
 
 ---
@@ -27,7 +27,7 @@ Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá a
 >
 >As atividades **[!UICONTROL Push]** e **[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
-Para obter informações adicionais sobre como criar uma jornada, consulte [esta página](../building-journeys/journey.md).
+Para obter mais informações sobre como criar uma jornada, consulte [esta página](../building-journeys/journey.md).
 
 ## Primeiros passos{#section_ntb_ws1_ffb}
 
@@ -102,7 +102,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_18.png)
 
-1. Quando um campo de uma fonte de dados externa é selecionado, a parte direita da tela exibe a lista de parâmetros que foram definidos ao configurar a fonte de dados externa (consulte [this page](../usecase/configuring-the-data-sources.md)). Clique no nome do parâmetro e defina o valor da chave do sistema de reservas, a Experience Cloud ID, em nosso exemplo:
+1. Quando um campo de uma fonte de dados externa é selecionado, a parte direita da tela exibe a lista de parâmetros que foram definidos na configuração da fonte de dados externa (consulte [esta página](../usecase/configuring-the-data-sources.md)). Clique no nome do parâmetro e defina o valor da chave do sistema de reservas, a Experience Cloud ID, em nosso exemplo:
 
    ```
    @{LobbyBeacon.endUserIDs._experience.mcid.id}

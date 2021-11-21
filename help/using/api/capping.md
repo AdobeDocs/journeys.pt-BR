@@ -18,11 +18,11 @@ ht-degree: 4%
 
 ## Introdução
 
-[!DNL Journey Orchestration]As APIs do são compatíveis com 5000 eventos/segundos, mas alguns sistemas externos ou APIs não poderiam ter uma taxa de transferência equivalente. É por isso que [!DNL Journey Orchestration] vem com um recurso dedicado chamado API de limitação para monitorar e limitar a taxa que impomos a sistemas externos.
+[!DNL Journey Orchestration]As APIs do são compatíveis com 5000 eventos/segundos, mas alguns sistemas externos ou APIs não poderiam ter uma taxa de transferência equivalente. É por isso [!DNL Journey Orchestration] O vem com um recurso dedicado chamado Capping API para monitorar e limitar a taxa que impomos a sistemas externos.
 
 Durante uma configuração de fonte de dados, você definirá uma conexão com um sistema para recuperar informações adicionais que serão usadas em suas jornadas ou para uma definição de ação, você configurará a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Sempre que uma chamada de API é executada pelo Jornada, a API de limitação é consultada, a chamada é enviada pelo mecanismo de API. Se houver um limite definido, a chamada será rejeitada e o sistema externo não será sobrecarregado.
 
-Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para incluir o ponto de extremidade na  de lista de permissões. Isso não é possível para fontes de dados externas públicas. Para saber mais sobre as práticas recomendadas e as medidas de proteção ao integrar sistemas externos, consulte esta [página](../about/external-systems.md).
+Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para incluir o ponto de extremidade na  de lista de permissões. Isso não é possível para fontes de dados externas públicas. Para saber mais sobre as práticas recomendadas e as medidas de proteção ao integrar sistemas externos, consulte esta seção [página](../about/external-systems.md).
 
 Para saber mais sobre a ação ou a configuração da fonte de dados, consulte [Sobre ações](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action.html) ou [Sobre fontes de dados](https://experienceleague.adobe.com/docs/journeys/using/data-source-journeys/about-data-sources.html)
 
@@ -30,28 +30,28 @@ Para saber mais sobre a ação ou a configuração da fonte de dados, consulte [
 
 >[!NOTE]
 >
->A [!DNL Journey Orchestration] API de limitação é descrita em um arquivo Swagger disponível [aqui](https://adobedocs.github.io/JourneyAPI/docs/).
+>O [!DNL Journey Orchestration] A API de limitação é descrita em um arquivo Swagger disponível [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para usar essa API com sua instância [!DNL Journey Orchestration], é necessário usar o Console do Adobe I/O. Você pode começar seguindo este [Introdução ao Console do Desenvolvedor do Adobe](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e usar as seções nesta página.
+Para usar essa API com sua [!DNL Journey Orchestration] Por exemplo, é necessário usar o Console do AdobeI/O. Você pode começar seguindo este [Introdução ao Console do desenvolvedor do Adobe](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e use as seções nesta página.
 
-Para testar e preparar sua integração, uma coleção do Postman está disponível [aqui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Para testar e preparar sua integração, uma coleção Postman está disponível [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## Autenticação
 
 ### Configuração do acesso à API
 
-[!DNL Journey Orchestration] O acesso à API é configurado pelas etapas abaixo. Cada uma dessas etapas é detalhada na [documentação do Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+[!DNL Journey Orchestration] O acesso à API é configurado pelas etapas abaixo. Cada uma dessas etapas é detalhada no [Documentação do Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!CAUTION]
 >
->Para gerenciar certificados no Adobe I/O, verifique se você tem os direitos de <b>Administrador do sistema</b> na organização ou uma [conta do desenvolvedor](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) no Admin Console.
+>Para gerenciar certificados no Adobe I/O, verifique se você <b>Administrador do sistema</b> direitos sobre a organização ou [conta do desenvolvedor](https://helpx.adobe.com/br/enterprise/using/manage-developers.html) no Admin Console.
 
-1. **Verifique se você tem um certificado** digital ou crie um, se necessário. As chaves públicas e privadas fornecidas com o certificado são necessárias nas etapas a seguir.
-1. **Crie uma nova integração no  [!DNL Journey Orchestration]** Service no Adobe I/O e configure-a. O acesso ao perfil do produto é necessário para [!DNL Journey Orchestration] e Adobe Experience Platform. Suas credenciais serão geradas (Chave da API, Segredo do cliente...).
-1. **Crie um JSON Web Token (JWT)** a partir das credenciais geradas anteriormente e assine-o com sua chave privada. O JWT codifica todas as informações de identidade e segurança necessárias para o Adobe verificar sua identidade e conceder acesso à API. Esta etapa está detalhada nesta [seção](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
-1. **Troque seu JWT por um** Tokenes de acesso por meio de uma solicitação POST ou por meio da Interface do Console do Desenvolvedor. Esse Token de acesso precisará ser usado em cada cabeçalho das solicitações de API.
+1. **Verifique se você tem um certificado digital**, ou crie um, se necessário. As chaves públicas e privadas fornecidas com o certificado são necessárias nas etapas a seguir.
+1. **Crie uma nova integração para [!DNL Journey Orchestration] Serviço** no Adobe I/O e configure-a. O acesso ao perfil do produto é necessário para [!DNL Journey Orchestration] e Adobe Experience Platform. Suas credenciais serão geradas (Chave da API, Segredo do cliente...).
+1. **Criar um JSON Web Token (JWT)** das credenciais geradas anteriormente e assine-as com sua chave privada. O JWT codifica todas as informações de identidade e segurança necessárias para o Adobe verificar sua identidade e conceder acesso à API. Esta etapa está detalhada neste [seção](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
+1. **Troque seu JWT por um token de acesso** por meio de uma solicitação do POST ou da interface do Console do desenvolvedor. Esse Token de acesso precisará ser usado em cada cabeçalho das solicitações de API.
 
-Para estabelecer uma sessão de Adobe I/O de serviço a serviço seguro, cada solicitação para um serviço do Adobe deve incluir no cabeçalho de Autorização as informações abaixo.
+Para estabelecer uma sessão de Adobe I/O de serviço para serviço seguro, cada solicitação para um serviço da Adobe deve incluir no cabeçalho de Autorização as informações abaixo.
 
 ```
 curl -X GET https://journey.adobe.io/authoring/XXX \
@@ -64,7 +64,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
    * &lt;organization> : sua instância de produção
 
-   Para obter o valor da ID da ORGANIZAÇÃO, consulte o administrador ou o contato técnico do Adobe. Você também pode recuperá-la no Adobe I/O ao criar uma nova integração, na lista de licenças (consulte a <a href="https://www.adobe.io/authentication.html">documentação do Adobe I/O</a>).
+   Para obter o valor da ID da ORGANIZAÇÃO, consulte o administrador ou o contato técnico do Adobe. Você também pode recuperá-la no Adobe I/O ao criar uma nova integração, na lista de licenças (consulte <a href="https://www.adobe.io/authentication.html">Documentação do Adobe I/O</a>).
 
 * **&lt;access_token>**: Seu token de acesso pessoal, que foi recuperado ao trocar seu JWT por meio de uma solicitação de POST.
 
@@ -80,7 +80,7 @@ A API de limitação ajuda a criar, configurar e monitorar as configurações de
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Obter uma lista das configurações de limite do ponto de extremidade |
 | [!DNL POST] | /endpointConfigs | Criar uma configuração de limite de ponto de extremidade |
-| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | Implantar uma configuração de limite de ponto de extremidade |
+| [!DNL POST] | /endpointConfigs/`{uid}`/implantar | Implantar uma configuração de limite de ponto de extremidade |
 | [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | Desimplantar uma configuração de limite de ponto de extremidade |
 | [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | Verifique se uma configuração de limite de ponto de extremidade pode ser implantada ou não |
 | [!DNL PUT] | /endpointConfigs/`{uid}` | Atualizar uma configuração de limite de ponto de extremidade |
@@ -137,7 +137,7 @@ Esta é a estrutura básica de uma configuração de ponto de extremidade:
 
 ## Aviso e erros
 
-Quando um método **canDeploy** é chamado, o processo valida a configuração e retorna o status de validação identificado por sua ID exclusiva:
+Quando uma **canDeploy** é chamado, o processo valida a configuração e retorna o status de validação identificado por sua ID exclusiva:
 
 ```
 "ok" or "error"
@@ -154,7 +154,7 @@ Os possíveis erros são:
 * **ERR_ENDPOINTCONFIG_108**: configuração de limitação: contagem máxima de chamadas inválida (periodInMs)
 * **ERR_ENDPOINTCONFIG_111**: configuração de limitação: não é possível criar a configuração do ponto de extremidade: carga inválida
 * **ERR_ENDPOINTCONFIG_112**: configuração de limitação: não é possível criar a configuração do ponto de extremidade: esperando uma carga JSON
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome de serviço inválido  `<!--<given value>-->`: deve ser &#39;dataSource&#39; ou &#39;action&#39;
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome de serviço inválido `<!--<given value>-->`: deve ser &#39;dataSource&#39; ou &#39;action&#39;
 
 
 O possível aviso é:
@@ -165,16 +165,16 @@ O possível aviso é:
 
 ## Casos de uso
 
-Nesta seção, você encontrará os cinco principais casos de uso que podem ser executados para gerenciar a configuração de limitação em [!DNL Journey Orchestration].
+Nesta seção, você encontrará os cinco principais casos de uso que podem ser executados para gerenciar a configuração de limitação no [!DNL Journey Orchestration].
 
-Para ajudá-lo em seus testes e configuração, uma coleção Postman está disponível [aqui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Para ajudá-lo nos testes e configurações, uma coleção Postman está disponível [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-Esta Coleção Postman foi configurada para compartilhar a coleção Variável Postman gerada por __[Integrações do console Adobe I/O](https://console.adobe.io/integrations) > Testar > Baixar para Postman__, que gera um arquivo de Ambiente Postman com os valores de integrações selecionados.
+Esta Coleção Postman foi configurada para compartilhar a coleção Variável Postman gerada por __[Integrações do console do Adobe I/O](https://console.adobe.io/integrations) > Experimente > Baixar para Postman__, que gera um arquivo de Ambiente Postman com os valores de integrações selecionados.
 
 Após o download e o upload para o Postman, é necessário adicionar três variáveis: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
-* `{JO_HOST}` :  [!DNL Journey Orchestration] URL do gateway
+* `{JO_HOST}` : [!DNL Journey Orchestration] URL do gateway
 * `{BASE_PATH}` : ponto de entrada para a API. O valor é &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : o cabeçalho  **x-sandbox-name**  (por exemplo, &quot;prod&quot;) correspondente ao nome da sandbox onde as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR) para obter mais informações.
+* `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, &quot;prod&quot;) correspondente ao nome da caixa de proteção onde as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR) para obter mais informações.
 
 Na seção a seguir, você encontrará a lista ordenada Rest API calls para executar o caso de uso.
 
@@ -185,7 +185,7 @@ Caso de uso n°1: **Criação e implantação de uma nova configuração de limi
 1. pode implantar
 1. implantar
 
-Caso de uso n°2: **Atualize e implante uma configuração de limitação ainda não implementada**
+Caso de uso n°2: **Atualizar e implantar uma configuração de limitação ainda não implantada**
 
 1. listar
 1. get
@@ -205,7 +205,7 @@ Em apenas uma chamada de API, é possível desimplantar e excluir a configuraç�
 1. listar
 1. excluir, com o parâmetro forceDelete
 
-Caso de uso n°5: **Atualizar uma configuração de limitação já implementada**
+Caso de uso n°5: **Atualizar uma configuração de limitação já implantada**
 
 1. listar
 1. get

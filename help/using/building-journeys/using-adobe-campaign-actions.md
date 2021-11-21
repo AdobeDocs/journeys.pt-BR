@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Usar ações do Adobe Campaign
 description: Saiba mais sobre as ações do Adobe Campaign
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 4e59a256-d494-4407-a0a8-a2523eb1084e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '895'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação pron
 >
 >Para isso, é necessário configurar a ação incorporada. Consulte [esta página](../action/working-with-adobe-campaign.md).
 
-Para cada um desses canais, selecione um **template** de Mensagens Transacionais do Adobe Campaign Standard. Na verdade, [!DNL Journey Orchestration] não é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, dependemos de Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado template de mensagem em suas jornadas, deverá publicá-lo no Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR) para saber como usar este recurso.
+Para cada um desses canais, selecione uma Mensagem transacional Adobe Campaign Standard **modelo**. Na verdade, [!DNL Journey Orchestration] não é uma solução de envio de mensagens. Para os canais incorporados de email, SMS e push, dependemos de Mensagens transacionais para executar o envio de mensagens. Isso significa que, se você quiser usar um determinado template de mensagem em suas jornadas, deverá publicá-lo no Adobe Campaign Standard. Consulte [esta página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR) para saber como usar esse recurso.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Você pode usar um evento (também conhecido como tempo real) ou um modelo de me
 >
 >Quando enviamos mensagens transacionais em tempo real (rtEvent) ou roteamos mensagens com um sistema de terceiros graças a uma ação personalizada, uma configuração específica é necessária para o gerenciamento de fadiga, lista de bloqueios ou unsubscription. Por exemplo, se um atributo &quot;unsubscribe&quot; for armazenado no Adobe Experience Platform ou em um sistema de terceiros, uma condição terá de ser adicionada antes do envio da mensagem para verificar essa condição.
 
-Ao selecionar um modelo, todos os campos esperados na carga da mensagem são exibidos no painel de configuração da atividade em **[!UICONTROL Address]** e **[!UICONTROL Personalization Data]**. Você precisa mapear cada um desses campos com o campo que deseja usar, do evento ou da fonte de dados. Você também pode usar o editor de expressão avançado para transmitir um valor manualmente, executar a manipulação de dados em informações recuperadas (por exemplo, converter uma sequência em maiúsculas) ou usar funções como &quot;if, then, else&quot;. Consulte [esta página](../expression/expressionadvanced.md).
+Ao selecionar um modelo, todos os campos esperados no payload da mensagem são exibidos no painel de configuração da atividade em **[!UICONTROL Address]** e **[!UICONTROL Personalization Data]**. Você precisa mapear cada um desses campos com o campo que deseja usar, do evento ou da fonte de dados. Você também pode usar o editor de expressão avançado para transmitir um valor manualmente, executar a manipulação de dados em informações recuperadas (por exemplo, converter uma sequência em maiúsculas) ou usar funções como &quot;if, then, else&quot;. Consulte [esta página](../expression/expressionadvanced.md).
 
 ![](../assets/journey60.png)
 
@@ -45,19 +45,19 @@ Para **[!UICONTROL Email]** e **[!UICONTROL SMS]**, os parâmetros são idêntic
 
 >[!NOTE]
 >
->Para emails, se estiver usando um template transacional de perfis, o mecanismo de unsubscription é manipulado pronto para uso pelo Campaign Standard. Basta adicionar um bloco de conteúdo **[!UICONTROL Unsubscription link]** no modelo ([saiba mais](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Se estiver usando um modelo baseado em eventos (rtEvent), será necessário adicionar, na mensagem, um link que passe o email da pessoa no parâmetro de URL e aponte para uma landing page de unsubscription. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a assinatura seja transmitida ao Adobe.
+>Para emails, se estiver usando um template transacional de perfis, o mecanismo de unsubscription é manipulado pronto para uso pelo Campaign Standard. Basta adicionar um **[!UICONTROL Unsubscription link]** bloco de conteúdo no modelo ([saiba mais](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Se estiver usando um modelo baseado em eventos (rtEvent), será necessário adicionar, na mensagem, um link que passe o email da pessoa no parâmetro de URL e aponte para uma landing page de unsubscription. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a assinatura seja transmitida ao Adobe.
 
 Primeiro, você precisa escolher um template de mensagem transacional. Consulte [esta página](../building-journeys/about-action-activities.md).
 
 Duas categorias estão disponíveis: **[!UICONTROL Address]** e **[!UICONTROL Personalization Data]**.
 
-Você pode definir facilmente onde recuperar o **[!UICONTROL Address]** ou o **[!UICONTROL Personalization Data]** usando a interface. Você pode navegar pelos eventos e campos da fonte de dados disponíveis. Você também pode usar o editor de expressão avançado para casos de uso mais avançados, como o uso de uma fonte de dados que requer a passagem de parâmetros ou a execução de manipulações. Consulte [esta página](../expression/expressionadvanced.md).
+Você pode definir facilmente onde recuperar a variável **[!UICONTROL Address]** ou **[!UICONTROL Personalization Data]** usando a interface. Você pode navegar pelos eventos e campos da fonte de dados disponíveis. Você também pode usar o editor de expressão avançado para casos de uso mais avançados, como o uso de uma fonte de dados que requer a passagem de parâmetros ou a execução de manipulações. Consulte [esta página](../expression/expressionadvanced.md).
 
 **[!UICONTROL Address]**
 
 >[!NOTE]
 >
->Esta categoria só estará visível se você selecionar uma mensagem transacional de &quot;evento&quot;. Para mensagens de &quot;perfil&quot;, o campo **[!UICONTROL Address]** é automaticamente recuperado do Adobe Campaign Standard pelo sistema.
+>Esta categoria só estará visível se você selecionar uma mensagem transacional de &quot;evento&quot;. Para mensagens de &quot;perfil&quot;, a variável **[!UICONTROL Address]** é automaticamente recuperado do Adobe Campaign Standard pelo sistema.
 
 Esses são os campos que o sistema requer para saber onde enviar a mensagem. Para um modelo de email, é o endereço de email. Para um SMS, é o número do celular.
 
@@ -87,11 +87,11 @@ Duas categorias estão disponíveis: **[!UICONTROL Target]** e **[!UICONTROL Per
 
 >[!NOTE]
 >
->Esta categoria só estará visível se você selecionar uma mensagem de evento. Para mensagens de perfil, os campos **[!UICONTROL Target]** são automaticamente recuperados pelo sistema usando a reconciliação executada pelo Adobe Campaign Standard.
+>Esta categoria só estará visível se você selecionar uma mensagem de evento. Para mensagens de perfil, a variável **[!UICONTROL Target]** Os campos são recuperados automaticamente pelo sistema usando a reconciliação executada pelo Adobe Campaign Standard.
 
-Nesta seção, você precisa definir o **[!UICONTROL Push platform]**. A lista suspensa permite selecionar **[!UICONTROL Apple Push Notification Server]** (iOS) ou **[!UICONTROL Firebase Cloud Messaging]** (Android). Como alternativa, é possível selecionar um campo específico de um evento ou fonte de dados ou definir uma expressão avançada.
+Nesta seção, é necessário definir a variável **[!UICONTROL Push platform]**. A lista suspensa permite selecionar **[!UICONTROL Apple Push Notification Server]** (iOS) ou **[!UICONTROL Firebase Cloud Messaging]** (Android). Como alternativa, é possível selecionar um campo específico de um evento ou fonte de dados ou definir uma expressão avançada.
 
-Você também precisa definir o **[!UICONTROL Registration Token]**. A expressão depende de como o token é definido na carga do evento ou em outras informações [!DNL Journey Orchestration]. Pode ser um campo simples ou uma expressão mais complexa caso o token seja definido em uma coleção, por exemplo:
+Também é necessário definir a variável **[!UICONTROL Registration Token]**. A expressão depende de como o token é definido na carga do evento ou em outros [!DNL Journey Orchestration] informações. Pode ser um campo simples ou uma expressão mais complexa caso o token seja definido em uma coleção, por exemplo:
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}

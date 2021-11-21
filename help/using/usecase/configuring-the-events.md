@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Configuração de eventos
 description: Saiba como configurar os eventos para o caso de uso avançado do jornada
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 7%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 7%
 
 Em nosso cenário, precisamos receber um evento sempre que uma pessoa entrar no hotel Marlton e no restaurante. O **usuário técnico** precisa configurar os dois eventos que queremos que o sistema escute em nossa jornada.
 
-Para obter informações adicionais sobre a configuração do evento, consulte [esta página](../event/about-events.md).
+Para obter mais informações sobre a configuração do evento, consulte [esta página](../event/about-events.md).
 
-1. No menu superior, clique na guia **[!UICONTROL Events]** e clique em **[!UICONTROL Add]** para criar um novo evento.
+1. No menu superior, clique no botão **[!UICONTROL Events]** e clique em **[!UICONTROL Add]** para criar um novo evento.
 
    ![](../assets/journeyuc1_1.png)
 
@@ -31,7 +31,7 @@ Para obter informações adicionais sobre a configuração do evento, consulte [
 
    Também precisamos do token de registro para enviar mensagens de push: &quot;_experience > campaign > message > profile > pushNotificationTokens > token&quot;
 
-   Uma ID é gerada automaticamente para esse evento. Essa ID é armazenada no campo **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). O sistema que envia o evento não deve gerar uma ID, mas deve usar a disponível na pré-visualização de carga. No nosso caso de uso, essa ID é usada para identificar o local do sinal. Sempre que uma pessoa se aproximar do beacon do lobby, um evento será enviado contendo essa ID de evento específica. O mesmo princípio se aplica aos eventos de beacon do restaurante. Isso permite que o sistema saiba qual beacon acionou o envio do evento.
+   Uma ID é gerada automaticamente para esse evento. Essa ID é armazenada no **[!UICONTROL eventID]** (&quot;_experience > campaign > orquestration > eventID&quot;). O sistema que envia o evento não deve gerar uma ID, mas deve usar a disponível na pré-visualização de carga. No nosso caso de uso, essa ID é usada para identificar o local do sinal. Sempre que uma pessoa se aproximar do beacon do lobby, um evento será enviado contendo essa ID de evento específica. O mesmo princípio se aplica aos eventos de beacon do restaurante. Isso permite que o sistema saiba qual beacon acionou o envio do evento.
 
    ![](../assets/journeyuc2_2.png)
 
@@ -49,7 +49,7 @@ Para obter informações adicionais sobre a configuração do evento, consulte [
 
 1. Clique em **[!UICONTROL Save]**.
 
-1. Clique no ícone **[!UICONTROL View Payload]** para visualizar a carga esperada pelo sistema e compartilhá-la com a pessoa responsável pelo envio do evento.  Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
+1. Clique no botão **[!UICONTROL View Payload]** ícone para visualizar a carga esperada pelo sistema e compartilhá-la com a pessoa responsável pelo envio do evento.  Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
 
    ![](../assets/journeyuc2_5.png)
 

@@ -28,13 +28,13 @@ Sua instância do Campaign precisa ser provisionada para essa integração. O re
 
 1. Faça logon na instância de controle do Campaign.
 
-1. Em **Administration** > **Platform** > **Enumerations**, selecione a enumeração **Event type** (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, no nosso exemplo). Você precisará usar o nome interno do tipo de evento ao gravar o arquivo JSON posteriormente.
+1. Em **Administração** > **Plataforma** > **Enumerações**, selecione o **Tipo de evento** Enumeração (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, no nosso exemplo). Você precisará usar o nome interno do tipo de evento ao gravar o arquivo JSON posteriormente.
 
    ![](../assets/accintegration-uc-1.png)
 
 1. Desconecte e reconecte à instância para que a criação seja efetiva.
 
-1. Em **Message Center** > **Transactional message templates**, crie um novo template de email com base no tipo de evento criado anteriormente.
+1. Em **Centro de mensagens** > **Templates de mensagem transacional**, crie um novo modelo de email com base no tipo de evento criado anteriormente.
 
    ![](../assets/accintegration-uc-2.png)
 
@@ -70,15 +70,15 @@ Sua instância do Campaign precisa ser provisionada para essa integração. O re
 
    ![](../assets/accintegration-uc-5.png)
 
-1. Em seguida, é necessário criar, no Journey Orchestration, uma ação correspondente ao seu template de Campanha. Na lista suspensa **Action type**, selecione **Adobe Campaign Classic**.
+1. Em seguida, é necessário criar, no Journey Orchestration, uma ação correspondente ao seu template de Campanha. No **Tipo de ação** , selecione **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
-1. Clique no campo **Carga** e cole o JSON criado anteriormente.
+1. Clique no botão **Campo Carga** e cole o JSON criado anteriormente.
 
    ![](../assets/accintegration-uc-7.png)
 
-1. Para o endereço de email e os dois campos de personalização, altere **Constant** para **Variable**.
+1. Para o endereço de email e os dois campos de personalização, altere **Constante** para **Variável**.
 
    ![](../assets/accintegration-uc-8.png)
 
@@ -90,7 +90,7 @@ Sua instância do Campaign precisa ser provisionada para essa integração. O re
 
    ![](../assets/accintegration-uc-10.png)
 
-1. Adicione uma atividade **End** e teste sua jornada.
+1. Adicione um **End** e teste sua jornada.
 
    ![](../assets/accintegration-uc-11.png)
 

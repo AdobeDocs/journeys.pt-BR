@@ -7,13 +7,13 @@ role: User
 level: Beginner
 exl-id: 430bac3a-06da-45a8-af90-1dcd1504d532
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
 ---
 
-# Sobre[!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
+# Sobre o [!DNL Journey Orchestration]{#concept_nd3_mqt_52b}
 
 Crie casos de uso de orquestração em tempo real aproveitando dados contextuais armazenados em eventos ou fontes de dados.
 

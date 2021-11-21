@@ -2,14 +2,14 @@
 product: adobe campaign
 title: Sobre ações
 description: Saiba como configurar uma ação
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 34f7666b-1c91-4edd-b5d6-4c0513b9c4f3
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 83%
+source-wordcount: '311'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ As ações são conexões através das quais você fornece experiências persona
 
 As ações personalizadas permitem configurar a conexão de um sistema de terceiros para enviar mensagens ou chamadas de API. Uma ação pode ser configurada com qualquer serviço de qualquer provedor que possa ser chamado por meio de uma REST API com uma carga útil formatada em JSON.
 
-As ações estão disponíveis na paleta esquerda da jornada, na categoria **[!UICONTROL Action]**. Consulte [esta página](../building-journeys/about-action-activities.md).
+As ações estão disponíveis na paleta esquerda da sua jornada, no **[!UICONTROL Action]** categoria . Consulte [esta página](../building-journeys/about-action-activities.md).
 
 >[!NOTE]
 >

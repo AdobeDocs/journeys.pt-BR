@@ -25,7 +25,7 @@ O painel de configuração da atividade mostra os parâmetros de configuração 
 
 ### Caminho dinâmico
 
-Se o URL incluir um caminho dinâmico, especifique o caminho no campo **[!UICONTROL Path]**.
+Se o URL incluir um caminho dinâmico, especifique o caminho na variável **[!UICONTROL Path]** campo.
 
 >[!NOTE]
 >
@@ -42,18 +42,18 @@ Esta tabela mostra um exemplo de configuração:
 
 O URL concatenado tem este formulário:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### Cabeçalhos
 
-A seção **[!UICONTROL URL Configuration]** mostra os campos de cabeçalho dinâmicos, mas não os campos de cabeçalho constantes. Os campos de cabeçalho dinâmicos são campos de cabeçalho HTTP cujo valor é configurado como uma variável. [Saiba mais](../action/about-custom-action-configuration.md).
+O **[!UICONTROL URL Configuration]** mostra os campos de cabeçalho dinâmicos, mas não os campos de cabeçalho constantes. Os campos de cabeçalho dinâmicos são campos de cabeçalho HTTP cujo valor é configurado como uma variável. [Saiba mais](../action/about-custom-action-configuration.md).
 
 Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
 
 1. Selecione a ação personalizada na jornada.
-1. No painel de configuração, clique no ícone de lápis ao lado do campo de cabeçalho na seção **[!UICONTROL URL Configuration]**.
+1. No painel de configuração, clique no ícone de lápis ao lado do campo de cabeçalho no **[!UICONTROL URL Configuration]** seção.
 
    ![](../assets/journey-dynamicheaderfield.png)
 
@@ -61,7 +61,7 @@ Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
 
 ## Parâmetros de ação
 
-Na seção **[!UICONTROL Action parameters]**, você verá os parâmetros de mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. [Saiba mais](../expression/expressionadvanced.md).
+No **[!UICONTROL Action parameters]** , você verá os parâmetros da mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. [Saiba mais](../expression/expressionadvanced.md).
 
 **Tópicos relacionados**
 

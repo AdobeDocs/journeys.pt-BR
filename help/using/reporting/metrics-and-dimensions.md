@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Métricas e dimensões
 description: Saiba mais sobre as dimensões e métricas disponíveis para o Journey Orchestration
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
@@ -31,13 +31,13 @@ A tabela abaixo fornece a lista de dimensões usadas nos relatórios de jornada,
 
 | Dimensões | Definição |
 |--- |--- |
-| **Ação** | Lista de todas as ações (**action name - action label**) usadas em jornadas, por exemplo, Push - Check out confirmation, Email - Rewards fidelity. |
-| **Fonte de dados** | Lista de fontes de dados (**data source name**) usadas para enriquecer dados em uma jornada, por exemplo, Adobe Experience Platform, Sistema de reserva. |
-| **[!UICONTROL Event]** | Lista de cada evento (**event name - event label**) usado em jornadas, por exemplo, Geometrixx event - Geometrixx check-out. |
-| **Grupo de campos** | Lista de grupos de campos (**field group name**) usados para enriquecer dados em jornadas, por exemplo, Grupo de campos de perfil, sistema de reserva de Geometrixx. |
-| **Jornada** | Lista de cada jornada (**jornada name**) no modo de teste e ao vivo, por exemplo, abandono de carrinho, notificação de reserva de hotel. |
-| **Versão do Jornada** | Lista de todas as versões publicadas de uma jornada (**jornada name + número da versão**), por exemplo, Abandono de carrinho v1, Notificação de reserva de hotel v2. |
-| **Orquestração** | Lista de todas as atividades de orquestração (**Condição, Fim, Wait**) definidas e usadas no jornada. |
+| **Ação** | Lista de cada ação (**nome da ação - rótulo da ação**) usado em jornadas, por exemplo, Push - Confirmação de check-out, Email - Fidelidade das recompensas. |
+| **Fonte de dados** | Lista de fontes de dados (**nome da fonte de dados**) usada para enriquecer dados em uma jornada, por exemplo, Adobe Experience Platform, Sistema de reserva. |
+| **[!UICONTROL Event]** | Lista de cada evento (**nome do evento - rótulo do evento**) usado em jornadas, por exemplo, evento Geometrixx - check-out do Geometrixx. |
+| **Grupo de campos** | Lista de grupos de campos (**nome do grupo de campos**) usado para enriquecer dados em jornadas, por exemplo, grupo de campos de perfil, sistema de reservas de Geometrixx. |
+| **Jornada** | Lista de cada jornada (**Nome da jornada**) no modo de teste e em tempo real, por exemplo, abandono de carrinho, notificação de reserva de hotel. |
+| **Versão do Jornada** | Lista de cada versão publicada de uma jornada (**Nome da jornada + número da versão**) por exemplo, Abandono de carrinho v1, Notificação de reserva de hotel v2. |
+| **Orquestração** | Lista de cada atividade de orquestração (**Condição, Fim, Espera**) definido e usado em jornadas. |
 
 ## Dimensões de delivery {#delivery-dimensions}
 
@@ -83,8 +83,7 @@ A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, s
 
 ## Métricas de delivery {#delivery-metrics}
 
-A tabela abaixo fornece a lista de métricas usadas no jornada
-relatórios, suas definições e fórmulas.
+A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, suas definições e fórmulas.
 
 | Métrica | Definição |
 |--- |--- |
@@ -92,7 +91,7 @@ relatórios, suas definições e fórmulas.
 | **Taxa de lista de bloqueios** | Número total de mensagens em lista de bloqueios em comparação às mensagens enviadas. |
 | **Rejeições + erros** | Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas. |
 | **Rejeição + taxa de erro** | Número total de mensagens que retornaram em comparação às mensagens enviadas. |
-| **Clique em** | Número de vezes que um conteúdo foi clicado em um delivery. |
+| **Click** | Número de vezes que um conteúdo foi clicado em um delivery. |
 | **Índice de click-through** | Número total de cliques em um delivery em comparação ao número de mensagens entregues. |
 | **Entregues** | Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas. |
 | **Taxa de delivery** | Número total de mensagens entregues com êxito em comparação às mensagens enviadas. |

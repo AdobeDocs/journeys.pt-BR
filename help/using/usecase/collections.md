@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 solution: Journey Orchestration
-title: Pass collections dynamically using custom actions
+title: Envie coleções dinamicamente usando ações personalizadas
 description: Envio de uma mensagem usando o Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 358fddd8e5c2ca80532ff2b74dc9627ffdc8837e
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Envie coleções dinamicamente usando ações personalizadas{#passing-collection}
 
-You can pass a collection in custom action parameters that will be dynamically populated at runtime. Há suporte para dois tipos de coleções:
+Você pode passar uma coleção em parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções:
 
 * coleções simples: arrays de tipos de dados simples, por exemplo, com uma listString:
 
@@ -67,7 +67,7 @@ You can pass a collection in custom action parameters that will be dynamically p
     ]
    }
    ```
-* Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. O modo de visualização de código não é compatível com eventos comerciais no momento. You can only send a collection with a single element.
+* Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. O modo de visualização de código não é compatível com eventos comerciais no momento. Você só pode enviar uma coleção com um único elemento.
 
 ## Procedimento geral {#general-procedure}
 
@@ -97,21 +97,21 @@ Nesta seção, usaremos o seguinte exemplo de carga JSON. Esta é uma matriz de 
 }
 ```
 
-You can see that &quot;products&quot; is an array of two objects. Você precisa ter pelo menos um objeto.
+Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você precisa ter pelo menos um objeto.
 
 1. Crie sua ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. In the **[!UICONTROL Action parameters]** section, paste the JSON example. The displayed structure is static: when pasting the payload, all fields are defined as constants.
+1. No **[!UICONTROL Action parameters]** , cole o exemplo JSON. A estrutura exibida é estática: ao colar a carga útil, todos os campos são definidos como constantes.
 
    ![](../assets/uc-collection-1.png)
 
-1. Se necessário, ajuste os tipos de campo. The following field types are supported for collections: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
+1. Se necessário, ajuste os tipos de campo. Os seguintes tipos de campo são suportados para coleções: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObjectListObject
 
    >[!NOTE]
    >
-   >The field type is automatically inferred according to the payload example.
+   >O tipo de campo é automaticamente inferido de acordo com o exemplo de carga útil.
 
-1. If you want to pass objects dynamically, you need to set them as variables. In this example we set &quot;products&quot; as variable. Todos os campos de objeto incluídos no objeto são definidos como variáveis automaticamente.
+1. Se você deseja transmitir objetos dinamicamente, é necessário defini-los como variáveis. Neste exemplo, definimos &quot;produtos&quot; como variável. Todos os campos de objeto incluídos no objeto são definidos como variáveis automaticamente.
 
    >[!NOTE]
    >
@@ -137,7 +137,7 @@ No campo da matriz, também é possível usar o editor de expressão avançado p
 
 ## Casos particulares{#examples}
 
-For heterogeneous types and arrays of arrays, the array is defined with the listAny type. Você só pode mapear itens individuais, mas não pode alterar a matriz para a variável.
+Para tipos heterogêneos e matrizes de matrizes, a matriz é definida com o tipo listAny . Você só pode mapear itens individuais, mas não pode alterar a matriz para a variável.
 
 ![](../assets/uc-collection-heterogeneous.png)
 
@@ -170,4 +170,4 @@ Exemplo de matriz de arrays:
 
 **Tópicos relacionados**
 
-[Use custom actions](../building-journeys/using-custom-actions.md)
+[Usar ações personalizadas](../building-journeys/using-custom-actions.md)

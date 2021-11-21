@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Sobre relatórios de jornada
 description: Saiba como criar relatórios do jornada
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ A barra de ferramentas superior permite, por exemplo, modificar, salvar ou impri
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Use a guia **[!UICONTROL Project]** para:
+Use o **[!UICONTROL Project]** para:
 
 * **[!UICONTROL Open]**: abre um relatório ou modelo criado anteriormente.
 * **[!UICONTROL Save As]**: duplica modelos para poder modificá-los.
@@ -35,13 +35,13 @@ Use a guia **[!UICONTROL Project]** para:
 * **[!UICONTROL Download CSV]**: exporta seus relatórios para um arquivo CSV.
 * **[!UICONTROL Print]**: imprime seu relatório.
 
-A guia **[!UICONTROL Edit]** permite:
+O **[!UICONTROL Edit]** permite:
 
 * **[!UICONTROL Undo]**: cancela sua última ação no painel.
-* **[!UICONTROL Redo]**: cancela sua última  **[!UICONTROL Undo]** ação no painel.
+* **[!UICONTROL Redo]**: cancela o último **[!UICONTROL Undo]** no seu painel.
 * **[!UICONTROL Clear all]**: exclui cada painel no painel.
 
-A tabela **[!UICONTROL Insert]** permite personalizar seus relatórios ao adicionar gráficos e tabelas ao painel:
+O **[!UICONTROL Insert]** a tabela permite personalizar seus relatórios ao adicionar gráficos e tabelas ao painel:
 
 * **[!UICONTROL New Blank Panel]**: adiciona um novo painel em branco ao painel.
 * **[!UICONTROL New Freeform]**: adiciona uma nova tabela de forma livre ao painel.
@@ -54,14 +54,14 @@ As guias à esquerda permitem criar o relatório e filtrar os dados, conforme ne
 
 Essas guias fornecem acesso aos seguintes itens:
 
-* **[!UICONTROL Panels]**: adicione um painel em branco ou de forma livre ao relatório para começar a filtrar os dados. Para obter mais informações, consulte a seção [Adição de painéis](../reporting/creating-your-journey-reports.md#adding-panels)
-* **[!UICONTROL Visualizations]**: arraste e solte uma seleção de itens de visualização para dar ao seu relatório uma dimensão gráfica. Para obter mais informações, consulte a seção [Adição de visualizações](../reporting/creating-your-journey-reports.md#adding-visualizations) .
-* **[!UICONTROL Components]**: personalize seus relatórios com diferentes dimensões, métricas, segmentos e períodos. Para obter mais informações, consulte a seção [Adição de componentes](../reporting/creating-your-journey-reports.md#adding-components) .
+* **[!UICONTROL Panels]**: adicione um painel em branco ou de forma livre ao relatório para começar a filtrar os dados. Para obter mais informações, consulte [Adicionar painéis](../reporting/creating-your-journey-reports.md#adding-panels) seção
+* **[!UICONTROL Visualizations]**: arraste e solte uma seleção de itens de visualização para dar ao seu relatório uma dimensão gráfica. Para obter mais informações, consulte [Adicionar visualizações](../reporting/creating-your-journey-reports.md#adding-visualizations) seção.
+* **[!UICONTROL Components]**: personalize seus relatórios com diferentes dimensões, métricas, segmentos e períodos. Para obter mais informações, consulte [Adicionar componentes](../reporting/creating-your-journey-reports.md#adding-components) seção.
 
 ## Modelo de resumo da jornada {#ootb-template}
 
 Os relatórios são divididos em duas categorias: um modelo pronto para uso e relatórios personalizados.
-O template pronto para uso, **[!UICONTROL Journey summary]**, fornece uma exibição clara dos dados de rastreamento mais importantes.
+O template pronto para uso, **[!UICONTROL Journey summary]**, fornece uma visualização clara dos dados de rastreamento mais importantes.
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -84,7 +84,7 @@ A visualização do fluxo de Jornada permite visualizar o caminho dos perfis seg
 
 ![](../assets/dynamic_report_journey_10.png)
 
-A tabela **[!UICONTROL Journey summary]** contém os dados disponíveis para sua jornada, como:
+O **[!UICONTROL Journey summary]** A tabela contém os dados disponíveis para a jornada, como:
 
 * **[!UICONTROL Entered]**: número total de indivíduos que acessaram o evento de entrada da jornada.
 * **[!UICONTROL Completion rate]**: número total de indivíduos que acessaram o controle de fluxo final da jornada em comparação ao número total de indivíduos que entraram na jornada.
@@ -92,11 +92,11 @@ A tabela **[!UICONTROL Journey summary]** contém os dados disponíveis para sua
 * **[!UICONTROL Failed]**: número total de jornadas que não foram executadas com êxito.
 * **[!UICONTROL Failed rate]**: número total de jornadas que não foram executadas com êxito em comparação ao número de jornadas de execução.
 
-A tabela **[!UICONTROL Top events]** exibe os eventos mais bem-sucedidos e **[!UICONTROL Top action]**, as ações mais bem-sucedidas em suas jornadas.
+O **[!UICONTROL Top events]** a tabela exibe os eventos mais bem-sucedidos e a variável **[!UICONTROL Top action]**, as ações mais bem-sucedidas em suas jornadas.
 
 ![](../assets/dynamic_report_journey_11.png)
 
-A tabela **[!UICONTROL Delivery - Sending summary]** contém os dados disponíveis para as entregas da jornada, como:
+O **[!UICONTROL Delivery - Sending summary]** A tabela contém os dados disponíveis para os deliveries da jornada, como:
 
 * **[!UICONTROL Processed/sent]**: número total de mensagens enviadas.
 * **[!UICONTROL Delivered rate]**: número total de mensagens entregues com êxito em comparação às mensagens enviadas.
@@ -104,7 +104,7 @@ A tabela **[!UICONTROL Delivery - Sending summary]** contém os dados disponíve
 * **[!UICONTROL Bounce + error rate]**: número total de mensagens que retornaram em comparação às mensagens enviadas.
 * **[!UICONTROL Bounces + errors]**: total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas.
 
-A tabela **[!UICONTROL Delivery - Tracking summary]** contém os dados disponíveis para rastrear o sucesso das entregas do jornada, como:
+O **[!UICONTROL Delivery - Tracking summary]** A tabela contém os dados disponíveis para rastrear o sucesso das entregas do jornada, como:
 
 * **[!UICONTROL Open Rate]**: porcentagem de mensagens abertas.
 * **[!UICONTROL Open]**: número de vezes que uma mensagem foi aberta em um delivery.

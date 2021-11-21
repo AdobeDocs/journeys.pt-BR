@@ -14,11 +14,11 @@ ht-degree: 4%
 
 Os perfis de teste são necessários ao usar o modo de teste em uma jornada. Para saber como usar o modo de teste, consulte [esta seção](../building-journeys/testing-the-journey.md).
 
-Há diferentes maneiras de criar um perfil de teste no Adobe Experience Platform. Nesta documentação, nos concentramos em dois métodos: carregar um arquivo [csv](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) e usar [chamadas de API](../building-journeys/creating-test-profiles.md#create-test-profiles-api). Você também pode fazer upload de um arquivo json em um conjunto de dados, consulte a [Documentação de assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+Há diferentes maneiras de criar um perfil de teste no Adobe Experience Platform. Nesta documentação, nos concentramos em dois métodos: fazer upload de um [arquivo csv](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) e usando [Chamadas de API](../building-journeys/creating-test-profiles.md#create-test-profiles-api). Também é possível fazer upload de um arquivo json em um conjunto de dados, consulte a [Documentação da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
 
 Esses métodos de importação também permitem atualizar atributos de perfil. Dessa forma, você pode transformar um perfil existente em um perfil de teste. Basta usar um arquivo ou uma chamada de API semelhante e incluir apenas o campo &quot;testProfile&quot; com o valor &quot;true&quot;.
 
-Criar um perfil de teste é semelhante à criação de perfis regulares no Adobe Experience Platform. Para obter mais informações, consulte a [documentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR).
+Criar um perfil de teste é semelhante à criação de perfis regulares no Adobe Experience Platform. Para obter mais informações, consulte [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR).
 
 ## Pré-requisitos{#test-profile-prerequisites}
 
@@ -26,46 +26,46 @@ Para criar perfis, primeiro é necessário criar um esquema e um conjunto de dad
 
 Primeiro, você precisa **criar um schema**. Siga estas etapas:
 
-1. No Adobe Experience Platform, clique em **[!UICONTROL Schemas]**, no menu à esquerda.
+1. No Adobe Experience Platform, clique em **[!UICONTROL Schemas]**, no menu esquerdo.
    ![](../assets/test-profiles-0.png)
-1. Clique em **[!UICONTROL Create schema]**, na parte superior direita, e selecione um tipo de schema, por exemplo **[!UICONTROL XDM Individual Profile]**.
+1. Clique em **[!UICONTROL Create schema]**, na parte superior direita e, em seguida, selecione um tipo de schema, por exemplo **[!UICONTROL XDM Individual Profile]**.
    ![](../assets/test-profiles-1.png)
 1. Escolha um nome para o esquema.
-1. Na seção **[!UICONTROL Mixins]**, clique em **[!UICONTROL Add]**.
+1. No **[!UICONTROL Mixins]** seção , clique em **[!UICONTROL Add]**.
    ![](../assets/test-profiles-1-bis.png)
-1. Selecione as combinações apropriadas. Adicione a mistura **[!UICONTROL Profile test details]**. Clique em **[!UICONTROL Add mixin]**.
+1. Selecione as combinações apropriadas. Certifique-se de adicionar o **[!UICONTROL Profile test details]** mistura. Clique em **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
 A lista de mixins é exibida na tela de visão geral do schema.
 
    ![](../assets/test-profiles-2.png)
 1. Na lista de campos, clique no campo que deseja definir como a identidade primária.
    ![](../assets/test-profiles-3.png)
-1. No painel direito **[!UICONTROL Field properties]**, marque as opções **[!UICONTROL Identity]** e **[!UICONTROL Primary Identity]** e selecione um namespace. Se quiser que a identidade primária seja um endereço de email, escolha o namespace **[!UICONTROL Email]**. Clique em **[!UICONTROL Apply]**.
+1. No **[!UICONTROL Field properties]** no painel direito, verifique o **[!UICONTROL Identity]** e **[!UICONTROL Primary Identity]** e selecione um namespace. Se quiser que a identidade primária seja um endereço de email, escolha a variável **[!UICONTROL Email]** namespace. Clique em **[!UICONTROL Apply]**.
    ![](../assets/test-profiles-4.png)
-1. Selecione o schema e habilite a opção **[!UICONTROL Profile]** no **[!UICONTROL Schema properties]**.
+1. Selecione o esquema e habilite o **[!UICONTROL Profile]** na **[!UICONTROL Schema properties]**.
    ![](../assets/test-profiles-5.png)
 1. Clique em **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Para obter mais informações sobre a criação do schema, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites).
+>Para obter mais informações sobre criação de schema, consulte [Documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites).
 
-Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serão importados. Siga estas etapas:
+Então você precisa **criar o conjunto de dados** em que os perfis serão importados. Siga estas etapas:
 
-1. No Adobe Experience Platform, clique em **[!UICONTROL Datasets]**, no menu esquerdo, em seguida, clique em **[!UICONTROL Create dataset]**.
+1. No Adobe Experience Platform, clique em **[!UICONTROL Datasets]**, no menu esquerdo e, em seguida, clique em **[!UICONTROL Create dataset]**.
    ![](../assets/test-profiles-6.png)
-1. Escolha **[!UICONTROL Create dataset from schema]**.
+1. Choose **[!UICONTROL Create dataset from schema]**.
    ![](../assets/test-profiles-7.png)
 1. Selecione o schema criado anteriormente e clique em **[!UICONTROL Next]**.
    ![](../assets/test-profiles-8.png)
 1. Escolha um nome e clique em **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-9.png)
-1. Habilite a opção **[!UICONTROL Profile]**.
+1. Ative o **[!UICONTROL Profile]** opção.
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> Para obter mais informações sobre a criação do conjunto de dados, consulte a [Documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
+> Para obter mais informações sobre a criação de conjuntos de dados, consulte [Documentação do Serviço de catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
 
 ## Criação de um perfil de teste usando um arquivo csv{#create-test-profiles-csv}
 
@@ -77,9 +77,9 @@ No Adobe Experience Platform, é possível criar perfis carregando um arquivo cs
 1. Adicione uma linha por perfil e preencha os valores de cada campo.
    ![](../assets/test-profiles-12.png)
 1. Salve a planilha como um arquivo csv. Verifique se as vírgulas são usadas como separadores.
-1. No Adobe Experience Platform, clique em **[!UICONTROL Workflows]**, no menu à esquerda.
+1. No Adobe Experience Platform, clique em **[!UICONTROL Workflows]**, no menu esquerdo.
    ![](../assets/test-profiles-14.png)
-1. Escolha **[!UICONTROL Map CSV to XDM schema]** e clique em **[!UICONTROL Launch]**.
+1. Choose **[!UICONTROL Map CSV to XDM schema]**, depois clique em **[!UICONTROL Launch]**.
    ![](../assets/test-profiles-16.png)
 1. Selecione o conjunto de dados para o qual deseja importar os perfis. Clique em **[!UICONTROL Next]**.
    ![](../assets/test-profiles-17.png)
@@ -87,7 +87,7 @@ No Adobe Experience Platform, é possível criar perfis carregando um arquivo cs
    ![](../assets/test-profiles-18.png)
 1. Mapeie os campos csv de origem para os campos de esquema e clique em **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-19.png)
-1. A importação de dados é iniciada. O status será movido de **[!UICONTROL Processing]** para **[!UICONTROL Success]**. Clique em **[!UICONTROL Preview data set]**, na parte superior direita.
+1. A importação de dados é iniciada. O status será movido de **[!UICONTROL Processing]** para **[!UICONTROL Success]**. Clique em **[!UICONTROL Preview data set]**, no canto superior direito.
    ![](../assets/test-profiles-20.png)
 1. Verifique se os perfis de teste foram adicionados corretamente.
    ![](../assets/test-profiles-21.png)
@@ -95,7 +95,7 @@ No Adobe Experience Platform, é possível criar perfis carregando um arquivo cs
 Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jornada. Consulte [esta seção](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Para obter mais informações sobre importações de csv, consulte a [documentação sobre assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
+> Para obter mais informações sobre importações de csv, consulte [Documentação da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
 
 ## Criação de perfis de teste usando chamadas de API{#create-test-profiles-api}
 

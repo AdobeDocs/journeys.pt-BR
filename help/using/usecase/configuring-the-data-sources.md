@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Configuração de fontes de dados
 description: Saiba como configurar a fonte de dados para o caso de uso avançado do jornada
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 15%
 
 ---
@@ -19,7 +19,7 @@ Em nosso caso de uso, queremos usar dados de personalização para nossas mensag
 
 Para obter informações adicionais sobre a configuração da fonte de dados, consulte [esta página](../datasource/about-data-sources.md).
 
-1. No painel de menus, selecione **[!UICONTROL Admin]**. Na seção **[!UICONTROL Data sources]**, clique em **[!UICONTROL Manage]**.
+1. No painel de menus, selecione **[!UICONTROL Admin]**. No **[!UICONTROL Data sources]** seção , clique em **[!UICONTROL Manage]**.
 1. Selecione a fonte de dados integrada do Adobe Experience Platform.
 
    ![](../assets/journey23.png)
@@ -30,11 +30,11 @@ Para obter informações adicionais sobre a configuração da fonte de dados, co
    * _pessoa > nome > sobrenome_
    * _email pessoal > endereço_
 
-1. Clique em **[!UICONTROL Add a New Field Group]**, selecione um schema **[!UICONTROL Profiles]** e adicione o campo **Loyalty member** para nossa condição. O campo **Loyalty member** é um campo personalizado e foi adicionado no XDM: &quot;_customer > marlton > loyaltyMember&quot;
+1. Clique em **[!UICONTROL Add a New Field Group]**, selecione um **[!UICONTROL Profiles]** e adicione o **Membro de fidelidade** para sua condição. O **Membro de fidelidade** é um campo personalizado e foi adicionado no XDM: &quot;_customer > marlton > loyaltyMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. Clique em **[!UICONTROL Add a New Field Group]**, selecione um schema **[!UICONTROL ExperienceEvent]** e escolha os campos necessários para sua condição no número de mensagens enviadas em um determinado período: _carimbo de data e hora_ para a data e _directMarketing > envia > valor_ para o número de mensagens enviadas.
+1. Clique em **[!UICONTROL Add a New Field Group]**, selecione um **[!UICONTROL ExperienceEvent]** e escolha os campos necessários para sua condição no número de mensagens enviadas em um determinado período: _timestamp_ para a data e _directMarketing > send > value_ para o número de mensagens enviadas.
 
    ![](../assets/journeyuc2_7.png)
 
@@ -59,7 +59,7 @@ Também precisamos verificar se a pessoa tem uma reserva no sistema de reservas 
 1. Clique em **[!UICONTROL Add a New Field Group]** para definir as informações a serem recuperadas e os parâmetros da API. Para nosso exemplo, há apenas um parâmetro (a id), portanto, precisamos criar um grupo de campos com as seguintes informações:
 
    * **[!UICONTROL Method]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
-   * **[!UICONTROL Response Payload]**: clique dentro do  **[!UICONTROL Payload]** campo e cole um exemplo do payload. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. No nosso exemplo, a carga contém apenas o status da reserva:
+   * **[!UICONTROL Response Payload]**: clique dentro do **[!UICONTROL Payload]** e cole um exemplo da carga útil. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. No nosso exemplo, a carga contém apenas o status da reserva:
 
    ```
    {

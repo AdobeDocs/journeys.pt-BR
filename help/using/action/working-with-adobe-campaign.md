@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Trabalhar com o Adobe Campaign
 description: Saiba mais sobre as ações do Adobe Campaign
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 4%
 
 ---
@@ -29,13 +29,13 @@ A mensagem transacional do Campaign Standard e seu evento associado devem ser pu
 
 Estas são as etapas para configurá-lo:
 
-1. Na lista **[!UICONTROL Actions]**, clique na ação **[!UICONTROL AdobeCampaignStandard]** incorporada. O painel de configuração de ação é aberto no lado direito da tela.
+1. No **[!UICONTROL Actions]** , clique no link incorporado **[!UICONTROL AdobeCampaignStandard]** ação. O painel de configuração de ação é aberto no lado direito da tela.
 
    ![](../assets/actioncampaign.png)
 
-1. Copie o URL da instância do Adobe Campaign Standard e cole-o no campo **[!UICONTROL URL]** .
+1. Copie o URL da instância do Adobe Campaign Standard e cole-o no **[!UICONTROL URL]** campo.
 
-1. Clique em **[!UICONTROL Test the instance URL]** para testar a validade da instância.
+1. Clique no botão **[!UICONTROL Test the instance URL]** para testar a validade da instância.
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Estas são as etapas para configurá-lo:
    >
    >O ORG associado a esta instância do Adobe Campaign Standard é o mesmo que o Journey Orchestration ORG.
 
-Ao projetar a jornada, três ações estarão disponíveis na categoria **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Uso de ações do Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Os** eventos de Reações também permitirão reagir a cliques em mensagens, aberturas, etc. (consulte [Eventos de reação](../building-journeys/reaction-events.md)).
+Ao projetar sua jornada, três ações estarão disponíveis no **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Usar ações do Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). **Evento de reações** O também permitirá que você reaja a cliques em mensagens, aberturas, etc. (consulte [Eventos de reações](../building-journeys/reaction-events.md)).
 
 ![](../assets/journey58.png)
 

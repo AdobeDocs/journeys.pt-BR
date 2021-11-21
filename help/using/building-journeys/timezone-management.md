@@ -2,20 +2,20 @@
 product: adobe campaign
 title: Gerenciamento de fuso horário
 description: Saiba mais sobre o gerenciamento de fuso horário
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: c0e67849-caa0-4045-94ed-38e483054e1d
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
 
 # Gerenciamento de fuso horário {#timezone_management}
 
-Você pode definir um fuso horário nas [propriedades](../building-journeys/changing-properties.md) da sua jornada.
+Você pode definir um fuso horário na variável [propriedades](../building-journeys/changing-properties.md) da sua jornada.
 
 Para acessar Propriedades, clique no ícone de lápis na parte superior direita da tela.
 
@@ -30,7 +30,7 @@ Você pode selecionar um fuso horário ou optar por usar o fuso horário definid
 
 >[!NOTE]
 >
->O fuso horário do perfil funciona com o campo **timeZone** existente no grupo de campos **Detalhes de preferência**.
+>O fuso horário do perfil funciona com a variável **timeZone** existente na variável **Detalhes da Preferência** grupo de campos.
 
 ## Definição de fuso horário fixo {#fixed-timezone}
 
@@ -48,7 +48,7 @@ Se um fuso horário for definido no perfil do Adobe Experience Platform, ele pod
 
 Se o perfil do indivíduo não contiver um fuso horário, o fuso horário recuperado será aquele definido no campo timezone.
 
-Para fazer isso, em **[!UICONTROL Properties]**, marque **[!UICONTROL Use Profile timezone in timers and conditions]**.
+Para fazer isso, em **[!UICONTROL Properties]**, verificar **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
 ![](../assets/journey73.png)
 

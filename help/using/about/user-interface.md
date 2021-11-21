@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 61%
 
 ## Acesso ao [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acessar a interface do [!DNL Journey Orchestration], clique no ícone **[!UICONTROL App Selector]**, na parte superior direita, e clique em **[!UICONTROL Journey Orchestration]**.
+Para acessar o [!DNL Journey Orchestration]na interface do , clique no botão **[!UICONTROL App Selector]** ícone , na parte superior direita e clique em **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ Os **[!UICONTROL Filters]** podem ser acessados com um clique no ícone de filtr
 
 Nas listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, use **[!UICONTROL Creation filters]** para filtrar a data de criação e o usuário. Por exemplo, você pode optar por exibir somente os eventos criados nos últimos 30 dias.
 
-Na lista de jornadas (em **[!UICONTROL Home]**), além de **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status, tipo e versão (**[!UICONTROL Status and version filters]**). O tipo pode ser: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
+Na lista jornada (em **[!UICONTROL Home]**), além do **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status, tipo e versão (**[!UICONTROL Status and version filters]**). O tipo pode ser: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ Você pode usar esses atalhos de teclado comuns no Adobe Journey Optimizer:
 | Mover entre elementos da interface do usuário, seções e grupos de menu | Tabulação |
 | Recuar entre elementos da interface do usuário, seções e grupos de menu | Shift + Guia |
 | Mover dentro de seções para definir o foco de elementos individuais | Seta |
-| Selecionar ou limpar um elemento em foco | Inserir ou Barra de espaço |
+| Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
 | Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
 
 [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
@@ -173,7 +173,7 @@ Painel de configuração desses elementos:
   <tr>
     <td>
 
-Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UICONTROL Single profile at a time]** esteja ativada
+Acione um evento em uma jornada baseada em segmento para a qual a variável **[!UICONTROL Single profile at a time]** está ativada
 
 </td>
     <td>P</td>

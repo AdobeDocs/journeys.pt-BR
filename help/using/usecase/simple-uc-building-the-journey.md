@@ -2,13 +2,13 @@
 product: adobe campaign
 title: Construção da jornada
 description: Saiba como criar a jornada de caso de uso simples
-feature: Jornadas
+feature: Journeys
 role: User
 level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '393'
 ht-degree: 38%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 38%
 Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá apenas um caminho com as seguintes atividades:
 
 * o &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando uma pessoa caminha perto do spa beacon, o sistema receberá um evento e a jornada começará para essa pessoa.
-* uma atividade **[!UICONTROL Condition]** para verificar se a pessoa é uma mulher
-* uma atividade **[!UICONTROL Email]** (usando o Adobe Campaign Standard)
+* a **[!UICONTROL Condition]** atividade para verificar se a pessoa é mulher
+* um **[!UICONTROL Email]** atividade (usando o Adobe Campaign Standard)
 * uma atividade **[!UICONTROL End]**
 
 >[!NOTE]
 >
 >As atividades **[!UICONTROL Push]** e **[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
-Para obter informações adicionais sobre como criar uma jornada, consulte [esta página](../building-journeys/journey.md).
+Para obter mais informações sobre como criar uma jornada, consulte [esta página](../building-journeys/journey.md).
 
 1. No menu superior, clique na guia **[!UICONTROL Home]** e **[!UICONTROL Create]** para criar uma nova jornada.
 
@@ -48,15 +48,15 @@ Para obter informações adicionais sobre como criar uma jornada, consulte [esta
 
    ![](../assets/journeyuc1_11.png)
 
-1. Usando o editor de expressão simples, procure o campo de gênero (_person > gender_) e solte-o à direita para criar a seguinte condição: &quot;gênero é igual a &quot;Feminino&quot;.
+1. Usando o editor de expressão simples, procure o campo gênero (_pessoa > gênero_) e solte-a à direita para criar a seguinte condição: &quot;gênero é igual a &quot;Feminino&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Solte uma atividade **[!UICONTROL Email]** e selecione seu modelo de mensagens transacionais &quot;Desconto de Spa&quot;. Esse modelo foi projetado usando o Adobe Campaign. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
+1. Solte uma **[!UICONTROL Email]** e selecione o modelo de mensagens transacionais &quot;Desconto de spa&quot;. Esse modelo foi projetado usando o Adobe Campaign. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Clique dentro do campo **[!UICONTROL Email]** e selecione o endereço de email da fonte de dados.
+1. Clique dentro do **[!UICONTROL Email]** e selecione o endereço de email da fonte de dados.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -64,11 +64,11 @@ Para obter informações adicionais sobre como criar uma jornada, consulte [esta
 
    ![](../assets/journeyuc1_15.png)
 
-1. Solte uma atividade **[!UICONTROL End]**.
+1. Solte uma **[!UICONTROL End]** atividade .
 
    ![](../assets/journeyuc1_17.png)
 
-1. Clique na opção **[!UICONTROL Test]** e teste sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
+1. Clique no botão **[!UICONTROL Test]** alterne e teste sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 

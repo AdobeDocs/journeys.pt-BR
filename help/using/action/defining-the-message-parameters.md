@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Definição dos parâmetros de ação
+title: Definição dos parâmetros de imagem
 description: Saiba como definir os parâmetros de ação
 feature: Journeys
 role: User
@@ -9,15 +9,15 @@ exl-id: ea9cdb1d-dde6-4080-8f35-7f8cd3cf3644
 source-git-commit: 7ce4ddec60f62662d67351b8ca70d7763e76b977
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Definição dos parâmetros de ação {#concept_wy4_bf1_2gb}
+# Definição dos parâmetros de imagem {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 
-Na seção **[!UICONTROL Action parameters]**, cole um exemplo da carga JSON para enviar ao serviço externo.
+No **[!UICONTROL Action parameters]** cole um exemplo da carga JSON para enviar ao serviço externo.
 
 ![](../assets/customactionpayloadmessage.png)
 
