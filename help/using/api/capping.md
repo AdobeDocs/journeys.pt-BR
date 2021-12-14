@@ -32,7 +32,7 @@ Para saber mais sobre a ação ou a configuração da fonte de dados, consulte [
 >
 >O [!DNL Journey Orchestration] A API de limitação é descrita em um arquivo Swagger disponível [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para usar essa API com sua [!DNL Journey Orchestration] , é necessário usar o Console do AdobeI/O. Você pode começar seguindo este [Introdução ao Console do desenvolvedor do Adobe](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e use as seções nesta página.
+Para usar essa API com sua [!DNL Journey Orchestration] Por exemplo, é necessário usar o Console do AdobeI/O. Você pode começar seguindo este [Introdução ao Console do desenvolvedor do Adobe](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e use as seções nesta página.
 
 Para testar e preparar sua integração, uma coleção Postman está disponível [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 

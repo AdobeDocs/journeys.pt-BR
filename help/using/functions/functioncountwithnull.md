@@ -42,10 +42,10 @@ Agregação
 
 `countWithNull(<listAny>)`
 
-Returns an integer.
+Retorna um número inteiro.
 
 ## Exemplo
 
 `countWithNull([10,2,10,null])`
 
-Returns 4.
+Retorna 4.
