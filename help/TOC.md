@@ -6,9 +6,9 @@ user-guide-description: Fornece instruções passo a passo para implementar e cr
 index: true
 feature: Journeys
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 96%
    + Compartilhamento de etapas de jornada com a Adobe Experience Platform {#sharing-journey-steps}
       + [Visão geral do compartilhamento de etapas da jornada](using/building-journeys/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/building-journeys/sharing-field-list.md)
-      + Campos de evento de etapa herdada {#legacy-step-event-fields}
+      + Campos de evento de etapa herdado {#legacy-step-event-fields}
          + [Sobre campos herdados](using/building-journeys/sharing-legacy-fields.md)
          + [campos comuns de eventos journeySteps](using/building-journeys/sharing-common-fields.md)
          + [campos de execução de ação de eventos journeyStep](using/building-journeys/sharing-execution-fields.md)
