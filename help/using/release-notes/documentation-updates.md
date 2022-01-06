@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: ed09f77617ae193ef7a217222f831f17ffc6b07c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Atualizações de documentação
 
-Esta página lista todas as atualizações de documentação do [!DNL Journey Orchestration].
+Esta página lista todas as atualizações na documentação do [!DNL Journey Orchestration].
 Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](../release-notes/release-notes.md).
 
 ## Setembro de 2021
