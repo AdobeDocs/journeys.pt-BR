@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 54%
+source-wordcount: '3130'
+ht-degree: 64%
 
 ---
 
@@ -18,29 +18,21 @@ ht-degree: 54%
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação mais recentes](../release-notes/documentation-updates.md).
 
-## Versão de outubro de 2021 {#october-2021-release}
+## Versão de janeiro de 2022 {#january-2022-release}
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="../building-journeys/condition-activity.md#profile_cap}">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### Melhorias
+
+* Os eventos Journey Orchestration step agora podem ser vinculados a outros conjuntos de dados em [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O **profileID** , no schema incorporado Jornada Step Event , agora é definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
+* A regra de limitação para ações do Adobe Campaign Standard foi alterada para 4000 chamadas / 5 minutos. [Leia mais](../action/working-with-adobe-campaign.md)
+
+## Versão de outubro de 2021 {#october-2021-release}
 
 ### Melhorias
 
 * **Editor de expressão** - Como um usuário avançado, agora você pode usar funções para trabalhar com mapas. [Saiba mais](../expression/field-references.md)
 * **Acessibilidade** - Foram implementadas melhorias de acessibilidade. O Journey Orchestration agora é totalmente compatível em termos de acessibilidade.
 * **Coleções** - Matrizes de objetos que contêm subobjetos agora são compatíveis. [Leia mais](../usecase/collections.md)
-* **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../building-journeys/sharing-field-list.md#serviceevents) foram adicionados relacionados a trabalhos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora são organizados em categorias diferentes no schema Evento de etapa de Jornada para Journey Orchestration. Todos os campos de eventos de etapa anteriores ainda estão disponíveis no [stepEvents](../building-journeys/sharing-legacy-fields.md) categoria .
+* **Monitoramento** - Os eventos de etapa para jornadas ativas e modo de teste foram aprimorados. [Novos campos](../building-journeys/sharing-field-list.md#serviceevents) foram adicionados relacionados a trabalhos de exportação de perfil. Para obter uma melhor experiência do usuário, os campos de evento de etapa agora são organizados em categorias diferentes no schema Evento de etapa de Jornada para Journey Orchestration. Todos os campos de eventos de etapa anteriores ainda estão disponíveis na categoria [stepEvents](../building-journeys/sharing-legacy-fields.md).
 
 ## Versão de setembro de 2021 {#september-2021-release}
 
@@ -54,9 +46,9 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 <tr>
 <td>
 <p>Agora é possível enviar coleções ou uma lista de dados nos parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções: coleções simples e coleções de objetos. As ações personalizadas criadas anteriormente continuarão funcionando. </p>
-<p>Para obter mais informações sobre coleções, consulte <a href="../usecase/collections.md">documentação detalhada</a>. </p>
+<p>Para mais informações sobre coleções, consulte a <a href="../usecase/collections.md"> documentação detalhada</a>. </p>
 <p>As funções de filtro e interseção foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferece mais possibilidades para filtragem e comparação de coleção.</p>
-<p>Consulte a documentação no <a href="../functions/functionfilter.md">filter</a> e <a href="../functions/functionintersect.md">interseção</a> funções.</p>
+<p>Consulte a documentação nas funções <a href="../functions/functionfilter.md">filtro</a> e <a href="../functions/functionintersect.md">interseção</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -65,8 +57,8 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 ### Melhorias
 
 * Os esquemas e conjuntos de dados gerados pelo sistema que foram criados durante o provisionamento para eventos da etapa agora estão no modo somente leitura, protegendo contra qualquer modificação inadvertida em esquemas críticos. [Saiba mais](../building-journeys/sharing-overview.md)
-* Rotule claramente o **Aguardar** atividade com um rótulo que será exibido na tela. O rótulo também é usado em registros de relatórios e modos de teste para identificar claramente o que você está fazendo. [Saiba mais](../building-journeys/using-the-journey-designer.md)
-* Encontre seus eventos e ações mais rapidamente filtrando elementos no **Eventos** e **Ação** categorias usando pesquisa. As atividades de orquestração não são mais filtradas. [Saiba mais](../building-journeys/using-the-journey-designer.md)
+* Rotule claramente a atividade **Aguardar** com um rótulo que será exibido na tela. O rótulo também é usado em logs de relatórios e modos de teste para identificar claramente o que você está fazendo. [Saiba mais](../building-journeys/using-the-journey-designer.md)
+* Encontre os seus eventos e ações com mais rapidez filtrando os elementos nas categorias **Eventos** e **Ação** usando a pesquisa. As atividades de orquestração não são mais filtradas. [Saiba mais](../building-journeys/using-the-journey-designer.md)
 * Ao definir uma condição de ID de evento em uma regra baseada, o operador &quot;contains&quot; agora está disponível para tipos de cadeia de caracteres de campos. [Saiba mais](../event/about-creating.md)
 
 ## Versão de agosto de 2021 {#august-2021-release}
@@ -75,8 +67,8 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 
 **Jornadas**
 
-* **Cabeçalhos dinâmicos** - Agora é possível passar dados dinâmicos em parâmetros do cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais](../action/url-configuration.md)
-* **Caminhos dinâmicos do URL** - Agora você pode configurar caminhos dinâmicos de URL para ações personalizadas. [Leia mais](../action/url-configuration.md)
+* **Cabeçalhos dinâmicos** - Agora é possível transferir dados dinâmicos em parâmetros de cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais](../action/url-configuration.md)
+* **Caminhos dinâmicos de URL** - Agora é possível configurar caminhos dinâmicos de URL para ações personalizadas. [Leia mais](../action/url-configuration.md)
 
 ## Versão de julho de 2021 {#july-2021-release}
 
@@ -99,7 +91,7 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 
 ### Melhorias
 
-* O **Duração do cache** foi removido do painel de configuração da fonte de dados. [Leia mais](../datasource/about-data-sources.md)
+* O campo **Duração do cache** foi removido do painel de configuração da fonte de dados. [Leia mais](../datasource/about-data-sources.md)
 
 ## Versão de junho de 2021 {#june-2021-release}
 
@@ -125,7 +117,7 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 * Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](../about/external-systems.md#capping)
 * Os editores de expressão simples e avançados agora oferecem suporte ao formato de data XDM.
 * Na tela jornada list , um novo filtro foi adicionado. Agora é possível filtrar por tipo de jornada: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. [Leia mais](../about/user-interface.md#section_lgm_hpz_pgb)
-* Para jornadas ao vivo, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. Essas informações também estão disponíveis ao copiar os detalhes técnicos da jornada. [Leia mais](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* Para as jornadas em tempo real, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. Essas informações também estão disponíveis ao copiar os detalhes técnicos da jornada. [Leia mais](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## Versão de abril de 2021 {#april-2021-release}
 
