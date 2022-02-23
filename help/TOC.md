@@ -5,9 +5,9 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 feature: Journeys
-source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [Definir os campos de carga](using/event/defining-the-payload-fields.md)
    + [Selecionar o namespace](using/event/selecting-the-namespace.md)
    + [Definir a chave de evento](using/event/defining-the-event-key.md)
-   + [Adicionar uma condição](using/event/adding-a-condition.md)
    + [Visualizar a carga](using/event/previewing-the-payload.md)
 + Configurar uma fonte de dados {#data-source-journeys}
    + [Sobre fontes de dados](using/datasource/about-data-sources.md)

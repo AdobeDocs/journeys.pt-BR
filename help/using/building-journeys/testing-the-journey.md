@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 141937cd16d5676a80412b2b72750710ee1e537f
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1692'
 ht-degree: 3%
 
 ---
@@ -61,6 +61,7 @@ Para usar o modo de teste, siga estas etapas:
 * Você pode ativar/desativar o modo de teste quantas vezes forem necessárias.
 * Não é possível modificar a jornada quando o modo de teste é ativado. Quando estiver no modo de teste, você pode publicar diretamente a jornada, não é necessário desativar o modo de teste antes.
 * Ao alcançar uma divisão, a ramificação superior é sempre escolhida. Você pode reorganizar a posição das ramificações divididas se quiser que o teste escolha um caminho diferente.
+* Para otimizar o desempenho e impedir o uso de recursos obsoletos, todas as jornadas no modo de teste que não foram acionadas por uma semana serão retornadas ao status Rascunho .
 
 ## Como transformar um perfil em um perfil de teste{#turning-profile-into-test}
 

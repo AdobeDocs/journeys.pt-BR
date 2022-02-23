@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 4a6e2afc19a95e834278c161b271ba6e8a345425
+source-git-commit: 0d1355f036b22df6b484ed2a0ea9a8b121e947e0
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3164'
 ht-degree: 64%
 
 ---
@@ -18,11 +18,17 @@ ht-degree: 64%
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação mais recentes](../release-notes/documentation-updates.md).
 
+## Versão de fevereiro de 2022 {#february-2022-release}
+
+### Melhorias
+
+* Para otimizar o desempenho e impedir o uso de recursos obsoletos, todas as jornadas no modo de teste que não foram acionadas por uma semana agora serão alternadas de volta para o status Rascunho . [Leia mais](../building-journeys/testing-the-journey.md#important_notes)
+
 ## Versão de janeiro de 2022 {#january-2022-release}
 
 ### Melhorias
 
-* Os eventos Journey Orchestration step agora podem ser vinculados a outros conjuntos de dados em [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O **profileID** , no schema incorporado Jornada Step Event , agora é definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
+* Os eventos Journey Orchestration step agora podem ser vinculados a outros conjuntos de dados em [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O campo **profileID**, no esquema incorporado Journey Step Event, agora está definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
 * A regra de limitação para ações do Adobe Campaign Standard foi alterada para 4000 chamadas / 5 minutos. [Leia mais](../action/working-with-adobe-campaign.md)
 
 ## Versão de outubro de 2021 {#october-2021-release}

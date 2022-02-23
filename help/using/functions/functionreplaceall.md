@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: d60059e5-6bf8-4a57-88a4-5323d5f0fa0b
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 16%
+source-wordcount: '105'
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ String
 | Parâmetro | Tipo |
 |-----------|--------------|
 | base | string |
-| target | string |
+| target | string (RegExp) |
 | substituição | string |
 
 ## Assinatura e tipo retornado
@@ -41,8 +41,10 @@ String
 
 Retorna uma string.
 
-## Exemplo
+## Exemplo{#example}
 
 `replaceAll("Hello World", "l", "x")`
 
 Retorna &quot;Hexxo Worxd&quot;.
+
+Como o parâmetro de destino é RegExp, dependendo da string que você deseja substituir, talvez seja necessário evitar alguns caracteres. Consulte o exemplo em [esta página](../functions/functionreplace.md#example_2).

@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
-title: Mudar de uma jornada para outra
-description: Mudar de uma jornada para outra
+title: Atualizar perfil
+description: Atualizar perfil
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 4%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
@@ -25,6 +25,7 @@ O **[!UICONTROL Update profile]** A atividade action permite atualizar um perfil
 * Assim como qualquer outra ação, você pode definir um caminho alternativo em caso de erro ou tempo limite e não pode colocar duas ações em paralelo.
 * A solicitação de atualização enviada para a Platform será rápida, mas não imediata/dentro de um segundo. Em geral, levará alguns segundos, mas às vezes mais sem garantia. Como resultado, por exemplo, se uma ação estiver usando um &quot;campo 1&quot; atualizado por uma ação Atualizar perfil posicionada anteriormente, você não deve esperar que o &quot;campo 1&quot; seja atualizado na ação.
 * No modo de teste, a atualização do perfil não será simulada. A atualização será executada no perfil de teste.
+* O **Atualizar perfil** A atividade não oferece suporte a campos XDM definidos como uma enumeração.
 
 ## Usar a atualização de perfil
 
