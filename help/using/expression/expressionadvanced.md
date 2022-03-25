@@ -57,11 +57,11 @@ Nesta tela você pode escrever manualmente a expressão.
 
 Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
-* **[!UICONTROL Events]**: escolha um dos campos recebidos a partir do evento de entrada. A lista exibida dos campos do evento é contextual e varia de acordo com os eventos adicionados na jornada. [Leia mais](../event/about-events.md)
-* **[!UICONTROL Segments]**: se tiver deixado cair uma **[!UICONTROL Segment qualification]** , escolha o segmento que deseja usar na expressão. [Leia mais](../segment/using-a-segment.md)
-* **[!UICONTROL Data Sources]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Leia mais](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: esta seção agrupa os campos técnicos relacionados à jornada de um determinado perfil. [Leia mais](../expression/journey-properties.md)
-* **[!UICONTROL Functions]**: escolha entre uma lista de funções integradas que permitem fazer uma filtragem complexa. As funções são organizadas por categorias. [Leia mais](../expression/functions.md)
+* **[!UICONTROL Events]**: escolha um dos campos recebidos a partir do evento de entrada. A lista exibida dos campos do evento é contextual e varia de acordo com os eventos adicionados na jornada. [Saiba mais](../event/about-events.md)
+* **[!UICONTROL Segments]**: se tiver deixado cair uma **[!UICONTROL Segment qualification]** , escolha o segmento que deseja usar na expressão. [Saiba mais](../segment/using-a-segment.md)
+* **[!UICONTROL Data Sources]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Saiba mais](../datasource/about-data-sources.md)
+* **[!UICONTROL Journey properties]**: esta seção agrupa os campos técnicos relacionados à jornada de um determinado perfil. [Saiba mais](../expression/journey-properties.md)
+* **[!UICONTROL Functions]**: escolha entre uma lista de funções integradas que permitem fazer uma filtragem complexa. As funções são organizadas por categorias. [Saiba mais](../expression/functions.md)
 
 ![](../assets/journey65.png)
 

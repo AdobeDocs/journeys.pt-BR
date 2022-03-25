@@ -194,7 +194,7 @@ Formato de serialização: Formato de data e hora de deslocamento estendido ISO-
 
 Ele usa DateTimeFormatter ISO_OFFSET_DATE_TIME para desserializar e serializar o valor. [Saiba mais](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-Você também pode passar um número inteiro passando por um valor de época. [Leia mais](https://www.epochconverter.com)
+Você também pode passar um número inteiro passando por um valor de época. [Saiba mais](https://www.epochconverter.com)
 
 O fuso horário pode ser especificado por um deslocamento ou um código de fuso horário (por exemplo: Europa/Paris, Z - ou seja, UTC).
 

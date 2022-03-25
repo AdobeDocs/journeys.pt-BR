@@ -49,7 +49,7 @@ A tabela abaixo fornece a lista de dimensões de delivery usadas nos relatórios
 | **Nome do delivery** | Rótulo e ID do delivery. |
 | **Dispositivo** | Dispositivo do qual a notificação por email/SMS/push foi aberta/exibida/clicada. |
 | **Tipo de mensagem** | Canal usado para o delivery, como email, SMS, notificação por push ou No aplicativo. |
-| **Nome do aplicativo móvel** | Nome do aplicativo móvel |
+| **Nome do aplicativo Mobile** | Nome do aplicativo móvel |
 | **Plataforma** | Plataforma do dispositivo a partir do qual a mensagem foi aberta/visualizada/clicada. |
 | **[!UICONTROL Push platform]** | Plataforma do dispositivo do qual a notificação por push foi aberta, como iOS ou Android. |
 | **Domínio do destinatário** | Domínio usado para abrir o email. |

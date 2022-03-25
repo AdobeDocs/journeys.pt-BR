@@ -19,7 +19,7 @@ Retorna a data atual no formato de data/hora. Para obter mais informações sobr
 
 ## Categoria
 
-Data 
+Data
 
 ## Sintaxe da função
 

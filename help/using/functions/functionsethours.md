@@ -19,7 +19,7 @@ Define somente as horas de uma data ou hora de data. Por exemplo, se você quise
 
 ## Categoria
 
-Data 
+Data
 
 ## Sintaxe da função
 

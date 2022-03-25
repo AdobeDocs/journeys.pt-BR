@@ -22,14 +22,14 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 
 ### Melhorias
 
-* Para otimizar o desempenho e impedir o uso de recursos obsoletos, todas as jornadas no modo de teste que não foram acionadas por uma semana agora serão alternadas de volta para o status Rascunho . [Leia mais](../building-journeys/testing-the-journey.md#important_notes)
+* Para otimizar o desempenho e impedir o uso de recursos obsoletos, todas as jornadas no modo de teste que não foram acionadas por uma semana agora serão alternadas de volta para o status Rascunho . [Saiba mais](../building-journeys/testing-the-journey.md#important_notes)
 
 ## Versão de janeiro de 2022 {#january-2022-release}
 
 ### Melhorias
 
 * Os eventos Journey Orchestration step agora podem ser vinculados a outros conjuntos de dados em [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O campo **profileID**, no esquema incorporado Journey Step Event, agora está definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
-* A regra de limitação para ações do Adobe Campaign Standard foi alterada para 4000 chamadas / 5 minutos. [Leia mais](../action/working-with-adobe-campaign.md)
+* A regra de limitação para ações do Adobe Campaign Standard foi alterada para 4000 chamadas / 5 minutos. [Saiba mais](../action/working-with-adobe-campaign.md)
 
 ## Versão de outubro de 2021 {#october-2021-release}
 
@@ -73,8 +73,8 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 
 **Jornadas**
 
-* **Cabeçalhos dinâmicos** - Agora é possível transferir dados dinâmicos em parâmetros de cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais](../action/url-configuration.md)
-* **Caminhos dinâmicos de URL** - Agora é possível configurar caminhos dinâmicos de URL para ações personalizadas. [Leia mais](../action/url-configuration.md)
+* **Cabeçalhos dinâmicos** - Agora é possível transferir dados dinâmicos em parâmetros de cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Saiba mais](../action/url-configuration.md)
+* **Caminhos dinâmicos de URL** - Agora é possível configurar caminhos dinâmicos de URL para ações personalizadas. [Saiba mais](../action/url-configuration.md)
 
 ## Versão de julho de 2021 {#july-2021-release}
 
@@ -123,20 +123,20 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 * Para fontes de dados externas, uma regra de limitação de 15 chamadas por segundo agora é definida automaticamente. [Leia mais](../about/external-systems.md#capping)
 * Os editores de expressão simples e avançados agora oferecem suporte ao formato de data XDM.
 * Na tela jornada list , um novo filtro foi adicionado. Agora é possível filtrar por tipo de jornada: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. [Leia mais](../about/user-interface.md#section_lgm_hpz_pgb)
-* Para as jornadas em tempo real, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. Essas informações também estão disponíveis ao copiar os detalhes técnicos da jornada. [Leia mais](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
+* Para as jornadas em tempo real, a tela de propriedades da jornada agora exibe a data da publicação e o nome do usuário que publicou a jornada. Essas informações também estão disponíveis ao copiar os detalhes técnicos da jornada. [Saiba mais](../building-journeys/changing-properties.md#section_lgm_hpz_pgb)
 
 ## Versão de abril de 2021 {#april-2021-release}
 
 ### Melhorias
 
-* No **Configuração do evento** no modo de teste, uma lista suspensa é exibida para campos que esperam uma enumeração. Basta selecionar um dos valores disponíveis. Isso evitará erros ao acionar o evento se um valor incorreto for definido. [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
+* No **Configuração do evento** no modo de teste, uma lista suspensa é exibida para campos que esperam uma enumeração. Basta selecionar um dos valores disponíveis. Isso evitará erros ao acionar o evento se um valor incorreto for definido. [Saiba mais](../building-journeys/testing-the-journey.md#firing_events)
 
 ## Versão de março de 2021 {#march-2021-release}
 
 ### Melhorias
 
-* Um novo status foi adicionado ao jornada. Quando uma jornada termina ou é fechada manualmente, seu status muda de **Fechado** para **Concluído** 30 dias após o seu encerramento. Isso permitirá identificar jornadas inativas com mais facilidade, garantindo que todos os indivíduos ainda presentes tenham tempo para concluir a jornada. [Leia mais](../building-journeys/journey.md#ending_a_journey)
-* Nos painéis à direita da atividade de jornadas de rascunho, os campos somente leitura agora estão ocultos por padrão. Essa simplificação da interface ajudará você a configurar suas atividades com mais facilidade. Para exibi-las, clique no botão **Mostrar campos somente leitura** ícone , disponível no canto superior esquerdo do painel de configuração da atividade. [Leia mais](../building-journeys/using-the-journey-designer.md#configuration_pane)
+* Um novo status foi adicionado ao jornada. Quando uma jornada termina ou é fechada manualmente, seu status muda de **Fechado** para **Concluído** 30 dias após o seu encerramento. Isso permitirá identificar jornadas inativas com mais facilidade, garantindo que todos os indivíduos ainda presentes tenham tempo para concluir a jornada. [Saiba mais](../building-journeys/journey.md#ending_a_journey)
+* Nos painéis à direita da atividade de jornadas de rascunho, os campos somente leitura agora estão ocultos por padrão. Essa simplificação da interface ajudará você a configurar suas atividades com mais facilidade. Para exibi-las, clique no botão **Mostrar campos somente leitura** ícone , disponível no canto superior esquerdo do painel de configuração da atividade. [Saiba mais](../building-journeys/using-the-journey-designer.md#configuration_pane)
 * No modo de teste, no **Configuração do evento** , a **Chave** o campo usado para definir a ID do perfil de teste foi renomeado **Identificador de perfil** para uma melhor experiência do usuário. [Leia mais](../building-journeys/testing-the-journey.md).
 * Para eventos de reação, a duração do tempo limite só pode ser definida entre 40 segundos e 30 dias. Ao testar uma jornada que usa um evento de reação, o modo de teste **[!UICONTROL Wait time]** o valor padrão e mínimo agora é de 40 segundos. [Leia mais](../building-journeys/reaction-events.md).
 
@@ -161,21 +161,21 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 ### Outras melhorias
 
 * Agora, ao configurar um evento, somente os campos obrigatórios para a validação XDM são pré-selecionados por padrão. Esses campos não podem ser desmarcados.
-* Na paleta jornada, um novo filtro foi adicionado. Ela permite exibir apenas os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos. [Leia mais](../building-journeys/using-the-journey-designer.md#palette)
+* Na paleta jornada, um novo filtro foi adicionado. Ela permite exibir apenas os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos. [Saiba mais](../building-journeys/using-the-journey-designer.md#palette)
 * Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa agora ficam ocultos. Isso se refere a todas as ações, à atividade de condição, à espera e à reação.
 * Na parte esquerda do editor de expressão avançado, as funções agora são reagrupadas em um **Funções** no final da lista.
 
 ## Versão de janeiro de 2021 {#january-2021-release}
 
-Ao selecionar um schema na configuração do evento, somente os campos obrigatórios para o evento ser recebido corretamente pelo Journey Orchestration são selecionados. [Leia mais](../event/defining-the-payload-fields.md)
+Ao selecionar um schema na configuração do evento, somente os campos obrigatórios para o evento ser recebido corretamente pelo Journey Orchestration são selecionados. [Saiba mais](../event/defining-the-payload-fields.md)
 
-Os atributos de propriedades do Jornada agora estão disponíveis no editor de expressões simples. [Leia mais](../expression/journey-properties.md)
+Os atributos de propriedades do Jornada agora estão disponíveis no editor de expressões simples. [Saiba mais](../expression/journey-properties.md)
 
-Dois novos atributos de propriedades de jornada foram adicionados (sandboxName e organizationId). [Leia mais](../expression/journey-properties.md)
+Dois novos atributos de propriedades de jornada foram adicionados (sandboxName e organizationId). [Saiba mais](../expression/journey-properties.md)
 
-Para se alinhar aos SLAs do Adobe Campaign Standard, uma regra de limitação de 13 chamadas por segundo agora é definida automaticamente para ações do Adobe Campaign Standard assim que a integração do Adobe Campaign Standard é configurada. [Leia mais](../action/working-with-adobe-campaign.md)
+Para se alinhar aos SLAs do Adobe Campaign Standard, uma regra de limitação de 13 chamadas por segundo agora é definida automaticamente para ações do Adobe Campaign Standard assim que a integração do Adobe Campaign Standard é configurada. [Saiba mais](../action/working-with-adobe-campaign.md)
 
-A duração do tempo limite do evento agora é especificada mais claramente no caminho de tempo limite. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
+A duração do tempo limite do evento agora é especificada mais claramente no caminho de tempo limite. [Saiba mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
 O [getListItem](../functions/functiongetlistitem.md) e [split](../functions/functionsplit.md) As funções do foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferecerá mais possibilidades em seus casos de uso de cálculo de string.
 
@@ -237,9 +237,9 @@ O [getListItem](../functions/functiongetlistitem.md) e [split](../functions/func
 
 ### Outras melhorias
 
-Foram adicionadas limitações ao criar novas versões de uma jornada. Essas limitações evitam alterações muito drásticas na jornada para manter alguma consistência entre as versões. [Leia mais](../about/limitations.md#journey-versions-limitations)
+Foram adicionadas limitações ao criar novas versões de uma jornada. Essas limitações evitam alterações muito drásticas na jornada para manter alguma consistência entre as versões. [Saiba mais](../about/limitations.md#journey-versions-limitations)
 
-O **Qualificação do segmento** não pode mais ser usada em uma jornada que inclui atividades de mensagem de Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso de qualificação de segmento pode levar a picos diários de envio de mensagem que sobrecarregariam as mensagens transacionais do Campaign Standard. [Leia mais](../about/limitations.md#segment-qualification)
+O **Qualificação do segmento** não pode mais ser usada em uma jornada que inclui atividades de mensagem de Campaign Standard. Essa restrição protege a integridade das instâncias do Adobe Campaign Standard. Na verdade, o uso de qualificação de segmento pode levar a picos diários de envio de mensagem que sobrecarregariam as mensagens transacionais do Campaign Standard. [Saiba mais](../about/limitations.md#segment-qualification)
 
 ## Versão de outubro de 2020 {#october-release}
 
@@ -262,7 +262,7 @@ O **Qualificação do segmento** não pode mais ser usada em uma jornada que inc
 
 ### Outras melhorias
 
-* Quando você publica uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status Closed . [Leia mais](../building-journeys/journey-versions.md)
+* Quando você publica uma nova versão de uma jornada, a versão anterior automaticamente termina e alterna para o status Closed . [Saiba mais](../building-journeys/journey-versions.md)
 
 ## Versão de setembro de 2020 {#september-release}
 
@@ -313,7 +313,7 @@ O **Qualificação do segmento** não pode mais ser usada em uma jornada que inc
 
 ### Atualizações do GA{#august-ga-update}
 
-Agora o payload dos eventos de qualificação de segmento contém as seguintes informações de contexto, que podem ser usadas em condições e ações: o comportamento (entrada, saída), a data e hora da qualificação e a ID do segmento. [Leia mais](../building-journeys/segment-qualification-events.md)
+Agora o payload dos eventos de qualificação de segmento contém as seguintes informações de contexto, que podem ser usadas em condições e ações: o comportamento (entrada, saída), a data e hora da qualificação e a ID do segmento. [Saiba mais](../building-journeys/segment-qualification-events.md)
 
 ### Atualizações Alfa{#august-alpha-update}
 
@@ -353,11 +353,11 @@ Agora o payload dos eventos de qualificação de segmento contém as seguintes i
 <p>As seguintes melhorias foram realizadas em eventos baseados em regras:
 </p>
 <ul>
-<li><p>Agora você pode aproveitar todos os dados de evento comportamental do Adobe Analytics que já estão sendo capturados e transmitidos na plataforma para acionar jornadas e automatizar experiências para seus clientes. <a href="../event/about-analytics.md">Leia mais</a></p>
+<li><p>Agora você pode aproveitar todos os dados de evento comportamental do Adobe Analytics que já estão sendo capturados e transmitidos na plataforma para acionar jornadas e automatizar experiências para seus clientes. <a href="../event/about-analytics.md">Saiba mais</a></p>
 </li>
-<li><p>A partir de agora, ao acionar um evento com base em regras no modo de teste, será possível visualizar diretamente a condição da ID do evento. Além disso, uma dica de ferramenta foi adicionada ao lado de cada campo de avaliação da regra. <a href="../building-journeys/testing-the-journey.md#test-rule-based">Leia mais</a></p>
+<li><p>A partir de agora, ao acionar um evento com base em regras no modo de teste, será possível visualizar diretamente a condição da ID do evento. Além disso, uma dica de ferramenta foi adicionada ao lado de cada campo de avaliação da regra. <a href="../building-journeys/testing-the-journey.md#test-rule-based">Saiba mais</a></p>
 </li>
-<li><p>A tela de definição de evento com base em regras foi reorganizada para obter uma experiência avançada. <a href="../event/about-creating.md">Leia mais</a></p>
+<li><p>A tela de definição de evento com base em regras foi reorganizada para obter uma experiência avançada. <a href="../event/about-creating.md">Saiba mais</a></p>
 </li>
 </ul>
 </td>
@@ -416,7 +416,7 @@ O programa Alfa oferece recursos que estão sendo atualmente testados em um conj
 <tbody>
 <tr>
 <td>
-<p>Simplificamos a forma como você configura os eventos na experiência. Estamos introduzindo um novo método que não requer o uso de uma ID de evento. Agora é possível definir um evento com base em regras ao configurar seu evento no Journey Orchestration. <a href="../event/about-events.md">Leia mais</a>
+<p>Simplificamos a forma como você configura os eventos na experiência. Estamos introduzindo um novo método que não requer o uso de uma ID de evento. Agora é possível definir um evento com base em regras ao configurar seu evento no Journey Orchestration. <a href="../event/about-events.md">Saiba mais</a>
 </p>
 </td>
 </tr>
@@ -437,19 +437,19 @@ O programa Alfa oferece recursos que estão sendo atualmente testados em um conj
 <td>
 <p>Foram realizados os seguintes aprimoramentos de integração na Adobe Experience Platform:</p>
 <ul>
-<li><p>Uma nova atividade permite que a escuta das entradas/saídas do segmento da Adobe Experience Platform possibilite a entrada ou o avanço das pessoas em uma jornada. <a href="../building-journeys/segment-qualification-events.md">Leia mais</a></p>
+<li><p>Uma nova atividade permite que a escuta das entradas/saídas do segmento da Adobe Experience Platform possibilite a entrada ou o avanço das pessoas em uma jornada. <a href="../building-journeys/segment-qualification-events.md">Saiba mais</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Graças à nova guia <strong>Segmentos</strong>, agora os segmentos da Adobe Experience Platform podem ser criados e editados sem precisar sair da interface do Journey Orchestration. <a href="../segment/about-segments.md">Leia mais</a></p>
+<li><p>Graças à nova guia <strong>Segmentos</strong>, agora os segmentos da Adobe Experience Platform podem ser criados e editados sem precisar sair da interface do Journey Orchestration. <a href="../segment/about-segments.md">Saiba mais</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>No editor de expressões simples, os segmentos da Adobe Experience Platform são agora listados diretamente na árvore de navegação para permitir uma fácil configuração de condições como "essa pessoa pertence ao segmento A?". <a href="../segment/using-a-segment.md">Leia mais</a></p>
+<li><p>No editor de expressões simples, os segmentos da Adobe Experience Platform são agora listados diretamente na árvore de navegação para permitir uma fácil configuração de condições como "essa pessoa pertence ao segmento A?". <a href="../segment/using-a-segment.md">Saiba mais</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Agora o Journey Orchestration transmite automaticamente as etapas executadas nas jornadas para a Adobe Experience Platform. inclusive possíveis erros que podem ser encontrados. Essas informações podem ser usadas para obter relatórios e solução de problemas executando consultas nos eventos Journey Step para uma determinada jornada ou para todas as jornadas. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
+<li><p>Agora o Journey Orchestration transmite automaticamente as etapas executadas nas jornadas para a Adobe Experience Platform. inclusive possíveis erros que podem ser encontrados. Essas informações podem ser usadas para obter relatórios e solução de problemas executando consultas nos eventos Journey Step para uma determinada jornada ou para todas as jornadas. <a href="../building-journeys/sharing-overview.md">Saiba mais</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-<li><p>Agora o Journey Orchestration pode ser conectado às sandboxes de produção e não produção da Adobe Experience Platform. Observe que as sandboxes são um recurso beta. <a href="../about/access-management.md#sandboxes">Leia mais</a></p>
+<li><p>Agora o Journey Orchestration pode ser conectado às sandboxes de produção e não produção da Adobe Experience Platform. Observe que as sandboxes são um recurso beta. <a href="../about/access-management.md#sandboxes">Saiba mais</a></p>
 </li>
 </ul>
 </td>
@@ -468,10 +468,10 @@ O programa Alfa oferece recursos que estão sendo atualmente testados em um conj
 <td>
 <p>Foram feitos os seguintes aprimoramentos ao designer da jornada e ao modo de teste:</p>
 <ul>
-<li><p>Agora você pode copiar e colar atividades de uma jornada para outra, selecionando 1 ou N atividades da jornada. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Leia mais</a></p>
+<li><p>Agora você pode copiar e colar atividades de uma jornada para outra, selecionando 1 ou N atividades da jornada. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Saiba mais</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li><p>Após o disparo de um evento para fazer um perfil de teste entrar em uma jornada, você pode ver o progresso ao longo da jornada graças a um fluxo visual colorido. Em caso de erro na jornada, detalhes do erro também serão exibidos. <a href="../building-journeys/testing-the-journey.md#firing_events">Leia mais</a></p>
+<li><p>Após o disparo de um evento para fazer um perfil de teste entrar em uma jornada, você pode ver o progresso ao longo da jornada graças a um fluxo visual colorido. Em caso de erro na jornada, detalhes do erro também serão exibidos. <a href="../building-journeys/testing-the-journey.md#firing_events">Saiba mais</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
 <li>O estado da jornada <strong>Concluído</strong> foi renomeado para <strong>Fechado (sem entrada)</strong> para refletir melhor o significado do estado.</li>
@@ -483,9 +483,9 @@ O programa Alfa oferece recursos que estão sendo atualmente testados em um conj
 
 **Outras melhorias**
 
-Para evitar o envio de muitas chamadas de API para sistemas de terceiros, estamos introduzindo uma nova API pública para configurar regras de &quot;limitação&quot;. As regras de limitação permitem a definição de um número máximo de chamadas para um ponto de entrada de API por milissegundos. [Leia mais](../api/capping.md)
+Para evitar o envio de muitas chamadas de API para sistemas de terceiros, estamos introduzindo uma nova API pública para configurar regras de &quot;limitação&quot;. As regras de limitação permitem a definição de um número máximo de chamadas para um ponto de entrada de API por milissegundos. [Saiba mais](../api/capping.md)
 
-O controle de acesso agora permite mais granularidade no gerenciamento de acesso do usuário. Disponível a partir de 30 de junho de 2020. [Leia mais](../about/access-management.md#create-product-profile)
+O controle de acesso agora permite mais granularidade no gerenciamento de acesso do usuário. Disponível a partir de 30 de junho de 2020. [Saiba mais](../about/access-management.md#create-product-profile)
 
 Agora o Journey Orchestration também está disponível no APAC (Centro de dados australiano). Disponível a partir de 30 de junho de 2020
 
@@ -504,10 +504,10 @@ A interface do Journey Orchestration está disponível em japonês.
 <td>
 <p>As seguintes melhorias foram feitas no modo de teste:</p>
 <ul>
-<li>Quando uma jornada usa vários eventos, é possível acionar cada um deles individualmente a partir de uma lista suspensa na tela <strong>Configuração de evento</strong> do modo de teste. <a href="../building-journeys/testing-the-journey.md#firing_events">Leia mais</a></p></li>
-<li><p>Quando uma ou mais atividades de <strong>espera</strong> são usadas em uma jornada, é possível definir o tempo que cada uma dessas atividades durará no modo de teste. O tempo padrão é de 10 segundos. Você pode alterar a duração usando o parâmetro<strong>Tempo de espera no teste</strong>, no canto inferior esquerdo. <a href="../building-journeys/testing-the-journey.md">Leia mais</a></p><img src="../assets/rn-test.png"/>
+<li>Quando uma jornada usa vários eventos, é possível acionar cada um deles individualmente a partir de uma lista suspensa na tela <strong>Configuração de evento</strong> do modo de teste. <a href="../building-journeys/testing-the-journey.md#firing_events">Saiba mais</a></p></li>
+<li><p>Quando uma ou mais atividades de <strong>espera</strong> são usadas em uma jornada, é possível definir o tempo que cada uma dessas atividades durará no modo de teste. O tempo padrão é de 10 segundos. Você pode alterar a duração usando o parâmetro<strong>Tempo de espera no teste</strong>, no canto inferior esquerdo. <a href="../building-journeys/testing-the-journey.md">Saiba mais</a></p><img src="../assets/rn-test.png"/>
 </li>
-<li>Nos <strong>logs de teste</strong>, em caso de erro ao chamar um sistema de terceiros (fonte de dados ou ação), o código de erro e a resposta do erro agora são exibidos. <a href="../building-journeys/testing-the-journey.md#viewing_logs">Leia mais</a>
+<li>Nos <strong>logs de teste</strong>, em caso de erro ao chamar um sistema de terceiros (fonte de dados ou ação), o código de erro e a resposta do erro agora são exibidos. <a href="../building-journeys/testing-the-journey.md#viewing_logs">Saiba mais</a>
 </li>
 </ul>
 </td>
@@ -583,11 +583,11 @@ A interface do Journey Orchestration está disponível em japonês.
 
 * A Experience League agora está integrada ao produto, o que simplifica o acesso ao conteúdo relacionado e ajuda a aproveitar ao máximo a Experience Cloud. O acesso direto à documentação do Journey Orchestration está disponível na parte inferior da guia Ajuda. Além disso, clique em Ajuda > Feedback para relatar problemas ou compartilhar suas ideias com a Adobe.
 
-* O atalho **C** do teclado, que permite criar um novo item, agora está disponível em todas as telas de lista: jornadas, fontes de dados, ações e eventos. [Leia mais](../about/user-interface.md#section_ksq_zr1_ffb)
+* O atalho **C** do teclado, que permite criar um novo item, agora está disponível em todas as telas de lista: jornadas, fontes de dados, ações e eventos. [Saiba mais](../about/user-interface.md#section_ksq_zr1_ffb)
 
 * Agora você pode **excluir** as jornadas interrompidas. Os relatórios associados a essas jornadas excluídas não estarão disponíveis.
 
-* Ao navegar pelos **campos da Adobe Experience Platform** (formato XDM), você verá o nome de exibição além do nome do campo. Essas informações são recuperadas a partir da definição do schema no Modelo de dados de experiência. Quando disponível, o nome de exibição alternativo é exibido. Essa descrição simples, especialmente útil no caso de campos eVar, permite identificar os campos mais facilmente. [Leia mais](../about/user-interface.md#friendly-names-display)
+* Ao navegar pelos **campos da Adobe Experience Platform** (formato XDM), você verá o nome de exibição além do nome do campo. Essas informações são recuperadas a partir da definição do schema no Modelo de dados de experiência. Quando disponível, o nome de exibição alternativo é exibido. Essa descrição simples, especialmente útil no caso de campos eVar, permite identificar os campos mais facilmente. [Saiba mais](../about/user-interface.md#friendly-names-display)
 
 ## Última Versão - Dezembro de 2019 {#ga-release---december-2019}
 

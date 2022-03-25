@@ -19,7 +19,7 @@ Define somente o dia de uma data ou hora. Por exemplo, se você quiser esperar a
 
 ## Categoria
 
-Data 
+Data
 
 ## Sintaxe da função
 

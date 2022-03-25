@@ -9,7 +9,7 @@ exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 62%
+ht-degree: 93%
 
 ---
 
@@ -95,19 +95,19 @@ Os recursos de acessibilidade do Adobe Journey Optimizer são fornecidos pela Ad
 * Contraste de cores
 * Validação de campos obrigatórios
 
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target=&quot;_blank&quot;} na documentação da Adobe Experience Platform.
 
 Você pode usar esses atalhos de teclado comuns no Adobe Journey Optimizer:
 
 | Ação | Atalho |
 | --- | --- |
-| Mover entre elementos da interface do usuário, seções e grupos de menu | Tabulação |
-| Recuar entre elementos da interface do usuário, seções e grupos de menu | Shift + Guia |
+| Mover entre elementos da interface do usuário, seções e grupos de menu | Tab |
+| Retroceder entre elementos da interface do usuário, seções e grupos de menu | Shift + Tab |
 | Mover dentro de seções para definir o foco de elementos individuais | Seta |
 | Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
 | Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
 
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} na documentação do Adobe Experience Platform.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=pt-BR){target=&quot;_blank&quot;} na documentação da Adobe Experience Platform.
 
 Você pode usar esses atalhos em partes específicas do Journey Optimizer:
 
@@ -125,22 +125,22 @@ Você pode usar esses atalhos em partes específicas do Journey Optimizer:
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Jornada tela no status de rascunho</td>
+    <td rowspan="3">Tela da jornada no status de rascunho</td>
     <td>Adicionar uma atividade da paleta esquerda na primeira posição disponível, de cima para baixo</td>
     <td>Clique duas vezes na atividade</td>
   </tr>
   <tr>
-    <td>Selecionar todas as atividades</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Selecione todas as atividades</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
   <tr>
     <td>Excluir as atividades selecionadas</td>
-    <td>Excluir ou Backspace, em seguida, Inserir para confirmar a exclusão</td>
+    <td>Delete ou Backspace, em seguida, tecle Enter para confirmar a exclusão</td>
   </tr>
   <tr>
   <td rowspan="3">
 
-Painel de configuração desses elementos:
+Painel de configuração destes elementos:
 
 <ul>
   <li>Atividade em uma jornada</li>
@@ -151,7 +151,7 @@ Painel de configuração desses elementos:
 
 </td>
     <td>Mover para o próximo campo a ser configurado</td>
-    <td>Tabulação</td>
+    <td>Guia</td>
   </tr>
   <tr>
     <td>Salve as alterações e feche o painel de configuração</td>
@@ -173,7 +173,7 @@ Painel de configuração desses elementos:
   <tr>
     <td>
 
-Acione um evento em uma jornada baseada em segmento para a qual a variável **[!UICONTROL Single profile at a time]** está ativada
+Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UICONTROL Single profile at a time]** esteja ativada
 
 </td>
     <td>P</td>
@@ -200,7 +200,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a variável **[!
     <td>Enter</td>
   </tr>
   <tr>
-    <td>Feche a janela</td>
+    <td>Fechar a janela</td>
     <td>Esc</td>
   </tr>
   <tr>
@@ -209,12 +209,12 @@ Acione um evento em uma jornada baseada em segmento para a qual a variável **[!
     <td>Clique duas vezes em um campo</td>
   </tr>
   <tr>
-    <td>Navegação pelos campos XDM</td>
+    <td>Navegar pelos campos XDM</td>
     <td>Selecionar todos os campos de um nó</td>
-    <td>Selecione o nó pai</td>
+    <td>Selecione o nó principal</td>
   </tr>
   <tr>
-    <td>Visualização da carga útil</td>
+    <td>Visualização da carga</td>
     <td>Selecionar a carga</td>
     <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>

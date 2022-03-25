@@ -19,7 +19,7 @@ Retorna o tempo atual em milissegundos de época.
 
 ## Categoria
 
-Data 
+Data
 
 ## Sintaxe da função
 

@@ -32,9 +32,9 @@ Para saber mais sobre a ação ou a configuração da fonte de dados, consulte [
 >
 >O [!DNL Journey Orchestration] A API de limitação é descrita em um arquivo Swagger disponível [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para usar essa API com sua [!DNL Journey Orchestration] Por exemplo, é necessário usar o Console do AdobeI/O. Você pode começar seguindo este [Introdução ao Console do desenvolvedor do Adobe](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e use as seções nesta página.
+Para usar essa API com sua [!DNL Journey Orchestration] , é necessário usar o Console do AdobeI/O. Você pode começar seguindo este [Introdução ao Console do desenvolvedor do Adobe](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e use as seções nesta página.
 
-Para testar e preparar sua integração, uma coleção Postman está disponível [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Para testar e preparar sua integração, uma coleção do Postman está disponível [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 ## Autenticação
 
@@ -167,9 +167,9 @@ O possível aviso é:
 
 Nesta seção, você encontrará os cinco principais casos de uso que podem ser executados para gerenciar a configuração de limitação no [!DNL Journey Orchestration].
 
-Para ajudá-lo nos testes e configurações, uma coleção Postman está disponível [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Para ajudá-lo nos testes e configurações, uma coleção do Postman está disponível [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
-Esta Coleção Postman foi configurada para compartilhar a coleção Variável Postman gerada por __[Integrações do console do Adobe I/O](https://console.adobe.io/integrations) > Experimente > Baixar para Postman__, que gera um arquivo de Ambiente Postman com os valores de integrações selecionados.
+Esta coleção Postman foi configurada para compartilhar a coleção Variável Postman gerada por __[Integrações do console do Adobe I/O](https://console.adobe.io/integrations) > Experimente > Baixar para Postman__, que gera um arquivo de Ambiente Postman com os valores de integrações selecionados.
 
 Após o download e o upload para o Postman, é necessário adicionar três variáveis: `{JO_HOST}`,`{Base_Path}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Orchestration] URL do gateway

@@ -19,7 +19,7 @@ Retorna verdadeiro se a hora da data especificada estiver entre agora e agora - 
 
 ## Categoria
 
-Data 
+Data
 
 ## Sintaxe da função
 

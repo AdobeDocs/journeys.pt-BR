@@ -9,7 +9,7 @@ exl-id: b514d2e9-1444-46d5-a1ac-3591e62807c1
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -45,20 +45,20 @@ Esta é a lista de funções suportadas.
 | Conversão | [toDuration](../functions/functiontoduration.md) |
 | Conversão | [toInteger](../functions/functiontointeger.md) |
 | Conversão | [toString](../functions/functiontostring.md) |
-| Data  | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| Data  | [inLastDays](../functions/functioninlastdays.md) |
-| Data  | [inLastHours](../functions/functioninlasthours.md) |
-| Data  | [inLastMonths](../functions/functioninlastmonths.md) |
-| Data  | [inLastYears](../functions/functioninlastyears.md) |
-| Data  | [inNextDays](../functions/functioninnextdays.md) |
-| Data  | [inNextHours](../functions/functioninnexthours.md) |
-| Data  | [inNextMonths](../functions/functioninnextmonths.md) |
-| Data  | [inNextYears](../functions/functioninnextyears.md) |
-| Data  | [now](../functions/functionnow.md) |
-| Data  | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| Data  | [setHours](../functions/functionsethours.md) |
-| Data  | [setDays](../functions/functionsetdays.md) |
-| Data  | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| Data | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
+| Data | [inLastDays](../functions/functioninlastdays.md) |
+| Data | [inLastHours](../functions/functioninlasthours.md) |
+| Data | [inLastMonths](../functions/functioninlastmonths.md) |
+| Data | [inLastYears](../functions/functioninlastyears.md) |
+| Data | [inNextDays](../functions/functioninnextdays.md) |
+| Data | [inNextHours](../functions/functioninnexthours.md) |
+| Data | [inNextMonths](../functions/functioninnextmonths.md) |
+| Data | [inNextYears](../functions/functioninnextyears.md) |
+| Data | [now](../functions/functionnow.md) |
+| Data | [nowWithDelta](../functions/functionnowwithdelta.md) |
+| Data | [setHours](../functions/functionsethours.md) |
+| Data | [setDays](../functions/functionsetdays.md) |
+| Data | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Lista | [distinct](../functions/functiondistinct.md) |
 | Lista | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | Lista | [filtro](../functions/functionfilter.md) |

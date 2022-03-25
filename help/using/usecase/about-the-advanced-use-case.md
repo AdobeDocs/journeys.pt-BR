@@ -54,6 +54,6 @@ O Adobe Campaign Standard está configurado para enviar emails e notificações 
 
 A ID do Experience Cloud é usada como a chave para identificar o cliente no sistema de reservas do hotel.
 
-Os eventos são enviados do celular do cliente quando foram detectados perto de um beacon. Você precisa criar um aplicativo móvel para enviar eventos do celular do cliente para o SDK móvel.
+Os eventos são enviados do celular do cliente quando foram detectados perto de um beacon. Você precisa projetar um aplicativo móvel para enviar eventos do celular do cliente para o SDK do Mobile.
 
 O campo Loyalty member é um campo personalizado e foi adicionado no XDM para nossa ID de organização específica.

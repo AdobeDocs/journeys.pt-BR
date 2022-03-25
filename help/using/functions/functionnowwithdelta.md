@@ -19,7 +19,7 @@ Retorna a data e hora atual, incluindo um deslocamento. Se um ID de fuso horári
 
 ## Categoria
 
-Data 
+Data
 
 ## Sintaxe da função
 

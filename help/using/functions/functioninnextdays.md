@@ -19,7 +19,7 @@ Retorna true se uma determinada data ou dateTime estiver entre agora e agora + d
 
 ## Categoria
 
-Data 
+Data
 
 ## Sintaxe da função
 
