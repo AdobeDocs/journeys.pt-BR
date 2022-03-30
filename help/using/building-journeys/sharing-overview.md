@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 034473b318eddf93e4ed27d9cbe9e18dab1d96cb
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '506'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Esse recurso é ativado por padrão em todas as instâncias para eventos de etapas do jornada. Para eventos de etapa do perfil do jornada, a ativação é feita mediante solicitação. Não é possível modificar ou atualizar os esquemas e conjuntos de dados que foram criados durante o provisionamento para eventos de etapa. Por padrão, esses esquemas e conjuntos de dados estão no modo somente leitura.
+>Esse recurso é ativado por padrão em todas as instâncias para eventos de etapas do jornada. Não é possível modificar ou atualizar os esquemas e conjuntos de dados que foram criados durante o provisionamento para eventos de etapa. Por padrão, esses esquemas e conjuntos de dados estão no modo somente leitura.
 
 Por exemplo, você configurou uma jornada que envia vários emails. Esse recurso permite combinar [!DNL Journey Orchestration] dados com dados de evento downstream como quantas conversões ocorreram, quanto envolvimento aconteceu no site ou quantas transações ocorreram na loja. As informações de jornada podem ser combinadas com dados no Adobe Experience Platform, de outras propriedades digitais ou de propriedades offline, para fornecer uma visão mais abrangente do desempenho.
 
@@ -35,7 +35,6 @@ O Jornada envia dados conforme ocorre, de forma contínua. Você pode consultar 
 
 Os seguintes esquemas são criados:
 
-* Esquema do Evento de perfil de etapa do Jornada para [!DNL Journey Orchestration] - Eventos de experiência para obter as etapas tomadas em uma Jornada, juntamente com um Mapa de identidade a ser usado para mapear para um Participante individual da Jornada.
 * Esquema do Evento de etapa de Jornada para [!DNL Journey Orchestration] - Evento de etapa de Jornada vinculado a um Metadado de Jornada.
 * Jornada esquema com Campos de Jornada para [!DNL Journey Orchestration] - Jornada metadados para descrever Jornadas.
 
@@ -45,7 +44,6 @@ Os seguintes esquemas são criados:
 
 Os seguintes conjuntos de dados são transmitidos:
 
-* Esquema do Evento de perfil de etapa do Jornada para [!DNL Journey Orchestration]
 * Jornada de eventos em etapas
 * Jornadas
 

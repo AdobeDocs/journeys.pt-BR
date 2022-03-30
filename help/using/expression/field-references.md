@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: e4a003656058ac7ae6706e22fd5162c9e875629a
+source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '557'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Na expressão, os campos de evento são referenciados com &quot;@&quot; e os cam
 
 Uma cor de sintaxe é usada para distinguir visualmente os campos de eventos (verde) dos grupos de campos (azul).
 
-## Valores padrão para referências de campo
+## Valores padrão para referências de campo {#default-value}
 
 Um valor padrão pode ser associado a um nome de campo. A sintaxe é a seguinte:
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+Você pode adicionar qualquer tipo de expressão como valor padrão. A única restrição é que a expressão retorne o tipo de dados esperado. Ao usar uma função, é necessário encapsular a função com ().
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## Referência a um campo em coleções
