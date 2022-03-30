@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 617915d3f2e62e750c3559424ef4c203891124eb
 workflow-type: tm+mt
-source-wordcount: '3228'
+source-wordcount: '3226'
 ht-degree: 63%
 
 ---
@@ -19,8 +19,6 @@ Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 Você também pode consultar as [Atualizações de documentação mais recentes](../release-notes/documentation-updates.md).
 
 ## Versão de março de 2022 {#feb-2022-release}
-
-### Novos recursos
 
 ### Melhorias
 
