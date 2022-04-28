@@ -6,7 +6,7 @@ user-guide-description: Fornece instruções passo a passo para implementar e cr
 index: true
 feature: Journeys
 source-git-commit: 95d9ce8ffd213e46320a4c131ffae8442cfb23bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
