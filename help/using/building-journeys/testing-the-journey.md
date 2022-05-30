@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 1e9cb572cbebf1434e236f18ce58ce45dc6c0409
+source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 3%
+source-wordcount: '1576'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ Para usar o modo de teste, siga estas etapas:
 
    >[!NOTE]
    >
-   >Quando um evento de reação é usado em uma jornada, o tempo de espera padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md).
+   >Quando um evento de reação com tempo limite é usado em uma jornada, o tempo de espera padrão e o valor mínimo são 40 segundos. Consulte [esta seção](../building-journeys/reaction-events.md).
 
 1. Clique em **[!UICONTROL Trigger an event]** para configurar e enviar eventos para a jornada.
 
@@ -155,7 +155,7 @@ Quando você seleciona um perfil de teste diferente na tela de configuração do
 
 Ao abrir uma jornada no teste, o caminho exibido corresponde ao último teste executado.
 
-O fluxo visual funciona se o evento é acionado por meio da interface ou externamente (usando Postman, por exemplo).
+O fluxo visual funciona se o evento é acionado via interface ou externamente (usando Postman, por exemplo).
 
 ## Modo de teste para jornadas baseadas em regras {#test-rule-based}
 
