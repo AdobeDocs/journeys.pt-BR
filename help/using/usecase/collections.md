@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Envio dinâmico de coleções usando ações personalizadas
 description: Envio de uma mensagem usando o Campaign v7/v8
 exl-id: 9ed62a74-3c51-4f15-af8a-d530ddf80b51
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 97d19cf9cb91c82587e5c94e43580f808d15e813
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 7%
@@ -66,6 +66,7 @@ Você pode passar uma coleção em parâmetros de ação personalizados que ser�
     ]
    }
    ```
+
 * Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. O modo de visualização de código não é compatível com eventos comerciais no momento. Você só pode enviar uma coleção com um único elemento.
 
 ## Procedimento geral {#general-procedure}
