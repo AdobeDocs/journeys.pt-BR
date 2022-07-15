@@ -9,7 +9,7 @@ exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ A interface de jornada permite arrastar e soltar facilmente as atividades da pal
 
 Somente um namespace é permitido por jornada. Ao soltar o primeiro evento, os eventos com namespaces diferentes serão esmaecidos. Se o primeiro evento não tiver um namespace, todos os eventos com um namespace serão esmaecidos. Consulte [esta página](../event/selecting-the-namespace.md). Além disso, os grupos de campos do Adobe Experience Platform ficam esmaecidos se a jornada tiver eventos sem um namespace. Por fim, se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace.
 
-Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa são ocultos. Isso se refere a todas as ações, à atividade de condição, à espera e à reação.
+Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa são ocultos. Isso se refere a todas as ações, à atividade de condição, espera e reação.
 
 ## Início rápido {#creating_journey}
 
