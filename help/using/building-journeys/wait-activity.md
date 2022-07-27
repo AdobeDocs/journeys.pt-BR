@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '355'
 ht-degree: 6%
 
 ---
@@ -18,9 +18,7 @@ ht-degree: 6%
 Se quiser esperar antes de executar a próxima atividade no caminho, use um **[!UICONTROL Wait]** atividade . Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
 
 * [Duração](#duration)
-* [Data fixa](#fixed_date)
 * [Personalizado](#custom)
-
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Sobre a atividade Wait{#about_wait}
@@ -40,12 +38,6 @@ Observe também que, se duas esperas diferentes estiverem em paralelo, a que oco
 Selecione a duração da espera antes da execução da próxima atividade.
 
 ![](../assets/journey55.png)
-
-## Data de espera fixa{#fixed_date}
-
-Selecione a data para a execução da próxima atividade.
-
-![](../assets/journey56.png)
 
 ## Aguardar personalizado{#custom}
 

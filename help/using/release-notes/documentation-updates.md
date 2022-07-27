@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 99%
+source-wordcount: '992'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 99%
 
 Esta página lista todas as atualizações na documentação do [!DNL Journey Orchestration].
 Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](../release-notes/release-notes.md).
+
+## Julho de 2022 {#july-2022}
+
+* Nas propriedades da jornada, a variável **Fuso horário do perfil** agora está desativada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
+* No **Aguardar** , a atividade **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
 
 ## Junho de 2022 {#june-2022}
 
