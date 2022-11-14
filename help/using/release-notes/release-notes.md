@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3274'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,14 +22,14 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 
 ### Melhorias
 
-* **Editor de expressão** - O [limite](../functions/functionlimit.md) foi adicionada para permitir que você limite o número de itens de uma lista. O [sort](../functions/functionsort.md) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado ao [disctinct](../functions/functiondistinct.md) e [distinctWithNull](../functions/functiondistinctwithnull.md) funções.
+* **Editor de expressão** - A função [limite](../functions/functionlimit.md) foi adicionada para limitar o número de itens de uma lista. A função [classificar](../functions/functionsort.md) agora permite classificar um objeto de lista. O suporte a listObject também foi adicionado às funções [disctinct](../functions/functiondistinct.md) e [distinctWithNull](../functions/functiondistinctwithnull.md).
 
 ## Versão de março de 2022 {#feb-2022-release}
 
 ### Melhorias
 
 * Para evitar campos desnecessários no esquema de perfil unificado, o esquema de eventos de etapas da jornada não é mais habilitado para perfis por padrão. Se necessário, você pode ativá-lo. [Saiba mais](../building-journeys/sharing-overview.md)
-* Os novos eventos de etapa relacionados aos trabalhos de exportação agora são enviados pelo Journey Optimizer para a Adobe Experience Platform. Exemplos de consultas foram adicionados à documentação. [Saiba mais](../building-journeys/query-examples.md)
+* Os novos eventos de etapa relacionados aos processos de exportação agora são enviados pelo Journey Optimizer para a Adobe Experience Platform. Exemplos de consultas foram adicionados à documentação. [Saiba mais](../building-journeys/query-examples.md)
 
 ## Versão de fevereiro de 2022 {#february-2022-release}
 
@@ -41,7 +41,7 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 
 ### Melhorias
 
-* Os eventos de etapa do Journey Orchestration agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O campo **profileID**, no esquema incorporado Journey Step Event, agora está definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
+* Os eventos de etapa do Journey Orchestration agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O campo **profileID**, no esquema incorporado Evento de Etapas da Jornada, agora está definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
 * A regra de limitação para ações do Adobe Campaign Standard foi alterada para 4000 chamadas / 5 minutos. [Leia mais](../action/working-with-adobe-campaign.md)
 
 ## Versão de outubro de 2021 {#october-2021-release}
@@ -176,13 +176,13 @@ Você também pode consultar as [Atualizações de documentação mais recentes]
 * Agora, ao configurar um evento, somente os campos obrigatórios para a validação do XDM são pré-selecionados por padrão. Esses campos não podem ser desmarcados.
 * Um novo filtro foi adicionado à paleta da jornada. Ele permite exibir apenas os cinco últimos eventos e ações usados, além dos prontos para uso. Isso é específico para cada usuário. Por padrão, todos os itens são exibidos. [Leia mais](../building-journeys/using-the-journey-designer.md#palette)
 * Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela na primeira etapa agora ficam ocultos. Isso se refere a todas as ações, à atividade de condição, espera e reação.
-* Na parte esquerda do editor de expressões avançado, as funções agora estão reagrupadas em uma seção **Funções** no final da lista.
+* Na parte esquerda do editor de expressão avançado, as funções agora estão reagrupadas em uma seção **Funções** no final da lista.
 
 ## Versão de janeiro de 2021 {#january-2021-release}
 
 Ao selecionar um esquema na configuração do evento, somente os campos obrigatórios para o evento ser recebido corretamente pelo Journey Orchestration são selecionados. [Leia mais](../event/defining-the-payload-fields.md)
 
-Os atributos de propriedades de jornada agora estão disponíveis no editor de expressões simples. [Leia mais](../expression/journey-properties.md)
+Os atributos de propriedades de jornada agora estão disponíveis no editor de expressão simples. [Leia mais](../expression/journey-properties.md)
 
 Dois novos atributos de propriedades de jornada foram adicionados (sandboxName e organizationId). [Leia mais](../expression/journey-properties.md)
 
@@ -190,7 +190,7 @@ Para se alinhar aos SLAs do Adobe Campaign Standard, uma regra de limitação de
 
 A duração do tempo limite do evento agora é especificada mais claramente no caminho de tempo limite. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time)
 
-As funções [getListItem](../functions/functiongetlistitem.md) e [divisão](../functions/functionsplit.md) foram adicionadas à lista de funções disponíveis no editor de expressões avançado. Isso oferecerá mais possibilidades em seus casos de uso de cálculo de string.
+As funções [getListItem](../functions/functiongetlistitem.md) e [divisão](../functions/functionsplit.md) foram adicionadas à lista de funções disponíveis no editor de expressão avançado. Isso oferecerá mais possibilidades em seus casos de uso de cálculo de string.
 
 ## Versão de novembro de 2020 {#november-release}
 
@@ -218,13 +218,13 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [divisão](../
 <table>
 <thead>
 <tr>
-<th><strong>Usar propriedades de jornada no editor de expressões</strong><br/></th>
+<th><strong>Usar propriedades de jornada no editor de expressão</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>No editor de expressões avançado, adicionamos uma nova categoria à lista de campos e funções. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. Isso lhe dará mais possibilidades ao criar suas jornadas. Por exemplo, você poderá alertar sistemas de terceiros em caso de erros encontrados em uma condição ou ação.
+<p>No editor de expressão avançado, adicionamos uma nova categoria à lista de campos e funções. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. Isso lhe dará mais possibilidades ao criar suas jornadas. Por exemplo, você poderá alertar sistemas de terceiros em caso de erros encontrados em uma condição ou ação.
 </p>
 <p>Para obter mais informações, consulte a <a href="../expression/journey-properties.md">documentação detalhada</a>.</p>
 </td>
@@ -326,7 +326,7 @@ A atividade **Qualificação do segmento** não pode mais ser usada em uma jorna
 
 ### Atualizações de disponibilidade geral{#august-ga-update}
 
-Agora o payload dos eventos de qualificação de segmento contém as seguintes informações de contexto, que podem ser usadas em condições e ações: o comportamento (entrada, saída), a data e hora da qualificação e a ID do segmento. [Leia mais](../building-journeys/segment-qualification-events.md)
+Agora o conteúdo dos eventos de qualificação de segmento contém as seguintes informações de contexto, que podem ser usadas em condições e ações: o comportamento (entrada, saída), a data e hora da qualificação e a ID do segmento. [Leia mais](../building-journeys/segment-qualification-events.md)
 
 ### Atualizações Alfa{#august-alpha-update}
 
@@ -456,7 +456,7 @@ O programa Alfa oferece recursos que estão sendo atualmente testados em um conj
 <li><p>Graças à nova guia <strong>Segmentos</strong>, agora os segmentos da Adobe Experience Platform podem ser criados e editados sem precisar sair da interface do Journey Orchestration. <a href="../segment/about-segments.md">Leia mais</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>No editor de expressões simples, os segmentos da Adobe Experience Platform são agora listados diretamente na árvore de navegação para permitir uma fácil configuração de condições como “essa pessoa pertence ao segmento A?”. <a href="../segment/using-a-segment.md">Leia mais</a></p>
+<li><p>No editor de expressão simples, os segmentos da Adobe Experience Platform são agora listados diretamente na árvore de navegação para permitir uma fácil configuração de condições como “essa pessoa pertence ao segmento A?”. <a href="../segment/using-a-segment.md">Leia mais</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Agora o Journey Orchestration transmite automaticamente as etapas executadas nas jornadas para a Adobe Experience Platform. inclusive possíveis erros que podem ser encontrados. Essas informações podem ser usadas para obter relatórios e solução de problemas executando consultas nos eventos Journey Step para uma determinada jornada ou para todas as jornadas. <a href="../building-journeys/sharing-overview.md">Leia mais</a></p>
