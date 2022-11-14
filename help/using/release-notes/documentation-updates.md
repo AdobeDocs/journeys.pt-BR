@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](
 
 ## Julho de 2022 {#july-2022}
 
-* Nas propriedades da jornada, a variável **Fuso horário do perfil** agora está desativada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
-* No **Aguardar** , a atividade **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
+* Nas propriedades da jornada, a opção **Fuso horário do perfil** agora está desativada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
+* Na atividade **Aguardar**, a opção **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
 
 ## Junho de 2022 {#june-2022}
 
-* Novos exemplos de query foram adicionados a isso [página](../building-journeys/query-examples.md)
+* Novos exemplos de consulta foram adicionados a esta [página](../building-journeys/query-examples.md)
 
 ## Março de 2022 {#march-2022}
 
@@ -33,7 +33,7 @@ Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](
 
 ## Fevereiro de 2022 {#feb-2022}
 
-* As páginas de documentação das funções [replace](../functions/functionreplace.md#example_2) e [replaceAll](../functions/functionreplaceall.md#example) foram atualizadas com informações adicionais e exemplos relacionados ao parâmetro de direcionamento.
+* As páginas de documentação das funções [replace](../functions/functionreplace.md#example_2) e [replaceAll](../functions/functionreplaceall.md#example) foram atualizadas com informações adicionais e exemplos relacionados ao parâmetro de público-alvo.
 * As práticas recomendadas foram adicionadas à página [Operadores](../expression/operators.md#important-notes).
 
 ## Setembro de 2021
@@ -111,7 +111,7 @@ Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](
 
 * Adição de descrições de parâmetros para _actionExecutionErrors_ e _fetchErrors_ na seção de logs de teste. [Leia mais](../building-journeys/testing-the-journey.md#viewing_logs)
 * As limitações das ações personalizadas usadas em uma jornada foram atualizadas. Também é possível modificar o campo **[!UICONTROL URL]** e os parâmetros **[!UICONTROL Authentication]**. [Leia mais](../action/about-custom-action-configuration.md)
-* Novas entradas de ajuda contextual foram adicionadas. O painel de carga útil de autenticação personalizada (em ações e fontes de dados) agora inclui um ícone de ajuda que se vincula a esta [seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+* Novas entradas de ajuda contextual foram adicionadas. O painel de carga de autenticação personalizada (em ações e fontes de dados) agora inclui um ícone de ajuda que se vincula a esta [seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 * Agora as jornadas concluídas podem ser interrompidas. [Leia mais](../building-journeys/using-the-journey-designer.md)
 * A seção de descrição da interface foi reorganizada. [Leia mais](../about/user-interface.md)
 * O acionamento de vários eventos foi adicionado à seção Modo de teste [Leia mais](../building-journeys/testing-the-journey.md#firing_events)
