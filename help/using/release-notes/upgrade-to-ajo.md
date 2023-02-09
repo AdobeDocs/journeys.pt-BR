@@ -3,13 +3,13 @@ title: Atualizar para o Adobe Journey Optimizer
 description: Saiba como atualizar para o Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8591ed266f5a360dbc7bea8dd8a6d7a089aa346f
+exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
+source-git-commit: 3e9ff02cecfe85ea38cce4b0d241156f6209202f
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 3%
+source-wordcount: '753'
+ht-degree: 4%
 
 ---
-
 
 # Atualize seu ambiente do Journey Orchestration para o Adobe Journey Optimizer{#ugrade-ajo}
 
@@ -55,7 +55,7 @@ Obter o benefício de outros **Recursos do Adobe Journey Optimizer** e novos, co
 
 ## Como atualizar meu ambiente Journey Orchestration?
 
-1. Entre em contato com a equipe de conta para atualizar seu contrato com o Adobe sem custo.
+1. Entre em contato com a equipe de conta para atualizar seu contrato com o Adobe.
 
 1. Aguarde a equipe de engenharia concluir a alteração.
 
@@ -88,7 +88,7 @@ Não, você manterá todos os objetos Journey Orchestration e Adobe Experience P
 
 ![](../assets/migration-ajo-9.png)
 
-Sim, é normal. Você manterá o acesso ao Journey Orchestration por um mês após a atualização. Isso dará tempo suficiente para atualizar todas as permissões de usuários e se familiarizar com o Adobe Journey Optimizer. Após um mês, o acesso será removido.
+Sim, é normal. Você ainda pode ver o item Journey Orchestration por alguns dias após a atualização. Use o Journey Optimizer.
 
 ### O que acontece se eu usar o Journey Orchestration com o Adobe Campaign Standard hoje?
 
