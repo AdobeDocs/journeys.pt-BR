@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Testar a jornada
-description: 'Saiba mais sobre o teste de jornada '
+description: Saiba mais sobre o teste de jornada
 feature: Journeys
 role: User
 level: Intermediate
@@ -19,7 +19,7 @@ Antes de poder testar sua jornada, você deve resolver todos os erros, se houver
 
 Você tem a possibilidade de testar sua jornada antes da publicação, usando perfis de teste. Isso permite analisar como os indivíduos fluem na jornada e solucionam problemas antes da publicação.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Consulte esta [seção](../building-journeys/creating-test-profiles.md).
+Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Consulte esta [seção](../building-journeys/creating-test-profiles.md).
 
 Para usar o modo de teste, siga estas etapas:
 

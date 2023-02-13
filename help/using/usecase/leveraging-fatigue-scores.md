@@ -5,7 +5,7 @@ description: Saiba como aproveitar as pontuações de fadiga no jornada
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Siga as etapas descritas em [esta página](../event/about-events.md).
 
 Execute as seguintes etapas para selecionar os campos de pontuação de fadiga na fonte de dados incorporada:
 
-1. No painel de menus, selecione **[!UICONTROL Admin]**. No **[!UICONTROL Data sources]** seção , clique em **[!UICONTROL Manage]**.
+1. No painel de menus, selecione **[!UICONTROL Admin]**. Na seção **[!UICONTROL Data sources]**, clique em **[!UICONTROL Manage]**.
 1. Selecione a fonte de dados integrada do Adobe Experience Platform.
 
    ![](../assets/journey23.png)

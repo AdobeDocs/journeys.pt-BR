@@ -30,7 +30,7 @@ Conversão
 | Parâmetro | Descrição |
 |--- |--- |
 | string | formatos baseados no formato ISO-8601 duration PnDTnHnMn.nS com dias considerados exatamente 24 horas |
-| integer | número de milissegundos |
+| inteiro | número de milissegundos |
 
 Se expressão da string: Os formatos aceites são baseados no formato ISO-8601 duration PnDTnHnMn.sS com dias considerados exatamente 24 horas.
 

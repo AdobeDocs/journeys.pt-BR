@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Sobre schemas ExperienceEvent para eventos Journey Orchestration '
-description: 'Saiba mais sobre Esquemas ExperienceEvent para Eventos de Journey Orchestration '
+title: Sobre schemas ExperienceEvent para eventos Journey Orchestration
+description: Saiba mais sobre Esquemas ExperienceEvent para Eventos de Journey Orchestration
 feature: Journeys
 role: User
 level: Intermediate
@@ -9,7 +9,7 @@ exl-id: ffec0d42-8632-4806-97df-da2a2372ca53
 source-git-commit: 3a0fc5cd6b7bc4177ab50986b11b020a11a72c9b
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -53,7 +53,7 @@ Qualquer esquema XDM que será usado para [!DNL Journey Orchestration] Os evento
 
 ## Aproveitar relacionamentos de esquema{#leverage_schema_relationships}
 
-O Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro.
+A Adobe Experience Platform permite definir relações entre esquemas para usar um conjunto de dados como uma tabela de pesquisa para outro.
 
 Digamos que seu modelo de dados de marca tenha um esquema capturando compras. Você também tem um schema para o catálogo de produtos. Você pode capturar a ID do produto no esquema de compra e usar uma relação para pesquisar detalhes do produto mais completos do catálogo de produtos. Isso permite criar um segmento para todos os clientes que compraram um laptop, por exemplo, sem precisar listar explicitamente todas as IDs do laptop ou capturar todos os detalhes de produtos em sistemas transacionais.
 

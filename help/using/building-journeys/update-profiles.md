@@ -9,7 +9,7 @@ exl-id: eaf2c795-0920-4b9c-9f06-801e43c1844b
 source-git-commit: 64f415f3a4120685b64a4b1dc15bf004e86b35d2
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ O **[!UICONTROL Update profile]** A atividade action permite atualizar um perfil
 
 ## Usar a atualização de perfil
 
-1. Crie a jornada começando com um evento. Veja isso [seção](../building-journeys/journey.md).
+1. Crie a jornada começando com um evento. Consulte esta [seção](../building-journeys/journey.md).
 
 1. No **Ação** da paleta, solte a guia **Atualizar perfil** atividade na tela.
 

@@ -45,7 +45,7 @@ Para **[!UICONTROL Email]** e **[!UICONTROL SMS]**, os parâmetros são idêntic
 
 >[!NOTE]
 >
->Para emails, se estiver usando um template transacional de perfis, o mecanismo de unsubscription é manipulado pronto para uso pelo Campaign Standard. Basta adicionar um **[!UICONTROL Unsubscription link]** bloco de conteúdo no modelo ([saiba mais](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html)). Se estiver usando um modelo baseado em eventos (rtEvent), será necessário adicionar, na mensagem, um link que passe o email da pessoa no parâmetro de URL e aponte para uma landing page de unsubscription. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a assinatura seja transmitida ao Adobe.
+>Para emails, se estiver usando um template transacional de perfis, o mecanismo de unsubscription é manipulado pronto para uso pelo Campaign Standard. Basta adicionar um **[!UICONTROL Unsubscription link]** bloco de conteúdo no modelo ([saiba mais](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR)). Se estiver usando um modelo baseado em eventos (rtEvent), será necessário adicionar, na mensagem, um link que passe o email da pessoa no parâmetro de URL e aponte para uma landing page de unsubscription. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a assinatura seja transmitida ao Adobe.
 
 Primeiro, você precisa escolher um template de mensagem transacional. Consulte [esta página](../building-journeys/about-action-activities.md).
 

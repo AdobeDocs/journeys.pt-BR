@@ -9,7 +9,7 @@ exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ No editor de expressão avançado, você encontrará a variável **Propriedades 
 
 >[!NOTE]
 >
->Os atributos de propriedades da jornada também estão disponíveis no editor de expressões simples. Veja isso [seção](../building-journeys/condition-activity.md#about_condition)
+>Os atributos de propriedades da jornada também estão disponíveis no editor de expressões simples. Consulte esta [seção](../building-journeys/condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 

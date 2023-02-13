@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Criação da jornada - Avançado
-description: 'Saiba como criar a jornada de casos de uso avançado '
+description: Saiba como criar a jornada de casos de uso avançado
 feature: Journeys
 role: User
 level: Intermediate

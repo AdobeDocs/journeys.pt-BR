@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: 'no'
+title: false
 description: Saiba mais sobre a função em
 feature: Journeys
 role: Data Engineer

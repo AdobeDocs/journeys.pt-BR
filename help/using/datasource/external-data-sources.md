@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: 'Fontes de dados externas '
-description: 'Saiba como configurar fontes de dados externas '
+title: Fontes de dados externas
+description: Saiba como configurar fontes de dados externas
 feature: Journeys
 role: User
 level: Intermediate

@@ -5,10 +5,11 @@ description: Saiba mais sobre o limite de funções
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
+source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -29,7 +30,7 @@ Lista
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, deve ser uma referência de campo. |
-| numberOfItems | integer | Número de itens a serem retornados da lista fornecida. |
+| numberOfItems | inteiro | Número de itens a serem retornados da lista fornecida. |
 | firstOrLastItems | booleano | Esse parâmetro é opcional (true por padrão). true retorna os primeiros itens. falso retorna os últimos itens. |
 
 ## Assinatura e tipo retornado

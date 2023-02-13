@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '985'
 ht-degree: 93%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 93%
 >
 >Esta documentação é atualizada com frequência para refletir as alterações recentes no produto. Entretanto, algumas capturas de tela podem diferir ligeiramente da interface do produto.
 
-## Acesso ao [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+## Acessar o [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
 Para acessar o [!DNL Journey Orchestration]na interface do , clique no botão **[!UICONTROL App Selector]** ícone , na parte superior direita e clique em **[!UICONTROL Journey Orchestration]**.
 
@@ -95,19 +95,19 @@ Os recursos de acessibilidade do Adobe Journey Optimizer são fornecidos pela Ad
 * Contraste de cores
 * Validação de campos obrigatórios
 
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target=&quot;_blank&quot;} na documentação da Adobe Experience Platform.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target="_blank"} na documentação da Adobe Experience Platform.
 
 Você pode usar esses atalhos de teclado comuns no Adobe Journey Optimizer:
 
 | Ação | Atalho |
 | --- | --- |
-| Mover entre elementos da interface do usuário, seções e grupos de menu | Tab |
+| Mover entre elementos da interface do usuário, seções e grupos de menu | Guia |
 | Retroceder entre elementos da interface do usuário, seções e grupos de menu | Shift + Tab |
 | Mover dentro de seções para definir o foco de elementos individuais | Seta |
 | Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
 | Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
 
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=pt-BR){target=&quot;_blank&quot;} na documentação da Adobe Experience Platform.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=pt-BR){target="_blank"} na documentação da Adobe Experience Platform.
 
 Você pode usar esses atalhos em partes específicas do Journey Optimizer:
 
@@ -192,7 +192,7 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
   <tr>
     <td>Campo de texto</td>
     <td>Selecionar todo o texto no campo selecionado</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Janela pop-up</td>
@@ -214,8 +214,8 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
     <td>Selecione o nó principal</td>
   </tr>
   <tr>
-    <td>Visualização da carga</td>
-    <td>Selecionar a carga</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Visualização do conteúdo</td>
+    <td>Selecionar o conteúdo</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
   </tr>
 </table>

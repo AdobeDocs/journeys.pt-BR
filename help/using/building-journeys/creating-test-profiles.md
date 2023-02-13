@@ -6,7 +6,7 @@ exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Primeiro, você precisa **criar um schema**. Siga estas etapas:
 1. Clique em **[!UICONTROL Create schema]**, na parte superior direita e, em seguida, selecione um tipo de schema, por exemplo **[!UICONTROL XDM Individual Profile]**.
    ![](../assets/test-profiles-1.png)
 1. Escolha um nome para o esquema.
-1. No **[!UICONTROL Mixins]** seção , clique em **[!UICONTROL Add]**.
+1. Na seção **[!UICONTROL Mixins]**, clique em **[!UICONTROL Add]**.
    ![](../assets/test-profiles-1-bis.png)
 1. Selecione as combinações apropriadas. Certifique-se de adicionar o **[!UICONTROL Profile test details]** mistura. Clique em **[!UICONTROL Add mixin]**.
    ![](../assets/test-profiles-1-ter.png)
@@ -99,7 +99,7 @@ Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jor
 
 ## Criação de perfis de teste usando chamadas de API{#create-test-profiles-api}
 
-Também é possível criar perfis de teste por meio de chamadas de API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Também é possível criar perfis de teste por meio de chamadas de API. Consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR).
 
 Você deve usar um Esquema de perfil que contenha a combinação &quot;Detalhes do teste de perfil&quot;. O sinalizador testProfile faz parte dessa mistura.
 

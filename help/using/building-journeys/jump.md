@@ -9,7 +9,7 @@ exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 O **[!UICONTROL Jump]** A atividade de ação permite enviar indivíduos de uma jornada para outra. Esse recurso permite:
 
-* simplificar o design de jornadas muito complexas dividindo-as em várias
+* simplificar o design de jornadas muito complexas dividindo-as em várias jornadas
 * criar jornadas com base em padrões de jornada comuns e reutilizáveis
 
 Na jornada de origem, basta adicionar um **[!UICONTROL Jump]** e selecione uma jornada do target. Quando o indivíduo entra no **[!UICONTROL Jump]** , um evento interno é enviado para o primeiro evento da jornada de destino. Se a variável **[!UICONTROL Jump]** Se a ação for bem sucedida, o indivíduo continuará a progredir na jornada. O comportamento é semelhante a outras ações.

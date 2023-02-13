@@ -6,7 +6,7 @@ user-guide-description: Fornece instruções passo a passo para implementar e cr
 index: true
 feature: Journeys
 source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
       + [Versões de jornada](using/building-journeys/journey-versions.md)
       + [Encerrar uma jornada](using/building-journeys/terminating-a-journey.md)
       + [Gerenciamento de fuso horário](using/building-journeys/timezone-management.md)
-      + [Testar perfis](using/building-journeys/creating-test-profiles.md)
+      + [Perfis de teste](using/building-journeys/creating-test-profiles.md)
    + Atividades {#about-journey-building}
       + Atividades de eventos {#events-activities}
          + [Sobre atividades de eventos](using/building-journeys/event-activities.md)

@@ -9,7 +9,7 @@ exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -45,11 +45,11 @@ A tabela abaixo fornece a lista de dimensões de delivery usadas nos relatórios
 
 | Dimensão | Definição |
 |--- |--- |
-| **Browser** | Navegador do qual a mensagem foi aberta ou clicada. |
+| **Navegador** | Navegador do qual a mensagem foi aberta ou clicada. |
 | **Nome do delivery** | Rótulo e ID do delivery. |
 | **Dispositivo** | Dispositivo do qual a notificação por email/SMS/push foi aberta/exibida/clicada. |
 | **Tipo de mensagem** | Canal usado para o delivery, como email, SMS, notificação por push ou No aplicativo. |
-| **Nome do aplicativo Mobile** | Nome do aplicativo móvel |
+| **Nome do aplicativo móvel** | Nome do aplicativo móvel |
 | **Plataforma** | Plataforma do dispositivo a partir do qual a mensagem foi aberta/visualizada/clicada. |
 | **[!UICONTROL Push platform]** | Plataforma do dispositivo do qual a notificação por push foi aberta, como iOS ou Android. |
 | **Domínio do destinatário** | Domínio usado para abrir o email. |
@@ -91,7 +91,7 @@ A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, s
 | **Taxa de lista de bloqueios** | Número total de mensagens em lista de bloqueios em comparação às mensagens enviadas. |
 | **Rejeições + erros** | Total de erros acumulados durante o delivery e o processamento automático de retorno em relação ao número total de mensagens enviadas. |
 | **Rejeição + taxa de erro** | Número total de mensagens que retornaram em comparação às mensagens enviadas. |
-| **Click** | Número de vezes que um conteúdo foi clicado em um delivery. |
+| **Clique em** | Número de vezes que um conteúdo foi clicado em um delivery. |
 | **Índice de click-through** | Número total de cliques em um delivery em comparação ao número de mensagens entregues. |
 | **Entregues** | Número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas. |
 | **Taxa de delivery** | Número total de mensagens entregues com êxito em comparação às mensagens enviadas. |
@@ -104,7 +104,7 @@ A tabela abaixo fornece a lista de métricas usadas em relatórios de jornada, s
 | **Taxa de abertura** | Número total de mensagens abertas em comparação ao número de mensagens entregues. |
 | **Quarentena** | Número de mensagens que retornaram e resultaram na quarentena do endereço. |
 | **Taxa de Quarentena** | Número total de quarentenas em comparação às mensagens enviadas. |
-| **Rejeitada** | Número de mensagens classificadas como spam pelos servidores SMTP. |
+| **Rejeitado** | Número de mensagens classificadas como spam pelos servidores SMTP. |
 | **Taxa rejeitada** | Número total de mensagens marcadas como rejeitadas em comparação às mensagens enviadas. |
 | **Processado/enviado** | Número total de envios para o delivery. |
 | **Rejeição suave** | Número total de erros temporários, como uma caixa de entrada completa. |

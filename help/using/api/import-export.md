@@ -21,7 +21,7 @@ Esse recurso permite gerenciar suas jornadas em várias instâncias ou para vár
 
 A API Journey Orchestration Export-Import é descrita em um arquivo Swagger disponível [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para usar essa API com sua instância do Journey Orchestration, é necessário usar o Console do Adobe I/O. Você pode começar seguindo este [Introdução ao Console do desenvolvedor do Adobe](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e use as seções nesta página.
+Para usar essa API com sua instância do Journey Orchestration, é necessário usar o Console do Adobe I/O. Você pode começar seguindo este [Introdução ao Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e use as seções nesta página.
 
 Para testar e preparar sua integração, uma coleção do Postman está disponível [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 

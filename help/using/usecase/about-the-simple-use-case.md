@@ -31,4 +31,4 @@ Para nosso caso de uso, projetamos um modelo de mensagens transacionais de email
 
 O Adobe Campaign Standard está configurado para enviar emails.
 
-Os eventos são enviados do celular do cliente quando são detectados perto de um beacon. Você precisa projetar um aplicativo móvel para enviar eventos do celular do cliente para o SDK do Mobile.
+Os eventos são enviados do celular do cliente quando são detectados perto de um beacon. Você precisa criar um aplicativo móvel para enviar eventos do celular do cliente para o SDK móvel.
