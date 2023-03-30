@@ -5,10 +5,10 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 feature: Journeys
-source-git-commit: 235992282b0a05873dc17984e044400dc8de1dd8
+source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -205,4 +205,6 @@ ht-degree: 100%
    + [Envio de uma mensagem usando o Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Envio dinâmico de coleções usando ações personalizadas](using/usecase/collections.md)
 + Trabalho com APIs{#working-with-apis}
-   + [APIs de limite](using/api/capping.md)
+   + [Introdução às APIs do jornada](using/api/journeys-apis.md)
+   + [Limitação da API](using/api/capping.md)
+   + [API de limitação](using/api/throttling.md)
