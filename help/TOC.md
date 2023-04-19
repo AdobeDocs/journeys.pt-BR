@@ -6,9 +6,9 @@ user-guide-description: Fornece instruções passo a passo para implementar e cr
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -205,6 +205,6 @@ ht-degree: 97%
    + [Envio de uma mensagem usando o Campaign v7/v8](using/usecase/campaign-classic-use-case.md)
    + [Envio dinâmico de coleções usando ações personalizadas](using/usecase/collections.md)
 + Trabalho com APIs{#working-with-apis}
-   + [Introdução às APIs do jornada](using/api/journeys-apis.md)
-   + [Limitação da API](using/api/capping.md)
+   + [Introdução às APIs de jornadas](using/api/journeys-apis.md)
+   + [API de limite](using/api/capping.md)
    + [API de limitação](using/api/throttling.md)
