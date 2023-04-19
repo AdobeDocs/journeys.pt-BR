@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 76afe397-3e18-4e01-9b0b-c21705927ce2
 source-git-commit: 25d8dcd027f3f433759ce97f9a3a1dad85ba1427
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ A API de limitação ajuda a criar, configurar e monitorar as configurações de
 
 >[!IMPORTANT]
 >
->Atualmente, apenas uma configuração é permitida por organização. Uma configuração deve ser definida em uma sandbox de produção (fornecida por meio de x-sandbox-name nos cabeçalhos).
+>Atualmente, apenas uma configuração é permitida por organização. Uma configuração deve ser definida em uma sandbox de produção (fornecida por meio do elemento x-sandbox-nome nos cabeçalhos).
 >
 >Uma configuração é aplicada no nível da organização.
 >
@@ -28,20 +28,20 @@ A API de limitação ajuda a criar, configurar e monitorar as configurações de
 
 ## Descrição da API de limitação {#description}
 
-| Método | Path | Descrição |
+| Método | Caminho | Descrição |
 |---|---|---|
 | [!DNL POST] | list/throttlingConfigs | Obter uma lista das configurações de limitação |
 | [!DNL POST] | /throttlingConfigs | Criar uma configuração de limitação |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/implantar | Implantar uma configuração de limitação |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/deploy | Implantar uma configuração de limitação |
 | [!DNL POST] | /throttlingConfigs/`{uid}`/undeploy | Desimplantar uma configuração de limitação |
-| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Verifique se uma configuração de limitação pode ser implantada ou não |
+| [!DNL POST] | /throttlingConfigs/`{uid}`/canDeploy | Verificar se uma configuração de limitação pode ser implantada ou não |
 | [!DNL PUT] | /throttlingConfigs/`{uid}` | Atualizar uma configuração de limitação |
 | [!DNL GET] | /throttlingConfigs/`{uid}` | Recuperar uma configuração de limitação |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | Excluir uma configuração de limitação |
 
 ## Configuração de limitação {#configuration}
 
-Esta é a estrutura de uma configuração de controle. **name** e **descrição** os atributos são opcionais.
+Esta é a estrutura de uma configuração de limitação. Os atributos **name** e **description** são opcionais.
 
 ```
 {
@@ -67,7 +67,7 @@ Exemplo:
 
 ## Erros
 
-Ao criar ou atualizar uma configuração, o processo valida a configuração fornecida e retorna o status de validação identificado por sua ID exclusiva:
+Ao criar ou atualizar uma configuração, o processo valida a configuração fornecida e retorna o status de validação, identificado por seu identificador exclusivo, como:
 
 ```
 "ok" or "error"
@@ -75,34 +75,34 @@ Ao criar ou atualizar uma configuração, o processo valida a configuração for
 
 >[!IMPORTANT]
 >
->Os atributos **maxThroughput**, **urlPattern** e **métodos** são obrigatórias.
+>Os atributos **maxThroughput**, **urlPattern** e **methods** são obrigatórios.
 >
->**maxThroughput** deve estar no intervalo de 200-5000.
+>O valor de **maxThroughput** deve estar entre 200 a 5000.
 
 Ao criar, excluir ou implantar a configuração de limitação, os seguintes erros podem ocorrer:
 
-* **ERR_THROTTLING_CONFIG_100**: configuração de limitação: `<mandatory attribute>` obrigatório
-* **ERR_THROTTLING_CONFIG_101**: configuração de limitação: maxThroughput é necessário e deve ser maior ou igual a 200 e menor ou igual a 5000
-* **ERR_THROTTLING_CONFIG_104**: configuração de limitação: padrão de url malformado
-* **ERR_THROTTLING_CONFIG_105**: configuração de limitação: curingas não permitidas na parte host do padrão de url
-* **ERR_THROTTLING_CONFIG_106**: configuração de limitação: carga inválida
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**, &quot;Não é possível excluir uma configuração de limitação implantada. Cancele a implantação antes de excluí-la&quot;
-* **THROTTLING_CONFIG_DELETE_ERROR: 1457**, &quot;Não é possível excluir a configuração de limitação: erro inesperado ocorre&quot;
-* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**, &quot;Não é possível implantar a configuração de limitação: erro inesperado ocorre&quot;
-* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**, &quot;Não é possível desimplantar a configuração de limitação: erro inesperado ocorre&quot;
-* **THROTTLING_CONFIG_GET_ERROR: 1460**, &quot;Não é possível obter a configuração de limitação: erro inesperado ocorre&quot;
-* **THROTTLING_CONFIG_UPDATE_NOT_ATIVE_ERROR: 1461**, &quot;Não é possível atualizar a configuração de limitação: versão de tempo de execução não está ativa&quot;
-* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**, &quot;Não é possível atualizar a configuração de limitação: erro inesperado ocorre&quot;
-* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**, &quot;Operação não permitida na configuração de limitação: sandbox de não produção&quot;
-* **THROTTLING_CONFIG_CREATE_ERROR: 1464**, &quot;Não é possível criar a configuração de limitação: erro inesperado ocorre&quot;
-* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**, &quot;Não é possível criar a configuração de limitação: somente uma configuração permitida por organização&quot;
-* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**, &quot;Não é possível implantar a configuração de limitação: já implantado&quot;
-* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**, &quot;configuração de limitação não encontrada&quot;
-* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**, &quot;Não é possível desimplantar a configuração de limitação: ainda não implantado&quot;
+* **ERR_THROTTLING_CONFIG_100**: configuração de limitação: o `<mandatory attribute>` é obrigatório
+* **ERR_THROTTLING_CONFIG_101**: configuração de limitação: o atributo maxThroughput é obrigatório e deve ser maior ou igual a 200 e menor ou igual a 5000
+* **ERR_THROTTLING_CONFIG_104**: configuração de limitação: o atributo urlPattern está malformado
+* **ERR_THROTTLING_CONFIG_105**: configuração de limitação: curingas não são permitidos na parte do host do urlPattern
+* **ERR_THROTTLING_CONFIG_106**: configuração de limitação: conteúdo inválido
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR: 1456**: “Não é possível excluir uma configuração de limitação implantada. Desimplante a configuração antes de excluí-la”
+* **THROTTLING_CONFIG_DELETE_ERROR: 1457**: “Não é possível excluir a configuração de limitação: ocorreu um erro inesperado”
+* **THROTTLING_CONFIG_DEPLOY_ERROR: 1458**: “Não é possível implantar a configuração de limitação: ocorreu um erro inesperado”
+* **THROTTLING_CONFIG_UNDEPLOY_ERROR: 1459**: “Não é possível desimplantar a configuração de limitação: ocorreu um erro inesperado”
+* **THROTTLING_CONFIG_GET_ERROR: 1460**: “Não é possível obter a configuração de limitação: ocorreu erro inesperado”
+* **THROTTLING_CONFIG_UPDATE_NOT_ACTIVE_ERROR: 1461**: “Não é possível atualizar a configuração de limitação: a versão do tempo de execução não está ativa”
+* **THROTTLING_CONFIG_UPDATE_ERROR: 1462**: “Não é possível atualizar a configuração de limitação: ocorreu um erro inesperado”
+* **THROTTLING_CONFIG_NON_PROD_SANDBOX_ERROR: 1463**: “Operação não permitida na configuração de limitação: sandbox de não produção”
+* **THROTTLING_CONFIG_CREATE_ERROR: 1464**: “Não é possível criar a configuração de limitação: ocorreu um erro inesperado”
+* **THROTTLING_CONFIG_CREATE_LIMIT_ERROR: 1465**: “Não é possível criar a configuração de limitação: somente uma configuração é permitida por organização”
+* **THROTTLING_CONFIG_ALREADY_DEPLOYED_ERROR: 14466**: “Não é possível implantar a configuração de limitação: a configuração já foi implantada”
+* **THROTTLING_CONFIG_NOT_FOUND_ERROR: 14467**: “Configuração de limitação não encontrada”
+* **THROTTLING_CONFIG_NOT_DEPLOYED_ERROR: 14468**: “Não é possível desimplantar a configuração de limitação: a configuração ainda não foi implantada”
 
 **Exemplos de erros**
 
-Ao tentar criar uma configuração na sandbox que não é de produção:
+Ao tentar criar uma configuração em uma sandbox de não produção:
 
 ```
 {
@@ -112,7 +112,7 @@ Ao tentar criar uma configuração na sandbox que não é de produção:
 }
 ```
 
-Caso a sanbox fornecida não exista:
+Caso a sandbox fornecida não exista:
 
 ```
 {
@@ -134,62 +134,62 @@ Ao tentar criar outra configuração:
 
 ## Casos de uso {#uc}
 
-Para ajudá-lo nos testes e configurações, uma coleção do Postman está disponível [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json).
+Para ajudá-lo nos testes e configurações, uma coleção do Postman está disponível [aqui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Throttling-API_postman-collection.json).
 
-Esta coleção Postman foi configurada para compartilhar a coleção Variável Postman gerada por __[Integrações do console do Adobe I/O](https://console.adobe.io/integrations) > Experimente > Baixar para Postman__, que gera um arquivo de Ambiente Postman com os valores de integrações selecionados.
+Esta coleção do Postman foi estabelecida como um complemento da coleção variável do Postman gerada pela opção __[Integrações do console do Adobe I/O](https://console.adobe.io/integrations) > Experimente > Baixar para o Postman__, que gera um arquivo de ambiente do Postman com os valores das integrações selecionadas.
 
 Após o download e o upload para o Postman, é necessário adicionar três variáveis: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
-* `{JO_HOST}` : [!DNL Journey Orchestration] URL do gateway
-* `{BASE_PATH}` : ponto de entrada para a API. O valor é &#39;/authoring&#39;
-* `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, &quot;prod&quot;) correspondente ao nome da caixa de proteção onde as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR) para obter mais informações.
+* `{JO_HOST}` : URL de gateway do [!DNL Journey Orchestration]
+* `{BASE_PATH}` : ponto de entrada da API. O valor é “/authoring”
+* `{SANDBOX_NAME}` : o cabeçalho **x-sandbox-name** (por exemplo, “prod”) correspondente ao nome da sandbox na qual as operações da API ocorrerão. Consulte a [visão geral das sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=pt-BR) para obter mais informações.
 
-Na seção a seguir, você encontrará a lista ordenada Rest API calls para executar o caso de uso.
+Na seção a seguir, você encontrará a lista ordenada de chamadas API REST para executar o caso de uso.
 
-Caso de uso n°1: **Criação e implantação de uma nova configuração de limitação**
+Caso de uso n° 1: **criação e implantação de uma nova configuração de limitação**
 
-1. listar
-1. criar
-1. pode implantar
-1. implantar
+1. list
+1. create
+1. candeploy
+1. deploy
 
-Caso de uso n°2: **Atualizar e implantar uma configuração de limitação ainda não implantada**
+Caso de uso n° 2: **atualizar e implantar uma configuração de limitação ainda não implantada**
 
-1. listar
+1. list
 1. get
-1. atualizar
-1. pode implantar
-1. implantar
+1. update
+1. candeploy
+1. deploy
 
-Caso de uso n° 3: **Desimplantar e excluir uma configuração de limitação implantada**
+Caso de uso n° 3: **desimplantar e excluir uma configuração de limitação implantada**
 
-1. listar
-1. cancelar implantação
-1. excluir
+1. list
+1. undeploy
+1. delete
 
-Caso de uso n°4: **Excluir uma configuração de limitação implantada**
+Caso de uso n° 4: **excluir uma configuração de limitação implantada**
 
 Em apenas uma chamada de API, é possível desimplantar e excluir a configuração com o uso do parâmetro forceDelete.
 
-1. listar
-1. excluir, com o parâmetro forceDelete
+1. list
+1. delete, com o parâmetro forceDelete
 
-Caso de uso n°5: **Atualizar uma configuração de limitação já implantada**
+Caso de uso n° 5: **atualizar uma configuração de limitação já implantada**
 
 >[!NOTE]
 >
 >Não é necessário desimplantar a configuração antes da atualização
 
-1. listar
+1. list
 1. get
-1. atualizar
+1. update
 
 ## Ciclo de vida da configuração no nível do tempo de execução {#config}
 
-Quando uma configuração é desimplantada, ela é marcada como inativa no nível de tempo de execução e os eventos pendentes continuam a ser processados durante 24 horas. Ele é excluído no serviço de tempo de execução.
+Quando uma configuração é desimplantada, ela é marcada como inativa no nível do tempo de execução e os eventos pendentes continuam a ser processados durante 24 horas. Em seguida, ela é excluída no serviço do tempo de execução.
 
-Após a desimplantação de uma configuração, é possível atualizar e reimplantar a configuração. Isso criará uma nova configuração de tempo de execução que será considerada na execução das ações futuras.
+Após desimplantar uma configuração, é possível atualizá-la e reimplantá-la. Isso criará uma nova configuração de tempo de execução que será considerada na execução das ações futuras.
 
-Ao atualizar uma configuração já implantada, os novos valores são considerados imediatamente. Os recursos do sistema subjacente são adaptados automaticamente. Isso é ideal quando comparado a desimplantar e depois reimplantar a configuração.
+Ao atualizar uma configuração já implantada, os novos valores são considerados imediatamente. Os recursos do sistema subjacente são adaptados automaticamente. Isso é ideal se comparado ao processo de desimplantar e reimplantar a configuração.
 
 ## Exemplos de respostas {#responses}
 
