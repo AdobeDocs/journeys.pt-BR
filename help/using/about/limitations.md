@@ -6,16 +6,21 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 60%
+source-wordcount: '572'
+ht-degree: 54%
 
 ---
 
 # Limitações {#limitations}
 
 Estas são limitações relacionadas ao uso do Journey Orchestration.
+
+## Medidas de proteção gerais de jornada {#journeys-guardrails-journeys}
+
+* O número de atividades em uma jornada é limitado a 50. O número de atividades é exibido na seção superior esquerda da tela da jornada.
+* O número de **jornadas ao vivo** em uma organização é limitada a 100 por sandbox. Quando esse limite for atingido, não será mais possível publicar uma nova jornada.
 
 ## Limitações de ações gerais
 
