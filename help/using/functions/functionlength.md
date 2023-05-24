@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # comprimento {#length}
 
-Retorna o número de caracteres da expressão da string no parâmetro .
+Retorna o número de caracteres da expressão de cadeia de caracteres no parâmetro.
 
 ## Categoria
 
@@ -33,7 +33,7 @@ String
 
 `length(<string>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplo
 

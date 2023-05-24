@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # limite {#limit}
 
-Retorna o primeiro ou o último N elementos de uma lista.
+Retorna o primeiro ou o último elemento N de uma lista.
 
 ## Categoria
 
@@ -29,21 +29,21 @@ Lista
 
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, deve ser uma referência de campo. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, ele deve ser uma referência de campo. |
 | numberOfItems | inteiro | Número de itens a serem retornados da lista fornecida. |
-| firstOrLastItems | booleano | Esse parâmetro é opcional (true por padrão). true retorna os primeiros itens. falso retorna os últimos itens. |
+| firstOrLastItems | booleano | Esse parâmetro é opcional (true por padrão). true retorna os primeiros itens. false retorna os últimos itens. |
 
 ## Assinatura e tipo retornado
 
 `limit(<listString>,<integer>)`
 `limit(<listString>,<integer>,<boolean>)`
 
-Retorna uma lista de cadeias de caracteres.
+Retorna uma lista de strings.
 
 `limit(<listInteger>,<integer>)`
 `limit(<listInteger>,<integer>,<boolean>)`
 
-Retorna uma lista de números inteiros.
+Retorna uma lista de inteiros.
 
 `limit(<listDecimal>,<integer>)`
 `limit(<listDecimal>,<integer>,<boolean>)`

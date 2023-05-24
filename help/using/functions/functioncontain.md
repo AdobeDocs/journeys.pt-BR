@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # contain {#contain}
 
-Verifica se a segunda string de argumento está contida na primeira string de argumento.
+Verifica se a segunda cadeia de caracteres do argumento está contida na primeira cadeia de caracteres do argumento.
 
 ## Categoria
 
@@ -33,10 +33,10 @@ String
 
 `contain(<string>,<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 
 `contain("rowing is great", "great")`
 
-Retorna true.
+Retorna verdadeiro.

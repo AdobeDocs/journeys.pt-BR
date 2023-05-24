@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inLastDays
-description: Saiba mais sobre a função emLastDays
+description: Saiba mais sobre a função em LastDays
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inLastDays {#inLastDays}
 
-Retorna true se uma determinada data ou dateTime estiver entre agora e agora - dias delta.
+Retorna verdadeiro se uma determinada data ou dateTime estiver entre agora e agora - dias delta.
 
 ## Categoria
 
@@ -36,10 +36,10 @@ Data
 
 `inLastDays(<dateTime>,<integer>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplos
 
 `inLastDays(toDateTime('2019-12-12T01:11:00Z'), 4)`
 
-Retorna true.
+Retorna verdadeiro.

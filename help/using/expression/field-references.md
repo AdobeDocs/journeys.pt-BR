@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # Referências de campo {#concept_fkj_ll5_dgb}
 
-Uma referência de campo pode ser anexada a um evento ou grupo de campos. As únicas informações significativas são o nome do campo e seu caminho.
+Uma referência de campo pode ser anexada a um evento ou grupo de campos. As únicas informações relevantes são o nome do campo e seu caminho.
 
-Se você estiver usando caracteres especiais em um campo, precisará usar aspas duplas ou aspas simples. Estes são os casos em que as aspas são necessárias:
+Se estiver usando caracteres especiais em um campo, você precisará usar aspas duplas ou aspas simples. Estes são os casos em que as aspas são necessárias:
 
 * o campo começa com caracteres numéricos
 * o campo começa com o caractere &quot;-&quot;
@@ -35,9 +35,9 @@ Por exemplo, se o campo for _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} 
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 ```
 
-Na expressão, os campos de evento são referenciados com &quot;@&quot; e os campos da fonte de dados são referenciados com &quot;#&quot;.
+Na expressão, os campos de evento são referenciados com &quot;@&quot; e os campos da fonte de dados com &quot;#&quot;.
 
-Uma cor de sintaxe é usada para distinguir visualmente os campos de eventos (verde) dos grupos de campos (azul).
+Uma cor de sintaxe é usada para distinguir visualmente campos de eventos (verde) de grupos de campos (azul).
 
 ## Valores padrão para referências de campo {#default-value}
 
@@ -54,7 +54,7 @@ Um valor padrão pode ser associado a um nome de campo. A sintaxe é a seguinte:
 
 >[!NOTE]
 >
->O tipo do campo e o valor padrão devem ser iguais. Por exemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} será inválido porque o valor padrão é um número inteiro, enquanto o valor esperado deve ser uma cadeia de caracteres.
+>O tipo de campo e o valor padrão devem ser iguais. Por exemplo, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} será inválido porque o valor padrão é um inteiro, enquanto o valor esperado deve ser uma cadeia de caracteres.
 
 Exemplos:
 
@@ -88,14 +88,14 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-Você pode adicionar qualquer tipo de expressão como valor padrão. A única restrição é que a expressão retorne o tipo de dados esperado. Ao usar uma função, é necessário encapsular a função com ().
+Você pode adicionar qualquer tipo de expressão como valor padrão. A única restrição é que a expressão deve retornar o tipo de dados esperado. Ao usar uma função, é necessário encapsulá-la com ().
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
 == date("2022-02-10T00:00:00Z")
 ```
 
-## Referência a um campo em coleções
+## Referência a um campo dentro das coleções
 
 Os elementos definidos nas coleções são referenciados usando as funções específicas `all`, `first` e `last`. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
@@ -115,11 +115,11 @@ Para recuperar um elemento em um mapa, usamos a função de entrada com uma dete
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Nesta expressão, estamos obtendo a entrada da chave &#39;Email&#39; do campo &#39;IdentityMap&#39; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual tiramos o &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
+Nesta expressão, estamos obtendo a entrada da chave &quot;Email&quot; do campo &quot;IdentityMap&quot; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual obtemos a &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
 ### Função `firstEntryKey` 
 
-Para recuperar a primeira chave de entrada de um mapa, use o `firstEntryKey` .
+Para recuperar a primeira chave de entrada de um mapa, use o `firstEntryKey` função.
 
 Este exemplo mostra como recuperar o primeiro endereço de email dos assinantes de uma lista específica:
 
@@ -127,27 +127,27 @@ Este exemplo mostra como recuperar o primeiro endereço de email dos assinantes 
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Os endereços de email são definidos como chaves na variável `subscribers` , que é vinculado ao mapa de lista de assinaturas.
+Neste exemplo, a lista de assinaturas é nomeada `daily-email`. Os endereços de email são definidos como chaves na variável `subscribers` que é vinculado ao mapa da lista de assinaturas.
 
 ### Função `keys` 
 
-Para recuperar todas as chaves de um mapa, use o `keys` .
+Para recuperar todas as chaves de um mapa, use o `keys` função.
 
-Este exemplo mostra como recuperar, para um perfil específico, todos os endereços de email associados aos assinantes de uma lista específica:
+Esse exemplo mostra como recuperar, para um perfil específico, todos os endereços de email associados aos assinantes de uma lista específica:
 
 ```json
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-mail').subscribers.keys()
 ```
 
-## Valores de parâmetros de uma fonte de dados (valores dinâmicos da fonte de dados)
+## Valores de parâmetro de uma fonte de dados (valores dinâmicos da fonte de dados)
 
-Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado, uma nova guia será exibida à direita para permitir que você especifique esse parâmetro. Consulte [esta página](../expression/expressionadvanced.md).
+Se você selecionar um campo de uma fonte externa de dados que requer um parâmetro para ser chamado, uma nova guia será exibida à direita para permitir a especificação desse parâmetro. Consulte [esta página](../expression/expressionadvanced.md).
 
-Para casos de uso mais complexos, se você quiser incluir os parâmetros da fonte de dados na expressão principal, poderá definir seus valores usando a palavra-chave _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclui outro parâmetro.
+Para casos de uso mais complexos, se quiser incluir os parâmetros da fonte de dados na expressão principal, você poderá definir os valores usando a palavra-chave _params_. Um parâmetro pode ser qualquer expressão válida mesmo de outra fonte de dados que também inclua outro parâmetro.
 
 >[!NOTE]
 >
->Quando você define os valores dos parâmetros na expressão, a guia à direita desaparece.
+>Ao definir os valores de parâmetro na expressão, a guia à direita desaparece.
 
 Use a seguinte sintaxe:
 

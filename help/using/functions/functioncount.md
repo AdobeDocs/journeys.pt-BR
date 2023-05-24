@@ -15,7 +15,7 @@ ht-degree: 30%
 
 # count {#count}
 
-Conta os elementos da lista que não consideram os valores nulos.
+Conta os elementos da lista sem levar em conta os valores nulos.
 
 ## Categoria
 
@@ -42,7 +42,7 @@ Agregação
 
 `count(<listAny>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplo
 

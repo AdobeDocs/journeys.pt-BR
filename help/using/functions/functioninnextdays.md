@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inNextDays {#inNextDays}
 
-Retorna true se uma determinada data ou dateTime estiver entre agora e agora + dias delta.
+Retorna verdadeiro se uma determinada data ou dateTime estiver entre agora e agora + dias delta.
 
 ## Categoria
 
@@ -36,10 +36,10 @@ Data
 
 `inNextDays(<dateTime>,<integer>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplos
 
 `inNextDays(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-Retorna true.
+Retorna verdadeiro.

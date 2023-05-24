@@ -15,13 +15,13 @@ ht-degree: 75%
 
 # Funções {#concept_p1r_qj5_dgb}
 
-Uma função pode ter assinaturas diferentes (um conjunto diferente de parâmetros ordenados). Uma assinatura de função pode ter expressões 0-N como parâmetros ordenados.
+Uma função pode ter diferentes assinaturas (um conjunto diferente de parâmetros ordenados). Uma assinatura de função pode ter expressões 0-N como parâmetros ordenados.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Cada função tem um tipo específico retornado.
+Cada função tem um tipo retornado específico.
 
-Esta é a lista de funções suportadas.
+Esta é a lista de funções compatíveis.
 
 ## Funções principais
 

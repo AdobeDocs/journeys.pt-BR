@@ -15,7 +15,7 @@ ht-degree: 7%
 
 Você pode passar uma coleção em parâmetros de ação personalizados que serão preenchidos dinamicamente no tempo de execução. Há suporte para dois tipos de coleções:
 
-* coleções simples: arrays de tipos de dados simples, por exemplo, com uma listString:
+* coleções simples: matrizes de tipos de dados simples, por exemplo, com uma listString:
 
    ```
    {
@@ -52,7 +52,7 @@ Você pode passar uma coleção em parâmetros de ação personalizados que ser�
 
 ## Limitações {#limitations}
 
-* Matrizes aninhadas de objetos em uma matriz de objetos não são compatíveis no momento. Por exemplo:
+* Matrizes aninhadas de objetos em uma matriz de objetos não têm suporte no momento. Por exemplo:
 
    ```
    {
@@ -67,7 +67,7 @@ Você pode passar uma coleção em parâmetros de ação personalizados que ser�
    }
    ```
 
-* Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. O modo de visualização de código não é compatível com eventos comerciais no momento. Você só pode enviar uma coleção com um único elemento.
+* Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. No momento, o modo de exibição de código não é compatível com eventos comerciais. Você só pode enviar uma coleção com um único elemento.
 
 ## Procedimento geral {#general-procedure}
 
@@ -101,17 +101,17 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
 1. Crie sua ação personalizada. Consulte [esta página](../action/about-custom-action-configuration.md).
 
-1. No **[!UICONTROL Action parameters]** , cole o exemplo JSON. A estrutura exibida é estática: ao colar a carga útil, todos os campos são definidos como constantes.
+1. No **[!UICONTROL Action parameters]** cole o exemplo JSON. A estrutura exibida é estática: ao colar a carga, todos os campos são definidos como constantes.
 
    ![](../assets/uc-collection-1.png)
 
-1. Se necessário, ajuste os tipos de campo. Os seguintes tipos de campo são suportados para coleções: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObjectListObject
+1. Se necessário, ajuste os tipos de campo. Os seguintes tipos de campo são compatíveis com coleções: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
    >[!NOTE]
    >
-   >O tipo de campo é automaticamente inferido de acordo com o exemplo de carga útil.
+   >O tipo de campo é inferido automaticamente de acordo com o exemplo de carga útil.
 
-1. Se você deseja transmitir objetos dinamicamente, é necessário defini-los como variáveis. Neste exemplo, definimos &quot;produtos&quot; como variável. Todos os campos de objeto incluídos no objeto são definidos como variáveis automaticamente.
+1. Se você quiser passar objetos dinamicamente, precisará defini-los como variáveis. Neste exemplo, definimos &quot;products&quot; como variável. Todos os campos de objeto incluídos no objeto são definidos como variáveis automaticamente.
 
    >[!NOTE]
    >
@@ -121,23 +121,23 @@ Você pode ver que &quot;produtos&quot; é uma matriz de dois objetos. Você pre
 
    ![](../assets/uc-collection-2.png)
 
-1. Crie sua jornada e adicione a ação personalizada criada. Consulte [esta página](../building-journeys/using-custom-actions.md).
+1. Crie sua jornada e adicione a ação personalizada que você criou. Consulte [esta página](../building-journeys/using-custom-actions.md).
 
-1. No **[!UICONTROL Action parameters]** , defina o parâmetro de matriz (&quot;products&quot; no nosso exemplo) usando o editor de expressão avançado.
+1. No **[!UICONTROL Action parameters]** defina o parâmetro de matriz (&quot;products&quot; em nosso exemplo) usando o editor de expressão avançado.
 
    ![](../assets/uc-collection-3.png)
 
-1. Para cada um dos seguintes campos de objeto, digite o nome do campo correspondente do esquema XDM de origem. Se os nomes forem idênticos, isso não será necessário. No nosso exemplo, só precisamos definir &quot;id do produto&quot; e &quot;cor&quot;.
+1. Para cada um dos campos de objeto a seguir, digite o nome do campo correspondente do esquema XDM de origem. Se os nomes forem idênticos, isso não será necessário. No nosso exemplo, precisamos definir apenas &quot;product id&quot; e &quot;color&quot;.
 
    ![](../assets/uc-collection-4.png)
 
-No campo da matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos o [filter](../functions/functionfilter.md) e [interseção](../functions/functionintersect.md) funções:
+Para o campo de matriz, também é possível usar o editor de expressão avançado para executar a manipulação de dados. No exemplo a seguir, usamos o [filtro](../functions/functionfilter.md) e [interseção](../functions/functionintersect.md) funções:
 
 ![](../assets/uc-collection-5.png)
 
-## Casos particulares{#examples}
+## Casos específicos{#examples}
 
-Para tipos heterogêneos e matrizes de matrizes, a matriz é definida com o tipo listAny . Você só pode mapear itens individuais, mas não pode alterar a matriz para a variável.
+Para tipos heterogêneos e arrays de arrays, o array é definido com o tipo listAny. Você só pode mapear itens individuais, mas não pode alterar a matriz para a variável.
 
 ![](../assets/uc-collection-heterogeneous.png)
 
@@ -154,7 +154,7 @@ Exemplo de tipo heterogêneo:
 }
 ```
 
-Exemplo de matriz de arrays:
+Exemplo de matriz de matrizes:
 
 ```
 {

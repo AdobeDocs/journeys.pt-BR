@@ -15,9 +15,9 @@ ht-degree: 10%
 
 # replaceAll {#replaceAll}
 
-Substitui todas as ocorrências que correspondem à string de destino pela string de substituição na string base.
+Substitui todas as ocorrências correspondentes à cadeia de caracteres de destino pela cadeia de caracteres de substituição na cadeia de caracteres base.
 
-A substituição prossegue do início da string para o final, por exemplo, a substituição de &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
+A substituição continua do início da string até o fim. Por exemplo, substituir &quot;aa&quot; por &quot;b&quot; na string &quot;aaa&quot; resultará em &quot;ba&quot; em vez de &quot;ab&quot;.
 
 ## Categoria
 
@@ -47,4 +47,4 @@ Retorna uma string.
 
 Retorna &quot;Hexxo Worxd&quot;.
 
-Como o parâmetro de destino é RegExp, dependendo da string que você deseja substituir, talvez seja necessário evitar alguns caracteres. Consulte o exemplo em [esta página](../functions/functionreplace.md#example_2).
+Como o parâmetro de destino é um RegExp, dependendo da cadeia de caracteres que você deseja substituir, talvez seja necessário usar escape em alguns caracteres. Consulte o exemplo em [esta página](../functions/functionreplace.md#example_2).

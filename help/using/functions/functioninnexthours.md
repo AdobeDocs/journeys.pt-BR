@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inNextHours {#inNextHours}
 
-Retorna true se uma determinada data ou dateTime estiver entre agora e agora + horas delta.
+Retorna verdadeiro se uma determinada data ou dateTime estiver entre agora e agora + horas delta.
 
 ## Categoria
 
@@ -36,10 +36,10 @@ Data
 
 `inNextHours(<dateTime>,<integer>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplos
 
 `inNextHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-Retorna true.
+Retorna verdadeiro.

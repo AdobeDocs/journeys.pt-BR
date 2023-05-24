@@ -27,7 +27,7 @@ Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá a
 >
 >As atividades **[!UICONTROL Push]** e **[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
-Para obter mais informações sobre como criar uma jornada, consulte [esta página](../building-journeys/journey.md).
+Para obter informações adicionais sobre como criar uma jornada, consulte [esta página](../building-journeys/journey.md).
 
 ## Primeiros passos{#section_ntb_ws1_ffb}
 

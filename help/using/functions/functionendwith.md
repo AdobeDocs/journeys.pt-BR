@@ -15,7 +15,7 @@ ht-degree: 25%
 
 # endWith {#endWith}
 
-Retorna true se o segundo parâmetro for um sufixo do primeiro.
+Retornará true se o segundo parâmetro for um sufixo do primeiro.
 
 ## Categoria
 
@@ -36,14 +36,14 @@ String
 
 `endWith(<string>,<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 
 `endWith("Hello World", "World")`
 
-Retorna true.
+Retorna verdadeiro.
 
 `endWith("Hello World", "Hello")`
 
-Retorna false.
+Retorna falso.

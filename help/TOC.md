@@ -6,7 +6,7 @@ user-guide-description: Fornece instruções passo a passo para implementar e cr
 index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ ht-degree: 100%
       + Atividades de orquestração {#orchestration-activities}
          + [Sobre atividades de orquestração](using/building-journeys/about-orchestration-activities.md)
          + [Atividade de condição](using/building-journeys/condition-activity.md)
-         + [Finalizar atividade](using/building-journeys/end-activity.md)
+         + [Atividade “Fim”](using/building-journeys/end-activity.md)
          + [Atividade de espera](using/building-journeys/wait-activity.md)
       + Atividades de ação {#action-activities}
          + [Sobre atividades de ação](using/building-journeys/about-action-activities.md)

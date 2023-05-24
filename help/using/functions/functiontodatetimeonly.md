@@ -15,7 +15,7 @@ ht-degree: 16%
 
 # toDateTimeOnly{#toDateTimeOnly}
 
-Converte um valor de argumento em um valor somente de data/hora.
+Converte um valor de argumento em um valor somente de data e hora.
 
 ## Categoria
 
@@ -29,7 +29,7 @@ Conversão
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| data e hora no formato ISO-8601 ou &quot;AAAA-MM-DD&quot; (formato Data XDM) | string |
+| data e hora no formato ISO-8601 ou &quot;AAAA-MM-DD&quot; (formato de data XDM) | string |
 | data e hora | dateTime |
 
 ## Assinaturas e tipos retornados

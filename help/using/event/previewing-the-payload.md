@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Visualizar a carga
-description: Saiba como visualizar a carga
+description: Saiba como visualizar o conteúdo
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,20 +15,20 @@ ht-degree: 7%
 
 # Visualizar a carga {#concept_jgf_4yk_4fb}
 
-A pré-visualização de carga permite validar a definição da carga útil.
+A pré-visualização de carga permite validar a definição de carga útil.
 
 >[!NOTE]
 >
->Para eventos gerados pelo sistema, ao criar um evento, antes de visualizar a pré-visualização do payload, salve o evento e abra-o novamente. Essa etapa é necessária para gerar uma ID de evento no payload.
+>Para eventos gerados pelo sistema, ao criar um evento, antes de visualizar a pré-visualização de carga, salve o evento e abra-o novamente. Essa etapa é necessária para gerar uma ID de evento na carga.
 
-1. Clique no botão **[!UICONTROL View Payload]** ícone para visualizar a carga esperada pelo sistema.
+1. Clique em **[!UICONTROL View Payload]** ícone para visualizar o conteúdo esperado pelo sistema.
 
    ![](../assets/journey13.png)
 
-   Observe que os campos selecionados são exibidos.
+   Você pode observar que os campos selecionados são exibidos.
 
    ![](../assets/journey14.png)
 
-1. Verifique a pré-visualização para validar a definição da carga útil.
+1. Verifique a visualização para validar a definição de carga.
 
-1. Em seguida, você pode compartilhar a pré-visualização de carga com a pessoa responsável pelo envio do evento. Essa carga útil pode ajudá-los a projetar a configuração de um evento que é enviado para o [!DNL Journey Orchestration]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Em seguida, é possível compartilhar a pré-visualização do conteúdo com a pessoa responsável pelo envio do evento. Essa carga pode ajudá-los a projetar a configuração de um push de evento para [!DNL Journey Orchestration]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).

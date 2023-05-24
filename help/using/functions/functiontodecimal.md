@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: toDecimal
-description: Saiba mais sobre a função para Decimal
+description: Saiba mais sobre a função toDecimal
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -29,10 +29,10 @@ Conversão
 
 | Parâmetro | Descrição |
 |--- |--- |
-| string | converte o valor da string como decimal |
-| dateTime | converte a data como o número de milissegundos (milissegundos de época) |
+| string | converte o valor da string em um decimal |
+| dateTime | converte a data no número de milissegundos (milissegundos da época) |
 | booleano | converte o valor booleano como 1 se verdadeiro, 0 se falso |
-| inteiro | converte para um decimal (por exemplo).: 1 torna-se 1,0) |
+| inteiro | converte para um decimal (exemplo.: 1 torna-se 1.0) |
 
 ## Assinaturas e tipos retornados
 

@@ -15,7 +15,7 @@ ht-degree: 12%
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-Retorna o tempo atual em milissegundos de época.
+Retorna a hora atual em milissegundos da época.
 
 ## Categoria
 
@@ -27,13 +27,13 @@ Data
 
 ## Parâmetros
 
-Essa função não usa parâmetros.
+Esta função não usa parâmetros.
 
 ## Assinaturas e tipo retornado
 
 `currentTimeInMillis()`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplos
 

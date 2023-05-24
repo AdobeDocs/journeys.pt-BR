@@ -15,7 +15,7 @@ ht-degree: 28%
 
 # Sobre atividades de ação {#concept_hbj_hrt_52b}
 
-Na paleta, no lado esquerdo da tela, abaixo **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, você encontrará o **[!UICONTROL Actions]** categoria .
+Na paleta, no lado esquerdo da tela, abaixo de **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, você encontrará a **[!UICONTROL Actions]** categoria.
 
 ![](../assets/journey58.png)
 
@@ -23,9 +23,9 @@ Essas atividades representam os diferentes canais de comunicação disponíveis.
 
 Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação prontas para uso estarão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**. Consulte [esta página](../building-journeys/using-adobe-campaign-actions.md).
 
-Se você configurou ações personalizadas, elas também serão exibidas aqui (consulte [esta página](../building-journeys/using-custom-actions.md)).
+Se você tiver configurado ações personalizadas, elas também aparecerão aqui (consulte [esta página](../building-journeys/using-custom-actions.md)).
 
-Ao soltar uma atividade de ação na tela, você pode definir uma **[!UICONTROL Label]**. Isso permite adicionar um sufixo ao nome da ação que aparecerá sob a atividade na tela. Isso é útil se você usar a mesma ação várias vezes na jornada e quiser identificá-las mais facilmente. Os relatórios também serão mais fáceis de ler. Você também pode adicionar uma **[!UICONTROL Description]**.
+Ao soltar uma atividade de ação na tela, é possível definir uma **[!UICONTROL Label]**. Isso permite adicionar um sufixo ao nome da ação que aparecerá em sua atividade na tela. Isso é útil se você usar a mesma ação várias vezes na jornada e quiser identificá-las mais facilmente. Os relatórios também serão mais fáceis de ler. Você também pode adicionar um **[!UICONTROL Description]**.
 
 ![](../assets/journey59bis.png)
 

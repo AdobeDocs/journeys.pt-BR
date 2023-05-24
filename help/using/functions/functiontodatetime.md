@@ -30,13 +30,13 @@ Conversão
 | Parâmetro | Tipo |
 |-----------|------------------|
 | data e hora no formato ISO-8601 | string |
-| id de fuso horário | string |
-| data e hora sem fuso horário | dateTimeOnly |
+| id do fuso horário | string |
+| data hora sem fuso horário | dateTimeOnly |
 | valor inteiro de uma época em milissegundos | inteiro |
 
 >[!NOTE]
 >
->A ID de fuso horário deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
+>A ID do fuso horário deve ser uma constante de sequência. Não pode ser uma referência de campo nem uma expressão. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
 
 ## Assinaturas e tipos retornados
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-Retorna 2016-08-18T23:17:59,123Z
+Devoluções em 2016-08-18T23:17:59,123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-Retorna 2016-08-18T23:17:59,123Z
+Devoluções em 2016-08-18T23:17:59,123Z
 
 `toDateTime(1560762190189)`
 
-Retorna 2019-06-17T09:03:10,189Z
+Devoluções em 2019-06-17T09:03:10,189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

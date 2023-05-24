@@ -9,7 +9,7 @@ exl-id: f6f0004d-8a33-4671-9c16-e56edfe2a45e
 source-git-commit: f0cb883a09d553bb47491b750fabde54c92f3225
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 85%
+ht-degree: 91%
 
 ---
 
@@ -58,9 +58,9 @@ Nesta tela você pode escrever manualmente a expressão.
 Na parte esquerda da tela são exibidos os campos e as funções disponíveis:
 
 * **[!UICONTROL Events]**: escolha um dos campos recebidos a partir do evento de entrada. A lista exibida dos campos do evento é contextual e varia de acordo com os eventos adicionados na jornada. [Leia mais](../event/about-events.md)
-* **[!UICONTROL Segments]**: se tiver deixado cair uma **[!UICONTROL Segment qualification]** , escolha o segmento que deseja usar na expressão. [Leia mais](../segment/using-a-segment.md)
+* **[!UICONTROL Segments]**: se você soltou um **[!UICONTROL Segment qualification]** escolha o segmento que deseja usar na expressão. [Leia mais](../segment/using-a-segment.md)
 * **[!UICONTROL Data Sources]**: escolha na lista de campos disponíveis nos grupos de campos de suas fontes de dados. [Leia mais](../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: esta seção agrupa os campos técnicos relacionados à jornada de um determinado perfil. [Leia mais](../expression/journey-properties.md)
+* **[!UICONTROL Journey properties]**: esta seção reagrupa os campos técnicos relacionados à jornada para um determinado perfil. [Leia mais](../expression/journey-properties.md)
 * **[!UICONTROL Functions]**: escolha entre uma lista de funções integradas que permitem fazer uma filtragem complexa. As funções são organizadas por categorias. [Leia mais](../expression/functions.md)
 
 ![](../assets/journey65.png)

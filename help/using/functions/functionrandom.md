@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: random
-description: Saiba mais sobre a função aleatória
+description: Saiba mais sobre a função aleatoriamente
 feature: Journeys
 role: Data Engineer
 level: Experienced

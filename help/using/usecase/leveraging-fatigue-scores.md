@@ -12,11 +12,11 @@ ht-degree: 12%
 
 # Aproveitamento da AI da jornada {#concept_dsh_1ry_wfb}
 
-Esse caso de uso mostrará como aproveitar as pontuações de fadiga para evitar o excesso de solicitações dos clientes em suas jornadas.
+Esse caso de uso mostrará como aproveitar as pontuações de fadiga para evitar o excesso de solicitações de seus clientes em suas jornadas.
 
 >[!NOTE]
 >
->O recurso de pontuação de fadiga preditiva está disponível somente para clientes que usam o [Conector de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
+>O recurso de pontuação preditiva de fadiga está disponível somente para clientes que usam o [Conector de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
 
 ## Configuração do evento {#section_ptb_ws1_ffb}
 
@@ -24,14 +24,14 @@ Siga as etapas descritas em [esta página](../event/about-events.md).
 
 ## Configuração da fonte de dados {#section_o3n_4yy_wfb}
 
-Execute as seguintes etapas para selecionar os campos de pontuação de fadiga na fonte de dados incorporada:
+Execute as seguintes etapas para selecionar os campos de pontuação de fadiga na fonte de dados integrada:
 
 1. No painel de menus, selecione **[!UICONTROL Admin]**. Na seção **[!UICONTROL Data sources]**, clique em **[!UICONTROL Manage]**.
 1. Selecione a fonte de dados integrada do Adobe Experience Platform.
 
    ![](../assets/journey23.png)
 
-1. Verifique se os campos necessários para o caso de uso estão selecionados.
+1. Verifique se os campos necessários para o caso de uso foram selecionados.
 1. Clique em **[!UICONTROL Add a New Field Group]**, selecione o **[!UICONTROL Profiles]** e adicione o **[!UICONTROL fatigueLevel]** e **[!UICONTROL fatigueScore]** campos (em _journeyAI > emailScore > fadiga_).
 
    ![](../assets/journeyuc3_1.png)
@@ -42,7 +42,7 @@ Execute as seguintes etapas para selecionar os campos de pontuação de fadiga n
 
 Para criar, validar e publicar a jornada, siga as etapas descritas em [esta página](../building-journeys/journey.md).
 
-Em nosso caso de uso, estamos aproveitando a variável **[!UICONTROL fatigueLevel]** campo. Também é possível usar a variável **[!UICONTROL fatigueScore]** campo.
+No nosso caso de uso, estamos aproveitando o **[!UICONTROL fatigueLevel]** campo. Você também pode usar a variável **[!UICONTROL fatigueScore]** campo.
 
 Execute as seguintes etapas para aproveitar o nível de fadiga na jornada:
 
@@ -54,7 +54,7 @@ Execute as seguintes etapas para aproveitar o nível de fadiga na jornada:
 
    ![](../assets/journeyuc3_2.png)
 
-1. Com o editor de expressões simples, procure o **[!UICONTROL fatigueLevel]** campo (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > journeyAI > emailScore > fadiga_), solte-o à direita e crie a seguinte condição: &quot;fatigueLevel é igual a &quot;Baixo&quot;. Clique em **[!UICONTROL Ok]**.
+1. Usando o editor de expressões simples, procure pelo **[!UICONTROL fatigueLevel]** campo (_ExperiencePlatformDataSource > JourneyAIScores > Perfil > journeyAI > emailScore > fadiga_), solte-o à direita e crie a seguinte condição: &quot;fatigueLevel is equal to &quot;Low&quot;. Clique em **[!UICONTROL Ok]**.
 
    ![](../assets/journeyuc3_3.png)
 
@@ -64,10 +64,10 @@ Execute as seguintes etapas para aproveitar o nível de fadiga na jornada:
    #{ExperiencePlatformDataSource.JourneyAIScores.Profile.journeyAI.emailScore.fatigue.fatigueLevel} == "low"
    ```
 
-1. Na condição , crie dois outros caminhos para níveis de fadiga médio e alto.
+1. Na condição, crie dois outros caminhos para níveis de fadiga médios e altos.
 
    ![](../assets/journeyuc3_4.png)
 
-1. Agora é possível adicionar diferentes ações para cada nível de fadiga.
+1. Agora é possível adicionar ações diferentes para cada nível de fadiga.
 
    ![](../assets/journeyuc3_5.png)

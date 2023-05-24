@@ -15,7 +15,7 @@ ht-degree: 25%
 
 # startWith {#startWith}
 
-Retorna true se o segundo parâmetro for um prefixo do primeiro.
+Retornará true se o segundo parâmetro for um prefixo do primeiro.
 
 ## Categoria
 
@@ -36,14 +36,14 @@ String
 
 `startWith(<string>,<string>)`
 
-Retorne um booleano.
+Retornar um booleano.
 
 ## Exemplo
 
 `startWith("Hello World", "Hello")`
 
-Retorna true.
+Retorna verdadeiro.
 
 `startWith("Hello World", "World")`
 
-Retorna false.
+Retorna falso.

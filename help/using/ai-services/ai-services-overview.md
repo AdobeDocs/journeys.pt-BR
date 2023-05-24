@@ -15,10 +15,10 @@ ht-degree: 3%
 
 # Sobre a integração de IA {#ai-overview}
 
-A integração com os Serviços inteligentes permite aproveitar o potencial da inteligência artificial e do aprendizado de máquina em casos de uso da experiência do cliente. Isso permite que os analistas de marketing configurem previsões específicas para as necessidades de uma empresa usando configurações de nível empresarial sem a necessidade de experiência em ciência de dados.
+A integração com os Serviços inteligentes permite aproveitar o potencial da inteligência artificial e do aprendizado de máquina em casos de uso de experiência do cliente. Isso permite que os analistas de marketing definam previsões específicas para as necessidades de uma empresa usando configurações de nível empresarial sem a necessidade de conhecimento especializado em ciência de dados.
 
-Para obter mais informações sobre Serviços inteligentes, consulte [documentação](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
+Para obter mais informações sobre Serviços inteligentes, consulte a [documentação](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html).
 
-Essa integração permite aproveitar as previsões do cliente. Consulte [Aproveitamento da AI do cliente](../ai-services/leveraging-customer-ai.md)
+Essa integração permite aproveitar as previsões dos clientes, consulte [Aproveitamento da IA do cliente](../ai-services/leveraging-customer-ai.md)
 
 <!--* fatigue scores, see [Leveraging Journey AI](../ai-services/leveraging-fatigue-scores.md)-->

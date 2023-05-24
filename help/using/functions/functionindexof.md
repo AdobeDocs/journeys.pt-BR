@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # indexOf {#indexOf}
 
-Verifica se a primeira string de argumento termina com uma string específica (segunda string de argumento). Se a string não for encontrada, retorne -1.
+Verifica se a primeira cadeia de caracteres do argumento termina com uma cadeia de caracteres específica (segunda cadeia de caracteres do argumento). Se a sequência de caracteres não for encontrada, retorne -1.
 
 ## Categoria
 
@@ -36,7 +36,7 @@ String
 
 `indexOf(<string>,<string>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplo
 
@@ -46,4 +46,4 @@ Retorna 2.
 
 Explicação:
 
-Em &quot;Hello&quot;, a primeira ocorrência de &quot;l&quot; está na posição 2.
+Em &quot;Olá&quot;, a primeira ocorrência de &quot;l&quot; está na posição 2.

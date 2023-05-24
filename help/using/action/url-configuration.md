@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: Configurar o URL
-description: Saiba mais sobre a configuração do URL
+description: Saiba mais sobre a configuração de URL
 feature: Journeys
 role: User
 level: Intermediate
@@ -19,7 +19,7 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. No **[!UICONTROL URL]** , especifique o URL do serviço externo:
+1. No **[!UICONTROL URL]** especifique o URL do serviço externo:
 
    * Se o URL for estático, insira o URL neste campo.
 
@@ -30,28 +30,28 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
       Você especificará o caminho dinâmico do URL ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
-   >Por motivos de segurança, recomendamos que você use o esquema HTTPS para o URL. Não permitimos o uso de endereços Adobe que não são públicos e o uso de endereços IP.
+   >Por motivos de segurança, recomendamos que você use o esquema HTTPS para o URL. Não permitimos o uso de endereços Adobe que não sejam públicos e o uso de endereços IP.
    >
    >Somente as portas padrão são permitidas ao definir uma ação personalizada: 80 para http e 443 para https.
 
-1. Selecione a chamada **[!UICONTROL Method]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
-1. No **[!UICONTROL Headers]** , defina os cabeçalhos HTTP da mensagem de solicitação a ser enviada ao serviço externo:
+1. Selecionar a chamada **[!UICONTROL Method]**: pode ser **[!UICONTROL POST]** ou **[!UICONTROL PUT]**.
+1. No **[!UICONTROL Headers]** defina os cabeçalhos HTTP da mensagem de solicitação a ser enviada para o serviço externo:
    1. Para adicionar um campo de cabeçalho, clique em **[!UICONTROL Add a header field]**.
    1. Insira a chave do campo de cabeçalho.
-   1. Para definir um valor dinâmico para o par de valores chave, selecione **[!UICONTROL Variable]**. Caso contrário, selecione **[!UICONTROL Constant]**.
+   1. Para definir um valor dinâmico para o par de valor-chave, selecione **[!UICONTROL Variable]**. Caso contrário, selecione **[!UICONTROL Constant]**.
 
       Por exemplo, para um carimbo de data e hora, é possível definir um valor dinâmico.
 
-   1. Se você selecionou **[!UICONTROL Constant]**, em seguida, insira o valor constante.
+   1. Se você selecionou **[!UICONTROL Constant]**, em seguida, digite o valor constante.
 
-      Se você selecionou **[!UICONTROL Variable]**, você especificará essa variável ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
+      Se você selecionou **[!UICONTROL Variable]**, em seguida, você especificará essa variável ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. Para excluir um campo de cabeçalho, aponte para o campo de cabeçalho e clique no botão **[!UICONTROL Delete]** ícone .
-   O **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** os campos de cabeçalho são definidos por padrão. Não é possível modificar ou excluir esses campos.
+   1. Para excluir um campo de cabeçalho, aponte para o campo de cabeçalho e clique no **[!UICONTROL Delete]** ícone.
+   A variável **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** os campos de cabeçalho são definidos por padrão. Não é possível modificar ou excluir esses campos.
 
-   Após adicionar a ação personalizada a uma jornada, você ainda poderá adicionar campos de cabeçalho a ela se a jornada estiver em status de rascunho. Se não quiser que a jornada seja afetada por alterações de configuração, duplique a ação personalizada e adicione os campos de cabeçalho à nova ação personalizada.
+   Depois de ter adicionado a ação personalizada a uma jornada, ainda será possível adicionar campos de cabeçalho a ela se a jornada estiver em status de rascunho. Se não quiser que a jornada seja afetada pelas alterações de configuração, duplique a ação personalizada e adicione os campos de cabeçalho à nova ação personalizada.
 
    >[!NOTE]
    >

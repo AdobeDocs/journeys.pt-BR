@@ -29,15 +29,15 @@ Lista
 
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
-| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, deve ser uma referência de campo. |
-| keyAttributeName | string | Esse parâmetro é somente para listObject. O nome do atributo nos objetos da lista fornecida é usado como chave para classificação. |
-| sortingOrder | booleano | Crescente (true) ou decrescente (false) |
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, ele deve ser uma referência de campo. |
+| keyAttributeName | string | Este parâmetro é somente para listObject. O nome do atributo nos objetos da lista fornecida é usado como chave para classificação. |
+| sortingOrder | booleano | Crescente (verdadeiro) ou decrescente (falso) |
 
 ## Assinatura e tipo retornado
 
 `sort(<listInteger>,<boolean>)`
 
-Retorna uma lista de números inteiros.
+Retorna uma lista de inteiros.
 
 `sort(<listDecimal>,<boolean>)`
 
@@ -45,7 +45,7 @@ Retorna uma lista de decimais.
 
 `sort(<listString>,<boolean>)`
 
-Retorna uma lista de cadeias de caracteres.
+Retorna uma lista de strings.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 

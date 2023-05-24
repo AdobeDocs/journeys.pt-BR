@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: split
-description: Saiba mais sobre a divisão de funções
+description: Saiba mais sobre a divisão de função
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # split {#split}
 
-Divida a primeira string de argumento por uma string separadora (segunda string de argumento, que pode ser uma expressão regular) para produzir uma lista de strings (tokens).
+Divide a primeira sequência de argumento com uma sequência de separador (segunda sequência de argumento, que pode ser uma expressão regular) para produzir uma lista de sequências de caracteres (tokens).
 
 ## Categoria
 
@@ -30,13 +30,13 @@ String
 | Parâmetro | Tipo |
 |-----------|------------------|
 | string de entrada | string |
-| sequência separadora | string |
+| sequência de caracteres separadora | string |
 
 ## Assinaturas e tipo retornado
 
 `split(<input string>, <separator string>)`
 
-Retorna listString.
+Retorna uma listString.
 
 ## Exemplo
 
@@ -44,7 +44,7 @@ Retorna listString.
 
 Devoluções `["A","B","C"]`
 
-Exemplo com um campo de evento &#39;event.appVersion&#39; com o valor: &quot;20.45.2.3434&quot;
+Exemplo com um campo de evento &quot;event.appVersion&quot; com valor: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 

@@ -1,5 +1,5 @@
 ---
-title: Atualizar para o Adobe Journey Optimizer
+title: Atualização para o Adobe Journey Optimizer
 description: Saiba como atualizar para o Adobe Journey Optimizer
 hide: true
 hidefromtoc: true
@@ -11,19 +11,19 @@ ht-degree: 4%
 
 ---
 
-# Atualize seu ambiente do Journey Orchestration para o Adobe Journey Optimizer{#ugrade-ajo}
+# Atualizar o ambiente Journey Orchestration para Adobe Journey Optimizer{#ugrade-ajo}
 
 ## O que é o Adobe Journey Optimizer?
 
-O Adobe Journey Optimizer é um aplicativo ágil e escalável criado originalmente na Adobe Experience Platform para orquestrar e fornecer jornadas personalizadas, conectadas e oportunas para clientes em qualquer aplicativo, dispositivo, tela ou canal. &#x200B;
+O Adobe Journey Optimizer é um aplicativo ágil e escalonável criado originalmente no Adobe Experience Platform para orquestrar e fornecer jornadas personalizadas, conectadas e oportunas ao cliente por meio de qualquer aplicativo, dispositivo, tela ou canal.&#x200B;
 
 ## O que é o Journey Orchestration?
 
-O Journey Orchestration é um serviço criado na Adobe Experience Platform que permite personalizar jornadas individuais para cada cliente com base em seu comportamento e preferências anteriores. O Journey Orchestration é o aplicativo precursor para a Journey Optimizer.
+O Journey Orchestration é um serviço criado na Adobe Experience Platform que permite adaptar jornadas individuais para cada cliente com base em seu comportamento e preferências anteriores. Journey Orchestration é o aplicativo precursor do Journey Optimizer.
 
 ## Por que devo migrar para o Adobe Journey Optimizer?
 
-**Acesso a uma interface simplificada** com recursos do Experience Platform que fornecem acesso rápido a jornadas, conjuntos de dados, perfis, alertas e muito mais. Não é mais necessário fazer isso entre o Adobe Experience Platform e o Journey Orchestration para acessar esquemas ou conjuntos de dados, tudo está diretamente disponível no Adobe Journey Optimizer. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
+**Acesso a uma interface simplificada** com recursos de Experience Platform, que fornecem acesso rápido a jornadas, conjuntos de dados, perfis, alertas e muito mais. Não é mais necessário fazer incompatibilidades entre o Adobe Experience Platform e o Journey Orchestration para acessar esquemas ou conjuntos de dados. Tudo está diretamente disponível no Adobe Journey Optimizer. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
 
 <table>
 <tr>
@@ -31,12 +31,12 @@ O Journey Orchestration é um serviço criado na Adobe Experience Platform que p
 <th>Depois</th>
 </tr>
 <tr>
-<td><img src="../assets/migration-ajo-1.png"><p>Acesso a Jornada, segmentos e seção de administração (fontes de dados, eventos e ações) no Journey Orchestration. Segmentos e conjuntos de dados podem ser acessados no Adobe Experience Platform. </p></td>
-<td><img src="../assets/migration-ajo-2.png"><p>Acesso a Jornadas, segmentos, administração, segmentos e conjuntos de dados, <strong>tudo no Adobe Journey Optimizer</strong>. <strong>Recursos adicionais do Adobe Experience Platform</strong> também podem ser acessadas aqui.</p></td>
+<td><img src="../assets/migration-ajo-1.png"><p>Seção Acesso a Jornadas, Segmentos e Administrador (fontes de dados, eventos e ações) no Journey Orchestration. Segmentos e conjuntos de dados podem ser acessados na Adobe Experience Platform. </p></td>
+<td><img src="../assets/migration-ajo-2.png"><p>Acesso a Jornadas, segmentos, administração, segmentos e conjuntos de dados, <strong>tudo dentro do Adobe Journey Optimizer</strong>. <strong>Recursos adicionais do Adobe Experience Platform</strong> também estão acessíveis aqui.</p></td>
 </tr>
 </table>
 
-**Nova interface de relatórios** e acesso aos novos recursos de relatório:
+**Nova interface de relatórios** e acesso a novos recursos de relatórios:
 
 <table>
 <tr>
@@ -45,19 +45,19 @@ O Journey Orchestration é um serviço criado na Adobe Experience Platform que p
 </tr>
 <tr>
 <td><img src="../assets/migration-ajo-5.png"></td>
-<td><img src="../assets/migration-ajo-6.png"><p><strong>Exibição global</strong> O permite medir o impacto das jornadas e deliveries em um período selecionado. Para obter mais métricas em tempo real, você pode acessar a variável <strong>Exibição ao vivo</strong>. Para cada canal de delivery que está sendo usado em suas jornadas (Email, SMS, Push), um <strong>seção dedicada</strong> está disponível no relatório para exibir métricas. Isso se aplica somente se você usar o pronto para uso <strong>Recursos de mensagens do Adobe Journey Optimizer</strong>. Entre em contato com a equipe de conta para obter mais informações.</p></td>
+<td><img src="../assets/migration-ajo-6.png"><p><strong>Exibição global</strong> O permite medir o impacto de suas jornadas e deliveries em um período selecionado. Para obter mais métricas em tempo real, você pode acessar a <strong>Visualização em tempo real</strong>. Para cada canal de delivery que está sendo usado em suas jornadas (Email, SMS, Push), uma <strong>seção dedicada</strong> está disponível no relatório para visualizar métricas. Isso se aplica somente se você usar o pronto para uso <strong>Recursos de mensagens do Adobe Journey Optimizer</strong>. Entre em contato com a equipe de conta para obter mais informações.</p></td>
 </tr>
 </table>
 
-Qualquer evolução para melhorar a experiência de relatórios ou para enriquecê-la após novas versões de recursos só estará disponível na nova interface de relatórios. Comece a usá-la para obter uma experiência mais completa do Adobe Journey Optimizer.
+Qualquer evolução para melhorar a experiência de relatórios ou enriquecê-la após novas versões de recursos só está disponível na nova interface de relatórios. Comece a usá-lo para obter uma experiência mais completa com o Adobe Journey Optimizer.
 
-Obter o benefício de outros **Recursos do Adobe Journey Optimizer** e novos, como Controle de acesso em nível de campo e Controle de acesso em nível de objeto. Entre em contato com a equipe de conta para obter mais informações.
+Obter os benefícios de outros **Recursos do Adobe Journey Optimizer** e novos, como Controle de acesso em nível de campo e Controle de acesso em nível de objeto. Entre em contato com a equipe de conta para obter mais informações.
 
-## Como atualizar meu ambiente Journey Orchestration?
+## Como atualizar meu ambiente de Journey Orchestration?
 
-1. Entre em contato com a equipe de conta para atualizar seu contrato com o Adobe.
+1. Entre em contato com a equipe de conta para atualizar o contrato com a Adobe.
 
-1. Aguarde a equipe de engenharia concluir a alteração.
+1. Aguarde até que nossa equipe de engenharia conclua a alteração.
 
 1. Atualize suas permissões usando perfis de produto do Journey Optimizer. Consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/administration/ootb-product-profiles.html?lang=pt-BR).
 
@@ -65,13 +65,13 @@ Obter o benefício de outros **Recursos do Adobe Journey Optimizer** e novos, co
 
 ## Perguntas frequentes
 
-### Preciso planejar alguma coisa para migrar do Journey Orchestration para o Adobe Journey Optimizer?
+### Preciso planejar algo para mudar do Journey Orchestration para o Adobe Journey Optimizer?
 
-Não, não há migração, não há trabalho necessário de você, tempo de inatividade e nenhum investimento adicional. Você só precisa atualizar seu contrato com o Adobe e nós fazemos o resto. Entre em contato com seu representante de conta para obter instruções sobre como iniciar esse processo.
+Não, não há migração, não há necessidade de trabalho, não há tempo de inatividade e nenhum investimento adicional. Você só precisa atualizar seu contrato com o Adobe e nós fazemos o resto. Entre em contato com o representante de conta para obter instruções sobre como iniciar esse processo.
 
 ### Perderei algo depois da mudança?
 
-Não, você manterá todos os objetos Journey Orchestration e Adobe Experience Platform existentes: esquemas, conjuntos de dados, jornadas, eventos, fontes de dados, ações. Nada será perdido, todas as jornadas ao vivo continuarão a funcionar sem interrupção.
+Não, você manterá todos os objetos existentes do Journey Orchestration e do Adobe Experience Platform: esquemas, conjuntos de dados, jornadas, eventos, fontes de dados e ações. Nada será perdido, todas as jornadas ativas continuarão a funcionar sem interrupções.
 
 <table>
 <tr>
@@ -84,18 +84,18 @@ Não, você manterá todos os objetos Journey Orchestration e Adobe Experience P
 </tr>
 </table>
 
-### Ainda vejo Journey Orchestration no alternador de aplicativos, é normal?
+### Ainda vejo o Journey Orchestration no alternador de aplicativos, é normal?
 
 ![](../assets/migration-ajo-9.png)
 
-Sim, é normal. Você ainda pode ver o item Journey Orchestration por alguns dias após a atualização. Use o Journey Optimizer.
+Sim, é normal. Você ainda poderá ver o item de Journey Orchestration por alguns dias após a atualização. Use o Journey Optimizer.
 
-### O que acontece se eu usar o Journey Orchestration com o Adobe Campaign Standard hoje?
+### O que acontece se eu usar o Journey Orchestration com Adobe Campaign Standard hoje?
 
-Ao mudar para o Adobe Journey Optimizer, você ainda poderá usar a integração entre o Jornada e o Adobe Campaign Standard, criando sua jornada de cliente no Adobe Journey Optimizer e permitindo que o Adobe Campaign Standard envie o delivery.
+Ao mudar para o Adobe Journey Optimizer, você ainda poderá usar a integração entre o Jornada e o Adobe Campaign Standard criando a jornada do cliente no Adobe Journey Optimizer e permitindo que o Adobe Campaign Standard envie o delivery.
 
-No entanto, devido à forma como a pilha de relatórios do Adobe Journey Optimizer funciona, os relatórios não combinarão dados de Jornada e Campaign Standard. As informações de jornada estarão disponíveis nos relatórios do Adobe Journey Optimizer e nas informações de delivery no Adobe Campaign Standard. Uma configuração do Experience Platform pode ser feita para trazer de volta os dados do Adobe Campaign Standard para o Adobe Experience Platform, tornando-os disponíveis para o Customer Journey Analytics ([saiba mais](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) ou outras ferramentas de relatório de terceiros, como o Tableau ou Power BI.
+No entanto, devido ao funcionamento da pilha de relatórios do Adobe Journey Optimizer, os relatórios não combinarão dados do Jornada e do Campaign Standard. As informações de jornada estarão disponíveis nos relatórios do Adobe Journey Optimizer e as informações de delivery no Adobe Campaign Standard. É possível configurar o Experience Platform para trazer de volta os dados do Adobe Campaign Standard para o Adobe Experience Platform, disponibilizando-os para o Customer Journey Analytics ([saiba mais](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) ou outras ferramentas de relatório de terceiros, como Tableau ou Power BI.
 
-Os relatórios do Adobe Journey Optimizer operam melhor ao usar os recursos de mensagens prontos para uso do Adobe Journey Optimizer (disponíveis em ofertas dedicadas do Adobe Journey Optimizer). Para obter mais informações sobre como as Mensagens podem ser criadas na tela de jornada, consulte esta seção [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html).
+Os relatórios do Adobe Journey Optimizer funcionam melhor ao usar os recursos de mensagens prontos para uso da Adobe Journey Optimizer (disponíveis em ofertas dedicadas da Adobe Journey Optimizer). Para obter mais informações sobre como as mensagens podem ser criadas na tela de jornada, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html).
 
 Entre em contato com a equipe de conta para obter mais informações.

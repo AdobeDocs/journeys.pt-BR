@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inSegment
-description: Saiba mais sobre a função noSegment
+description: Saiba mais sobre a função no segmento
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -21,21 +21,21 @@ Verifica se um indivíduo pertence a um determinado segmento.
 >
 >Você pode recuperar até 100 segmentos.
 
-O nome do segmento deve ser uma constante de string. Não pode ser uma referência de campo nem uma expressão.
+O nome do segmento deve ser uma constante de sequência. Não pode ser uma referência de campo nem uma expressão.
 
 Os segmentos são definidos na variável [Adobe Experience Platform](https://platform.adobe.com/segment/overview). O editor de expressão fornece uma lista de segmentos preenchida automaticamente.
 
 Os segmentos podem ter três status:
 
-* existente: continua a estar no segmento.
-* realizado: está inserindo o segmento.
-* encerrado: está saindo do segmento.
+* existente: a entidade continua a estar no segmento.
+* realizado: a entidade está informando o segmento.
+* encerrado: a entidade está saindo do segmento.
 
-Somente os indivíduos com a variável **Realizado** e **Existente** os status de participação do segmento serão considerados membros do segmento. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Somente os indivíduos com o **Realizado** e **Existente** os status de participação do segmento serão considerados membros do segmento. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
-`IF inSegment('segmentName') == true` significa que você tem uma segmentMembership com o status inserido/existente.
+`IF inSegment('segmentName') == true` significa que você tem um segmentMembership com o status inserido/existente.
 
-`ELSE inSegment('segmentName') == false` significa que você tem uma segmentMembership do status de saída.
+`ELSE inSegment('segmentName') == false` significa que você tem um segmentMembership com o status encerrado.
 
 ## Categoria
 
@@ -55,7 +55,7 @@ Adobe Experience Platform
 
 `inSegment(<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 

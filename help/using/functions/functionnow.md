@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # now {#now}
 
-Retorna a data atual no formato de data/hora. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
+Retorna a data atual no formato de data e hora. Para obter mais informações sobre tipos de dados, consulte [esta página](../expression/data-types.md).
 
 ## Categoria
 

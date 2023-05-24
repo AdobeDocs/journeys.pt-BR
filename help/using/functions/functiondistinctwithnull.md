@@ -29,14 +29,14 @@ Lista
 
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para processar. Para listObject, deve ser uma referência de campo. |
-| keyAttributeName | string | Esse parâmetro é opcional e somente para listObject. Se o parâmetro não for fornecido, um objeto será considerado duplicado se todos os atributos tiverem os mesmos valores. Caso contrário, um objeto será considerado duplicado se o atributo em questão tiver o mesmo valor. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista a processar. Para listObject, ele deve ser uma referência de campo. |
+| keyAttributeName | string | Este parâmetro é opcional e somente para listObject. Se o parâmetro não for fornecido, um objeto será considerado duplicado se todos os atributos tiverem os mesmos valores. Caso contrário, um objeto será considerado duplicado se o atributo em questão tiver o mesmo valor. |
 
 ## Assinaturas e tipos retornados
 
 `distinctWithNull(<listInteger>)`
 
-Retorna uma lista de números inteiros.
+Retorna uma lista de inteiros.
 
 `distinctWithNull(<listDecimal>)`
 
@@ -44,7 +44,7 @@ Retorna uma lista de decimais.
 
 `distinctWithNull(<listString>)`
 
-Retorna uma lista de cadeias de caracteres.
+Retorna uma lista de strings.
 
 `distinctWithNull(<listDateTimeOnly>)`
 

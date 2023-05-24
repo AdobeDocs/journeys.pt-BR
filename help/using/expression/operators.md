@@ -34,11 +34,11 @@ Há dois tipos de operadores: operadores unários e operadores binários. Há op
 
 ## Observações importantes{#important-notes}
 
-* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, número inteiro ou decimal. Exemplo :
+* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, seja inteiro ou decimal. Exemplo :
    * o exemplo a seguir está correto: `3.0 * 4.0`
    * `3 * 4.0` resultará em um erro
 
-## Lógica  {#logical}
+## Lógico  {#logical}
 
 ### e
 
@@ -70,7 +70,7 @@ Exemplo:
 3.14 > 2 or 3.15 < 1
 ```
 
-### not
+### não
 
 
 
@@ -98,7 +98,7 @@ not 3.15 < 1
 
 O resultado é booleano.
 
-Observe que null significa que a expressão não tem um valor avaliado.
+Observe que nulo significa que a expressão não tem um valor avaliado.
 
 Exemplo:
 
@@ -116,7 +116,7 @@ Exemplo:
 
 O resultado é booleano.
 
-Observe que null significa que a expressão não tem um valor avaliado.
+Observe que nulo significa que a expressão não tem um valor avaliado.
 
 Exemplo:
 
@@ -124,7 +124,7 @@ Exemplo:
 @ is not null
 ```
 
-### tem um valor nulo
+### tem nulo
 
 
 
@@ -194,11 +194,11 @@ Exemplo:
 <expression1> > <expression2>
 ```
 
-A Datetime pode ser comparada com a Datetime.
+Datetime pode ser comparado com Datetime.
 
-O Datetimeonly pode ser comparado com Datetimeonly.
+Datetimeonly pode ser comparado com Datetimeonly.
 
-Tanto o número inteiro como o número decimal podem ser comparados com o número inteiro ou o número decimal.
+O inteiro ou o decimal podem ser comparados com o inteiro ou o decimal.
 
 Qualquer outra combinação é proibida.
 
@@ -218,11 +218,11 @@ Exemplo:
 <expression1> >= <expression2>
 ```
 
-A Datetime pode ser comparada com a Datetime.
+Datetime pode ser comparado com Datetime.
 
-O Datetimeonly pode ser comparado com Datetimeonly.
+Datetimeonly pode ser comparado com Datetimeonly.
 
-Tanto o número inteiro como o número decimal podem ser comparados com o número inteiro ou o número decimal.
+O inteiro ou o decimal podem ser comparados com o inteiro ou o decimal.
 
 Qualquer outra combinação é proibida.
 
@@ -242,11 +242,11 @@ Exemplo:
 <expression1> < <expression2>
 ```
 
-A Datetime pode ser comparada com a Datetime.
+Datetime pode ser comparado com Datetime.
 
-O Datetimeonly pode ser comparado com Datetimeonly.
+Datetimeonly pode ser comparado com Datetimeonly.
 
-Tanto o número inteiro como o número decimal podem ser comparados com o número inteiro ou o número decimal.
+O inteiro ou o decimal podem ser comparados com o inteiro ou o decimal.
 
 Qualquer outra combinação é proibida.
 
@@ -266,11 +266,11 @@ Exemplo:
 <expression1> <= <expression2>
 ```
 
-A Datetime pode ser comparada com a Datetime.
+Datetime pode ser comparado com Datetime.
 
-O Datetimeonly pode ser comparado com Datetimeonly.
+Datetimeonly pode ser comparado com Datetimeonly.
 
-Tanto o número inteiro como o número decimal podem ser comparados com o número inteiro ou o número decimal.
+O inteiro ou o decimal podem ser comparados com o inteiro ou o decimal.
 
 Qualquer outra combinação é proibida.
 
@@ -292,7 +292,7 @@ Exemplo:
 <expression1> + <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -310,7 +310,7 @@ Exemplo:
 <expression1> - <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -328,7 +328,7 @@ Exemplo:
 <expression1> / <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -348,7 +348,7 @@ Exemplo:
 <expression1> * <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -366,7 +366,7 @@ Exemplo:
 <expression1> % <expression2>
 ```
 
-Ambas as expressões devem ser numéricas (número inteiro ou decimal).
+Ambas as expressões devem ser numéricas (números inteiros ou decimais).
 
 O resultado também é numérico.
 
@@ -402,7 +402,7 @@ Exemplo:
 <expression> is integer
 ```
 
-O tipo da expressão é integer.
+O tipo da expressão é inteiro.
 
 Exemplo:
 
@@ -440,9 +440,9 @@ Exemplo:
 <expression> + <string>
 ```
 
-Concatena duas expressões.
+Ela concatena duas expressões.
 
-Uma expressão deve ser uma string encadeada.
+Uma expressão deve ser uma sequência de caracteres encadeada.
 
 Exemplo:
 
@@ -468,7 +468,7 @@ Exemplo:
 <expression> + <duration>
 ```
 
-Anexe uma duração a dateTime, a dateTimeOnly ou a duração.
+Anexe uma duração a um dateTime, um dateTimeOnly ou uma duração.
 
 Exemplo:
 

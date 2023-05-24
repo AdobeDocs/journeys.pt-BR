@@ -9,26 +9,26 @@ exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 18c94897b5cea0d92a83f36845fdda64220b668f
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 54%
+ht-degree: 63%
 
 ---
 
 # Limitações {#limitations}
 
-Estas são limitações relacionadas ao uso do Journey Orchestration.
+Estas são as limitações relacionadas ao uso do Journey Orchestration.
 
-## Medidas de proteção gerais de jornada {#journeys-guardrails-journeys}
+## Medidas de proteção gerais da jornada {#journeys-guardrails-journeys}
 
-* O número de atividades em uma jornada é limitado a 50. O número de atividades é exibido na seção superior esquerda da tela da jornada.
-* O número de **jornadas ao vivo** em uma organização é limitada a 100 por sandbox. Quando esse limite for atingido, não será mais possível publicar uma nova jornada.
+* O limite de número de atividades em uma jornada é de 50. O número de atividades é exibido na seção superior esquerda da tela da jornada.
+* O limite de número de **jornadas ativas** em uma organização é de 100 por sandbox. Quando esse limite for atingido, não será mais possível publicar uma nova jornada.
 
-## Limitações de ações gerais
+## Limitações gerais de ações
 
 * Não há limitação de envio. 
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
-* O **Reação** permite que você reaja a ações predefinidas (consulte esta seção) [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
+* O incorporado **Reação** permite que você reaja a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
 
-## Limitações das versões do Jornada {#journey-versions-limitations}
+## Limitações de versões do Jornada {#journey-versions-limitations}
 
 * Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação do segmento**.
 * Uma jornada que começa com uma atividade de **Qualificação de segmento** em v1 deve sempre começar com uma **Qualificação de segmento** em outras versões.
@@ -37,7 +37,7 @@ Estas são limitações relacionadas ao uso do Journey Orchestration.
 
 ## Qualificação do segmento {#segment-qualification}
 
-* O **Qualificação do segmento** não pode ser usada juntamente com as Mensagens transacionais do Adobe Campaign Standard devido a restrições de taxa de transferência. Consulte [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* A variável **Qualificação do segmento** A atividade não pode ser usada juntamente com as mensagens transacionais do Adobe Campaign Standard devido a restrições de taxa de transferência. Consulte [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitações de ações personalizadas
@@ -51,19 +51,19 @@ Estas são limitações relacionadas ao uso do Journey Orchestration.
 
 ## Limitações de ações do Adobe Campaign
 
-* As mensagens transacionais do Adobe Campaign Standard têm uma escala de no máximo 50.000 mensagens por hora nos canais para uma determinada instância. Consulte [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* As mensagens transacionais do Adobe Campaign Standard têm uma escala de no máximo 50.000 mensagens por hora entre canais para uma determinada instância. Consulte [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
  
 
 ## Limitações de eventos
 
-* Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Orchestration primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada à carga de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
+* Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Orchestration primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
  
 
 ## Limitações das fontes de dados
 
 * As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e poder lidar com o volume de solicitações.
 
-## Jornadas que começam ao mesmo tempo que uma criação de perfil {#journeys-limitation-profile-creation}
+## Jornadas que começam ao mesmo tempo que a criação de um perfil {#journeys-limitation-profile-creation}
 
 Há um atraso associado à criação/atualização de perfil com base em API na Adobe Experience Platform. O Service Level Target (SLT) em termos de latência é &lt; 1 min desde a ingestão até o Perfil unificado, por 95% das solicitações, em um volume de 20 mil solicitações por segundo (RPS).
 

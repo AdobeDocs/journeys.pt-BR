@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # filtro{#filter}
 
-Retorna um listObject com objetos com o atributo de chave correspondente a um dos valores de chave fornecidos.
+Retorna um listObject com objetos que têm o atributo de chave correspondente a um dos valores de chave fornecidos.
 
 ## Categoria
 
@@ -31,7 +31,7 @@ Lista
 |-----------|------------------|------------------|
 | listToFilter | listObject | lista de objetos a serem filtrados. Deve ser uma referência de campo. |
 | keyAttributeName | string | nome do atributo nos objetos da lista fornecida, usado como chave para filtragem |
-| keyValueList | listar | matriz de valores principais para filtragem |
+| keyValueList | list | matriz de valores principais para filtragem |
 
 ## Assinaturas e tipos retornados
 
@@ -55,7 +55,7 @@ Retorna um listObject.
 
 ## Exemplos
 
-Este é um exemplo de uma carga transmitida em um evento de entrada &quot;myevent&quot;:
+Este é um exemplo de uma carga útil transmitida em um evento de entrada &quot;myevent&quot;:
 
 ```json
 "productListItems": [{

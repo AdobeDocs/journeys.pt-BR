@@ -15,9 +15,9 @@ ht-degree: 19%
 
 # no {#in}
 
-Verifica se o primeiro valor do argumento está na lista. A verificação é executada por meio de um Igual em cada valor de argumento. Retorna true se o valor do argumento for encontrado, caso contrário, retornará false.
+Verifica se o primeiro valor de argumento está na lista. A verificação é executada por meio de um valor Igual em cada argumento. Retornará true se o valor do argumento for encontrado; caso contrário, retornará false.
 
-O tipo de `<expression>` deve corresponder aos itens da lista. Os tipos de itens da lista, como lembrete, devem corresponder entre si.
+O tipo de `<expression>` deve corresponder aos itens da lista. Os tipos de itens da lista, como lembrete, devem corresponder um ao outro.
 
 ## Categoria
 
@@ -65,16 +65,16 @@ Lista
 
 `in(<duration>,<listDuration>)`
 
-Retorne um booleano.
+Retornar um booleano.
 
 ## Exemplo
 
 `in(4,[4,5,3,4])`
 
-Retorna true.
+Retorna verdadeiro.
 
 `in(8,[4,5,3,4])`
 
-Retorna false.
+Retorna falso.
 
 `in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`

@@ -44,4 +44,4 @@ Retorna um datetime sem considerar o fuso horário.
 
 `toDateOnly("2016-08-18")`
 
-retorna um objeto dateOnly representando 2016-08-18.
+retorna um objeto dateOnly que representa 18 de agosto de 2016.

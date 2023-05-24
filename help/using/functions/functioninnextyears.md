@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inNextYears {#inNextYears}
 
-Retorna true se uma determinada data ou dateTime estiver entre agora e agora + anos delta.
+Retorna verdadeiro se uma determinada data ou dateTime estiver entre agora e agora + anos delta.
 
 ## Categoria
 
@@ -36,10 +36,10 @@ Data
 
 `inNextYears(<dateTime>,<integer>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplos
 
 `inNextYears(toDateTime('2021-12-12T01:11:00Z'), 4)`
 
-Retorna true.
+Retorna verdadeiro.

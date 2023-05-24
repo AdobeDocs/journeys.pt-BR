@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # matchRegExp {#matchRegExp}
 
-Retorna true se a string no primeiro parâmetro corresponder à expressão regular no segundo parâmetro. Para obter mais informações, consulte [esta página](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Retornará true se a cadeia de caracteres no primeiro parâmetro corresponder à expressão regular no segundo parâmetro. Para obter mais informações, consulte [esta página](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Categoria
 
@@ -36,10 +36,10 @@ String
 
 `matchRegExp(<string>,<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 
 `matchRegExp("username@adobe.com", "*adobe")`
 
-Retorna true.
+Retorna verdadeiro.

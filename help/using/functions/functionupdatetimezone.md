@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # updateTimeZone {#updateTimeZone}
 
-Retorna uma nova data/hora, com um novo fuso horário no mesmo instante.
+Retorna uma nova data e hora, com um novo fuso horário no mesmo instante.
 
 ## Categoria
 
@@ -27,7 +27,7 @@ Data
 
 ## Parâmetros
 
-* id de fuso horário: string
+* id do fuso horário: string
 * dateTime
 
 ## Assinatura e tipo retornado
@@ -40,11 +40,11 @@ Retorna um datetime.
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-Retorna 2019-08-28T17:15:30.123+02:00.
+Devoluções em 28/08/2019:15:30.123+02:00.
 
 <!--`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
 Returns "2019-08-28T17:15:30.123+02:00".-->
 
 `updateTimeZone(@{MyExpEvent.timestamp}, "Australia/Sydney")`
 
-Se o valor do campo de carimbo de data e hora for `2021-11-16T16:55:12.939318+01:00`, em seguida, a função retorna `2021-11-17T02:55:12.942115+11:00`.
+Se o valor do campo de carimbo de data e hora for `2021-11-16T16:55:12.939318+01:00`, a função retornará `2021-11-17T02:55:12.942115+11:00`.

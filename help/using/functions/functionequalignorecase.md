@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # equalIgnoreCase {#equalIgnoreCase}
 
-Compara a primeira string de argumento com a segunda string de argumento, ignorando considerações de caso.
+Compara a primeira sequência de argumento com a segunda sequência de argumento, ignorando considerações de maiúsculas e minúsculas.
 
 ## Categoria
 
@@ -33,10 +33,10 @@ String
 
 `equalIgnoreCase(<string>,<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 
 `equalIgnoreCase("rowing is great", "rowing is GREAT")`
 
-Retorna true.
+Retorna verdadeiro.

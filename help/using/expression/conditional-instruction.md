@@ -15,15 +15,15 @@ ht-degree: 0%
 
 # Instrução condicional (if, then, else) {#section_cdz_lsk_w3b}
 
-A instrução condicional (if, then, else) é compatível no editor avançado. Ela permite definir expressões mais complexas. Ele é composto pelos seguintes elementos:
+A instrução condicional (if, then, else) é compatível com o editor avançado. Ele permite definir expressões mais complexas. Ele é composto pelos seguintes elementos:
 
 * **[!UICONTROL if]**: a condição a ser avaliada primeiro.
-* **[!UICONTROL then]**: a expressão a ser avaliada caso o resultado da avaliação de condição seja true.
-* **[!UICONTROL else]**: a expressão a ser avaliada caso o resultado da avaliação de condição seja false.
+* **[!UICONTROL then]**: a expressão a ser avaliada caso o resultado da avaliação da condição seja true.
+* **[!UICONTROL else]**: a expressão a ser avaliada caso o resultado da avaliação da condição seja falso.
 
 >[!NOTE]
 >
->Os parênteses são necessários em todas as expressões.
+>São necessários parênteses em todas as expressões.
 
 ```json
 if  (<expression1>)
@@ -57,9 +57,9 @@ listString,listString : listString
 
 **Uso**
 
-A instrução condicional permite otimizar o workflow do jornada, reduzindo o número de atividades de condição. Por exemplo, na mesma atividade de ação, é possível especificar duas alternativas para uma definição de campo usando apenas uma expressão de condição.
+A instrução condicional permite otimizar o workflow de jornada reduzindo o número de atividades de condição. Por exemplo, na mesma atividade de ação, é possível especificar duas alternativas para uma definição de campo usando apenas uma expressão de condição.
 
-Exemplo para uma atividade de ação (para um campo que espera uma string como resultado da instrução condicional):
+Exemplo de uma atividade de ação (para um campo que espera uma string como o resultado da instrução condicional):
 
 ```json
 if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))

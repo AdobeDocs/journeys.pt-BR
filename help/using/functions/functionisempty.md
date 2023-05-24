@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # isEmpty {#isEmpty}
 
-Retorna true se a string no parâmetro não tiver nenhum caractere.
+Retornará true se a cadeia de caracteres no parâmetro não tiver caractere.
 
 ## Categoria
 
@@ -33,14 +33,14 @@ String
 
 `isEmpty(<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 
 `isEmpty("")`
 
-Retorna true.
+Retorna verdadeiro.
 
 `isEmpty("Hello World")`
 
-Retorna false.
+Retorna falso.

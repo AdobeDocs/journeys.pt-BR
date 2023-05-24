@@ -9,7 +9,7 @@ exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 77%
+ht-degree: 84%
 
 ---
 
@@ -50,7 +50,7 @@ Estas são as etapas principais de configuração da fonte de dados:
 
    ![](../assets/journey18.png)
 
-1. Em seguida, é possível adicionar grupos de campos à fonte de dados integrada (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) ou criar uma nova fonte de dados externa (consulte [esta página](../datasource/external-data-sources.md)) e grupos de campos associados (consulte [esta página](../datasource/field-groups.md)).
+1. Você pode adicionar grupos de campos à fonte de dados integrada (consulte [esta página](../datasource/adobe-experience-platform-data-source.md)) ou crie uma nova fonte de dados externa (consulte [esta página](../datasource/external-data-sources.md)) e grupos de campos associados (consulte [esta página](../datasource/field-groups.md)).
 
    ![](../assets/journey23.png)
 

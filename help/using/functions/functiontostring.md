@@ -29,12 +29,12 @@ Conversão
 
 | Parâmetro | Descrição |
 |--- |--- |
-| dateTime | converte a data em formato de data UTC |
-| dateTimeOnly | converte a data em formato de data UTC |
-| duration | converter no número correspondente de milissegundos como uma string |
-| inteiro | converte em representação de string do valor (1 se torna &quot;1&quot;) |
-| decimal | converte em representação de string do valor (1,5 se torna &quot;1,5&quot;) |
-| booleano | converter o valor booleano como &#39;true&#39; se for verdadeiro, &#39;false&#39; se for falso |
+| dateTime | converte a data no formato de data UTC |
+| dateTimeOnly | converte a data no formato de data UTC |
+| duração | converta para o número correspondente de milissegundos como uma string |
+| inteiro | converte para representação em string do valor (1 torna-se &quot;1&quot;) |
+| decimal | converte para representação em string do valor (1,5 torna-se &quot;1,5&quot;) |
+| booleano | converta o valor booleano como &#39;true&#39; se verdadeiro, &#39;false&#39; se falso |
 
 ## Assinaturas e tipo retornado
 
@@ -50,7 +50,7 @@ Conversão
 
 `toString(<decimal>)`
 
-Retorne uma string.
+Retorna uma string.
 
 ## Exemplo
 

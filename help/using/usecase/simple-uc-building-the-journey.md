@@ -17,8 +17,8 @@ ht-degree: 37%
 
 Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá apenas um caminho com as seguintes atividades:
 
-* o &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando uma pessoa caminha perto do spa beacon, o sistema receberá um evento e a jornada começará para essa pessoa.
-* a **[!UICONTROL Condition]** atividade para verificar se a pessoa é mulher
+* o &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando uma pessoa caminha perto do sinal de spa, o sistema recebe um evento e a jornada é iniciada para essa pessoa.
+* a **[!UICONTROL Condition]** atividade para verificar se a pessoa é uma mulher
 * um **[!UICONTROL Email]** atividade (usando o Adobe Campaign Standard)
 * uma atividade **[!UICONTROL End]**
 
@@ -26,17 +26,17 @@ Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá a
 >
 >As atividades **[!UICONTROL Push]** e **[!UICONTROL Email]** só estarão disponíveis na paleta se você tiver o Adobe Campaign Standard.
 
-Para obter mais informações sobre como criar uma jornada, consulte [esta página](../building-journeys/journey.md).
+Para obter informações adicionais sobre como criar uma jornada, consulte [esta página](../building-journeys/journey.md).
 
 1. No menu superior, clique na guia **[!UICONTROL Home]** e **[!UICONTROL Create]** para criar uma nova jornada.
 
    ![](../assets/journey31.png)
 
-1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Chamamos de &quot;jornada do Spa&quot; e a definimos para durar um mês, de 1º a 31 de dezembro.
+1. Edite as propriedades da jornada no painel de configuração exibido no lado direito. Nós o batizamos de &quot;jornada de Spa&quot; e o definimos para durar um mês, de 1º a 31 de dezembro.
 
    ![](../assets/journeyuc1_8.png)
 
-1. Inicie a criação da jornada arrastando e soltando o evento &quot;SpaBeacon&quot; da paleta para a tela. Você também pode dar um duplo clique no evento da paleta para adicioná-lo à tela.
+1. Comece a projetar sua jornada arrastando e soltando o evento &quot;SpaBeacon&quot; da paleta para a tela. Você também pode dar um duplo clique no evento da paleta para adicioná-lo à tela.
 
    ![](../assets/journeyuc1_9.png)
 
@@ -48,11 +48,11 @@ Para obter mais informações sobre como criar uma jornada, consulte [esta pági
 
    ![](../assets/journeyuc1_11.png)
 
-1. Usando o editor de expressão simples, procure o campo gênero (_pessoa > gênero_) e solte-a à direita para criar a seguinte condição: &quot;gênero é igual a &quot;Feminino&quot;.
+1. Usando o editor de expressões simples, procure o campo de gênero (_pessoa > gênero_) e solte-a à direita para criar a seguinte condição: &quot;gender is equal to &quot;Female&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Solte uma **[!UICONTROL Email]** e selecione o modelo de mensagens transacionais &quot;Desconto de spa&quot;. Esse modelo foi projetado usando o Adobe Campaign. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
+1. Soltar um **[!UICONTROL Email]** e selecione o modelo de mensagem transacional &quot;Desconto de Spa&quot;. Este modelo foi criado usando o Adobe Campaign. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
 
    ![](../assets/journeyuc1_13.png)
 
@@ -64,11 +64,11 @@ Para obter mais informações sobre como criar uma jornada, consulte [esta pági
 
    ![](../assets/journeyuc1_15.png)
 
-1. Solte uma **[!UICONTROL End]** atividade .
+1. Soltar um **[!UICONTROL End]** atividade.
 
    ![](../assets/journeyuc1_17.png)
 
-1. Clique no botão **[!UICONTROL Test]** alterne e teste sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
+1. Clique no link **[!UICONTROL Test]** alterne e teste sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 
@@ -76,4 +76,4 @@ Para obter mais informações sobre como criar uma jornada, consulte [esta pági
 
    ![](../assets/journeyuc1_18.png)
 
-Na próxima vez que uma mulher se aproximar do beacon spa, ela receberá imediatamente um email personalizado de &quot;desconto Spa&quot;.
+Na próxima vez que uma mulher caminhar perto do sinal de spa, ela receberá imediatamente um email personalizado de &quot;desconto de spa&quot;.

@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: uuid
-description: Saiba mais sobre a uuid de função
+description: Saiba mais sobre a função uuid
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # uuid {#uuid}
 
-Gera um UUID aleatório (Universal Unique IDentifier).
+Gera um UUID aleatório (Identificador exclusivo universal).
 
 ## Categoria
 
@@ -27,7 +27,7 @@ String
 
 ## Parâmetros
 
-Essa função não requer parâmetros.
+Esta função não requer parâmetros.
 
 ## Assinatura e tipo retornado
 

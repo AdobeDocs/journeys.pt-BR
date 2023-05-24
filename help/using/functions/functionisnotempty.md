@@ -15,7 +15,7 @@ ht-degree: 19%
 
 # isNotEmpty {#isNotEmpty}
 
-Retorna true se a string no parâmetro não estiver vazia.
+Retorna verdadeiro se a string no parâmetro não estiver vazia.
 
 ## Categoria
 
@@ -33,14 +33,14 @@ String
 
 `isNotEmpty(<string>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplo
 
 `isNotEmpty("")`
 
-Retorna false.
+Retorna falso.
 
 `isNotEmpty("hello")`
 
-Retorna true.
+Retorna verdadeiro.

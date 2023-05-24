@@ -61,14 +61,14 @@ Lista
 
 `serializeList(<listPoint>,<string>,<boolean>)`
 
-Retorne uma string.
+Retorna uma string.
 
 ## Exemplo
 
 `serializeList(["Hello","World"], " ", false)`
 
-Retorna &quot;Hello World&quot;.
+Retorna &quot;Olá, Mundo&quot;.
 
 `serializeList(["Hello", "World"], ",", true)`
 
-Retorna &quot;&quot;Hello&quot;,&quot;World&quot;&quot;.
+Retorna &quot;&quot;Olá&quot;,&quot;Mundo&quot;&quot;.

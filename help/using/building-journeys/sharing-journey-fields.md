@@ -9,17 +9,17 @@ exl-id: 4d0245de-a2cf-44c6-93d2-3309a3314e5e
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
 # campos de jornada {#sharing-journey-fields}
 
-Esse mixin é usado no schema de jornadas (em relação a journeyStepEvent). Ele contém os seguintes campos:
+Esse mixin é usado no esquema do jornada (em relação a journeyStepEvent). Ele contém os seguintes campos:
 
 ## journeyID
 
-Id da jornada principal.
+ID da jornada principal.
 
 Tipo: sequência de caracteres
 

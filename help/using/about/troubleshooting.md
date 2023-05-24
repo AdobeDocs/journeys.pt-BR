@@ -47,7 +47,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem ao [!DNL Journey Orchestration]. Na verdade, o [!DNL Journey Orchestration] depende das APIs de assimilação de streaming da Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, é possível consultar [esta página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) para solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem ao [!DNL Journey Orchestration]. Na verdade, o [!DNL Journey Orchestration] depende das APIs de assimilação de streaming da Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) para solucionar problemas de APIs de assimilação de streaming.
 
 ## Verificação da entrada de pessoas na jornada{#section_x4v_zzs_dgb}
 

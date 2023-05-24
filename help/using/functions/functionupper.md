@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: upper
-description: Saiba mais sobre a função superior
+description: Saiba mais sobre a função upper
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # upper {#upper}
 
-Retorna uma versão em maiúsculas do parâmetro .
+Retorna uma versão em maiúsculas do parâmetro.
 
 ## Categoria
 
@@ -29,7 +29,7 @@ String
 
 `upper(<string>)`
 
-Retorne uma string.
+Retorna uma string.
 
 ## Exemplo
 

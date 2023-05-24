@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: avg
-description: Saiba mais sobre o avg da função
+description: Saiba mais sobre a função avg
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # avg {#avg}
 
-Retorna o valor médio entre um conjunto de expressões, considerando como uma lista ou duas expressões. Valores nulos são ignorados.
+Retorna o valor médio entre um conjunto de expressões, fornecido como uma lista ou duas expressões. Valores nulos são ignorados.
 
 
 ## Categoria
@@ -28,7 +28,7 @@ Agregação
 
 ## Parâmetros
 
-Tipos compatíveis:
+Tipos suportados:
 
 * listInteger
 * listDecimal

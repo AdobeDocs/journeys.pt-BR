@@ -23,7 +23,7 @@ ht-degree: 93%
 
 ## Acessar o [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acessar o [!DNL Journey Orchestration]na interface do , clique no botão **[!UICONTROL App Selector]** ícone , na parte superior direita e clique em **[!UICONTROL Journey Orchestration]**.
+Para acessar o [!DNL Journey Orchestration]da, clique no link **[!UICONTROL App Selector]** ícone, na parte superior direita e clique em **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ Os **[!UICONTROL Filters]** podem ser acessados com um clique no ícone de filtr
 
 Nas listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, use **[!UICONTROL Creation filters]** para filtrar a data de criação e o usuário. Por exemplo, você pode optar por exibir somente os eventos criados nos últimos 30 dias.
 
-Na lista jornada (em **[!UICONTROL Home]**), além do **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status, tipo e versão (**[!UICONTROL Status and version filters]**). O tipo pode ser: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
+Na lista de jornadas (em **[!UICONTROL Home]**), além da **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status, tipo e versão (**[!UICONTROL Status and version filters]**). O tipo pode ser: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Se um nome simples estiver disponível, o campo será exibido como `<friendly-na
 
 ## Acessibilidade{#accessibility}
 
-Os recursos de acessibilidade do Adobe Journey Optimizer são fornecidos pela Adobe Experience Platform:
+Os recursos de acessibilidade no Adobe Journey Optimizer são fornecidos pela Adobe Experience Platform:
 
 * Acessibilidade do teclado
 * Contraste de cores
@@ -97,7 +97,7 @@ Os recursos de acessibilidade do Adobe Journey Optimizer são fornecidos pela Ad
 
 [Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target="_blank"} na documentação da Adobe Experience Platform.
 
-Você pode usar esses atalhos de teclado comuns no Adobe Journey Optimizer:
+Você pode usar estes atalhos de teclado comuns no Adobe Journey Optimizer:
 
 | Ação | Atalho |
 | --- | --- |

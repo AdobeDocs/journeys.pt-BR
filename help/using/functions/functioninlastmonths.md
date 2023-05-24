@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: inLastMonths
-description: Saiba mais sobre a função emLastMonths
+description: Saiba mais sobre a função inLastMonths
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 # inLastMonths {#inLastMonths}
 
-Retorna true se uma determinada data ou dateTime estiver entre agora e agora - meses delta.
+Retorna verdadeiro se uma determinada data ou dateTime estiver entre agora e agora - meses delta.
 
 ## Categoria
 
@@ -36,10 +36,10 @@ Data
 
 `inLastMonths(<dateTime>,<integer>)`
 
-Retorna um booleano.
+Retorna um valor booleano.
 
 ## Exemplos
 
 `inLastMonths(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
-Retorna true.
+Retorna verdadeiro.

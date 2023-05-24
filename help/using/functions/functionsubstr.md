@@ -15,7 +15,7 @@ ht-degree: 18%
 
 # substr {#substr}
 
-Retorna a substring da expressão da string entre o índice begin e o índice end. Se o índice final não estiver definido, ele estará entre o índice inicial e o final.
+Retorna a subcadeia de caracteres da expressão de cadeia de caracteres entre o índice inicial e o índice final. Se o índice final não estiver definido, ele será entre o índice inicial e o final.
 
 ## Categoria
 
@@ -39,7 +39,7 @@ String
 
 `substr(<string>,<beginIndex>,<endIndex>)`
 
-Retorne uma string.
+Retorna uma string.
 
 ## Exemplo
 
@@ -49,4 +49,4 @@ Retorna &quot;Mundo&quot;.
 
 `substr("Hello World", 0, 5)`
 
-Retorna &quot;Hello&quot;.
+Retorna &quot;Olá&quot;.

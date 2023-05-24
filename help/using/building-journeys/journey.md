@@ -15,13 +15,13 @@ ht-degree: 21%
 
 # Criar uma jornada {#concept_gq5_sqt_52b}
 
-Essa etapa é executada pela **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
+Esta etapa é executada pelo **usuário empresarial**. É aqui que você cria suas jornadas. Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas.
 
-A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem uma função e um lugar específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
+A interface de jornada permite arrastar e soltar facilmente as atividades da paleta na tela. Você também pode clicar duas vezes em uma atividade para adicioná-la à tela na próxima etapa disponível. Cada atividade tem uma função e um local específicos no processo. As atividades são sequenciadas. Quando uma atividade é concluída, o fluxo continua e processa a próxima atividade e assim por diante.
 
-Somente um namespace é permitido por jornada. Ao soltar o primeiro evento, os eventos com namespaces diferentes serão esmaecidos. Se o primeiro evento não tiver um namespace, todos os eventos com um namespace serão esmaecidos. Consulte [esta página](../event/selecting-the-namespace.md). Além disso, os grupos de campos do Adobe Experience Platform ficam esmaecidos se a jornada tiver eventos sem um namespace. Por fim, se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace.
+Somente um namespace é permitido por jornada. Ao soltar o primeiro evento, os eventos com namespaces diferentes serão esmaecidos. Se o primeiro evento não tiver um namespace, todos os eventos com um namespace serão esmaecidos. Consulte [esta página](../event/selecting-the-namespace.md). Além disso, os grupos de campos do Adobe Experience Platform ficam esmaecidos se a jornada tiver eventos sem um namespace. E, finalmente, se você usar vários eventos na mesma jornada, eles precisarão usar o mesmo namespace.
 
-Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela como a primeira etapa são ocultos. Isso se refere a todas as ações, à atividade de condição, espera e reação.
+Ao iniciar uma nova jornada, os elementos que não podem ser soltos na tela na primeira etapa ficam ocultos. Isso se refere a todas as ações, à atividade de condição, espera e reação.
 
 ## Início rápido {#creating_journey}
 
@@ -49,15 +49,15 @@ Estas são as etapas principais para criar e publicar uma jornada.
 
    ![](../assets/journey34.png)
 
-1. Sua jornada é salva automaticamente. Teste sua jornada e publique-a. Consulte [teste da jornada](../building-journeys/testing-the-journey.md) e [Publicar a jornada](../building-journeys/publishing-the-journey.md).
+1. Sua jornada é salva automaticamente. Teste sua jornada e publique-a. Consulte [teste da jornada](../building-journeys/testing-the-journey.md) e [Publicação da jornada](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
 ## Encerramento de uma jornada {#ending_a_journey}
 
-Uma jornada pode terminar para um indivíduo por dois motivos:
+Uma jornada pode terminar para um indivíduo devido a dois motivos:
 
-* A pessoa chega à última atividade de um caminho. Essa última atividade pode ser uma atividade final ou outra atividade. Não há obrigação de encerrar um caminho com uma atividade final. Consulte [esta página](../building-journeys/end-activity.md).
+* A pessoa chega à última atividade de um caminho. Esta última atividade pode ser uma atividade final ou outra atividade. Não há obrigação de finalizar um caminho com uma atividade final. Consulte [esta página](../building-journeys/end-activity.md).
 * A pessoa chega a uma atividade de condição (ou uma atividade de espera com uma condição) e não corresponde a nenhuma das condições.
 
 A pessoa pode então entrar novamente na jornada se a reentrada for permitida. Consulte [esta página](../building-journeys/changing-properties.md).
@@ -65,10 +65,10 @@ A pessoa pode então entrar novamente na jornada se a reentrada for permitida. C
 Uma jornada pode ser fechada pelos seguintes motivos:
 
 * A jornada é fechada manualmente por meio do **[!UICONTROL Close to new entrances]** botão.
-* A data de término da jornada é atingida.
+* A data final da jornada é atingida.
 
-Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. Pessoas que já estão na jornada vão terminar a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Consulte esta [seção](../building-journeys/changing-properties.md#entrance).
+Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada terminarão a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Consulte esta [seção](../building-journeys/changing-properties.md#entrance).
 
-Caso precise parar o progresso de todos os indivíduos na jornada, você pode pará-la. Parar a jornada atingirá o tempo limite para todos os indivíduos na jornada.
+Caso precise interromper o progresso de todos os indivíduos na jornada, você pode interrompê-lo. A interrupção da jornada expirará o tempo limite de todos os indivíduos na jornada.
 
-Para saber como fechar ou parar uma jornada manualmente, consulte esta seção [seção](../building-journeys/terminating-a-journey.md).
+Para saber como fechar ou parar uma jornada manualmente, consulte esta [seção](../building-journeys/terminating-a-journey.md).

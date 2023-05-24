@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # round {#round}
 
-Retorna o valor inteiro mais próximo do argumento com arredondamento vinculado a infinito positivo.
+Retorna o valor inteiro mais próximo do argumento com vínculos arredondados para o infinito positivo.
 
 ## Categoria
 

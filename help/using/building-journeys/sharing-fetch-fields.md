@@ -15,25 +15,25 @@ ht-degree: 7%
 
 # campos de busca de dados de eventos journeyStep {#sharing-fetch-fields}
 
-Esse mixin será compartilhado por journeyStepEvent e journeyStepProfileEvent.
+Este mixin será compartilhado por journeyStepEvent e journeyStepProfileEvent.
 
-Durante o processamento de uma etapa, podemos ter N busca de dados em grupos de campos.
+Durante um processamento de etapa, podemos ter N busca de dados em grupos de campos.
 
 ## fetchTotalTime
 
-Tempo total gasto na busca de dados em milis durante o processamento da etapa.
+Tempo total gasto na busca de dados em milissegundos durante o processamento da etapa.
 
-Tipo: long
+Tipo: longo
 
 ## fetchTypeInError
 
-Define se a busca com erro está na Adobe Experience Platform ou em uma fonte de dados personalizada.
+Define se a busca com erro está no Adobe Experience Platform ou em uma fonte de dados personalizada.
 
 Tipo: sequência de caracteres
 
 Valores:
 * aep
-* custom
+* personalizado
 
 ## fetchError
 
@@ -44,12 +44,12 @@ Tipo: sequência de caracteres
 Valores:
 * http
 * limite
-* tempo
+* tempo limite
 * error
 
 ## fetchErrorCode
 
-Código para erro de busca. Apresentar se o erro tiver um código, como um HTTP. Por exemplo, se actionExecError for http, o código 404 representa o erro HTTP 404.
+Código do erro de busca. Presente se o erro tiver um código, como um HTTP. Por exemplo, se actionExecError for http, o código 404 representará o erro HTTP 404.
 
 Tipo: sequência de caracteres
 
@@ -57,10 +57,10 @@ Tipo: sequência de caracteres
 
 Um tempo limite pode ocorrer, em dois casos:
 
-* na primeira tentativa, a ação é executada. Nesse caso, a execução não está concluída, portanto, não há erro subjacente
-* em uma nova tentativa: nesse caso, o actionExecOrigError/actionExecOrigErrorCode descreve o erro encontrado na tentativa antes da nova tentativa.
+* na primeira tentativa, a ação é executada. Nesse caso, a execução não é concluída, portanto, não há erro subjacente
+* em uma tentativa: nesse caso, actionExecOrigError/actionExecOrigErrorCode descreve o erro encontrado na tentativa antes da tentativa.
 
-Por exemplo, os dados estão sendo buscados no Serviço de perfil unificado e um erro HTTP 500 é retornado na primeira tentativa. A busca é repetida, mas a duração das 2 tentativas excede o tempo limite. Em seguida, a execução da ação é marcada como tempo limite. A parte de ação terá a seguinte aparência:
+Por exemplo, os dados estão sendo obtidos do Unified Profile Service e um erro HTTP 500 é retornado na primeira tentativa. A busca é repetida, mas a duração das 2 tentativas excede o tempo limite. Em seguida, a execução da ação é marcada como tempo limite. A parte da ação será semelhante a:
 
 ```
     ...
@@ -75,36 +75,36 @@ Tipo: sequência de caracteres
 
 ## fetchOriginErrorCode
 
-O código de erro fornecido pelo sistema [!DNL Journey Orchestration] O está consultando o . Por exemplo, pode ser 404, 500 etc.
+O código de erro fornecido pelo sistema [!DNL Journey Orchestration] O está consultando. Por exemplo, pode ser um 404, 500, etc.
 
 Tipo: sequência de caracteres
 
 ## fetchCount
 
-Quantas vezes os dados são buscados, independentemente do tipo de fonte.
+Quantas vezes os dados são obtidos, independentemente do tipo de fonte.
 
-Tipo: long
+Tipo: longo
 
 ## fetchPlatformTotalTime
 
-O tempo total necessário para buscar os dados do Adobe Experience Platform em millis. Observação: esse tempo é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento ao serviço de enriquecimento e recebe a resposta.
+A quantidade total de tempo gasto para buscar os dados do Adobe Experience Platform em milhões. Observação: este período é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento ao serviço de enriquecimento e recebe a resposta.
 
-Tipo: long
+Tipo: longo
 
 ## fetchPlatformCount
 
-Quantas vezes os dados são buscados no Adobe Experience Platform.
+Quantas vezes os dados são obtidos do Adobe Experience Platform.
 
-Tipo: long
+Tipo: longo
 
 ## fetchCustomTotalTime
 
-Quantidade de tempo para buscar os dados personalizados em millis. Observação: esse período é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento para o serviço de enriquecimento e recebe a resposta
+Tempo para buscar os dados personalizados em milissegundos. Observação: este período é calculado a partir do momento em que o mecanismo envia o evento de enriquecimento ao serviço de enriquecimento e recebe a resposta
 
-Tipo: long
+Tipo: longo
 
 ## fetchCustomCount
 
-Quantas vezes os dados personalizados são buscados em sistemas externos.
+Quantas vezes os dados personalizados são obtidos de sistemas externos.
 
-Tipo: long
+Tipo: longo

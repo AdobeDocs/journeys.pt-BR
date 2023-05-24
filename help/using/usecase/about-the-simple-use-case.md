@@ -17,9 +17,9 @@ ht-degree: 13%
 
 ## Propósito {#purpose}
 
-Vejamos o exemplo de uma marca de hotel chamada Marlton. Em seus hotéis, eles posicionaram dispositivos de beacon perto de todas as áreas estratégicas: saguão, chão, restaurante, ginástica, piscina, etc.
+Vejamos o exemplo de uma marca de hotel chamada Marlton. Em seus hotéis, eles posicionaram dispositivos de sinal perto de todas as áreas estratégicas: lobby, pisos, restaurante, ginásio, piscina, etc.
 
-Nesse caso de uso, veremos como enviar uma mensagem personalizada em tempo real a uma pessoa que caminha ao lado de um beacon posicionado perto do spa.
+Nesse caso de uso, veremos como enviar uma mensagem personalizada em tempo real para uma pessoa caminhando ao lado de um beacon posicionado perto do spa.
 
 Queremos enviar uma mensagem somente se a pessoa for mulher. A mensagem deve ser recebida em segundos.
 
@@ -27,8 +27,8 @@ Queremos enviar uma mensagem somente se a pessoa for mulher. A mensagem deve ser
 
 ## Pré-requisitos {#prerequisites}
 
-Para nosso caso de uso, projetamos um modelo de mensagens transacionais de email no Adobe Campaign Standard. Estamos usando um template de mensagem transacional de evento. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
+Para nosso caso de uso, projetamos um template de mensagens transacionais de email no Adobe Campaign Standard. Estamos usando um template de mensagem transacional de evento. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
 
 O Adobe Campaign Standard está configurado para enviar emails.
 
-Os eventos são enviados do celular do cliente quando são detectados perto de um beacon. Você precisa criar um aplicativo móvel para enviar eventos do celular do cliente para o SDK móvel.
+Os eventos são enviados pelo telefone celular dos clientes quando são detectados perto de um beacon. Você precisa criar um aplicativo para dispositivos móveis para enviar eventos do celular do cliente para o SDK móvel.

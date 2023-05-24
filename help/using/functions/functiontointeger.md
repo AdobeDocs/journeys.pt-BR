@@ -29,9 +29,9 @@ Conversão
 
 | Parâmetro | Descrição |
 |--- |--- |
-| string | converte o valor da string como um inteiro |
-| dateTime | converte a data como o número de milissegundos (milissegundos de época) |
-| decimal | é convertido em inteiro pela remoção da parte decimal (por exemplo: 1,5 passa a 1) |
+| string | converte o valor da string em um inteiro |
+| dateTime | converte a data no número de milissegundos (milissegundos da época) |
+| decimal | converte em um inteiro removendo a parte decimal (exemplo: 1,5 torna-se 1) |
 | booleano | converte o valor booleano como 1 se verdadeiro, 0 se falso |
 
 ## Assinaturas e tipo retornado

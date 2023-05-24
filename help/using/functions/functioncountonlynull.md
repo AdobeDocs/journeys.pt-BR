@@ -42,7 +42,7 @@ Agregação
 
 `countOnlyNull(<listAny>)`
 
-Retorna um número inteiro.
+Retorna um inteiro.
 
 ## Exemplo
 

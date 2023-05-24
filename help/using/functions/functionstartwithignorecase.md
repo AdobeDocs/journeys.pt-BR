@@ -15,7 +15,7 @@ ht-degree: 25%
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-Retorna true se o segundo parâmetro for um prefixo do primeiro sem considerar um caso.
+Retornará true se o segundo parâmetro for um prefixo do primeiro sem considerar letras maiúsculas e minúsculas.
 
 ## Categoria
 
@@ -36,10 +36,10 @@ String
 
 `startWithIgnoreCase(<string>,<string>)`
 
-Retorne um booleano.
+Retornar um booleano.
 
 ## Exemplo
 
 `startWithIgnoreCase("rowing is great", "RO")`
 
-Retorna true.
+Retorna verdadeiro.

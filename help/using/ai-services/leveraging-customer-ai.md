@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
-title: Aproveitamento das pontuações do AI do cliente
-description: Aproveitamento das pontuações do AI do cliente
+title: Aproveitamento das pontuações da IA do cliente
+description: Aproveitamento das pontuações da IA do cliente
 feature: Journeys
 role: User
 level: Intermediate
@@ -15,12 +15,12 @@ ht-degree: 2%
 
 # Aproveitamento da IA do cliente {#customer-ai}
 
-A API do cliente faz parte dos Serviços inteligentes. Ele ajuda a prever o que um cliente provavelmente fará. Consulte a [documentação](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
+A IA do cliente faz parte dos Serviços inteligentes. Isso ajuda a prever o que um cliente provavelmente fará. Consulte a [documentação](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
 
-O Customer AI permite que as marcas criem pontuações baseadas em aprendizado de máquina de conversão ou de rotatividade que estarão disponíveis como atributos de perfil nos perfis do Adobe Experience Platform (Perfil do cliente em tempo real).
+A IA do cliente permite que as marcas criem pontuações de conversão ou cancelamento baseadas em aprendizado de máquina, que estarão disponíveis como atributos de perfil nos perfis da Adobe Experience Platform (Perfil do cliente em tempo real).
 
-Como resultado, eles podem ser usados como quaisquer outros atributos de perfil em condições do Journey Orchestration (para tomar as melhores decisões), ações ou criação de segmentos.
+Como resultado, eles podem ser usados como qualquer outro atributo de perfil em condições de Journey Orchestration (para tomar as melhores decisões), ações ou construção de segmento.
 
 ![](../assets/customer-ai.png)
 
-Observe que o Customer AI é um recurso pago da Adobe Experience Platform.
+Observe que a IA do cliente é um recurso pago do Adobe Experience Platform.

@@ -15,7 +15,7 @@ ht-degree: 50%
 
 # Sobre campos herdados {#sharing-legacy-fields}
 
-Esta categoria contém os campos de evento da etapa original. Esses campos fazem parte dos seguintes grupos de campos:
+Esta categoria contém os campos de evento de etapa originais. Esses campos fazem parte dos seguintes grupos de campos:
 
 * [campos comuns de eventos journeySteps](../building-journeys/sharing-common-fields.md)
 * [campos de execução de ação de eventos journeyStep](../building-journeys/sharing-execution-fields.md)

@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Usar ações personalizadas {#section_f2c_hbg_nhb}
 
-O painel de configuração da atividade mostra os parâmetros de configuração do URL e os parâmetros de autenticação configurados para a ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
+O painel de configuração de atividade mostra os parâmetros de configuração de URL e os parâmetros de autenticação configurados para a ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
 
 ## Configurar o URL
 
@@ -25,18 +25,18 @@ Se o URL incluir um caminho dinâmico, especifique o caminho na variável **[!UI
 
 >[!NOTE]
 >
->Não é possível configurar a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
+>Não é possível definir a parte estática do URL na jornada, mas na configuração global da ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
 
-Para concatenar campos e strings de texto sem formatação, use as funções String ou o sinal de Mais (+) no editor de expressão avançado. Insira sequências de texto sem formatação em aspas simples (&#39;) ou aspas duplas (&quot;). [Saiba mais](../expression/expressionadvanced.md).
+Para concatenar campos e cadeias de caracteres de texto sem formatação, use as funções String ou o sinal de adição (+) no editor de expressão avançado. Coloque cadeias de texto sem formatação entre aspas simples (&#39;) ou entre aspas duplas (&quot;). [Saiba mais](../expression/expressionadvanced.md).
 
 Esta tabela mostra um exemplo de configuração:
 
 | Campo | Valor |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| Path | `The id of marketingCampaign + '/messages'` |
+| Caminho | `The id of marketingCampaign + '/messages'` |
 
-O URL concatenado tem este formulário:
+O URL concatenado tem este formato:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
@@ -44,7 +44,7 @@ O URL concatenado tem este formulário:
 
 ### Cabeçalhos
 
-O **[!UICONTROL URL Configuration]** mostra os campos de cabeçalho dinâmicos, mas não os campos de cabeçalho constantes. Os campos de cabeçalho dinâmicos são campos de cabeçalho HTTP cujo valor é configurado como uma variável. [Saiba mais](../action/about-custom-action-configuration.md).
+A variável **[!UICONTROL URL Configuration]** mostra os campos de cabeçalho dinâmico, mas não os campos de cabeçalho constantes. Os campos de cabeçalho dinâmico são campos de cabeçalho HTTP cujo valor é configurado como uma variável. [Saiba mais](../action/about-custom-action-configuration.md).
 
 Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
 
@@ -57,7 +57,7 @@ Se necessário, especifique o valor dos campos de cabeçalho dinâmico:
 
 ## Parâmetros de ação
 
-No **[!UICONTROL Action parameters]** , você verá os parâmetros da mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (exemplo: eventos, fontes de dados), passe os valores manualmente ou use o editor de expressão avançado para casos de uso avançado. Casos de uso avançados podem ser manipulação de dados e outro uso da função. [Saiba mais](../expression/expressionadvanced.md).
+No **[!UICONTROL Action parameters]** você verá os parâmetros de mensagem definidos como _&quot;Variável&quot;_. Para esses parâmetros, você pode definir onde obter essas informações (por exemplo: eventos, fontes de dados), transmitir valores manualmente ou usar o editor de expressão avançado para casos de uso avançados. Casos de uso avançados podem ser manipulação de dados e outro uso de função. [Saiba mais](../expression/expressionadvanced.md).
 
 **Tópicos relacionados**
 

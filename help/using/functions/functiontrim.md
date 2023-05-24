@@ -1,7 +1,7 @@
 ---
 product: adobe campaign
 title: trim
-description: Saiba mais sobre o painel de funções
+description: Saiba mais sobre a função de corte
 feature: Journeys
 role: Data Engineer
 level: Experienced
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 # trim {#trim}
 
-Remove espaços de início e fim.
+Remove espaços iniciais e finais.
 
 ## Categoria
 
@@ -35,10 +35,10 @@ String
 
 `trim(<string>)`
 
-Retorne uma string.
+Retorna uma string.
 
 ## Exemplo
 
 `trim(" Hello ")`
 
-Retorna &quot;Hello&quot;.
+Retorna &quot;Olá&quot;.
