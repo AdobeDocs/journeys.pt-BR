@@ -32,9 +32,9 @@ Você pode definir dois tipos de eventos:
 
 * **Eventos baseados em regras**: esse tipo de evento não gera uma eventID. Usando o editor de expressões simples, basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas jornadas. Essa regra pode ser baseada em qualquer campo disponível na carga do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
 
-   >[!CAUTION]
-   >
-   >Uma regra de limite é definida para eventos baseados em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5000 por segundo em uma determinada organização (ORG). Corresponde aos SLAs do Journey Orchestration. Consulte esta [página](https://helpx.adobe.com/br/legal/product-descriptions/journey-orchestration.html).
+  >[!CAUTION]
+  >
+  >Uma regra de limite é definida para eventos baseados em regras. Limita o número de eventos qualificados que uma jornada pode processar para 5000 por segundo em uma determinada organização (ORG). Corresponde aos SLAs do Journey Orchestration. Consulte esta [página](https://helpx.adobe.com/br/legal/product-descriptions/journey-orchestration.html).
 
 * **Eventos gerados pelo sistema**: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
 

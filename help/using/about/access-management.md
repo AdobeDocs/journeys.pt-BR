@@ -38,9 +38,9 @@ No Admin Console, é possível atribuir um dos seguintes perfis de produto pront
    * Gerenciar eventos, fontes de dados e ações
    * Gerenciar relatórios
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Administrators]** é o único perfil de produto que permite a criação, edição e publicação de mensagens transacionais (ou modelos de mensagens) no Adobe Campaign Standard. Esse perfil de produto é necessário se você usar o Adobe Campaign Standard para enviar mensagens em suas jornadas. Ele não deve ser renomeado no Admin Console.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Administrators]** é o único perfil de produto que permite a criação, edição e publicação de mensagens transacionais (ou modelos de mensagens) no Adobe Campaign Standard. Esse perfil de produto é necessário se você usar o Adobe Campaign Standard para enviar mensagens em suas jornadas. Ele não deve ser renomeado no Admin Console.
 
 * **[!UICONTROL Standard User]**: usuário com acesso básico, como gestão de jornada. Este perfil de produto conta com as seguintes permissões:
    * Gerenciar jornadas

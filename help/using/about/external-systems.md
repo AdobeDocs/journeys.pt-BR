@@ -28,7 +28,7 @@ Quando o Journey Orchestration executa uma chamada para uma API externa, as medi
 
 1. As regras de limitação são aplicadas: se a taxa máxima for atingida, as chamadas restantes serão descartadas.
 
-2. Timeout and retry: se a regra de limitação for atendida, o Journey Orchestration tentará executar a chamada até que o fim da duração do tempo limite seja atingido.
+2. Timeout and retry: se a regra de limitação for atendida, o Journey Orchestration tentará executar a chamada até que o final da duração do tempo limite seja atingido.
 
 ## Limite{#capping}
 

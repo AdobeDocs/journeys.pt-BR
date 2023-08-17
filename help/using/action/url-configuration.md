@@ -25,9 +25,10 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
 
    * Se o URL incluir um caminho dinâmico, insira apenas a parte estática do URL, ou seja, o esquema, o host, a porta e, opcionalmente, uma parte estática do caminho.
 
-      Exemplo: `https://xxx.yyy.com/somethingstatic/`
+     Exemplo: `https://xxx.yyy.com/somethingstatic/`
 
-      Você especificará o caminho dinâmico do URL ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
+     Você especificará o caminho dinâmico do URL ao adicionar a ação personalizada a uma jornada. [Saiba mais](../building-journeys/using-custom-actions.md).
+
    >[!NOTE]
    >
    >Por motivos de segurança, recomendamos que você use o esquema HTTPS para o URL. Não permitimos o uso de endereços Adobe que não sejam públicos e o uso de endereços IP.
@@ -49,6 +50,7 @@ Ao configurar uma ação personalizada, você precisa definir o seguinte **[!UIC
       ![](../assets/journeyurlconfiguration2.png)
 
    1. Para excluir um campo de cabeçalho, aponte para o campo de cabeçalho e clique no **[!UICONTROL Delete]** ícone.
+
    A variável **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** os campos de cabeçalho são definidos por padrão. Não é possível modificar ou excluir esses campos.
 
    Depois de ter adicionado a ação personalizada a uma jornada, ainda será possível adicionar campos de cabeçalho a ela se a jornada estiver em status de rascunho. Se não quiser que a jornada seja afetada pelas alterações de configuração, duplique a ação personalizada e adicione os campos de cabeçalho à nova ação personalizada.

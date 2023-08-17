@@ -9,7 +9,7 @@ exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -89,7 +89,7 @@ A tabela abaixo fornece a lista de métricas usadas nos relatórios do jornada, 
 |--- |--- |
 | **Na lista de bloqueios** | Número de destinatários que declararam um email como spam ou lixo eletrônico. |
 | **Taxa de Lista de bloqueios** | Número total de mensagens na inclui na lista de bloqueios comparadas às mensagens enviadas. |
-| **Devoluções + erros** | Total de erros acumulados durante o processamento de delivery e retorno automático em relação ao número total de mensagens enviadas. |
+| **Devoluções + erros** | Total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas. |
 | **Rejeição + taxa de erro** | Número total de mensagens que foram rejeitadas em comparação às mensagens enviadas. |
 | **Clique em** | Número de vezes que um conteúdo foi clicado em um delivery. |
 | **Taxa de cliques** | Número total de cliques em um delivery em comparação ao número de mensagens entregues. |

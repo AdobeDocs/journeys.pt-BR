@@ -82,17 +82,17 @@ Essa expressão retorna um valor booleano.
 
 * E especifique SKU, usando a função `first` para recuperar a interação mais recente &quot;addToCart&quot;:
 
-   ```json
-       #{ExperiencePlatformDataSource
-                       .ExperienceEventFieldGroup
-                       .experienceevent
-                       .first(
-                       currentDataPackField
-                       .productData
-                       .productInteraction == "addToCart"
-                       )
-                       .SKU}
-   ```
+  ```json
+      #{ExperiencePlatformDataSource
+                      .ExperienceEventFieldGroup
+                      .experienceevent
+                      .first(
+                      currentDataPackField
+                      .productData
+                      .productInteraction == "addToCart"
+                      )
+                      .SKU}
+  ```
 
 A partir daí, você pode adicionar outro caminho na jornada para quando o produto não estiver na loja e enviar uma notificação com oferta de engajamento. Configure as mensagens de acordo e use dados de personalização para aprimorar o público-alvo da mensagem.
 

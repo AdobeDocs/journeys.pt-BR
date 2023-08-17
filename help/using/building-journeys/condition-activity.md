@@ -9,7 +9,7 @@ exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -47,7 +47,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![](../assets/journey64.png)
 
-Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) para criar segmentos, você pode aproveitá-los nas condições de jornada. Consulte [Uso de segmentos em condições](../segment/using-a-segment.md).
+Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR) para criar segmentos, você pode aproveitá-los nas condições de jornada. Consulte [Uso de segmentos em condições](../segment/using-a-segment.md).
 
 
 >[!NOTE]

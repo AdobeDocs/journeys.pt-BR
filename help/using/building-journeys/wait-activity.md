@@ -19,7 +19,7 @@ Se quiser aguardar antes de executar a próxima atividade no caminho, você pode
 
 * [Duração](#duration)
 * [Personalizado](#custom)
-   <!--* [Email send time optimization](#email_send_time_optimization)-->
+  <!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## Sobre a atividade Wait{#about_wait}
 

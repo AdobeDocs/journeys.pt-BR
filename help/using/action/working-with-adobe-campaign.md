@@ -19,7 +19,7 @@ Você pode enviar emails, notificações por push e SMS usando os recursos de Me
 
 [!DNL Journey Orchestration] O vem com uma ação pronta para uso que permite a conexão com o Adobe Campaign Standard.
 
-A mensagem transacional Campaign Standard e seu evento associado devem ser publicados para serem usados no Journey Orchestration. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface Journey Orchestration. Se a mensagem for publicada, mas o evento associado não, ela ficará visível na interface do Journey Orchestration, mas não poderá ser usada.
+A mensagem transacional Campaign Standard e seu evento associado devem ser publicados para serem usados no Journey Orchestration. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface Journey Orchestration. Se a mensagem for publicada, mas o evento associado não, ela estará visível na interface do Journey Orchestration, mas não poderá ser usada.
 
 >[!NOTE]
 >

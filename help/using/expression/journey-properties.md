@@ -44,26 +44,26 @@ Estes são alguns exemplos de casos de uso:
 
 | Categoria | Nome do campo | Rótulo | Descrição |
 |---|---|---|------------|
-| Versão do Jornada | journeyUID | Identificador de Jornada |  |
-|  | journeyVersionUID | Identificador de versão do Jornada |  |
-|  | journeyVersionName | Nome da versão do Jornada |  |
-|  | journeyVersionDescription | Descrição da versão do Jornada |  |
-|  | journeyVersion | Versão do Jornada |  |
+| Versão do Jornada | journeyUID | Identificador de Jornada | |
+| | journeyVersionUID | Identificador de versão do Jornada | |
+| | journeyVersionName | Nome da versão do Jornada | |
+| | journeyVersionDescription | Descrição da versão do Jornada | |
+| | journeyVersion | Versão do Jornada | |
 | Jornada instância | instanceUID | Identificador de instância do Jornada | ID da instância |
-|  | externalKey | Chave externa | Identificador individual que aciona a jornada |
-|  | organizationId | Identificador da organização | Organização da marca |
-|  | sandboxName | Nome da sandbox | Nome da sandbox |
+| | externalKey | Chave externa | Identificador individual que aciona a jornada |
+| | organizationId | Identificador da organização | Organização da marca |
+| | sandboxName | Nome da sandbox | Nome da sandbox |
 | Identidade | profileId | Identificador de identidade do perfil | Identificador do perfil na jornada |
-|  | namespace | Namespace de identidade do perfil | Namespace do perfil na jornada (exemplo: ECID) |
+| | namespace | Namespace de identidade do perfil | Namespace do perfil na jornada (exemplo: ECID) |
 | Nó Atual | currentNodeId | Identificador do nó atual | Identificador da atividade atual (nó) |
-|  | currentNodeName | Nome do nó atual | Nome da atividade atual (nó) |
+| | currentNodeName | Nome do nó atual | Nome da atividade atual (nó) |
 | Nó anterior | previousNodeId | Identificador do nó anterior | Identificador da atividade anterior (nó) |
-|  | previousNodeName | Nome do nó anterior | Nome da atividade anterior (nó) |
+| | previousNodeName | Nome do nó anterior | Nome da atividade anterior (nó) |
 | Erros | lastNodeUIDInError | Último identificador de nó com erro | Identificador da atividade mais recente (nó) com erro |
-|  | lastNodeNameInError | Nome do último nó com erro | Nome da atividade mais recente (nó) com erro |
-|  | lastNodeTypeInError | Último tipo de nó com erro | Tipo de erro da atividade mais recente (nó) com erro. Tipos possíveis:<ul><li>Eventos: Eventos, Reações, SQ (exemplo: Qualificação de segmento)</li><li>Controle de fluxo: Fim, Condição, Espera</li><li>Ações: ACS actions, Jump, Custom Action</li></ul> |
-|  | lastErrorCode | Último código de erro | Código de erro da atividade mais recente (nó) com erro. Possíveis erros: <ul><li>Códigos de erro HTTP</li><li>limitado</li><li>timedOut</li><li>erro (exemplo: padrão no caso de um erro inesperado. Não deve/extremamente raramente acontece)</li></ul> |
-|  | lastExecutionActionErrorCode | Código de erro da última ação executada | Código de erro da ação mais recente com erro |
-|  | lastDataFetchErrorCode | Código de erro da última busca de dados | Código de erro da última busca de dados nas fontes de dados |
+| | lastNodeNameInError | Nome do último nó com erro | Nome da atividade mais recente (nó) com erro |
+| | lastNodeTypeInError | Último tipo de nó com erro | Tipo de erro da atividade mais recente (nó) com erro. Tipos possíveis:<ul><li>Eventos: Eventos, Reações, SQ (exemplo: Qualificação de segmento)</li><li>Controle de fluxo: Fim, Condição, Espera</li><li>Ações: ACS actions, Jump, Custom Action</li></ul> |
+| | lastErrorCode | Último código de erro | Código de erro da atividade mais recente (nó) com erro. Possíveis erros: <ul><li>Códigos de erro HTTP</li><li>limitado</li><li>timedOut</li><li>erro (exemplo: padrão no caso de um erro inesperado. Não deve/extremamente raramente acontece)</li></ul> |
+| | lastExecutionActionErrorCode | Código de erro da última ação executada | Código de erro da ação mais recente com erro |
+| | lastDataFetchErrorCode | Código de erro da última busca de dados | Código de erro da última busca de dados nas fontes de dados |
 | Hora | lastActionExecutionElapsedTime | Tempo decorrido da execução da última ação | Tempo gasto para executar a ação mais recente |
-|  | lastDataFetchElapsedTime | Tempo decorrido da última busca de dados | Tempo gasto para executar a última busca de dados a partir de fontes de dados |
+| | lastDataFetchElapsedTime | Tempo decorrido da última busca de dados | Tempo gasto para executar a última busca de dados a partir de fontes de dados |

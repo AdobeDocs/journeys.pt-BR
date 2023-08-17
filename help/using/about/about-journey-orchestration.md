@@ -34,7 +34,7 @@ Com o designer da jornada, um **usuário empresarial** pode arrastar e soltar fa
 
 Assim você cria condições com base em:
 
-* tempo
+* hora
 * dados provenientes do payload do evento
 * informações provenientes de fontes de dados: fonte de dados do Perfil do cliente em tempo real ou fontes de dados personalizadas
 

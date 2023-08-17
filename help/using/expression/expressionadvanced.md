@@ -44,7 +44,7 @@ Você pode acessar o editor de expressão avançado de diferentes maneiras:
 
 * Ao criar uma condição de fonte de dados, você pode acessar o editor avançado clicando em **[!UICONTROL Advanced mode]**.
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * Ao criar um temporizador personalizado, o editor avançado será exibido diretamente.
 * Ao mapear o parâmetro de ação, clique em **[!UICONTROL Advanced mode]**.

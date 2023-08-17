@@ -64,10 +64,10 @@ Veja alguns itens que o administrador deve verificar:
 * Você seguiu a estrutura de payload das APIs de assimilação de streaming usando a pré-visualização da estrutura de payload no painel de configuração do evento? Consulte [esta página](../event/previewing-the-payload.md).
 * Você usou os pares de chave/valor corretos no cabeçalho do evento?
 
-   ```
-   X-gw-ims-org-id - your ORGID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your ORGID
+  Content-type - application/json
+  ```
 
 ## Verificação de como as pessoas navegam pela jornada{#section_l5y_yzs_dgb}
 

@@ -52,7 +52,7 @@ ht-degree: 100%
    + Usar um sistema de terceiros {#action-third-party}
       + [Sobre a configuração de ação personalizada](using/action/about-custom-action-configuration.md)
       + [Configurar o URL](using/action/url-configuration.md)
-      + [Definição dos parâmetros de imagem](using/action/defining-the-message-parameters.md)
+      + [Definição dos parâmetros de ação](using/action/defining-the-message-parameters.md)
 + Utilização de segmentos {#configuring-segment}
    + [Sobre segmentos](using/segment/about-segments.md)
    + [Criação de um segmento](using/segment/creating-a-segment.md)

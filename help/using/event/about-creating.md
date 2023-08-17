@@ -36,6 +36,7 @@ Estas são as etapas principais para configurar um novo evento:
    * **Eventos baseados em regras**: esse tipo de evento não gera uma eventID. No **Condição de ID de evento** , basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas jornadas. Essa regra pode ser baseada em qualquer campo disponível na carga do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
 
    * **Gerado pelo sistema** events: esse tipo requer uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento e adicionado à pré-visualização de carga. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga. Consulte [esta seção](../event/previewing-the-payload.md).
+
    >[!NOTE]
    >
    >Leia mais sobre tipos de evento em [nesta seção](../event/about-events.md).

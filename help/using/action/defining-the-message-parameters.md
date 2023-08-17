@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Definição dos parâmetros de imagem
+title: Definição dos parâmetros de ação
 description: Saiba como definir os parâmetros de ação
 feature: Journeys
 role: User
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# Definição dos parâmetros de imagem {#concept_wy4_bf1_2gb}
+# Definição dos parâmetros de ação {#concept_wy4_bf1_2gb}
 
 ![](../assets/messageparameterssection.png)
 

@@ -17,55 +17,55 @@ Você pode passar uma coleção em parâmetros de ação personalizados que ser�
 
 * coleções simples: matrizes de tipos de dados simples, por exemplo, com uma listString:
 
-   ```
-   {
-    "deviceTypes": [
-        "android",
-        "ios"
-    ]
-   }
-   ```
+  ```
+  {
+   "deviceTypes": [
+       "android",
+       "ios"
+   ]
+  }
+  ```
 
 * coleções de objetos: uma matriz de objetos JSON, por exemplo:
 
-   ```
-   {
-   "products":[
-      {
-         "id":"productA",
-         "name":"A",
-         "price":20.1
-      },
-      {
-         "id":"productB",
-         "name":"B",
-         "price":10.0
-      },
-      {
-         "id":"productC",
-         "name":"C",
-         "price":5.99
-      }
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+     {
+        "id":"productA",
+        "name":"A",
+        "price":20.1
+     },
+     {
+        "id":"productB",
+        "name":"B",
+        "price":10.0
+     },
+     {
+        "id":"productC",
+        "name":"C",
+        "price":5.99
+     }
+   ]
+  }
+  ```
 
 ## Limitações {#limitations}
 
 * Matrizes aninhadas de objetos em uma matriz de objetos não têm suporte no momento. Por exemplo:
 
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "price":20,
-        "locations": [{"name": "Paris"}, {"name": "London"}]
-     },
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+    {
+       "id":"productA",
+       "name":"A",
+       "price":20,
+       "locations": [{"name": "Paris"}, {"name": "London"}]
+    },
+   ]
+  }
+  ```
 
 * Para testar coleções usando o modo de teste, é necessário usar o modo de visualização de código. No momento, o modo de exibição de código não é compatível com eventos comerciais. Você só pode enviar uma coleção com um único elemento.
 

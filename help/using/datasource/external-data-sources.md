@@ -78,9 +78,9 @@ No caso de uma chamada GET que exige parâmetros, você informa os parâmetros n
 * listar os parâmetros que serão transmitidos no momento da chamada no campo **[!UICONTROL Dynamic Values]** (no exemplo abaixo: &quot;identificador&quot;).
 * especificá-los também com a mesma sintaxe no corpo da carga útil enviada. Para fazer isso, é necessário adicionar: &quot;param&quot;: &quot;nome do parâmetro&quot; (no exemplo abaixo: &quot;identificador&quot;). Siga a sintaxe abaixo:
 
-   ```
-   {"id":{"param":"identifier"}}
-   ```
+  ```
+  {"id":{"param":"identifier"}}
+  ```
 
 ![](../assets/journey29.png)
 

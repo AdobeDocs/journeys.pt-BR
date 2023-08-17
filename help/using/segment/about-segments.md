@@ -9,13 +9,13 @@ exl-id: 94e1e3e3-9a46-41ca-bec1-f41287925372
 source-git-commit: e5c0db2e1f85ea72fd54f91e4a26cc287377fb0e
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
 # Sobre segmentos da Adobe Experience Platform {#about-segments}
 
-Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) para criar segmentos, você pode aproveitá-los no [!DNL Journey Orchestration]. Graças a uma atividade de evento dedicada, você pode fazer com que os indivíduos entrem ou avancem em uma jornada com base nas entradas e saídas do segmento do Adobe Experience Platform. Isso também permite criar condições complexas em suas jornadas usando o editor de expressão simples ou avançado.
+Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR) para criar segmentos, você pode aproveitá-los no [!DNL Journey Orchestration]. Graças a uma atividade de evento dedicada, você pode fazer com que os indivíduos entrem ou avancem em uma jornada com base nas entradas e saídas do segmento do Adobe Experience Platform. Isso também permite criar condições complexas em suas jornadas usando o editor de expressão simples ou avançado.
 
 Digamos que você tenha um segmento de &quot;cliente prata&quot;. Com essa atividade, você pode fazer com que todos os novos clientes Silver insiram uma jornada e enviem a eles uma série de mensagens personalizadas. Você também pode criar condições facilmente com base nesse segmento.
 
@@ -39,4 +39,4 @@ A determinação entre a segmentação em lote e a segmentação por transmissã
 
 Depois de definir um segmento pela primeira vez, os perfis são adicionados ao público-alvo quando se qualificam.
 
-O preenchimento retroativo de dados anteriores no público pode levar até 24 horas. Depois que o público-alvo é preenchido retroativamente, ele é mantido atualizado continuamente e está sempre pronto para o direcionamento.
+O preenchimento retroativo de dados anteriores no público-alvo pode levar até 24 horas. Depois que o público-alvo é preenchido retroativamente, ele será mantido atualizado continuamente e está sempre pronto para o direcionamento.

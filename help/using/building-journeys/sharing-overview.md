@@ -9,7 +9,7 @@ exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -62,4 +62,4 @@ Os eventos de etapa do Journey Orchestration podem ser vinculados a outros conju
 
 * O Customer Journey Analytics assimila o conjunto de dados &quot;Jornada Step Event&quot;.
 * A variável **profileID** no &quot;Esquema de evento de etapa de Jornada para Journey Orchestration&quot; associado, é definido como um campo de identidade. No Customer Journey Analytics, você pode vincular esse conjunto de dados a qualquer outro que tenha o mesmo valor que o identificador baseado em pessoas.
-* Se quiser usar esse conjunto de dados no Customer Journey Analytics, para análise de jornada entre canais, consulte esta [documentação](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+* Se quiser usar esse conjunto de dados no Customer Journey Analytics, para análise de jornada entre canais, consulte esta [documentação](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=pt-BR).

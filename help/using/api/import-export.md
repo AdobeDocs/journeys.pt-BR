@@ -69,7 +69,8 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 * **&lt;ORGANIZATION>**: esta é a ID de ORGANIZAÇÃO pessoal. Uma ID de ORGANIZAÇÃO é fornecida pela Adobe para cada uma das instâncias :
 
    * &lt;organization> : sua instância de produção
-   Para obter o valor da ID de ORGANIZAÇÃO, consulte seu administrador ou contato técnico da Adobe. Você também pode recuperá-la no Adobe I/O ao criar uma nova integração, na lista de licenças (consulte a [documentação do Adobe I/O](https://www.adobe.io/authentication.html)).
+
+  Para obter o valor da ID de ORGANIZAÇÃO, consulte seu administrador ou contato técnico da Adobe. Você também pode recuperá-la no Adobe I/O ao criar uma nova integração, na lista de licenças (consulte a [documentação do Adobe I/O](https://www.adobe.io/authentication.html)).
 
 * **&lt;ACCESS_TOKEN>**: seu token de acesso pessoal que foi recuperado ao trocar o JWT por meio de uma solicitação POST.
 

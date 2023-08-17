@@ -29,27 +29,27 @@ Qualquer esquema XDM que será usado para [!DNL Journey Orchestration] Os evento
 
 * O esquema deve ser da classe XDM ExperienceEvent.
 
-   ![](../assets/schema2.png)
+  ![](../assets/schema2.png)
 
 * Para eventos gerados pelo sistema, o esquema deve incluir a combinação de eventID de orquestração. [!DNL Journey Orchestration] O usa esse campo para identificar eventos usados em jornadas.
 
-   ![](../assets/schema3.png)
+  ![](../assets/schema3.png)
 
 * Declare um campo de identidade para identificar o assunto do evento. Se nenhuma identidade for especificada, um mapa de identidade poderá ser usado. Isso não é recomendado.
 
-   ![](../assets/schema4.png)
+  ![](../assets/schema4.png)
 
 * Se desejar que esses dados estejam disponíveis para pesquisa posteriormente em uma Jornada, marque o esquema e o conjunto de dados para o perfil.
 
-   ![](../assets/schema5.png)
+  ![](../assets/schema5.png)
 
-   ![](../assets/schema6.png)
+  ![](../assets/schema6.png)
 
 * Sinta-se à vontade para incluir campos de dados para capturar quaisquer outros dados de contexto que deseja incluir com o evento, como informações sobre o usuário, o dispositivo do qual o evento foi gerado, o local ou qualquer outra circunstância significativa relacionada ao evento.
 
-   ![](../assets/schema7.png)
+  ![](../assets/schema7.png)
 
-   ![](../assets/schema8.png)
+  ![](../assets/schema8.png)
 
 ## Aproveitar relacionamentos de esquema{#leverage_schema_relationships}
 
