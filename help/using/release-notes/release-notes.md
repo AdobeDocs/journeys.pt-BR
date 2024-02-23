@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 77b7979b2023e58298298c88240cb2855b55d56b
+source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
 workflow-type: tm+mt
-source-wordcount: '4232'
-ht-degree: 99%
+source-wordcount: '4352'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,23 @@ Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 >[!NOTE]
 >
 >Para os recursos lançados em 2022 e 2023, os links direcionam para a documentação do Adobe Journey Optimizer.
+
+## Versão de fevereiro de 2024 {#feb-rn-2024}
+
+### Melhorias {#feb-2024-improvements}
+
+* **Filtrar suas jornadas** - Agora você pode usar **datas personalizadas para filtrar as jornadas** inventário, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas criadas ou publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **Ações personalizadas** - Agora você pode atualizar o **tipo de conteúdo** cabeçalho. Este novo **tipo de conteúdo** O deve fazer referência ao conteúdo JSON. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=pt-BR#url-configuration)
+* **Configuração** - O atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **Interface do usuário** - A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+
+## Versão de janeiro de 2024 {#jan-rn-2024}
+
+### Melhorias {#jan-2024-improvements}
+
+* **Duração dos eventos de reação**: a duração máxima que você pode definir nos **Eventos de reação** agora é de 29 dias, em vez de 30. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html)
+* **Grupos de campos** - Esta versão corrige um problema que impedia que grupos de campos fossem salvos em determinados casos.
+* O suporte de `<listObject>` foi modificado em várias funções.
 
 ## Versão de agosto de 2023 {#aug-rn-2023}
 
@@ -314,7 +331,7 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [divisão](../
 <table>
 <thead>
 <tr>
-<th><strong>Eventos com base em regras (beta)</strong><br/></th>
+<th><strong>Eventos baseados em regras (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
