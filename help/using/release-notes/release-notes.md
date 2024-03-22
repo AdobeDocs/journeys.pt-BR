@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: ea4b589755b904007cc4ea8be04f67f8742ff5a0
+source-git-commit: bb74c7dc1ebad0a707b830602a8d0b33e8443a5d
 workflow-type: tm+mt
-source-wordcount: '4352'
-ht-degree: 96%
+source-wordcount: '4418'
+ht-degree: 98%
 
 ---
 
@@ -21,14 +21,26 @@ Esta página lista todos os novos recursos e melhorias do Journey Orchestration.
 >
 >Para os recursos lançados em 2022 e 2023, os links direcionam para a documentação do Adobe Journey Optimizer.
 
+## Versão de março de 2024 {#mar-rn-2024}
+
+### Melhorias {#mar-2024-improvements}
+
+Novos status intermediários foram adicionados ao ciclo de vida de criação do jornada:
+
+* **Publicação** status entre a variável **Rascunho** status e o **Ao vivo** status
+* **Parando** status entre a variável **Ao vivo** status e o **Parado** status
+* **Ativando o modo de teste** ou **Desativando modo de teste** status entre a variável **Rascunho** status e o **Rascunho (teste)** status
+
+Quando uma jornada está em um estado intermediário, ela é somente leitura. [Saiba mais](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+
 ## Versão de fevereiro de 2024 {#feb-rn-2024}
 
 ### Melhorias {#feb-2024-improvements}
 
-* **Filtrar suas jornadas** - Agora você pode usar **datas personalizadas para filtrar as jornadas** inventário, além dos filtros de data predefinidos existentes. Isso permite refinar a lista ao exibir jornadas criadas ou publicadas em uma data específica, em um mês específico, durante um ano inteiro ou dentro de intervalos de tempo especificados. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
-* **Ações personalizadas** - Agora você pode atualizar o **tipo de conteúdo** cabeçalho. Este novo **tipo de conteúdo** O deve fazer referência ao conteúdo JSON. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=pt-BR#url-configuration)
-* **Configuração** - O atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como &quot;primary = true&quot;. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
-* **Interface do usuário** - A barra superior, nas telas do jornada, foi reorganizada para obter uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de &quot;lápis&quot; que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
+* **Filtre suas jornadas**: agora você pode usar o inventário **datas personalizadas para filtrar as jornadas**, além dos filtros de data predefinidos já existentes. Isso permite refinar a lista ao exibir jornadas criadas ou publicadas em uma data específica, em um mês específico, durante um ano inteiro ou em intervalos de tempo especificados. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#filter)
+* **Ações personalizadas**: agora você pode atualizar o cabeçalho **tipo de conteúdo**. Este novo **tipo de conteúdo** deve fazer referência ao conteúdo JSON. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=pt-BR#url-configuration)
+* **Configuração**: o atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como “primary = true”. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html)
+* **Interface**: a barra superior, nas telas da jornada, foi reorganizada para fornecer uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de “lápis” que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html#change-properties)
 
 ## Versão de janeiro de 2024 {#jan-rn-2024}
 
