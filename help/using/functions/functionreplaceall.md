@@ -31,9 +31,9 @@ String
 
 | Parâmetro | Tipo |
 |-----------|--------------|
-| base | string |
-| target | string (RegExp) |
-| substituição | string |
+| base | sequência de caracteres |
+| público-alvo | string (RegExp) |
+| substituição | sequência de caracteres |
 
 ## Assinatura e tipo retornado
 

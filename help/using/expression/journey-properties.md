@@ -9,13 +9,13 @@ exl-id: 798e4207-5bef-4002-9c1f-608bb6243e43
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
 # Jornada atributos de propriedades {#journey-properties}
 
-No editor de expressão avançado, você encontrará a variável **Jornada propriedades** abaixo das categorias de evento e fonte de dados. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados.
+No editor de expressão avançado, você encontrará a categoria **Propriedades de Jornada**, abaixo das categorias de evento e fonte de dados. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados.
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ Você pode usar esses campos para criar expressões. Durante a execução da jor
 
 Estes são alguns exemplos de casos de uso:
 
-* **Registrar em log os perfis descartados**: você pode enviar todos os perfis excluídos de uma mensagem por uma regra de limitação para um sistema de terceiros para fins de registro. Para isso, configure um caminho em caso de tempo limite e erro e adicione uma condição para filtrar por um tipo de erro específico, por exemplo: &quot;descartar pessoas ao limitar a regra&quot;. Em seguida, você pode enviar os perfis descartados para um sistema de terceiros por meio de uma ação personalizada.
+* **Registrar em log perfis descartados**: é possível enviar todos os perfis excluídos de uma mensagem por uma regra de limitação para um sistema de terceiros para fins de registro em log. Para isso, configure um caminho em caso de tempo limite e erro e adicione uma condição para filtrar por um tipo de erro específico, por exemplo: &quot;descartar pessoas ao limitar a regra&quot;. Em seguida, você pode enviar os perfis descartados para um sistema de terceiros por meio de uma ação personalizada.
 
 * **Enviar alertas em caso de erros**: você pode enviar uma notificação para um sistema de terceiros sempre que ocorrer um erro em uma mensagem. Para isso, configure um caminho em caso de erro, adicione uma condição e uma ação personalizada. É possível enviar uma notificação em um canal Slack, por exemplo, com a descrição do erro encontrado.
 
-* **Refinar erros nos relatórios** : em vez de ter apenas um caminho para mensagens com erro, você pode definir uma condição por tipo de erro. Isso permitirá que você refine os relatórios e visualize todos os dados de tipos de erro.
+* **Refinar erros nos relatórios**: em vez de ter apenas um caminho para mensagens com erro, você pode definir uma condição por tipo de erro. Isso permitirá que você refine os relatórios e visualize todos os dados de tipos de erro.
 
-## List of fields {#journey-properties-fields}
+## Lista de campos {#journey-properties-fields}
 
 | Categoria | Nome do campo | Rótulo | Descrição |
 |---|---|---|------------|

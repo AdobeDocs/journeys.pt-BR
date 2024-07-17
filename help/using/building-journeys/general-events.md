@@ -15,6 +15,6 @@ ht-degree: 52%
 
 # Eventos gerais {#section_ofg_jss_dgb}
 
-Para esse tipo de evento, você só pode adicionar um rótulo e uma descrição. O restante da configuração não pode ser editado. Ele foi executado pelo usuário técnico. Consulte [esta página](../event/about-events.md).
+Para esse tipo de evento, só é possível adicionar um rótulo e uma descrição. O restante da configuração não pode ser editado. Ele foi executado pelo usuário técnico. Consulte [esta página](../event/about-events.md).
 
 ![](../assets/general-events.png)

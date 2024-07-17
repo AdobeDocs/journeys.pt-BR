@@ -8,8 +8,8 @@ level: Experienced
 exl-id: f30377c2-4d5e-4905-a972-8f4ccb272bc0
 source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 10%
+source-wordcount: '148'
+ht-degree: 12%
 
 ---
 
@@ -31,9 +31,9 @@ String
 
 | Parâmetro | Tipo |
 |-----------|--------------|
-| base | string |
-| target | string (RegExp) |
-| substituição | string |
+| base | sequência de caracteres |
+| público-alvo | string (RegExp) |
+| substituição | sequência de caracteres |
 
 ## Assinatura e tipo retornado
 
@@ -51,17 +51,17 @@ Retorna &quot;Hexlo World&quot;.
 
 Como o parâmetro de destino é um RegExp, dependendo da cadeia de caracteres que você deseja substituir, talvez seja necessário usar escape em alguns caracteres. Exemplo:
 
-* string a ser avaliada: `|OFFER_A|OFFER_B`
+* cadeia de caracteres a ser avaliada: `|OFFER_A|OFFER_B`
 * fornecido por um atributo de perfil `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
-* Sequência de caracteres a ser substituída: `|OFFER_A`
-* Sequência de caracteres substituída por: `''`
-* É necessário adicionar `\\` antes do `|` caractere.
+* Cadeia de caracteres a ser substituída: `|OFFER_A`
+* Cadeia de caracteres substituída por: `''`
+* É necessário adicionar `\\` antes do caractere `|`.
 
 A expressão é:
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
 
-A sequência retornada é: `|OFFER_B`
+A cadeia de caracteres retornada é: `|OFFER_B`
 
 Também é possível criar a cadeia de caracteres a ser substituída a partir de um determinado atributo:
 

@@ -21,7 +21,7 @@ A pré-visualização de carga permite validar a definição de carga útil.
 >
 >Para eventos gerados pelo sistema, ao criar um evento, antes de visualizar a pré-visualização de carga, salve o evento e abra-o novamente. Essa etapa é necessária para gerar uma ID de evento na carga.
 
-1. Clique em **[!UICONTROL View Payload]** ícone para visualizar o conteúdo esperado pelo sistema.
+1. Clique no ícone **[!UICONTROL View Payload]** para visualizar a carga útil esperada pelo sistema.
 
    ![](../assets/journey13.png)
 
@@ -31,4 +31,4 @@ A pré-visualização de carga permite validar a definição de carga útil.
 
 1. Verifique a visualização para validar a definição de carga.
 
-1. Em seguida, é possível compartilhar a pré-visualização do conteúdo com a pessoa responsável pelo envio do evento. Essa carga pode ajudá-los a projetar a configuração de um push de evento para [!DNL Journey Orchestration]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Em seguida, é possível compartilhar a pré-visualização do conteúdo com a pessoa responsável pelo envio do evento. Esta carga pode ajudá-los a criar a configuração de envio de evento para [!DNL Journey Orchestration]. Consulte [esta página](../event/additional-steps-to-send-events-to-journey-orchestration.md).

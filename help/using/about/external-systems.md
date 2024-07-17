@@ -9,8 +9,8 @@ level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 6%
+source-wordcount: '1039'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ A API de limite integrada oferece uma proteção técnica de upstream que ajuda 
 
 Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para incluir o endpoint no incluo na lista de permissões. Isso não é possível para fontes de dados externas públicas.
 
-Para ações personalizadas, é necessário avaliar a capacidade de sua API externa. Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e seu sistema suportar apenas 100 chamadas por segundo, será necessário definir uma regra de limitação para que seu sistema não fique saturado.
+Para ações personalizadas, é necessário avaliar a capacidade da API externa. Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e seu sistema suportar apenas 100 chamadas por segundo, será necessário definir uma regra de limitação para que seu sistema não fique saturado.
 
 As regras de limite são definidas no nível da sandbox para um endpoint específico (o URL chamado). No tempo de execução, o Journey Orchestration verifica se há uma regra de limitação definida e aplica a taxa definida durante as chamadas para esse endpoint. Se o número de chamadas exceder a taxa definida, as chamadas restantes serão descartadas e contadas como erros no relatório.
 
@@ -70,14 +70,14 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 
 ## Perguntas frequentes{#faq}
 
-**Como posso configurar uma regra de limitação? Há uma regra de limitação padrão?**
+**Como posso configurar uma regra de limitação? Existe uma regra de limite padrão?**
 
-Por padrão, não há regra de limitação. As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação. Consulte [nesta seção](../about/external-systems.md#capping) e [esta página](../api/capping.md).
+Por padrão, não há regra de limitação. As regras de limitação são definidas no nível da sandbox para um endpoint específico (o URL chamado), usando a API de limitação. Consulte [esta seção](../about/external-systems.md#capping) e [esta página](../api/capping.md).
 
 **Quantas tentativas são executadas? Posso alterar o número de tentativas ou definir um período mínimo de espera entre tentativas?**
 
 Para uma determinada chamada, um máximo de três tentativas pode ser executado após a primeira chamada, até que a duração do tempo limite seja atingida. O número de tentativas e o tempo entre cada nova tentativa não podem ser alterados. Consulte [esta seção](../about/external-systems.md#timeout).
 
-**Onde posso configurar o tempo limite? Há um valor máximo?**
+**Onde posso configurar o tempo limite? Existe um valor máximo?**
 
-Em cada jornada, é possível definir uma duração de tempo limite. A duração do tempo limite é configurada nas propriedades de uma jornada. A duração do tempo limite deve estar entre 1 segundo e 30 segundos. Consulte [nesta seção](../about/external-systems.md#timeout) e [esta página](../building-journeys/changing-properties.md#timeout_and_error).
+Em cada jornada, é possível definir uma duração de tempo limite. A duração do tempo limite é configurada nas propriedades de uma jornada. A duração do tempo limite deve estar entre 1 segundo e 30 segundos. Consulte [esta seção](../about/external-systems.md#timeout) e [esta página](../building-journeys/changing-properties.md#timeout_and_error).

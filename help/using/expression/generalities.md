@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 5%
+source-wordcount: '224'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 ## Parênteses e prioridade da expressão{#section_edf_fks_bgb}
 
-É possível usar parênteses para tornar uma expressão complexa mais legível. _(&lt;expression>)_ equivale a _&lt;expression>_. Também é possível usar parênteses para definir a ordem de avaliação e a associatividade.
+É possível usar parênteses para tornar uma expressão complexa mais legível. _(&lt;expressão>)_ é o equivalente a _&lt;expressão>_. Também é possível usar parênteses para definir a ordem de avaliação e a associatividade.
 
 As expressões serão avaliadas da esquerda para a direita. A associatividade em operadores aritméticos deve ser aplicada: multiplicações e divisões têm prioridade sobre adições e subtrações. Para impor uma ordem específica, é necessário adicionar parênteses para delimitar as operações. Por exemplo:
 
@@ -28,7 +28,7 @@ As expressões serão avaliadas da esquerda para a direita. A associatividade em
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; tem prioridade sobre &#39;+&#39;: 2 * 10 é avaliado → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Os parênteses alteram a prioridade: (4 + 2) é avaliado → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Diferencia maiúsculas de minúsculas{#section_lrb_xh5_dgb}
+## Diferenciação de maiúsculas e minúsculas{#section_lrb_xh5_dgb}
 
 Estas são as diferentes regras de diferenciação entre maiúsculas e minúsculas:
 
@@ -44,4 +44,4 @@ Dependendo do contexto de uso, o editor de expressão pode retornar valores dife
 |--- |--- |
 | Condição (condição da fonte de dados, condição de data) | booleano |
 | Temporizador personalizado | dateTimeOnly |
-| Mapeamento de parâmetros de ação | Qualquer |
+| Mapeamento de parâmetros de ação | Qualquer uma |

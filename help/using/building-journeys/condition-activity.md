@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
 source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '824'
 ht-degree: 17%
 
 ---
@@ -17,18 +17,18 @@ ht-degree: 17%
 
 Há quatro tipos de condições disponíveis:
 
-* [Condição da fonte de dados](#data_source_condition)
+* [Condição de Source de Dados](#data_source_condition)
 * [Condição de tempo](#time_condition)
 * [Divisão de porcentagem](#percentage_split)
 * [Condição de data](#date_condition)
 
 ![](../assets/journey49.png)
 
-## Sobre a atividade de Condição {#about_condition}
+## Sobre a atividade Condição {#about_condition}
 
 Ao usar várias condições em uma jornada, você pode definir rótulos para cada uma delas para identificá-las mais facilmente.
 
-Clique em **[!UICONTROL Add a path]** se quiser definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade.
+Clique em **[!UICONTROL Add a path]** se desejar definir várias condições. Para cada condição, um novo caminho é adicionado na tela após a atividade.
 
 ![](../assets/journey47.png)
 
@@ -38,7 +38,7 @@ Por exemplo, vamos pegar o exemplo de uma condição de primeiro caminho &quot;A
 
 ![](../assets/journey48.png)
 
-Você pode criar outro caminho para públicos-alvo que não se qualifiquem para as condições definidas marcando **[!UICONTROL Show path for other cases than the one(s) above]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
+Você pode criar outro caminho para públicos que não estejam qualificados para as condições definidas marcando **[!UICONTROL Show path for other cases than the one(s) above]**. Observe que essa opção não está disponível em condições de divisão. Consulte [Divisão de porcentagem](#percentage_split).
 
 O modo simples permite executar consultas simples com base em uma combinação de campos. Todos os campos disponíveis são exibidos no lado esquerdo da tela. Arraste e solte campos na zona principal. Para combinar os elementos diferentes, faça o interbloqueio entre eles para criar grupos e/ou níveis de grupo diferentes. Você pode selecionar um operador lógico para combinar elementos no mesmo nível:
 
@@ -47,7 +47,7 @@ O modo simples permite executar consultas simples com base em uma combinação d
 
 ![](../assets/journey64.png)
 
-Se você estiver usando o [Serviço de segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR) para criar segmentos, você pode aproveitá-los nas condições de jornada. Consulte [Uso de segmentos em condições](../segment/using-a-segment.md).
+Se você estiver usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR) para criar seus segmentos, poderá aproveitá-los nas condições de jornada. Consulte [Uso de segmentos em condições](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -58,7 +58,7 @@ A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. 
 
 No editor simples, você também encontrará a categoria Propriedades da Jornada, abaixo das categorias de evento e fonte de dados. Essa categoria contém campos técnicos relacionados à jornada para um determinado perfil. Essas são as informações recuperadas pelo sistema a partir das jornadas ativas, como a ID da jornada ou os erros específicos encontrados. Para obter mais informações, consulte [esta página](../expression/journey-properties.md)
 
-## Condição da fonte de dados {#data_source_condition}
+## Condição do Source de dados {#data_source_condition}
 
 Isso permite definir uma condição com base nos campos das fontes de dados ou nos eventos posicionados anteriormente na jornada. Para saber como usar o editor de expressão, consulte [esta página](../expression/expressionadvanced.md). Usando o editor de expressão avançado, você pode configurar condições mais avançadas que manipulem coleções ou usem fontes de dados que exijam a transmissão de parâmetros. Consulte [esta página](../datasource/external-data-sources.md).
 

@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Atividade de espera
+title: Atividade Aguardar
 description: Saiba mais sobre a atividade de espera
 feature: Journeys
 role: User
@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 10%
+source-wordcount: '368'
+ht-degree: 8%
 
 ---
 
-# Atividade de espera{#section_rlm_nft_dgb}
+# Atividade Aguardar{#section_rlm_nft_dgb}
 
-Se quiser aguardar antes de executar a próxima atividade no caminho, você poderá usar um **[!UICONTROL Wait]** atividade. Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
+Se quiser aguardar antes de executar a próxima atividade no caminho, você pode usar uma atividade **[!UICONTROL Wait]**. Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
 
 * [Duração](#duration)
 * [Personalizado](#custom)
@@ -31,7 +31,7 @@ Observe também que se duas esperas diferentes estiverem em paralelo, a que ocor
 >
 >A duração máxima de espera é de 30 dias.
 >
->No modo de teste, a variável **[!UICONTROL Wait time in test]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Consulte [esta página](../building-journeys/testing-the-journey.md)
+>No modo de teste, o parâmetro **[!UICONTROL Wait time in test]** permite definir o tempo que cada atividade de espera durará. O tempo padrão é de 10 segundos. Isso garantirá que você obtenha os resultados do teste rapidamente. Ver [esta página](../building-journeys/testing-the-journey.md)
 
 ## Espera de duração{#duration}
 
@@ -45,9 +45,9 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 
 >[!NOTE]
 >
->Você pode usar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), o campo no evento será do formulário 2016-08-12T09:46:06Z
+>Você pode usar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), o campo no evento será do formulário 2016-08-12T09:46:06Z.
 >
->A variável **fuso horário** é esperado nas propriedades da jornada. Como resultado, não é possível, hoje, a partir da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo misturando deslocamento de tempo e fuso horário como 2016-08-12T09:46:06.982-05 Consulte [esta página](../building-journeys/timezone-management.md).
+>O **fuso horário** é esperado nas propriedades da jornada. Como resultado, não é possível, hoje, a partir da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo misturando deslocamento de tempo e fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 

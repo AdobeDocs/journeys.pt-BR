@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1283'
 ht-degree: 2%
 
 ---
@@ -22,13 +22,13 @@ Verifique se os campos usados em suas consultas têm valores associados no esque
 
 Esta é a lista de conjuntos de dados de rastreamento e casos de uso relacionados:
 
-**Conjunto de dados de evento de experiência de rastreamento de email** (cjm_email_tracking_experience_event_dataset)
+**Conjunto de dados do evento de experiência de rastreamento de email** (cjm_email_tracking_experience_event_dataset)
 
 Conjunto de dados do sistema para assimilar eventos de experiência de rastreamento de email do Journey Optimizer.
 
 O esquema relacionado é o Esquema de evento de experiência de rastreamento de email CJM.
 
-_Caso de uso de relatório_
+_Caso de uso de relatórios_
 
 ```sql
 select
@@ -63,7 +63,7 @@ Conjunto de dados para assimilar eventos de feedback de aplicativos de email e p
 
 O esquema relacionado é o Esquema de evento de feedback de mensagem CJM.
 
-_Caso de uso de relatório_
+_Caso de uso de relatórios_
 
 ```sql
 select
@@ -98,7 +98,7 @@ Conjunto de dados para assimilar eventos de experiência de rastreamento móvel 
 
 O esquema relacionado é o Esquema do evento de experiência de rastreamento de push do CJM.
 
-_Caso de uso de relatório_
+_Caso de uso de relatórios_
 
 ```sql
 select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
@@ -108,13 +108,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-**Jornada evento de etapa** (jornada_step_events)
+**Evento de etapa de Jornada** (jornada_step_events)
 
 Conjunto de dados para assimilar eventos de etapa do usuário na jornada.
 
 O esquema relacionado é o esquema Jornada Step Event para Journey Orchestration.
 
-_Caso de uso de relatório_
+_Caso de uso de relatórios_
 
 ```sql
 select
@@ -174,7 +174,7 @@ Esta consulta retorna todos os erros diferentes que ocorreram ao executar uma a�
 
 ## Consultas baseadas em perfil {#profile-based-queries}
 
-**Localizar se um perfil inseriu uma Jornada específica**
+**Descubra se um perfil inseriu uma Jornada específica**
 
 _Consulta do Data Lake_
 
@@ -398,7 +398,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada porque tinham um namespace inválido ou nenhuma identidade para esse namespace.
 
-**Número de perfis que foram descartados pela jornada devido à falta de um mapa de identidade**
+**Número de perfis que foram descartados pela jornada devido a nenhum mapa de identidade**
 
 _Consulta do Data Lake_
 
@@ -420,7 +420,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 A consulta retorna todas as IDs de perfil que foram descartadas pela jornada porque o mapa de identidade estava ausente.
 
-**Número de perfis que foram descartados pela jornada porque a jornada estava no nó de teste e o perfil não era um perfil de teste**
+**Número de perfis descartados pela jornada porque a jornada estava no nó de teste e o perfil não era um perfil de teste**
 
 _Consulta do Data Lake_
 
@@ -557,7 +557,7 @@ Se nenhum registro for retornado, significa que:
 * ocorreu um erro durante a criação do tópico ou do trabalho de exportação
 * o trabalho de exportação ainda está em execução
 
-**Obter métricas sobre perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação**
+**Obtenha métricas sobre perfis exportados, incluindo descartes e métricas de trabalho de exportação para cada trabalho de exportação**
 
 _Consulta do Data Lake_
 
@@ -617,7 +617,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Obter métricas agregadas (trabalhos de exportação de segmentos e descartes) em todos os trabalhos de exportação**
+**Obter métricas agregadas (trabalhos de exportação de segmento e descartes) em todos os trabalhos de exportação**
 
 _Consulta do Data Lake_
 
@@ -878,7 +878,7 @@ A consulta retorna, para o período definido, a contagem de jornadas exclusivas 
 
 ## Consultas em instâncias do jornada {#journey-instances-queries}
 
-**Número de perfis em um estado específico por um tempo específico**
+**Número de perfis em um estado específico em um horário específico**
 
 _Consulta do Data Lake_
 

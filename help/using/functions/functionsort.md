@@ -9,7 +9,7 @@ exl-id: 8e86b919-41f5-45f9-a6af-9fe290405095
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ Lista
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista para classificar. Para listObject, ele deve ser uma referência de campo. |
-| keyAttributeName | string | Este parâmetro é somente para listObject. O nome do atributo nos objetos da lista fornecida é usado como chave para classificação. |
+| keyAttributeName | sequência de caracteres | Este parâmetro é somente para listObject. O nome do atributo nos objetos da lista fornecida é usado como chave para classificação. |
 | sortingOrder | booleano | Crescente (verdadeiro) ou decrescente (falso) |
 
 ## Assinatura e tipo retornado
@@ -71,9 +71,9 @@ Retorna uma lista de objetos.
 
 `sort(["A", "C", "B"], true)`
 
-Devoluções `["A","B","C"]`.
+Retorna `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-Devoluções `[3, 2, 1]`.
+Retorna `[3, 2, 1]`.
 

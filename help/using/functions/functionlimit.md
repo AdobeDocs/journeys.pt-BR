@@ -9,7 +9,7 @@ exl-id: 7e006660-1206-4b8a-9e5b-c6fbeee9cc8f
 source-git-commit: 9f5ef0497227a370e2e1f4a62450611ae2e336b9
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -84,8 +84,8 @@ Retorna uma lista de objetos.
 
 `limit(["A", "B", "C", "D", "E"], 3)`
 
-Devoluções `["A","B","C"]`.
+Retorna `["A","B","C"]`.
 
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
-Devoluções `["C","D","E"]`.
+Retorna `["C","D","E"]`.

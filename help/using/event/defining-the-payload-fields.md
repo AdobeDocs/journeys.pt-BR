@@ -8,16 +8,16 @@ level: Intermediate
 exl-id: 9d385b64-46cd-489b-9c18-352fa2a2dbba
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 5%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
 # Definir os campos de carga {#concept_yrw_3qt_52b}
 
-A definição de carga útil permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo XDM do Experience Cloud. Para obter mais informações sobre o XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
+A definição de carga útil permite escolher as informações que o sistema espera receber do evento em sua jornada e a chave para identificar qual pessoa está associada ao evento. A carga é baseada na definição do campo XDM do Experience Cloud. Para obter mais informações sobre XDM, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR).
 
-1. Selecione um esquema XDM na lista e clique no botão **[!UICONTROL Payload]** ou no campo **[!UICONTROL Edit]** ícone.
+1. Selecione um esquema XDM na lista e clique no campo **[!UICONTROL Payload]** ou no ícone **[!UICONTROL Edit]**.
 
    ![](../assets/journey8.png)
 
@@ -35,12 +35,12 @@ A definição de carga útil permite escolher as informações que o sistema esp
 
    >[!NOTE]
    >
-   >Para eventos gerados pelo sistema, a variável **[!UICONTROL eventID]** campo é adicionado automaticamente na lista de campos selecionados para que [!DNL Journey Orchestration] pode identificar o evento. O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. Consulte [esta página](../event/previewing-the-payload.md).
+   >Para eventos gerados pelo sistema, o campo **[!UICONTROL eventID]** é automaticamente adicionado à lista de campos selecionados para que [!DNL Journey Orchestration] possa identificar o evento. O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. Consulte [esta página](../event/previewing-the-payload.md).
 
 1. Quando terminar de selecionar os campos necessários, clique em **[!UICONTROL Save]** ou pressione **[!UICONTROL Enter]**.
 
    ![](../assets/journey11.png)
 
-   O número de campos selecionados aparece na variável **[!UICONTROL Payload]** campo.
+   O número de campos selecionados aparece no campo **[!UICONTROL Payload]**.
 
    ![](../assets/journey12.png)

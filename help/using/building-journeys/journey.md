@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: Sobre a construção de jornada
+title: Sobre a criação de jornadas
 description: Como usuário empresarial, aprenda a combinar atividades de evento, orquestração e ação para criar uma jornada.
 feature: Journeys
 role: User
@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 540b5142-9323-4cc1-9b5a-3fa20a5945bf
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 21%
+source-wordcount: '558'
+ht-degree: 14%
 
 ---
 
@@ -45,11 +45,11 @@ Estas são as etapas principais para criar e publicar uma jornada.
 
    ![](../assets/journey33.png)
 
-1. Arraste e solte suas outras atividades e configure-as. Consulte as páginas [Atividades de evento](../building-journeys/event-activities.md), [Sobre atividades de orquestração](../building-journeys/about-orchestration-activities.md) e [Sobre as atividades de ação](../building-journeys/about-action-activities.md).
+1. Arraste e solte suas outras atividades e configure-as. Consulte as páginas [Atividades de evento](../building-journeys/event-activities.md), [Sobre atividades de orquestração](../building-journeys/about-orchestration-activities.md) e [Sobre atividades de ação](../building-journeys/about-action-activities.md).
 
    ![](../assets/journey34.png)
 
-1. Sua jornada é salva automaticamente. Teste sua jornada e publique-a. Consulte [teste da jornada](../building-journeys/testing-the-journey.md) e [Publicação da jornada](../building-journeys/publishing-the-journey.md).
+1. Sua jornada é salva automaticamente. Teste sua jornada e publique-a. Consulte [testando a jornada](../building-journeys/testing-the-journey.md) e [Publicando a jornada](../building-journeys/publishing-the-journey.md).
 
    ![](../assets/journey36.png)
 
@@ -64,10 +64,10 @@ A pessoa pode então entrar novamente na jornada se a reentrada for permitida. C
 
 Uma jornada pode ser fechada pelos seguintes motivos:
 
-* A jornada é fechada manualmente por meio do **[!UICONTROL Close to new entrances]** botão.
+* A jornada é fechada manualmente pelo botão **[!UICONTROL Close to new entrances]**.
 * A data final da jornada é atingida.
 
-Quando uma jornada for fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada terminarão a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada será alternada para a variável **Concluído** status. Consulte esta [seção](../building-journeys/changing-properties.md#entrance).
+Quando uma jornada é fechada (por qualquer um dos motivos acima), ela terá o status **[!UICONTROL Closed]**. A jornada deixará de permitir que novos indivíduos entrem na jornada. As pessoas que já estão na jornada terminarão a jornada normalmente. Após o tempo limite global padrão de 30 dias, a jornada mudará para o status **Concluído**. Consulte esta [seção](../building-journeys/changing-properties.md#entrance).
 
 Caso precise interromper o progresso de todos os indivíduos na jornada, você pode interrompê-lo. A interrupção da jornada expirará o tempo limite de todos os indivíduos na jornada.
 

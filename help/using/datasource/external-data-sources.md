@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1305'
 ht-degree: 93%
 
 ---
@@ -53,7 +53,7 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
 
    ![](../assets/journey27.png)
 
-1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** ou **[!UICONTROL API key]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [nesta seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Em nosso exemplo, escolhemos:
+1. Configure a autenticação dependendo da configuração do serviço externo: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** ou **[!UICONTROL API key]**. Para obter mais informações sobre o modo de autenticação personalizado, consulte [esta seção](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Em nosso exemplo, escolhemos:
 
 
    * **[!UICONTROL Type]**: &quot;Chave de API&quot;

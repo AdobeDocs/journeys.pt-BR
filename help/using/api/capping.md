@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '554'
 ht-degree: 29%
 
 ---
@@ -58,7 +58,7 @@ Esta é a estrutura básica de uma configuração de endpoint:
 
 >[!IMPORTANT]
 >
->A variável **maxHttpConnections** é opcional. Ela permite restringir o número de conexões que o Journey Optimizer abrirá com o sistema externo.
+>O parâmetro **maxHttpConnections** é opcional. Ela permite restringir o número de conexões que o Journey Optimizer abrirá com o sistema externo.
 >
 >O valor máximo que pode ser definido é 400. Se nada for especificado, o sistema poderá abrir até vários milhares de conexões, dependendo do dimensionamento dinâmico do sistema.
 
@@ -85,7 +85,7 @@ Esta é a estrutura básica de uma configuração de endpoint:
 
 ## Aviso e erros
 
-Quando um **canDeploy** for chamado, o processo validará a configuração e retornará o status de validação identificado por seu identificador exclusivo:
+Quando um método **canDeploy** é chamado, o processo valida a configuração e retorna o status de validação identificado por sua Identificação Exclusiva:
 
 ```
 "ok" or "error"
@@ -93,16 +93,16 @@ Quando um **canDeploy** for chamado, o processo validará a configuração e ret
 
 Os possíveis erros são:
 
-* **ERR_ENDPOINTCONFIG_100**: configuração de limite: url ausente ou inválido
-* **ERR_ENDPOINTCONFIG_101**: configuração de limite: url malformado
-* **ERR_ENDPOINTCONFIG_102**: configuração de limitação: url malformado: curinga no url não permitido em host:port
-* **ERR_ENDPOINTCONFIG_103**: configuração de limite: métodos HTTP ausentes
-* **ERR_ENDPOINTCONFIG_104**: configuração de limite: nenhuma classificação de chamada definida
-* **ERR_ENDPOINTCONFIG_107**: configuração de limitação: contagem máxima de chamadas inválida (maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: configuração de limite: contagem máxima de chamadas inválida (periodInMs)
-* **ERR_ENDPOINTCONFIG_111**: configuração de limite: não é possível criar a configuração do endpoint: carga inválida
-* **ERR_ENDPOINTCONFIG_112**: configuração de limitação: não é possível criar a configuração de endpoint: espera de uma carga JSON
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome de serviço inválido `<!--<given value>-->`: deve ser &quot;dataSource&quot; ou &quot;action&quot;
+* **ERR_ENDPOINTCONFIG_100**: configuração de limitação: url ausente ou inválida
+* **ERR_ENDPOINTCONFIG_101**: configuração de limitação: url malformada
+* **ERR_ENDPOINTCONFIG_102**: configuração de limitação: url malformada: caractere curinga em url não permitido em host:port
+* **ERR_ENDPOINTCONFIG_103**: configuração de limitação: métodos HTTP ausentes
+* **ERR_ENDPOINTCONFIG_104**: configuração de limitação: nenhuma classificação de chamada definida
+* **ERR_ENDPOINTCONFIG_107**: configuração de limitação: contagem máxima inválida de chamadas (maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**: configuração de limitação: contagem máxima de chamadas inválida (periodInMs)
+* **ERR_ENDPOINTCONFIG_111**: configuração de limitação: não é possível criar a configuração de ponto de extremidade: carga inválida
+* **ERR_ENDPOINTCONFIG_112**: configuração de limitação: não é possível criar a configuração de ponto de extremidade: esperando uma carga JSON
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome de serviço inválido `<!--<given value>-->`: deve ser &#39;dataSource&#39; ou &#39;action&#39;
 
 O aviso potencial é:
 
@@ -110,7 +110,7 @@ O aviso potencial é:
 
 ## Casos de uso
 
-Nesta seção, você encontrará os cinco principais casos de uso que podem ser executados para gerenciar a configuração de limite no [!DNL Journey Orchestration].
+Nesta seção, você encontrará os cinco principais casos de uso que podem ser executados para gerenciar sua configuração de limitação no [!DNL Journey Orchestration].
 
 Para ajudá-lo nos testes e configurações, uma coleção do Postman está disponível [aqui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
@@ -123,14 +123,14 @@ Após o download e o upload para o Postman, é necessário adicionar três vari�
 
 Na seção a seguir, você encontrará a lista ordenada de chamadas API REST para executar o caso de uso.
 
-Caso de utilização n.º 1: **Criação e implantação de uma nova configuração de limite**
+Caso de uso nº 1: **Criação e implantação de uma nova configuração de limite**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-Caso de uso n.º 2: **Atualizar e implantar uma configuração de limite ainda não implantada**
+Caso de uso nº 2: **Atualizar e implantar uma configuração de limitação ainda não implantada**
 
 1. list
 1. get
@@ -138,19 +138,19 @@ Caso de uso n.º 2: **Atualizar e implantar uma configuração de limite ainda n
 1. candeploy
 1. deploy
 
-Caso de utilização n.º 3: **Desimplantar e excluir uma configuração de limite implantada**
+Caso de uso nº 3: **Desimplantar e excluir uma configuração de limite implantada**
 
 1. list
 1. undeploy
 1. delete
 
-Caso de uso n.º 4: **Excluir uma configuração de limite implantada.**
+Caso de uso nº 4: **Excluir uma configuração de limite implantada.**
 
 Em apenas uma chamada de API, é possível desimplantar e excluir a configuração com o uso do parâmetro forceDelete.
 1. list
 1. delete, com o parâmetro forceDelete
 
-Caso de utilização n.º 5: **Atualizar uma configuração de limite já implantada**
+Caso de uso n°5: **Atualizar uma configuração de limitação já implantada**
 
 1. list
 1. get

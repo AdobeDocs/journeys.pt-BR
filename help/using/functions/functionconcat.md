@@ -30,7 +30,7 @@ String
 | Parâmetro | Tipo |
 |-----------|------------------|
 | Lista | listString |
-| string | string |
+| sequência de caracteres | sequência de caracteres |
 
 ## Assinatura e tipo retornado
 

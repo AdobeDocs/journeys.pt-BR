@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 2ae8854a-c3e7-469d-9f89-25b54bc3e894
 source-git-commit: bdc9ac3f54fae1dfd6f24a54a2687a0834f69c36
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 58%
+source-wordcount: '545'
+ht-degree: 51%
 
 ---
 
-# Criar um novo evento {#section_tbk_5qt_pgb}
+# Criação de um novo evento {#section_tbk_5qt_pgb}
 
 Estas são as etapas principais para configurar um novo evento:
 
@@ -21,7 +21,7 @@ Estas são as etapas principais para configurar um novo evento:
 
    ![](../assets/journey5.png)
 
-1. Clique em **[!UICONTROL Add]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela. Digite um nome para o evento. Você também pode adicionar uma descrição.
+1. Clique em **[!UICONTROL Add]** para criar um novo evento. O painel de configuração do evento é aberto no lado direito da tela. Insira um nome para o evento. Você também pode adicionar uma descrição.
 
    ![](../assets/journey6.png)
 
@@ -29,27 +29,27 @@ Estas são as etapas principais para configurar um novo evento:
    >
    >Não use espaços ou caracteres especiais. Não use mais de 30 caracteres.
 
-1. No **[!UICONTROL Event ID type]** selecione o tipo de evento que deseja usar.
+1. No campo **[!UICONTROL Event ID type]**, selecione o tipo de evento que deseja usar.
 
    ![](../assets/journey6bis.png)
 
-   * **Eventos baseados em regras**: esse tipo de evento não gera uma eventID. No **Condição de ID de evento** , basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas jornadas. Essa regra pode ser baseada em qualquer campo disponível na carga do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
+   * **Eventos baseados em regras**: esse tipo de evento não gera uma eventID. No campo **Condição de ID de evento**, basta definir uma regra que será usada pelo sistema para identificar os eventos relevantes que acionarão suas jornadas. Essa regra pode ser baseada em qualquer campo disponível na carga do evento, por exemplo, o local do perfil ou o número de itens adicionados ao carrinho do perfil.
 
-   * **Gerado pelo sistema** events: esse tipo requer uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento e adicionado à pré-visualização de carga. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga. Consulte [esta seção](../event/previewing-the-payload.md).
+   * **Eventos** gerados pelo sistema: este tipo requer uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento e adicionado à pré-visualização de carga. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga. Consulte [esta seção](../event/previewing-the-payload.md).
 
    >[!NOTE]
    >
-   >Leia mais sobre tipos de evento em [nesta seção](../event/about-events.md).
+   >Leia mais sobre tipos de eventos em [esta seção](../event/about-events.md).
 1. O número de jornadas que usam esse evento é exibido no campo **[!UICONTROL Used in]**. Você pode clicar no ícone **[!UICONTROL View journeys]** para exibir a lista de jornadas usando esse evento.
 1. Defina os campos schema e payload: é aqui que você seleciona as informações do evento (normalmente chamadas de payload) que o [!DNL Journey Orchestration] espera receber. Você poderá então usar essas informações em sua jornada. Consulte [esta página](../event/defining-the-payload-fields.md).
    >[!NOTE]
    >
-   >Ao selecionar a variável **[!UICONTROL System Generated]** tipo, somente os esquemas que têm o mixin do tipo eventID estão disponíveis. Ao selecionar a variável **[!UICONTROL Rule Based]** , todos os esquemas de Evento de experiência estarão disponíveis.
+   >Ao selecionar o tipo **[!UICONTROL System Generated]**, somente os esquemas com o mixin do tipo eventID estarão disponíveis. Quando você seleciona o tipo **[!UICONTROL Rule Based]**, todos os esquemas de Evento de experiência ficam disponíveis.
 
-1. Para eventos baseados em regras, clique dentro da variável **[!UICONTROL Event ID condition]** campo. Usando o editor de expressões simples, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
+1. Para eventos baseados em regras, clique dentro do campo **[!UICONTROL Event ID condition]**. Usando o editor de expressões simples, defina a condição que será usada pelo sistema para identificar os eventos que acionarão sua jornada.
    ![](../assets/alpha-event6.png)
 
-   Em nosso exemplo, escrevemos uma condição com base na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (**[!UICONTROL City]** campo e **[!UICONTROL Paris]** value), ele vai passá-lo para o Journey Orchestration.
+   Em nosso exemplo, escrevemos uma condição com base na cidade do perfil. Isso significa que sempre que o sistema receber um evento que corresponda a essa condição (campo **[!UICONTROL City]** e valor **[!UICONTROL Paris]**), ele o transmitirá para Journey Orchestration.
 
    >[!NOTE]
    >

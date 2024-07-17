@@ -8,7 +8,7 @@ level: Beginner
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
 source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1010'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](
 
 ## Julho de 2022 {#july-2022}
 
-* Nas propriedades da jornada, a opção **Fuso horário do perfil** agora está desativada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
+* Nas propriedades da jornada, a opção **Fuso horário do perfil** agora está desabilitada por padrão. [Leia mais](../building-journeys/timezone-management.md#timezone-from-profiles)
 * Na atividade **Aguardar**, a opção **Data fixa** não está mais disponível. [Leia mais](../building-journeys/wait-activity.md)
 
 ## Junho de 2022 {#june-2022}

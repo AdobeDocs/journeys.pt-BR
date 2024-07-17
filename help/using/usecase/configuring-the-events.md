@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Configuração de eventos {#concept_sbp_5cy_w2b}
 
-Em nosso cenário, precisamos receber um evento cada vez que uma pessoa entra no hotel Marlton e no restaurante. A variável **usuário técnico** O precisa configurar os dois eventos que queremos que o sistema acompanhe em nossa jornada.
+Em nosso cenário, precisamos receber um evento cada vez que uma pessoa entra no hotel Marlton e no restaurante. O **usuário técnico** precisa configurar os dois eventos que queremos que o sistema escute em nossa jornada.
 
 Para obter informações adicionais sobre a configuração do evento, consulte [esta página](../event/about-events.md).
 
@@ -31,7 +31,7 @@ Para obter informações adicionais sobre a configuração do evento, consulte [
 
    Também precisamos do token de registro para enviar mensagens por push: &quot;_experience > campaign > message > profile > pushNotificationTokens > token&quot;
 
-   Uma ID é gerada automaticamente para esse evento. Essa ID é armazenada na variável **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. No nosso caso de uso, essa ID é usada para identificar a localização do beacon. Cada vez que uma pessoa se aproxima do sinal de entrada, um evento será enviado contendo essa ID de evento específica. O mesmo princípio se aplica aos eventos de sinal do restaurante. Isso permite que o sistema saiba qual beacon acionou o envio do evento.
+   Uma ID é gerada automaticamente para esse evento. Essa ID é armazenada no campo **[!UICONTROL eventID]** (&quot;_experience > campaign > orchestration > eventID&quot;). O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. No nosso caso de uso, essa ID é usada para identificar a localização do beacon. Cada vez que uma pessoa se aproxima do sinal de entrada, um evento será enviado contendo essa ID de evento específica. O mesmo princípio se aplica aos eventos de sinal do restaurante. Isso permite que o sistema saiba qual beacon acionou o envio do evento.
 
    ![](../assets/journeyuc2_2.png)
 
@@ -49,7 +49,7 @@ Para obter informações adicionais sobre a configuração do evento, consulte [
 
 1. Clique em **[!UICONTROL Save]**.
 
-1. Clique em **[!UICONTROL View Payload]** ícone para visualizar o conteúdo esperado pelo sistema e compartilhá-lo com a pessoa responsável pelo envio do evento.  Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
+1. Clique no ícone **[!UICONTROL View Payload]** para visualizar o conteúdo esperado pelo sistema e compartilhá-lo com a pessoa responsável pelo envio do evento.  Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
 
    ![](../assets/journeyuc2_5.png)
 

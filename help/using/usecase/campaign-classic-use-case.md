@@ -20,7 +20,7 @@ Primeiro, criaremos um template de email transacional no Campaign. Em seguida, n
 Para saber mais sobre a integração do Campaign, consulte estas páginas:
 
 * [Criar uma ação de campanha](../action/acc-action.md)
-* [Uso da ação em uma jornada](../building-journeys/using-adobe-campaign-classic.md).
+* [Usando a ação em uma jornada](../building-journeys/using-adobe-campaign-classic.md).
 
 **Adobe Campaign**
 
@@ -28,13 +28,13 @@ A instância do Campaign precisa ser provisionada para essa integração. O recu
 
 1. Faça logon na instância de controle do Campaign.
 
-1. Em **Administração** > **Platform** > **Enumerações**, selecione o **Tipo de evento** Enumeração (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, em nosso exemplo). Posteriormente, você terá que usar o nome interno do tipo de evento ao gravar o arquivo JSON.
+1. Em **Administração** > **Plataforma** > **Enumerações**, selecione a enumeração **Tipo de evento** (eventType). Crie um novo tipo de evento (&quot;jornada-evento&quot;, em nosso exemplo). Posteriormente, você terá que usar o nome interno do tipo de evento ao gravar o arquivo JSON.
 
    ![](../assets/accintegration-uc-1.png)
 
 1. Desconecte e reconecte à instância para que a criação seja efetiva.
 
-1. Em **Centro de mensagens** > **Modelos de mensagem transacional**, crie um novo template de email com base no tipo de evento criado anteriormente.
+1. Em **Centro de Mensagens** > **Modelos de mensagens transacionais**, crie um novo modelo de email com base no tipo de evento criado anteriormente.
 
    ![](../assets/accintegration-uc-2.png)
 
@@ -42,7 +42,7 @@ A instância do Campaign precisa ser provisionada para essa integração. O recu
 
    ![](../assets/accintegration-uc-3.png)
 
-1. Publique seu template transacional.
+1. Publish seu template transacional.
 
    ![](../assets/accintegration-uc-4.png)
 
@@ -70,11 +70,11 @@ A instância do Campaign precisa ser provisionada para essa integração. O recu
 
    ![](../assets/accintegration-uc-5.png)
 
-1. Em seguida, é necessário criar, no Journey Orchestration, uma ação correspondente ao seu template de Campanha. No **Tipo de ação** selecione **Adobe Campaign Classic**.
+1. Em seguida, é necessário criar, no Journey Orchestration, uma ação correspondente ao seu template de Campanha. No menu suspenso **Tipo de ação**, selecione **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 
-1. Clique em **Campo de carga útil** e cole o JSON criado anteriormente.
+1. Clique no **campo de carga** e cole o JSON criado anteriormente.
 
    ![](../assets/accintegration-uc-7.png)
 
@@ -90,7 +90,7 @@ A instância do Campaign precisa ser provisionada para essa integração. O recu
 
    ![](../assets/accintegration-uc-10.png)
 
-1. Adicionar um **Fim** atividade e teste sua jornada.
+1. Adicione uma atividade **End** e teste sua jornada.
 
    ![](../assets/accintegration-uc-11.png)
 

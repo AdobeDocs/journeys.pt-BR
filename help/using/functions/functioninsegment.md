@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 7f756ec5-d787-4024-aaf8-5b4f1d4ddece
 source-git-commit: e56e6f5dcb8a4680851858355ac18a70bd832b73
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '185'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ Verifica se um indivíduo pertence a um determinado segmento.
 
 O nome do segmento deve ser uma constante de sequência. Não pode ser uma referência de campo nem uma expressão.
 
-Os segmentos são definidos na variável [Adobe Experience Platform](https://platform.adobe.com/segment/overview). O editor de expressão fornece uma lista de segmentos preenchida automaticamente.
+Segmentos são definidos na [Adobe Experience Platform](https://platform.adobe.com/segment/overview). O editor de expressão fornece uma lista de segmentos preenchida automaticamente.
 
 Os segmentos podem ter três status:
 
@@ -31,11 +31,11 @@ Os segmentos podem ter três status:
 * realizado: a entidade está informando o segmento.
 * encerrado: a entidade está saindo do segmento.
 
-Somente os indivíduos com o **Realizado** e **Existente** os status de participação do segmento serão considerados membros do segmento. Para obter mais informações sobre como avaliar um segmento, consulte [Documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Apenas indivíduos com os status de participação de segmento **Realizado** e **Existente** serão considerados membros do segmento. Para obter mais informações sobre como avaliar um segmento, consulte a [documentação do Serviço de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa que você tem um segmentMembership com o status inserido/existente.
 
-`ELSE inSegment('segmentName') == false` significa que você tem um segmentMembership com o status encerrado.
+`ELSE inSegment('segmentName') == false` significa que você tem um segmentMembership com status encerrado.
 
 ## Categoria
 
@@ -63,4 +63,4 @@ Retorna um valor booleano.
 
 Explicação:
 
-A função retornará **[!UICONTROL true]** se o indivíduo na instância do jornada fizer parte do segmento do Adobe Experience Platform chamado &quot;homens acima de 50&quot;, **[!UICONTROL false]** caso contrário.
+A função retornará **[!UICONTROL true]** se o indivíduo na instância do jornada fizer parte do segmento do Adobe Experience Platform chamado &quot;homens acima de 50&quot;, caso contrário **[!UICONTROL false]**.

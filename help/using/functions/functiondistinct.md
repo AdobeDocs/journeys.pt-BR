@@ -9,7 +9,7 @@ exl-id: 034e4d77-2f0e-4117-9fd4-b9e35ef71a39
 source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ Lista
 | Parâmetro | Tipo | Descrição |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly ou listObject | Lista a processar. Para listObject, ele deve ser uma referência de campo. |
-| keyAttributeName | string | Este parâmetro é opcional e somente para listObject. Se o parâmetro não for fornecido, um objeto será considerado duplicado se todos os atributos tiverem os mesmos valores. Caso contrário, um objeto será considerado duplicado se o atributo em questão tiver o mesmo valor. |
+| keyAttributeName | sequência de caracteres | Este parâmetro é opcional e somente para listObject. Se o parâmetro não for fornecido, um objeto será considerado duplicado se todos os atributos tiverem os mesmos valores. Caso contrário, um objeto será considerado duplicado se o atributo em questão tiver o mesmo valor. |
 
 ## Assinaturas e tipos retornados
 
@@ -77,4 +77,4 @@ Retorna uma lista de objetos.
 
 `distinct([10,2,10,null])`
 
-Devoluções `[10, 2]`.
+Retorna `[10, 2]`.

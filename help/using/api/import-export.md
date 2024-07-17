@@ -5,8 +5,8 @@ description: Saiba mais sobre a API de importação e exportação.
 products: journeys
 source-git-commit: 8f409fe6e37a3b80527d9a5514b066e539dcd9f3
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 22%
+source-wordcount: '1027'
+ht-degree: 17%
 
 ---
 
@@ -19,9 +19,9 @@ Esse recurso permite gerenciar as jornadas em várias instâncias ou para vário
 
 ## Recursos
 
-A API de Exportação-Importação do Journey Orchestration é descrita em um arquivo Swagger disponível [aqui](https://adobedocs.github.io/JourneyAPI/docs/).
+A API de Exportação-Importação de Journey Orchestration está descrita em um arquivo Swagger disponível [aqui](https://adobedocs.github.io/JourneyAPI/docs/).
 
-Para usar essa API com sua instância do Journey Orchestration, é necessário usar o console do Adobe I/O. Você pode começar seguindo este [Introdução ao Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e, em seguida, use as seções nesta página.
+Para usar essa API com sua instância do Journey Orchestration, é necessário usar o console do Adobe I/O. Você pode começar seguindo esta [Introdução ao Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) e depois usar as seções desta página.
 
 Para testar e preparar sua integração, uma coleção do Postman está disponível [aqui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Export-import-API_postman-collection.json).
 
@@ -32,13 +32,13 @@ Recomendamos seguir estas etapas para exportar e importar suas jornadas entre am
 
 1. Crie e atribua parâmetros a uma jornada no ambiente inicial. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
 1. Verifique se a versão do jornada não tem erros. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
-1. Chame **/list/jornada** API para recuperar a jornada UID e a UID da versão mais recente do jornada. Se necessário, você pode chamar **/jornada/`{uid}`/latest** para encontrar a UID da versão mais recente do jornada.
-1. Chame o **exportar** API com seus parâmetros de ambiente inicial (orgID e sandboxName).
+1. Chame a API **/list/jornada** para recuperar a jornada de UID e a UID da sua versão mais recente do jornada. Se necessário, você pode ligar para **/jornada/`{uid}`/latest** para encontrar a UID da sua versão mais recente do jornada.
+1. Chame a API **export** com seus parâmetros de ambiente inicial (orgID e sandboxName).
 1. Abra a carga de retorno e verifique os seguintes itens:
-   * Se a jornada exportada contiver **credenciais específicas**, é necessário substituir essas credenciais pelas correspondentes ao novo ambiente.
-   * Se a jornada exportada contiver **events** esse ponto a um **Esquema XDM**, é necessário atualizar manualmente a referência da ID do esquema com a ID do esquema do novo ambiente no nó xdmEntity se os valores das IDs forem diferentes. Essa atualização precisa ser feita para cada evento. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * Se sua jornada exportada contiver **credenciais específicas**, será necessário substituir essas credenciais pelas credenciais correspondentes ao novo ambiente.
+   * Se sua jornada exportada contiver **eventos** que apontem para um **esquema XDM**, você precisará atualizar manualmente a referência da ID do esquema com a ID do novo ambiente no nó xdmEntity se os valores das IDs forem diferentes. Essa atualização precisa ser feita para cada evento. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
    * Se sua jornada contiver email, SMS ou ações de push, talvez seja necessário atualizar o nome do modelo ou o nome do mobileApp se o nome no ambiente de destino for diferente do seu ambiente de início.
-1. Chame o **Importar** API com seus parâmetros de ambiente de destino (orgID e sandboxName). Observe que você pode chamar a API de importação quantas vezes desejar. A UUID e o nome de cada objeto contido na jornada são gerados sempre que você chama a API de importação.
+1. Chame a API **Import** com seus parâmetros de ambiente de destino (orgID e sandboxName). Observe que você pode chamar a API de importação quantas vezes desejar. A UUID e o nome de cada objeto contido na jornada são gerados sempre que você chama a API de importação.
 1. Depois que a Jornada for importada, você poderá publicá-la no aplicativo Journey Orchestration. Mais informações [aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
 
 
@@ -57,11 +57,11 @@ O acesso à API Journey Orchestration é configurado de acordo com as etapas aba
 
 >[!CAUTION]
 >
->O método JWT para gerar tokens de acesso foi descontinuado. Todas as novas integrações devem ser criadas usando o [Método de autenticação de servidor para servidor OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). A Adobe também recomenda migrar as integrações já existentes para o método OAuth.
+>O método JWT para gerar tokens de acesso foi descontinuado. Todas as novas integrações devem ser criadas usando o [método de autenticação Servidor para Servidor do OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). A Adobe também recomenda migrar suas integrações existentes para o método OAuth.
 >
 >Leia as seguintes documentações importantes:
 >[Guia de migração para seus aplicativos do JWT para o OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
->[Guia de implementação para aplicativos novos e antigos com o OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[Guia de implementação para aplicativos novos e antigos com OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
 >[Vantagens de usar o método de credenciais OAuth de servidor para servidor](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 
@@ -74,13 +74,13 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
  -H 'x-gw-ims-org-id: <ORGANIZATION>'
 ```
 
-* **&lt;ORGANIZATION>**: esta é a ID de ORGANIZAÇÃO pessoal. Uma ID de ORGANIZAÇÃO é fornecida pela Adobe para cada uma das instâncias :
+* **&lt;ORGANIZAÇÃO>**: esta é a sua ID de ORGANIZAÇÃO pessoal, uma ID de ORGANIZAÇÃO é fornecida pelo Adobe para cada uma das suas instâncias:
 
-   * &lt;organization> : sua instância de produção
+   * &lt;ORGANIZATION> : sua instância de produção
 
   Para obter o valor da ID de ORGANIZAÇÃO, consulte seu administrador ou contato técnico da Adobe. Você também pode recuperá-la no Adobe I/O ao criar uma nova integração, na lista de licenças (consulte a [documentação do Adobe I/O](https://www.adobe.io/authentication.html)).
 
-* **&lt;access_token>**: Seu token de acesso pessoal
+* **&lt;ACCESS_TOKEN>**: Seu token de acesso pessoal
 
 * **&lt;API_KEY>**: sua chave de API pessoal. Ela é fornecida no Adobe I/O após criar uma nova integração com o serviço do [!DNL Journey Orchestration].
 
@@ -107,7 +107,7 @@ A carga resultante pode ser usada para importar a versão do jornada em outro am
 Após a chamada de exportação, você deve inserir manualmente as novas credenciais (correspondentes ao ambiente de destino) antes de importar a carga no ambiente de destino.
 
 * Os seguintes objetos são exportados, mas nunca serão importados no ambiente de destino. Esses são recursos do sistema gerenciados automaticamente pelo Journey Orchestration. Não é necessário substituir &quot;INSERT_SECRET_HERE&quot;.
-   * **Provedores de dados**: &quot;Adobe Campaign Standard Data Provider&quot; (acsDataProvider) e &quot;Experience Platform&quot; (acppsDataProvider)
+   * **DataProviders**: &quot;Adobe Campaign Standard Data Provider&quot; (acsDataProvider) e &quot;Experience Platform&quot; (acppsDataProvider)
    * **Grupos de campos** (dataEntities): &quot;ProfileFieldGroup&quot; (acppsDataPack)
 
 
@@ -122,8 +122,8 @@ Após a chamada de exportação, você deve inserir manualmente as novas credenc
 
 Os possíveis erros são:
 
-* Em **tempo de exportação**, se a versão do jornada não for válida : erro 500
+* No **horário de exportação**, se a versão do jornada não for válida: erro 500
 
-* Em **hora de importação**, se a carga não for válida após as modificações ou se as credenciais não estiverem bem definidas na carga : erro 400
+* No **horário de importação**, se a carga não for válida após as modificações ou se as credenciais não estiverem bem definidas na carga: erro 400
 
 * Após a etapa de importação, se a ID do esquema XDM para seus eventos não for válida no ambiente de destino, um erro aparecerá no aplicativo Journey Orchestration. Nesse caso, não será possível publicar a jornada.

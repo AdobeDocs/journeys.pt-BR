@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Configuração do evento{#concept_y44_hcy_w2b}
 
-Em nosso cenário, precisamos receber um evento sempre que uma pessoa caminhar perto de um beacon posicionado ao lado do spa. A variável **usuário técnico** precisa configurar o evento que o sistema escutará em nossa jornada.
+Em nosso cenário, precisamos receber um evento sempre que uma pessoa caminhar perto de um beacon posicionado ao lado do spa. O **usuário técnico** precisa configurar o evento que o sistema ouvirá em nossa jornada.
 
 Para obter informações adicionais sobre a configuração do evento, consulte [esta página](../event/about-events.md).
 
@@ -27,7 +27,7 @@ Para obter informações adicionais sobre a configuração do evento, consulte [
 
    ![](../assets/journeyuc1_2.png)
 
-1. Em seguida, selecionamos o schema e definimos a carga útil esperada para esse evento. Selecionamos os campos necessários do modelo normalizado XDM. Precisamos da ID do Experience Cloud para identificar a pessoa no banco de dados de Perfil do cliente em tempo real: _endUserIDs > experiência > mcid > id_. Uma ID é gerada automaticamente para esse evento. Essa ID é armazenada na variável **[!UICONTROL eventID]** campo (_experiência > campanha > orquestração > eventID_). O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. No nosso caso de uso, essa ID é usada para identificar a localização do beacon. Cada vez que uma pessoa se aproxima do sinal de spa, um evento será enviado contendo essa ID de evento específica. Isso permite que o sistema saiba qual beacon acionou o envio do evento.
+1. Em seguida, selecionamos o schema e definimos a carga útil esperada para esse evento. Selecionamos os campos necessários do modelo normalizado XDM. Precisamos da ID de Experience Cloud para identificar a pessoa no banco de dados de Perfil do cliente em tempo real: _endUserIDs > experiência > mcid > id_. Uma ID é gerada automaticamente para esse evento. Esta ID está armazenada no campo **[!UICONTROL eventID]** (_experiência > campanha > orquestração > eventID_). O sistema que envia o evento não deve gerar uma ID, mas usar a disponível na pré-visualização de carga. No nosso caso de uso, essa ID é usada para identificar a localização do beacon. Cada vez que uma pessoa se aproxima do sinal de spa, um evento será enviado contendo essa ID de evento específica. Isso permite que o sistema saiba qual beacon acionou o envio do evento.
 
    ![](../assets/journeyuc1_3.png)
 
@@ -45,7 +45,7 @@ Para obter informações adicionais sobre a configuração do evento, consulte [
 
 1. Clique em **[!UICONTROL Save]**.
 
-1. Clique em **[!UICONTROL View Payload]** ícone para visualizar o conteúdo esperado pelo sistema e compartilhá-lo com a pessoa responsável pelo envio do evento. Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
+1. Clique no ícone **[!UICONTROL View Payload]** para visualizar o conteúdo esperado pelo sistema e compartilhá-lo com a pessoa responsável pelo envio do evento. Essa carga precisará ser configurada no postback do console de administração do Mobile Services.
 
    ![](../assets/journeyuc1_7.png)
 

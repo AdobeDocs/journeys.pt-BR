@@ -7,7 +7,7 @@ index: true
 feature: Journeys
 source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -70,13 +70,13 @@ ht-degree: 100%
       + Atividades de eventos {#events-activities}
          + [Sobre atividades de eventos](using/building-journeys/event-activities.md)
          + [Eventos gerais](using/building-journeys/general-events.md)
-         + [Reação eventos](using/building-journeys/reaction-events.md)
+         + [Eventos de reação](using/building-journeys/reaction-events.md)
          + [Eventos de qualificação de segmento](using/building-journeys/segment-qualification-events.md)
       + Atividades de orquestração {#orchestration-activities}
          + [Sobre atividades de orquestração](using/building-journeys/about-orchestration-activities.md)
          + [Atividade de condição](using/building-journeys/condition-activity.md)
-         + [Atividade “Fim”](using/building-journeys/end-activity.md)
-         + [Atividade de espera](using/building-journeys/wait-activity.md)
+         + [Terminar atividade](using/building-journeys/end-activity.md)
+         + [Atividade Aguardar](using/building-journeys/wait-activity.md)
       + Atividades de ação {#action-activities}
          + [Sobre atividades de ação](using/building-journeys/about-action-activities.md)
          + [Uso do Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
@@ -114,7 +114,7 @@ ht-degree: 100%
          + [inSegment](using/functions/functioninsegment.md)
       + Agregação {#aggregation}
          + [avg](using/functions/functionavg.md)
-         + [count](using/functions/functioncount.md)
+         + [contagem](using/functions/functioncount.md)
          + [countOnlyNull](using/functions/functioncountonlynull.md)
          + [countWithNull](using/functions/functioncountwithnull.md)
          + [distinctCount](using/functions/functiondistinctcount.md)
@@ -132,7 +132,7 @@ ht-degree: 100%
          + [toInteger](using/functions/functiontointeger.md)
          + [toString](using/functions/functiontostring.md)
       + Data {#date}
-         + [currentTime&#x200B;InMillis](using/functions/functioncurrenttimeinmillis.md)
+         + [currentTimeInMillis](using/functions/functioncurrenttimeinmillis.md)
          + [inLastDays](using/functions/functioninlastdays.md)
          + [inLastHours](using/functions/functioninlasthours.md)
          + [inLastMonths](using/functions/functioninlastmonths.md)

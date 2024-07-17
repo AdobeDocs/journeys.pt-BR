@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
 source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 5%
+source-wordcount: '411'
+ht-degree: 3%
 
 ---
 
 # Sobre o caso de uso avançado{#concept_vzy_ncy_w2b}
 
-## Propósito {#purpose}
+## Finalidade {#purpose}
 
 Vejamos o exemplo de uma marca de hotel chamada Marlton. Em seus hotéis, eles posicionaram dispositivos de sinal perto de todas as áreas estratégicas: lobby, pisos, restaurante, ginásio, piscina, etc.
 
@@ -36,12 +36,12 @@ Em seguida, verificamos duas condições:
 
 ![](../assets/journeyuc2_29.png)
 
-Para esse caso de uso, precisaremos criar dois eventos (consulte [esta página](../usecase/configuring-the-events.md)):
+Neste caso de uso, precisaremos criar dois eventos (consulte [esta página](../usecase/configuring-the-events.md)):
 
 * O evento de sinal de lobby que será encaminhado para o sistema quando um cliente entrar no hotel.
 * O evento de beacon do restaurante que será transmitido quando um cliente entrar no restaurante.
 
-Será necessário configurar uma conexão com duas fontes de dados (consulte [esta página](../usecase/configuring-the-data-sources.md)):
+Precisaremos configurar uma conexão com duas fontes de dados (consulte [esta página](../usecase/configuring-the-data-sources.md)):
 
 * A fonte de dados integrada do Adobe Experience Platform, para recuperar as informações de nossas duas condições (associação de fidelidade e data do último contato), bem como as informações de personalização da mensagem.
 * O sistema de reservas de hotel, para recuperar as informações de status da reserva.

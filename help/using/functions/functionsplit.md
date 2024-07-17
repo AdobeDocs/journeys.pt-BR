@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 44499a09-19e2-4085-bf2f-7d9080ec382d
 source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 19%
+source-wordcount: '65'
+ht-degree: 15%
 
 ---
 
@@ -29,8 +29,8 @@ String
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| string de entrada | string |
-| sequência de caracteres separadora | string |
+| string de entrada | sequência de caracteres |
+| sequência de caracteres separadora | sequência de caracteres |
 
 ## Assinaturas e tipo retornado
 
@@ -42,10 +42,10 @@ Retorna uma listString.
 
 `split(["A_B_C"], "_")`
 
-Devoluções `["A","B","C"]`
+Retorna `["A","B","C"]`
 
 Exemplo com um campo de evento &quot;event.appVersion&quot; com valor: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 
-Devoluções `["20", "45", "2", "3434"]`
+Retorna `["20", "45", "2", "3434"]`

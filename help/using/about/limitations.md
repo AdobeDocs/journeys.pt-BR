@@ -8,8 +8,8 @@ level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 63%
+source-wordcount: '564'
+ht-degree: 45%
 
 ---
 
@@ -25,30 +25,30 @@ Estas são as limitações relacionadas ao uso do Journey Orchestration.
 ## Limitações gerais de ações
 
 * Três tentativas são executadas sistematicamente em caso de erro. Não é possível ajustar o número de tentativas de acordo com a mensagem de erro recebida. 
-* O incorporado **Reação** permite que você reaja a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
+* O evento **Reação** interno permite que você reaja a ações predefinidas (consulte esta [página](../building-journeys/reaction-events.md)). Se quiser reagir a uma mensagem enviada por meio de uma ação personalizada, será necessário configurar um evento dedicado. 
 
 ## Limitações de versões do Jornada {#journey-versions-limitations}
 
 * Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação do segmento**.
 * Uma jornada que começa com uma atividade de **Qualificação de segmento** em v1 deve sempre começar com uma **Qualificação de segmento** em outras versões.
-* O segmento e o namespace escolhidos em **Qualificação do segmento** (primeiro nó) não pode ser alterado em novas versões.
+* O segmento e o namespace escolhidos em **Qualificação de segmento** (primeiro nó) não podem ser alterados em novas versões.
 * A regra de reentrada precisa ser a mesma em todas as versões da jornada.
 
 ## Qualificação do segmento {#segment-qualification}
 
-* A variável **Qualificação do segmento** A atividade não pode ser usada juntamente com as mensagens transacionais do Adobe Campaign Standard devido a restrições de taxa de transferência. Consulte [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* A atividade de **Qualificação de segmento** não pode ser usada em conjunto com o Adobe Campaign Standard Transactional Messaging devido a restrições de taxa de transferência. Consulte a [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html). 
  
 ## Limitações de ações personalizadas
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
-* Somente os métodos de chamada POST e PUT são compatíveis. 
-* O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou “$”. 
+* Somente os métodos de chamada POST e PUT são suportados. 
+* O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
 * Endereços da Adobe internos (.adobe.) não são permitidos.
  
 ## Limitações de ações do Adobe Campaign
 
-* As mensagens transacionais do Adobe Campaign Standard têm uma escala de no máximo 50.000 mensagens por hora entre canais para uma determinada instância. Consulte [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html). 
+* As mensagens transacionais do Adobe Campaign Standard têm uma escala de no máximo 50.000 mensagens por hora entre canais para uma determinada instância. Consulte a [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html). 
  
 ## Limitações de eventos
 

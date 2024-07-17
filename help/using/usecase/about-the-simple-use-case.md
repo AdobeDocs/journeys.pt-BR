@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 11858c7a-fdb3-43a4-af28-0d5c23fa2468
 source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 13%
+source-wordcount: '166'
+ht-degree: 9%
 
 ---
 
 # Sobre o caso de uso simples{#concept_grh_vby_w2b}
 
-## Propósito {#purpose}
+## Finalidade {#purpose}
 
 Vejamos o exemplo de uma marca de hotel chamada Marlton. Em seus hotéis, eles posicionaram dispositivos de sinal perto de todas as áreas estratégicas: lobby, pisos, restaurante, ginásio, piscina, etc.
 

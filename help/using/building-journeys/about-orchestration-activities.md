@@ -18,7 +18,7 @@ ht-degree: 37%
 Na paleta, no lado esquerdo da tela, as seguintes atividades de orquestração estão disponíveis:
 
 * [Atividade de condição](../building-journeys/condition-activity.md)
-* [Atividade “Fim”](../building-journeys/end-activity.md)
-* [Atividade de espera](../building-journeys/wait-activity.md)
+* [Terminar atividade](../building-journeys/end-activity.md)
+* [Atividade Aguardar](../building-journeys/wait-activity.md)
 
 ![](../assets/journey49.png)

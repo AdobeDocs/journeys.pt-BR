@@ -27,25 +27,25 @@ A barra de ferramentas superior permite, por exemplo, modificar, salvar ou impri
 
 ![](../assets/dynamic_report_toolbar.png)
 
-Use o **[!UICONTROL Project]** Guia para:
+Use a guia **[!UICONTROL Project]** para:
 
 * **[!UICONTROL Open]**: abre um relatório ou modelo criado anteriormente.
-* **[!UICONTROL Save As]**: duplica templates para poder modificá-los.
-* **[!UICONTROL Refresh project]**: atualiza seu relatório com base em novos dados e alterações nos filtros.
+* **[!UICONTROL Save As]**: duplica modelos para poder modificá-los.
+* **[!UICONTROL Refresh project]**: atualiza seu relatório com base em novos dados e alterações em filtros.
 * **[!UICONTROL Download CSV]**: exporta seus relatórios para um arquivo CSV.
-* **[!UICONTROL Print]**: imprime o relatório.
+* **[!UICONTROL Print]**: imprime seu relatório.
 
-A variável **[!UICONTROL Edit]** permite:
+A guia **[!UICONTROL Edit]** permite:
 
-* **[!UICONTROL Undo]**: cancela a última ação no painel.
-* **[!UICONTROL Redo]**: cancela o último **[!UICONTROL Undo]** no painel.
-* **[!UICONTROL Clear all]**: exclui cada painel no painel.
+* **[!UICONTROL Undo]**: cancela sua última ação no painel.
+* **[!UICONTROL Redo]**: cancela sua última ação de **[!UICONTROL Undo]** no painel.
+* **[!UICONTROL Clear all]**: exclui cada painel em seu painel.
 
-A variável **[!UICONTROL Insert]** A tabela permite personalizar seus relatórios adicionando gráficos e tabelas ao painel:
+A tabela **[!UICONTROL Insert]** permite personalizar seus relatórios adicionando gráficos e tabelas ao painel:
 
 * **[!UICONTROL New Blank Panel]**: adiciona um novo painel em branco ao painel.
 * **[!UICONTROL New Freeform]**: adiciona uma nova tabela de forma livre ao painel.
-* **[!UICONTROL New Line]**: adiciona um novo gráfico de linhas ao painel.
+* **[!UICONTROL New Line]**: adiciona um novo gráfico de linhas ao seu painel.
 * **[!UICONTROL New Bar]**: adiciona um novo gráfico de barras ao painel.
 
 As guias à esquerda permitem criar o relatório e filtrar os dados conforme necessário.
@@ -54,14 +54,14 @@ As guias à esquerda permitem criar o relatório e filtrar os dados conforme nec
 
 Essas guias fornecem acesso aos seguintes itens:
 
-* **[!UICONTROL Panels]**: adicione um painel ou formato livre em branco ao relatório para começar a filtrar seus dados. Para obter mais informações, consulte [Adição de painéis](../reporting/creating-your-journey-reports.md#adding-panels) seção
-* **[!UICONTROL Visualizations]**: arraste e solte uma seleção de itens de visualização para dar uma dimensão gráfica ao seu relatório. Para obter mais informações, consulte [Adicionar visualizações](../reporting/creating-your-journey-reports.md#adding-visualizations) seção.
-* **[!UICONTROL Components]**: personalize seus relatórios com diferentes dimensões, métricas, segmentos e períodos. Para obter mais informações, consulte [Adição de componentes](../reporting/creating-your-journey-reports.md#adding-components) seção.
+* **[!UICONTROL Panels]**: adicione um painel ou formato livre em branco ao relatório para começar a filtrar seus dados. Para obter mais informações, consulte a seção [Adicionando painéis](../reporting/creating-your-journey-reports.md#adding-panels)
+* **[!UICONTROL Visualizations]**: arraste e solte uma seleção de itens de visualização para dar ao seu relatório uma dimensão gráfica. Para obter mais informações, consulte a seção [Adição de visualizações](../reporting/creating-your-journey-reports.md#adding-visualizations).
+* **[!UICONTROL Components]**: personalize seus relatórios com diferentes dimensões, métricas, segmentos e períodos. Para obter mais informações, consulte a seção [Adicionando componentes](../reporting/creating-your-journey-reports.md#adding-components).
 
 ## Jornada modelo de resumo {#ootb-template}
 
 Os relatórios são divididos em duas categorias: um modelo pronto para uso e relatórios personalizados.
-O template pronto para uso, **[!UICONTROL Journey summary]**, fornece uma visualização clara dos dados de rastreamento mais importantes.
+O modelo pronto para uso, **[!UICONTROL Journey summary]**, fornece uma visão clara dos dados de rastreamento mais importantes.
 
 ![](../assets/dynamic_report_journey_8.png)
 
@@ -69,46 +69,46 @@ Cada tabela é representada por números de resumo e gráficos. É possível alt
 
 Os seguintes KPIs estão disponíveis na parte superior do relatório:
 
-* **[!UICONTROL Journey - Entered]**: número total de indivíduos que atingiram o evento de entrada da jornada.
+* **[!UICONTROL Journey - Entered]**: número total de pessoas físicas que atingiram o evento de entrada da jornada.
 * **[!UICONTROL Journey - Completion rate]**: número total de indivíduos que atingiram o fim da jornada (ou, no caso de um indivíduo que não corresponde a nenhuma condição) em comparação ao número total de indivíduos que entraram na jornada.
-* **[!UICONTROL Journey - Current]**: número total de indivíduos que estão atualmente na jornada.
+* **[!UICONTROL Journey - Current]**: número total de indivíduos atualmente na jornada.
 * **[!UICONTROL Journey - Failed rate]**: número total de jornadas que não foram executadas com êxito em comparação ao número de jornadas executadas.
 * **[!UICONTROL Delivery - Messages sent]**: número total de mensagens enviadas.
 * **[!UICONTROL Delivery rate]**: número total de mensagens entregues com êxito em comparação às mensagens enviadas.
 * **[!UICONTROL Delivery - Bounce rate]**: número total de mensagens que foram rejeitadas em comparação às mensagens enviadas.
-* **[!UICONTROL Delivery - Unsubscribed rate]**: número total de cancelamentos de subscrições por recipient em comparação às mensagens entregues.
+* **[!UICONTROL Delivery - Unsubscribed rate]**: número total de cancelamentos de assinatura por recipient em comparação às mensagens entregues.
 * **[!UICONTROL Delivery - Open rate]**: número total de mensagens abertas em comparação ao número de mensagens entregues.
-* **[!UICONTROL Delivery - Click rate]**: número total de cliques em um delivery em comparação ao número de mensagens entregues.
+* **[!UICONTROL Delivery - Click rate]**: número total de cliques em uma entrega em comparação ao número de mensagens entregues.
 
 A visualização do fluxo de Jornada permite que você veja o caminho dos perfis direcionados passo a passo pela jornada. Isso só está disponível para direcionar uma jornada. Ele é gerado automaticamente e não pode ser modificado.
 
 ![](../assets/dynamic_report_journey_10.png)
 
-A variável **[!UICONTROL Journey summary]** A tabela contém os dados disponíveis para sua jornada, como:
+A tabela **[!UICONTROL Journey summary]** contém os dados disponíveis para sua jornada, como:
 
-* **[!UICONTROL Entered]**: número total de indivíduos que atingiram o evento de entrada da jornada.
+* **[!UICONTROL Entered]**: número total de pessoas físicas que atingiram o evento de entrada da jornada.
 * **[!UICONTROL Completion rate]**: número total de indivíduos que atingiram o controle de fluxo final da jornada em comparação ao número total de indivíduos que entraram na jornada.
-* **[!UICONTROL Current]**: número total de indivíduos que estão atualmente na jornada.
+* **[!UICONTROL Current]**: número total de indivíduos atualmente na jornada.
 * **[!UICONTROL Failed]**: número total de jornadas que não foram executadas com êxito.
 * **[!UICONTROL Failed rate]**: número total de jornadas que não foram executadas com êxito em comparação ao número de jornadas executadas.
 
-A variável **[!UICONTROL Top events]** A tabela exibe os eventos mais bem-sucedidos e a variável **[!UICONTROL Top action]**, as ações mais bem-sucedidas nas jornadas.
+A tabela **[!UICONTROL Top events]** exibe os eventos mais bem-sucedidos e a **[!UICONTROL Top action]**, as ações mais bem-sucedidas em suas jornadas.
 
 ![](../assets/dynamic_report_journey_11.png)
 
-A variável **[!UICONTROL Delivery - Sending summary]** A tabela contém os dados disponíveis para as entregas de sua jornada, como:
+A tabela **[!UICONTROL Delivery - Sending summary]** contém os dados disponíveis para as entregas de sua jornada, como:
 
 * **[!UICONTROL Processed/sent]**: número total de mensagens enviadas.
 * **[!UICONTROL Delivered rate]**: número total de mensagens entregues com êxito em comparação às mensagens enviadas.
-* **[!UICONTROL Delivered]**: número de mensagens enviadas com êxito em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Delivered]**: número de mensagens enviadas com êxito, em relação ao número total de mensagens enviadas.
 * **[!UICONTROL Bounce + error rate]**: número total de mensagens que foram rejeitadas em comparação às mensagens enviadas.
-* **[!UICONTROL Bounces + errors]**: total de erros acumulados durante o delivery e o processamento de retorno automático em relação ao número total de mensagens enviadas.
+* **[!UICONTROL Bounces + errors]**: total de erros acumulados durante o processamento de entrega e retorno automático em relação ao número total de mensagens enviadas.
 
-A variável **[!UICONTROL Delivery - Tracking summary]** A tabela contém os dados disponíveis para acompanhar o sucesso das entregas de suas jornadas, como:
+A tabela **[!UICONTROL Delivery - Tracking summary]** contém os dados disponíveis para acompanhar o sucesso das entregas de suas jornadas, como:
 
 * **[!UICONTROL Open Rate]**: porcentagem de mensagens abertas.
-* **[!UICONTROL Open]**: número de vezes que uma mensagem foi aberta em um delivery.
-* **[!UICONTROL Click trough rate]**: número total de cliques em um delivery em comparação ao número de mensagens entregues.
-* **[!UICONTROL Click]**: número de vezes que um conteúdo foi clicado em um delivery.
-* **[!UICONTROL Unsubscribe rate]**: porcentagem de unsubscriptions por recipient em comparação às mensagens entregues.
-* **[!UICONTROL Unsubscribed]**: número total de cancelamentos de subscrições por recipient em comparação às mensagens entregues.
+* **[!UICONTROL Open]**: número de vezes que uma mensagem foi aberta em uma entrega.
+* **[!UICONTROL Click trough rate]**: número total de cliques em uma entrega em comparação ao número de mensagens entregues.
+* **[!UICONTROL Click]**: número de vezes que um conteúdo foi clicado em uma entrega.
+* **[!UICONTROL Unsubscribe rate]**: porcentagem de cancelamentos de assinatura por destinatário em comparação às mensagens entregues.
+* **[!UICONTROL Unsubscribed]**: número total de cancelamentos de assinatura por recipient em comparação às mensagens entregues.

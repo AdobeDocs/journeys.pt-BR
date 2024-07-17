@@ -27,9 +27,9 @@ String
 
 ## Parâmetros
 
-| Parâmetro | Tipo |
+| Parâmetro | tipo |
 |-------------|----------|
-| string | string |
+| sequência de caracteres | sequência de caracteres |
 | beginIndex | inteiro |
 | endIndex | inteiro |
 

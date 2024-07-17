@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 22bcd7f4-03ee-4e4c-b221-9f14aeadded6
 source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 37%
+source-wordcount: '387'
+ht-degree: 32%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 37%
 
 Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá apenas um caminho com as seguintes atividades:
 
-* o &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando uma pessoa caminha perto do sinal de spa, o sistema recebe um evento e a jornada é iniciada para essa pessoa.
-* a **[!UICONTROL Condition]** atividade para verificar se a pessoa é uma mulher
-* um **[!UICONTROL Email]** atividade (usando o Adobe Campaign Standard)
+* o &quot;SpaBeacon&quot; **[!UICONTROL Event]**: quando uma pessoa se aproxima do spa beacon, o sistema recebe um evento e a jornada é iniciada para essa pessoa.
+* uma atividade **[!UICONTROL Condition]** para verificar se a pessoa é uma mulher
+* uma atividade **[!UICONTROL Email]** (usando Adobe Campaign Standard)
 * uma atividade **[!UICONTROL End]**
 
 >[!NOTE]
@@ -48,15 +48,15 @@ Para obter informações adicionais sobre como criar uma jornada, consulte [esta
 
    ![](../assets/journeyuc1_11.png)
 
-1. Usando o editor de expressões simples, procure o campo de gênero (_pessoa > gênero_) e solte-a à direita para criar a seguinte condição: &quot;gender is equal to &quot;Female&quot;.
+1. Usando o editor de expressões simples, procure o campo de gênero (_person > gender_) e solte-o à direita para criar a seguinte condição: &quot;gender is equal to &quot;Female&quot;.
 
    ![](../assets/journeyuc1_12.png)
 
-1. Soltar um **[!UICONTROL Email]** e selecione o modelo de mensagem transacional &quot;Desconto de Spa&quot;. Este modelo foi criado usando o Adobe Campaign. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
+1. Solte uma atividade **[!UICONTROL Email]** e selecione seu modelo de mensagem transacional de &quot;Desconto de Spa&quot;. Este modelo foi criado usando o Adobe Campaign. Consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR).
 
    ![](../assets/journeyuc1_13.png)
 
-1. Clique dentro do **[!UICONTROL Email]** e selecione o endereço de email da fonte de dados.
+1. Clique dentro do campo **[!UICONTROL Email]** e selecione o endereço de email da fonte de dados.
 
    ![](../assets/journeyuc1_14.png)
 
@@ -64,11 +64,11 @@ Para obter informações adicionais sobre como criar uma jornada, consulte [esta
 
    ![](../assets/journeyuc1_15.png)
 
-1. Soltar um **[!UICONTROL End]** atividade.
+1. Solte uma atividade **[!UICONTROL End]**.
 
    ![](../assets/journeyuc1_17.png)
 
-1. Clique no link **[!UICONTROL Test]** alterne e teste sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
+1. Clique no botão de alternância **[!UICONTROL Test]** e teste sua jornada usando perfis de teste. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
    ![](../assets/journeyuc1_18bis.png)
 

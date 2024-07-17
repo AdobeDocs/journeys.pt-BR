@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Sobre atividades de eventos {#concept_rws_1rt_52b}
 
-Os eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são exibidos na primeira categoria da paleta, no lado esquerdo da tela.
+Os eventos configurados pelo usuário técnico (consulte [esta página](../event/about-events.md)) são todos exibidos na primeira categoria da paleta, no lado esquerdo da tela.
 
 ![](../assets/journey43.png)
 
@@ -23,7 +23,7 @@ Sempre inicie a jornada arrastando e soltando uma atividade de evento. Você tam
 
 ![](../assets/journey44.png)
 
-Ao clicar na atividade de evento na tela, o painel de configuração da atividade é exibido. Por padrão, quando você usa o mesmo evento várias vezes, um número incrementado é adicionado ao nome do evento na tela. Além disso, você pode usar a variável **[!UICONTROL Label]** para adicionar um sufixo ao nome do evento que aparecerá em sua atividade na tela. Isso é útil para identificar seus eventos na tela, especialmente se você usar o mesmo evento várias vezes. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios.
+Ao clicar na atividade de evento na tela, o painel de configuração da atividade é exibido. Por padrão, quando você usa o mesmo evento várias vezes, um número incrementado é adicionado ao nome do evento na tela. Além disso, você pode usar o campo **[!UICONTROL Label]** para adicionar um sufixo ao nome do evento que aparecerá em sua atividade na tela. Isso é útil para identificar seus eventos na tela, especialmente se você usar o mesmo evento várias vezes. Também facilitará a depuração em caso de erros e facilitará a leitura dos relatórios.
 
 ![](../assets/journey33.png)
 
@@ -35,11 +35,11 @@ A jornada ouvirá o evento durante o tempo especificado no tempo limite. Se um e
 
 Para configurar um tempo limite para um evento, siga estas etapas:
 
-1. Ativar o **[!UICONTROL Enable the event timeout]** nas propriedades do evento.
+1. Ative a opção **[!UICONTROL Enable the event timeout]** nas propriedades do evento.
 
 1. Especifique por quanto tempo a jornada aguardará pelo evento.
 
-1. Se desejar enviar as pessoas físicas para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite o **[!UICONTROL Set the timeout path]** opção. Se essa opção não estiver ativada, a jornada continuará para o indivíduo assim que o tempo limite for atingido.
+1. Se desejar enviar as pessoas físicas para um caminho de tempo limite quando nenhum evento for recebido dentro do tempo limite especificado, habilite a opção **[!UICONTROL Set the timeout path]**. Se essa opção não estiver ativada, a jornada continuará para o indivíduo assim que o tempo limite for atingido.
 
    ![](../assets/event-timeout.png)
 
@@ -48,8 +48,8 @@ Neste exemplo, a jornada envia um primeiro push de boas-vindas para um cliente. 
 * Se o evento do restaurante for recebido menos de 1 dia após o push de boas-vindas, a atividade de push de desconto para refeições será enviada.
 * Se nenhum evento de restaurante for recebido no dia seguinte, a pessoa fluirá pelo caminho de tempo limite.
 
-Observe que se quiser configurar um tempo limite em vários eventos posicionados após um **[!UICONTROL Wait]** atividade, é necessário configurar o tempo limite em apenas um desses eventos.
+Observe que se quiser configurar um tempo limite em vários eventos posicionados após uma atividade **[!UICONTROL Wait]**, será necessário configurar o tempo limite apenas em um desses eventos.
 
-O tempo limite será aplicado a todos os eventos posicionados após o **[!UICONTROL Wait]** atividade. Se nenhum evento for recebido antes do tempo limite especificado, as pessoas físicas fluirão para um único caminho de tempo limite ou continuarão essa jornada pela ramificação que sai da atividade onde essas configurações de tempo limite foram definidas.
+O tempo limite será aplicado a todos os eventos posicionados após a atividade **[!UICONTROL Wait]**. Se nenhum evento for recebido antes do tempo limite especificado, as pessoas físicas fluirão para um único caminho de tempo limite ou continuarão essa jornada pela ramificação que sai da atividade onde essas configurações de tempo limite foram definidas.
 
 ![](../assets/event-timeout-group.png)

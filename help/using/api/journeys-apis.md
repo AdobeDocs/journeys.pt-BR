@@ -62,11 +62,11 @@ Para usar essas APIs com a sua instância do [!DNL Journey Orchestration], é ne
 
 >[!CAUTION]
 >
->O método JWT para gerar tokens de acesso foi descontinuado. Todas as novas integrações devem ser criadas usando o [Método de autenticação de servidor para servidor OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). A Adobe também recomenda migrar suas integrações existentes para o método OAuth.
+>O método JWT para gerar tokens de acesso foi descontinuado. Todas as novas integrações devem ser criadas usando o [método de autenticação Servidor para Servidor do OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). A Adobe também recomenda migrar suas integrações existentes para o método OAuth.
 >
 >Leia as seguintes documentações importantes:
 >[Guia de migração para seus aplicativos do JWT para o OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
->[Guia de implementação para aplicativos novos e antigos com o OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
+>[Guia de implementação para aplicativos novos e antigos com OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/),
 >[Vantagens de usar o método de credenciais OAuth de servidor para servidor](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#why-oauth-server-to-server-credentials)
 
 Para estabelecer uma sessão de API segura e de serviço a serviço no Adobe I/O, cada solicitação para um serviço da Adobe deve incluir as informações abaixo no cabeçalho de autorização.
@@ -80,6 +80,6 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION>**: esta é a ID de ORGANIZAÇÃO pessoal. Uma ID de ORGANIZAÇÃO é fornecida pela Adobe para cada uma das instâncias. Para obter o valor da ID de ORGANIZAÇÃO, consulte seu administrador ou contato técnico da Adobe. Você também pode recuperá-la no Adobe I/O ao criar uma nova integração, na lista de licenças (consulte a [documentação do Adobe I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)).
 
-* **&lt;access_token>**: Seu token de acesso pessoal
+* **&lt;ACCESS_TOKEN>**: Seu token de acesso pessoal
 
 * **&lt;API_KEY>**: sua chave de API pessoal. Ela é fornecida no Adobe I/O após criar uma nova integração com o serviço do [!DNL Journey Orchestration].

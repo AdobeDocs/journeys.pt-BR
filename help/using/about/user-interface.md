@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
 source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 93%
+source-wordcount: '959'
+ht-degree: 92%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 93%
 >
 >Esta documentação é atualizada com frequência para refletir as alterações recentes no produto. Entretanto, algumas capturas de tela podem diferir ligeiramente da interface do produto.
 
-## Acessar o [!DNL Journey Orchestration]{#accessing_journey_orchestration}
+## Acesso ao [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-Para acessar o [!DNL Journey Orchestration]da, clique no link **[!UICONTROL App Selector]** ícone, na parte superior direita e clique em **[!UICONTROL Journey Orchestration]**.
+Para acessar a interface de [!DNL Journey Orchestration], clique no ícone **[!UICONTROL App Selector]**, na parte superior direita, e clique em **[!UICONTROL Journey Orchestration]**.
 
 ![](../assets/journey1.png)
 
@@ -55,7 +55,7 @@ Os **[!UICONTROL Filters]** podem ser acessados com um clique no ícone de filtr
 
 Nas listas **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**, use **[!UICONTROL Creation filters]** para filtrar a data de criação e o usuário. Por exemplo, você pode optar por exibir somente os eventos criados nos últimos 30 dias.
 
-Na lista de jornadas (em **[!UICONTROL Home]**), além da **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status, tipo e versão (**[!UICONTROL Status and version filters]**). O tipo pode ser: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
+Na lista de jornadas (abaixo de **[!UICONTROL Home]**), além de **[!UICONTROL Creation filters]**, você também pode filtrar as jornadas exibidas de acordo com seu status, tipo e versão (**[!UICONTROL Status and version filters]**). O tipo pode ser: **[!UICONTROL Unitary event]** ou **[!UICONTROL Segment qualification]**. Você também pode optar por exibir somente as jornadas que usam um evento, grupo de campos ou ação específica (**[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**). O **[!UICONTROL Publication filters]** permite selecionar uma data de publicação ou usuário. Você pode optar, por exemplo, por exibir somente as versões mais recentes de jornadas ao vivo que foram publicadas ontem. Consulte [esta página](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Nas diferentes listas, é possível executar ações básicas em cada elemento. 
 
 ![](../assets/journey4.png)
 
-## Navegação pelos campos da Adobe Experience Platform {#friendly-names-display}
+## Navegação pelos campos do Adobe Experience Platform {#friendly-names-display}
 
 Ao definir a [carga útil do evento](../event/defining-the-payload-fields.md), [carga útil do grupo de campo](../datasource/field-groups.md) e selecionar campos no [editor de expressões](../expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do schema no modelo de dados de experiência.
 
@@ -163,7 +163,7 @@ Painel de configuração destes elementos:
   </tr>
   <tr>
     <td rowspan="4">Jornada no modo de teste</td>
-    <td>Ative ou desative o modo de teste</td>
+    <td>Habilitar ou desabilitar o modo de teste</td>
     <td>T</td>
   </tr>
   <tr>

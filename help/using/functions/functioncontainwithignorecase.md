@@ -29,8 +29,8 @@ String
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| string | string |
-| sequência de caracteres pesquisada | string |
+| sequência de caracteres | sequência de caracteres |
+| sequência de caracteres pesquisada | sequência de caracteres |
 
 ## Assinatura e tipo retornado
 

@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 2cfa4397-fe8f-44b3-b219-2fd5d3bdd156
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 16%
+source-wordcount: '439'
+ht-degree: 13%
 
 ---
 
 # Configuração de fontes de dados {#concept_vml_hdy_w2b}
 
-No nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é um membro de fidelidade e não foi contatado nas últimas 24 horas. Essas informações são armazenadas no banco de dados do Perfil do cliente em tempo real. A variável **usuário técnico** O precisa configurar a fonte de dados do Adobe Experience Platform para recuperar esses campos.
+No nosso caso de uso, queremos usar dados de personalização para nossas mensagens. Também precisamos verificar se a pessoa é um membro de fidelidade e não foi contatado nas últimas 24 horas. Essas informações são armazenadas no banco de dados do Perfil do cliente em tempo real. O **usuário técnico** precisa configurar a fonte de dados do Adobe Experience Platform para recuperar esses campos.
 
 Para obter informações adicionais sobre a configuração da fonte de dados, consulte [esta página](../datasource/about-data-sources.md).
 
@@ -27,26 +27,26 @@ Para obter informações adicionais sobre a configuração da fonte de dados, co
 1. Nos campos de grupo pré-configurados, verifique se os seguintes campos estão selecionados:
 
    * _pessoa > nome > firstName_
-   * _pessoa > nome > sobrenome_
+   * _pessoa > nome > lastName_
    * _personalEmail > endereço_
 
-1. Clique em **[!UICONTROL Add a New Field Group]**, selecione um **[!UICONTROL Profiles]** esquema e adicione o **Membro de fidelidade** para a nossa condição. A variável **Membro de fidelidade** é um campo personalizado e foi adicionado no XDM: &quot;_customer > marlton > fidelMember&quot;
+1. Clique em **[!UICONTROL Add a New Field Group]**, selecione um esquema **[!UICONTROL Profiles]** e adicione o campo **Membro de fidelidade** à sua condição. O campo **Membro de fidelidade** é um campo personalizado e foi adicionado no XDM: &quot;_customer > marlton > fidelMember&quot;
 
    ![](../assets/journeyuc2_6.png)
 
-1. Clique em **[!UICONTROL Add a New Field Group]**, selecione um **[!UICONTROL ExperienceEvent]** e escolha os campos necessários para nossa condição no número de mensagens enviadas em um determinado período: _carimbo de data e hora_ para a data e _directMarketing > envios > valor_ para o número de mensagens enviadas.
+1. Clique em **[!UICONTROL Add a New Field Group]**, selecione um esquema **[!UICONTROL ExperienceEvent]** e escolha os campos necessários para nossa condição no número de mensagens enviadas em um determinado período: _carimbo de data/hora_ para a data e _directMarketing > envios > valor_ para o número de mensagens enviadas.
 
    ![](../assets/journeyuc2_7.png)
 
 1. Clique em **[!UICONTROL Save]**.
 
-Também precisamos verificar se a pessoa tem uma reserva no sistema de reservas de hotel. A variável **usuário técnico** precisa configurar uma segunda fonte de dados para recuperar este campo.
+Também precisamos verificar se a pessoa tem uma reserva no sistema de reservas de hotel. O **usuário técnico** precisa configurar uma segunda fonte de dados para recuperar este campo.
 
 1. Na lista de fontes de dados, clique em **[!UICONTROL Add]** para adicionar uma nova fonte de dados externa para definir a conexão com o sistema de reservas do hotel.
 
    ![](../assets/journeyuc2_9.png)
 
-1. Insira um nome para a fonte de dados e o URL do serviço externo, por exemplo: _https://marlton.com/reservation_
+1. Insira um nome para sua fonte de dados e a URL do serviço externo, por exemplo: _https://marlton.com/reservation_
 
    >[!CAUTION]
    >
@@ -56,10 +56,10 @@ Também precisamos verificar se a pessoa tem uma reserva no sistema de reservas 
 
    ![](../assets/journeyuc2_10.png)
 
-1. Clique em **[!UICONTROL Add a New Field Group]** para definir as informações que serão recuperadas e os parâmetros da API. Para nosso exemplo, há apenas um parâmetro (a id), portanto, precisamos criar um grupo de campos com as seguintes informações:
+1. Clique em **[!UICONTROL Add a New Field Group]** para definir as informações a serem recuperadas e os parâmetros da API. Para nosso exemplo, há apenas um parâmetro (a id), portanto, precisamos criar um grupo de campos com as seguintes informações:
 
    * **[!UICONTROL Method]**: selecione o método POST ou GET. No nosso caso, selecionamos o método GET.
-   * **[!UICONTROL Response Payload]**: clique dentro do **[!UICONTROL Payload]** e cole um exemplo da carga. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. No nosso exemplo, a carga contém apenas o status da reserva:
+   * **[!UICONTROL Response Payload]**: clique dentro do campo **[!UICONTROL Payload]** e cole um exemplo da carga. Verifique se os tipos de campo estão corretos. Cada vez que a API é chamada, o sistema recuperará todos os campos incluídos no exemplo de carga útil. No nosso exemplo, a carga contém apenas o status da reserva:
 
    ```
    {

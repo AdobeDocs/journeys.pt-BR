@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 847fa819-2b92-49e5-8a5e-4f3f0acd5e35
 source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 14%
+source-wordcount: '346'
+ht-degree: 13%
 
 ---
 
 # Fonte de dados da Adobe Experience Platform {#concept_zrb_nqt_52b}
 
-A fonte de dados do Adobe Experience Platform define a conexão com o Serviço de perfil do cliente em tempo real. Essa fonte de dados é integrada e pré-configurada. Ela não pode ser excluída. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verificar se a pessoa que inseriu uma jornada é do sexo feminino). Ela permite usar os dados de Perfil e de Eventos de experiência. Para obter mais informações sobre o Serviço de perfil do cliente em tempo real, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR).
+A fonte de dados do Adobe Experience Platform define a conexão com o Serviço de perfil do cliente em tempo real. Essa fonte de dados é integrada e pré-configurada. Ela não pode ser excluída. Essa fonte de dados foi projetada para recuperar e usar dados do Serviço de perfil do cliente em tempo real (por exemplo, verificar se a pessoa que inseriu uma jornada é do sexo feminino). Ela permite usar os dados de Perfil e de Eventos de experiência. Para obter mais informações sobre o Serviço de Perfil do Cliente em Tempo Real, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR).
 
 >[!NOTE]
 >
@@ -37,8 +37,8 @@ Estas são as etapas principais para adicionar grupos de campos à fonte de dado
 
    ![](../assets/journey24.png)
 
-1. Selecione um esquema na **[!UICONTROL Schema]** menu suspenso. Este campo lista os esquemas de Perfil e Eventos de experiência disponíveis na Adobe Experience Platform. A criação do esquema não é executada em [!DNL Journey Orchestration]. É executado na Adobe Experience Platform.
+1. Selecione um esquema no menu suspenso **[!UICONTROL Schema]**. Este campo lista os esquemas de Perfil e Eventos de experiência disponíveis na Adobe Experience Platform. A criação do esquema não foi executada em [!DNL Journey Orchestration]. É executado na Adobe Experience Platform.
 1. Selecione os campos que deseja usar.
 1. Clique em **[!UICONTROL Save]**.
 
-Ao colocar o cursor no nome de um grupo de campos, você verá dois ícones à direita. Eles permitem excluir e duplicar o grupo de campos. Observe que **[!UICONTROL Delete]** O ícone só estará disponível se o grupo de campos não for usado em nenhuma jornada ativa ou de rascunho (informações exibidas na **[!UICONTROL Used in]** campo).
+Ao colocar o cursor no nome de um grupo de campos, você verá dois ícones à direita. Eles permitem excluir e duplicar o grupo de campos. Observe que o ícone **[!UICONTROL Delete]** só estará disponível se o grupo de campos não for usado em nenhuma jornada ativa ou de rascunho (informações exibidas no campo **[!UICONTROL Used in]**).

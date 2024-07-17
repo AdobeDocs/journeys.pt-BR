@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 0b8d1a82-a55a-4a4d-ad1b-35499d52b469
 source-git-commit: 2aa73498f44f22a70bb2268afca7d1a62e434542
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '100'
 ht-degree: 11%
 
 ---
@@ -29,8 +29,8 @@ Conversão
 
 | Parâmetro | Tipo |
 |-----------|------------------|
-| data e hora no formato ISO-8601 | string |
-| id do fuso horário | string |
+| data e hora no formato ISO-8601 | sequência de caracteres |
+| id do fuso horário | sequência de caracteres |
 | data hora sem fuso horário | dateTimeOnly |
 | valor inteiro de uma época em milissegundos | inteiro |
 
@@ -73,15 +73,15 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-Devoluções em 2016-08-18T23:17:59,123Z
+Retorna 2016-08-18T23:17:59.123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2016-08-18T23:17:59.123"))`
 
-Devoluções em 2016-08-18T23:17:59,123Z
+Retorna 2016-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-Devoluções em 2019-06-17T09:03:10,189Z
+Retorna 17T09:03:10.189Z de 2019
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
 source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -34,9 +34,9 @@ Há dois tipos de operadores: operadores unários e operadores binários. Há op
 
 ## Observações importantes{#important-notes}
 
-* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, seja inteiro ou decimal. Exemplo :
+* Ao usar uma multiplicação (`*`), ambos os campos de operação devem ter o mesmo tipo, inteiro ou decimal. Exemplo:
    * o exemplo a seguir está correto: `3.0 * 4.0`
-   * `3 * 4.0` resultará em um erro
+   * `3 * 4.0` levará a um erro
 
 ## Lógico  {#logical}
 
@@ -46,7 +46,7 @@ Há dois tipos de operadores: operadores unários e operadores binários. Há op
 <expression1> and <expression2>
 ```
 
-Ambos &lt;expression1> e &lt;expression2> deve ser booleano. O resultado é booleano.
+&lt;expression1> e &lt;expression2> devem ser booleanos. O resultado é booleano.
 
 Exemplo:
 
@@ -62,7 +62,7 @@ Exemplo:
 <expression1> or <expression2>
 ```
 
-Ambos &lt;expression1> e &lt;expression2> deve ser booleano. O resultado é booleano.
+&lt;expression1> e &lt;expression2> devem ser booleanos. O resultado é booleano.
 
 Exemplo:
 
@@ -154,7 +154,7 @@ Exemplo:
 <expression1> == <expression2>
 ```
 
-Ambos &lt;expression1> e &lt;expression2> deve ter o mesmo tipo de dados. O resultado é booleano.
+&lt;expression1> e &lt;expression2> devem ter o mesmo tipo de dados. O resultado é booleano.
 
 Exemplo:
 
@@ -174,7 +174,7 @@ Exemplo:
 <expression1> != <expression2>
 ```
 
-Ambos &lt;expression1> e &lt;expression2> deve ter o mesmo tipo de dados. O resultado é booleano.
+&lt;expression1> e &lt;expression2> devem ter o mesmo tipo de dados. O resultado é booleano.
 
 Exemplo:
 

@@ -27,7 +27,7 @@ String
 
 ## Parâmetro
 
-* string
+* sequência de caracteres
 
 ## Assinatura e tipo retornado
 
