@@ -1,15 +1,15 @@
 ---
 product: adobe campaign
 title: Gerenciamento de acesso
-description: Saiba mais sobre o gerenciamento de acesso
+description: Saiba mais sobre o gerenciamento de acesso.
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: cf9bc6db0627eb0dba57e30652bba5ac8783cb55
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 95%
+ht-degree: 88%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 95%
 
 O [!DNL Journey Orchestration] permite atribuir um conjunto de permissões aos usuários para definir qual parte da interface pode ser acessada.
 
-Eles podem ser gerenciados por administradores com acesso ao Admin Console. Para obter mais informações sobre o Admin Console, consulte esta [documentação](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
+Eles podem ser gerenciados por administradores com acesso à Admin Console. Para obter mais informações sobre a Admin Console, consulte o [Guia de administração de empresas e equipes](https://helpx.adobe.com/br/enterprise/managing/user-guide.html).
 
 Para acessar o [!DNL Journey Orchestration], o usuário deve ser:
 
 * parte de um [!DNL Journey Orchestration] **[!UICONTROL product profile]** associado às permissões [!DNL Journey Orchestration].
 * parte de um [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. Não há uma permissão obrigatória. O usuário deve ter a permissão **[!UICONTROL profile management]** para criar e editar segmentos da plataforma na interface do [!DNL Journey Orchestration]. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
-No Admin Console, é possível atribuir um dos seguintes perfis de produto prontos para uso aos usuários:
+No Admin Console, você pode atribuir um dos seguintes perfis de produto prontos para uso aos usuários:
 
 * **[!UICONTROL Limited Access User]**: usuário com acesso somente leitura a jornadas e relatórios. Este perfil de produto conta com as seguintes permissões:
    * Ler jornadas
