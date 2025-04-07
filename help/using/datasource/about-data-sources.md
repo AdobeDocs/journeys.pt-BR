@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2371d2c9-3035-46ac-9c76-755fb453c24e
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 82%
+source-wordcount: '305'
+ht-degree: 80%
 
 ---
 
@@ -35,8 +35,6 @@ Há dois tipos de fontes de dados:
 * As fontes de dados externas que permitem definir uma conexão com sistemas externos. Essas são as que você pode criar. Consulte [esta página](../datasource/external-data-sources.md).
 
 Para cada fonte de dados, você define as informações que serão recuperadas usando grupos de campos. Grupos de campos são conjuntos de campos que podem ser recuperados de uma fonte de dados. Consulte [esta página](../datasource/field-groups.md).
-
-Para obter mais informações sobre como configurar uma fonte de dados da Adobe Experience Platform e uma fonte de dados externa, e como localizar e usar dados em uma jornada, assista a este [vídeo tutorial](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
 Estas são as etapas principais de configuração da fonte de dados:
 

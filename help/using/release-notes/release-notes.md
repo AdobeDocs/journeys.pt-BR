@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 53e4d6af0e3d5fa2f3870802dc67c6200fec3ce8
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '4462'
+source-wordcount: '4452'
 ht-degree: 96%
 
 ---
@@ -322,7 +322,7 @@ As funções [getListItem](../functions/functiongetlistitem.md) e [divisão](../
 <li>simplificar o design de jornadas muito complexas dividindo-as em várias jornadas </li>
 <li>criar jornadas com base em padrões de jornada comuns e reutilizáveis</li>
 </ul>
-<p>Para obter mais informações, consulte a <a href="../building-journeys/jump.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=pt-BR">vídeo tutorial</a>.</p>
+<p>Para obter mais informações, consulte a <a href="../building-journeys/jump.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -724,8 +724,3 @@ Crie casos de uso de orquestração em tempo real usando dados contextuais armaz
 O Journey Orchestration permite a orquestração em tempo real com dados contextuais de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros. O aplicativo determina, em fluxos multi-fases chamados jornadas, as melhores próximas ações específicas para o consumidor, de acordo com o perfil e o comportamento. Inclui o momento ideal e o tipo de ação, como enviar ao consumidor uma notificação por push por meio dos recursos de mensagens transacionais do Adobe Campaign Standard (é preciso ter o Adobe Campaign Standard) ou a notificação de um sistema de terceiros. Essas decisões são tomadas com base em regras e pontuações do Sensei.
 
 [](../action/working-with-adobe-campaign.md)Saiba mais sobre o Journey Orchestration.
-
-Recursos adicionais:
-
-* [Tutoriais](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=pt-BR)
-* [Comunidade](https://www.adobe.com/go/journeyorchestrationcommunity)

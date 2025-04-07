@@ -6,9 +6,9 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '473'
 ht-degree: 3%
 
 ---
@@ -54,12 +54,11 @@ As listas de campos XDM transmitidas para o Adobe Experience Platform estão det
 * [Lista de campos de evento de etapa](../building-journeys/sharing-field-list.md)
 * [Campos de evento de etapa herdado](../building-journeys/sharing-legacy-fields.md)
 
-Para obter mais informações sobre os relatórios de eventos de etapa para o Adobe Experience Platform, assista a este [tutorial em vídeo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html?lang=pt-BR).
 
 ## Integração com o Customer Jornada Analytics{#integration-cja}
 
-Eventos de etapa Journey Orchestration podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). Este é o workflow geral:
+Os eventos de etapa do Journey Orchestration podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). Este é o workflow geral:
 
-* O Customer Journey Analytics assimila o conjunto de dados &quot;Jornada Step Event&quot;.
-* O campo **profileID** no esquema de &quot;Evento de Etapa de Jornada para Journey Orchestration&quot; associado está definido como um campo de Identidade. No Customer Journey Analytics, você pode vincular esse conjunto de dados a qualquer outro que tenha o mesmo valor que o identificador baseado em pessoas.
+* A Customer Journey Analytics assimila o conjunto de dados &quot;Jornada evento de etapa&quot;.
+* O campo **profileID** no esquema associado de &quot;Evento de Etapa de Jornada para Journey Orchestration&quot; está definido como um campo de Identidade. No Customer Journey Analytics, você pode vincular esse conjunto de dados a qualquer outro que tenha o mesmo valor que o identificador com base em pessoa.
 * Se você quiser usar esse conjunto de dados no Customer Journey Analytics, para análise de jornada entre canais, consulte esta [documentação](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
