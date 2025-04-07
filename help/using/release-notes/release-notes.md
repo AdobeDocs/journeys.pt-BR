@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 6a5226ea0f7b5a87f236eeac108737fc69d4f9c8
+source-git-commit: 53e4d6af0e3d5fa2f3870802dc67c6200fec3ce8
 workflow-type: tm+mt
-source-wordcount: '4463'
-ht-degree: 98%
+source-wordcount: '4462'
+ht-degree: 96%
 
 ---
 
@@ -19,13 +19,12 @@ ht-degree: 98%
 >
 >**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
 >
->Esta documentação se refere ao material Journey Orchestration herdado que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer.
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration. Para recursos da Experience Platform, consulte as seguintes [notas de versão](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR).
 
->[!NOTE]
->
->Para os recursos lançados em 2022 e 2023, os links direcionam para a documentação do Adobe Journey Optimizer.
+Para os recursos lançados após 2022, os links são diretos para a [documentação do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}.
 
 ## Versão de março de 2024 {#mar-rn-2024}
 
@@ -37,22 +36,22 @@ Novos status intermediários foram adicionados ao ciclo de vida de criação de 
 * Status **Interrompendo** entre o status **Ativo** e o status **Parado** 
 * Os status **Ativando o modo de teste** ou **Desativando o modo de teste** entre o status **Rascunho** e o status **Rascunho (teste)**
 
-Quando uma jornada está em um estado intermediário, ela fica como somente de leitura. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter)
+Quando uma jornada está em um estado intermediário, ela fica como somente de leitura. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs#filter){target="_blank"}
 
 ## Versão de fevereiro de 2024 {#feb-rn-2024}
 
 ### Melhorias {#feb-2024-improvements}
 
-* **Filtre suas jornadas**: agora você pode usar o inventário **datas personalizadas para filtrar as jornadas**, além dos filtros de data predefinidos. Isso permite refinar a lista ao exibir jornadas criadas ou publicadas em uma data específica, em um mês específico, durante um ano inteiro ou em intervalos de tempo especificados. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=pt-BR#filter)
-* **Ações personalizadas**: agora você pode atualizar o cabeçalho **tipo de conteúdo**. Este novo **tipo de conteúdo** deve fazer referência ao conteúdo JSON. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=pt-BR#url-configuration)
-* **Configuração**: o atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como “primary = true”. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=pt-BR)
-* **Interface**: a barra superior, nas telas da jornada, foi reorganizada para fornecer uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de “lápis” que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=pt-BR#change-properties)
+* **Filtre suas jornadas**: agora você pode usar o inventário **datas personalizadas para filtrar as jornadas**, além dos filtros de data predefinidos. Isso permite refinar a lista ao exibir jornadas criadas ou publicadas em uma data específica, em um mês específico, durante um ano inteiro ou em intervalos de tempo especificados. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=pt-BR#filter){target="_blank"}
+* **Ações personalizadas**: agora você pode atualizar o cabeçalho **tipo de conteúdo**. Este novo **tipo de conteúdo** deve fazer referência ao conteúdo JSON. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=pt-BR#url-configuration){target="_blank"}
+* **Configuração**: o atributo identityMap em stepEvents agora é pré-preenchido. A identidade principal é definida como “primary = true”. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-field-list.html?lang=pt-BR){target="_blank"}
+* **Interface**: a barra superior, nas telas da jornada, foi reorganizada para fornecer uma experiência aprimorada. Entre as diferentes atualizações, observe que o ícone de “lápis” que permite acessar as propriedades da jornada agora é exibido à esquerda da barra superior, ao lado do nome da jornada. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=pt-BR#change-properties){target="_blank"}
 
 ## Versão de janeiro de 2024 {#jan-rn-2024}
 
 ### Melhorias {#jan-2024-improvements}
 
-* **Duração dos eventos de reação**: a duração máxima que você pode definir nos **Eventos de reação** agora é de 29 dias, em vez de 30. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=pt-BR)
+* **Duração dos eventos de reação**: a duração máxima que você pode definir nos **Eventos de reação** agora é de 29 dias, em vez de 30. [Leia mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/reaction-events.html?lang=pt-BR){target="_blank"}
 * **Grupos de campos**: esta versão corrige um problema que impedia que grupos de campos fossem salvos em determinados casos.
 * O suporte de `<listObject>` foi modificado em várias funções.
 
@@ -60,17 +59,17 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 
 ### Melhorias {#aug-2023-improvements}
 
-* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um private beta. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=pt-BR) do Journey Optimizer.
+* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um private beta. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=pt-BR){target="_blank"} do Journey Optimizer.
 
 ## Versão de abril de 2023 {#apr-rn-2023}
 
 ### Melhorias {#april-2023-improvements}
 
 * O layout do painel de configuração, que aparece em ações, fontes de dados, eventos e jornadas, foi aprimorado.
-* Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=pt-BR#url-configuration) do Journey Optimizer.
+* Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=pt-BR#url-configuration){target="_blank"} do Journey Optimizer.
 * Novas medidas de proteção para gerenciar o crescimento das experiências oferecidas pelas jornadas:
-   * Recomendamos que mantenha o número de nós limitado a 50 para assegurar o desempenho da jornada, a facilidade de leitura, o controle de qualidade e a solução de problemas. O número de atividades é exibido na seção superior esquerda da tela da jornada. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys) do Journey Optimizer
-   * À medida que desenvolve e inicia jornadas, notificaremos quando se aproximar do marco de 100 jornadas ativas de uma só vez. Caso seus planos exijam mais de 100 jornadas por vez, crie um tíquete para suporte depois de ver a notificação e nós ajudaremos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys) do Journey Optimizer
+   * Recomendamos que mantenha o número de nós limitado a 50 para assegurar o desempenho da jornada, a facilidade de leitura, o controle de qualidade e a solução de problemas. O número de atividades é exibido na seção superior esquerda da tela da jornada. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys){target="_blank"} do Journey Optimizer
+   * À medida que desenvolve e inicia jornadas, notificaremos quando se aproximar do marco de 100 jornadas ativas de uma só vez. Caso seus planos exijam mais de 100 jornadas por vez, crie um tíquete de suporte após ver a notificação e nós ajudaremos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys){target="_blank"} do Journey Optimizer
 
 ## Versão de março de 2023 {#mar-2023}
 
@@ -79,21 +78,21 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 * A nova **API de limitação** permite definir um limite para o número de eventos enviados por segundo, evitando picos de tráfego grandes demais em sistemas externos ou APIs. Quando o limite definido é atingido, todas as chamadas de API subsequentes são enfileiradas e processadas o mais rápido possível, na ordem em que forem recebidas. Observe que esse recurso suporta apenas uma configuração de limitação em todas as suas sandboxes. [Saiba mais](../api/throttling.md)
 * A tela da jornada foi aperfeiçoada para oferecer uma experiência do usuário mais simples e polida. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora é possível adicionar suas atividades simplesmente arrastando-as para o final de um caminho.
 * Na tela da jornada, o rótulo da tag **Fim** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
-* O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=pt-BR#timeout) do Journey Optimizer. 
-* Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Os eventos enviados por uma ferramenta externa não são considerados. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=pt-BR) do Journey Optimizer.
+* O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=pt-BR#timeout){target="_blank"} do Journey Optimizer.
+* Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Os eventos enviados por uma ferramenta externa não são considerados. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=pt-BR){target="_blank"} do Journey Optimizer.
 
 ## Versão de fevereiro de 2023 {#feb-2023}
 
 ### Melhorias {#feb-2023-improvements}
 
-* O campo **Período de espera de reentrada** foi adicionado às propriedades da jornada. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de segmento). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=pt-BR#entrance) do Journey Optimizer.
-* Foram realizadas melhorias nas **datas de início e término da jornada**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Isso permite que os perfis saiam automaticamente quando a data for atingida. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=pt-BR#dates) do Journey Optimizer.
+* O campo **Período de espera de reentrada** foi adicionado às propriedades da jornada. Este campo possibilita definir o tempo de espera antes de permitir que um perfil entre novamente em jornadas unitárias (que começam com um evento ou uma qualificação de segmento). Isso impede que uma mesma jornada seja incorretamente acionada várias vezes no mesmo evento. Por padrão, o campo é definido como 5 minutos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=pt-BR#entrance){target="_blank"} do Journey Optimizer.
+* Foram realizadas melhorias nas **datas de início e término da jornada**. Se você não tiver especificado uma data de início, ela agora será adicionada automaticamente no momento da publicação. Isso permite que os perfis saiam automaticamente quando a data for atingida. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs.html?lang=pt-BR#dates){target="_blank"} do Journey Optimizer.
 
 ## Versão de janeiro de 2023 {#jan-2023-release}
 
 ### Melhorias {#jan-2023-improvements}
 
-* Ao adicionar uma **Qualificação de segmento** em uma jornada, o namespace agora é pré-preenchido, por padrão, com o último namespace usado. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=pt-BR#about-segment-qualification) do Journey Optimizer.
+* Ao adicionar uma **Qualificação de segmento** em uma jornada, o namespace agora é pré-preenchido, por padrão, com o último namespace usado. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/segment-qualification-events.html?lang=pt-BR#about-segment-qualification){target="_blank"} do Journey Optimizer.
 * Um novo botão está disponível na barra de ferramentas da tela de jornada, que permite baixar uma captura de tela da sua jornada.
 
 ## Versão de setembro de 2022{#sept-2022-release}
@@ -120,17 +119,17 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 
 ### Melhorias{#sept-2022-improvements}
 
-* Foi adicionada uma nova medida de proteção às jornadas unitárias (que começam com um evento ou uma qualificação de segmento) para impedir que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada no perfil agora será temporariamente bloqueada por 5 minutos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#events-g) do Journey Optimizer.
+* Foi adicionada uma nova medida de proteção às jornadas unitárias (que começam com um evento ou uma qualificação de segmento) para impedir que as jornadas sejam acionadas erroneamente várias vezes para o mesmo evento. Por padrão, a reentrada no perfil agora será temporariamente bloqueada por 5 minutos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#events-g){target="_blank"} do Journey Optimizer.
 
 ### Outras alterações{#sept-2022-other}
 
-* Para melhorar o desempenho, os grupos de campos de eventos de experiência não podem mais ser usados em jornadas que começam com uma atividade de qualificação de segmento. Essa alteração se aplica somente a novas jornadas. As existentes manterão o comportamento atual. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#expression-editor) do Journey Optimizer.
+* Para melhorar o desempenho, os grupos de campos de eventos de experiência não podem mais ser usados em jornadas que começam com uma atividade de qualificação de segmento. Essa alteração se aplica somente a novas jornadas. As existentes manterão o comportamento atual. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#expression-editor){target="_blank"} do Journey Optimizer.
 
 ### Melhorias
 
-* **Encerramento de uma jornada** - Na tela da jornada, a atividade **Fim** foi removida da paleta. As tags finais agora são adicionadas por padrão no final de cada caminho e não podem ser removidas. Essa melhoria permite obter relatórios melhores sobre onde um cliente saiu da jornada, sem nenhuma ação necessária por parte do profissional de jornada. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=pt-BR) do Journey Optimizer.
+* **Encerramento de uma jornada** - Na tela da jornada, a atividade **Fim** foi removida da paleta. As tags finais agora são adicionadas por padrão no final de cada caminho e não podem ser removidas. Essa melhoria permite obter relatórios melhores sobre onde um cliente saiu da jornada, sem nenhuma ação necessária por parte do profissional de jornada. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/end-journey.html?lang=pt-BR){target="_blank"} do Journey Optimizer.
 
-* A opção de **Fuso horário do perfil** agora fica desmarcada por padrão nas propriedades da jornada. [Saiba mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=pt-BR#timezone-from-profiles).
+* A opção de **Fuso horário do perfil** agora fica desmarcada por padrão nas propriedades da jornada. [Saiba mais](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/timezone-management.html?lang=pt-BR#timezone-from-profiles){target="_blank"}.
 
 ## Versão de maio de 2022 {#may-2022-release}
 
@@ -155,7 +154,7 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 
 ### Melhorias
 
-* Os eventos de etapa do Journey Orchestration agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). O campo **profileID**, no esquema integrado Evento de Etapas da Jornada, agora está definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
+* Os eventos de etapa do Journey Orchestration agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR){target="_blank"}. O campo **profileID**, no esquema integrado Evento de Etapas da Jornada, agora está definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
 * A regra de limitação para ações do Adobe Campaign Standard foi alterada para 4000 chamadas / 5 minutos. [Leia mais](../action/working-with-adobe-campaign.md)
 
 ## Versão de outubro de 2021 {#october-2021-release}
