@@ -1,19 +1,29 @@
 ---
 product: adobe campaign
-title: Limitações de Journey Orchestration
-description: Saiba mais sobre as limitações de Journey Orchestration
+title: Limitações do Journey Orchestration
+description: Saiba mais sobre as limitações do Journey Orchestration
 feature: Journeys
 role: User
 level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
-source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 45%
+source-wordcount: '609'
+ht-degree: 42%
 
 ---
 
 # Limitações {#limitations}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 Estas são as limitações relacionadas ao uso do Journey Orchestration.
 
@@ -41,10 +51,10 @@ Estas são as limitações relacionadas ao uso do Journey Orchestration.
 ## Limitações de ações personalizadas
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
-* Somente os métodos de chamada POST e PUT são suportados. 
+* Somente os métodos de chamada POST e PUT são compatíveis. 
 * O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
-* Endereços da Adobe internos (.adobe.) não são permitidos.
+* Endereços Adobe internos (.adobe.) não são permitidos.
  
 ## Limitações de ações do Adobe Campaign
 

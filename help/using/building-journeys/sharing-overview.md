@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '518'
 ht-degree: 3%
 
 ---
 
 # Visão geral do compartilhamento de etapas da jornada{#sharing-overview}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 O [!DNL Journey Orchestration] envia automaticamente dados de desempenho do jornada para a Adobe Experience Platform para que ele possa ser combinado com outros dados para fins de análise.
 

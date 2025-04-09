@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: fd86b6ab-76cf-4b35-9e87-f441e914f20b
-source-git-commit: a0b6ab595bc16a75aa5a56a858900418e2381ab9
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '504'
 ht-degree: 6%
 
 ---
 
 # Operadores {#concept_wd5_pj5_dgb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Há dois tipos de operadores: operadores unários e operadores binários. Há operadores unários à esquerda e operadores unários à direita.
 

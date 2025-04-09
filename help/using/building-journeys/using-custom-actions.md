@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9996d1eb-ddef-46dd-aaa9-c37fa9deb2f9
-source-git-commit: 8980df5cc238a7195f01a1631e418a8de677fbea
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 11%
+source-wordcount: '298'
+ht-degree: 9%
 
 ---
 
 # Usar ações personalizadas {#section_f2c_hbg_nhb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 O painel de configuração de atividade mostra os parâmetros de configuração de URL e os parâmetros de autenticação configurados para a ação personalizada. [Saiba mais](../action/about-custom-action-configuration.md).
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2f317306-9afd-4e9a-88b8-fc66102e1046
-source-git-commit: bb07c0edaae469962ee3bf678664b4a0a83572fe
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '607'
 ht-degree: 2%
 
 ---
 
 # Referências de campo {#concept_fkj_ll5_dgb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Uma referência de campo pode ser anexada a um evento ou grupo de campos. As únicas informações relevantes são o nome do campo e seu caminho.
 
@@ -115,7 +124,7 @@ Para recuperar um elemento em um mapa, usamos a função de entrada com uma dete
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-Nesta expressão, estamos obtendo a entrada da chave &quot;Email&quot; do campo &quot;IdentityMap&quot; de um evento. A entrada &quot;Email&quot; é uma coleção, da qual obtemos a &quot;id&quot; no primeiro elemento usando &quot;first()&quot;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
+Nesta expressão, estamos obtendo a entrada da chave &quot;Email&quot; do campo &quot;IdentityMap&quot; de um evento. A entrada &#39;Email&#39; é uma coleção, da qual pegamos a &#39;id&#39; no primeiro elemento usando &#39;first()&#39;. Para obter mais informações, consulte [esta página](../expression/collection-management-functions.md).
 
 ### Função `firstEntryKey`
 

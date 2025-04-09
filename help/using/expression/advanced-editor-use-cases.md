@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: a5d063784b278120b61f8d2641264baf40e34a90
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
 
 # Exemplos de expressão avançada
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 O editor de expressão avançado pode ser usado para criar condições que permitem filtrar usuários em suas jornadas. Essas condições permitem direcionar os usuários no prazo, data, local, duração ou ações, como compra ou abandono de carrinhos, para que eles possam ser redirecionados na jornada.
 
@@ -38,7 +47,7 @@ Primeiro de tudo, clientes-alvo que navegaram na loja online, mas não finalizar
 
 <!--**This expression looks for a specified value in a string value:**
 
-`In (“addToCart”, #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`-->
 
 **Esta expressão procura todos os eventos para este usuário especificado nos últimos 7 dias:**
 

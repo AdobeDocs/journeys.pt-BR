@@ -6,20 +6,29 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c7e08542-fde8-4072-a697-42d35d6c58ba
-source-git-commit: 545352efdcda80cb9940010c4587a20f53326085
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '345'
 ht-degree: 2%
 
 ---
 
 # Trabalhar com o Adobe Campaign Standard {#using_adobe_campaign_standard}
 
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 Você pode enviar emails, notificações por push e SMS usando os recursos de Mensagens transacionais do Adobe Campaign Standard.
 
 O [!DNL Journey Orchestration] vem com uma ação pronta para uso que permite a conexão com o Adobe Campaign Standard.
 
-A mensagem transacional Campaign Standard e seu evento associado devem ser publicados para serem usados no Journey Orchestration. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface Journey Orchestration. Se a mensagem for publicada, mas o evento associado não, ela estará visível na interface do Journey Orchestration, mas não poderá ser usada.
+A mensagem transacional do Campaign Standard e o evento associado devem ser publicados para serem usados no Journey Orchestration. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface do Journey Orchestration. Se a mensagem for publicada, mas o evento associado não, ela ficará visível na interface do Journey Orchestration, mas não poderá ser usada.
 
 >[!NOTE]
 >
@@ -45,7 +54,7 @@ Estas são as etapas para configurá-la:
    >
    >O URL começa com https,
    >
-   >A ORG associada a essa instância do Adobe Campaign Standard é a mesma que a Journey Orchestration ORG.
+   >A ORG associada a essa instância do Adobe Campaign Standard é a mesma ORG do Journey Orchestration.
 
 Ao criar sua jornada, três ações estarão disponíveis na categoria **[!UICONTROL Action]**: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (consulte [Usando ações do Adobe Campaign](../building-journeys/using-adobe-campaign-actions.md)). O **Evento de reações** também permitirá que você reaja em cliques de mensagem, aberturas, etc. (consulte [Reações e eventos](../building-journeys/reaction-events.md)).
 

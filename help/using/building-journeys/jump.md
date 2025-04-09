@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 520376aa-2cb5-46d6-8f21-3e03544f5da1
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 6%
+source-wordcount: '822'
+ht-degree: 5%
 
 ---
 
 # Mudar de uma jornada para outra {#jump}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 A atividade de ação **[!UICONTROL Jump]** permite enviar indivíduos de uma jornada para outra. Esse recurso permite:
 

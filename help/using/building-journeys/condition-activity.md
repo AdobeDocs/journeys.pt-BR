@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 7b44edbe-9d05-4d67-8a64-2a0a553fcb92
-source-git-commit: d09d70a0ec2720c5a75385b9036bf3a6ab74f4ab
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 17%
+source-wordcount: '869'
+ht-degree: 16%
 
 ---
 
 # Atividade de condição{#section_e2n_pft_dgb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 Há quatro tipos de condições disponíveis:
 
@@ -34,7 +44,7 @@ Clique em **[!UICONTROL Add a path]** se desejar definir várias condições. Pa
 
 Observe que o design das jornadas tem impactos funcionais. Quando vários caminhos são definidos após uma condição, somente o primeiro caminho qualificado é executado. Isso significa que é possível variar a priorização de caminhos colocando-os um acima ou abaixo do outro.
 
-Por exemplo, vamos pegar o exemplo de uma condição de primeiro caminho &quot;A pessoa é um VIP&quot; e uma condição de segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende às duas condições (um homem que é VIP) passar por essa etapa, o primeiro caminho será escolhido mesmo que ele também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
+Por exemplo, vamos pegar o exemplo de uma condição de primeiro caminho &quot;A pessoa é um VIP&quot; e uma condição de segundo caminho &quot;A pessoa é um homem&quot;. Se uma pessoa que atende a ambas as condições (um homem que é um VIP) passar por essa etapa, o primeiro caminho será escolhido, mesmo que ele também seja elegível para o segundo, porque o primeiro caminho é &quot;acima&quot;. Para alterar essa prioridade, mova suas atividades em outra ordem vertical.
 
 ![](../assets/journey48.png)
 

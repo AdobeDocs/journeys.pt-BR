@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9a0490c8-c940-44d2-af1a-d1863c51465d
-source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 5%
+source-wordcount: '199'
+ht-degree: 4%
 
 ---
 
 # Uso de segmentos em condições {#using-a-segment}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Esta seção explica como usar um segmento em uma condição de jornada. Para saber como usar um evento **[!UICONTROL Segment qualification]** em sua jornada, consulte esta [seção](../building-journeys/segment-qualification-events.md).
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f001e42-46dd-48aa-b3dd-23bfdf97e1c7
-source-git-commit: a7a49113a8b53e9c15123e788d50bb72310d949d
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1474'
 ht-degree: 5%
 
 ---
 
 # Usar o designer de jornada {#concept_m1g_5qt_52b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 O menu Página Inicial do jornada permite exibir a **lista de jornadas**. Crie uma nova jornada ou clique em uma existente para abrir a **interface do designer de jornadas**. O designer é composto das seguintes zonas: a paleta, a tela e o painel de configuração da atividade.
 

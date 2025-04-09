@@ -6,21 +6,31 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 90%
 
 ---
 
 # Princípio geral {#concept_gfj_fqt_52b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
 >title="Sobre eventos"
 >abstract="Um evento está vinculado a uma pessoa. Relaciona-se com o comportamento de uma pessoa ou com algo que acontece ligado a uma pessoa. É o que o [!DNL Journey Orchestration] considera nas jornadas para orquestrar as melhores ações futuras."
 
-Um evento está vinculado a uma pessoa. Relaciona-se com o comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site, etc.) ou com algo que acontece ligado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos no programa de fidelidade). É o que o [!DNL Journey Orchestration] considera nas jornadas para orquestrar as melhores ações futuras.
+Um evento está vinculado a uma pessoa. Ele se refere ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site etc.) ou a um acontecimento relacionado a uma pessoa (por exemplo, uma pessoa acumulou 10 mil pontos de fidelidade). É o que o [!DNL Journey Orchestration] considera nas jornadas para orquestrar as melhores ações futuras.
 
 Essa configuração é **obrigatória**, pois o [!DNL Journey Orchestration] foi projetado para acompanhar eventos e sempre ser executado por um **usuário técnico**.
 

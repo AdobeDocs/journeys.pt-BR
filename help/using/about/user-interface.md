@@ -6,20 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: a5ec1c4c5608113bb17dfbdea0587f6bb342099a
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 92%
+source-wordcount: '944'
+ht-degree: 83%
 
 ---
 
 # Interface do usuário{#concept_rcq_lqt_52b}
 
->[!NOTE]
+
+>[!CAUTION]
 >
->Para tirar o melhor proveito do [!DNL Journey Orchestration], recomendamos a utilização do Chrome como navegador de Internet. A interface é exibida no idioma definido no IMS. Se o seu idioma IMS não for aceito pelo [!DNL Journey Orchestration], a interface será exibida em inglês.
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
 >
->Esta documentação é atualizada com frequência para refletir as alterações recentes no produto. Entretanto, algumas capturas de tela podem diferir ligeiramente da interface do produto.
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 ## Acesso ao [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
@@ -77,7 +80,7 @@ Nas diferentes listas, é possível executar ações básicas em cada elemento. 
 
 Ao definir a [carga útil do evento](../event/defining-the-payload-fields.md), [carga útil do grupo de campo](../datasource/field-groups.md) e selecionar campos no [editor de expressões](../expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do schema no modelo de dados de experiência.
 
-Se descritores como &quot;xdm:alternateDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos. Você pode configurar descritores de nome simples por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR).
+Se descritores como &quot;xdm:alternateDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos. Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -95,7 +98,7 @@ Os recursos de acessibilidade no Adobe Journey Optimizer são fornecidos pela Ad
 * Contraste de cores
 * Validação de campos obrigatórios
 
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target="_blank"} na documentação da Adobe Experience Platform.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=pt-BR){target="_blank"} na documentação do Adobe Experience Platform.
 
 Você pode usar estes atalhos de teclado comuns no Adobe Journey Optimizer:
 
@@ -107,7 +110,7 @@ Você pode usar estes atalhos de teclado comuns no Adobe Journey Optimizer:
 | Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
 | Cancelar uma seleção, recolher um painel ou fechar uma caixa de diálogo | Esc |
 
-[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=pt-BR){target="_blank"} na documentação da Adobe Experience Platform.
+[Saiba mais](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=pt-BR){target="_blank"} na documentação do Adobe Experience Platform.
 
 Você pode usar esses atalhos em partes específicas do Journey Optimizer:
 

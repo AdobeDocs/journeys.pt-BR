@@ -5,14 +5,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1328'
 ht-degree: 2%
 
 ---
 
 # Exemplos de consultas{#query-examples}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Esta seção lista vários exemplos usados com frequência para consultar Eventos de etapa da Jornada no Data Lake.
 
@@ -112,7 +121,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 Conjunto de dados para assimilar eventos de etapa do usuário na jornada.
 
-O esquema relacionado é o esquema Jornada Step Event para Journey Orchestration.
+O esquema relacionado é o esquema Jornada Step Event para o Journey Orchestration.
 
 _Caso de uso de relatórios_
 

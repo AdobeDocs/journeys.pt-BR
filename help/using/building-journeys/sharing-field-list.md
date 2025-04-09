@@ -6,14 +6,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b7568080-b88c-415c-9d3f-cc1361664838
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 18%
+source-wordcount: '351'
+ht-degree: 16%
 
 ---
 
 # Lista de campos de evento de etapa {#sharing-field-list}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Os campos de evento de etapa são organizados por categoria.
 
@@ -42,7 +51,7 @@ Esse grupo de campos é usado no esquema de jornada (em relação a journeyStepE
 
 ## perfil
 
-Este grupo de campos é específico do journeyStepEvent: esse evento está relacionado ao jornada e não tem o identityMap, que descreve a identidade do perfil, se houver.
+Este grupo de campos é específico do journeyStepEvent: este evento está relacionado ao jornada e não tem o identityMap, que descreve a identidade do perfil, se houver.
 
 Para journeyStepEvent, também é necessário adicionar campos relacionados à identidade:
 

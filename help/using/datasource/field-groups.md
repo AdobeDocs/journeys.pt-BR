@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f7f2673-9080-4274-afa3-a0255798f78d
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 0%
+source-wordcount: '498'
+ht-degree: 1%
 
 ---
 
 # Grupos de campos {#concept_ntl_ypt_52b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Grupos de campos são conjuntos de campos que você pode recuperar de uma fonte de dados e usar em uma jornada.
 
@@ -31,7 +40,7 @@ O número de jornadas que usam um grupo de campos é exibido no campo **[!UICONT
 
 >[!NOTE]
 >
->Observe que, se um grupo de campos não tiver um campo, ele não será exibido no editor de expressão.
+>Observe que se um grupo de campos não tiver um campo, ele não será exibido no editor de expressão.
 
 ![](../assets/journey3bis.png)
 

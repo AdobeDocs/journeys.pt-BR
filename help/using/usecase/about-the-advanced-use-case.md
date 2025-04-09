@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 43435aee-572d-4db2-88d5-6124ce074285
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '456'
 ht-degree: 3%
 
 ---
 
 # Sobre o caso de uso avançado{#concept_vzy_ncy_w2b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 ## Finalidade {#purpose}
 
@@ -52,8 +61,8 @@ Para nosso caso de uso, projetamos três modelos de mensagens transacionais do A
 
 O Adobe Campaign Standard está configurado para enviar emails e notificações por push.
 
-A ID do Experience Cloud é usada como a chave para identificar o cliente no sistema de reservas do hotel.
+A Experience Cloud ID é usada como a chave para identificar o cliente no sistema de reservas de hotel.
 
-Os eventos são enviados pelo celular dos clientes quando eles detectam perto de um beacon. Você precisa criar um aplicativo para dispositivos móveis para enviar eventos do celular do cliente para o SDK móvel.
+Os eventos são enviados pelo celular dos clientes quando eles detectam perto de um beacon. Você precisa criar um aplicativo móvel para enviar eventos do celular do cliente para o Mobile SDK.
 
 O campo Membro de fidelidade é um campo personalizado e foi adicionado no XDM para a ID de organização específica.

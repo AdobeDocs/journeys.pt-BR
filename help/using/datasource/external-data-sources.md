@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
-source-git-commit: 3856e323569054fac9e73f2a6af2b86518f62ab9
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 93%
+source-wordcount: '1350'
+ht-degree: 88%
 
 ---
 
 # Fontes de dados externas {#concept_t2s_kqt_52b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
 

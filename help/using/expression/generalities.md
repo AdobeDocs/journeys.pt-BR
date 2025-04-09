@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
-source-git-commit: 712f66b2715bac0af206755e59728c95499fa110
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '269'
 ht-degree: 3%
 
 ---
 
 # Generalidades {#concept_rcy_qj5_dgb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 ## Parênteses e prioridade da expressão{#section_edf_fks_bgb}
 
@@ -32,7 +41,7 @@ As expressões serão avaliadas da esquerda para a direita. A associatividade em
 
 Estas são as diferentes regras de diferenciação entre maiúsculas e minúsculas:
 
-* Todos os operadores (and, or etc.) deve ser escrito em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_ é uma expressão válida, enquanto a expressão _`<expression1>`E`<expression2>`_ não é.
+* Todos os operadores (and, or, etc.) devem ser escritos em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_ é uma expressão válida, enquanto a expressão _`<expression1>`E`<expression2>`_ não é.
 * Todos os nomes de função fazem distinção entre maiúsculas e minúsculas. Por exemplo, _inSegment()_ é válido, enquanto a função _INSEGMENT()_ não é.
 * Referências de campo e valores constantes fazem distinção entre maiúsculas e minúsculas: eles não são elementos integrados da linguagem (em vez de operadores e funções), eles são criados pelo usuário final.
 

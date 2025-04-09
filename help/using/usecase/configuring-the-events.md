@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 90139c72-8fae-4e6e-a79b-7c510f41fe38
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '441'
 ht-degree: 7%
 
 ---
 
 # Configuração de eventos {#concept_sbp_5cy_w2b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Em nosso cenário, precisamos receber um evento cada vez que uma pessoa entra no hotel Marlton e no restaurante. O **usuário técnico** precisa configurar os dois eventos que queremos que o sistema escute em nossa jornada.
 
@@ -27,7 +36,7 @@ Para obter informações adicionais sobre a configuração do evento, consulte [
 
    ![](../assets/journeyuc2_1.png)
 
-1. Em seguida, selecionamos o schema e definimos a carga útil esperada para esse evento. Selecionamos os campos necessários do modelo normalizado XDM. Precisamos da ID de Experience Cloud para identificar a pessoa no banco de dados de Perfil do cliente em tempo real: &quot;endUserIDs > _experience > mcid > id&quot;.
+1. Em seguida, selecionamos o schema e definimos a carga útil esperada para esse evento. Selecionamos os campos necessários do modelo normalizado XDM. Precisamos da Experience Cloud ID para identificar a pessoa no banco de dados de Perfil do cliente em tempo real: &quot;endUserIDs > _experience > mcid > id&quot;.
 
    Também precisamos do token de registro para enviar mensagens por push: &quot;_experience > campaign > message > profile > pushNotificationTokens > token&quot;
 

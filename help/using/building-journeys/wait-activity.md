@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 77fcc4ba02a855d4d584627625a08abb4af0da2f
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '412'
 ht-degree: 8%
 
 ---
 
 # Atividade Aguardar{#section_rlm_nft_dgb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 Se quiser aguardar antes de executar a próxima atividade no caminho, você pode usar uma atividade **[!UICONTROL Wait]**. Ela permite definir o momento em que a próxima atividade será executada. Três opções estão disponíveis:
 
@@ -23,7 +33,7 @@ Se quiser aguardar antes de executar a próxima atividade no caminho, você pode
 
 ## Sobre a atividade Wait{#about_wait}
 
-Esta é a forma como as esperas são priorizadas quando você usa várias esperas em paralelo. Se eles tiverem a mesma configuração de tempo e uma condição diferente, mas sobreposta, a espera posicionada acima será a priorizada. Por exemplo, a condição da primeira espera é &quot;ser mulher&quot; e a condição da segunda espera em paralelo é &quot;ser VIP&quot;. A primeira atividade de espera será priorizada.
+Esta é a forma como as esperas são priorizadas quando você usa várias esperas em paralelo. Se eles tiverem a mesma configuração de tempo e uma condição diferente, mas sobreposta, a espera posicionada acima será a priorizada. Por exemplo, a condição da primeira espera é &quot;ser uma mulher&quot; e a condição da segunda espera em paralelo é &quot;ser uma VIP&quot;. A primeira atividade de espera será priorizada.
 
 Observe também que se duas esperas diferentes estiverem em paralelo, a que ocorrer primeiro será priorizada, independentemente da sua posição vertical. Por exemplo, se uma espera de 1 hora estiver acima e uma espera de 30 minutos estiver abaixo, após 30 minutos, a espera de 30 minutos será processada.
 
@@ -45,7 +55,7 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 
 >[!NOTE]
 >
->Você pode usar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), o campo no evento será do formulário 2016-08-12T09:46:06Z.
+>Você pode usar uma expressão dateTimeOnly ou usar uma função para converter em dateTimeOnly. Por exemplo: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), o campo no evento é do formulário 2016-08-12T09:46:06Z.
 >
 >O **fuso horário** é esperado nas propriedades da jornada. Como resultado, não é possível, hoje, a partir da interface apontar diretamente para um carimbo de data e hora ISO-8601 completo misturando deslocamento de tempo e fuso horário como 2016-08-12T09:46:06.982-05. Consulte [esta página](../building-journeys/timezone-management.md).
 
@@ -57,7 +67,7 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 >
 >The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
-This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you'll be notified that the default time applies.
 
 >[!NOTE]
 >

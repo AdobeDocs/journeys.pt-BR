@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: e8e54dbd-8178-4c70-907c-68eb4dc54da7
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
 
 # Eventos de qualificação de segmento {#segment-qualification}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 ## Sobre eventos de qualificação de segmento{#about-segment-qualification}
 
@@ -46,7 +56,7 @@ Esse tipo de evento pode ser posicionado como a primeira etapa ou posteriormente
 
    Depois que o segmento é adicionado, o botão **[!UICONTROL Copy]** permite copiar seu nome e ID:
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/segment-copy.png)
 

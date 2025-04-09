@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
-source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 89%
+source-wordcount: '902'
+ht-degree: 85%
 
 ---
 
 # Construção da jornada {#concept_owm_kdy_w2b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá as seguintes atividades:
 

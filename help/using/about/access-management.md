@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: cf9bc6db0627eb0dba57e30652bba5ac8783cb55
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 88%
+source-wordcount: '873'
+ht-degree: 83%
 
 ---
 
 # Gerenciamento de acesso{#concept_rfj_wpt_52b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 ## Sobre gerenciamento de acesso {#about-access-management}
 

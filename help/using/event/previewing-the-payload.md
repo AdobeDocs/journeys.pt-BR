@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 5a4cf7cd-463f-4e5b-a679-419649efef12
-source-git-commit: 579e5a0dbdc11369248c2683c399b090130a7262
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 7%
+source-wordcount: '158'
+ht-degree: 6%
 
 ---
 
 # Visualizar a carga {#concept_jgf_4yk_4fb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 A pré-visualização de carga permite validar a definição de carga útil.
 

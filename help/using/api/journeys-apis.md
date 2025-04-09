@@ -7,14 +7,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a5dd3d23-c820-4ab7-bc6c-b1dcfe15022c
-source-git-commit: 87d5cf223d9adec27eabcb55f2e09aa6d40b23a6
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 87%
+source-wordcount: '836'
+ht-degree: 83%
 
 ---
 
 # Introdução às APIs de jornadas
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 ## Sobre APIs de limite e limitação
 

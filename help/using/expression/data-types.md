@@ -6,14 +6,23 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 343f61b8-2315-4971-8b2b-6aa815bd9ced
-source-git-commit: 5225045f02fb1b2a8505756d9d7f6f60a32b3ed6
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '656'
 ht-degree: 5%
 
 ---
 
 # Tipos de dados {#concept_gp3_rj5_dgb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Tecnicamente, uma constante sempre contém um tipo de dados. Na expressão literal, especificamos apenas o valor. O tipo de dados pode ser inferido a partir do valor (por exemplo, string, inteiro, decimal etc.). Para casos específicos, como data e hora, usamos funções dedicadas para a representação.
 

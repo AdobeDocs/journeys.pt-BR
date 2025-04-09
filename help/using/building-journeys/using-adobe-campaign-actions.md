@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: b2e5c333-d0d8-4fe1-a6b8-5f2e6b3624a4
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '922'
 ht-degree: 2%
 
 ---
 
 # Uso do Adobe Campaign Standard {#using_campaign_action}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 Se você tiver o Adobe Campaign Standard, as seguintes atividades de ação predefinidas estarão disponíveis: **[!UICONTROL Email]**, **[!UICONTROL Push]** e **[!UICONTROL SMS]**.
 
@@ -25,7 +35,7 @@ Para cada um desses canais, selecione um **modelo** de mensagens transacionais d
 
 >[!NOTE]
 >
->A mensagem transacional Campaign Standard e seu evento associado devem ser publicados para serem usados no Journey Orchestration. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface Journey Orchestration. Se a mensagem for publicada, mas o evento associado não, ela estará visível na interface do Journey Orchestration, mas não poderá ser usada.
+>A mensagem transacional do Campaign Standard e o evento associado devem ser publicados para serem usados no Journey Orchestration. Se o evento for publicado, mas a mensagem não for, ele não estará visível na interface do Journey Orchestration. Se a mensagem for publicada, mas o evento associado não, ela ficará visível na interface do Journey Orchestration, mas não poderá ser usada.
 
 ![](../assets/journey59.png)
 
@@ -45,7 +55,7 @@ Para **[!UICONTROL Email]** e **[!UICONTROL SMS]**, os parâmetros são idêntic
 
 >[!NOTE]
 >
->Para email, se estiver usando um template transacional de perfis, o mecanismo de cancelamento de subscrição será manipulado pelo Campaign Standard, que já está pronto para uso. Basta adicionar um bloco de conteúdo **[!UICONTROL Unsubscription link]** no modelo ([saiba mais](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR)). Se estiver usando um template baseado em evento (rtEvent), você precisará adicionar, na mensagem, um link que passa o email da pessoa no parâmetro de URL e aponta para uma landing page de cancelamento de subscrição. Você precisa criar essa landing page e garantir que a decisão da pessoa de cancelar a inscrição seja transmitida ao Adobe.
+>Para email, se estiver usando um template transacional de perfis, o mecanismo de cancelamento de subscrição é manipulado pronto para uso pelo Campaign Standard. Basta adicionar um bloco de conteúdo **[!UICONTROL Unsubscription link]** no modelo ([saiba mais](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR)). Se estiver usando um template baseado em evento (rtEvent), você precisará adicionar, na mensagem, um link que passa o email da pessoa no parâmetro de URL e aponta para uma landing page de cancelamento de subscrição. É necessário criar essa landing page e garantir que a decisão da pessoa de cancelar a inscrição seja transmitida ao Adobe.
 
 Primeiro, você precisa escolher um template de mensagem transacional. Consulte [esta página](../building-journeys/about-action-activities.md).
 

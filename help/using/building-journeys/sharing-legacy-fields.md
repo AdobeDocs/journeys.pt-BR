@@ -6,14 +6,23 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c3667870-4aa5-4693-b6b7-ef2a3de8658e
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 50%
+source-wordcount: '91'
+ht-degree: 26%
 
 ---
 
 # Sobre campos herdados {#sharing-legacy-fields}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Esta categoria contém os campos de evento de etapa originais. Esses campos fazem parte dos seguintes grupos de campos:
 

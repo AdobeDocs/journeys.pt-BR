@@ -6,14 +6,25 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '367'
+ht-degree: 88%
 
 ---
 
 # Introdução{#concept_y4b_4qt_52b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
+
 
 No [!DNL Journey Orchestration] existem dois tipos de usuários, cada um deles com tarefas específicas: o **usuário técnico** e o **usuário empresarial**. O acesso do usuário é gerenciado por perfis de produtos e direitos. Consulte [esta página](../about/access-management.md) para aprender a configurar o acesso do usuário.
 

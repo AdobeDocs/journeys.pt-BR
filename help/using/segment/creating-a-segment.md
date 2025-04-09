@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: f84dc133-3b70-479e-b5be-a155d892fec0
-source-git-commit: 9db330405130b14d1d8a8cbed59f612fd1f6767b
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 12%
+source-wordcount: '171'
+ht-degree: 9%
 
 ---
 
 # Criação de um segmento {#creating-a-segment}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Você pode criar um segmento usando o [Serviço de Segmentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR) ou pode acessá-lo e criá-lo diretamente no [!DNL Journey Orchestration].
 

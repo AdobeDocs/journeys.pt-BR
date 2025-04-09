@@ -7,20 +7,30 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
-source-git-commit: a9a129b1949d64c4a412d3ea4002b32e3563ea96
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1084'
 ht-degree: 5%
 
 ---
 
 # Integração com sistemas externos {#external-systems}
 
-Esta página apresenta as diferentes medidas de proteção fornecidas pelo Journey Orchestration ao integrar um sistema externo, bem como as práticas recomendadas: como otimizar a proteção do sistema externo usando a API de limite, como configurar o tempo limite da jornada e como as tentativas funcionam.
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
+
+Esta página apresenta as diferentes medidas de proteção fornecidas pelo Journey Orchestration ao integrar um sistema externo, bem como as práticas recomendadas: como otimizar a proteção do sistema externo usando a API de limite, como configurar o tempo limite do jornada e como as tentativas funcionam.
 
 O Journey Orchestration permite configurar conexões com sistemas externos por meio de fontes de dados personalizadas e ações personalizadas. Isso permite, por exemplo, enriquecer suas jornadas com dados provenientes de um sistema de reservas externo ou enviar mensagens usando um sistema de terceiros, como Epsilon ou Facebook.
 
-Ao integrar um sistema externo, você pode encontrar vários problemas, o sistema pode ficar lento, pode parar de responder ou pode não ser capaz de lidar com um grande volume. O Journey Orchestration oferece várias medidas de proteção para proteger seu sistema contra sobrecarga.
+Ao integrar um sistema externo, você pode encontrar vários problemas, o sistema pode ficar lento, pode parar de responder ou pode não ser capaz de lidar com um grande volume. A Journey Orchestration oferece várias medidas de proteção para proteger seu sistema contra sobrecarga.
 
 Todos os sistemas externos são diferentes em termos de desempenho. Você precisa adaptar a configuração aos seus casos de uso.
 
@@ -34,7 +44,7 @@ Quando o Journey Orchestration executa uma chamada para uma API externa, as medi
 
 A API de limite integrada oferece uma proteção técnica de upstream que ajuda a proteger seu sistema externo.
 
-Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com o Adobe para incluir o endpoint no incluo na lista de permissões. Isso não é possível para fontes de dados externas públicas.
+Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com a Adobe para incluir o endpoint no arquivo de inclui na lista de permissões. Isso não é possível para fontes de dados externas públicas.
 
 Para ações personalizadas, é necessário avaliar a capacidade da API externa. Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e seu sistema suportar apenas 100 chamadas por segundo, será necessário definir uma regra de limitação para que seu sistema não fique saturado.
 
@@ -58,7 +68,7 @@ Durante o tempo limite definido, o Journey Orchestration tenta chamar o sistema 
 
 Cada tentativa usa um slot. Se você tiver um limite de 100 chamadas por segundo e cada uma das chamadas exigir duas tentativas, a taxa cai para 30 chamadas por segundo (cada chamada usa 3 slots: a primeira chamada e duas tentativas).
 
-O valor de duração do tempo limite depende do caso de uso. Se você quiser enviar a mensagem rapidamente, por exemplo, quando o cliente entrar na loja, não desejará configurar um tempo limite longo. Além disso, quanto maior for o tempo limite, mais itens serão colocados na fila. Isso pode afetar muito o desempenho. Se o Journey Orchestration executar 1000 chamadas por segundo, manter 5 ou 15 segundos de dados pode sobrecarregar rapidamente o sistema.
+O valor de duração do tempo limite depende do caso de uso. Se você quiser enviar a mensagem rapidamente, por exemplo, quando o cliente entrar na loja, não desejará configurar um tempo limite longo. Além disso, quanto maior for o tempo limite, mais itens serão colocados na fila. Isso pode afetar muito o desempenho. Se o Journey Orchestration realizar 1.000 chamadas por segundo, manter 5 ou 15 segundos de dados pode sobrecarregar rapidamente o sistema.
 
 Vamos ver um exemplo para um tempo limite de 5 segundos.
 

@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: f6897011-0a5e-4094-a18e-ba2aa25f902c
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1080'
 ht-degree: 3%
 
 ---
 
 # Métricas e dimensões {#concept_rfj_wpt_52b}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 >[!NOTE]
 >
@@ -33,8 +42,8 @@ A tabela abaixo fornece a lista de dimensões usadas nos relatórios do jornada,
 |--- |--- |
 | **Ação** | Lista de todas as ações (**nome da ação - rótulo da ação**) usadas nas jornadas, por exemplo: Push - Confirmação de check-out, Email - Fidelidade de recompensas. |
 | **Fonte de dados** | Lista de fontes de dados (**nome da fonte de dados**) usada para enriquecer dados em uma jornada, por exemplo, Adobe Experience Platform, Sistema de reserva. |
-| **[!UICONTROL Event]** | Lista de todos os eventos (**nome do evento - rótulo de evento**) usados em jornadas, por exemplo, Geometrixx - Geometrixx. |
-| **Grupo de campos** | Lista de grupos de campos (**nome do grupo de campos**) usados para enriquecer dados em jornadas, por exemplo, Grupo de campos de perfil, Sistema de reserva de Geometrixx. |
+| **[!UICONTROL Event]** | Lista de todos os eventos (**nome do evento - rótulo de evento**) usados no jornada, por exemplo, evento do Geometrixx - check-out do Geometrixx. |
+| **Grupo de campos** | Lista de grupos de campos (**nome do grupo de campos**) usados para enriquecer dados no jornada, por exemplo, Grupo de campos de perfil, Sistema de reservas do Geometrixx. |
 | **Jornada** | Lista de todas as jornadas (**nome da jornada**) em modo de teste e online, por exemplo, abandono de carrinho, notificação de reserva de hotel. |
 | **Versão do Jornada** | Lista de todas as versões publicadas de uma jornada (**Nome da jornada + número da versão**), por exemplo: Abandono de carrinho v1, Notificação de reserva de hotel v2. |
 | **Orquestração** | Lista de todas as atividades de orquestração (**Condition, End, Wait**) definidas e usadas em jornadas. |
@@ -58,7 +67,7 @@ A tabela abaixo fornece a lista de dimensões de entrega usadas nos relatórios 
 | **Rótulo da URL de rastreamento** | Rótulo fornecido ao URL, como mirror page, entre em contato conosco ou abra. |
 | **Variante** | Variante do email em caso de teste A/B. |
 
-## Jornada métricas {#MBE_p_p22_c4j_w2b}
+## Métricas de jornada {#MBE_p_p22_c4j_w2b}
 
 A tabela abaixo fornece a lista de métricas usadas nos relatórios do jornada, suas definições e fórmulas.
 

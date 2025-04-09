@@ -6,14 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
-source-git-commit: 052ecdeb0813dcc2c4c870e8ec6b12676fbf60f1
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1619'
 ht-degree: 4%
 
 ---
 
 # Testar a jornada{#testing_the_journey}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Antes de poder testar sua jornada, você deve resolver todos os erros, se houver. Consulte [esta seção](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
@@ -169,7 +178,7 @@ Para obter mais informações sobre como usar o modo de teste, consulte [esta p�
 
 ## Visualização dos logs {#viewing_logs}
 
-O botão **[!UICONTROL Show log]** permite exibir os resultados do teste. Esta página exibe as informações atuais da jornada no formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados do teste da jornada.
+O botão **[!UICONTROL Show log]** permite exibir os resultados do teste. Esta página exibe as informações atuais da jornada em formato JSON. Um botão permite copiar nós inteiros. É necessário atualizar manualmente a página para atualizar os resultados do teste da jornada.
 
 ![](../assets/journeytest3.png)
 
@@ -181,7 +190,7 @@ O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentr
 
 * _Id_: a ID interna do indivíduo na jornada. Ele pode ser usado para fins de depuração.
 * _currentstep_: a etapa em que o indivíduo está na jornada. Recomendamos adicionar rótulos às suas atividades para identificá-las mais facilmente.
-* _currentstep_ > fase: o status da jornada individual (em execução, concluída, com erro ou expirada). Consulte mais informações abaixo.
+* _currentstep_ > fase: o status da jornada do indivíduo (em execução, concluída, com erro ou expirada). Consulte mais informações abaixo.
 * _currentstep_ > _extraInfo_: descrição do erro e outras informações contextuais.
 * _currentstep_ > _fetchErrors_: informações sobre erros de busca de dados ocorridos durante esta etapa.
 * _externalKeys_: o valor da fórmula de chave definida no evento.
@@ -200,4 +209,4 @@ Quando um evento é acionado usando o modo de teste, um conjunto de dados é ger
 
 Quando um evento é acionado usando o modo de teste, um conjunto de dados é gerado automaticamente com o nome da origem.
 
-O modo de teste cria automaticamente um Evento de experiência e o envia para a Adobe Experience Platform. O nome da origem deste evento de experiência é &quot;Journey Orchestration Eventos de teste&quot;.
+O modo de teste cria automaticamente um Evento de experiência e o envia para a Adobe Experience Platform. O nome da origem deste evento de experiência é &quot;Eventos de teste da Journey Orchestration&quot;.

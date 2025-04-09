@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '451'
 ht-degree: 2%
 
 ---
 
 # Eventos de reação {#section_dhx_gss_dgb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 Entre as diferentes atividades de evento disponíveis na paleta, você encontrará o evento **[!UICONTROL Reactions]** integrado. Essa atividade permite que você reaja aos dados de rastreamento relacionados a uma mensagem enviada com atividades de email, SMS ou push na mesma jornada. Essas informações vêm de mensagens transacionais no Adobe Campaign Standard. Capturamos essas informações em tempo real no momento em que são compartilhadas com a Adobe Experience Platform. Para notificações por push, você pode reagir a mensagens clicadas, enviadas ou com falha. Para mensagens SMS, você pode reagir a mensagens enviadas ou com falha. Para emails, você pode reagir a mensagens clicadas, enviadas, abertas ou com falha.
 

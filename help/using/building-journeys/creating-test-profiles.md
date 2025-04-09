@@ -3,14 +3,23 @@ product: adobe campaign
 title: Criação de um perfil de teste
 description: Saiba mais sobre a criação de perfil de teste
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
-source-git-commit: fb6bdb60ac70a94a62956a306bedee9cb607e2a2
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '681'
 ht-degree: 3%
 
 ---
 
 # Criar perfis de teste {#create-test-profiles}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 Os perfis de teste são necessários ao usar o modo de teste em uma jornada. Para saber como usar o modo de teste, consulte [esta seção](../building-journeys/testing-the-journey.md).
 

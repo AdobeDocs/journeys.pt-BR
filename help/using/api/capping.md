@@ -7,15 +7,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 6f28e62d-7747-43f5-a360-1d6af14944b6
-source-git-commit: 861c6bd8ce65793b6009e220d88f105c75ea3008
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 29%
+source-wordcount: '599'
+ht-degree: 27%
 
 ---
 
 
 # Trabalhar com a API de limite {#work}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
 
 A API de limite ajuda a criar, configurar e monitorar as configurações de limite.
 

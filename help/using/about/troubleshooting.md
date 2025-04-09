@@ -6,14 +6,24 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
-source-git-commit: 185c2296a51f58e2092787edcc35ee9e4242bec8
+source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 95%
+source-wordcount: '1075'
+ht-degree: 81%
 
 ---
 
 # Solução de problemas{#concept_nlv_bcv_2fb}
+
+
+>[!CAUTION]
+>
+>**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>
+>
+>_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+
+
 
 Nesta seção, você descobrirá como solucionar problemas de jornadas antes de testar ou publicar. Todos os controles enumerados a seguir podem ser efetuados quando a jornada estiver em modo de teste ou mesmo ativa. Recomenda-se que todas as verificações a seguir sejam feitas no modo de teste, para então prosseguir com a publicação. Consulte [esta página](../building-journeys/testing-the-journey.md).
 
@@ -47,7 +57,7 @@ O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes u
 
 Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
 
-Eventos não são levados diretamente da origem ao [!DNL Journey Orchestration]. Na verdade, o [!DNL Journey Orchestration] depende das APIs de assimilação de streaming da Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) para obter a solução de problemas de APIs de assimilação de streaming.
+Eventos não são levados diretamente da origem ao [!DNL Journey Orchestration]. Na verdade, o [!DNL Journey Orchestration] depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) para obter a solução de problemas de APIs de assimilação de streaming.
 
 ## Verificação da entrada de pessoas na jornada{#section_x4v_zzs_dgb}
 
@@ -85,4 +95,4 @@ Se as pessoas físicas continuarem percorrendo o caminho certo na jornada, mas n
 * As mensagens transacionais levaram em conta corretamente a solicitação para enviar a mensagem. Um usuário comercial pode acessar a mensagem transacional que deve ser enviada e verificar se a hora da execução mais recente corresponde ao tempo de execução da sua jornada. Ele também pode verificar as chamadas/eventos de API mais recentes recebidos por mensagens transacionais.
 * As mensagens transacionais enviaram a mensagem com êxito. Você pode ver o status de cada execução nos registros de envio da mensagem transacional. Se é verde, vermelho e qual o problema. Um usuário empresarial pode acessar essa tela e enviar os registros a um administrador para fazer mais investigações.
 
-No caso de mensagem enviada através de ação personalizada, a única coisa a ser verificada durante o teste da jornada é o fato de a chamada do sistema da ação personalizada causar ou não um erro. Se a chamada para o sistema externo associada à ação personalizada não causar um erro, mas também não enviar a mensagem, algumas investigações devem ser feitas por parte do sistema externo.
+No caso de uma mensagem enviada por meio de uma ação personalizada, a única coisa que pode ser verificada durante o teste de jornada é o fato de a chamada do sistema da ação personalizada causar ou não um erro. Se a chamada para o sistema externo associada à ação personalizada não causar um erro, mas não enviar a mensagem, algumas investigações devem ser feitas por parte do sistema externo.
