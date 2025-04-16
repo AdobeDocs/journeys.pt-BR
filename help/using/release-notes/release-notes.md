@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 Esta página lista todos os novos recursos e melhorias do Journey Orchestration. Para recursos da Experience Platform, consulte as seguintes [notas de versão](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR).
 
-Para os recursos lançados após 2022, os links são diretos para a [documentação do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}.
+Para ver os recursos lançados depois de 2022, acesse os links que levam à [documentação do Adobe Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"}.
 
 ## Versão de março de 2024 {#mar-rn-2024}
 
@@ -69,7 +69,7 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 * Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=pt-BR#url-configuration){target="_blank"} do Journey Optimizer.
 * Novas medidas de proteção para gerenciar o crescimento das experiências oferecidas pelas jornadas:
    * Recomendamos que mantenha o número de nós limitado a 50 para assegurar o desempenho da jornada, a facilidade de leitura, o controle de qualidade e a solução de problemas. O número de atividades é exibido na seção superior esquerda da tela da jornada. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys){target="_blank"} do Journey Optimizer
-   * À medida que desenvolve e inicia jornadas, notificaremos quando se aproximar do marco de 100 jornadas ativas de uma só vez. Caso seus planos exijam mais de 100 jornadas por vez, crie um tíquete de suporte após ver a notificação e nós ajudaremos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys){target="_blank"} do Journey Optimizer
+   * À medida que desenvolve e inicia jornadas, notificaremos quando se aproximar do marco de 100 jornadas ativas de uma só vez. Caso seus planos exijam mais de 100 jornadas por vez, crie um tíquete para suporte depois de ver a notificação e nós ajudaremos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys){target="_blank"} do Journey Optimizer
 
 ## Versão de março de 2023 {#mar-2023}
 
@@ -78,7 +78,7 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 * A nova **API de limitação** permite definir um limite para o número de eventos enviados por segundo, evitando picos de tráfego grandes demais em sistemas externos ou APIs. Quando o limite definido é atingido, todas as chamadas de API subsequentes são enfileiradas e processadas o mais rápido possível, na ordem em que forem recebidas. Observe que esse recurso suporta apenas uma configuração de limitação em todas as suas sandboxes. [Saiba mais](../api/throttling.md)
 * A tela da jornada foi aperfeiçoada para oferecer uma experiência do usuário mais simples e polida. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora é possível adicionar suas atividades simplesmente arrastando-as para o final de um caminho.
 * Na tela da jornada, o rótulo da tag **Fim** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
-* O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=pt-BR#timeout){target="_blank"} do Journey Optimizer.
+* O tempo limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=pt-BR#timeout){target="_blank"} do Journey Optimizer. 
 * Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Os eventos enviados por uma ferramenta externa não são considerados. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=pt-BR){target="_blank"} do Journey Optimizer.
 
 ## Versão de fevereiro de 2023 {#feb-2023}
@@ -457,7 +457,7 @@ Agora o conteúdo dos eventos de qualificação de segmento contém as seguintes
 <ul>
 <li><p>O nome da atividade foi alterado para "Ler segmento". </p>
 </li>
-<li><p>A configuração do scheduler de jornada foi removida das propriedades da atividade. Agora ela pode ser acessada diretamente nas Propriedades da jornada, em uma seção dedicada que será exibida se uma atividade Ler segmento tiver sido colocada na tela. </p>
+<li><p>A configuração do programador de jornadas foi removida das propriedades da atividade. Agora ela pode ser acessada diretamente nas Propriedades da jornada, em uma seção dedicada que será exibida se uma atividade Ler segmento tiver sido colocada na tela. </p>
 </li>
 <li><p>Agora você pode testar a jornada em um perfil unitário e acompanhar seu progresso na jornada usando o fluxo visual.</p>
 </li>
