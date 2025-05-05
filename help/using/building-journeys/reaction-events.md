@@ -48,7 +48,7 @@ Estas são as diferentes etapas para configurar os eventos de reação:
 >
 >Os eventos de reação não podem rastrear emails, SMS ou ações de push que ocorrem em uma jornada diferente.
 >
->Os eventos de reação rastreiam cliques em links do tipo &quot;rastreado&quot; (consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Links de unsubscription e mirror pages não são considerados.
+>Os eventos de reação rastreiam cliques em links do tipo &quot;rastreado&quot; (consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=pt-BR#about-tracked-urls)). Links de unsubscription e mirror pages não são considerados.
 
 >[!IMPORTANT]
 >

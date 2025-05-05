@@ -16,7 +16,7 @@ Esse caso de uso mostrará como aproveitar as pontuações de fadiga para evitar
 
 >[!NOTE]
 >
->O recurso de pontuação de fadiga preditiva está disponível somente para clientes que usam o [Conector de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).
+>O recurso de pontuação de fadiga preditiva está disponível somente para clientes que usam o [Conector de dados do Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=pt-BR).
 
 ## Configuração do evento {#section_ptb_ws1_ffb}
 

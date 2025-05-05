@@ -79,7 +79,7 @@ Este é o esquema de compra com o relacionamento definido no campo ID do produto
 
 >[!NOTE]
 >
->Saiba mais sobre relações de esquema na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Saiba mais sobre relações de esquema na [documentação do Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=pt-BR).
 
 No Journey Orchestration, você pode aproveitar todos os campos das tabelas vinculadas:
 

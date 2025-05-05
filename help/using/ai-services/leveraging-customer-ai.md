@@ -24,7 +24,7 @@ ht-degree: 2%
 >_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
 
 
-A IA do cliente faz parte dos Serviços inteligentes. Isso ajuda a prever o que um cliente provavelmente fará. Consulte a [documentação](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
+A IA do cliente faz parte dos Serviços inteligentes. Isso ajuda a prever o que um cliente provavelmente fará. Consulte a [documentação](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=pt-BR).
 
 A IA do cliente permite que as marcas criem pontuações de conversão ou cancelamento baseadas em aprendizado de máquina, que estarão disponíveis como atributos de perfil nos perfis da Adobe Experience Platform (Perfil do cliente em tempo real).
 

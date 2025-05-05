@@ -30,16 +30,16 @@ Para testar e preparar sua integração, uma coleção do Postman está disponí
 
 Recomendamos seguir estas etapas para exportar e importar suas jornadas entre ambientes:
 
-1. Crie e atribua parâmetros a uma jornada no ambiente inicial. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html)
-1. Verifique se a versão do jornada não tem erros. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html)
+1. Crie e atribua parâmetros a uma jornada no ambiente inicial. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/about-journey-building/journey.html?lang=pt-BR)
+1. Verifique se a versão do jornada não tem erros. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/testing-the-journey.html?lang=pt-BR)
 1. Chame a API **/list/jornada** para recuperar a jornada de UID e a UID da sua versão mais recente do jornada. Se necessário, você pode ligar para **/jornada/`{uid}`/latest** para encontrar a UID da sua versão mais recente do jornada.
 1. Chame a API **export** com seus parâmetros de ambiente inicial (orgID e sandboxName).
 1. Abra a carga de retorno e verifique os seguintes itens:
    * Se sua jornada exportada contiver **credenciais específicas**, será necessário substituir essas credenciais pelas credenciais correspondentes ao novo ambiente.
-   * Se sua jornada exportada contiver **eventos** que apontem para um **esquema XDM**, você precisará atualizar manualmente a referência da ID do esquema com a ID do novo ambiente no nó xdmEntity se os valores das IDs forem diferentes. Essa atualização precisa ser feita para cada evento. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html)
+   * Se sua jornada exportada contiver **eventos** que apontem para um **esquema XDM**, você precisará atualizar manualmente a referência da ID do esquema com a ID do novo ambiente no nó xdmEntity se os valores das IDs forem diferentes. Essa atualização precisa ser feita para cada evento. [Mais informações aqui](https://experienceleague.adobe.com/docs/journeys/using/events-journeys/experience-event-schema.html?lang=pt-BR)
    * Se sua jornada contiver email, SMS ou ações de push, talvez seja necessário atualizar o nome do modelo ou o nome do mobileApp se o nome no ambiente de destino for diferente do seu ambiente de início.
 1. Chame a API **Import** com seus parâmetros de ambiente de destino (orgID e sandboxName). Observe que você pode chamar a API de importação quantas vezes desejar. A UUID e o nome de cada objeto contido na jornada são gerados sempre que você chama a API de importação.
-1. Depois que a Jornada for importada, você poderá publicá-la no aplicativo Journey Orchestration. Mais informações [aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html)
+1. Depois que a Jornada for importada, você poderá publicá-la no aplicativo Journey Orchestration. Mais informações [aqui](https://experienceleague.adobe.com/docs/journeys/using/building-journeys/publishing-the-journey.html?lang=pt-BR)
 
 
 ## Autenticação
@@ -57,7 +57,7 @@ O acesso à API Journey Orchestration é configurado de acordo com as etapas aba
 
 >[!CAUTION]
 >
->O método JWT para gerar tokens de acesso foi descontinuado. Todas as novas integrações devem ser criadas usando o [método de autenticação Servidor para Servidor do OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#select-oauth-server-to-server). A Adobe também recomenda migrar suas integrações existentes para o método OAuth.
+>O método JWT para gerar tokens de acesso foi descontinuado. Todas as novas integrações devem ser criadas usando o [método de autenticação Servidor para Servidor do OAuth](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=pt-BR#select-oauth-server-to-server). A Adobe também recomenda migrar suas integrações existentes para o método OAuth.
 >
 >Leia as seguintes documentações importantes:
 >[Guia de migração para seus aplicativos do JWT para o OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/),
