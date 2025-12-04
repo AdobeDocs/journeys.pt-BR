@@ -3,12 +3,12 @@ product: adobe campaign
 title: updateTimeZone
 description: Saiba mais sobre a função updateTimeZone
 feature: Journeys
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 2ce60ed2-161a-4b98-9694-eb47cc0e04a9
-source-git-commit: d5531d0aad22f33da2cc5612cc289c600411fd8c
+source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '57'
 ht-degree: 10%
 
 ---
@@ -40,7 +40,7 @@ Retorna um datetime.
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-Retorna 28T17:15:30.123+02:00.
+Retorna 28/08/2019:15:30.123+02:00.
 
 <!--`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
 Returns "2019-08-28T17:15:30.123+02:00".-->
