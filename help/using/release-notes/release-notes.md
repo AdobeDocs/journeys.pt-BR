@@ -723,4 +723,4 @@ Crie casos de uso de orquestração em tempo real usando dados contextuais armaz
 
 O Journey Orchestration permite a orquestração em tempo real com dados contextuais de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros. O aplicativo determina, em fluxos multi-fases chamados jornadas, as melhores próximas ações específicas para o consumidor, de acordo com o perfil e o comportamento. Inclui o momento ideal e o tipo de ação, como enviar ao consumidor uma notificação por push por meio dos recursos de mensagens transacionais do Adobe Campaign Standard (é preciso ter o Adobe Campaign Standard) ou a notificação de um sistema de terceiros. Essas decisões são tomadas com base em regras e pontuações de IA.
 
-[](../action/working-with-adobe-campaign.md)Saiba mais sobre o Journey Orchestration.
+[&#128279;](../action/working-with-adobe-campaign.md)Saiba mais sobre o Journey Orchestration.
