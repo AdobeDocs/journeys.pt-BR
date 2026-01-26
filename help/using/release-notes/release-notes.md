@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
 source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4452'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -139,7 +139,7 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 
 ## Versão de março de 2022 {#feb-2022-release}
 
-### Melhorias
+### Aprimoramentos
 
 * Para evitar campos desnecessários no esquema de perfil unificado, o esquema de eventos de etapas da jornada não é mais habilitado para perfis por padrão. Se necessário, você pode ativá-lo. [Saiba mais](../building-journeys/sharing-overview.md)
 * Os novos eventos de etapa relacionados aos processos de exportação agora são enviados pelo Journey Optimizer para a Adobe Experience Platform. Exemplos de consultas foram adicionados à documentação. [Saiba mais](../building-journeys/query-examples.md)
@@ -154,7 +154,7 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 
 ### Aprimoramentos
 
-* Os eventos de etapa do Journey Orchestration agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR){target="_blank"}. O campo **profileID**, no esquema integrado Evento de Etapas da Jornada, agora está definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
+* Os eventos de etapa do Journey Orchestration agora podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview){target="_blank"}. O campo **profileID**, no esquema integrado Evento de Etapas da Jornada, agora está definido como um campo de identidade. [Saiba mais](../building-journeys/sharing-overview.md#integration-cja)
 * A regra de limitação para ações do Adobe Campaign Standard foi alterada para 4000 chamadas / 5 minutos. [Leia mais](../action/working-with-adobe-campaign.md)
 
 ## Versão de outubro de 2021 {#october-2021-release}
@@ -195,7 +195,7 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 
 ## Versão de agosto de 2021 {#august-2021-release}
 
-### Melhorias
+### Aprimoramentos
 
 **Jornadas**
 
@@ -721,6 +721,6 @@ O Journey Orchestration agora está em disponibilidade geral.
 
 Crie casos de uso de orquestração em tempo real usando dados contextuais armazenados em eventos ou fontes de dados.
 
-O Journey Orchestration permite a orquestração em tempo real com dados contextuais de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros. O aplicativo determina, em fluxos multi-fases chamados jornadas, as melhores próximas ações específicas para o consumidor, de acordo com o perfil e o comportamento. Inclui o momento ideal e o tipo de ação, como enviar ao consumidor uma notificação por push por meio dos recursos de mensagens transacionais do Adobe Campaign Standard (é preciso ter o Adobe Campaign Standard) ou a notificação de um sistema de terceiros. Essas decisões são tomadas com base em regras e pontuações de IA.
+O Journey Orchestration permite a orquestração em tempo real com dados contextuais de eventos, informações da Adobe Experience Platform ou dados de serviços de API de terceiros. O aplicativo determina, em fluxos multi-fases chamados jornadas, as melhores próximas ações específicas para o consumidor, de acordo com o perfil e o comportamento. Inclui o momento ideal e o tipo de ação, como enviar ao consumidor uma notificação por push por meio dos recursos de mensagens transacionais do Adobe Campaign Standard (é preciso ter o Adobe Campaign Standard) ou a notificação de um sistema de terceiros. Essas decisões são tomadas com base em regras e pontuações da IA.
 
-[&#128279;](../action/working-with-adobe-campaign.md)Saiba mais sobre o Journey Orchestration.
+[Saiba mais](../action/working-with-adobe-campaign.md) sobre o Journey Orchestration.
