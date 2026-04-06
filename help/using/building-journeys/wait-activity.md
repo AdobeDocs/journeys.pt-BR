@@ -1,27 +1,27 @@
 ---
 product: adobe campaign
-title: Atividade Aguardar
+title: Atividade aguardar
 description: Saiba mais sobre a atividade de espera
 feature: Journeys
 role: User
 level: Intermediate
 exl-id: 819ff3c3-0e3e-4d86-b5d2-10c5b10d19e6
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 8%
+source-wordcount: '421'
+ht-degree: 20%
 
 ---
 
-# Atividade Aguardar{#section_rlm_nft_dgb}
+# Atividade aguardar{#section_rlm_nft_dgb}
 
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 
@@ -61,7 +61,8 @@ Essa opção permite definir uma data personalizada, por exemplo, 12 de julho de
 
 ![](../assets/journey57.png)
 
-<!--## Email send time optimization{#email_send_time_optimization}
+<!--
+## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
@@ -83,4 +84,5 @@ This type of wait uses a score calculated in the Adobe Experience Platform. The 
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](../assets/journey57bis.png)
+-->

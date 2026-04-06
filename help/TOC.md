@@ -5,10 +5,10 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 feature: Journeys
-source-git-commit: 137637a753ba44cc4f8e397b77c3fc076ec3de3f
+source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
    + [Notas de versão](using/release-notes/release-notes.md)
    + [Atualizações de documentação](using/release-notes/documentation-updates.md)
    + [Atualização para Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
-+ Primeiros passos com o [!DNL Journey Orchestration] {#starting-with-journeys}
++ Começando com [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Sobre o  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitações](using/about/limitations.md)
    + [Introdução](using/about/get-started.md)
@@ -34,7 +34,7 @@ ht-degree: 100%
       + [Ciclo de dados](using/event/about-data-cycle.md)
       + [Criação de um evento](using/event/about-creating.md)
       + [Aproveitar o Adobe Analytics](using/event/about-analytics.md)
-      + [Sobre esquemas ExperienceEvent](using/event/experience-event-schema.md)
+      + [Sobre esquemas de ExperienceEvent](using/event/experience-event-schema.md)
       + [Etapas adicionais para enviar eventos](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
    + [Definir os campos de carga](using/event/defining-the-payload-fields.md)
    + [Selecionar o namespace](using/event/selecting-the-namespace.md)
@@ -49,16 +49,16 @@ ht-degree: 100%
    + [Sobre ações](using/action/action.md)
    + [Trabalhar com o Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
    + [Trabalhar com o Adobe Campaign v7/v8](using/action/acc-action.md)
-   + Usar um sistema de terceiros {#action-third-party}
+   + Uso de um sistema de terceiros {#action-third-party}
       + [Sobre a configuração de ação personalizada](using/action/about-custom-action-configuration.md)
       + [Configurar o URL](using/action/url-configuration.md)
       + [Definição dos parâmetros de ação](using/action/defining-the-message-parameters.md)
-+ Utilização de segmentos {#configuring-segment}
++ Uso de segmentos {#configuring-segment}
    + [Sobre segmentos](using/segment/about-segments.md)
    + [Criação de um segmento](using/segment/creating-a-segment.md)
    + [Uso de segmentos em condições](using/segment/using-a-segment.md)
-+ Construir uma jornada {#building-journeys}
-   + Sobre a construção de jornada {#about-journey-building}
++ Criação de uma jornada {#building-journeys}
+   + Sobre a criação de jornadas {#about-journey-building}
       + [Criar uma jornada](using/building-journeys/journey.md)
       + [Usar o designer de jornada](using/building-journeys/using-the-journey-designer.md)
       + [Alterar propriedades](using/building-journeys/changing-properties.md)
@@ -75,10 +75,10 @@ ht-degree: 100%
       + Atividades de orquestração {#orchestration-activities}
          + [Sobre atividades de orquestração](using/building-journeys/about-orchestration-activities.md)
          + [Atividade de condição](using/building-journeys/condition-activity.md)
-         + [Terminar atividade](using/building-journeys/end-activity.md)
-         + [Atividade Aguardar](using/building-journeys/wait-activity.md)
+         + [Atividade de término](using/building-journeys/end-activity.md)
+         + [Atividade aguardar](using/building-journeys/wait-activity.md)
       + Atividades de ação {#action-activities}
-         + [Sobre atividades de ação](using/building-journeys/about-action-activities.md)
+         + [Sobre as atividades de ação](using/building-journeys/about-action-activities.md)
          + [Uso do Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-actions.md)
          + [Uso do Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
          + [Usar ações personalizadas](using/building-journeys/using-custom-actions.md)
@@ -86,10 +86,10 @@ ht-degree: 100%
          + [Atualizar perfil](using/building-journeys/update-profiles.md)
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
-   + Compartilhamento de etapas de jornada com a Adobe Experience Platform {#sharing-journey-steps}
+   + Compartilhamento de etapas do jornada com a Adobe Experience Platform {#sharing-journey-steps}
       + [Visão geral do compartilhamento de etapas da jornada](using/building-journeys/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/building-journeys/sharing-field-list.md)
-      + Campos de evento de etapa herdado {#legacy-step-event-fields}
+      + Campos de eventos de etapas herdados {#legacy-step-event-fields}
          + [Sobre campos herdados](using/building-journeys/sharing-legacy-fields.md)
          + [campos comuns de eventos journeySteps](using/building-journeys/sharing-common-fields.md)
          + [campos de execução de ação de eventos journeyStep](using/building-journeys/sharing-execution-fields.md)
@@ -197,7 +197,7 @@ ht-degree: 100%
       + [Configuração do evento](using/usecase/configuring-the-event.md)
       + [Configuração da fonte de dados](using/usecase/configuring-the-data-source.md)
       + [Construção da jornada](using/usecase/simple-uc-building-the-journey.md)
-   + Construção de uma jornada entre canais{#use-case-advanced}
+   + Criação de uma jornada entre canais{#use-case-advanced}
       + [Sobre o caso de uso avançado](using/usecase/about-the-advanced-use-case.md)
       + [Configuração de eventos](using/usecase/configuring-the-events.md)
       + [Configuração de fontes de dados](using/usecase/configuring-the-data-sources.md)

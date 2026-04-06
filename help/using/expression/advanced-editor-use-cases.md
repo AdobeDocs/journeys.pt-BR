@@ -6,10 +6,10 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: 724ae59e-d1b5-4de9-b140-d37064e22ac6
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 9%
+source-wordcount: '554'
+ht-degree: 10%
 
 ---
 
@@ -45,9 +45,11 @@ Por exemplo, digamos que você queira direcionar os clientes com um abandono de 
 
 Primeiro de tudo, clientes-alvo que navegaram na loja online, mas não finalizaram o pedido nos últimos sete dias.
 
-<!--**This expression looks for a specified value in a string value:**
+<!--
+**This expression looks for a specified value in a string value:**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
+-->
 
 **Esta expressão procura todos os eventos para este usuário especificado nos últimos 7 dias:**
 
@@ -154,4 +156,4 @@ substr(
 
 Explicação: Este exemplo usa as funções `substr` e `lastIndexOf` para remover chaves que delimitam a ID do CRM transmitida com um evento de inicialização de aplicativo móvel.
 
-Para obter mais informações sobre como usar o editor de expressão avançado, assista a [este vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html?lang=pt-BR).
+Para obter mais informações sobre como usar o editor de expressão avançado, assista a [este vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).

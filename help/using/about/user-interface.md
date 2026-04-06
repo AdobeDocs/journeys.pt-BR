@@ -6,10 +6,10 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: 0d0e74c7-6cb0-4068-a69a-3c01f8b3552d
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+source-git-commit: 58514d6757f9705f5baa71cfbbe0bdfe65c8e16c
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 83%
+source-wordcount: '988'
+ht-degree: 87%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 ## Acesso ao [!DNL Journey Orchestration]{#accessing_journey_orchestration}
@@ -78,9 +78,9 @@ Nas diferentes listas, é possível executar ações básicas em cada elemento. 
 
 ## Navegação pelos campos do Adobe Experience Platform {#friendly-names-display}
 
-Ao definir a [carga útil do evento](../event/defining-the-payload-fields.md), [carga útil do grupo de campo](../datasource/field-groups.md) e selecionar campos no [editor de expressões](../expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do schema no modelo de dados de experiência.
+Ao definir a [carga útil do evento](../event/defining-the-payload-fields.md), [carga útil do grupo de campo](../datasource/field-groups.md) e selecionar campos no [editor de expressões](../expression/expressionadvanced.md), o nome de exibição é exibido além do nome do campo. Essas informações são recuperadas a partir da definição do schema no Experience Data Model.
 
-Se descritores como &quot;xdm:alternateDisplayInfo&quot; forem fornecidos durante a configuração de schemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos. Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR).
+Se descritores como &quot;xdm:alternateDisplayInfo&quot; forem fornecidos durante a configuração de esquemas, os nomes de usuário simples substituirão os nomes de exibição. É especialmente útil ao trabalhar com &quot;eVars&quot; e campos genéricos.Você pode configurar descritores de nome amigáveis por meio de uma chamada de API. Para obter mais informações, consulte o [guia do desenvolvedor do Registro de Esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR).
 
 ![](../assets/xdm-from-descriptors.png)
 
@@ -104,7 +104,7 @@ Você pode usar estes atalhos de teclado comuns no Adobe Journey Optimizer:
 
 | Ação | Atalho |
 | --- | --- |
-| Mover entre elementos da interface do usuário, seções e grupos de menu | Guia |
+| Mover entre elementos da interface do usuário, seções e grupos de menu | Tabulação |
 | Retroceder entre elementos da interface do usuário, seções e grupos de menu | Shift + Tab |
 | Mover dentro de seções para definir o foco de elementos individuais | Seta |
 | Selecionar ou limpar um elemento em foco | Enter ou Barra de espaço |
@@ -154,7 +154,7 @@ Painel de configuração destes elementos:
 
 </td>
     <td>Mover para o próximo campo a ser configurado</td>
-    <td>Guia</td>
+    <td>Tabulação</td>
   </tr>
   <tr>
     <td>Salve as alterações e feche o painel de configuração</td>
@@ -185,7 +185,8 @@ Acione um evento em uma jornada baseada em segmento para a qual a opção **[!UI
     <td>Exibir os logs de teste</td>
     <td>L</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+//Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>
