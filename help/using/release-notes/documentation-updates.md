@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+source-git-commit: 331d2797093c7287c317fd398c74e04613896f01
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 99%
@@ -136,7 +136,7 @@ Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](
 
 * Todas as capturas de tela foram atualizadas para divulgar as alterações na interface.
 * A seção do modo de teste foi atualizada. [Leia mais](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=pt-BR).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Agora, as jornadas interrompidas podem ser excluídas. As páginas de documentação relacionadas foram atualizadas.
 * Agora, duas cores são exibidas quando problemas são detectados em uma jornada. Vermelho para erros e laranja para avisos. [Leia mais](../about/troubleshooting.md)
 * A seção do editor de expressão avançado foi atualizada. [Leia mais](../expression/expressionadvanced.md).
