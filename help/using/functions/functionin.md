@@ -1,6 +1,6 @@
 ---
 product: adobe campaign
-title: false
+title: "no"
 description: Saiba mais sobre a função em
 feature: Journeys
 role: Developer
