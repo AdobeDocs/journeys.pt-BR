@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2115ab1d-1084-4429-8315-0357c8525c47
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >title="Sobre eventos"
 >abstract="Um evento está vinculado a uma pessoa. Relaciona-se com o comportamento de uma pessoa ou com algo que acontece ligado a uma pessoa. É o que o [!DNL Journey Orchestration] considera nas jornadas para orquestrar as melhores ações futuras."
 
-Um evento está vinculado a uma pessoa. Ele se refere ao comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site etc.) ou a um acontecimento relacionado a uma pessoa (por exemplo, uma pessoa acumulou 10 mil pontos de fidelidade). É o que o [!DNL Journey Orchestration] considera nas jornadas para orquestrar as melhores ações futuras.
+Um evento está vinculado a uma pessoa. Relaciona-se com o comportamento de uma pessoa (por exemplo, uma pessoa comprou um produto, visitou uma loja, saiu de um site, etc.) ou algo que acontece vinculado a uma pessoa (por exemplo, uma pessoa atingiu 10.000 pontos de fidelidade). É o que o [!DNL Journey Orchestration] considera nas jornadas para orquestrar as melhores ações futuras.
 
 Essa configuração é **obrigatória**, pois o [!DNL Journey Orchestration] foi projetado para acompanhar eventos e sempre ser executado por um **usuário técnico**.
 
@@ -48,6 +48,6 @@ Você pode definir dois tipos de eventos:
 
 * **Eventos gerados pelo sistema**: esses eventos exigem uma eventID. Esse campo eventID é gerado automaticamente ao criar o evento. O sistema que envia o evento não deve gerar uma ID, mas sim passar a disponível na pré-visualização de carga.
 
-O Journey Orchestration exige que os eventos sejam transmitidos ou armazenados em lote na Adobe Experience Platform. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação ou pesquisa em uma jornada separada, recomendamos ativar o conjunto de dados para perfil.
+O Journey Orchestration exige que os eventos sejam transmitidos ou armazenados em lote na Adobe Experience Platform. Esses dados não precisam necessariamente acessar o Perfil em tempo real. Se você quiser usar os eventos para segmentação ou pesquisa em uma jornada separada, recomendamos habilitar o conjunto de dados para perfil.
 
 Para saber como criar um evento, consulte esta [página](../event/about-creating.md).

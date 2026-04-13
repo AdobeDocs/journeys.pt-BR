@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 9b666c15-2215-4ca5-bc72-40109749dc15
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 88%
+source-wordcount: '1390'
+ht-degree: 91%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 88%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 Fontes de dados externas permitem definir uma conexão com sistemas de terceiros, por exemplo, se você estiver usando um sistema de reserva de hotel para verificar se a pessoa reservou um quarto. Ao contrário da fonte de dados integrada da Adobe Experience Platform, você pode criar quantas fontes de dados externas forem necessárias.
@@ -68,7 +68,7 @@ Estas são as principais etapas para criar e configurar uma nova fonte de dados 
    * **[!UICONTROL Type]**: &quot;Chave de API&quot;
    * **[!UICONTROL Value]**: &quot;1234&quot; (este é o valor da nossa chave de API)
    * **[!UICONTROL Name]**: &quot;appid&quot; (este é o nome do parâmetro da chave de API)
-   * **[!UICONTROL Location]**: &quot;Parâmetro de query&quot; (a chave de API está localizada no URL)
+   * **[!UICONTROL Location]**: &quot;Parâmetro de consulta&quot; (a chave de API está localizada no URL)
 
    ![](../assets/journey28.png)
 
@@ -140,7 +140,7 @@ A definição da forma como o token de acesso deve ser inserido na solicitação
 
 * tokenInResponse: indica como extrair o token de acesso da chamada de autenticação. Essa propriedade pode ser:
    * &#39;response&#39;: indica que a resposta HTTP é o token de acesso
-   * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;path to the access token property>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será: _json: //access_token_
+   * um seletor em um json (supondo que a resposta seja um json, não oferecemos suporte a outros formatos, como XML). O formato desse seletor é _json://&lt;path to the access token property>_. Por exemplo, se a resposta da chamada for: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656 }_, o tokenInResponse será:_ json: //access_token_
 
 O formato dessa autenticação é:
 

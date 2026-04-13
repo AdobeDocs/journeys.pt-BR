@@ -5,10 +5,10 @@ title: Guia do Journey Orchestration
 user-guide-description: Fornece instruções passo a passo para implementar e criar jornadas.
 index: true
 feature: Journeys
-source-git-commit: 517aedc8568a9988a56fe5a0ebd08cf4bf593bb8
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 87%
 + [Documentação do produto](journey-orchestration-home.md)
 + Novidades {#release-notes}
    + [Notas de versão](using/release-notes/release-notes.md)
-   + [Atualizações de documentação](using/release-notes/documentation-updates.md)
-   + [Atualização para Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
+   + {hide-from-toc}[Atualizações de documentação](using/release-notes/documentation-updates.md)
+   + {hide-from-toc}[Atualizar para o Journey Optimizer](using/release-notes/upgrade-to-ajo.md)
 + Começando com [!DNL Journey Orchestration] {#starting-with-journeys}
    + [Sobre o  [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
    + [Limitações](using/about/limitations.md)

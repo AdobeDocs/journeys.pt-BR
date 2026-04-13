@@ -6,12 +6,11 @@ feature: Journeys
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 4f6c5f9326b4d1cc4a1a02a036b51e4ad1ae68c4
-workflow-type: ht
-source-wordcount: '992'
-ht-degree: 100%
+source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
+workflow-type: tm+mt
+source-wordcount: '994'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +30,7 @@ Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](
 
 ## Março de 2022 {#march-2022}
 
-* Adição de um exemplo sobre como adicionar uma expressão como valor padrão no editor de expressão. [Saiba mais](../expression/field-references.md#default-value)
+* Adição de um exemplo sobre como adicionar uma expressão como valor padrão no editor de expressão. [Leia mais](../expression/field-references.md#default-value)
 
 ## Fevereiro de 2022 {#feb-2022}
 
@@ -68,7 +67,7 @@ Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](
 
 ## Outubro de 2020 {#october-2020}
 
-* Foram adicionadas informações sobre como configurar um tempo limite para um evento. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
+* Foram adicionadas informações sobre como configurar um tempo-limite para um evento. [Leia mais](../building-journeys/event-activities.md#listening-to-events-during-a-specific-time).
 
 ## Setembro de 2020 {#september-2020}
 
@@ -86,7 +85,7 @@ Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](
 * A seção de atividades de eventos foi reorganizada em subseções dedicadas a cada tipo de evento. [Leia mais](../building-journeys/event-activities.md)
 * Adição de práticas recomendadas para evitar sobrecarga com a qualificação de segmento. [Leia mais](../building-journeys/segment-qualification-events.md#speed-segment-qualification)
 * Adição de uma observação explicativa sobre como uma jornada pode continuar após um erro em uma ação ou condição. [Leia mais](../about/troubleshooting.md#section_h3q_kqk_fhb)
-* Adição de uma nova seção sobre os recursos Alfa que são testados entre um conjunto limitado de clientes.
+* Adição de uma nova seção sobre os recursos alpha que são testados entre um conjunto limitado de clientes.
 * Adição de uma nova seção sobre a integração com os Serviços inteligentes. [Leia mais](../ai-services/ai-services-overview.md)
 * Adição de uma nova seção sobre a criação do perfil de teste. [Leia mais](../building-journeys/testing-the-journey.md)
 * Adição de informações sobre como usar o nó **[!UICONTROL SegmentQualification]** em uma condição de jornada ou ação. [Leia mais](../building-journeys/segment-qualification-events.md)
@@ -105,7 +104,7 @@ Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](
 
 ## Abril de 2020 {#april-2020}
 
-* Adição de uma nova seção sobre a definição do schema do evento da experiência para ajudar os usuários a configurar o primeiro evento. [Leia mais](../event/experience-event-schema.md)
+* Adição de uma nova seção sobre a definição do esquema do evento da experiência para ajudar os usuários a configurar o primeiro evento. [Leia mais](../event/experience-event-schema.md)
 * A home page da documentação do [!DNL Journey Orchestration] foi atualizada com links úteis adicionais. [Leia mais](../../journey-orchestration-home.md)
 
 ## Março de 2020 {#march-2020}
