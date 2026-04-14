@@ -9,7 +9,7 @@ level: Beginner
 exl-id: b1964a3c-9ed4-4ec4-b399-567b1d6a120f
 source-git-commit: 9fb1f031df4084b78cfca8a693098a36bfb51435
 workflow-type: ht
-source-wordcount: '206'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -29,14 +29,14 @@ ht-degree: 100%
 * **[O que é o Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>
 Saiba mais sobre o Journey Orchestration.
 
-* **[Construir a primeira jornada](using/about/get-started.md)**<br/>
-Descubra os principais passos para configurar o Journey Orchestration e construir sua primeira jornada.
+* **[Crie sua primeira jornada](using/about/get-started.md)**<br/>
+Descubra as principais etapas para configurar o Journey Orchestration e criar sua primeira jornada.
 
 * **[Configurar um evento](using/event/about-events.md#section_tbk_5qt_pgb)**<br/>
-Saiba como configurar os eventos que suas jornadas vão ouvir.
+Aprenda a configurar os eventos que suas jornadas monitoram.
 
-* **[Descubra as novidades](using/release-notes/release-notes.md)**<br/>
-Descubra detalhes sobre as últimas versões.
+* **[Conheça as novidades](using/release-notes/release-notes.md)**<br/>
+Saiba mais sobre os lançamentos mais recentes.
 
 ## Páginas principais
 
@@ -49,7 +49,7 @@ Descubra detalhes sobre as últimas versões.
     <div>
     <a href="using/about/troubleshooting.md"><strong>Solução de problemas</strong></a>
     </div>
-    <em>Descubra as várias ferramentas que você pode usar para solucionar problemas em jornadas.</em>
+    <em>Conheça as diversas ferramentas que você pode usar para depurar as jornadas.</em>
     <br>
   </td>
   <td valign="top">
@@ -59,7 +59,7 @@ Descubra detalhes sobre as últimas versões.
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>Caso de uso</strong></a>
     </div>
-    <em>Saiba como criar uma jornada avançada passo a passo.</em>
+    <em>Aprenda como criar uma jornada avançada passo a passo.</em>
     <br>
   </td>
   <td valign="top">
@@ -69,7 +69,7 @@ Descubra detalhes sobre as últimas versões.
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>Criar expressões avançadas</strong></a>
     </div>
-    <em>Saiba como criar expressões complexas aproveitando dados de eventos e fontes de dados. </em>
+    <em>Aprenda como criar expressões complexas usando dados de eventos e fontes de dados. </em>
     <br>
   </td>
 </tr>
@@ -77,11 +77,11 @@ Descubra detalhes sobre as últimas versões.
 
 ## Recursos adicionais
 
-* [Página do produto Journey Orchestration](https://www.adobe.com/fr/experience-platform/journey-orchestration.html)
+* [Página do produto Journey Orchestration](https://www.adobe.com/br/experience-platform/journey-orchestration.html)
 * [Documentação da Experience Platform](https://www.adobe.com/br/experience-platform/documentation-and-developer-resources.html)
-* [Documentação de Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR)
-* [Definir campo XDM da Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=pt-BR)
-* [Documentação de Namespace de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR)
-* [APIs de ingestão de fluxo](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR)
-* [Documentação de mensagens transacionais do Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=pt-BR)
+* [Documentação do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/home)
+* [Definição do campo XDM da Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
+* [Documentação de namespace de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=pt-BR)
+* [APIs de ingestão de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/streaming/overview)
+* [Documentação de mensagens transacionais do Campaign Standard](https://experienceleague.adobe.com/pt-br/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg)
 
