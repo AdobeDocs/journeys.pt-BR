@@ -8,7 +8,7 @@ feature: Journeys
 source-git-commit: ecdfc92fc1516c55b2d16d270094e637a4245483
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 86%
    + [Gerenciamento de acesso](using/about/access-management.md)
    + [Solução de problemas](using/about/troubleshooting.md)
    + [Integração com sistemas externos](using/about/external-systems.md)
-+ Configurar um evento {#events-journeys}
++ Configuração de um evento {#events-journeys}
    + Sobre eventos {#about-events}
       + [Princípio geral](using/event/about-events.md)
       + [Ciclo de dados](using/event/about-data-cycle.md)
@@ -40,12 +40,12 @@ ht-degree: 86%
    + [Selecionar o namespace](using/event/selecting-the-namespace.md)
    + [Definir a chave de evento](using/event/defining-the-event-key.md)
    + [Visualizar a carga](using/event/previewing-the-payload.md)
-+ Configurar uma fonte de dados {#data-source-journeys}
++ Configuração da fonte de dados {#data-source-journeys}
    + [Sobre fontes de dados](using/datasource/about-data-sources.md)
    + [Grupos de campos](using/datasource/field-groups.md)
    + [Fonte de dados da Adobe Experience Platform](using/datasource/adobe-experience-platform-data-source.md)
    + [Fontes de dados externas](using/datasource/external-data-sources.md)
-+ Configurar uma ação {#action-journeys}
++ Configuração de uma ação {#action-journeys}
    + [Sobre ações](using/action/action.md)
    + [Trabalhar com o Adobe Campaign Standard](using/action/working-with-adobe-campaign.md)
    + [Trabalhar com o Adobe Campaign v7/v8](using/action/acc-action.md)
@@ -86,7 +86,7 @@ ht-degree: 86%
          + [Atualizar perfil](using/building-journeys/update-profiles.md)
    + [Testar a jornada](using/building-journeys/testing-the-journey.md)
    + [Publicar a jornada](using/building-journeys/publishing-the-journey.md)
-   + Compartilhamento de etapas do jornada com a Adobe Experience Platform {#sharing-journey-steps}
+   + Compartilhamento de etapas de jornada com a Adobe Experience Platform {#sharing-journey-steps}
       + [Visão geral do compartilhamento de etapas da jornada](using/building-journeys/sharing-overview.md)
       + [Lista de campos de evento de etapa](using/building-journeys/sharing-field-list.md)
       + Campos de eventos de etapas herdados {#legacy-step-event-fields}
@@ -188,7 +188,7 @@ ht-degree: 86%
    + [Sobre relatórios de jornada](using/reporting/about-journey-reports.md)
    + [Criação de relatórios de jornada](using/reporting/creating-your-journey-reports.md)
    + [Métricas e dimensões](using/reporting/metrics-and-dimensions.md)
-+ Integração com serviços inteligentes{#use-case-advanced}
++ Integração com os serviços inteligentes{#use-case-advanced}
    + [Sobre a integração de IA](using/ai-services/ai-services-overview.md)
    + [Aproveitamento da IA do cliente](using/ai-services/leveraging-customer-ai.md)
 + Casos de uso{#use-cases-journeys}
