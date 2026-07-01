@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: be413905-0631-4229-a954-80a92651206d
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 4%
+source-wordcount: '1641'
+ht-degree: 10%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 Antes de poder testar sua jornada, você deve resolver todos os erros, se houver. Consulte [esta seção](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 É possível testar sua jornada antes de sua publicação, usando perfis de teste. Isso permite analisar como as pessoas fluem na jornada e solucionam problemas antes da publicação.
 
-Somente perfis de teste podem inserir uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Consulte esta [seção](../building-journeys/creating-test-profiles.md).
+Somente perfis de teste podem entrar em uma jornada no modo de teste. Você pode criar um novo perfil de teste ou transformar um perfil existente em um perfil de teste. Consulte esta [seção](../building-journeys/creating-test-profiles.md).
 
 Para usar o modo de teste, siga estas etapas:
 
@@ -194,7 +194,7 @@ O número de indivíduos (tecnicamente chamados de instâncias) atualmente dentr
 * _currentstep_ > _extraInfo_: descrição do erro e outras informações contextuais.
 * _currentstep_ > _fetchErrors_: informações sobre erros de busca de dados ocorridos durante esta etapa.
 * _externalKeys_: o valor da fórmula de chave definida no evento.
-* _enrichedData_: os dados que a jornada jornada recuperou se ela usa fontes de dados.
+* _enrichedData_: os dados que a jornada recuperou se ela usa fontes de dados.
 * _transitionHistory_: a lista de etapas seguidas pelo indivíduo. Para eventos, a carga é exibida.
 * _actionExecutionErrors_ : informações sobre os erros ocorridos.
 
