@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 93768321-b171-4338-a440-6ea189a85a4a
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 1%
+source-wordcount: '796'
+ht-degree: 7%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 
@@ -70,8 +70,7 @@ Essas guias fornecem acesso aos seguintes itens:
 
 ## Jornada modelo de resumo {#ootb-template}
 
-Os relatórios são divididos em duas categorias: um modelo pronto para uso e relatórios personalizados.
-O modelo pronto para uso, **[!UICONTROL Journey summary]**, fornece uma visão clara dos dados de rastreamento mais importantes.
+Os relatórios são divididos em duas categorias: um modelo pronto para uso e relatórios personalizados.O modelo pronto para uso, **[!UICONTROL Journey summary]**, fornece uma visão clara dos dados de rastreamento mais importantes.
 
 ![](../assets/dynamic_report_journey_8.png)
 
