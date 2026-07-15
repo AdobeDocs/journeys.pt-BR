@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 95ca5fdb-38b7-47a0-b1a9-b1b26bf8e5f5
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 3%
+source-wordcount: '546'
+ht-degree: 15%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 O [!DNL Journey Orchestration] envia automaticamente dados de desempenho do jornada para a Adobe Experience Platform para que ele possa ser combinado com outros dados para fins de análise.
@@ -61,13 +61,13 @@ Os seguintes conjuntos de dados são transmitidos:
 As listas de campos XDM transmitidas para o Adobe Experience Platform estão detalhadas aqui:
 
 * [Lista de campos de evento de etapa](../building-journeys/sharing-field-list.md)
-* [Campos de evento de etapa herdado](../building-journeys/sharing-legacy-fields.md)
+* [Campos de eventos de etapas herdados](../building-journeys/sharing-legacy-fields.md)
 
 
 ## Integração com o Customer Jornada Analytics{#integration-cja}
 
-Os eventos de etapa do Journey Orchestration podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=pt-BR). Este é o workflow geral:
+Os eventos de etapa do Journey Orchestration podem ser vinculados a outros conjuntos de dados no [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview). Este é o workflow geral:
 
 * A Customer Journey Analytics assimila o conjunto de dados &quot;Jornada evento de etapa&quot;.
 * O campo **profileID** no esquema associado de &quot;Evento de Etapa de Jornada para Journey Orchestration&quot; está definido como um campo de Identidade. No Customer Journey Analytics, você pode vincular esse conjunto de dados a qualquer outro que tenha o mesmo valor que o identificador com base em pessoa.
-* Se você quiser usar esse conjunto de dados no Customer Journey Analytics, para análise de jornada entre canais, consulte esta [documentação](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=pt-BR).
+* Se você quiser usar esse conjunto de dados no Customer Journey Analytics, para análise de jornada entre canais, consulte esta [documentação](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
