@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 83%
+source-wordcount: '933'
+ht-degree: 88%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 83%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 
@@ -34,7 +34,7 @@ Eles podem ser gerenciados por administradores com acesso à Admin Console. Para
 Para acessar o [!DNL Journey Orchestration], o usuário deve ser:
 
 * parte de um [!DNL Journey Orchestration] **[!UICONTROL product profile]** associado às permissões [!DNL Journey Orchestration].
-* parte de um [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. Não há uma permissão obrigatória. O usuário deve ter a permissão **[!UICONTROL profile management]** para criar e editar segmentos da plataforma na interface do [!DNL Journey Orchestration]. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR#adobe-admin-console).
+* parte de um [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. Não há uma permissão obrigatória. O usuário deve ter a permissão **[!UICONTROL profile management]** para criar e editar segmentos da plataforma na interface do [!DNL Journey Orchestration]. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
 No Admin Console, você pode atribuir um dos seguintes perfis de produto prontos para uso aos usuários:
 

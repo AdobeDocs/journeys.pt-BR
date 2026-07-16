@@ -5,8 +5,8 @@ description: Saiba mais sobre a criação de perfil de teste
 exl-id: f1be46a8-04b9-4f40-b18e-9099099d2e1c
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '745'
+ht-degree: 11%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 Os perfis de teste são necessários ao usar o modo de teste em uma jornada. Para saber como usar o modo de teste, consulte [esta seção](../building-journeys/testing-the-journey.md).
 
-Há diferentes maneiras de criar um perfil de teste no Adobe Experience Platform. Nesta documentação, enfocamos dois métodos: carregar um [arquivo csv](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) e usar [chamadas de API](../building-journeys/creating-test-profiles.md#create-test-profiles-api). Também é possível carregar um arquivo json em um conjunto de dados. Consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=pt-BR#add-data-to-dataset).
+Há diferentes maneiras de criar um perfil de teste no Adobe Experience Platform. Nesta documentação, enfocamos dois métodos: carregar um [arquivo csv](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) e usar [chamadas de API](../building-journeys/creating-test-profiles.md#create-test-profiles-api). Também é possível carregar um arquivo json em um conjunto de dados. Consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
 
 Esses métodos de importação também permitem atualizar os atributos do perfil. Dessa forma, você pode transformar um perfil existente em um perfil de teste. Basta usar um arquivo semelhante ou uma chamada de API e incluir apenas o campo &quot;testProfile&quot; com o valor &quot;true&quot;.
 
@@ -56,7 +56,7 @@ A lista de mixins é exibida na tela de visão geral do schema.
 
 >[!NOTE]
 >
->Para obter mais informações sobre a criação de esquemas, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=pt-BR#prerequisites).
+>Para obter mais informações sobre a criação de esquemas, consulte a [documentação XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites).
 
 Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serão importados. Siga estas etapas:
 
@@ -73,7 +73,7 @@ Em seguida, é necessário **criar o conjunto de dados** no qual os perfis serã
 
 >[!NOTE]
 >
-> Para obter mais informações sobre a criação do conjunto de dados, consulte a [documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=pt-BR#getting-started).
+> Para obter mais informações sobre a criação do conjunto de dados, consulte a [documentação do Serviço de Catálogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
 
 ## Criação de um perfil de teste usando um arquivo csv{#create-test-profiles-csv}
 
@@ -103,7 +103,7 @@ No Adobe Experience Platform, é possível criar perfis carregando um arquivo cs
 Seus perfis de teste são adicionados e agora podem ser usados ao testar uma jornada. Consulte [esta seção](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Para obter mais informações sobre importações csv, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=pt-BR#tutorials).
+> Para obter mais informações sobre importações csv, consulte a [documentação de Assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
 
 ## Criar perfis de teste usando chamadas de API{#create-test-profiles-api}
 
