@@ -8,8 +8,8 @@ level: Beginner
 exl-id: fef039ae-c04d-4198-a082-4be27710255f
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 42%
+source-wordcount: '564'
+ht-degree: 54%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 42%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 
@@ -39,35 +39,31 @@ Estas são as limitações relacionadas ao uso do Journey Orchestration.
 
 ## Limitações de versões do Jornada {#journey-versions-limitations}
 
-* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação do segmento**.
+* Uma jornada que começa com uma atividade de evento em v1 não pode começar com algo diferente de um evento em outras versões. Não é possível iniciar uma jornada com um evento de **Qualificação de segmento**.
 * Uma jornada que começa com uma atividade de **Qualificação de segmento** em v1 deve sempre começar com uma **Qualificação de segmento** em outras versões.
 * O segmento e o namespace escolhidos em **Qualificação de segmento** (primeiro nó) não podem ser alterados em novas versões.
 * A regra de reentrada precisa ser a mesma em todas as versões da jornada.
 
-## Qualificação do segmento {#segment-qualification}
+## Qualificação de segmento {#segment-qualification}
 
 * A atividade de **Qualificação de segmento** não pode ser usada em conjunto com o Adobe Campaign Standard Transactional Messaging devido a restrições de taxa de transferência. Consulte a [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html). 
  
-
 ## Limitações de ações personalizadas
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
 * Somente os métodos de chamada POST e PUT são compatíveis. 
-* O nome do parâmetro de consulta ou cabeçalho não deve começar com “.” ou &quot;$&quot;. 
+* O nome do parâmetro de consulta ou cabeçalho não deve começar com &quot;.&quot; ou &quot;$&quot;. 
 * Endereços IP não são permitidos. 
 * Endereços Adobe internos (.adobe.) não são permitidos.
  
-
 ## Limitações de ações do Adobe Campaign
 
 * As mensagens transacionais do Adobe Campaign Standard têm uma escala de no máximo 50.000 mensagens por hora entre canais para uma determinada instância. Consulte a [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html). 
  
-
 ## Limitações de eventos
 
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Orchestration primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
  
-
 ## Limitações das fontes de dados
 
 * As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e poder lidar com o volume de solicitações.
