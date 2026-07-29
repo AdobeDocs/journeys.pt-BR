@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: cca6ed3c-e151-4494-9e2d-9ed504bfc54b
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 85%
+source-wordcount: '912'
+ht-degree: 90%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 85%
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 Agora o **usuário empresarial** pode criar a jornada. Nossa jornada incluirá as seguintes atividades:
@@ -86,7 +86,7 @@ Para obter informações adicionais sobre como criar uma jornada, consulte [esta
    >
    >Na segunda parte da expressão, o “Perfil” é opcional.
 
-1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do schema. Você pode manter o que está pré-selecionado. Para obter mais informações sobre namespaces, consulte [esta página](../event/selecting-the-namespace.md).
+1. Precisamos selecionar um namespace. Um namespace é pré-selecionado com base nas propriedades do esquema. Você pode manter o que está pré-selecionado. Para obter mais informações sobre namespaces, consulte [esta página](../event/selecting-the-namespace.md).
 
 No nosso caso, só queremos reagir a essas duas condições, então não marcamos a caixa **[!UICONTROL Show path for other cases than the one(s) above]**.
 
@@ -149,7 +149,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_23.png)
 
-1. Adicione uma nova atividade **[!UICONTROL Push]**, selecione o modelo “Desconto de refeição” e defina os campos **[!UICONTROL Address]** e **[!UICONTROL Personalization]**. Adicione uma atividade **[!UICONTROL End]**. 
+1. Adicione uma nova atividade **[!UICONTROL Push]**, selecione o modelo “Desconto de refeição” e defina os campos **[!UICONTROL Address]** e **[!UICONTROL Personalization]**. Adicione uma atividade **[!UICONTROL End]**.
 
    ![](../assets/journeyuc2_24.png)
 
@@ -157,7 +157,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_31.png)
 
-1. No segundo caminho após a condição de reserva (nenhum quarto reservado), adicione uma atividade **[!UICONTROL Push]** e selecione o modelo “Tarifas de quartos”. Adicione uma atividade **[!UICONTROL End]**. 
+1. No segundo caminho após a condição de reserva (nenhum quarto reservado), adicione uma atividade **[!UICONTROL Push]** e selecione o modelo “Tarifas de quartos”. Adicione uma atividade **[!UICONTROL End]**.
 
    ![](../assets/journeyuc2_25.png)
 
@@ -175,7 +175,7 @@ Dois caminhos são criados após sua condição:
 
    ![](../assets/journeyuc2_28.png)
 
-1. Adicione uma atividade **[!UICONTROL End]**. 
+1. Adicione uma atividade **[!UICONTROL End]**.
 
 Clique no botão de alternância **[!UICONTROL Test]** e teste sua jornada. Se houver algum erro, desative o modo de teste, modifique sua jornada e teste novamente. Para obter mais informações sobre o modo de teste, consulte [esta página](../building-journeys/testing-the-journey.md).
 
