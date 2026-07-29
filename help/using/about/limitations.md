@@ -48,6 +48,7 @@ Estas são as limitações relacionadas ao uso do Journey Orchestration.
 
 * A atividade de **Qualificação de segmento** não pode ser usada em conjunto com o Adobe Campaign Standard Transactional Messaging devido a restrições de taxa de transferência. Consulte a [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html). 
  
+
 ## Limitações de ações personalizadas
 
 * O URL de ação personalizada não aceita parâmetros dinâmicos. 
@@ -56,14 +57,17 @@ Estas são as limitações relacionadas ao uso do Journey Orchestration.
 * Endereços IP não são permitidos. 
 * Endereços Adobe internos (.adobe.) não são permitidos.
  
+
 ## Limitações de ações do Adobe Campaign
 
 * As mensagens transacionais do Adobe Campaign Standard têm uma escala de no máximo 50.000 mensagens por hora entre canais para uma determinada instância. Consulte a [Descrição do produto Adobe Campaign Standard](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html). 
  
+
 ## Limitações de eventos
 
 * Para eventos gerados pelo sistema, os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Orchestration primeiro para obter uma ID de orquestração exclusiva. Essa ID de orquestração deve ser anexada ao conteúdo de transmissão que entra no Adobe Experience Platform. Essa limitação não se aplica a eventos com base em regras.
  
+
 ## Limitações das fontes de dados
 
 * As fontes de dados externas podem ser aproveitadas em uma jornada do cliente para pesquisar dados externos em tempo real. Essas fontes devem ser utilizáveis por meio da API REST, devem ser compatíveis com JSON e poder lidar com o volume de solicitações.
