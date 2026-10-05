@@ -7,12 +7,10 @@ role: User
 level: Beginner
 exl-id: fe7bb5fe-7b5e-46da-8ef8-ae9401522c03
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
-workflow-type: ht
-source-wordcount: '367'
+workflow-type: tm+mt
+source-wordcount: '380'
 ht-degree: 100%
-
 ---
-
 # Introdução{#concept_y4b_4qt_52b}
 
 
@@ -60,7 +58,7 @@ Estas são as etapas principais para configurar e utilizar o [!DNL Journey Orche
 
    Combine diferentes atividades de evento, orquestração e ação para criar cenários de canais em várias etapas. Esta etapa é executada por um **usuário empresarial**.
 
-   Para obter mais informações, consulte [esta página](../building-journeys/journey.md).
+   Para obter mais informações, consulte [esta seção](../building-journeys/journey.md).
 
    ![](../assets/journeyuc2_24.png)
 
@@ -76,6 +74,6 @@ Estas são as etapas principais para configurar e utilizar o [!DNL Journey Orche
 
    Use as ferramentas de relatórios exclusivos para medir a eficiência da sua jornada. Esta etapa é executada por um **usuário empresarial**.
 
-   Para obter mais informações, consulte [esta página](../reporting/about-journey-reports.md).
+   Para obter mais informações, consulte [esta seção](../reporting/about-journey-reports.md).
 
    ![](../assets/dynamic_report_journey_12.png)

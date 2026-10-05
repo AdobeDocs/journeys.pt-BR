@@ -9,20 +9,18 @@ level: Beginner
 exl-id: e39218bd-fa6e-443f-9843-92b7a07070fa
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 5%
-
+source-wordcount: '1096'
+ht-degree: 10%
 ---
-
 # Integração com sistemas externos {#external-systems}
 
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 
@@ -44,7 +42,7 @@ Quando o Journey Orchestration executa uma chamada para uma API externa, as medi
 
 A API de limite integrada oferece uma proteção técnica de upstream que ajuda a proteger seu sistema externo.
 
-Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com a Adobe para incluir o endpoint no arquivo de inclui na lista de permissões. Isso não é possível para fontes de dados externas públicas.
+Para fontes de dados externas, o número máximo de chamadas por segundo é definido como 15. Se o número de chamadas exceder 15 por segundo, as chamadas restantes serão descartadas. É possível aumentar esse limite para fontes de dados externas privadas. Entre em contato com a Adobe para incluir o endpoint no incluo na lista de permissões. Isso não é possível para fontes de dados externas públicas.
 
 Para ações personalizadas, é necessário avaliar a capacidade da API externa. Por exemplo, se o Journey Optimizer enviar 1000 chamadas por segundo e seu sistema suportar apenas 100 chamadas por segundo, será necessário definir uma regra de limitação para que seu sistema não fique saturado.
 
@@ -75,8 +73,8 @@ Vamos ver um exemplo para um tempo limite de 5 segundos.
 * A primeira chamada dura menos de 5 segundos: a chamada é bem-sucedida, não há nova tentativa.
 * A primeira chamada dura mais de 5 segundos: a chamada é cancelada e não há nenhuma tentativa. É contado como um erro de tempo limite no relatório.
 * A primeira chamada falha após 2 segundos (o sistema externo retorna um erro): restam 3 segundos para tentativas, se os slots de limite estiverem disponíveis.
-   * Se uma das três tentativas for bem-sucedida antes do final dos 5 segundos, a chamada será executada e não haverá erro.
-   * Se o fim da duração do tempo limite for atingido durante as tentativas, a chamada será cancelada e contada como um erro de tempo limite no relatório.
+  * Se uma das três tentativas for bem-sucedida antes do final dos 5 segundos, a chamada será executada e não haverá erro.
+  * Se o fim da duração do tempo limite for atingido durante as tentativas, a chamada será cancelada e contada como um erro de tempo limite no relatório.
 
 ## Perguntas frequentes{#faq}
 
