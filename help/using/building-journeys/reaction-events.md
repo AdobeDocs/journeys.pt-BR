@@ -8,20 +8,18 @@ level: Intermediate
 exl-id: 2f2a2905-1521-48d9-b593-9b31238282a5
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 2%
-
+source-wordcount: '475'
+ht-degree: 13%
 ---
-
 # Eventos de reação {#section_dhx_gss_dgb}
 
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 
@@ -48,7 +46,7 @@ Estas são as diferentes etapas para configurar os eventos de reação:
 >
 >Os eventos de reação não podem rastrear emails, SMS ou ações de push que ocorrem em uma jornada diferente.
 >
->Os eventos de reação rastreiam cliques em links do tipo &quot;rastreado&quot; (consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html?lang=pt-BR#about-tracked-urls)). Links de unsubscription e mirror pages não são considerados.
+>Os eventos de reação rastreiam cliques em links do tipo &quot;rastreado&quot; (consulte esta [página](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Links de unsubscription e mirror pages não são considerados.
 
 >[!IMPORTANT]
 >
