@@ -8,20 +8,18 @@ level: Intermediate
 exl-id: c678ba01-c868-49f2-99f3-1abe0302779e
 source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 81%
-
+source-wordcount: '1091'
+ht-degree: 85%
 ---
-
 # Solução de problemas{#concept_nlv_bcv_2fb}
 
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
 
@@ -39,7 +37,7 @@ Por exemplo, caso duas atividades estejam desconectadas na tela, um aviso é exi
 
 ![](../assets/canvas-disconnected.png)
 
-Um sinal de aviso pode ser exibido próximo aos botões **[!UICONTROL Test]** e **[!UICONTROL Publish]**. Este sinal de aviso mostra erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão vinculados aos erros visíveis nas atividades, mas às vezes estão vinculados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou ao suporte. Observe que os erros que bloqueiam o teste e os erros que bloqueiam a publicação são semelhantes.
+Um sinal de aviso pode ser exibido próximo aos botões **[!UICONTROL Test]** e **[!UICONTROL Publish]**. Este sinal de aviso exibe erros detectados pelo sistema e impede a ativação do modo de teste ou a publicação da jornada. Na maioria das vezes, os erros detectados pelo sistema estão vinculados aos erros visíveis nas atividades, mas às vezes estão vinculados a outros problemas. Nesse caso, você pode exibi-los e tentar identificar o problema usando a descrição do erro. Se não conseguir identificar o problema, você pode copiar os detalhes e enviá-los ao administrador ou ao suporte. Observe que os erros que bloqueiam o teste e os erros que bloqueiam a publicação são semelhantes.
 
 O sistema detecta dois tipos de problemas: erros e avisos. Os erros bloqueiam a publicação e a ativação de teste. Os avisos indicam possíveis problemas que não estão bloqueando a ativação de teste ou a publicação. Você verá uma descrição do problema e uma ID de registro de problemas do tipo ERR_XXX_XXX. Essas informações ajudarão o suporte técnico a identificar o problema.
 
@@ -55,7 +53,7 @@ A jornada de uma pessoa para quando ocorre um erro em uma ação ou condição. 
 
 O ponto de partida de uma jornada é sempre um evento. Você pode fazer testes usando ferramentas como o Postman.
 
-Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto para a ocorrência.
+Você pode verificar se a chamada à API enviada por meio dessas ferramentas foi corretamente enviada. Se ocorrer um erro, significa que a chamada tem um problema. Verifique novamente o payload, o cabeçalho (e principalmente a ID da organização) e o URL de destino. Você pode perguntar ao administrador qual é o URL correto.
 
 Eventos não são levados diretamente da origem ao [!DNL Journey Orchestration]. Na verdade, o [!DNL Journey Orchestration] depende das APIs de assimilação de streaming do Adobe Experience Platform. Como resultado, no caso de problemas relacionados ao evento, consulte [esta página](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=pt-BR) para obter a solução de problemas de APIs de assimilação de streaming.
 
@@ -71,7 +69,7 @@ Veja alguns itens que o administrador deve verificar:
 * Você salvou o evento antes de copiar o payload da pré-visualização de payload?
 * O payload do evento contém uma ID do evento?
 * Você digitou o URL correto?
-* Você seguiu a estrutura de payload das APIs de assimilação de streaming usando a pré-visualização da estrutura de payload no painel de configuração do evento? Consulte [esta página](../event/previewing-the-payload.md).
+* Você seguiu a estrutura de payload das APIs de ingestão de transmissão usando a pré-visualização da estrutura de payload no painel de configuração do evento? Consulte [esta página](../event/previewing-the-payload.md).
 * Você usou os pares de chave/valor corretos no cabeçalho do evento?
 
   ```
