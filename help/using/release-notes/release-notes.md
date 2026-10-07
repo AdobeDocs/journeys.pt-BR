@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: b923f7e3-997b-483b-b6ac-eef62fc81a84
-source-git-commit: 634ba1cb926d20a11539f6262d5c4d0342c6c286
-workflow-type: ht
-source-wordcount: '4452'
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
+workflow-type: tm+mt
+source-wordcount: '4770'
 ht-degree: 100%
-
 ---
-
 # Notas de versão {#release-notes}
 
 >[!CAUTION]
@@ -68,8 +78,8 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 * O layout do painel de configuração, que aparece em ações, fontes de dados, eventos e jornadas, foi aprimorado.
 * Agora é possível definir parâmetros de consulta estáticos ou dinâmicos em suas ações personalizadas. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/about-custom-action-configuration.html?lang=pt-BR#url-configuration){target="_blank"} do Journey Optimizer.
 * Novas medidas de proteção para gerenciar o crescimento das experiências oferecidas pelas jornadas:
-   * Recomendamos que mantenha o número de nós limitado a 50 para assegurar o desempenho da jornada, a facilidade de leitura, o controle de qualidade e a solução de problemas. O número de atividades é exibido na seção superior esquerda da tela da jornada. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys){target="_blank"} do Journey Optimizer
-   * À medida que desenvolve e inicia jornadas, notificaremos quando se aproximar do marco de 100 jornadas ativas de uma só vez. Caso seus planos exijam mais de 100 jornadas por vez, crie um tíquete para suporte depois de ver a notificação e nós ajudaremos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys){target="_blank"} do Journey Optimizer
+  * Recomendamos que mantenha o número de nós limitado a 50 para assegurar o desempenho da jornada, a facilidade de leitura, o controle de qualidade e a solução de problemas. O número de atividades é exibido na seção superior esquerda da tela da jornada. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys){target="_blank"} do Journey Optimizer
+  * À medida que desenvolve e inicia jornadas, notificaremos quando se aproximar do marco de 100 jornadas ativas de uma só vez. Caso seus planos exijam mais de 100 jornadas por vez, crie um tíquete para suporte depois de ver a notificação e nós ajudaremos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR#journeys-guardrails-journeys){target="_blank"} do Journey Optimizer
 
 ## Versão de março de 2023 {#mar-2023}
 
@@ -78,7 +88,7 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 * A nova **API de limitação** permite definir um limite para o número de eventos enviados por segundo, evitando picos de tráfego grandes demais em sistemas externos ou APIs. Quando o limite definido é atingido, todas as chamadas de API subsequentes são enfileiradas e processadas o mais rápido possível, na ordem em que forem recebidas. Observe que esse recurso suporta apenas uma configuração de limitação em todas as suas sandboxes. [Saiba mais](../api/throttling.md)
 * A tela da jornada foi aperfeiçoada para oferecer uma experiência do usuário mais simples e polida. No final de cada caminho na tela, os espaços reservados vazios foram removidos. Agora é possível adicionar suas atividades simplesmente arrastando-as para o final de um caminho.
 * Na tela da jornada, o rótulo da tag **Fim** não é mais definida automaticamente com o nome da atividade anterior. Os usuários podem adicionar manualmente um rótulo personalizado, se necessário.
-* O tempo-limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=pt-BR#timeout){target="_blank"} do Journey Optimizer. 
+* O tempo-limite padrão e a duração de erro nas propriedades da jornada foram alterados de 5 para 30 segundos. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/external-systems/external-systems.html?lang=pt-BR#timeout){target="_blank"} do Journey Optimizer.
 * Uma medida de proteção foi adicionada ao modo de teste para ouvir apenas os eventos enviados através da interface. Os eventos enviados por uma ferramenta externa não são considerados. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey.html?lang=pt-BR){target="_blank"} do Journey Optimizer.
 
 ## Versão de fevereiro de 2023 {#feb-2023}

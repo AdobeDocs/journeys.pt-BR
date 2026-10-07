@@ -4,29 +4,30 @@ solution: Journey Orchestration
 title: Envio de uma mensagem usando o Campaign v7/v8
 description: Envio de uma mensagem usando o Campaign v7/v8
 exl-id: 717a927a-4357-4058-a626-1b69f4bb46bc
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 5%
-
+source-wordcount: '449'
+ht-degree: 17%
 ---
-
 # Envio de uma mensagem usando o Campaign v7/v8 {#campaign-classic-use-case}
 
 
 >[!CAUTION]
 >
->**Procurando Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home) para obter a documentação do Journey Optimizer.
+>**Está procurando pelo Adobe Journey Optimizer**? Clique [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/ajo-home){target="_blank"} para acessar a documentação do Journey Optimizer.
 >
 >
->_Esta documentação se refere ao material herdado do Journey Orchestration que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de conta em caso de dúvidas sobre o acesso ao Journey Orchestration ou Journey Optimizer._
+>_Essa documentação refere-se ao material herdado do Journey Orchestration, que foi substituído pelo Journey Optimizer. Entre em contato com a equipe de contas em caso de dúvidas sobre como acessar o Journey Orchestration ou o Journey Optimizer._
 
 
-This use case presents all the steps needed to send an email using the integration with Adobe Campaign Classic v7 and Adobe Campaign v8.
+Esse caso de uso apresenta todas as etapas necessárias para enviar um email usando a integração com o Adobe Campaign Classic v7 e o Adobe Campaign v8.
 
-Primeiro, criaremos um template de email transacional no Campaign. Then, in Journey Orchestration, we&#39;ll create the event, action and design the journey.
+Primeiro, criaremos um template de email transacional no Campaign. Em seguida, no Journey Orchestration, criaremos o evento, a ação e projetaremos a jornada.
 
-To learn more on the Campaign integration, refer to these pages:
+Para saber mais sobre a integração do Campaign, consulte estas páginas:
 
 * [Criar uma ação de campanha](../action/acc-action.md)
 * [Usando a ação em uma jornada](../building-journeys/using-adobe-campaign-classic.md).
@@ -47,7 +48,7 @@ A instância do Campaign precisa ser provisionada para essa integração. O recu
 
    ![](../assets/accintegration-uc-2.png)
 
-1. Projete seu modelo. Neste exemplo, usamos personalização no nome do perfil e no número do pedido. The first name is in the Adobe Experience Platform data source, and the order number is a field from our Journey Orchestration event. Use os nomes de campo corretos no Campaign.
+1. Projete seu modelo. Neste exemplo, usamos personalização no nome do perfil e no número do pedido. O nome está na fonte de dados do Adobe Experience Platform e o número do pedido é um campo do evento do Journey Orchestration. Use os nomes de campo corretos no Campaign.
 
    ![](../assets/accintegration-uc-3.png)
 
@@ -79,7 +80,7 @@ A instância do Campaign precisa ser provisionada para essa integração. O recu
 
    ![](../assets/accintegration-uc-5.png)
 
-1. You then need to create, in Journey Orchestration, an action corresponding to your Campaign template. No menu suspenso **Tipo de ação**, selecione **Adobe Campaign Classic**.
+1. Em seguida, é necessário criar, no Journey Orchestration, uma ação correspondente ao seu template de Campanha. No menu suspenso **Tipo de ação**, selecione **Adobe Campaign Classic**.
 
    ![](../assets/accintegration-uc-6.png)
 

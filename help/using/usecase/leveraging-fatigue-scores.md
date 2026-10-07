@@ -2,13 +2,14 @@
 product: adobe campaign
 title: Aproveitar pontuações de fadiga
 description: Saiba como aproveitar as pontuações de fadiga no jornada
-source-git-commit: e1ee5a488e9eb6fd8d175a2ab8989c73289ea708
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 4%
-
+source-wordcount: '262'
+ht-degree: 7%
 ---
-
 
 # Aproveitamento da IA do Jornada {#concept_dsh_1ry_wfb}
 
