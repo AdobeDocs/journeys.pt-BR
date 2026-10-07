@@ -3,13 +3,14 @@ title: Atualização para o Adobe Journey Optimizer
 description: Saiba como atualizar para o Adobe Journey Optimizer
 hide: true
 exl-id: 887fd3bb-bcd3-4a6d-9817-43049c51ecba
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 3%
-
 ---
-
 # Atualizar seu ambiente do Journey Orchestration para o Adobe Journey Optimizer{#ugrade-ajo}
 
 ## O que é o Adobe Journey Optimizer?
@@ -22,7 +23,7 @@ O Journey Orchestration é um serviço criado na Adobe Experience Platform que p
 
 ## Por que devo migrar para o Adobe Journey Optimizer?
 
-**Acesso a uma interface simplificada** com recursos do Experience Platform, fornecendo acesso rápido a jornadas, conjuntos de dados, perfis, alertas e muito mais. Não é mais necessário fazer incompatibilidades entre o Adobe Experience Platform e o Journey Orchestration para acessar esquemas ou conjuntos de dados. Tudo está diretamente disponível no Adobe Journey Optimizer. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html?lang=pt-BR).
+**Acesso a uma interface simplificada** com recursos do Experience Platform, fornecendo acesso rápido a jornadas, conjuntos de dados, perfis, alertas e muito mais. Não é mais necessário fazer incompatibilidades entre o Adobe Experience Platform e o Journey Orchestration para acessar esquemas ou conjuntos de dados. Tudo está diretamente disponível no Adobe Journey Optimizer. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/user-interface.html).
 
 <table>
 <tr>
@@ -90,8 +91,8 @@ Sim, é normal. Você ainda poderá ver o item do Journey Orchestration por algu
 
 Ao mudar para o Adobe Journey Optimizer, você ainda poderá usar a integração entre o Jornada e o Adobe Campaign Standard criando a jornada do cliente no Adobe Journey Optimizer e permitindo que o Adobe Campaign Standard envie o delivery.
 
-No entanto, devido ao funcionamento da pilha de relatórios do Adobe Journey Optimizer, os relatórios não combinarão dados do Jornada e do Campaign Standard. As informações de jornada estarão disponíveis nos relatórios do Adobe Journey Optimizer e as informações de delivery no Adobe Campaign Standard. Uma configuração do Experience Platform pode ser feita para trazer de volta os dados do Adobe Campaign Standard para o Adobe Experience Platform, disponibilizando-os para o Customer Journey Analytics ([saiba mais](https://business.adobe.com/br/products/experience-platform/customer-journey-analytics.html)) ou outras ferramentas de relatório de terceiros, como Tableau ou PowerBI.
+No entanto, devido ao funcionamento da pilha de relatórios do Adobe Journey Optimizer, os relatórios não combinarão dados do Jornada e do Campaign Standard. As informações de jornada estarão disponíveis nos relatórios do Adobe Journey Optimizer e as informações de delivery no Adobe Campaign Standard. Uma configuração do Experience Platform pode ser feita para trazer de volta os dados do Adobe Campaign Standard para o Adobe Experience Platform, disponibilizando-os para o Customer Journey Analytics ([saiba mais](https://business.adobe.com/products/experience-platform/customer-journey-analytics.html)) ou outras ferramentas de relatório de terceiros, como Tableau ou PowerBI.
 
-Os relatórios do Adobe Journey Optimizer funcionam melhor ao usar os recursos de mensagens prontos para uso da Adobe Journey Optimizer (disponíveis em ofertas dedicadas da Adobe Journey Optimizer). Para obter mais informações sobre como as mensagens podem ser criadas na tela de jornada, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html?lang=pt-BR).
+Os relatórios do Adobe Journey Optimizer funcionam melhor ao usar os recursos de mensagens prontos para uso da Adobe Journey Optimizer (disponíveis em ofertas dedicadas da Adobe Journey Optimizer). Para obter mais informações sobre como as mensagens podem ser criadas na tela de jornada, consulte esta [página](https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/messages-in-journeys.html).
 
 Entre em contato com a equipe de conta para obter mais informações.

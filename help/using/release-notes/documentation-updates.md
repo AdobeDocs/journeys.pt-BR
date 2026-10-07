@@ -7,16 +7,27 @@ role: User
 level: Beginner
 hide: true
 exl-id: ac5d2cec-0b48-4863-afe3-19ac5f61c9fd
-source-git-commit: 855c5b5dd83cf8d132c71f5ed02dd6fe0c10dcfa
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 100%
-
 ---
-
 # Atualizações de documentação
 
-Esta página lista todas as atualizações na documentação do [!DNL Journey Orchestration].Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](../release-notes/release-notes.md).
+Esta página lista todas as atualizações na documentação do [!DNL Journey Orchestration].
+Você também pode consultar as [!DNL Journey Orchestration] [Notas de versão](../release-notes/release-notes.md).
 
 ## Julho de 2022 {#july-2022}
 
@@ -130,7 +141,7 @@ Esta página lista todas as atualizações na documentação do [!DNL Journey Or
 
 * Todas as capturas de tela foram atualizadas para divulgar as alterações na interface.
 * A seção do modo de teste foi atualizada. [Leia mais](../building-journeys/testing-the-journey.md)
-  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html?lang=pt-BR).-->
+  <!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/data-connector/aep-about-data-connector.html).-->
 * Agora, as jornadas interrompidas podem ser excluídas. As páginas de documentação relacionadas foram atualizadas.
 * Agora, duas cores são exibidas quando problemas são detectados em uma jornada. Vermelho para erros e laranja para avisos. [Leia mais](../about/troubleshooting.md)
 * A seção do editor de expressão avançado foi atualizada. [Leia mais](../expression/expressionadvanced.md).

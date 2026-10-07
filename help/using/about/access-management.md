@@ -6,13 +6,23 @@ feature: Journeys
 role: User
 level: Intermediate
 exl-id: a551efa5-c0d8-4138-96ca-fb407fad8c59
-source-git-commit: 69471a36b113e04a7bb0953a90977ad4020299e4
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 88%
-
 ---
-
 # Gerenciamento de acesso{#concept_rfj_wpt_52b}
 
 
@@ -34,29 +44,29 @@ Eles podem ser gerenciados por administradores com acesso à Admin Console. Para
 Para acessar o [!DNL Journey Orchestration], o usuário deve ser:
 
 * parte de um [!DNL Journey Orchestration] **[!UICONTROL product profile]** associado às permissões [!DNL Journey Orchestration].
-* parte de um [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. Não há uma permissão obrigatória. O usuário deve ter a permissão **[!UICONTROL profile management]** para criar e editar segmentos da plataforma na interface do [!DNL Journey Orchestration]. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=pt-BR#adobe-admin-console).
+* parte de um [!DNL Adobe Experience Platform] **[!UICONTROL product profile]**. Não há uma permissão obrigatória. O usuário deve ter a permissão **[!UICONTROL profile management]** para criar e editar segmentos da plataforma na interface do [!DNL Journey Orchestration]. Para obter mais informações, consulte esta [página](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#adobe-admin-console).
 
 No Admin Console, você pode atribuir um dos seguintes perfis de produto prontos para uso aos usuários:
 
 * **[!UICONTROL Limited Access User]**: usuário com acesso somente leitura a jornadas e relatórios. Este perfil de produto conta com as seguintes permissões:
-   * Ler jornadas
-   * Ler relatórios
+  * Ler jornadas
+  * Ler relatórios
 
 * **[!UICONTROL Administrators]**: usuário com acesso aos menus de administração com a possibilidade de gerenciar jornadas, eventos e relatórios. Este perfil de produto conta com as seguintes permissões:
-   * Gerenciar jornadas
-   * Publicar jornadas
-   * Gerenciar eventos, fontes de dados e ações
-   * Gerenciar relatórios
+  * Gerenciar jornadas
+  * Publicar jornadas
+  * Gerenciar eventos, fontes de dados e ações
+  * Gerenciar relatórios
 
   >[!NOTE]
   >
   >**[!UICONTROL Administrators]** é o único perfil de produto que permite a criação, edição e publicação de mensagens transacionais (ou modelos de mensagens) no Adobe Campaign Standard. Esse perfil de produto é necessário se você usar o Adobe Campaign Standard para enviar mensagens em suas jornadas. Ele não deve ser renomeado no Admin Console.
 
 * **[!UICONTROL Standard User]**: usuário com acesso básico, como gestão de jornada. Este perfil de produto conta com as seguintes permissões:
-   * Gerenciar jornadas
-   * Publicar jornadas
-   * Gerenciar relatórios
-   * Ler eventos, fontes de dados e ações
+  * Gerenciar jornadas
+  * Publicar jornadas
+  * Gerenciar relatórios
+  * Ler eventos, fontes de dados e ações
 
 Você também pode criar seus próprios perfis de produtos se os perfis prontos para uso não forem suficientes para gerenciar os usuários.
 Os usuários devem estar sempre vinculados a um perfil de produto, permitindo que você atribua a eles permissões de criação específicas, como:

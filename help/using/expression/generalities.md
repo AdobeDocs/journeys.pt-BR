@@ -6,13 +6,23 @@ feature: Journeys
 role: Developer
 level: Experienced
 exl-id: ba474219-7c9e-4f93-8e9c-16c317131614
-source-git-commit: d3de66b9b28efa2636f5c0fd5a0d7ccb6132dbdd
+product_v2:
+  - id: cf67d108-ecf9-4fde-af49-3a3c39083bc8
+    internal-label: Journey Orchestration
+feature_v2:
+  - id: 7de3230f-9523-5ba5-8d5c-2313288b27ef
+    internal-label: Journeys
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 255cd6677e7c9ebff63ea9a1028a042c19e63ecc
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 19%
-
+source-wordcount: '278'
+ht-degree: 21%
 ---
-
 # Generalidades {#concept_rcy_qj5_dgb}
 
 
@@ -41,7 +51,7 @@ As expressões serão avaliadas da esquerda para a direita. A associatividade em
 
 Estas são as diferentes regras de diferenciação entre maiúsculas e minúsculas:
 
-* Todos os operadores (and, or, etc.) devem ser escritos em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_ é uma expressão válida, enquanto a expressão _`<expression1>`E`<expression2>`_ não é.
+* Todos os operadores (and, or etc.) deve ser escrito em minúsculas. Por exemplo, _`<expression1>`e`<expression2>`_ é uma expressão válida, enquanto a expressão _`<expression1>`E`<expression2>`_ não é.
 * Todos os nomes de função fazem distinção entre maiúsculas e minúsculas. Por exemplo, _inSegment()_ é válido, enquanto a função _INSEGMENT()_ não é.
 * Referências de campo e valores constantes fazem distinção entre maiúsculas e minúsculas: eles não são elementos integrados da linguagem (em vez de operadores e funções), eles são criados pelo usuário final.
 
@@ -53,4 +63,4 @@ Dependendo do contexto de uso, o editor de expressão pode retornar valores dife
 |--- |--- |
 | Condição (condição da fonte de dados, condição de data) | booleano |
 | Temporizador personalizado | dateTimeOnly |
-| Mapeamento de parâmetros de ação | Qualquer uma |
+| Mapeamento de parâmetros de ação | Qualquer |
