@@ -69,7 +69,7 @@ Quando uma jornada está em um estado intermediário, ela fica como somente de l
 
 ### Aprimoramentos {#aug-2023-improvements}
 
-* Agora é possível aproveitar as respostas de chamada da API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um private beta. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=pt-BR){target="_blank"} do Journey Optimizer.
+* Agora é possível aproveitar as respostas de chamada de API em ações personalizadas e orquestrar sua jornada com base nessas respostas. No momento, esse recurso está disponível como um private beta. Consulte a [documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configure-journeys/action-journeys/action-response.html?lang=pt-BR){target="_blank"} do Journey Optimizer.
 
 ## Versão de abril de 2023 {#apr-rn-2023}
 
