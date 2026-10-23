@@ -1,39 +1,54 @@
 ---
 source-git-commit: 25715e66b5495347e0c5ee2b1d75d44aa9cd3125
-translation-type: tm+mt
-
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 30%
 ---
 # Contribuição
 
-Obrigado por escolher contribuir!
+Obrigado por colaborar!
 
-A seguir está um conjunto de orientações a serem seguidas ao contribuir para esse projeto.
+A seguir, há um conjunto de diretrizes a seguir ao contribuir com esse projeto.
 
-## Código de Conduta
+## Código de conduta
 
-Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao participar, é necessário manter este código. Please report unacceptable behavior to
+Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao participar,
+espera-se que você mantenha esse código. Denuncie comportamento inaceitável para
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Tem Alguma Pergunta?
+## Dúvidas?
 
-Comece arquivando um problema. Os atuais responsáveis por este projeto trabalham para chegar a um consenso sobre a direção do projeto e para emitir soluções dentro dos processos de emissão (quando apropriado).
+Comece apresentando um problema. Os executores existentes neste projeto trabalham para alcançar
+consenso sobre a direção do projeto e soluções de problemas nos threads de problemas
+(quando apropriado).
 
-## Contrato de licença do contribuidor
+## Contrato de licença de colaborador
 
-Todas as contribuições de terceiros para este projeto devem ser acompanhadas por um contrato de licença de contribuição assinado. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. [Assine nosso CLA](https://opensource.adobe.com/cla.html). Você só precisa enviar um CLA da Adobe uma vez, portanto, se você já enviou um anteriormente, é bom ir!
+Todas as contribuições de terceiros a este projeto devem ser acompanhadas por um contribuidor assinado
+contrato de licença. Dessa forma, a Adobe tem permissão para redistribuir suas contribuições
+como parte do projeto. [Assine nosso CLA](https://opensource.adobe.com/cla.html). Você
+é necessário enviar apenas um Adobe CLA por vez. Se já tiver enviado anteriormente,
+você está pronto para ir!
 
-## Revisões de código
+## Revisões do código
 
-Todos os envios devem vir na forma de solicitações de envio e precisam ser revisados pelos confirmadores do projeto. Leia a [documentação de solicitação de envio do GitHub](https://help.github.com/articles/about-pull-requests/) para obter mais informações sobre envio de pull requests.
+Todos os envios devem vir na forma de solicitações de pull e precisam ser revisados
+pelos responsáveis pelo projeto. Leia a documentação de solicitação de pull do [GitHub](https://help.github.com/pt/articles/about-pull-requests/)
+para obter mais informações sobre envio de pull requests.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## Do Contribuinte Para O Compartilhador
+## De colaborador a responsável
 
-Adoramos contribuições de nossa comunidade! Se você quiser ir um passo além do contribuinte e se tornar um comitê com pleno acesso à gravação e voz no projeto, você deve ser convidado para o projeto. Os comitês existentes utilizam um processo de nomeação interna que deve alcançar um consenso lento (silêncio é aprovação) antes de os convites serem emitidos. Se você se sentir qualificado e quiser se envolver mais profundamente, sinta-se à vontade para alcançar os compromissos existentes e conversar sobre isso.
+Apreciamos as contribuições da nossa comunidade! Se você quiser ir além como colaborador
+e se tornar um executor com acesso total à gravação e voz ativa no projeto, você deve
+para o projeto. Os responsáveis existentes empregam uma indicação interna
+processo que deve alcançar consenso lento (silêncio é aprovação) antes dos convites
+são emitidos. Se você se sentir qualificado e quiser se envolver mais,
+fique à vontade para entrar em contato com os responsáveis existentes e conversar sobre isso.
 
 ## Problemas de segurança
 
